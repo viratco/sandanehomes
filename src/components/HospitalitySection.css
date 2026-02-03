@@ -1,0 +1,163 @@
+.hospitality-section {
+    width: 100%;
+    background-color: #FFFBF5;
+    position: relative;
+    padding-bottom: 250px;
+}
+
+.hospitality-hero {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 120px 80px;
+}
+
+.hospitality-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hospitality-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    text-align: center;
+    width: 100%;
+    /* Ensure it takes full width for centering */
+}
+
+.hospitality-title {
+    color: #C5A572;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.hospitality-logo {
+    width: 450px;
+    height: auto;
+    max-width: 100%;
+    /* Critical for responsiveness */
+}
+
+.hospitality-testimonial-overlay {
+    position: absolute;
+    left: 15%;
+    right: 0;
+    bottom: 100px;
+    width: 85%;
+    height: 350px;
+    display: flex;
+    z-index: 3;
+}
+
+.testimonial-image {
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial-content {
+    width: 60%;
+    background-color: #566453;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+    box-sizing: border-box;
+}
+
+.star-rating {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.star {
+    color: #C5A572;
+    font-size: 18px;
+}
+
+.testimonial-text {
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-dots {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Base state for dots (active/inactive logic handled in JS or simplified here) */
+.nav-dot.active {
+    background-color: white;
+}
+
+.nav-dot.inactive {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hospitality-hero {
+        padding: 80px 20px;
+        /* Reduced padding */
+        min-height: 500px;
+    }
+
+    .hospitality-section {
+        padding-bottom: 50px;
+        /* Reduced bottom padding as overlay will change */
+    }
+
+    .hospitality-testimonial-overlay {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: -50px;
+        /* Overlap slightly or adjust as needed */
+    }
+
+    .testimonial-image {
+        width: 100%;
+        height: 200px;
+        /* Fixed height for image on mobile */
+    }
+
+    .testimonial-content {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .hospitality-logo {
+        width: 80%;
+        /* Smaller percentage on mobile */
+        margin: 0 auto;
+    }
+}
