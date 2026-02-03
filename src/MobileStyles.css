@@ -1,0 +1,396 @@
+/* MobileStyles.css - Global Mobile Responsiveness Overrides */
+
+/* Tablet & Mobile (below 1024px) */
+@media screen and (max-width: 1024px) {
+
+    /* General Container Adjustments */
+    .container {
+        padding: 0 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* Mobile (below 768px) */
+@media screen and (max-width: 768px) {
+
+    /* --- Header --- */
+    .header-top-row {
+        display: none !important;
+        /* Hide top bar on mobile to save space, or stack it */
+    }
+
+    .header-nav-row {
+        justify-content: space-between !important;
+        padding: 0 15px !important;
+    }
+
+    .header-nav-links {
+        display: none !important;
+        /* Hide desktop nav links, use hamburger or simple layout? */
+        /* For now, maybe just show logo centered and links below or hidden? 
+           The user has a hamburger menu icon in the code but it doesn't seem to do anything currently?
+           Let's look at Header.jsx again. It has lines 51-55 for hamburger. 
+           But inline styles are used.
+           
+           Strategy: On mobile, stack logo and maybe simplified nav.
+           Or just scale down.
+        */
+    }
+
+    /* If we want to keep links visible but smaller/scrollable */
+    .mobile-nav-visible {
+        position: static !important;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 15px !important;
+    }
+
+    .logo-container {
+        font-size: 24px !important;
+        /* Scale down logo */
+    }
+
+    /* --- Hero --- */
+    .hero-container {
+        height: 100vh !important;
+        /* Reset weird heights if needed */
+        margin: 0 !important;
+        /* Remove breakout margins if they cause scroll */
+        border-radius: 0 !important;
+        /* Remove curve on mobile if it looks bad, or reduce it */
+    }
+
+    .hero-content {
+        padding: 0 15px !important;
+    }
+
+    .hero-title-large {
+        font-size: 40px !important;
+        /* Scale down from 80px */
+        line-height: 1.2 !important;
+    }
+
+    .hero-subtitle {
+        font-size: 12px !important;
+        letter-spacing: 1px !important;
+    }
+
+    /* --- Booking Widget Mobile --- */
+    .booking-widget-container {
+        flex-direction: column;
+        height: auto !important;
+        padding: 20px !important;
+        width: 90% !important;
+        margin-top: 30px;
+    }
+
+    .booking-widget-item {
+        width: 100% !important;
+        border-right: none !important;
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+    }
+
+    .booking-widget-item:last-child {
+        border-bottom: none;
+    }
+
+    /* --- Reservation Separator --- */
+    .reservation-separator-container {
+        padding: 40px 0 !important;
+    }
+
+    .reservation-title {
+        font-size: 24px !important;
+        /* Scale down from 36px */
+        letter-spacing: 1px !important;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    /* --- Cuisine Section --- */
+    .cuisine-section {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 0 !important;
+    }
+
+    .cuisine-content-row {
+        flex-direction: column !important;
+    }
+
+    /* Target the text center wrapper which is the first child of cuisine-section */
+    .cuisine-section>div:first-child {
+        padding: 60px 20px 30px 20px !important;
+    }
+
+    .cuisine-section>div:first-child h2:first-of-type {
+        /* CATARINA */
+        font-size: 56px !important;
+        letter-spacing: -1px !important;
+    }
+
+    .cuisine-section>div:first-child h2:last-of-type {
+        /* BY SANDANE HOMES */
+        font-size: 28px !important;
+        margin-top: 5px !important;
+    }
+
+    .cuisine-left-col,
+    .cuisine-right-col {
+        width: 100% !important;
+        padding-top: 0 !important;
+        /* Remove offset */
+    }
+
+    .cuisine-left-col>div:first-child {
+        /* Top Image */
+        height: 300px !important;
+        /* Reduce height */
+    }
+
+    .cuisine-left-col>div:nth-child(2) {
+        /* Spacer Green Box */
+        display: none !important;
+        /* Hide spacer on mobile ? Or reduce height */
+    }
+
+    .cuisine-content-box {
+        padding: 40px 20px !important;
+        text-align: center;
+    }
+
+    .cuisine-text-block {
+        height: auto !important;
+        padding: 40px 20px !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .cuisine-title {
+        font-size: 32px !important;
+        /* Scale down */
+    }
+
+    .cuisine-right-col>div:last-child {
+        /* Bottom Food Image */
+        height: 300px !important;
+    }
+
+    /* --- Services Section --- */
+    .services-row {
+        flex-direction: column !important;
+    }
+
+    .services-image-half,
+    .services-content-half {
+        width: 100% !important;
+    }
+
+    .services-content-half {
+        padding: 40px 20px !important;
+        order: 2;
+        /* Put content below image */
+    }
+
+    .services-image-half {
+        order: 1;
+        /* Image first */
+        min-height: 250px !important;
+    }
+
+    .services-full-content {
+        padding: 60px 20px !important;
+    }
+
+    .services-full-content h2 {
+        font-size: 36px !important;
+    }
+
+    /* --- Hospitality Section --- */
+    .hospitality-hero {
+        min-height: auto !important;
+        height: 600px !important;
+        padding: 60px 20px !important;
+        background-position: left center !important;
+    }
+
+    .hospitality-hero h4 {
+        margin-top: 40px;
+    }
+
+    .hospitality-testimonial-overlay {
+        position: relative !important;
+        width: 90% !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin: -100px auto 50px auto !important;
+        /* Negative margin to pull it up overlap */
+        flex-direction: column !important;
+        height: auto !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .testimonial-image {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+    .testimonial-content {
+        width: 100% !important;
+        padding: 30px 20px !important;
+    }
+
+    /* --- Contact Section --- */
+    .contact-section {
+        flex-direction: column !important;
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+    .contact-half-col {
+        width: 100% !important;
+        padding: 60px 20px !important;
+        min-height: 400px;
+    }
+
+    .contact-text-box h2 {
+        font-size: 32px !important;
+    }
+
+    /* --- Footer --- */
+    .footer-newsletter-container {
+        padding: 40px 20px !important;
+    }
+
+    .footer-newsletter-row {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .newsletter-text-col,
+    .newsletter-form-col {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center;
+    }
+
+    .footer-cta-title {
+        font-size: 32px !important;
+        /* Scale down */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-buttons {
+        justify-content: center;
+    }
+
+    /* --- Video Section --- */
+    .video-section {
+        height: 50vh !important;
+    }
+
+    .play-button {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    /* --- Sandane Homes Page --- */
+    .sandane-hero-split {
+        flex-direction: column !important;
+    }
+
+    .sandane-hero-text {
+        padding: 60px 20px !important;
+        flex-basis: auto !important;
+        text-align: center;
+    }
+
+    .sandane-hero-text h1 {
+        font-size: 42px !important;
+    }
+
+    .sandane-hero-image {
+        flex-basis: 300px !important;
+        /* Force height for image area */
+        width: 100% !important;
+    }
+
+    .sandane-stats-bar {
+        position: relative !important;
+        bottom: auto !important;
+        left: auto !important;
+        margin: -50px auto 20px auto !important;
+        /* Overlap image slightly or just stack */
+        width: 90% !important;
+        padding: 20px !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px !important;
+    }
+
+    .sandane-floating-buttons {
+        position: relative !important;
+        bottom: auto !important;
+        left: auto !important;
+        width: 100% !important;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    /* --- Generic Inner Page Hero --- */
+    .page-hero-section {
+        padding-top: 100px !important;
+        /* Reduce from 180px */
+        padding-bottom: 40px !important;
+    }
+
+    /* --- Discover Section (Partner Cards) --- */
+    /* --- Discover Section (Partner Cards) --- */
+    .discover-section {
+        padding: 60px 20px !important;
+    }
+
+    .discover-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+
+    .discover-grid>div {
+        width: 100% !important;
+    }
+
+    .discover-section h2 {
+        font-size: 36px !important;
+    }
+
+    /* --- Luxury Section (About Us) --- */
+    .luxury-section {
+        flex-direction: column !important;
+        padding: 60px 20px !important;
+        gap: 40px !important;
+    }
+
+    .luxury-left-col,
+    .luxury-right-col {
+        width: 100% !important;
+    }
+
+    .luxury-right-col {
+        padding-top: 0 !important;
+    }
+
+    .luxury-header-row {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .luxury-header-row p {
+        width: 100% !important;
+    }
+}
