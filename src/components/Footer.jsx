@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+
 
 const Footer = () => {
     const [email, setEmail] = useState('');
@@ -16,20 +16,27 @@ const Footer = () => {
             return;
         }
 
-        emailjs.send(
-            'YOUR_SERVICE_ID',
-            'YOUR_TEMPLATE_ID',
-            {
-                user_email: email,
+        // FormSubmit.co AJAX Endpoint
+        fetch("https://formsubmit.co/ajax/sandanehomes@gmail.com", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
             },
-            'YOUR_PUBLIC_KEY'
-        )
-            .then(() => {
-                alert('Thank you! We’ll get back to you shortly.');
+            body: JSON.stringify({
+                email: email,
+                _subject: "New Subscription from Sandane Homes Website!",
+                message: "A new user has subscribed via the footer form."
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                alert('Thank you! You have successfully subscribed.');
                 setEmail('');
                 setAgreed(false);
             })
-            .catch(() => {
+            .catch(error => {
+                console.error('Error:', error);
                 alert('Something went wrong. Please try again.');
             });
     };
