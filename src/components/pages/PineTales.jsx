@@ -8,55 +8,22 @@ import room3 from '../../assets/IMG_3547_small.jpg';
 import room4 from '../../assets/IMG_6108.jpg';
 import aboutUsImg from '../../assets/Copy of IMG_6597.JPG'; // Replaces Sohee's Kitchen Image
 import soheesLogo from '../../assets/upscaled_image.png';
+import './SandaneHomes.css'; // Import shared CSS
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
 const ServiceCard = ({ icon: Icon, title, desc }) => {
-    const [isHovered, setIsHovered] = React.useState(false);
-
     return (
-        <div
-            style={{
-                border: '1px solid #eee',
-                padding: '40px 20px',
-                textAlign: 'center',
-                backgroundColor: isHovered ? '#8B7355' : '#fff',
-                color: isHovered ? '#fff' : '#111',
-                transition: 'all 0.3s ease',
-                cursor: 'pointer',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: '20px',
-                height: '100%'
-            }}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-        >
-            <Icon size={40} color={isHovered ? '#fff' : '#8B7355'} />
-            <p style={{
-                fontSize: '14px',
-                lineHeight: '1.6',
-                fontFamily: 'sans-serif'
-            }}>
-                {desc}
-            </p>
+        <div className="service-card">
+            <Icon size={40} className="service-icon" />
+            <p className="service-desc">{desc}</p>
         </div>
     );
 };
 
 const ReviewCard = ({ name, date, text }) => {
     return (
-        <div style={{
-            backgroundColor: '#FAF8F5',
-            padding: '40px 30px',
-            textAlign: 'left',
-            borderRadius: '4px',
-            height: '100%',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between'
-        }}>
+        <div className="review-card">
             <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
@@ -141,170 +108,69 @@ const PineTales = () => {
     ];
 
     return (
-        <div className="sandane-homes-page" style={{ backgroundColor: '#FFFFFF' }}>
+        <div className="sandane-homes-page">
             <Header showTopBar={false} showNav={false} showLogo={false} />
 
             {/* Split Section */}
-            <div className="sandane-hero-split" style={{ display: 'flex', minHeight: '80vh', flexWrap: 'wrap', position: 'relative' }}>
+            <div className="sandane-hero-split">
 
                 {/* Left Side - Text */}
-                <div className="sandane-hero-text" style={{
-                    flex: '1',
-                    flexBasis: '400px', // Responsive breakpoint
-                    padding: '80px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                    backgroundColor: '#fff'
-                }}>
-                    <h1 style={{
-                        fontFamily: 'Playfair Display, serif',
-                        fontSize: '64px',
-                        lineHeight: '1.1',
-                        color: '#111',
-                        marginBottom: '30px',
-                        maxWidth: '500px'
-                    }}>
+                <div className="sandane-hero-text">
+                    <h1 className="sandane-hero-title">
                         Pine Tales<br />
                         <span style={{ fontSize: '32px', fontWeight: '400' }}>by Sandane Homes</span>
                     </h1>
                 </div>
 
                 {/* Right Side - Image */}
-                <div className="sandane-hero-image" style={{
-                    flex: '1',
-                    flexBasis: '400px',
-                    position: 'relative'
-                }}>
+                <div className="sandane-hero-image">
                     <img
                         src={heroImg}
                         alt="Pine Tales Luxury"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            objectPosition: 'center',
-                            display: 'block'
-                        }}
+                        className="sandane-hero-img-el" // Use class
                     />
                 </div>
 
                 {/* Stats Bar Overlay */}
-                <div className="sandane-stats-bar" style={{
-                    position: 'absolute',
-                    bottom: '40px',
-                    left: '80px',
-                    right: 'auto', // Don't snap to right
-                    backgroundColor: 'white',
-                    padding: '30px 50px',
-                    borderRadius: '15px',
-                    boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '60px',
-                    zIndex: 10,
-                    maxWidth: '1000px'
-                }}>
-                    {/* Stat 1 */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                        <div style={{ fontSize: '28px', fontWeight: '800', fontFamily: 'Playfair Display, serif', color: '#111' }}>
-                            15k+
-                        </div>
-                        <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '1px', color: '#666', fontWeight: '600' }}>
-                            Happy Customers
-                        </div>
+                <div className="sandane-stats-bar">
+                    {/* Stat a */}
+                    <div className="stat-item">
+                        <div className="stat-number">15k+</div>
+                        <div className="stat-label">Happy Customers</div>
                     </div>
 
                     {/* Divider */}
-                    <div style={{ width: '1px', height: '40px', backgroundColor: '#eee' }}></div>
+                    <div className="stat-divider"></div>
 
                     {/* Stat 2 */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                    <div className="stat-item">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <span style={{ fontSize: '28px', fontWeight: '800', fontFamily: 'Playfair Display, serif', color: '#111' }}>4.9</span>
+                            <span className="stat-number">4.9</span>
                             <div style={{ display: 'flex', gap: '2px' }}>
                                 {[...Array(5)].map((_, i) => (
                                     <FaStar key={i} size={14} color="#8B7355" />
                                 ))}
                             </div>
                         </div>
-                        <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '1px', color: '#666', fontWeight: '600' }}>
-                            Overall Rating
-                        </div>
+                        <div className="stat-label">Overall Rating</div>
                     </div>
 
                     {/* Divider */}
-                    <div style={{ width: '1px', height: '40px', backgroundColor: '#eee' }}></div>
+                    <div className="stat-divider"></div>
 
                     {/* Stat 3 */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                        <div style={{ fontSize: '28px', fontWeight: '800', fontFamily: 'Playfair Display, serif', color: '#111' }}>
-                            12+
-                        </div>
-                        <div style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '1px', color: '#666', fontWeight: '600' }}>
-                            Years Experience
-                        </div>
+                    <div className="stat-item">
+                        <div className="stat-number">12+</div>
+                        <div className="stat-label">Years Experience</div>
                     </div>
                 </div>
 
                 {/* Floating Book Now Button below Stats Bar */}
-                <div className="sandane-floating-buttons" style={{
-                    position: 'absolute',
-                    bottom: '-40px', // Push it strictly below the hero section/stats bar area
-                    left: '80px',
-                    zIndex: 20,
-                    display: 'flex',
-                    gap: '20px'
-                }}>
-                    <button style={{
-                        padding: '18px 45px',
-                        backgroundColor: '#8B7355',
-                        border: 'none',
-                        color: '#fff',
-                        fontSize: '14px',
-                        textTransform: 'uppercase',
-                        letterSpacing: '1.5px',
-                        cursor: 'pointer',
-                        fontWeight: '700',
-                        borderRadius: '5px',
-                        transition: 'all 0.3s ease',
-                        boxShadow: '0 4px 15px rgba(139, 115, 85, 0.3)'
-                    }}
-                        onMouseOver={(e) => {
-                            e.currentTarget.style.backgroundColor = '#6d5a43';
-                            e.currentTarget.style.transform = 'translateY(-2px)';
-                            e.currentTarget.style.boxShadow = '0 6px 20px rgba(139, 115, 85, 0.4)';
-                        }}
-                        onMouseOut={(e) => {
-                            e.currentTarget.style.backgroundColor = '#8B7355';
-                            e.currentTarget.style.transform = 'translateY(0)';
-                            e.currentTarget.style.boxShadow = '0 4px 15px rgba(139, 115, 85, 0.3)';
-                        }}
-                    >
+                <div className="sandane-floating-buttons">
+                    <button className="btn-book">
                         Book Now
                     </button>
-                    <button style={{
-                        padding: '18px 45px',
-                        backgroundColor: 'transparent',
-                        border: '2px solid #8B7355',
-                        color: '#8B7355',
-                        fontSize: '14px',
-                        textTransform: 'uppercase',
-                        letterSpacing: '1.5px',
-                        cursor: 'pointer',
-                        fontWeight: '700',
-                        borderRadius: '5px',
-                        transition: 'all 0.3s ease'
-                    }}
-                        onMouseOver={(e) => {
-                            e.currentTarget.style.backgroundColor = 'rgba(139, 115, 85, 0.1)';
-                            e.currentTarget.style.transform = 'translateY(-2px)';
-                        }}
-                        onMouseOut={(e) => {
-                            e.currentTarget.style.backgroundColor = 'transparent';
-                            e.currentTarget.style.transform = 'translateY(0)';
-                        }}
-                    >
+                    <button className="btn-contact">
                         Contact Us
                     </button>
                 </div>
@@ -312,83 +178,31 @@ const PineTales = () => {
             </div>
 
             {/* Our Rooms Section */}
-            <div style={{ padding: '100px 40px', textAlign: 'center' }}>
-                <h4 style={{
-                    color: '#C5A572',
-                    fontSize: '14px',
-                    letterSpacing: '2px',
-                    textTransform: 'uppercase',
-                    marginBottom: '20px',
-                    fontWeight: '600',
-                    fontFamily: 'Playfair Display, serif'
-                }}>
+            <div className="sandane-rooms-section">
+                <h4 className="section-subtitle">
                     Our Rooms
                 </h4>
-                <h2 style={{
-                    fontFamily: 'Playfair Display, serif',
-                    fontSize: '48px',
-                    color: '#111',
-                    marginBottom: '60px',
-                    lineHeight: '1.2'
-                }}>
+                <h2 className="section-title">
                     Indulge in Luxury Explore <br /> Our Rooms
                 </h2>
 
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(4, 1fr)',
-                    gap: '20px',
-                    maxWidth: '1400px',
-                    margin: '0 auto'
-                }}>
+                <div className="rooms-grid">
                     {rooms.map((room, index) => (
-                        <div key={index} style={{ textAlign: 'left', cursor: 'pointer' }}>
-                            <div style={{
-                                height: '350px',
-                                overflow: 'hidden',
-                                marginBottom: '20px',
-                                position: 'relative'
-                            }}>
+                        <div key={index} className="room-card">
+                            <div className="room-image-container">
                                 <img
                                     src={room.image}
                                     alt={room.title}
-                                    style={{
-                                        width: '100%',
-                                        height: '100%',
-                                        objectFit: 'cover',
-                                        transition: 'transform 0.5s ease'
-                                    }}
-                                    onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                                    onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                                    className="room-image"
                                 />
                             </div>
-                            <h3 style={{
-                                fontFamily: 'Playfair Display, serif',
-                                fontSize: '22px',
-                                fontWeight: '700',
-                                marginBottom: '10px',
-                                color: '#111'
-                            }}>
+                            <h3 className="room-title">
                                 {room.title}
                             </h3>
-                            <p style={{
-                                color: '#555',
-                                fontSize: '15px',
-                                lineHeight: '1.6',
-                                marginBottom: '20px',
-                                maxWidth: '100%'
-                            }}>
+                            <p className="room-desc">
                                 {room.desc}
                             </p>
-                            <div style={{
-                                fontSize: '12px',
-                                fontWeight: '800',
-                                color: '#111',
-                                letterSpacing: '1px',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '5px'
-                            }}>
+                            <div className="read-more-link">
                                 READ MORE &gt;
                             </div>
                         </div>
@@ -397,95 +211,38 @@ const PineTales = () => {
             </div>
 
             {/* About Us Section */}
-            <div style={{ display: 'flex', minHeight: '600px', flexWrap: 'wrap' }}>
+            <div className="sandane-about-section">
                 {/* Left Image */}
-                <div style={{ flex: 1, flexBasis: '500px' }}>
+                {/* Left Image */}
+                <div className="about-image">
                     <img
                         src={aboutUsImg}
                         alt="Interior"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            display: 'block'
-                        }}
+                        className="about-img-el"
                     />
                 </div>
 
                 {/* Right Content */}
-                <div style={{
-                    flex: 1,
-                    flexBasis: '500px',
-                    backgroundColor: '#FAF8F5',
-                    padding: '80px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                    alignItems: 'flex-start'
-                }}>
-                    <h2 style={{
-                        fontFamily: 'Playfair Display, serif',
-                        fontSize: '48px',
-                        color: '#111',
-                        marginBottom: '20px',
-                        lineHeight: '1.2'
-                    }}>
+                <div className="about-content">
+                    <h2 className="about-title">
                         Majestic Mountain Vistas
                     </h2>
-                    <p style={{
-                        color: '#666',
-                        fontSize: '16px',
-                        lineHeight: '1.8',
-                        marginBottom: '40px',
-                        maxWidth: '500px'
-                    }}>
+                    <p className="about-text">
                         Experience the serenity of nature with our breathtaking panoramas. These majestic mountain vistas offer a tranquil escape where the peaks meet the sky, providing a perfect backdrop for relaxation and rejuvenation during your stay at Pine Tales.
                     </p>
-                    <button style={{
-                        padding: '15px 40px',
-                        backgroundColor: 'transparent',
-                        border: '1px solid #111',
-                        color: '#111',
-                        fontSize: '12px',
-                        textTransform: 'uppercase',
-                        letterSpacing: '1px',
-                        cursor: 'pointer',
-                        fontWeight: '600',
-                        transition: 'all 0.3s ease'
-                    }}
-                        onMouseOver={(e) => {
-                            e.currentTarget.style.backgroundColor = '#111';
-                            e.currentTarget.style.color = '#fff';
-                        }}
-                        onMouseOut={(e) => {
-                            e.currentTarget.style.backgroundColor = 'transparent';
-                            e.currentTarget.style.color = '#111';
-                        }}
-                    >
+                    <button className="btn-read-more">
                         Read More
                     </button>
                 </div>
             </div>
 
             {/* Services Section */}
-            <div style={{ padding: '100px 40px', textAlign: 'center' }}>
-                <h2 style={{
-                    fontFamily: 'Playfair Display, serif',
-                    fontSize: '48px',
-                    color: '#111',
-                    marginBottom: '60px',
-                    lineHeight: '1.2'
-                }}>
+            <div className="sandane-services-section">
+                <h2 className="section-title">
                     Personalized Hospitality Discover <br /> Our Signature Services
                 </h2>
 
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(4, 1fr)',
-                    gap: '20px',
-                    maxWidth: '1200px',
-                    margin: '0 auto'
-                }}>
+                <div className="services-grid">
                     {services.map((service, index) => (
                         <ServiceCard key={index} icon={service.icon} desc={service.desc} />
                     ))}
@@ -493,23 +250,12 @@ const PineTales = () => {
             </div>
 
             {/* Reviews Section */}
-            <div style={{ padding: '80px 40px', textAlign: 'center', backgroundColor: '#fff' }}>
-                <h4 style={{
-                    color: '#C5A572',
-                    fontSize: '24px',
-                    fontFamily: 'Playfair Display, serif',
-                    marginBottom: '40px'
-                }}>
+            <div className="sandane-reviews-section">
+                <h4 className="review-title">
                     Your Reviews
                 </h4>
 
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                    gap: '30px',
-                    maxWidth: '1200px',
-                    margin: '0 auto'
-                }}>
+                <div className="reviews-grid">
                     {reviews.map((review, index) => (
                         <ReviewCard key={index} {...review} />
                     ))}

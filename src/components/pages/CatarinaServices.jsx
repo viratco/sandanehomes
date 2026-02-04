@@ -8,11 +8,10 @@ import img3 from '../../assets/IMG_0609.jpg'; // Food/Room
 import img4 from '../../assets/IMG_3482.JPG'; // Additional exterior/interior
 import img5 from '../../assets/IMG_4015.JPG'; // Additional interior
 import img6 from '../../assets/IMG_6598.JPG'; // Cuisine/Dining
+import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
 
 const CatarinaServices = () => {
-    // ... code ...
-
     // Facility Data with Icons
     const facilities = [
         { icon: <FaBuilding />, text: "Semi-furnished flats/villas" },
@@ -32,68 +31,32 @@ const CatarinaServices = () => {
     ];
 
     return (
-        <div className="catarina-services" style={{ backgroundColor: '#FFFFFF' }}>
+        <div className="catarina-services sandane-homes-page">
             <Header showTopBar={false} />
 
             {/* Hero / Title Section */}
-            <div className="page-hero-section" style={{
-                paddingTop: '180px',
-                paddingBottom: '80px',
-                textAlign: 'center',
-                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(${heroBg})`, // Added bg image with overlay
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                paddingLeft: '20px',
-                paddingRight: '20px'
+            <div className="catarina-hero" style={{
+                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(${heroBg})`
             }}>
-                <h1 style={{
-                    fontFamily: 'Playfair Display, serif',
-                    fontSize: '48px',
-                    color: '#111',
-                    marginBottom: '10px',
-                    textTransform: 'uppercase',
-                    letterSpacing: '1px'
-                }}>
+                <h1 className="catarina-title">
                     Catarina <span style={{ fontSize: '0.6em', display: 'block', marginTop: '5px', letterSpacing: '3px' }}>By Sandane Homes</span>
                 </h1>
-                <p style={{
-                    fontSize: '14px',
-                    color: '#C5A572',
-                    textTransform: 'uppercase',
-                    letterSpacing: '2px',
-                    fontWeight: '600',
-                    marginBottom: '20px'
-                }}>
+                <p className="catarina-subtitle">
                     Apartments - Villas - Expert Accommodations
                 </p>
-                <div style={{
-                    fontSize: '24px',
-                    fontFamily: '"My Soul", cursive',
-                    color: '#555',
-                    marginBottom: '10px'
-                }}>
+                <div className="catarina-quote">
                     "Where Comfort Meets Class"
                 </div>
                 {/* Multi-language text from flyer */}
-                <div style={{
-                    fontSize: '14px',
-                    color: '#777',
-                    marginTop: '10px',
-                    lineHeight: '1.5'
-                }}>
+                <div className="catarina-lang-text">
                     편안함과 품격이 만나는 곳<br />
                     快適さと高級感が融合した場所
                 </div>
             </div>
 
             {/* Offerings & Locations */}
-            <div style={{ padding: '80px 5%', maxWidth: '1200px', margin: '0 auto', textAlign: 'center' }}>
-                <h2 style={{
-                    fontFamily: 'Playfair Display, serif',
-                    fontSize: '36px',
-                    color: '#1A3C34', // Dark Green accent
-                    marginBottom: '20px'
-                }}>
+            <div className="catarina-section">
+                <h2 className="section-title" style={{ color: '#1A3C34' }}>
                     Luxury Accommodations
                 </h2>
                 <h3 style={{
@@ -112,49 +75,28 @@ const CatarinaServices = () => {
             </div>
 
             {/* Image Gallery (Mimicking flyer grid) */}
-            <div style={{ padding: '0 5% 80px', maxWidth: '1200px', margin: '0 auto' }}>
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                    gap: '20px'
-                }}>
-                    <div style={{ height: '300px', backgroundImage: `url(${img1})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                    <div style={{ height: '300px', backgroundImage: `url(${img2})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                    <div style={{ height: '300px', backgroundImage: `url(${img3})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                    <div style={{ height: '300px', backgroundImage: `url(${img4})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                    <div style={{ height: '300px', backgroundImage: `url(${img5})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-                    <div style={{ height: '300px', backgroundImage: `url(${img6})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+            <div className="catarina-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
+                <div className="catarina-gallery-grid">
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img1})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img2})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img3})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img4})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img5})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img6})` }}></div>
                 </div>
             </div>
 
             {/* Facilities Section */}
-            <div style={{ backgroundColor: '#F9F9F9', padding: '80px 5%' }}>
+            <div className="catarina-facilities-section">
                 <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-                    <h2 style={{
-                        fontFamily: 'Playfair Display, serif',
-                        fontSize: '36px',
-                        color: '#111',
-                        marginBottom: '50px',
-                        textAlign: 'center'
-                    }}>
+                    <h2 className="section-title" style={{ marginBottom: '50px' }}>
                         Facilities Provided
                     </h2>
 
-                    <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                        gap: '30px'
-                    }}>
+                    <div className="catarina-facilities-grid">
                         {facilities.map((facility, index) => (
-                            <div key={index} style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '15px',
-                                color: '#555',
-                                fontSize: '15px',
-                                lineHeight: '1.6'
-                            }}>
-                                <span style={{ color: '#1A3C34', fontSize: '24px' }}>{facility.icon}</span>
+                            <div key={index} className="catarina-facility-item">
+                                <span className="catarina-facility-icon">{facility.icon}</span>
                                 <div>{facility.text}</div>
                             </div>
                         ))}
@@ -163,7 +105,7 @@ const CatarinaServices = () => {
             </div>
 
             {/* About & Contact Section */}
-            <div style={{ padding: '80px 5%', maxWidth: '1200px', margin: '0 auto' }}>
+            <div className="catarina-section">
                 <div style={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -177,12 +119,7 @@ const CatarinaServices = () => {
                         gap: '50px'
                     }}>
                         {/* About Us Box */}
-                        <div style={{
-                            backgroundColor: '#000',
-                            color: '#fff',
-                            padding: '60px',
-                            textAlign: 'center'
-                        }}>
+                        <div className="catarina-about-box">
                             <h3 style={{
                                 fontFamily: 'Playfair Display, serif',
                                 fontSize: '32px',
@@ -198,12 +135,7 @@ const CatarinaServices = () => {
 
                         {/* Contact Info */}
                         <div style={{ textAlign: 'center' }}>
-                            <h3 style={{
-                                fontFamily: 'Playfair Display, serif',
-                                fontSize: '32px',
-                                marginBottom: '30px',
-                                color: '#111'
-                            }}>
+                            <h3 className="section-title">
                                 Contact Us
                             </h3>
 

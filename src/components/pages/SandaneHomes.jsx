@@ -57,8 +57,6 @@ const ReviewCard = ({ name, date, text }) => {
     );
 };
 
-
-
 const SandaneHomes = () => {
     const rooms = [
         {
@@ -188,7 +186,6 @@ const SandaneHomes = () => {
                         Contact Us
                     </button>
                 </div>
-
             </div>
 
             {/* Our Rooms Section */}
@@ -231,12 +228,7 @@ const SandaneHomes = () => {
                     <img
                         src={aboutUsImg}
                         alt="Interior"
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            display: 'block'
-                        }} // Keeping base style here as it's simple or move to CSS
+                        className="about-img-el"
                     />
                 </div>
 
