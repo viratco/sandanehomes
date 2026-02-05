@@ -64,15 +64,21 @@
         margin-top: 0;
     }
 
+    .discover-card {
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Make cards more compact on mobile */
     .discover-card-image {
         height: 180px;
-        /* Reduced from 250px */
+        margin: 0;
+        display: block;
     }
 
     .discover-card-content {
         padding: 20px;
-        /* Reduced from 30px */
+        margin: 0;
     }
 
     /* Reduce text sizes slightly */
