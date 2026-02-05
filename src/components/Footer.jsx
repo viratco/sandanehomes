@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 const Footer = () => {
     const [email, setEmail] = useState('');
+    const [countryCode, setCountryCode] = useState('+91');
     const [phone, setPhone] = useState('');
     const [agreed, setAgreed] = useState(false);
 
@@ -31,9 +32,9 @@ const Footer = () => {
             },
             body: JSON.stringify({
                 email: email,
-                phone: phone,
+                phone: `${countryCode} ${phone}`,
                 _subject: "New Contact from Sandane Homes Website!",
-                message: `New contact submission:\nEmail: ${email}\nPhone: ${phone}`
+                message: `New contact submission:\nEmail: ${email}\nPhone: ${countryCode} ${phone}`
             })
         })
             .then(response => response.json())
@@ -111,15 +112,55 @@ const Footer = () => {
                             />
                         </div>
 
-                        {/* Phone Input */}
-                        <div style={{ position: 'relative', marginBottom: '20px' }}>
+                        {/* Phone Input with Country Code */}
+                        <div style={{ position: 'relative', marginBottom: '20px', display: 'flex', gap: '10px' }}>
+                            {/* Country Code Selector */}
+                            <select
+                                value={countryCode}
+                                onChange={(e) => setCountryCode(e.target.value)}
+                                style={{
+                                    width: '120px',
+                                    padding: '18px 10px',
+                                    backgroundColor: 'transparent',
+                                    border: 'none',
+                                    borderBottom: '1px solid #ccc',
+                                    fontSize: '15px',
+                                    outline: 'none',
+                                    cursor: 'pointer'
+                                }}
+                            >
+                                <option value="+91">🇮🇳 +91</option>
+                                <option value="+1">🇺🇸 +1</option>
+                                <option value="+44">🇬🇧 +44</option>
+                                <option value="+61">🇦🇺 +61</option>
+                                <option value="+971">🇦🇪 +971</option>
+                                <option value="+65">🇸🇬 +65</option>
+                                <option value="+86">🇨🇳 +86</option>
+                                <option value="+81">🇯🇵 +81</option>
+                                <option value="+82">🇰🇷 +82</option>
+                                <option value="+33">🇫🇷 +33</option>
+                                <option value="+49">🇩🇪 +49</option>
+                                <option value="+39">🇮🇹 +39</option>
+                                <option value="+34">🇪🇸 +34</option>
+                                <option value="+7">🇷🇺 +7</option>
+                                <option value="+55">🇧🇷 +55</option>
+                                <option value="+27">🇿🇦 +27</option>
+                                <option value="+52">🇲🇽 +52</option>
+                                <option value="+60">🇲🇾 +60</option>
+                                <option value="+62">🇮🇩 +62</option>
+                                <option value="+63">🇵🇭 +63</option>
+                                <option value="+66">🇹🇭 +66</option>
+                                <option value="+84">🇻🇳 +84</option>
+                            </select>
+
+                            {/* Phone Number Input */}
                             <input
                                 type="tel"
-                                placeholder="Your Phone Number"
+                                placeholder="Phone Number"
                                 value={phone}
                                 onChange={(e) => setPhone(e.target.value)}
                                 style={{
-                                    width: '100%',
+                                    flex: 1,
                                     padding: '18px 20px',
                                     backgroundColor: 'transparent',
                                     border: 'none',
