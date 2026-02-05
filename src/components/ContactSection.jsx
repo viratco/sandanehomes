@@ -24,7 +24,10 @@ const ContactSection = () => {
                         Email: information@sandanehomes.com
                     </p>
 
-                    <button className="contact-btn">
+                    <button
+                        className="contact-btn"
+                        onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                    >
                         Get Directions
                     </button>
                 </div>
@@ -47,7 +50,10 @@ const ContactSection = () => {
                         Email: reservation@sandanehomes.com
                     </p>
 
-                    <button className="contact-btn">
+                    <button
+                        className="contact-btn"
+                        onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                    >
                         Reserve Your Stay
                     </button>
                 </div>

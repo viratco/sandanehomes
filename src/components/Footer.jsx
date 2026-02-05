@@ -52,7 +52,7 @@ const Footer = () => {
 
     return (
         <footer style={{ width: '100%', backgroundColor: '#F9F9F9' }}>
-            <div className="footer-newsletter-container" style={{
+            <div id="contact-section" className="footer-newsletter-container" style={{
                 padding: '80px 80px 60px 80px',
                 borderBottom: '1px solid #ddd'
             }}>

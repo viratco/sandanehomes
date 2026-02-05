@@ -182,7 +182,10 @@ const SandaneHomes = () => {
                     <button className="btn-book">
                         Book Now
                     </button>
-                    <button className="btn-contact">
+                    <button
+                        className="btn-contact"
+                        onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                    >
                         Contact Us
                     </button>
                 </div>
