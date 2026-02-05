@@ -2,15 +2,11 @@ import React from 'react';
 import artImg from '../assets/IMG_3482.JPG';
 import parkImg from '../assets/IMG_4015.JPG';
 import foodImg from '../assets/IMG_6598.JPG';
+import './DiscoverSection.css';
 
 const DiscoverSection = () => {
     return (
-        <section className="discover-section" style={{
-            width: '100%',
-            backgroundColor: '#FFFBF5',
-            padding: '100px 80px',
-            boxSizing: 'border-box'
-        }}>
+        <section className="discover-section">
             {/* Header */}
             <div style={{ textAlign: 'center', marginBottom: '80px' }}>
                 <h4 style={{
@@ -47,47 +43,21 @@ const DiscoverSection = () => {
             </div>
 
             {/* Three Cards */}
-            <div className="discover-grid" style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
-                gap: '30px',
-                maxWidth: '1400px',
-                margin: '0 auto'
-            }}>
-                {/* Card 1: Exhibitions & Museum */}
-                <div style={{
-                    backgroundColor: '#F9F9F9',
-                    overflow: 'hidden',
-                    position: 'relative',
-                    border: '1px solid #C5A572'
-                }}>
+            <div className="discover-grid">
+                {/* Card 1: Comprehensive Management */}
+                <div className="discover-card">
                     {/* Recommended Tag */}
-                    <div style={{
-                        position: 'absolute',
-                        top: '20px',
-                        left: '20px',
-                        color: '#FFF',
-                        backgroundColor: '#111',
-                        padding: '8px 16px',
-                        fontSize: '11px',
-                        fontWeight: '600',
-                        letterSpacing: '1px',
-                        zIndex: 2
-                    }}>
+                    <div className="discover-recommended-tag">
                         RECOMMENDED
                     </div>
 
                     {/* Image */}
-                    <div style={{
-                        width: '100%',
-                        height: '250px',
-                        backgroundImage: `url(${artImg})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
+                    <div className="discover-card-image" style={{
+                        backgroundImage: `url(${artImg})`
                     }}></div>
 
                     {/* Content */}
-                    <div style={{ padding: '30px' }}>
+                    <div className="discover-card-content">
                         <h5 style={{
                             color: '#C5A572',
                             fontSize: '11px',
@@ -132,24 +102,15 @@ const DiscoverSection = () => {
                     </div>
                 </div>
 
-                {/* Card 2: Nearby Parks */}
-                <div style={{
-                    backgroundColor: '#F9F9F9',
-                    overflow: 'hidden',
-                    marginTop: '60px',
-                    border: '1px solid #C5A572'
-                }}>
+                {/* Card 2: Financial Growth */}
+                <div className="discover-card discover-card-offset">
                     {/* Image */}
-                    <div style={{
-                        width: '100%',
-                        height: '250px',
-                        backgroundImage: `url(${parkImg})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
+                    <div className="discover-card-image" style={{
+                        backgroundImage: `url(${parkImg})`
                     }}></div>
 
                     {/* Content */}
-                    <div style={{ padding: '30px' }}>
+                    <div className="discover-card-content">
                         <h5 style={{
                             color: '#C5A572',
                             fontSize: '11px',
@@ -194,23 +155,15 @@ const DiscoverSection = () => {
                     </div>
                 </div>
 
-                {/* Card 3: Local Food Tour */}
-                <div style={{
-                    backgroundColor: '#F9F9F9',
-                    overflow: 'hidden',
-                    border: '1px solid #C5A572'
-                }}>
+                {/* Card 3: Asset Protection */}
+                <div className="discover-card">
                     {/* Image */}
-                    <div style={{
-                        width: '100%',
-                        height: '250px',
-                        backgroundImage: `url(${foodImg})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
+                    <div className="discover-card-image" style={{
+                        backgroundImage: `url(${foodImg})`
                     }}></div>
 
                     {/* Content */}
-                    <div style={{ padding: '30px' }}>
+                    <div className="discover-card-content">
                         <h5 style={{
                             color: '#C5A572',
                             fontSize: '11px',
