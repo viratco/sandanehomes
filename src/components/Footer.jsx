@@ -3,11 +3,17 @@ import React, { useState } from 'react';
 
 const Footer = () => {
     const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
     const [agreed, setAgreed] = useState(false);
 
     const sendEmail = () => {
         if (!email) {
             alert('Please enter your email');
+            return;
+        }
+
+        if (!phone) {
+            alert('Please enter your phone number');
             return;
         }
 
@@ -25,14 +31,16 @@ const Footer = () => {
             },
             body: JSON.stringify({
                 email: email,
-                _subject: "New Subscription from Sandane Homes Website!",
-                message: "A new user has subscribed via the footer form."
+                phone: phone,
+                _subject: "New Contact from Sandane Homes Website!",
+                message: `New contact submission:\nEmail: ${email}\nPhone: ${phone}`
             })
         })
             .then(response => response.json())
             .then(data => {
-                alert('Thank you! You have successfully subscribed.');
+                alert('Thank you! We will get back to you shortly.');
                 setEmail('');
+                setPhone('');
                 setAgreed(false);
             })
             .catch(error => {
@@ -84,6 +92,7 @@ const Footer = () => {
 
                     {/* RIGHT FORM */}
                     <div style={{ flex: 1, maxWidth: '600px' }}>
+                        {/* Email Input */}
                         <div style={{ position: 'relative', marginBottom: '20px' }}>
                             <input
                                 type="email"
@@ -92,7 +101,7 @@ const Footer = () => {
                                 onChange={(e) => setEmail(e.target.value)}
                                 style={{
                                     width: '100%',
-                                    padding: '18px 140px 18px 20px',
+                                    padding: '18px 20px',
                                     backgroundColor: 'transparent',
                                     border: 'none',
                                     borderBottom: '1px solid #ccc',
@@ -100,19 +109,46 @@ const Footer = () => {
                                     outline: 'none'
                                 }}
                             />
+                        </div>
 
+                        {/* Phone Input */}
+                        <div style={{ position: 'relative', marginBottom: '20px' }}>
+                            <input
+                                type="tel"
+                                placeholder="Your Phone Number"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
+                                style={{
+                                    width: '100%',
+                                    padding: '18px 20px',
+                                    backgroundColor: 'transparent',
+                                    border: 'none',
+                                    borderBottom: '1px solid #ccc',
+                                    fontSize: '15px',
+                                    outline: 'none'
+                                }}
+                            />
+                        </div>
+
+                        {/* Send Button */}
+                        <div style={{ marginBottom: '20px' }}>
                             <button
                                 onClick={sendEmail}
                                 style={{
-                                    position: 'absolute',
-                                    right: 0,
-                                    top: '50%',
-                                    transform: 'translateY(-50%)',
-                                    background: 'transparent',
+                                    width: '100%',
+                                    padding: '16px',
+                                    background: '#C5A572',
                                     border: 'none',
+                                    color: '#fff',
+                                    fontSize: '14px',
+                                    fontWeight: '600',
                                     cursor: 'pointer',
-                                    fontWeight: '500'
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '1px',
+                                    transition: 'all 0.3s ease'
                                 }}
+                                onMouseOver={(e) => e.currentTarget.style.background = '#a88d5f'}
+                                onMouseOut={(e) => e.currentTarget.style.background = '#C5A572'}
                             >
                                 Send ✉
                             </button>
