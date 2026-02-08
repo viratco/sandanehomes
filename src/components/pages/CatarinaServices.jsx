@@ -55,7 +55,7 @@ const CatarinaServices = () => {
             </div>
 
             {/* Offerings & Locations */}
-            <div className="catarina-section">
+            <div className="catarina-section catarina-accomm-section">
                 <h2 className="section-title" style={{ color: '#1A3C34' }}>
                     Luxury Accommodations
                 </h2>
@@ -75,7 +75,7 @@ const CatarinaServices = () => {
             </div>
 
             {/* Image Gallery (Mimicking flyer grid) */}
-            <div className="catarina-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
+            <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
                 <div className="catarina-gallery-grid">
                     <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img1})` }}></div>
                     <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img2})` }}></div>
@@ -105,7 +105,7 @@ const CatarinaServices = () => {
             </div>
 
             {/* About & Contact Section */}
-            <div className="catarina-section">
+            <div className="catarina-section catarina-contact-section">
                 <div style={{
                     display: 'flex',
                     flexDirection: 'column',

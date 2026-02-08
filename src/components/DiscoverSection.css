@@ -52,7 +52,8 @@
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
     .discover-section {
-        padding: 60px 20px;
+        padding: 80px 20px;
+        border-bottom: 8px solid #FAF8F5;
     }
 
     .discover-grid {

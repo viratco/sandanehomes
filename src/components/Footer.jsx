@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Footer.css';
 
 const Footer = () => {
     const [email, setEmail] = useState('');
@@ -52,21 +52,11 @@ const Footer = () => {
 
     return (
         <footer style={{ width: '100%', backgroundColor: '#F9F9F9' }}>
-            <div id="contact-section" className="footer-newsletter-container" style={{
-                padding: '80px 80px 60px 80px',
-                borderBottom: '1px solid #ddd'
-            }}>
-                <div className="footer-newsletter-row" style={{
-                    maxWidth: '1400px',
-                    margin: '0 auto',
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    gap: '60px'
-                }}>
+            <div id="contact-section" className="footer-newsletter-container">
+                <div className="footer-newsletter-row">
 
                     {/* LEFT TEXT */}
-                    <div style={{ flex: 1 }}>
+                    <div className="footer-left-col">
                         <h4 style={{
                             color: '#C5A572',
                             fontSize: '11px',
@@ -92,7 +82,7 @@ const Footer = () => {
                     </div>
 
                     {/* RIGHT FORM */}
-                    <div style={{ flex: 1, maxWidth: '600px' }}>
+                    <div className="footer-right-col">
                         {/* Email Input */}
                         <div style={{ position: 'relative', marginBottom: '20px' }}>
                             <input

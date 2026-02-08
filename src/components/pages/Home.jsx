@@ -20,7 +20,7 @@ const Home = () => {
             <ApartmentTypes />
             <ReservationSeparator />
             <CuisineSection />
-            <ServicesSection />
+
             <HospitalitySection />
             <DiscoverSection />
             <ContactSection />

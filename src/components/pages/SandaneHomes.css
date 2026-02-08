@@ -411,7 +411,10 @@
 
     /* Rooms */
     .sandane-rooms-section {
-        padding: 60px 20px;
+        padding: 80px 20px;
+        border-bottom: 8px solid #FAF8F5;
+        background-color: #FAF8F5;
+        /* Zebra Stripe: Beige */
     }
 
     .section-title {
@@ -436,20 +439,29 @@
     }
 
     .about-content {
-        padding: 40px 20px;
+        padding: 60px 20px;
         align-items: center;
         text-align: center;
         flex: none;
         width: 100%;
+        background-color: #FFFFFF;
+        /* Zebra Stripe: White (reset from default beige) */
     }
 
     .about-logo {
         width: 80%;
     }
 
+    .sandane-about-section {
+        border-bottom: 8px solid #FAF8F5;
+    }
+
     /* Services */
     .sandane-services-section {
-        padding: 60px 20px;
+        padding: 80px 20px;
+        border-bottom: 8px solid #FAF8F5;
+        background-color: #FAF8F5;
+        /* Zebra Stripe: Beige */
     }
 
     .services-grid {
@@ -464,7 +476,8 @@
 
     /* Reviews */
     .sandane-reviews-section {
-        padding: 60px 20px;
+        padding: 80px 20px;
+        border-bottom: 8px solid #FAF8F5;
     }
 
     /* Catarina Mobile */
@@ -475,6 +488,29 @@
 
     .catarina-about-box {
         padding: 40px 20px;
+    }
+
+    /* Zebra Striping for Catarina */
+    .catarina-accomm-section,
+    .catarina-gallery-section {
+        background-color: #FAF8F5;
+        border-bottom: none;
+        /* Seamless flow */
+    }
+
+    .catarina-gallery-section {
+        border-bottom: 8px solid #FFFFFF;
+        /* Divider before Facilities */
+        padding-bottom: 60px !important;
+    }
+
+    .catarina-facilities-section {
+        background-color: #FFFFFF !important;
+        border-bottom: 8px solid #FAF8F5;
+    }
+
+    .catarina-contact-section {
+        background-color: #FAF8F5;
     }
 }
 
