@@ -167,7 +167,10 @@ const Amara = () => {
 
                 {/* Floating Book Now Button below Stats Bar */}
                 <div className="sandane-floating-buttons">
-                    <button className="btn-book">
+                    <button
+                        className="btn-book"
+                        onClick={() => window.open('https://www.booking.com/hotel/in/amara-inn-greater-noida.html?aid=356980&label=gog235jc-10CAsobEIXYW1hcmEtaW5uLWdyZWF0ZXItbm9pZGFIM1gDaGyIAQGYATO4AQfIAQ3YAQPoAQH4AQGIAgGoAgG4AtuUs8wGwAIB0gIkNGE0MjBlOWUtODI1YS00MjI4LThkYWMtY2YwOTE0ODI0ZWFj2AIB4AIB&sid=1c0fc32504fa29054c3e735f0189f777&age=1&all_sr_blocks=1502125001_421906685_0_0_0&checkin=2026-02-14&checkout=2026-02-18&dest_id=900050012&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1502125001_421906685_0_0_0&hpos=1&matching_block_id=1502125001_421906685_0_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1502125001_421906685_0_0_0__1496000&srepoch=1770834527&srpvid=a8c881eeb4aa04e7&type=total&ucfs=1&', '_blank')}
+                    >
                         Book Now
                     </button>
                     <button

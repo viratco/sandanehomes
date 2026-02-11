@@ -26,7 +26,7 @@ const ContactSection = () => {
 
                     <button
                         className="contact-btn"
-                        onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => window.open('https://www.google.com/maps/place/Sandane+Homes+The+Luxury+Boutique/@28.4558093,77.5010272,17z/data=!4m9!3m8!1s0x390cc1cc3684ae2b:0x53c7da621f9bea8!5m2!4m1!1i2!8m2!3d28.4558093!4d77.5036021!16s%2Fg%2F11w9xpnt0q?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D', '_blank')}
                     >
                         Get Directions
                     </button>

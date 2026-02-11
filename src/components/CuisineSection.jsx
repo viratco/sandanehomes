@@ -300,17 +300,19 @@ const CuisineSection = () => {
                                     We believe the heart of a home is its kitchen. That's why ours comes fully stocked—from ovens and microwaves to premium cutlery and essential utensils. Whether it's a quick family breakfast or a gourmet dinner, we provide everything you need to cook with love. <span style={{ color: '#1A3C34', fontWeight: '700' }}>Need something specific? Just tell us what you want, and we will provide.</span>
                                 </p>
 
-                                <button style={{
-                                    padding: '14px 35px',
-                                    backgroundColor: 'transparent',
-                                    border: '1px solid #C5A572',
-                                    color: '#111',
-                                    fontSize: '13px',
-                                    textTransform: 'capitalize',
-                                    letterSpacing: '1px',
-                                    cursor: 'pointer',
-                                    fontWeight: '400'
-                                }}>
+                                <button
+                                    onClick={() => navigate('/catarina-services')}
+                                    style={{
+                                        padding: '14px 35px',
+                                        backgroundColor: 'transparent',
+                                        border: '1px solid #C5A572',
+                                        color: '#111',
+                                        fontSize: '13px',
+                                        textTransform: 'capitalize',
+                                        letterSpacing: '1px',
+                                        cursor: 'pointer',
+                                        fontWeight: '400'
+                                    }}>
                                     Discover More
                                 </button>
                             </div>

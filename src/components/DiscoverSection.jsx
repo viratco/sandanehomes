@@ -87,16 +87,7 @@ const DiscoverSection = () => {
                             We handle everything from guest vetting and bookings to 24/7 support. Relax knowing your property is in professional hands, fully insured and compliant with all local regulations.
                         </p>
 
-                        <a href="#" style={{
-                            color: '#111',
-                            fontSize: '11px',
-                            letterSpacing: '2px',
-                            textTransform: 'uppercase',
-                            textDecoration: 'none',
-                            fontWeight: '600'
-                        }}>
-                            Discover More ›
-                        </a>
+
                     </div>
                 </div>
 
@@ -140,16 +131,7 @@ const DiscoverSection = () => {
                             Transform your property into an Asset. Our specialized short-term rental strategies and dynamic pricing models ensure you earn significantly more than traditional long-term leasing.
                         </p>
 
-                        <a href="#" style={{
-                            color: '#111',
-                            fontSize: '11px',
-                            letterSpacing: '2px',
-                            textTransform: 'uppercase',
-                            textDecoration: 'none',
-                            fontWeight: '600'
-                        }}>
-                            Discover More ›
-                        </a>
+
                     </div>
                 </div>
 
@@ -193,16 +175,7 @@ const DiscoverSection = () => {
                             We treat your home as if it were our own. With professional housekeeping after every stay and proactive maintenance checks, your property stays in showroom condition year-round.
                         </p>
 
-                        <a href="#" style={{
-                            color: '#111',
-                            fontSize: '11px',
-                            letterSpacing: '2px',
-                            textTransform: 'uppercase',
-                            textDecoration: 'none',
-                            fontWeight: '600'
-                        }}>
-                            Discover More ›
-                        </a>
+
                     </div>
                 </div>
             </div>

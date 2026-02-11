@@ -37,7 +37,10 @@ const BookingWidget = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="booking-btn">
+            <button
+                className="booking-btn"
+                onClick={() => window.open('https://www.airbnb.co.in/rooms/1221670335645327335?source_impression_id=p3_1770832258_P3YMM02r3EV-jp62#availability-calendar', '_blank')}
+            >
                 CHECK AVAILABILITY
             </button>
         </div>

@@ -167,7 +167,10 @@ const PineTales = () => {
 
                 {/* Floating Book Now Button below Stats Bar */}
                 <div className="sandane-floating-buttons">
-                    <button className="btn-book">
+                    <button
+                        className="btn-book"
+                        onClick={() => window.open('https://www.airbnb.co.in/rooms/1222185299423292714?source_impression_id=p3_1770834223_P3oHM5v49KwrEa6x', '_blank')}
+                    >
                         Book Now
                     </button>
                     <button

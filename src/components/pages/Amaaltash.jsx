@@ -167,7 +167,10 @@ const Amaaltash = () => {
 
                 {/* Floating Book Now Button below Stats Bar */}
                 <div className="sandane-floating-buttons">
-                    <button className="btn-book">
+                    <button
+                        className="btn-book"
+                        onClick={() => window.open('https://www.airbnb.co.in/rooms/1291130238653499956?source_impression_id=p3_1770834335_P3zqIsAZvTHn05fI', '_blank')}
+                    >
                         Book Now
                     </button>
                     <button

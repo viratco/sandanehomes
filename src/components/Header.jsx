@@ -80,7 +80,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         {isNavOpen && (
                             <nav style={{ animation: 'fadeIn 0.3s ease' }}>
                                 <ul style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
-                                    <li><Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
+                                    <li><Link to="/#service-apartments" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
 
                                     {/* Dropdown for Accommodations */}
                                     <li

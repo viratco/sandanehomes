@@ -60,6 +60,7 @@ const ReservationSeparator = () => {
                 onMouseOut={(e) => {
                     e.currentTarget.style.backgroundColor = '#111';
                 }}
+                onClick={() => window.open('https://www.airbnb.co.in/rooms/1221670335645327335?source_impression_id=p3_1770832932_P3cVD0IrXLDe2zjw', '_blank')}
             >
                 Book Now
             </button>

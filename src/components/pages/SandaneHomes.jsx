@@ -179,7 +179,10 @@ const SandaneHomes = () => {
 
                 {/* Floating Book Now Button below Stats Bar */}
                 <div className="sandane-floating-buttons">
-                    <button className="btn-book">
+                    <button
+                        className="btn-book"
+                        onClick={() => window.open('https://www.airbnb.co.in/rooms/1221670335645327335?source_impression_id=p3_1770834136_P33kzHJJB14pFbCG', '_blank')}
+                    >
                         Book Now
                     </button>
                     <button
