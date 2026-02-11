@@ -1,7 +1,7 @@
 import React from 'react';
-import artImg from '../assets/IMG_3482.JPG';
-import parkImg from '../assets/IMG_4015.JPG';
-import foodImg from '../assets/IMG_6598.JPG';
+import artImg from '../assets/discover_peace.png';
+import parkImg from '../assets/discover_returns.png';
+import foodImg from '../assets/discover_care.png';
 import './DiscoverSection.css';
 
 const DiscoverSection = () => {
@@ -47,9 +47,7 @@ const DiscoverSection = () => {
                 {/* Card 1: Comprehensive Management */}
                 <div className="discover-card">
                     {/* Recommended Tag */}
-                    <div className="discover-recommended-tag">
-                        RECOMMENDED
-                    </div>
+
 
                     {/* Image */}
                     <div className="discover-card-image" style={{

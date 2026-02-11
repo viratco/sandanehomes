@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
-import heroBg from '../../assets/catarina_main.jpg'; // Using existing main image for hero background
-import img1 from '../../assets/IMG_7272.jpg'; // Bedroom/Interior
-import img2 from '../../assets/IMG_7278.jpg'; // Interior/Lobby
-import img3 from '../../assets/IMG_0609.jpg'; // Food/Room
-import img4 from '../../assets/IMG_3482.JPG'; // Additional exterior/interior
-import img5 from '../../assets/IMG_4015.JPG'; // Additional interior
-import img6 from '../../assets/IMG_6598.JPG'; // Cuisine/Dining
+import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
+import imgRecreation from '../../assets/services_recreation.jpeg';
+import imgTopLeft from '../../assets/IMG_7278.jpg';
+import imgTopRight from '../../assets/IMG_0542.jpg';
+import imgNew3 from '../../assets/IMG_7257.jpg';
+import imgBottomMiddle from '../../assets/last3.jpeg';
+import imgNew5 from '../../assets/IMG_7254.jpg';
 import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
 
@@ -36,7 +36,9 @@ const CatarinaServices = () => {
 
             {/* Hero / Title Section */}
             <div className="catarina-hero" style={{
-                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(${heroBg})`
+                backgroundImage: `url(${heroBg})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
             }}>
                 <h1 className="catarina-title">
                     Catarina <span style={{ fontSize: '0.6em', display: 'block', marginTop: '5px', letterSpacing: '3px' }}>By Sandane Homes</span>
@@ -77,12 +79,12 @@ const CatarinaServices = () => {
             {/* Image Gallery (Mimicking flyer grid) */}
             <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
                 <div className="catarina-gallery-grid">
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img1})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img2})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img3})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img4})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img5})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${img6})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgTopLeft})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgRecreation})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgTopRight})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgNew3})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgBottomMiddle})` }}></div>
+                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgNew5})` }}></div>
                 </div>
             </div>
 

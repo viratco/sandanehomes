@@ -1,9 +1,11 @@
-
-import React from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 
 const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
     const location = useLocation();
+    const [isNavOpen, setIsNavOpen] = useState(false); // Default to closed (collapsible)
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
     // Force hide top bar on Catarina Services page regardless of prop
     const shouldShowTopBar = showTopBar && location.pathname !== '/catarina-services';
 
@@ -47,19 +49,88 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
             }}>
                 {/* Left Nav */}
                 {showNav && (
-                    <div className="header-nav-links mobile-nav-visible" style={{ display: 'flex', alignItems: 'center', gap: '40px', position: 'absolute', left: '10px' }}>
-                        <div style={{ width: '24px', height: '16px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', cursor: 'pointer' }}>
+                    <div className="header-nav-links mobile-nav-visible" style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '20px', // Reduced gap
+                        position: 'absolute',
+                        left: '10px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                        padding: '8px 15px', // Reduced padding
+                        borderRadius: '30px',
+                        backdropFilter: 'blur(5px)',
+                        transition: 'all 0.3s ease' // Smooth transition for width change
+                    }}>
+                        <div
+                            onClick={() => setIsNavOpen(!isNavOpen)}
+                            style={{
+                                width: '24px',
+                                height: '16px',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                justifyContent: 'space-between',
+                                cursor: 'pointer',
+                                zIndex: 2
+                            }}
+                        >
                             <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
                             <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
                             <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
                         </div>
-                        <nav>
-                            <ul style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0 }}>
+                        {isNavOpen && (
+                            <nav style={{ animation: 'fadeIn 0.3s ease' }}>
+                                <ul style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
+                                    <li><Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
 
-                                <li><a href="/#service-apartments" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</a></li>
-                                <li><a href="/#accommodations" style={{ color: 'inherit', textDecoration: 'none' }}>ACCOMMODATIONS</a></li>
-                            </ul>
-                        </nav>
+                                    {/* Dropdown for Accommodations */}
+                                    <li
+                                        onMouseEnter={() => setIsDropdownOpen(true)}
+                                        onMouseLeave={() => setIsDropdownOpen(false)}
+                                        style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}
+                                    >
+                                        <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none', padding: '10px 0' }}>
+                                            ACCOMMODATIONS
+                                        </Link>
+
+                                        {isDropdownOpen && (
+                                            <div style={{
+                                                position: 'absolute',
+                                                top: '100%', // Start right below the link
+                                                left: '50%',
+                                                transform: 'translateX(-50%)',
+                                                paddingTop: '20px', // Create an invisible bridge for the cursor
+                                                zIndex: 20,
+                                            }}>
+                                                <div style={{
+                                                    backgroundColor: 'white',
+                                                    borderRadius: '20px',
+                                                    padding: '20px',
+                                                    minWidth: '220px',
+                                                    boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+                                                }}>
+                                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
+                                                        <li><Link to="/catarina-services" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>CATARINA SERVICES</Link></li>
+                                                        <li><Link to="/sandane-homes" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SANDANE HOMES</Link></li>
+                                                        <li><Link to="/amara" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMARA</Link></li>
+                                                        <li><Link to="/amaaltash" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMAALTASH</Link></li>
+                                                        <li><Link to="/saffron" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SAFFRON</Link></li>
+                                                        <li><Link to="/pine-tales" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>PINE TALES</Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        )}
+                                    </li>
+                                </ul>
+                            </nav>
+                        )}
+                        <style>
+                            {`
+                                @keyframes fadeIn {
+                                    from { opacity: 0; transform: translateX(-10px); }
+                                    to { opacity: 1; transform: translateX(0); }
+                                }
+                            `}
+                        </style>
                     </div>
                 )}
 
@@ -70,14 +141,6 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         fontSize: '32px',
                         letterSpacing: '3px',
                         textAlign: 'center',
-                        // No flex: 1 needed if we use absolute for others, or we need to balance it.
-                        // If nav is hidden, we want logo centered.
-                        // If nav is shown, the current layout used space-between.
-                        // Let's use absolute positioning for left/right elements to guarantee center logo?
-                        // Or keep space-between if nav is there.
-                        // Implementation choice: Use absolute left/right for nav items to keep Logo perfectly centered in all cases?
-                        // The previous code used flex space-between.
-                        // Let's stick to flex but make it conditionally behave.
                     }}>
                         SANDANE HOMES
                         <div style={{ fontSize: '10px', letterSpacing: '5px', marginTop: '-5px', color: '#C5A572' }}>★ ★ ★ ★ ★</div>

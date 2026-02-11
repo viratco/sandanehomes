@@ -41,9 +41,9 @@
     /* If we want to keep links visible but smaller/scrollable */
     .mobile-nav-visible {
         position: static !important;
-        width: 100%;
+        width: fit-content !important;
         justify-content: center;
-        margin-top: 10px;
+        margin: 10px auto !important;
         gap: 15px !important;
     }
 
@@ -227,7 +227,7 @@
         left: auto !important;
         right: auto !important;
         bottom: auto !important;
-        margin: -100px auto 50px auto !important;
+        margin: -50px auto 50px auto !important;
         /* Negative margin to pull it up overlap */
         flex-direction: column !important;
         height: auto !important;
@@ -236,7 +236,7 @@
 
     .testimonial-image {
         width: 100% !important;
-        height: 200px !important;
+        height: 250px !important;
     }
 
     .testimonial-content {
@@ -246,9 +246,7 @@
 
     /* --- Contact Section --- */
     .contact-section {
-        flex-direction: column !important;
-        height: auto !important;
-        min-height: auto !important;
+        display: none !important;
     }
 
     .contact-half-col {

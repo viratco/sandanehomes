@@ -516,7 +516,13 @@
 
 /* Catarina Services Specific Styles */
 .catarina-hero {
-    padding-top: 180px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    /* Adjusted padding since we are using flex center */
     padding-bottom: 80px;
     text-align: center;
     background-size: cover;
@@ -527,34 +533,45 @@
 
 .catarina-title {
     font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    color: #111;
-    margin-bottom: 10px;
+    font-size: 56px;
+    /* Increased size slightly */
+    color: #fff;
+    margin-bottom: 15px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    /* Stronger shadow for readability */
+    font-weight: 500;
 }
 
 .catarina-subtitle {
-    font-size: 14px;
-    color: #C5A572;
+    font-size: 15px;
+    color: #E6CFA1;
+    /* Lighter gold for better contrast on dark shadow or image */
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
-    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    /* Bolder */
+    margin-bottom: 25px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .catarina-quote {
-    font-size: 24px;
+    font-size: 28px;
     font-family: "My Soul", cursive;
-    color: #555;
-    margin-bottom: 10px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
 }
 
 .catarina-lang-text {
-    font-size: 14px;
-    color: #777;
-    margin-top: 10px;
-    line-height: 1.5;
+    font-size: 15px;
+    color: #f0f0f0;
+    margin-top: 15px;
+    line-height: 1.6;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    font-weight: 500;
 }
 
 .catarina-section {
@@ -590,15 +607,23 @@
 .catarina-facility-item {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    /* Increased gap */
     color: #555;
-    font-size: 15px;
+    font-size: 16px;
+    /* Slightly increased text size */
     line-height: 1.6;
 }
 
 .catarina-facility-icon {
     color: #1A3C34;
-    font-size: 24px;
+    font-size: 40px;
+    /* Increased icon size */
+    min-width: 40px;
+    /* Prevent shrinking */
+    display: flex;
+    /* Center the icon itself if needed */
+    justify-content: center;
 }
 
 .catarina-about-box {
