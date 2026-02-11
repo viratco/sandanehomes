@@ -34,7 +34,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                     <div style={{ display: 'flex', gap: '30px' }}>
                         <span>Tel: +1 212 555 6688</span>
                         <span>Fax: +1 212 555 6699</span>
-                        <span>booking@sandanehomes.com</span>
+                        <span>sandanehomes@gmail.com</span>
                     </div>
                 </div>
             )}
