@@ -95,7 +95,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     )}
                                 </li>
 
-                                <li><Link to="/#service-apartments" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
+                                <li><Link to="/catarina" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
                             </ul>
                         </nav>
                         <style>
