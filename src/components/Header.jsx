@@ -75,6 +75,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     <li
                                         onMouseEnter={() => setIsDropdownOpen(true)}
                                         onMouseLeave={() => setIsDropdownOpen(false)}
+                                        onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -84,7 +85,16 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             borderRight: '1px solid rgba(197, 165, 114, 0.3)' // Subtle golden divider
                                         }}
                                     >
-                                        <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                        <Link
+                                            to="/#accommodations"
+                                            style={{ color: 'inherit', textDecoration: 'none' }}
+                                            onClick={(e) => {
+                                                // On mobile, prevent navigation and just toggle menu
+                                                if (window.innerWidth <= 768) {
+                                                    e.preventDefault();
+                                                }
+                                            }}
+                                        >
                                             HOTELS
                                         </Link>
 
@@ -119,6 +129,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     <li
                                         onMouseEnter={() => setIsServiceDropdownOpen(true)}
                                         onMouseLeave={() => setIsServiceDropdownOpen(false)}
+                                        onClick={() => setIsServiceDropdownOpen(!isServiceDropdownOpen)}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -128,7 +139,17 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             borderRight: '1px solid rgba(197, 165, 114, 0.3)'
                                         }}
                                     >
-                                        <Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link>
+                                        <Link
+                                            to="/catarina-services"
+                                            style={{ color: 'inherit', textDecoration: 'none' }}
+                                            onClick={(e) => {
+                                                if (window.innerWidth <= 768) {
+                                                    e.preventDefault();
+                                                }
+                                            }}
+                                        >
+                                            SERVICE APARTMENT
+                                        </Link>
 
                                         {isServiceDropdownOpen && (
                                             <div style={{
@@ -157,6 +178,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     <li
                                         onMouseEnter={() => setIsRestaurantDropdownOpen(true)}
                                         onMouseLeave={() => setIsRestaurantDropdownOpen(false)}
+                                        onClick={() => setIsRestaurantDropdownOpen(!isRestaurantDropdownOpen)}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -165,7 +187,17 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             padding: '14px 12px'
                                         }}
                                     >
-                                        <Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link>
+                                        <Link
+                                            to="/restaurants"
+                                            style={{ color: 'inherit', textDecoration: 'none' }}
+                                            onClick={(e) => {
+                                                if (window.innerWidth <= 768) {
+                                                    e.preventDefault();
+                                                }
+                                            }}
+                                        >
+                                            RESTAURANTS
+                                        </Link>
 
                                         {isRestaurantDropdownOpen && (
                                             <div style={{
