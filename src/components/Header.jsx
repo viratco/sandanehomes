@@ -50,12 +50,13 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                     <div className="header-nav-links mobile-nav-visible" style={{
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center',
-                        width: '100%',
-                        transition: 'all 0.3s ease'
+                        position: 'absolute',
+                        left: '20px',
+                        zIndex: 10,
+                        transition: 'all 0.3s ease' // Smooth transition for width change
                     }}>
-                        <nav style={{ animation: 'fadeIn 0.3s ease', width: '100%' }}>
-                            <ul className="nav-list-mobile-fix" style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, justifyContent: 'center', width: '100%' }}>
+                        <nav style={{ animation: 'fadeIn 0.3s ease' }}>
+                            <ul className="nav-list-mobile-fix" style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
                                 {/* Dropdown for Accommodations */}
                                 <li
                                     onMouseEnter={() => setIsDropdownOpen(true)}
