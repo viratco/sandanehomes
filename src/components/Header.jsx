@@ -73,9 +73,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     border: '1px solid #C5A572', // Golden border line
                                 }}>
                                     <li
-                                        onMouseEnter={() => setIsDropdownOpen(true)}
-                                        onMouseLeave={() => setIsDropdownOpen(false)}
-                                        onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                                        onMouseEnter={() => { if (window.innerWidth > 768) setIsDropdownOpen(true); }}
+                                        onMouseLeave={() => { if (window.innerWidth > 768) setIsDropdownOpen(false); }}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -92,6 +91,9 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                                 // On mobile, prevent navigation and just toggle menu
                                                 if (window.innerWidth <= 768) {
                                                     e.preventDefault();
+                                                    setIsDropdownOpen(!isDropdownOpen);
+                                                    setIsServiceDropdownOpen(false);
+                                                    setIsRestaurantDropdownOpen(false);
                                                 }
                                             }}
                                         >
@@ -127,9 +129,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     </li>
 
                                     <li
-                                        onMouseEnter={() => setIsServiceDropdownOpen(true)}
-                                        onMouseLeave={() => setIsServiceDropdownOpen(false)}
-                                        onClick={() => setIsServiceDropdownOpen(!isServiceDropdownOpen)}
+                                        onMouseEnter={() => { if (window.innerWidth > 768) setIsServiceDropdownOpen(true); }}
+                                        onMouseLeave={() => { if (window.innerWidth > 768) setIsServiceDropdownOpen(false); }}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -145,6 +146,9 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             onClick={(e) => {
                                                 if (window.innerWidth <= 768) {
                                                     e.preventDefault();
+                                                    setIsServiceDropdownOpen(!isServiceDropdownOpen);
+                                                    setIsDropdownOpen(false);
+                                                    setIsRestaurantDropdownOpen(false);
                                                 }
                                             }}
                                         >
@@ -176,9 +180,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     </li>
 
                                     <li
-                                        onMouseEnter={() => setIsRestaurantDropdownOpen(true)}
-                                        onMouseLeave={() => setIsRestaurantDropdownOpen(false)}
-                                        onClick={() => setIsRestaurantDropdownOpen(!isRestaurantDropdownOpen)}
+                                        onMouseEnter={() => { if (window.innerWidth > 768) setIsRestaurantDropdownOpen(true); }}
+                                        onMouseLeave={() => { if (window.innerWidth > 768) setIsRestaurantDropdownOpen(false); }}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -193,6 +196,9 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             onClick={(e) => {
                                                 if (window.innerWidth <= 768) {
                                                     e.preventDefault();
+                                                    setIsRestaurantDropdownOpen(!isRestaurantDropdownOpen);
+                                                    setIsDropdownOpen(false);
+                                                    setIsServiceDropdownOpen(false);
                                                 }
                                             }}
                                         >
