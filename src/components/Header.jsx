@@ -50,31 +50,12 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                     <div className="header-nav-links mobile-nav-visible" style={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '20px', // Reduced gap
-                        position: 'absolute',
-                        left: '10px',
-                        backgroundColor: 'rgba(0, 0, 0, 0.4)',
-                        padding: '8px 15px', // Reduced padding
-                        borderRadius: '30px',
-                        backdropFilter: 'blur(5px)',
-                        transition: 'all 0.3s ease' // Smooth transition for width change
+                        justifyContent: 'center',
+                        width: '100%',
+                        transition: 'all 0.3s ease'
                     }}>
-                        <div
-                            style={{
-                                width: '24px',
-                                height: '16px',
-                                display: 'flex',
-                                flexDirection: 'column',
-                                justifyContent: 'space-between',
-                                zIndex: 2
-                            }}
-                        >
-                            <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
-                            <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
-                            <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
-                        </div>
-                        <nav style={{ animation: 'fadeIn 0.3s ease' }}>
-                            <ul style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
+                        <nav style={{ animation: 'fadeIn 0.3s ease', width: '100%' }}>
+                            <ul className="nav-list-mobile-fix" style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, justifyContent: 'center', width: '100%' }}>
                                 {/* Dropdown for Accommodations */}
                                 <li
                                     onMouseEnter={() => setIsDropdownOpen(true)}

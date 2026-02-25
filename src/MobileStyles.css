@@ -47,10 +47,18 @@
         display: flex !important;
         flex-wrap: wrap;
         position: static !important;
-        width: fit-content !important;
+        width: 100% !important;
         justify-content: center;
-        margin: 10px auto !important;
+        margin: 5px auto !important;
+        padding: 0 !important;
+        background: transparent !important;
+    }
+
+    .nav-list-mobile-fix {
         gap: 15px !important;
+        font-size: 10px !important;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .logo-container {
