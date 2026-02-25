@@ -1,11 +1,22 @@
 import React, { useState } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation, Link, useNavigate } from 'react-router-dom';
 
 const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
     const location = useLocation();
+    const navigate = useNavigate();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [isServiceDropdownOpen, setIsServiceDropdownOpen] = useState(false);
     const [isRestaurantDropdownOpen, setIsRestaurantDropdownOpen] = useState(false);
+
+    const handleNavClick = (setter, dest, currentState) => {
+        if (window.innerWidth <= 768) {
+            // On mobile: toggle dropdown
+            setter(!currentState);
+        } else {
+            // On desktop: just navigate
+            navigate(dest);
+        }
+    };
 
     // Force hide top bar on Catarina Services page regardless of prop
     const shouldShowTopBar = showTopBar && location.pathname !== '/catarina-services';
@@ -73,32 +84,23 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     border: '1px solid #C5A572', // Golden border line
                                 }}>
                                     <li
-                                        onMouseEnter={() => { if (window.innerWidth > 768) setIsDropdownOpen(true); }}
-                                        onMouseLeave={() => { if (window.innerWidth > 768) setIsDropdownOpen(false); }}
+                                        onMouseEnter={() => setIsDropdownOpen(true)}
+                                        onMouseLeave={() => setIsDropdownOpen(false)}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
                                             display: 'flex',
                                             alignItems: 'center',
                                             padding: '12px 12px',
-                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)' // Subtle golden divider
+                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)'
                                         }}
                                     >
-                                        <Link
-                                            to="/#accommodations"
-                                            style={{ color: 'inherit', textDecoration: 'none' }}
-                                            onClick={(e) => {
-                                                // On mobile, prevent navigation and just toggle menu
-                                                if (window.innerWidth <= 768) {
-                                                    e.preventDefault();
-                                                    setIsDropdownOpen(!isDropdownOpen);
-                                                    setIsServiceDropdownOpen(false);
-                                                    setIsRestaurantDropdownOpen(false);
-                                                }
-                                            }}
+                                        <div
+                                            onClick={() => handleNavClick(setIsDropdownOpen, '/#accommodations', isDropdownOpen)}
+                                            style={{ cursor: 'pointer', color: 'inherit', userSelect: 'none' }}
                                         >
                                             HOTELS
-                                        </Link>
+                                        </div>
 
                                         {isDropdownOpen && (
                                             <div style={{
@@ -129,8 +131,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     </li>
 
                                     <li
-                                        onMouseEnter={() => { if (window.innerWidth > 768) setIsServiceDropdownOpen(true); }}
-                                        onMouseLeave={() => { if (window.innerWidth > 768) setIsServiceDropdownOpen(false); }}
+                                        onMouseEnter={() => setIsServiceDropdownOpen(true)}
+                                        onMouseLeave={() => setIsServiceDropdownOpen(false)}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -140,20 +142,12 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             borderRight: '1px solid rgba(197, 165, 114, 0.3)'
                                         }}
                                     >
-                                        <Link
-                                            to="/catarina-services"
-                                            style={{ color: 'inherit', textDecoration: 'none' }}
-                                            onClick={(e) => {
-                                                if (window.innerWidth <= 768) {
-                                                    e.preventDefault();
-                                                    setIsServiceDropdownOpen(!isServiceDropdownOpen);
-                                                    setIsDropdownOpen(false);
-                                                    setIsRestaurantDropdownOpen(false);
-                                                }
-                                            }}
+                                        <div
+                                            onClick={() => handleNavClick(setIsServiceDropdownOpen, '/catarina-services', isServiceDropdownOpen)}
+                                            style={{ cursor: 'pointer', color: 'inherit', userSelect: 'none' }}
                                         >
                                             SERVICE APARTMENT
-                                        </Link>
+                                        </div>
 
                                         {isServiceDropdownOpen && (
                                             <div style={{
@@ -180,8 +174,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     </li>
 
                                     <li
-                                        onMouseEnter={() => { if (window.innerWidth > 768) setIsRestaurantDropdownOpen(true); }}
-                                        onMouseLeave={() => { if (window.innerWidth > 768) setIsRestaurantDropdownOpen(false); }}
+                                        onMouseEnter={() => setIsRestaurantDropdownOpen(true)}
+                                        onMouseLeave={() => setIsRestaurantDropdownOpen(false)}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
@@ -190,20 +184,12 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             padding: '14px 12px'
                                         }}
                                     >
-                                        <Link
-                                            to="/restaurants"
-                                            style={{ color: 'inherit', textDecoration: 'none' }}
-                                            onClick={(e) => {
-                                                if (window.innerWidth <= 768) {
-                                                    e.preventDefault();
-                                                    setIsRestaurantDropdownOpen(!isRestaurantDropdownOpen);
-                                                    setIsDropdownOpen(false);
-                                                    setIsServiceDropdownOpen(false);
-                                                }
-                                            }}
+                                        <div
+                                            onClick={() => handleNavClick(setIsRestaurantDropdownOpen, '/restaurants', isRestaurantDropdownOpen)}
+                                            style={{ cursor: 'pointer', color: 'inherit', userSelect: 'none' }}
                                         >
                                             RESTAURANTS
-                                        </Link>
+                                        </div>
 
                                         {isRestaurantDropdownOpen && (
                                             <div style={{
