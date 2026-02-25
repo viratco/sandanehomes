@@ -4,6 +4,8 @@ import { useLocation, Link } from 'react-router-dom';
 const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
     const location = useLocation();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [isServiceDropdownOpen, setIsServiceDropdownOpen] = useState(false);
+    const [isRestaurantDropdownOpen, setIsRestaurantDropdownOpen] = useState(false);
 
     // Force hide top bar on Catarina Services page regardless of prop
     const shouldShowTopBar = showTopBar && location.pathname !== '/catarina-services';
@@ -114,11 +116,79 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                         )}
                                     </li>
 
-                                    <li style={{ padding: '12px 12px', borderRight: '1px solid rgba(197, 165, 114, 0.3)' }}>
+                                    <li
+                                        onMouseEnter={() => setIsServiceDropdownOpen(true)}
+                                        onMouseLeave={() => setIsServiceDropdownOpen(false)}
+                                        style={{
+                                            position: 'relative',
+                                            height: '100%',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            padding: '14px 12px',
+                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)'
+                                        }}
+                                    >
                                         <Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link>
+
+                                        {isServiceDropdownOpen && (
+                                            <div style={{
+                                                position: 'absolute',
+                                                top: '100%',
+                                                left: '50%',
+                                                transform: 'translateX(-50%)',
+                                                paddingTop: '20px',
+                                                zIndex: 20,
+                                            }}>
+                                                <div style={{
+                                                    backgroundColor: 'white',
+                                                    borderRadius: '20px',
+                                                    padding: '20px',
+                                                    minWidth: '220px',
+                                                    boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+                                                }}>
+                                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
+                                                        <li><Link to="/catarina-services" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>CATARINA</Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        )}
                                     </li>
-                                    <li style={{ padding: '12px 12px' }}>
+
+                                    <li
+                                        onMouseEnter={() => setIsRestaurantDropdownOpen(true)}
+                                        onMouseLeave={() => setIsRestaurantDropdownOpen(false)}
+                                        style={{
+                                            position: 'relative',
+                                            height: '100%',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            padding: '14px 12px'
+                                        }}
+                                    >
                                         <Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link>
+
+                                        {isRestaurantDropdownOpen && (
+                                            <div style={{
+                                                position: 'absolute',
+                                                top: '100%',
+                                                left: '50%',
+                                                transform: 'translateX(-50%)',
+                                                paddingTop: '20px',
+                                                zIndex: 20,
+                                            }}>
+                                                <div style={{
+                                                    backgroundColor: 'white',
+                                                    borderRadius: '20px',
+                                                    padding: '20px',
+                                                    minWidth: '220px',
+                                                    boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+                                                }}>
+                                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
+                                                        <li><Link to="/restaurants" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SOHEE'S KITCHEN</Link></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        )}
                                     </li>
                                 </ul>
                             </nav>
