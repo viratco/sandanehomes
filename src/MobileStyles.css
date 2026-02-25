@@ -21,8 +21,12 @@
     }
 
     .header-nav-row {
-        justify-content: space-between !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
         padding: 0 15px !important;
+        gap: 15px;
+        /* Add some space between nav and logo */
     }
 
     .header-nav-links {
