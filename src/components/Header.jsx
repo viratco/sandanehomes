@@ -78,7 +78,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             height: '100%',
                                             display: 'flex',
                                             alignItems: 'center',
-                                            padding: '8px 12px',
+                                            padding: '14px 20px',
                                             borderRight: '1px solid rgba(197, 165, 114, 0.3)' // Subtle golden divider
                                         }}
                                     >
@@ -114,10 +114,10 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                         )}
                                     </li>
 
-                                    <li style={{ padding: '8px 12px', borderRight: '1px solid rgba(197, 165, 114, 0.3)' }}>
+                                    <li style={{ padding: '14px 20px', borderRight: '1px solid rgba(197, 165, 114, 0.3)' }}>
                                         <Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link>
                                     </li>
-                                    <li style={{ padding: '8px 12px' }}>
+                                    <li style={{ padding: '14px 20px' }}>
                                         <Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link>
                                     </li>
                                 </ul>
