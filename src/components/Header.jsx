@@ -3,7 +3,6 @@ import { useLocation, Link } from 'react-router-dom';
 
 const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
     const location = useLocation();
-    const [isNavOpen, setIsNavOpen] = useState(false); // Default to closed (collapsible)
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     // Force hide top bar on Catarina Services page regardless of prop
@@ -32,8 +31,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                 }}>
                     <div>BB-28, Block B, Ansal Golf Link -1, Greater Noida, Uttar Pradesh 201315</div>
                     <div style={{ display: 'flex', gap: '30px' }}>
-                        <span>Tel: +1 212 555 6688</span>
-                        <span>Fax: +1 212 555 6699</span>
+                        <span>Tel: +91 9711722273</span>
                         <span>sandanehomes@gmail.com</span>
                     </div>
                 </div>
@@ -62,14 +60,12 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         transition: 'all 0.3s ease' // Smooth transition for width change
                     }}>
                         <div
-                            onClick={() => setIsNavOpen(!isNavOpen)}
                             style={{
                                 width: '24px',
                                 height: '16px',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 justifyContent: 'space-between',
-                                cursor: 'pointer',
                                 zIndex: 2
                             }}
                         >
@@ -77,52 +73,49 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                             <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
                             <div style={{ height: '2px', background: 'white', width: '100%' }}></div>
                         </div>
-                        {isNavOpen && (
-                            <nav style={{ animation: 'fadeIn 0.3s ease' }}>
-                                <ul style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
-                                    <li><Link to="/#service-apartments" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
+                        <nav style={{ animation: 'fadeIn 0.3s ease' }}>
+                            <ul style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
+                                {/* Dropdown for Accommodations */}
+                                <li
+                                    onMouseEnter={() => setIsDropdownOpen(true)}
+                                    onMouseLeave={() => setIsDropdownOpen(false)}
+                                    style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}
+                                >
+                                    <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none', padding: '10px 0' }}>
+                                        ACCOMMODATIONS
+                                    </Link>
 
-                                    {/* Dropdown for Accommodations */}
-                                    <li
-                                        onMouseEnter={() => setIsDropdownOpen(true)}
-                                        onMouseLeave={() => setIsDropdownOpen(false)}
-                                        style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}
-                                    >
-                                        <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none', padding: '10px 0' }}>
-                                            ACCOMMODATIONS
-                                        </Link>
-
-                                        {isDropdownOpen && (
+                                    {isDropdownOpen && (
+                                        <div style={{
+                                            position: 'absolute',
+                                            top: '100%', // Start right below the link
+                                            left: '50%',
+                                            transform: 'translateX(-50%)',
+                                            paddingTop: '20px', // Create an invisible bridge for the cursor
+                                            zIndex: 20,
+                                        }}>
                                             <div style={{
-                                                position: 'absolute',
-                                                top: '100%', // Start right below the link
-                                                left: '50%',
-                                                transform: 'translateX(-50%)',
-                                                paddingTop: '20px', // Create an invisible bridge for the cursor
-                                                zIndex: 20,
+                                                backgroundColor: 'white',
+                                                borderRadius: '20px',
+                                                padding: '20px',
+                                                minWidth: '220px',
+                                                boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
                                             }}>
-                                                <div style={{
-                                                    backgroundColor: 'white',
-                                                    borderRadius: '20px',
-                                                    padding: '20px',
-                                                    minWidth: '220px',
-                                                    boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
-                                                }}>
-                                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
-                                                        <li><Link to="/catarina-services" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>CATARINA SERVICES</Link></li>
-                                                        <li><Link to="/sandane-homes" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SANDANE HOMES</Link></li>
-                                                        <li><Link to="/amara" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMARA</Link></li>
-                                                        <li><Link to="/amaaltash" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMAALTASH</Link></li>
-                                                        <li><Link to="/saffron" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SAFFRON</Link></li>
-                                                        <li><Link to="/pine-tales" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>PINE TALES</Link></li>
-                                                    </ul>
-                                                </div>
+                                                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
+                                                    <li><Link to="/sandane-homes" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SANDANE HOMES</Link></li>
+                                                    <li><Link to="/amara" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMARA</Link></li>
+                                                    <li><Link to="/amaaltash" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMAALTASH</Link></li>
+                                                    <li><Link to="/saffron" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SAFFRON</Link></li>
+                                                    <li><Link to="/pine-tales" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>PINE TALES</Link></li>
+                                                </ul>
                                             </div>
-                                        )}
-                                    </li>
-                                </ul>
-                            </nav>
-                        )}
+                                        </div>
+                                    )}
+                                </li>
+
+                                <li><Link to="/#service-apartments" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
+                            </ul>
+                        </nav>
                         <style>
                             {`
                                 @keyframes fadeIn {

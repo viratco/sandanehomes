@@ -20,7 +20,7 @@ const ContactSection = () => {
                     </p>
 
                     <p className="contact-desc">
-                        Tel: +1 212-555-6699<br />
+                        Tel: +91 9711722273<br />
                         Email: information@sandanehomes.com
                     </p>
 
@@ -46,7 +46,7 @@ const ContactSection = () => {
                     </p>
 
                     <p className="contact-desc">
-                        Tel: +1 212-555-6688<br />
+                        Tel: +91 9711722273<br />
                         Email: reservation@sandanehomes.com
                     </p>
 

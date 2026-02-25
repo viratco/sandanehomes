@@ -74,11 +74,26 @@ const Footer = () => {
                             lineHeight: '1.3',
                             color: '#111',
                             fontWeight: '400',
-                            maxWidth: '500px'
+                            maxWidth: '500px',
+                            marginBottom: '30px'
                         }}>
                             Have a question or want to know more about our property showcases?
                             Share your details and we’ll get back to you.
                         </h2>
+
+                        <div style={{
+                            fontSize: '15px',
+                            color: '#555',
+                            lineHeight: '1.6',
+                            fontWeight: '500'
+                        }}>
+                            <p style={{ margin: '0 0 10px 0' }}>
+                                <strong style={{ color: '#111' }}>Phone:</strong> +91 9711722273
+                            </p>
+                            <p style={{ margin: 0 }}>
+                                <strong style={{ color: '#111' }}>Email:</strong> sandanehomes@gmail.com
+                            </p>
+                        </div>
                     </div>
 
                     {/* RIGHT FORM */}

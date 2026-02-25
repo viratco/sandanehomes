@@ -167,7 +167,10 @@ const Saffron = () => {
 
                 {/* Floating Book Now Button below Stats Bar */}
                 <div className="sandane-floating-buttons">
-                    <button className="btn-book">
+                    <button
+                        className="btn-book"
+                        onClick={() => window.open('https://www.makemytrip.com/hotels/saffron_inn_india_expo_mart-details-greater_noida.html', '_blank')}
+                    >
                         Book Now
                     </button>
                     <button
