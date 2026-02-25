@@ -58,7 +58,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                             <nav style={{ animation: 'fadeIn 0.3s ease' }}>
                                 <ul className="nav-list-mobile-fix" style={{
                                     display: 'flex',
-                                    fontSize: '11px',
+                                    fontSize: '10px', // Reduced to fit better
                                     fontWeight: '600',
                                     letterSpacing: '1px',
                                     listStyle: 'none',
@@ -78,7 +78,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             height: '100%',
                                             display: 'flex',
                                             alignItems: 'center',
-                                            padding: '12px 20px',
+                                            padding: '8px 12px',
                                             borderRight: '1px solid rgba(197, 165, 114, 0.3)' // Subtle golden divider
                                         }}
                                     >
@@ -114,10 +114,10 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                         )}
                                     </li>
 
-                                    <li style={{ padding: '12px 20px', borderRight: '1px solid rgba(197, 165, 114, 0.3)' }}>
+                                    <li style={{ padding: '8px 12px', borderRight: '1px solid rgba(197, 165, 114, 0.3)' }}>
                                         <Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link>
                                     </li>
-                                    <li style={{ padding: '12px 20px' }}>
+                                    <li style={{ padding: '8px 12px' }}>
                                         <Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link>
                                     </li>
                                 </ul>
@@ -141,10 +141,11 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         fontSize: '32px',
                         letterSpacing: '3px',
                         textAlign: 'center',
-                        flexShrink: 0,
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
+                        position: 'absolute',
+                        left: '50%',
+                        transform: 'translateX(-50%)',
                         zIndex: 1, // Keep behind dropdowns but visible clearly
+                        whiteSpace: 'nowrap' // Ensure logo doesn't wrap unnecessarily
                     }}>
                         SANDANE HOMES
                         <div style={{ fontSize: '10px', letterSpacing: '5px', marginTop: '-5px', color: '#C5A572' }}>★ ★ ★ ★ ★</div>
