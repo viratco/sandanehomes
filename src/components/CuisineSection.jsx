@@ -448,18 +448,34 @@ const CuisineSection = () => {
                                 Don't just stay—live. Join the community of professionals who have chosen the Catarina standard of comfort, privacy, and service. Limited exclusive units available in DLF & Jaypee Greens.
                             </p>
 
-                            <button style={{
-                                padding: '18px 45px',
-                                backgroundColor: '#C5A572', // Gold Button
-                                border: 'none',
-                                color: '#1A3C34', // Dark Text
-                                fontSize: '14px',
-                                textTransform: 'uppercase',
-                                letterSpacing: '1px',
-                                cursor: 'pointer',
-                                fontWeight: '600',
-                                transition: 'all 0.3s ease'
-                            }}>
+                            <button
+                                onClick={() => {
+                                    const contactSection = document.getElementById('contact');
+                                    if (contactSection) {
+                                        contactSection.scrollIntoView({ behavior: 'smooth' });
+                                    } else {
+                                        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+                                    }
+                                }}
+                                style={{
+                                    padding: '18px 45px',
+                                    backgroundColor: '#C5A572', // Gold Button
+                                    border: 'none',
+                                    color: '#1A3C34', // Dark Text
+                                    fontSize: '14px',
+                                    textTransform: 'uppercase',
+                                    letterSpacing: '1px',
+                                    cursor: 'pointer',
+                                    fontWeight: '600',
+                                    transition: 'all 0.3s ease'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.backgroundColor = '#d4b787';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.backgroundColor = '#C5A572';
+                                }}
+                            >
                                 Reserve Your Apartment
                             </button>
                         </div>
