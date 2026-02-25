@@ -45,20 +45,26 @@
     /* If we want to keep links visible but smaller/scrollable */
     .mobile-nav-visible {
         display: flex !important;
-        flex-wrap: wrap;
-        position: static !important;
+        position: relative !important;
+        /* Change from static/absolute to relative so it flows */
         width: 100% !important;
         justify-content: center;
-        margin: 5px auto !important;
+        margin: 15px auto 10px auto !important;
         padding: 0 !important;
         background: transparent !important;
     }
 
     .nav-list-mobile-fix {
+        display: flex !important;
+        flex-direction: row !important;
+        /* Keep horizontal */
+        flex-wrap: wrap !important;
+        /* Allow wrapping */
+        justify-content: center !important;
+        align-items: center !important;
         gap: 15px !important;
-        font-size: 10px !important;
-        flex-wrap: wrap;
-        justify-content: center;
+        font-size: 11px !important;
+        text-align: center;
     }
 
     .logo-container {
