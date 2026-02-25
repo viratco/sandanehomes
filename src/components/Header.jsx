@@ -141,9 +141,9 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         fontSize: '32px',
                         letterSpacing: '3px',
                         textAlign: 'center',
-                        position: 'absolute',
-                        left: '50%',
-                        transform: 'translateX(-50%)',
+                        flexShrink: 0,
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
                         zIndex: 1, // Keep behind dropdowns but visible clearly
                     }}>
                         SANDANE HOMES
