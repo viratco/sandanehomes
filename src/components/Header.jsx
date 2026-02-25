@@ -58,26 +58,31 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                             <nav style={{ animation: 'fadeIn 0.3s ease' }}>
                                 <ul className="nav-list-mobile-fix" style={{
                                     display: 'flex',
-                                    gap: '20px',
                                     fontSize: '11px',
                                     fontWeight: '600',
                                     letterSpacing: '1px',
                                     listStyle: 'none',
                                     margin: 0,
-                                    padding: '10px 25px',
+                                    padding: '0 15px',
                                     alignItems: 'center',
-                                    backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark translucent strip
+                                    backgroundColor: 'rgba(5, 5, 5, 0.85)', // Very dark background like screenshot
                                     backdropFilter: 'blur(8px)', // Frosted glass effect
-                                    borderRadius: '30px', // Nice rounded edges for the strip
-                                    border: '1px solid #C5A572' // Golden border line
+                                    borderRadius: '50px', // Perfect pill
+                                    border: '1px solid #C5A572', // Golden border line
                                 }}>
-                                    {/* Dropdown for Accommodations */}
                                     <li
                                         onMouseEnter={() => setIsDropdownOpen(true)}
                                         onMouseLeave={() => setIsDropdownOpen(false)}
-                                        style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}
+                                        style={{
+                                            position: 'relative',
+                                            height: '100%',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            padding: '12px 20px',
+                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)' // Subtle golden divider
+                                        }}
                                     >
-                                        <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none', padding: '10px 0' }}>
+                                        <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none' }}>
                                             HOTELS
                                         </Link>
 
@@ -109,8 +114,12 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                         )}
                                     </li>
 
-                                    <li><Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
-                                    <li><Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link></li>
+                                    <li style={{ padding: '12px 20px', borderRight: '1px solid rgba(197, 165, 114, 0.3)' }}>
+                                        <Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link>
+                                    </li>
+                                    <li style={{ padding: '12px 20px' }}>
+                                        <Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link>
+                                    </li>
                                 </ul>
                             </nav>
                             <style>
