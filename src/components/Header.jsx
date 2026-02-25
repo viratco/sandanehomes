@@ -56,7 +56,20 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         transition: 'all 0.3s ease' // Smooth transition for width change
                     }}>
                         <nav style={{ animation: 'fadeIn 0.3s ease' }}>
-                            <ul className="nav-list-mobile-fix" style={{ display: 'flex', gap: '30px', fontSize: '12px', fontWeight: '600', letterSpacing: '1px', listStyle: 'none', margin: 0, padding: 0, alignItems: 'center' }}>
+                            <ul className="nav-list-mobile-fix" style={{
+                                display: 'flex',
+                                gap: '30px',
+                                fontSize: '13px',
+                                fontWeight: '600',
+                                letterSpacing: '1px',
+                                listStyle: 'none',
+                                margin: 0,
+                                padding: '10px 25px',
+                                alignItems: 'center',
+                                backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark translucent strip
+                                backdropFilter: 'blur(8px)', // Frosted glass effect
+                                borderRadius: '30px', // Nice rounded edges for the strip
+                            }}>
                                 {/* Dropdown for Accommodations */}
                                 <li
                                     onMouseEnter={() => setIsDropdownOpen(true)}
