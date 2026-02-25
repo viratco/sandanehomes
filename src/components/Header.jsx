@@ -69,6 +69,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark translucent strip
                                     backdropFilter: 'blur(8px)', // Frosted glass effect
                                     borderRadius: '30px', // Nice rounded edges for the strip
+                                    border: '1px solid #C5A572' // Golden border line
                                 }}>
                                     {/* Dropdown for Accommodations */}
                                     <li
