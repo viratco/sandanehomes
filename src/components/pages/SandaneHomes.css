@@ -632,3 +632,10 @@
     padding: 60px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .catarina-lang-text {
+        font-size: 20px !important;
+        line-height: 1.5 !important;
+    }
+}

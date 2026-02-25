@@ -50,7 +50,12 @@ const CatarinaServices = () => {
                     "Where Comfort Meets Class"
                 </div>
                 {/* Multi-language text from flyer */}
-                <div className="catarina-lang-text">
+                <div className="catarina-lang-text" style={{
+                    fontSize: '28px',
+                    lineHeight: '1.6',
+                    textShadow: '2px 2px 8px rgba(0,0,0,0.8)',
+                    fontWeight: '500'
+                }}>
                     편안함과 품격이 만나는 곳<br />
                     快適さと高級感が融合した場所
                 </div>
