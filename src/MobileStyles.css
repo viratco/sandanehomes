@@ -44,6 +44,8 @@
 
     /* If we want to keep links visible but smaller/scrollable */
     .mobile-nav-visible {
+        display: flex !important;
+        flex-wrap: wrap;
         position: static !important;
         width: fit-content !important;
         justify-content: center;
