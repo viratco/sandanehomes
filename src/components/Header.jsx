@@ -109,6 +109,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                 </li>
 
                                 <li><Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
+                                <li><Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link></li>
                             </ul>
                         </nav>
                         <style>
