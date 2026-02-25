@@ -40,88 +40,89 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
             {/* Navbar Row */}
             <div className="container header-nav-row" style={{
                 display: 'flex',
-                justifyContent: 'center', // Center content when only logo is present, or space-between if nav exists
+                justifyContent: 'space-between',
                 alignItems: 'center',
-                padding: '0 10px',
-                position: 'relative' // For absolute positioning of logo center if we wanted, but flex is safer
+                padding: '0 20px',
+                width: '100%',
+                boxSizing: 'border-box'
             }}>
                 {/* Left Nav */}
-                {showNav && (
-                    <div className="header-nav-links mobile-nav-visible" style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        position: 'absolute',
-                        left: '20px',
-                        zIndex: 10,
-                        transition: 'all 0.3s ease' // Smooth transition for width change
-                    }}>
-                        <nav style={{ animation: 'fadeIn 0.3s ease' }}>
-                            <ul className="nav-list-mobile-fix" style={{
-                                display: 'flex',
-                                gap: '30px',
-                                fontSize: '13px',
-                                fontWeight: '600',
-                                letterSpacing: '1px',
-                                listStyle: 'none',
-                                margin: 0,
-                                padding: '10px 25px',
-                                alignItems: 'center',
-                                backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark translucent strip
-                                backdropFilter: 'blur(8px)', // Frosted glass effect
-                                borderRadius: '30px', // Nice rounded edges for the strip
-                            }}>
-                                {/* Dropdown for Accommodations */}
-                                <li
-                                    onMouseEnter={() => setIsDropdownOpen(true)}
-                                    onMouseLeave={() => setIsDropdownOpen(false)}
-                                    style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}
-                                >
-                                    <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none', padding: '10px 0' }}>
-                                        ACCOMMODATIONS
-                                    </Link>
+                <div className="desktop-left-nav" style={{ flex: 1, display: 'flex', justifyContent: 'flex-start' }}>
+                    {showNav && (
+                        <div className="header-nav-links mobile-nav-visible" style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            zIndex: 10,
+                            transition: 'all 0.3s ease' // Smooth transition for width change
+                        }}>
+                            <nav style={{ animation: 'fadeIn 0.3s ease' }}>
+                                <ul className="nav-list-mobile-fix" style={{
+                                    display: 'flex',
+                                    gap: '20px',
+                                    fontSize: '11px',
+                                    fontWeight: '600',
+                                    letterSpacing: '1px',
+                                    listStyle: 'none',
+                                    margin: 0,
+                                    padding: '10px 25px',
+                                    alignItems: 'center',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.4)', // Dark translucent strip
+                                    backdropFilter: 'blur(8px)', // Frosted glass effect
+                                    borderRadius: '30px', // Nice rounded edges for the strip
+                                }}>
+                                    {/* Dropdown for Accommodations */}
+                                    <li
+                                        onMouseEnter={() => setIsDropdownOpen(true)}
+                                        onMouseLeave={() => setIsDropdownOpen(false)}
+                                        style={{ position: 'relative', height: '100%', display: 'flex', alignItems: 'center' }}
+                                    >
+                                        <Link to="/#accommodations" style={{ color: 'inherit', textDecoration: 'none', padding: '10px 0' }}>
+                                            HOTELS
+                                        </Link>
 
-                                    {isDropdownOpen && (
-                                        <div style={{
-                                            position: 'absolute',
-                                            top: '100%', // Start right below the link
-                                            left: '50%',
-                                            transform: 'translateX(-50%)',
-                                            paddingTop: '20px', // Create an invisible bridge for the cursor
-                                            zIndex: 20,
-                                        }}>
+                                        {isDropdownOpen && (
                                             <div style={{
-                                                backgroundColor: 'white',
-                                                borderRadius: '20px',
-                                                padding: '20px',
-                                                minWidth: '220px',
-                                                boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+                                                position: 'absolute',
+                                                top: '100%', // Start right below the link
+                                                left: '50%',
+                                                transform: 'translateX(-50%)',
+                                                paddingTop: '20px', // Create an invisible bridge for the cursor
+                                                zIndex: 20,
                                             }}>
-                                                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
-                                                    <li><Link to="/sandane-homes" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SANDANE HOMES</Link></li>
-                                                    <li><Link to="/amara" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMARA</Link></li>
-                                                    <li><Link to="/amaaltash" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMAALTASH</Link></li>
-                                                    <li><Link to="/saffron" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SAFFRON</Link></li>
-                                                    <li><Link to="/pine-tales" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>PINE TALES</Link></li>
-                                                </ul>
+                                                <div style={{
+                                                    backgroundColor: 'white',
+                                                    borderRadius: '20px',
+                                                    padding: '20px',
+                                                    minWidth: '220px',
+                                                    boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
+                                                }}>
+                                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
+                                                        <li><Link to="/sandane-homes" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SANDANE HOMES</Link></li>
+                                                        <li><Link to="/amara" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMARA</Link></li>
+                                                        <li><Link to="/amaaltash" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>AMAALTASH</Link></li>
+                                                        <li><Link to="/saffron" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>SAFFRON</Link></li>
+                                                        <li><Link to="/pine-tales" style={{ color: '#333', textDecoration: 'none', fontSize: '14px', display: 'block', fontWeight: '500' }}>PINE TALES</Link></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                    )}
-                                </li>
+                                        )}
+                                    </li>
 
-                                <li><Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
-                                <li><Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link></li>
-                            </ul>
-                        </nav>
-                        <style>
-                            {`
+                                    <li><Link to="/catarina-services" style={{ color: 'inherit', textDecoration: 'none' }}>SERVICE APARTMENT</Link></li>
+                                    <li><Link to="/restaurants" style={{ color: 'inherit', textDecoration: 'none' }}>RESTAURANTS</Link></li>
+                                </ul>
+                            </nav>
+                            <style>
+                                {`
                                 @keyframes fadeIn {
                                     from { opacity: 0; transform: translateX(-10px); }
                                     to { opacity: 1; transform: translateX(0); }
                                 }
                             `}
-                        </style>
-                    </div>
-                )}
+                            </style>
+                        </div>
+                    )}
+                </div>
 
                 {/* Logo */}
                 {showLogo && (
@@ -130,12 +131,15 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                         fontSize: '32px',
                         letterSpacing: '3px',
                         textAlign: 'center',
+                        position: 'absolute',
+                        left: '50%',
+                        transform: 'translateX(-50%)',
+                        zIndex: 1, // Keep behind dropdowns but visible clearly
                     }}>
                         SANDANE HOMES
                         <div style={{ fontSize: '10px', letterSpacing: '5px', marginTop: '-5px', color: '#C5A572' }}>★ ★ ★ ★ ★</div>
                     </div>
                 )}
-
 
             </div>
         </header>
