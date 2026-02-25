@@ -67,7 +67,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     alignItems: 'center',
                                     backgroundColor: 'rgba(5, 5, 5, 0.85)', // Very dark background like screenshot
                                     backdropFilter: 'blur(8px)', // Frosted glass effect
-                                    borderRadius: '50px', // Perfect pill
+                                    borderRadius: '4px', // Sharp rectangle with very slight rounding for modern feel
                                     border: '1px solid #C5A572', // Golden border line
                                 }}>
                                     <li
