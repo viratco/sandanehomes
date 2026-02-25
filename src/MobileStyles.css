@@ -46,12 +46,13 @@
     .mobile-nav-visible {
         display: flex !important;
         position: relative !important;
-        /* Change from static/absolute to relative so it flows */
         width: 100% !important;
         justify-content: center;
         margin: 15px auto 10px auto !important;
         padding: 0 !important;
         background: transparent !important;
+        overflow: visible !important;
+        /* Allow dropdown to render below nav bar */
     }
 
     .nav-list-mobile-fix {
@@ -60,19 +61,13 @@
         flex-wrap: nowrap !important;
         /* Prevent double lines breaking the box */
         justify-content: flex-start !important;
-        /* Start from left on mobile to allow scroll */
         align-items: center !important;
         gap: 0 !important;
-        /* Remove gap so borders touch cleanly */
         font-size: 9px !important;
-        /* Smaller size for mobile screens */
         text-align: center;
-        overflow-x: auto !important;
-        /* Important: Allow horizontal swipe on very small phones */
-        -webkit-overflow-scrolling: touch;
-        /* Smooth scroll on iOS */
-        padding: 0 10px !important;
-        /* Small padding at edges of box */
+        overflow: visible !important;
+        /* CRITICAL: must be visible so dropdown shows below nav */
+        padding: 0 !important;
     }
 
     .nav-list-mobile-fix li {
