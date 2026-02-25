@@ -83,34 +83,41 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                     borderRadius: '4px', // Sharp rectangle with very slight rounding for modern feel
                                     border: '1px solid #C5A572', // Golden border line
                                 }}>
+                                    {/* HOTELS */}
                                     <li
                                         onMouseEnter={() => setIsDropdownOpen(true)}
                                         onMouseLeave={() => setIsDropdownOpen(false)}
+                                        onTouchStart={(e) => {
+                                            e.stopPropagation();
+                                            setIsDropdownOpen(prev => !prev);
+                                            setIsServiceDropdownOpen(false);
+                                            setIsRestaurantDropdownOpen(false);
+                                        }}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
                                             display: 'flex',
                                             alignItems: 'center',
                                             padding: '12px 12px',
-                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)'
+                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)',
+                                            cursor: 'pointer',
+                                            userSelect: 'none',
                                         }}
                                     >
-                                        <div
-                                            onClick={() => handleNavClick(setIsDropdownOpen, '/#accommodations', isDropdownOpen)}
-                                            style={{ cursor: 'pointer', color: 'inherit', userSelect: 'none' }}
-                                        >
-                                            HOTELS
-                                        </div>
+                                        HOTELS
 
                                         {isDropdownOpen && (
-                                            <div style={{
-                                                position: 'absolute',
-                                                top: '100%', // Start right below the link
-                                                left: '50%',
-                                                transform: 'translateX(-50%)',
-                                                paddingTop: '20px', // Create an invisible bridge for the cursor
-                                                zIndex: 20,
-                                            }}>
+                                            <div
+                                                onTouchStart={(e) => e.stopPropagation()}
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: '100%',
+                                                    left: '50%',
+                                                    transform: 'translateX(-50%)',
+                                                    paddingTop: '12px',
+                                                    zIndex: 20,
+                                                }}
+                                            >
                                                 <div style={{
                                                     backgroundColor: 'white',
                                                     borderRadius: '20px',
@@ -130,39 +137,46 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                         )}
                                     </li>
 
+                                    {/* SERVICE APARTMENT */}
                                     <li
                                         onMouseEnter={() => setIsServiceDropdownOpen(true)}
                                         onMouseLeave={() => setIsServiceDropdownOpen(false)}
+                                        onTouchStart={(e) => {
+                                            e.stopPropagation();
+                                            setIsServiceDropdownOpen(prev => !prev);
+                                            setIsDropdownOpen(false);
+                                            setIsRestaurantDropdownOpen(false);
+                                        }}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
                                             display: 'flex',
                                             alignItems: 'center',
                                             padding: '14px 12px',
-                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)'
+                                            borderRight: '1px solid rgba(197, 165, 114, 0.3)',
+                                            cursor: 'pointer',
+                                            userSelect: 'none',
                                         }}
                                     >
-                                        <div
-                                            onClick={() => handleNavClick(setIsServiceDropdownOpen, '/catarina-services', isServiceDropdownOpen)}
-                                            style={{ cursor: 'pointer', color: 'inherit', userSelect: 'none' }}
-                                        >
-                                            SERVICE APARTMENT
-                                        </div>
+                                        SERVICE APARTMENT
 
                                         {isServiceDropdownOpen && (
-                                            <div style={{
-                                                position: 'absolute',
-                                                top: '100%',
-                                                left: '50%',
-                                                transform: 'translateX(-50%)',
-                                                paddingTop: '20px',
-                                                zIndex: 20,
-                                            }}>
+                                            <div
+                                                onTouchStart={(e) => e.stopPropagation()}
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: '100%',
+                                                    left: '50%',
+                                                    transform: 'translateX(-50%)',
+                                                    paddingTop: '12px',
+                                                    zIndex: 20,
+                                                }}
+                                            >
                                                 <div style={{
                                                     backgroundColor: 'white',
                                                     borderRadius: '20px',
                                                     padding: '20px',
-                                                    minWidth: '220px',
+                                                    minWidth: '180px',
                                                     boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
                                                 }}>
                                                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
@@ -173,38 +187,45 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                         )}
                                     </li>
 
+                                    {/* RESTAURANTS */}
                                     <li
                                         onMouseEnter={() => setIsRestaurantDropdownOpen(true)}
                                         onMouseLeave={() => setIsRestaurantDropdownOpen(false)}
+                                        onTouchStart={(e) => {
+                                            e.stopPropagation();
+                                            setIsRestaurantDropdownOpen(prev => !prev);
+                                            setIsDropdownOpen(false);
+                                            setIsServiceDropdownOpen(false);
+                                        }}
                                         style={{
                                             position: 'relative',
                                             height: '100%',
                                             display: 'flex',
                                             alignItems: 'center',
-                                            padding: '14px 12px'
+                                            padding: '14px 12px',
+                                            cursor: 'pointer',
+                                            userSelect: 'none',
                                         }}
                                     >
-                                        <div
-                                            onClick={() => handleNavClick(setIsRestaurantDropdownOpen, '/restaurants', isRestaurantDropdownOpen)}
-                                            style={{ cursor: 'pointer', color: 'inherit', userSelect: 'none' }}
-                                        >
-                                            RESTAURANTS
-                                        </div>
+                                        RESTAURANTS
 
                                         {isRestaurantDropdownOpen && (
-                                            <div style={{
-                                                position: 'absolute',
-                                                top: '100%',
-                                                left: '50%',
-                                                transform: 'translateX(-50%)',
-                                                paddingTop: '20px',
-                                                zIndex: 20,
-                                            }}>
+                                            <div
+                                                onTouchStart={(e) => e.stopPropagation()}
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: '100%',
+                                                    left: '50%',
+                                                    transform: 'translateX(-50%)',
+                                                    paddingTop: '12px',
+                                                    zIndex: 20,
+                                                }}
+                                            >
                                                 <div style={{
                                                     backgroundColor: 'white',
                                                     borderRadius: '20px',
                                                     padding: '20px',
-                                                    minWidth: '220px',
+                                                    minWidth: '180px',
                                                     boxShadow: '0 10px 30px rgba(0,0,0,0.15)',
                                                 }}>
                                                     <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
@@ -214,6 +235,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             </div>
                                         )}
                                     </li>
+
                                 </ul>
                             </nav>
                             <style>
