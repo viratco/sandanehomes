@@ -57,14 +57,27 @@
     .nav-list-mobile-fix {
         display: flex !important;
         flex-direction: row !important;
-        /* Keep horizontal */
-        flex-wrap: wrap !important;
-        /* Allow wrapping */
-        justify-content: center !important;
+        flex-wrap: nowrap !important;
+        /* Prevent double lines breaking the box */
+        justify-content: flex-start !important;
+        /* Start from left on mobile to allow scroll */
         align-items: center !important;
-        gap: 15px !important;
-        font-size: 11px !important;
+        gap: 0 !important;
+        /* Remove gap so borders touch cleanly */
+        font-size: 9px !important;
+        /* Smaller size for mobile screens */
         text-align: center;
+        overflow-x: auto !important;
+        /* Important: Allow horizontal swipe on very small phones */
+        -webkit-overflow-scrolling: touch;
+        /* Smooth scroll on iOS */
+        padding: 0 10px !important;
+        /* Small padding at edges of box */
+    }
+
+    .nav-list-mobile-fix li {
+        padding: 10px 10px !important;
+        /* Override inline padding to fit mobile */
     }
 
     .logo-container {
