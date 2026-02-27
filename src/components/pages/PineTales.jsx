@@ -57,8 +57,8 @@ const ReviewCard = ({ name, date, text }) => {
 const PineTales = () => {
     const rooms = [
         {
-            title: "Kitchenette",
-            desc: "Comfortable and cozy room with a separate kitchen in it for your convenience.",
+            title: "Delicious Breakfast",
+            desc: "Start your day right with our complimentary, freshly prepared hearty breakfast.",
             image: room1
         },
         {
@@ -67,13 +67,13 @@ const PineTales = () => {
             image: room3
         },
         {
-            title: "Workstations",
-            desc: "Ultimate luxury suite featuring a spacious dedicated workspace for your professional convenience.",
+            title: "Cozy Bedrooms",
+            desc: "Experience ultimate comfort in our thoughtfully designed bedrooms, ensuring a restful night's sleep.",
             image: room2
         },
         {
-            title: "In-house restaurant",
-            desc: "Experience culinary excellence at our in-house restaurant, serving delicious meals throughout your stay.",
+            title: "Scenic Terrace Options",
+            desc: "Enjoy your evenings on our beautiful terrace, offering stunning views and a relaxing atmosphere.",
             image: room4
         }
     ];
