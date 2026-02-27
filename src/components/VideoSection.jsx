@@ -6,7 +6,7 @@ const VideoSection = () => {
         <section className="video-section" style={{
             position: 'relative',
             width: '100%',
-            height: '70vh',
+            height: 'clamp(40vh, 60vw, 70vh)',
             backgroundImage: `url(${videoBg})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',

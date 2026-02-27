@@ -120,17 +120,37 @@
     background-color: rgba(255, 255, 255, 0.4);
 }
 
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+    .hospitality-hero {
+        padding: 100px 40px;
+        min-height: 550px;
+    }
+
+    .hospitality-section {
+        padding-bottom: 150px;
+    }
+
+    .hospitality-testimonial-overlay {
+        left: 5%;
+        width: 90%;
+        height: 300px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+    }
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .hospitality-hero {
         padding: 80px 20px;
-        /* Reduced padding */
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .hospitality-section {
         padding-bottom: 50px;
-        /* Reduced bottom padding as overlay will change */
     }
 
     .hospitality-testimonial-overlay {
@@ -141,13 +161,11 @@
         height: auto;
         flex-direction: column;
         margin-top: -50px;
-        /* Overlap slightly or adjust as needed */
     }
 
     .testimonial-image {
         width: 100%;
         height: 200px;
-        /* Fixed height for image on mobile */
     }
 
     .testimonial-content {
@@ -157,7 +175,26 @@
 
     .hospitality-logo {
         width: 80%;
-        /* Smaller percentage on mobile */
         margin: 0 auto;
+    }
+
+    .testimonial-text {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px) {
+    .hospitality-hero {
+        padding: 60px 15px;
+        min-height: 350px;
+    }
+
+    .hospitality-logo {
+        width: 90%;
+    }
+
+    .testimonial-text {
+        font-size: 12px;
     }
 }

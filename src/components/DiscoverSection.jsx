@@ -22,7 +22,7 @@ const DiscoverSection = () => {
 
                 <h2 style={{
                     fontFamily: 'Playfair Display, serif',
-                    fontSize: '56px',
+                    fontSize: 'clamp(28px, 5vw, 56px)',
                     lineHeight: '1.2',
                     marginBottom: '30px',
                     color: '#111',
@@ -32,7 +32,7 @@ const DiscoverSection = () => {
                 </h2>
 
                 <p style={{
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.5vw, 16px)',
                     lineHeight: '1.7',
                     color: '#555',
                     maxWidth: '800px',

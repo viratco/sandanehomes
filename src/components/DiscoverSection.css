@@ -2,13 +2,13 @@
 .discover-section {
     width: 100%;
     background-color: #FFFBF5;
-    padding: 100px 80px;
+    padding: clamp(40px, 8vw, 100px) clamp(15px, 5vw, 80px);
     box-sizing: border-box;
 }
 
 .discover-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     max-width: 1400px;
     margin: 0 auto;
@@ -38,20 +38,23 @@
 
 
 
-/* Mobile Responsive Styles */
-@media (max-width: 768px) {
-    .discover-section {
-        padding: 80px 20px;
-        border-bottom: 8px solid #FAF8F5;
-    }
-
+/* Tablet Responsive Styles */
+@media (max-width: 1024px) {
     .discover-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
     }
 
     .discover-card-offset {
         margin-top: 0;
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .discover-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
     }
 
     .discover-card {
@@ -59,7 +62,6 @@
         flex-direction: column;
     }
 
-    /* Make cards more compact on mobile */
     .discover-card-image {
         height: 180px;
         margin: 0;
@@ -71,18 +73,15 @@
         margin: 0;
     }
 
-    /* Reduce text sizes slightly */
     .discover-card-content h3 {
-        font-size: 24px !important;
-        /* Reduced from 28px */
+        font-size: 22px !important;
         margin-bottom: 10px !important;
     }
 
     .discover-card-content p {
         font-size: 13px !important;
-        /* Reduced from 14px */
         line-height: 1.6 !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 15px !important;
     }
 
     .discover-card-content h5 {

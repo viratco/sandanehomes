@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
-import heroImg from '../../assets/catarina_main.jpg'; // Saffron (Catarina) Hero Image - High Res
-import room1 from '../../assets/IMG_0586.jpg';
-import room2 from '../../assets/IMG_0609.jpg';
-import room3 from '../../assets/IMG_3547_small.jpg';
-import room4 from '../../assets/IMG_6108.jpg';
+import heroImg from '../../assets/DSC01701.jpg'; // Saffron Inn Hero Image (requested by user)
+import room1 from '../../assets/DSC01565.jpg';
+import room2 from '../../assets/DSC01571.jpg';
+import room3 from '../../assets/DSC020139.png'; // Using the remaining image here
+import room4 from '../../assets/DSC01710.jpg';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
 import './SandaneHomes.css'; // Import shared CSS
@@ -57,23 +57,23 @@ const ReviewCard = ({ name, date, text }) => {
 const Saffron = () => {
     const rooms = [
         {
-            title: "Kitchenette",
-            desc: "Comfortable and cozy room with a separate kitchen in it for your convenience.",
+            title: "Dining Area",
+            desc: "Elegant dining space perfect for enjoying your meals in a comfortable and cozy setting.",
             image: room1
         },
         {
-            title: "Classy Rooms",
-            desc: "Elegant, spacious, and luxurious room with a premium memory foam mattress for your ultimate relaxation.",
+            title: "Twin Bedroom",
+            desc: "Spacious room featuring comfortable twin beds with premium bedding, ideal for friends or family.",
             image: room3
         },
         {
-            title: "Workstations",
-            desc: "Ultimate luxury suite featuring a spacious dedicated workspace for your professional convenience.",
+            title: "Lounge Space",
+            desc: "Relaxing living area featuring plush sofas and elegant decor, perfect for unwinding after a long day.",
             image: room2
         },
         {
-            title: "In-house restaurant",
-            desc: "Experience culinary excellence at our in-house restaurant, serving delicious meals throughout your stay.",
+            title: "Deluxe Bedroom",
+            desc: "Elegant and luxurious bedroom offering a plush double bed with premium mattress for your ultimate relaxation.",
             image: room4
         }
     ];

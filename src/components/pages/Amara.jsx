@@ -57,8 +57,8 @@ const ReviewCard = ({ name, date, text }) => {
 const Amara = () => {
     const rooms = [
         {
-            title: "Kitchenette",
-            desc: "Comfortable and cozy room with a separate kitchen in it for your convenience.",
+            title: "Private Balcony",
+            desc: "Enjoy your morning coffee or evening snacks in a private, green-carpeted balcony space.",
             image: room1
         },
         {
@@ -67,13 +67,13 @@ const Amara = () => {
             image: room3
         },
         {
-            title: "Workstations",
-            desc: "Ultimate luxury suite featuring a spacious dedicated workspace for your professional convenience.",
+            title: "Comfortable Stay",
+            desc: "Wake up to ultimate comfort in our plush beds and enjoy breakfast served right to your room.",
             image: room2
         },
         {
-            title: "In-house restaurant",
-            desc: "Experience culinary excellence at our in-house restaurant, serving delicious meals throughout your stay.",
+            title: "Deluxe Rooms",
+            desc: "Relax in full comfort with cozy seating areas and smart TVs pre-loaded with streaming apps for your entertainment.",
             image: room4
         }
     ];
