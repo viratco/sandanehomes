@@ -16,7 +16,7 @@ const ContactSection = () => {
 
                     <p className="contact-desc">
                         Sandane Homes Aparthotel Greater Noida<br />
-                        415 6th Avenue, New York, New York, USA, 10018
+                        BB-28, BLOCK B, ANSAL GOLF LINK -1, GREATER NOIDA, UP 201315
                     </p>
 
                     <p className="contact-desc">
