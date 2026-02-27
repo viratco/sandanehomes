@@ -102,7 +102,11 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                 {isRestaurantDropdownOpen && (
                                     <div className="dropdown-container">
                                         <ul className="dropdown-list">
-                                            <li><Link to="/restaurants" onClick={() => setIsMobileMenuOpen(false)}>SOHEE'S KITCHEN</Link></li>
+                                            <li>
+                                                <a href="https://soheeskitchen.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
+                                                    SOHEE'S KITCHEN
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 )}
