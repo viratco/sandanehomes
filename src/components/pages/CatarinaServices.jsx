@@ -96,10 +96,10 @@ const CatarinaServices = () => {
                     borderTop: '4px solid #1A3C34'
                 }}>
                     <p style={{ marginBottom: '20px', textAlign: 'center' }}>
-                        Catarina by Sandane Homes embodies our philosophy: <em style={{ color: '#1A3C34', fontWeight: '500' }}>Where Comfort Meets Class</em>. We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
+                        <strong style={{ fontSize: '18px', color: '#1A3C34' }}>Relocating to India? Your Perfect Home Awaits.</strong>
                     </p>
                     <p style={{ marginBottom: '15px' }}>
-                        Our luxury 2BHK to 4BHK apartments and villas come semi-furnished and are designed for your absolute convenience. Highlights include:
+                        At Catarina by Sandane Homes, we understand that moving to a new country can be overwhelming. We specialize in making your transition to India completely seamless. From the moment you arrive, we handle everything required to create your ideal living space:
                     </p>
                     <ul style={{
                         margin: '0',
@@ -108,10 +108,10 @@ const CatarinaServices = () => {
                         flexDirection: 'column',
                         gap: '10px'
                     }}>
-                        <li><strong>Comprehensive Amenities:</strong> Designed carefully as per the discerning needs of our guests.</li>
+                        <li><strong>Property Sourcing:</strong> We find the finest apartments and luxury villas in prime NCR locations, perfectly matched to your lifestyle.</li>
+                        <li><strong>Complete Furnishing & Essentials:</strong> We fully furnish your new home with elegant furniture and provide all necessities—from premium cutlery and kitchenware to fresh bed and bath linens.</li>
                         <li><strong>Uninterrupted Comfort:</strong> Enjoy peace of mind with 100% electricity backup and fast 300 Mbps Wi-Fi limitlessly.</li>
-                        <li><strong>Pristine Environment:</strong> Maintained with dedicated daily housekeeping.</li>
-                        <li><strong>Worry-Free Living:</strong> Inclusive property maintenance ensures we manage all details, so you can focus on living exceptionally.</li>
+                        <li><strong>Worry-Free Living:</strong> Inclusive property maintenance and dedicated daily housekeeping ensures we manage all details, so you can focus on your professional journey.</li>
                     </ul>
                 </div>
             </div>
