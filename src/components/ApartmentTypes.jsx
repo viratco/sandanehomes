@@ -101,6 +101,33 @@ const ApartmentTypes = () => {
                     <p style={{ margin: '8px 0' }}>
                         <span style={{ fontWeight: '600', color: '#222' }}>Options Available in:</span> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies
                     </p>
+
+                    <div style={{ marginTop: '40px', paddingTop: '30px', borderTop: '1px solid #e0e0e0', textAlign: 'left', maxWidth: '800px', margin: '40px auto 0 auto' }}>
+                        <h4 style={{ color: '#2a4d46', fontSize: '20px', marginBottom: '20px', textAlign: 'center' }}>Facilities Provided</h4>
+                        <ul style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                            gap: '15px 30px',
+                            listStyleType: 'disc',
+                            paddingLeft: '20px',
+                            color: '#444',
+                            fontSize: '16px',
+                            lineHeight: '1.5'
+                        }}>
+                            <li>Semi-furnished flats/villas</li>
+                            <li>Furniture included</li>
+                            <li>Bed and bath linens changed twice a week</li>
+                            <li>Housekeeping services available seven days a week</li>
+                            <li>Laundry facilities provided</li>
+                            <li>100% electricity backup</li>
+                            <li>One television included</li>
+                            <li>Air purifier included</li>
+                            <li>Hot and cold water dispenser</li>
+                            <li>20-liter water jars – five bottles per month</li>
+                            <li>Installation and registration of one Wi-Fi connection up to 300 Mbps</li>
+                            <li>Coverage for other maintenance and property upkeep expenses</li>
+                        </ul>
+                    </div>
                 </div>
 
                 {/* Gallery Container */}
