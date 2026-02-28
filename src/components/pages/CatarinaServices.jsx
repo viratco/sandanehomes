@@ -79,6 +79,27 @@ const CatarinaServices = () => {
                     <p><strong style={{ color: '#111' }}>Location:</strong> Gurgaon / Greater Noida / Noida</p>
                     <p><strong style={{ color: '#111' }}>Options Available in:</strong> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies</p>
                 </div>
+
+                {/* Catarina Info Section */}
+                <div style={{
+                    marginTop: '50px',
+                    maxWidth: '800px',
+                    margin: '50px auto 0 auto',
+                    textAlign: 'center',
+                    lineHeight: '1.8',
+                    fontSize: '16px',
+                    color: '#444'
+                }}>
+                    <p style={{ marginBottom: '15px' }}>
+                        Catarina by Sandane Homes offers an unparalleled living experience for those who seek the perfect blend of
+                        sophistication and comfort. Our meticulously designed semi-furnished apartments and luxury villas cater to
+                        professionals, expats, and families desiring a premium lifestyle.
+                    </p>
+                    <p>
+                        With top-tier amenities, dedicated housekeeping, and prime locations across the NCR region,
+                        we ensure every aspect of your stay is handled with expert care, allowing you to focus on what truly matters.
+                    </p>
+                </div>
             </div>
 
             {/* Image Gallery (Mimicking flyer grid) */}
