@@ -99,7 +99,7 @@ const CatarinaServices = () => {
                         <strong style={{ fontSize: '18px', color: '#1A3C34' }}>Leaving home is hard. Finding it here shouldn't be.</strong>
                     </p>
                     <p style={{ marginBottom: '15px' }}>
-                        Picture this: the long flight is finally over, and you've just stepped into a vibrant, unfamiliar country. The excitement is real, but so is the quiet anxiety of starting over. <i>Where will you live? How will you manage the details?</i> That’s where we step in. At Catarina by Sandane Homes, we believe that crossing oceans shouldn't mean losing your sense of belonging. We don’t just hand you keys to an apartment; we welcome you to a sanctuary crafted just for you. From the freshly made bed waiting to catch your jet lag, to the curated furnishings that make a house feel like <b>yours</b> from day one—we carry the weight of relocation so you can simply breathe, unpack, and embrace your new chapter.
+                        Stepping off a long flight into an unfamiliar country brings excitement, but also the quiet anxiety of starting over. At Catarina by Sandane Homes, we believe crossing oceans shouldn't mean losing your sense of belonging. From the freshly made bed waiting to catch your jet lag to custom furnishings that make a house feel like <b>yours</b> from day one—we carry the weight of relocation so you can simply breathe, unpack, and feel instantly at home.
                     </p>
                     <ul style={{
                         margin: '0',
