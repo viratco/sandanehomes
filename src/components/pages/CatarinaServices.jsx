@@ -95,13 +95,10 @@ const CatarinaServices = () => {
                     boxShadow: '0 4px 15px rgba(0,0,0,0.05)'
                 }}>
                     <p style={{ marginBottom: '15px' }}>
-                        Catarina by Sandane Homes offers an unparalleled living experience for those who seek the perfect blend of
-                        sophistication and comfort. Our meticulously designed semi-furnished apartments and luxury villas cater to
-                        professionals, expats, and families desiring a premium lifestyle.
+                        Catarina by Sandane Homes embodies our philosophy: <em>Where Comfort Meets Class</em>. We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
                     </p>
                     <p>
-                        With top-tier amenities, dedicated housekeeping, and prime locations across the NCR region,
-                        we ensure every aspect of your stay is handled with expert care, allowing you to focus on what truly matters.
+                        Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience. Enjoy peace of mind with 100% electricity backup, fast 300 Mbps Wi-Fi, daily housekeeping, and inclusive property maintenance. At Catarina, we manage the details, so you can focus on living exceptionally.
                     </p>
                 </div>
             </div>
