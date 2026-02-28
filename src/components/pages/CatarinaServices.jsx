@@ -96,10 +96,10 @@ const CatarinaServices = () => {
                     borderTop: '4px solid #1A3C34'
                 }}>
                     <p style={{ marginBottom: '20px', textAlign: 'center' }}>
-                        <strong style={{ fontSize: '18px', color: '#1A3C34' }}>Relocating to India? Your Perfect Home Awaits.</strong>
+                        <strong style={{ fontSize: '18px', color: '#1A3C34' }}>Stepping into India? Let Us Draft the Perfect Beginning to Your Story.</strong>
                     </p>
                     <p style={{ marginBottom: '15px' }}>
-                        At Catarina by Sandane Homes, we understand that moving to a new country can be overwhelming. We specialize in making your transition to India completely seamless. From the moment you arrive, we handle everything required to create your ideal living space:
+                        Imagine arriving in a bustling new country, stepping off a long flight, and walking straight into a home that feels like yours—fully furnished, thoughtfully stocked, and flawlessly maintained. At Catarina by Sandane Homes, we specialize in making that vision a reality for international expats and corporate assignees. We don’t just offer apartments; we curate a seamless, end-to-end relocation experience designed for professionals who demand excellence. Every detail is preemptively managed so you can hit the ground running.
                     </p>
                     <ul style={{
                         margin: '0',
