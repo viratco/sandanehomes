@@ -80,26 +80,59 @@ const CatarinaServices = () => {
                     <p><strong style={{ color: '#111' }}>Options Available in:</strong> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies</p>
                 </div>
 
-                {/* Catarina Info Section */}
+                {/* Catarina Info Section - Sticky Note Style */}
                 <div style={{
-                    marginTop: '50px',
-                    maxWidth: '850px',
-                    margin: '50px auto 0 auto',
+                    marginTop: '60px',
+                    maxWidth: '800px',
+                    margin: '60px auto 0 auto',
                     textAlign: 'center',
                     lineHeight: '1.9',
-                    fontSize: '17px',
-                    color: '#333',
-                    backgroundColor: '#ffffff',
+                    fontSize: '20px',
+                    fontFamily: '"Shadows Into Light", "Caveat", cursive, sans-serif', // Hand-written style font fallback
+                    color: '#2b2b2b',
+                    backgroundColor: '#FEF9C3', // Classic sticky note yellow
                     padding: '50px 40px',
-                    borderRadius: '16px',
-                    boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
-                    borderTop: '4px solid #1A3C34'
+                    boxShadow: '3px 7px 15px rgba(0,0,0,0.15)',
+                    transform: 'rotate(-1.5deg)', // Slight tilt
+                    position: 'relative',
+                    borderBottomRightRadius: '30px 5px', // Curled corner effect
                 }}>
-                    <p style={{ marginBottom: '15px' }}>
-                        Catarina by Sandane Homes embodies our philosophy: <em style={{ color: '#1A3C34', fontWeight: '500' }}>Where Comfort Meets Class</em>. We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
+                    {/* The "Pin" */}
+                    <div style={{
+                        position: 'absolute',
+                        top: '-15px',
+                        left: '50%',
+                        transform: 'translateX(-50%)',
+                        width: '30px',
+                        height: '30px',
+                        background: 'radial-gradient(circle at 30% 30%, #EF4444, #B91C1C)', // Red pin head
+                        borderRadius: '50%',
+                        boxShadow: '2px 5px 6px rgba(0,0,0,0.3), inset -2px -2px 5px rgba(0,0,0,0.2)',
+                        zIndex: 2
+                    }}>
+                        <div style={{ // Pin highlight
+                            position: 'absolute',
+                            top: '4px',
+                            left: '4px',
+                            width: '8px',
+                            height: '8px',
+                            background: 'rgba(255,255,255,0.6)',
+                            borderRadius: '50%'
+                        }}></div>
+                    </div>
+
+                    <p style={{ marginBottom: '20px', fontStyle: 'italic' }}>
+                        Catarina by Sandane Homes embodies our philosophy: <br />
+                        <strong style={{ fontSize: '24px', color: '#1A3C34', display: 'inline-block', marginTop: '10px' }}>"Where Comfort Meets Class"</strong>
                     </p>
                     <p>
-                        Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience. Enjoy peace of mind with 100% electricity backup, fast 300 Mbps Wi-Fi, daily housekeeping, and inclusive property maintenance. At Catarina, we manage the details, so you can focus on living exceptionally.
+                        We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
+                    </p>
+                    <p style={{ marginTop: '15px' }}>
+                        Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience. Enjoy peace of mind with 100% electricity backup, fast 300 Mbps Wi-Fi, daily housekeeping, and inclusive property maintenance.
+                    </p>
+                    <p style={{ marginTop: '20px', fontWeight: 'bold' }}>
+                        At Catarina, we manage the details, so you can focus on living exceptionally.
                     </p>
                 </div>
             </div>
