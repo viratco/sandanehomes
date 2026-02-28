@@ -80,63 +80,39 @@ const CatarinaServices = () => {
                     <p><strong style={{ color: '#111' }}>Options Available in:</strong> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies</p>
                 </div>
 
-                {/* Catarina Info Section - Sticky Note Style */}
+                {/* Catarina Info Section */}
                 <div style={{
-                    marginTop: '60px',
-                    maxWidth: '800px',
-                    margin: '60px auto 0 auto',
-                    textAlign: 'center',
+                    marginTop: '50px',
+                    maxWidth: '850px',
+                    margin: '50px auto 0 auto',
+                    textAlign: 'left', // Aligned left for better bullet point reading
                     lineHeight: '1.9',
-                    fontSize: '20px',
-                    fontFamily: '"Shadows Into Light", "Caveat", cursive, sans-serif', // Hand-written style font fallback
-                    color: '#2b2b2b',
-                    backgroundColor: '#FEF9C3', // Classic sticky note yellow
+                    fontSize: '17px',
+                    color: '#333',
+                    backgroundColor: '#ffffff',
                     padding: '50px 40px',
-                    boxShadow: '3px 7px 15px rgba(0,0,0,0.15)',
-                    transform: 'rotate(-1.5deg)', // Slight tilt
-                    position: 'relative',
-                    borderBottomRightRadius: '30px 5px', // Curled corner effect
+                    borderRadius: '16px',
+                    boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
+                    borderTop: '4px solid #1A3C34'
                 }}>
-                    {/* The "Pin" */}
-                    <div style={{
-                        position: 'absolute',
-                        top: '-15px',
-                        left: '50%',
-                        transform: 'translateX(-50%)',
-                        width: '30px',
-                        height: '30px',
-                        background: 'radial-gradient(circle at 30% 30%, #EF4444, #B91C1C)', // Red pin head
-                        borderRadius: '50%',
-                        boxShadow: '2px 5px 6px rgba(0,0,0,0.3), inset -2px -2px 5px rgba(0,0,0,0.2)',
-                        zIndex: 2
+                    <p style={{ marginBottom: '20px', textAlign: 'center' }}>
+                        Catarina by Sandane Homes embodies our philosophy: <em style={{ color: '#1A3C34', fontWeight: '500' }}>Where Comfort Meets Class</em>. We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
+                    </p>
+                    <p style={{ marginBottom: '15px' }}>
+                        Our luxury 2BHK to 4BHK apartments and villas come semi-furnished and are designed for your absolute convenience. Highlights include:
+                    </p>
+                    <ul style={{
+                        margin: '0',
+                        paddingLeft: '30px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '10px'
                     }}>
-                        <div style={{ // Pin highlight
-                            position: 'absolute',
-                            top: '4px',
-                            left: '4px',
-                            width: '8px',
-                            height: '8px',
-                            background: 'rgba(255,255,255,0.6)',
-                            borderRadius: '50%'
-                        }}></div>
-                    </div>
-
-                    <p style={{ marginBottom: '20px', fontStyle: 'italic' }}>
-                        Catarina by Sandane Homes embodies our philosophy: <br />
-                        <strong style={{ fontSize: '24px', color: '#1A3C34', display: 'inline-block', marginTop: '10px' }}>"Where Comfort Meets Class"</strong>
-                    </p>
-                    <p style={{ textAlign: 'left', marginBottom: '15px', padding: '0 20px' }}>
-                        We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India. Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience:
-                    </p>
-                    <ul style={{ textAlign: 'left', paddingLeft: '40px', margin: '0 20px 20px 20px', lineHeight: '1.6' }}>
-                        <li><strong>Uninterrupted Comfort:</strong> 100% electricity backup.</li>
-                        <li><strong>Seamless Connectivity:</strong> Fast 300 Mbps Wi-Fi.</li>
-                        <li><strong>Pristine Living:</strong> Daily dedicated housekeeping.</li>
-                        <li><strong>Peace of Mind:</strong> Inclusive property maintenance.</li>
+                        <li><strong>Comprehensive Amenities:</strong> Designed carefully as per the discerning needs of our guests.</li>
+                        <li><strong>Uninterrupted Comfort:</strong> Enjoy peace of mind with 100% electricity backup and fast 300 Mbps Wi-Fi limitlessly.</li>
+                        <li><strong>Pristine Environment:</strong> Maintained with dedicated daily housekeeping.</li>
+                        <li><strong>Worry-Free Living:</strong> Inclusive property maintenance ensures we manage all details, so you can focus on living exceptionally.</li>
                     </ul>
-                    <p style={{ marginTop: '20px', fontWeight: 'bold' }}>
-                        At Catarina, we manage the details, so you can focus on living exceptionally.
-                    </p>
                 </div>
             </div>
 
