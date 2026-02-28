@@ -125,12 +125,15 @@ const CatarinaServices = () => {
                         Catarina by Sandane Homes embodies our philosophy: <br />
                         <strong style={{ fontSize: '24px', color: '#1A3C34', display: 'inline-block', marginTop: '10px' }}>"Where Comfort Meets Class"</strong>
                     </p>
-                    <p>
-                        We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
+                    <p style={{ textAlign: 'left', marginBottom: '15px', padding: '0 20px' }}>
+                        We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India. Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience:
                     </p>
-                    <p style={{ marginTop: '15px' }}>
-                        Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience. Enjoy peace of mind with 100% electricity backup, fast 300 Mbps Wi-Fi, daily housekeeping, and inclusive property maintenance.
-                    </p>
+                    <ul style={{ textAlign: 'left', paddingLeft: '40px', margin: '0 20px 20px 20px', lineHeight: '1.6' }}>
+                        <li><strong>Uninterrupted Comfort:</strong> 100% electricity backup.</li>
+                        <li><strong>Seamless Connectivity:</strong> Fast 300 Mbps Wi-Fi.</li>
+                        <li><strong>Pristine Living:</strong> Daily dedicated housekeeping.</li>
+                        <li><strong>Peace of Mind:</strong> Inclusive property maintenance.</li>
+                    </ul>
                     <p style={{ marginTop: '20px', fontWeight: 'bold' }}>
                         At Catarina, we manage the details, so you can focus on living exceptionally.
                     </p>
