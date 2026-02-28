@@ -88,7 +88,11 @@ const CatarinaServices = () => {
                     textAlign: 'center',
                     lineHeight: '1.8',
                     fontSize: '16px',
-                    color: '#444'
+                    color: '#444',
+                    backgroundColor: '#F5F5F0', // Light warm gray/beige background
+                    padding: '40px',
+                    borderRadius: '12px',
+                    boxShadow: '0 4px 15px rgba(0,0,0,0.05)'
                 }}>
                     <p style={{ marginBottom: '15px' }}>
                         Catarina by Sandane Homes offers an unparalleled living experience for those who seek the perfect blend of
