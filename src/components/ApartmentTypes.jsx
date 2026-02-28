@@ -75,27 +75,33 @@ const ApartmentTypes = () => {
                     {hoverText}
                 </div>
 
-                {/* Headers */}
-                <h4 style={{
-                    color: '#C5A572',
-                    fontSize: '12px',
-                    letterSpacing: '3px',
-                    textTransform: 'uppercase',
-                    marginBottom: '20px',
-                    fontWeight: '600'
-                }}>
-                    Discover Our Collection
-                </h4>
-
                 <h2 style={{
                     fontFamily: 'Playfair Display, serif',
                     fontSize: '48px',
-                    marginBottom: '60px',
-                    fontWeight: '400',
-                    color: '#1a3c40'
+                    marginBottom: '30px',
+                    fontWeight: '700',
+                    color: '#2a4d46'
                 }}>
-                    Our Luxury Hotels
+                    Luxury Accommodations
                 </h2>
+
+                <div style={{
+                    color: '#4a4a4a',
+                    fontSize: '18px',
+                    lineHeight: '1.8',
+                    fontFamily: 'Montserrat, sans-serif',
+                    marginBottom: '60px'
+                }}>
+                    <p style={{ fontSize: '24px', letterSpacing: '1px', marginBottom: '25px', color: '#333' }}>
+                        2BHK - 4BHK / VILLAS
+                    </p>
+                    <p style={{ margin: '8px 0' }}>
+                        <span style={{ fontWeight: '600', color: '#222' }}>Location:</span> Gurgaon / Greater Noida / Noida
+                    </p>
+                    <p style={{ margin: '8px 0' }}>
+                        <span style={{ fontWeight: '600', color: '#222' }}>Options Available in:</span> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies
+                    </p>
+                </div>
 
                 {/* Gallery Container */}
                 <div className="apartment-gallery-container">
