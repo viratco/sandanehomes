@@ -83,19 +83,20 @@ const CatarinaServices = () => {
                 {/* Catarina Info Section */}
                 <div style={{
                     marginTop: '50px',
-                    maxWidth: '800px',
+                    maxWidth: '850px',
                     margin: '50px auto 0 auto',
                     textAlign: 'center',
-                    lineHeight: '1.8',
-                    fontSize: '16px',
-                    color: '#444',
-                    backgroundColor: '#F5F5F0', // Light warm gray/beige background
-                    padding: '40px',
-                    borderRadius: '12px',
-                    boxShadow: '0 4px 15px rgba(0,0,0,0.05)'
+                    lineHeight: '1.9',
+                    fontSize: '17px',
+                    color: '#333',
+                    backgroundColor: '#ffffff',
+                    padding: '50px 40px',
+                    borderRadius: '16px',
+                    boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
+                    borderTop: '4px solid #1A3C34'
                 }}>
                     <p style={{ marginBottom: '15px' }}>
-                        Catarina by Sandane Homes embodies our philosophy: <em>Where Comfort Meets Class</em>. We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
+                        Catarina by Sandane Homes embodies our philosophy: <em style={{ color: '#1A3C34', fontWeight: '500' }}>Where Comfort Meets Class</em>. We specialize in delivering premium, fully-serviced stays tailored specifically for expats and professionals seeking a seamless, high-end living experience across India.
                     </p>
                     <p>
                         Our luxury 2BHK to 4BHK apartments and villas come semi-furnished with comprehensive amenities designed for your absolute convenience. Enjoy peace of mind with 100% electricity backup, fast 300 Mbps Wi-Fi, daily housekeeping, and inclusive property maintenance. At Catarina, we manage the details, so you can focus on living exceptionally.
