@@ -118,11 +118,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                 {/* Logo */}
                 {showLogo && (
                     <div className="logo-container">
-                        <img
-                            src="/logo.png"
-                            alt="Sandane Homes Logo"
-                            style={{ height: '60px', width: 'auto', objectFit: 'contain' }}
-                        />
+                        <span className="logo-text">SANDANE HOMES</span>
+                        <div className="logo-stars">★ ★ ★ ★ ★</div>
                     </div>
                 )}
             </div>
