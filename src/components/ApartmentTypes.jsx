@@ -75,60 +75,27 @@ const ApartmentTypes = () => {
                     {hoverText}
                 </div>
 
+                {/* Headers */}
+                <h4 style={{
+                    color: '#C5A572',
+                    fontSize: '12px',
+                    letterSpacing: '3px',
+                    textTransform: 'uppercase',
+                    marginBottom: '20px',
+                    fontWeight: '600'
+                }}>
+                    Discover Our Collection
+                </h4>
+
                 <h2 style={{
                     fontFamily: 'Playfair Display, serif',
                     fontSize: '48px',
-                    marginBottom: '30px',
-                    fontWeight: '700',
-                    color: '#2a4d46'
+                    marginBottom: '60px',
+                    fontWeight: '400',
+                    color: '#1a3c40'
                 }}>
-                    Luxury Accommodations
+                    Our Luxury Hotels
                 </h2>
-
-                <div style={{
-                    color: '#4a4a4a',
-                    fontSize: '18px',
-                    lineHeight: '1.8',
-                    fontFamily: 'Montserrat, sans-serif',
-                    marginBottom: '60px'
-                }}>
-                    <p style={{ fontSize: '24px', letterSpacing: '1px', marginBottom: '25px', color: '#333' }}>
-                        2BHK - 4BHK / VILLAS
-                    </p>
-                    <p style={{ margin: '8px 0' }}>
-                        <span style={{ fontWeight: '600', color: '#222' }}>Location:</span> Gurgaon / Greater Noida / Noida
-                    </p>
-                    <p style={{ margin: '8px 0' }}>
-                        <span style={{ fontWeight: '600', color: '#222' }}>Options Available in:</span> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies
-                    </p>
-
-                    <div style={{ marginTop: '40px', paddingTop: '30px', borderTop: '1px solid #e0e0e0', textAlign: 'left', maxWidth: '800px', margin: '40px auto 0 auto' }}>
-                        <h4 style={{ color: '#2a4d46', fontSize: '20px', marginBottom: '20px', textAlign: 'center' }}>Facilities Provided</h4>
-                        <ul style={{
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                            gap: '15px 30px',
-                            listStyleType: 'disc',
-                            paddingLeft: '20px',
-                            color: '#444',
-                            fontSize: '16px',
-                            lineHeight: '1.5'
-                        }}>
-                            <li>Semi-furnished flats/villas</li>
-                            <li>Furniture included</li>
-                            <li>Bed and bath linens changed twice a week</li>
-                            <li>Housekeeping services available seven days a week</li>
-                            <li>Laundry facilities provided</li>
-                            <li>100% electricity backup</li>
-                            <li>One television included</li>
-                            <li>Air purifier included</li>
-                            <li>Hot and cold water dispenser</li>
-                            <li>20-liter water jars – five bottles per month</li>
-                            <li>Installation and registration of one Wi-Fi connection up to 300 Mbps</li>
-                            <li>Coverage for other maintenance and property upkeep expenses</li>
-                        </ul>
-                    </div>
-                </div>
 
                 {/* Gallery Container */}
                 <div className="apartment-gallery-container">
