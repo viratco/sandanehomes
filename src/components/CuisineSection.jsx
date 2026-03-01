@@ -131,10 +131,27 @@ const CuisineSection = () => {
                                     fontSize: '15px',
                                     lineHeight: '1.7',
                                     color: '#555',
-                                    maxWidth: '450px'
+                                    maxWidth: '450px',
+                                    marginBottom: '30px'
                                 }}>
                                     Discover a haven of sophistication and comfort at Catarina. Designed for the modern professional, our spaces are fully equipped with premium air purifiers, yearly maintenance, and comprehensive services, granting you the ultimate freedom to live wherever you want while ensuring your stay is effortlessly exceptional.
                                 </p>
+                                <button
+                                    onClick={() => navigate('/catarina-services')}
+                                    style={{
+                                        padding: '14px 35px',
+                                        backgroundColor: 'transparent',
+                                        border: '1px solid #C5A572',
+                                        color: '#111',
+                                        fontSize: '13px',
+                                        textTransform: 'capitalize',
+                                        letterSpacing: '1px',
+                                        cursor: 'pointer',
+                                        fontWeight: '400'
+                                    }}
+                                >
+                                    Discover More
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -372,10 +389,26 @@ const CuisineSection = () => {
                                     fontSize: '15px',
                                     lineHeight: '1.8',
                                     color: '#555',
-                                    marginBottom: '35px'
+                                    marginBottom: '30px'
                                 }}>
                                     Walk in with just your suitcase. We handle everything else. Our professional housekeeping team visits 7 days a week to ensure your home is sparkling clean. From laundry to maintenance, we take care of the chores so you can enjoy total privacy and comfort.
                                 </p>
+                                <button
+                                    onClick={() => navigate('/catarina-services')}
+                                    style={{
+                                        padding: '14px 35px',
+                                        backgroundColor: 'transparent',
+                                        border: '1px solid #C5A572',
+                                        color: '#111',
+                                        fontSize: '13px',
+                                        textTransform: 'capitalize',
+                                        letterSpacing: '1px',
+                                        cursor: 'pointer',
+                                        fontWeight: '400'
+                                    }}
+                                >
+                                    Discover More
+                                </button>
                             </div>
                         </div>
 
