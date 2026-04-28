@@ -159,7 +159,12 @@ const Glam = () => {
                 </div>
 
                 <div className="sandane-floating-buttons">
-                    <button className="btn-book">Book Now</button>
+                    <button 
+                        className="btn-book"
+                        onClick={() => window.open('https://www.makemytrip.com/hotels/the_glam-details-greater_noida.html', '_blank')}
+                    >
+                        Book Now
+                    </button>
                     <button className="btn-contact">Contact Us</button>
                 </div>
             </div>
