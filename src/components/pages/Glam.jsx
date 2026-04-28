@@ -113,8 +113,8 @@ const Glam = () => {
             <Header showTopBar={false} showNav={false} showLogo={false} />
             <SubpageNav />
 
-            {/* Split Section - More compact height */}
-            <div className="sandane-hero-split" style={{ minHeight: '60vh' }}>
+            {/* Split Section - Fixed height to match other subpages */}
+            <div className="sandane-hero-split" style={{ height: '500px', minHeight: '500px' }}>
 
                 {/* Left Side - Text */}
                 <div className="sandane-hero-text" style={{ padding: '40px 60px' }}>
