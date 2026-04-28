@@ -8,11 +8,11 @@
 .subpage-nav-menu {
     display: flex;
     align-items: center;
-    background-color: #d62828; /* Red background */
+    background-color: #ffffff; /* White background */
     border: 1px solid #C5A572; /* Gold border */
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
 .nav-menu-item {
@@ -20,7 +20,7 @@
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 1.5px;
-    color: #ffffff; /* White text */
+    color: #000000; /* Black text */
     text-decoration: none;
     padding: 14px 24px;
     text-transform: uppercase;
@@ -30,7 +30,7 @@
 
 .nav-menu-item:hover {
     color: #C5A572; /* Gold on hover */
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .nav-menu-divider {
