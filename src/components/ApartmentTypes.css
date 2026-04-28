@@ -126,6 +126,35 @@
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
+/* Laptop screens - add horizontal scroll slider */
+@media (max-width: 1500px) {
+    .apartment-gallery-container {
+        justify-content: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 30px; /* Space for scrollbar */
+        padding-right: 40px; /* Right padding */
+        scroll-snap-type: x mandatory;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .apartment-gallery-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .gallery-card {
+        scroll-snap-align: center;
+    }
+    
+    /* Ensure last item has breathing room when scrolled */
+    .apartment-gallery-container::after {
+        content: '';
+        min-width: 20px;
+        display: block;
+    }
+}
+
 @media (max-width: 1024px) {
     .apartment-gallery-container {
         display: grid;
