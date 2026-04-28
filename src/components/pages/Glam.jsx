@@ -165,7 +165,12 @@ const Glam = () => {
                     >
                         Book Now
                     </button>
-                    <button className="btn-contact">Contact Us</button>
+                    <button 
+                        className="btn-contact"
+                        onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                    >
+                        Contact Us
+                    </button>
                 </div>
             </div>
 
