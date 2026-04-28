@@ -118,8 +118,10 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                 {/* Logo */}
                 {showLogo && (
                     <div className="logo-container">
-                        <span className="logo-text">SANDANE HOMES</span>
-                        <div className="logo-stars">★ ★ ★ ★ ★</div>
+                        <Link to="/" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <span className="logo-text">SANDANE HOMES</span>
+                            <div className="logo-stars">★ ★ ★ ★ ★</div>
+                        </Link>
                     </div>
                 )}
             </div>
