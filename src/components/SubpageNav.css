@@ -8,11 +8,11 @@
 .subpage-nav-menu {
     display: flex;
     align-items: center;
-    background-color: #ffffff; /* White background */
+    background-color: #d62828; /* Red background */
     border: 1px solid #C5A572; /* Gold border */
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
 .nav-menu-item {
@@ -20,7 +20,7 @@
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 1.5px;
-    color: #d62828; /* Red text */
+    color: #ffffff; /* White text */
     text-decoration: none;
     padding: 14px 24px;
     text-transform: uppercase;
@@ -29,8 +29,8 @@
 }
 
 .nav-menu-item:hover {
-    color: #a01d1d; /* Darker red on hover */
-    background-color: rgba(197, 165, 114, 0.1);
+    color: #C5A572; /* Gold on hover */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .nav-menu-divider {
