@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import amaaltashImg from '../assets/IMG_4015.JPG';
 import sandaneHomeImg from '../assets/sandane_home_screenshot_v2_small.jpg';
 import pineTalesImg from '../assets/IMG_6598.JPG';
@@ -12,6 +13,17 @@ const ApartmentTypes = () => {
     // State for cursor text
     const [cursorPos, setCursorPos] = React.useState({ x: 0, y: 0 });
     const [hoverText, setHoverText] = React.useState('');
+    const galleryRef = useRef(null);
+
+    const scrollGallery = (direction) => {
+        if (galleryRef.current) {
+            const scrollAmount = window.innerWidth < 1024 ? 300 : 400; // Adjust scroll distance based on screen size
+            galleryRef.current.scrollBy({
+                left: direction === 'left' ? -scrollAmount : scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+    };
 
     // Update cursor position
     const handleMouseMove = (e) => {
@@ -104,9 +116,21 @@ const ApartmentTypes = () => {
                     Our Luxury Hotels
                 </h2>
 
-                {/* Gallery Container */}
-                <div className="apartment-gallery-container">
-                    {apartments.map((apt, index) => (
+                {/* Slider Wrapper */}
+                <div style={{ position: 'relative', width: '100%', maxWidth: '1600px', margin: '0 auto', padding: '0 40px' }}>
+                    
+                    {/* Left Arrow */}
+                    <button 
+                        className="slider-arrow left-arrow" 
+                        onClick={() => scrollGallery('left')}
+                        aria-label="Scroll left"
+                    >
+                        <FaChevronLeft />
+                    </button>
+
+                    {/* Gallery Container */}
+                    <div className="apartment-gallery-container" ref={galleryRef}>
+                        {apartments.map((apt, index) => (
                         <Link
                             to={apt.link}
                             key={index}
@@ -124,6 +148,16 @@ const ApartmentTypes = () => {
                             </div>
                         </Link>
                     ))}
+                    </div>
+
+                    {/* Right Arrow */}
+                    <button 
+                        className="slider-arrow right-arrow" 
+                        onClick={() => scrollGallery('right')}
+                        aria-label="Scroll right"
+                    >
+                        <FaChevronRight />
+                    </button>
                 </div>
             </div>
         </section>
