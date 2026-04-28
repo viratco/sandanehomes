@@ -132,11 +132,13 @@
         justify-content: flex-start;
         overflow-x: auto;
         overflow-y: hidden;
-        padding-bottom: 30px; /* Space for scrollbar */
-        padding-right: 40px; /* Right padding */
+        padding: 40px 20px; /* Reduce horizontal padding to use more screen space */
+        max-width: 100%; /* Take full width to avoid clipping inside the page */
         scroll-snap-type: x mandatory;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
+        scroll-padding-left: 20px; /* Start snapping with some breathing room */
+        scroll-padding-right: 20px;
     }
 
     .apartment-gallery-container::-webkit-scrollbar {
@@ -145,13 +147,6 @@
 
     .gallery-card {
         scroll-snap-align: center;
-    }
-    
-    /* Ensure last item has breathing room when scrolled */
-    .apartment-gallery-container::after {
-        content: '';
-        min-width: 20px;
-        display: block;
     }
 }
 
@@ -181,11 +176,11 @@
 }
 
 .left-arrow {
-    left: 0;
+    left: 10px;
 }
 
 .right-arrow {
-    right: 0;
+    right: 10px;
 }
 
 @media (min-width: 1501px) {
