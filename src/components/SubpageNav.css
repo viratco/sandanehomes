@@ -10,9 +10,9 @@
     align-items: center;
     gap: 10px;
     padding: 12px 30px;
-    background-color: #8B7355;
-    border: none;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid #C5A572;
+    color: #000;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -20,14 +20,15 @@
     font-weight: 700;
     border-radius: 5px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(139, 115, 85, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     font-family: 'Playfair Display', serif;
 }
 
 .subpage-back-button:hover {
-    background-color: #6d5a43;
+    background-color: #C5A572;
+    color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(139, 115, 85, 0.4);
+    box-shadow: 0 6px 20px rgba(197, 165, 114, 0.3);
 }
 
 @media (max-width: 768px) {
