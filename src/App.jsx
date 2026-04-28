@@ -9,6 +9,7 @@ import Amara from './components/pages/Amara';
 import Amaaltash from './components/pages/Amaaltash';
 import Saffron from './components/pages/Saffron';
 import PineTales from './components/pages/PineTales';
+import Glam from './components/pages/Glam';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/amaaltash" element={<Amaaltash />} />
           <Route path="/saffron" element={<Saffron />} />
           <Route path="/pine-tales" element={<PineTales />} />
+          <Route path="/glam" element={<Glam />} />
         </Routes>
       </div>
     </Router>

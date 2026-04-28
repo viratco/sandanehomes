@@ -103,24 +103,24 @@
 
 /* Specific Sizes based on position */
 
-/* Outer cards (1st and 5th) */
+/* Outer cards (1st and 6th) */
 .card-small {
-    width: 170px;
-    height: 220px;
-    margin-top: 190px;
+    width: 150px;
+    height: 200px;
+    margin-top: 200px;
 }
 
-/* Inner flanking cards (2nd and 4th) */
+/* Inner flanking cards (2nd and 5th) */
 .card-medium {
-    width: 230px;
-    height: 450px;
-    margin-top: 75px;
+    width: 210px;
+    height: 420px;
+    margin-top: 80px;
 }
 
-/* Center card (3rd) */
+/* Center cards (3rd and 4th) */
 .card-large {
-    width: 340px;
-    height: 600px;
+    width: 290px;
+    height: 580px;
     margin-top: 0;
     z-index: 2;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
@@ -143,35 +143,30 @@
         margin-top: 0 !important;
         /* Reset vertical alignment */
         border-radius: 15px;
+        height: 280px !important; /* Unified height for mobile grid except large */
     }
 
-    /* Small and Medium cards (The 4 surrounding ones) */
-    .card-medium {
-        height: 280px;
-        /* Box shape */
+    /* Small and Medium cards */
+    .card-medium, .card-small {
         order: 1;
-        /* Middle Row */
     }
 
-    .card-small {
-        height: 280px;
-        order: 2;
-        /* Bottom Row (Amara & Catarina/Saffron) */
-    }
-
-    /* Sandane Home - Center Spotlight */
+    /* Sandane & Catarina - Top Spotlight */
     .card-large {
-        grid-column: span 2;
-        /* Full width */
-        height: 500px;
-        /* Fixed height for mobile spotlight */
+        grid-column: span 1; /* Each takes half on tablet, or full on smaller? */
+        height: 400px !important;
         order: -1;
-        /* Move to top */
     }
+}
 
-    /* Removed flex overrides to maintain 5:2 ratio */
-
-
+@media (max-width: 640px) {
+    .apartment-gallery-container {
+        grid-template-columns: 1fr; /* 1 column for phones */
+    }
+    
+    .card-large {
+        grid-column: span 1;
+    }
 }
 
 /* Custom Cursor Text */

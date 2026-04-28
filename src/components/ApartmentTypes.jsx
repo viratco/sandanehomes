@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import amaaltashImg from '../assets/IMG_4015.JPG';
 import sandaneHomeImg from '../assets/sandane_home_screenshot_v2_small.jpg';
 import pineTalesImg from '../assets/IMG_6598.JPG';
+import glamMainImg from '../assets/glam_main.jpg'; // New Glam image
 import amaraImg from '../assets/IMG_6257_small.jpg';
-import catarinaImg from '../assets/catarina_screenshot_small.jpg'; // New right corner image (Screenshot)
+import saffronImg from '../assets/catarina_screenshot_small.jpg'; // Saffron image
 import './ApartmentTypes.css'; // Import the new CSS
 
 const ApartmentTypes = () => {
@@ -32,10 +33,16 @@ const ApartmentTypes = () => {
             link: "/amaaltash"
         },
         {
-            title: "Sandane Homes\nthe luxury boutique", // Large Center (Main Focus)
+            title: "Sandane Homes\nthe luxury boutique", // Large Center 1
             image: sandaneHomeImg,
             sizeClass: "card-large",
             link: "/sandane-homes"
+        },
+        {
+            title: "Glam by\nSandane Homes", // Large Center 2
+            image: glamMainImg,
+            sizeClass: "card-large",
+            link: "/glam"
         },
         {
             title: "Pine Tales by Sandane Homes", // Medium Right
@@ -45,7 +52,7 @@ const ApartmentTypes = () => {
         },
         {
             title: "Saffron inn", // Small Right
-            image: catarinaImg,
+            image: saffronImg,
             sizeClass: "card-small",
             link: "/saffron"
         }
