@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 import heroImg from '../../assets/IMG_6598.JPG'; // Pine Tales Hero Image
 import room1 from '../../assets/Copy of IMG_6584.JPG'; // New Room Image 1
@@ -110,6 +111,7 @@ const PineTales = () => {
     return (
         <div className="sandane-homes-page">
             <Header showTopBar={false} showNav={false} showLogo={false} />
+            <SubpageNav />
 
             {/* Split Section */}
             <div className="sandane-hero-split">

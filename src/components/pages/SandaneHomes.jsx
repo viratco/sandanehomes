@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 // Use the latest refined image for the page as well
 import heroImg from '../../assets/Copy of IMG_3491.JPG';
@@ -113,6 +114,7 @@ const SandaneHomes = () => {
     return (
         <div className="sandane-homes-page">
             <Header showTopBar={false} showNav={false} showLogo={false} />
+            <SubpageNav />
 
             {/* Split Section */}
             <div className="sandane-hero-split">

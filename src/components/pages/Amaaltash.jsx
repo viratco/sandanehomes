@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 import heroImg from '../../assets/IMG_4015.JPG'; // Amaaltash Hero Image
 import room1 from '../../assets/room_slide_3_small.jpg';
@@ -110,6 +111,7 @@ const Amaaltash = () => {
     return (
         <div className="sandane-homes-page">
             <Header showTopBar={false} showNav={false} showLogo={false} />
+            <SubpageNav />
 
             {/* Split Section */}
             <div className="sandane-hero-split">

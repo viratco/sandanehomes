@@ -5,9 +5,11 @@
 /* Hero Split Section */
 .sandane-hero-split {
     display: flex;
-    min-height: 80vh;
-    flex-wrap: wrap;
+    height: 70vh; /* Fixed height for consistency on desktop */
+    min-height: 500px; /* Minimum height for smaller desktop screens */
+    flex-wrap: nowrap; /* Prevent wrapping on desktop to maintain side-by-side look */
     position: relative;
+    overflow: hidden;
 }
 
 .sandane-hero-text {
@@ -347,6 +349,8 @@
     /* Hero */
     .sandane-hero-split {
         flex-direction: column;
+        height: auto;
+        min-height: unset;
     }
 
     .sandane-hero-text {

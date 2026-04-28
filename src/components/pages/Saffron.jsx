@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 import heroImg from '../../assets/DSC01701.jpg'; // Saffron Inn Hero Image (requested by user)
 import room1 from '../../assets/DSC01565.jpg';
@@ -110,6 +111,7 @@ const Saffron = () => {
     return (
         <div className="sandane-homes-page">
             <Header showTopBar={false} showNav={false} showLogo={false} />
+            <SubpageNav />
 
             {/* Split Section */}
             <div className="sandane-hero-split">
