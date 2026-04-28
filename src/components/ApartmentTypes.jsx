@@ -76,23 +76,22 @@ const ApartmentTypes = () => {
             style={{ backgroundColor: '#FFFBF5', padding: '40px 0 80px 0', color: '#111', textAlign: 'center', position: 'relative' }}
             onMouseMove={handleMouseMove}
         >
-            <div className="container" style={{ maxWidth: '100%', margin: '0 auto', padding: '0 20px' }}>
+            {/* Custom Cursor Text */}
+            <div
+                className="cursor-text"
+                style={{
+                    position: 'fixed',
+                    left: cursorPos.x,
+                    top: cursorPos.y,
+                    opacity: hoverText ? 1 : 0,
+                    pointerEvents: 'none',
+                    zIndex: 9999,
+                }}
+            >
+                {hoverText}
+            </div>
 
-                {/* Custom Cursor Text */}
-                <div
-                    className="cursor-text"
-                    style={{
-                        position: 'fixed',
-                        left: cursorPos.x,
-                        top: cursorPos.y,
-                        opacity: hoverText ? 1 : 0,
-                        pointerEvents: 'none',
-                        zIndex: 9999,
-                        // Styles handled in CSS for cleaner code, but inline for dynamic pos
-                    }}
-                >
-                    {hoverText}
-                </div>
+            <div className="container" style={{ maxWidth: '100%', margin: '0 auto', padding: '0 20px' }}>
 
                 {/* Headers */}
                 <h4 style={{
@@ -115,12 +114,13 @@ const ApartmentTypes = () => {
                 }}>
                     Our Luxury Hotels
                 </h2>
+            </div>
 
-                {/* Slider Wrapper */}
-                <div style={{ position: 'relative', width: '100%', maxWidth: '1600px', margin: '0 auto', padding: '0 40px' }}>
-                    
-                    {/* Left Arrow */}
-                    <button 
+            {/* Slider Wrapper - Full width to prevent clipping */}
+            <div style={{ position: 'relative', width: '100%', margin: '0 auto' }}>
+                
+                {/* Left Arrow */}
+                <button 
                         className="slider-arrow left-arrow" 
                         onClick={() => scrollGallery('left')}
                         aria-label="Scroll left"
@@ -151,14 +151,13 @@ const ApartmentTypes = () => {
                     </div>
 
                     {/* Right Arrow */}
-                    <button 
-                        className="slider-arrow right-arrow" 
-                        onClick={() => scrollGallery('right')}
-                        aria-label="Scroll right"
-                    >
-                        <FaChevronRight />
-                    </button>
-                </div>
+                <button 
+                    className="slider-arrow right-arrow" 
+                    onClick={() => scrollGallery('right')}
+                    aria-label="Scroll right"
+                >
+                    <FaChevronRight />
+                </button>
             </div>
         </section>
     );
