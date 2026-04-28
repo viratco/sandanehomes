@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Header from '../Header';
-import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
 import imgRecreation from '../../assets/services_recreation.jpeg';
@@ -34,7 +33,6 @@ const CatarinaServices = () => {
     return (
         <div className="catarina-services sandane-homes-page">
             <Header showTopBar={false} />
-            <SubpageNav />
 
             {/* Hero / Title Section */}
             <div className="catarina-hero" style={{
