@@ -65,6 +65,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                                             <li><Link to="/amaaltash" onClick={() => setIsMobileMenuOpen(false)}>AMAALTASH</Link></li>
                                             <li><Link to="/saffron" onClick={() => setIsMobileMenuOpen(false)}>SAFFRON</Link></li>
                                             <li><Link to="/pine-tales" onClick={() => setIsMobileMenuOpen(false)}>PINE TALES</Link></li>
+                                            <li><Link to="/glam" onClick={() => setIsMobileMenuOpen(false)}>GLAM</Link></li>
                                         </ul>
                                     </div>
                                 )}
