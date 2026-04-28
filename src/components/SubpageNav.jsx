@@ -9,8 +9,7 @@ const SubpageNav = () => {
     return (
         <div className="subpage-nav-container">
             <button className="subpage-back-button" onClick={() => navigate(-1)}>
-                <FaArrowLeft />
-                <span>Back</span>
+                BACK
             </button>
         </div>
     );
