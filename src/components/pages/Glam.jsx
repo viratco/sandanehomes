@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 import heroImg from '../../assets/glam_main.jpg'; 
 import room1 from '../../assets/glam_room1.jpg'; 
@@ -110,15 +111,15 @@ const Glam = () => {
     return (
         <div className="sandane-homes-page">
             <Header showTopBar={false} showNav={false} showLogo={false} />
+            <SubpageNav />
 
-            {/* Split Section */}
-            <div className="sandane-hero-split">
+            {/* Split Section - More compact height */}
+            <div className="sandane-hero-split" style={{ minHeight: '60vh' }}>
 
                 {/* Left Side - Text */}
-                <div className="sandane-hero-text">
+                <div className="sandane-hero-text" style={{ padding: '40px 60px' }}>
                     <h1 className="sandane-hero-title">
-                        Glam<br />
-                        <span style={{ fontSize: '32px', fontWeight: '400' }}>by Sandane Homes</span>
+                        Glam by Sandane Homes
                     </h1>
                 </div>
 
