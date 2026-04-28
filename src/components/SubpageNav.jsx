@@ -18,24 +18,24 @@ const SubpageNav = () => {
         {
             category: "HOTELS",
             items: [
-                { name: "Amara Inn", link: "/amara" },
-                { name: "Sandane Homes", link: "/sandane-homes" },
-                { name: "Glam", link: "/glam" },
-                { name: "Amaaltash", link: "/amaaltash" }
+                { name: "SANDANE HOMES", link: "/sandane-homes" },
+                { name: "AMARA", link: "/amara" },
+                { name: "AMAALTASH", link: "/amaaltash" },
+                { name: "GLAM", link: "/glam" }
             ]
         },
         {
             category: "SERVICE APARTMENT",
             items: [
-                { name: "Saffron Inn", link: "/saffron" },
-                { name: "Pine Tales", link: "/pine-tales" },
-                { name: "Catarina Services", link: "/catarina-services" }
+                { name: "SAFFRON", link: "/saffron" },
+                { name: "PINE TALES", link: "/pine-tales" },
+                { name: "CATARINA SERVICES", link: "/catarina-services" }
             ]
         },
         {
             category: "RESTAURANTS",
             items: [
-                { name: "Sohee's Kitchen", link: "#" } 
+                { name: "SOHEE'S KITCHEN", link: "#" } 
             ]
         }
     ];
