@@ -1,6 +1,5 @@
 .sandane-homes-page {
     background-color: #FFFFFF;
-    padding-top: 120px; /* Leave space for the navbar */
 }
 
 /* Hero Split Section */
@@ -15,7 +14,7 @@
 .sandane-hero-text {
     flex: 1;
     flex-basis: 400px;
-    padding: 80px;
+    padding: 140px 80px 80px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,7 +524,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 180px;
     /* Adjusted padding since we are using flex center */
     padding-bottom: 80px;
     text-align: center;
