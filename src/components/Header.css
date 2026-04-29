@@ -41,9 +41,25 @@
     border: 1px solid #C5A572;
 }
 
-.site-header.is-subpage .nav-item,
-.site-header.scrolled.is-subpage .nav-item {
-    color: #111;
+.site-header.is-subpage.is-catarina {
+    position: absolute;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.site-header.is-catarina .logo-text,
+.site-header.is-catarina .nav-item-label,
+.site-header.is-catarina .nav-item {
+    color: #ffffff !important;
+}
+
+.site-header.is-catarina .nav-list {
+    background-color: rgba(5, 5, 5, 0.4); /* Subtle dark pill for better readability on image */
+    border: 1px solid rgba(197, 165, 114, 0.5);
+}
+
+.site-header.is-catarina .nav-item {
+    border-right: 1px solid rgba(197, 165, 114, 0.3);
 }
 
 /* ===== TOP INFO ROW ===== */
