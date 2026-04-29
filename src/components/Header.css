@@ -18,12 +18,32 @@
     color: #ffffff;
 }
 
-.site-header.scrolled .logo-text {
-    color: #ffffff;
+.site-header.is-subpage {
+    position: relative;
+    background-color: #ffffff;
+    color: #111;
+    padding: 20px 0;
 }
 
-.site-header.scrolled .nav-item-label {
-    color: #ffffff;
+.site-header.is-subpage .logo-text,
+.site-header.scrolled.is-subpage .logo-text {
+    color: #111;
+}
+
+.site-header.is-subpage .nav-item-label,
+.site-header.scrolled.is-subpage .nav-item-label {
+    color: #111;
+}
+
+.site-header.is-subpage .nav-list,
+.site-header.scrolled.is-subpage .nav-list {
+    background-color: transparent;
+    border: 1px solid #C5A572;
+}
+
+.site-header.is-subpage .nav-item,
+.site-header.scrolled.is-subpage .nav-item {
+    color: #111;
 }
 
 /* ===== TOP INFO ROW ===== */
