@@ -119,7 +119,7 @@ const Glam = () => {
                 {/* Left Side - Text */}
                 <div className="sandane-hero-text">
                     <h1 className="sandane-hero-title">
-                        Glam<br />
+                        The Glam<br />
                         <span style={{ fontSize: '32px', fontWeight: '400' }}>by Sandane Homes</span>
                     </h1>
                 </div>
