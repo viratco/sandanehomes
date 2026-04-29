@@ -11,10 +11,6 @@
     position: relative;
 }
 
-.glam-hero-split {
-    height: 85vh !important;
-}
-
 .sandane-hero-text {
     flex: 1;
     flex-basis: 400px;

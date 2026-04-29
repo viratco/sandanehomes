@@ -114,7 +114,7 @@ const Glam = () => {
             <SubpageNav />
 
             {/* Split Section */}
-            <div className="sandane-hero-split glam-hero-split">
+            <div className="sandane-hero-split">
 
                 {/* Left Side - Text */}
                 <div className="sandane-hero-text">
