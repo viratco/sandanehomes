@@ -219,11 +219,18 @@
 }
 
 .header-right-info {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #C5A572;
     z-index: 5;
+}
+
+@media (max-width: 768px) {
+    .header-right-info {
+        font-size: 13px;
+    }
 }
 
 /* ===== MOBILE OVERLAY ===== */
