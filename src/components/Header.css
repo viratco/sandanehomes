@@ -272,10 +272,12 @@
     .nav-list {
         flex-direction: column;
         background: transparent;
-        border: none;
-        padding: 0;
+        border: 1px solid #C5A572; /* Keep the golden border box */
+        padding: 10px 20px; /* Add breathing room inside the box */
         align-items: flex-start;
         width: 100%;
+        box-sizing: border-box;
+        border-radius: 8px; /* Subtle rounding for a better look */
     }
 
     .nav-item,
