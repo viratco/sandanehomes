@@ -113,7 +113,7 @@ const SandaneHomes = () => {
 
     return (
         <div className="sandane-homes-page">
-            <Header showTopBar={false} showNav={false} showLogo={false} />
+            <Header showTopBar={false} />
             <SubpageNav />
 
             {/* Split Section */}

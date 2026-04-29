@@ -109,7 +109,7 @@ const Amara = () => {
 
     return (
         <div className="sandane-homes-page">
-            <Header showTopBar={false} showNav={false} showLogo={false} />
+            <Header showTopBar={false} />
 
             {/* Split Section */}
             <div className="sandane-hero-split">

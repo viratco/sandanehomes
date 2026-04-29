@@ -24,7 +24,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
     const shouldShowTopBar = showTopBar && location.pathname !== '/catarina-services';
 
     return (
-        <header className={`site-header ${isScrolled ? 'scrolled' : ''}`}>
+        <header className={`site-header ${(isScrolled || location.pathname !== '/') ? 'scrolled' : ''}`}>
             {/* Top Info Row */}
             {shouldShowTopBar && (
                 <div className="header-top-row">
