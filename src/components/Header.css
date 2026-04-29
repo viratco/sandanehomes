@@ -285,6 +285,18 @@
         border-bottom: 1px solid rgba(197, 165, 114, 0.2);
         padding: 15px 0;
         font-size: 14px;
+        color: #fff !important;
+    }
+
+    .nav-item-label {
+        color: #fff !important;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+        color: #C5A572;
+        z-index: 110;
+        position: relative;
     }
 
     .dropdown-container {
