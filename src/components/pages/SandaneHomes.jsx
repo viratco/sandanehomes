@@ -221,9 +221,6 @@ const SandaneHomes = () => {
                             <p className="room-desc">
                                 {room.desc}
                             </p>
-                            <div className="read-more-link">
-                                READ MORE &gt;
-                            </div>
                         </div>
                     ))}
                 </div>
@@ -250,29 +247,6 @@ const SandaneHomes = () => {
                     <p className="about-text">
                         In-house restaurant / Cafe at Sandane Homes , specializing in Pan-Asian cuisine with authentic Korean flavors.
                     </p>
-                    <button style={{
-                        padding: '15px 40px',
-                        backgroundColor: 'transparent',
-                        border: '1px solid #111',
-                        color: '#111',
-                        fontSize: '12px',
-                        textTransform: 'uppercase',
-                        letterSpacing: '1px',
-                        cursor: 'pointer',
-                        fontWeight: '600',
-                        transition: 'all 0.3s ease'
-                    }}
-                        onMouseOver={(e) => {
-                            e.currentTarget.style.backgroundColor = '#111';
-                            e.currentTarget.style.color = '#fff';
-                        }}
-                        onMouseOut={(e) => {
-                            e.currentTarget.style.backgroundColor = 'transparent';
-                            e.currentTarget.style.color = '#111';
-                        }}
-                    >
-                        Read More
-                    </button>
                 </div>
             </div>
 

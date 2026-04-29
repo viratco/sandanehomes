@@ -210,9 +210,6 @@ const PineTales = () => {
                             <p className="room-desc">
                                 {room.desc}
                             </p>
-                            <div className="read-more-link">
-                                READ MORE &gt;
-                            </div>
                         </div>
                     ))}
                 </div>
@@ -238,9 +235,6 @@ const PineTales = () => {
                     <p className="about-text">
                         Experience the serenity of nature with our breathtaking panoramas. These majestic mountain vistas offer a tranquil escape where the peaks meet the sky, providing a perfect backdrop for relaxation and rejuvenation during your stay at Pine Tales.
                     </p>
-                    <button className="btn-read-more">
-                        Read More
-                    </button>
                 </div>
             </div>
 

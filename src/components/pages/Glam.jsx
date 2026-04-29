@@ -186,7 +186,6 @@ const Glam = () => {
                             </div>
                             <h3 className="room-title">{room.title}</h3>
                             <p className="room-desc">{room.desc}</p>
-                            <div className="read-more-link">READ MORE &gt;</div>
                         </div>
                     ))}
                 </div>

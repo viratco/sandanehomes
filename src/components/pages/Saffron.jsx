@@ -210,9 +210,6 @@ const Saffron = () => {
                             <p className="room-desc">
                                 {room.desc}
                             </p>
-                            <div className="read-more-link">
-                                READ MORE &gt;
-                            </div>
                         </div>
                     ))}
                 </div>
