@@ -110,7 +110,7 @@ const Glam = () => {
 
     return (
         <div className="sandane-homes-page">
-            <Header showTopBar={false} />
+            <Header showTopBar={false} customPhone="+91 96547 07779" />
             <SubpageNav />
 
             {/* Split Section */}

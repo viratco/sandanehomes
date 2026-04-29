@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLocation, Link, useNavigate } from 'react-router-dom';
 import './Header.css';
 
-const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
+const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhone = null }) => {
     const location = useLocation();
     const navigate = useNavigate();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -123,6 +123,15 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true }) => {
                             <span className="logo-text">SANDANE HOMES</span>
                             <div className="logo-stars">★ ★ ★ ★ ★</div>
                         </Link>
+                    </div>
+                )}
+
+                {/* Right Info (Custom Phone) */}
+                {customPhone && (
+                    <div className="header-right-info">
+                        <a href={`tel:${customPhone.replace(/\s/g, '')}`} style={{ color: 'inherit', textDecoration: 'none' }}>
+                            Tel: {customPhone}
+                        </a>
                     </div>
                 )}
             </div>
