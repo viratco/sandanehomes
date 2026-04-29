@@ -114,7 +114,7 @@ const Glam = () => {
             <SubpageNav />
 
             {/* Split Section */}
-            <div className="sandane-hero-split">
+            <div className="sandane-hero-split glam-hero-split">
 
                 {/* Left Side - Text */}
                 <div className="sandane-hero-text">
@@ -128,8 +128,8 @@ const Glam = () => {
                 <div className="sandane-hero-image">
                     <img
                         src={heroImg}
-                        alt="Glam by Sandane Homes"
-                        className="sandane-hero-img-el"
+                        alt="The Glam"
+                        className="sandane-hero-img-el glam-hero-img"
                     />
                 </div>
 
