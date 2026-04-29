@@ -14,8 +14,17 @@
 
 .site-header.scrolled {
     padding: 10px 0;
-    background-color: rgba(5, 5, 5, 0.95);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    color: #111;
+}
+
+.site-header.scrolled .logo-text {
+    color: #111;
+}
+
+.site-header.scrolled .nav-item-label {
+    color: #fff; /* Keep white for now since they are inside a dark pill box */
 }
 
 /* ===== TOP INFO ROW ===== */
@@ -89,6 +98,20 @@
 
 .nav-item-last {
     border-right: none;
+}
+
+.site-header.scrolled .nav-list {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #C5A572;
+}
+
+.site-header.scrolled .nav-item {
+    color: #111;
+    border-right: 1px solid rgba(197, 165, 114, 0.3);
+}
+
+.site-header.scrolled .nav-item-label {
+    color: #111;
 }
 
 .nav-item-label {
