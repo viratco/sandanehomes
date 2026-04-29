@@ -212,7 +212,7 @@ const Glam = () => {
                 </div>
             </div>
 
-            <Footer />
+            <Footer customPhone="+91 96547 07779" />
         </div>
     );
 };

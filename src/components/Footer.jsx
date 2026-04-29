@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Footer.css';
 
-const Footer = () => {
+const Footer = ({ customPhone = "+91 9711722273" }) => {
     const [email, setEmail] = useState('');
     const [countryCode, setCountryCode] = useState('+91');
     const [phone, setPhone] = useState('');
@@ -88,7 +88,7 @@ const Footer = () => {
                             fontWeight: '500'
                         }}>
                             <p style={{ margin: '0 0 10px 0' }}>
-                                <strong style={{ color: '#111' }}>Phone:</strong> +91 9711722273
+                                <strong style={{ color: '#111' }}>Phone:</strong> {customPhone}
                             </p>
                             <p style={{ margin: 0 }}>
                                 <strong style={{ color: '#111' }}>Email:</strong> sandanehomes@gmail.com
