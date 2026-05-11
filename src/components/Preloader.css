@@ -1,0 +1,138 @@
+/* Container that holds everything */
+.preloader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #030303; /* Extremely dark, almost black */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.preloader-wrapper.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Center Content */
+.preloader-center-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* Optional: Slight scale up when fading out */
+    transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.preloader-wrapper.fade-out .preloader-center-content {
+    transform: scale(1.05);
+}
+
+.brand-logo-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* A subtle glowing mask effect over the text */
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    mask-size: 200%;
+    animation: shimmer 2.5s infinite;
+}
+
+.brand-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    letter-spacing: 8px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 300;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: elegantRise 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.brand-stars {
+    display: flex;
+    gap: 12px;
+    color: #C5A572; /* Golden */
+    font-size: 16px;
+}
+
+.brand-stars span {
+    opacity: 0;
+    transform: scale(0.5) translateY(10px);
+    animation: starPop 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* A sophisticated ultra-thin vertical loading line */
+.vertical-loader {
+    width: 1px;
+    height: 0px;
+    background: linear-gradient(to bottom, transparent, #C5A572, transparent);
+    animation: loadLine 2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+/* Animations */
+@keyframes elegantRise {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes starPop {
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes loadLine {
+    0% {
+        height: 0px;
+        opacity: 0;
+    }
+    50% {
+        height: 80px;
+        opacity: 1;
+    }
+    100% {
+        height: 0px;
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+
+@keyframes shimmer {
+    from {
+        -webkit-mask-position: 150%;
+        mask-position: 150%;
+    }
+    to {
+        -webkit-mask-position: -50%;
+        mask-position: -50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-title {
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+    
+    .brand-stars {
+        font-size: 14px;
+        gap: 8px;
+    }
+}
