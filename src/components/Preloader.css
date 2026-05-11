@@ -50,6 +50,15 @@
     animation: shimmer 2.5s infinite;
 }
 
+.preloader-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: elegantRise 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
 .brand-title {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
@@ -126,6 +135,10 @@
 }
 
 @media (max-width: 768px) {
+    .preloader-logo {
+        width: 100px;
+    }
+    
     .brand-title {
         font-size: 32px;
         letter-spacing: 5px;
