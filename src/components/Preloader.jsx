@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../assets/white logo sandane .png';
 import './Preloader.css';
 
 const Preloader = ({ onComplete }) => {
@@ -27,7 +26,6 @@ const Preloader = ({ onComplete }) => {
             {/* The Logo and Content in the center */}
             <div className="preloader-center-content">
                 <div className="brand-logo-container">
-                    <img src={logo} alt="Sandane Homes Logo" className="preloader-logo" />
                     <h1 className="brand-title">SANDANE HOMES</h1>
                     <div className="brand-stars">
                         <span style={{ animationDelay: '0.4s' }}>★</span>
