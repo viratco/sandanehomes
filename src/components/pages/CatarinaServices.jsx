@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
@@ -12,6 +13,12 @@ import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
 
 const CatarinaServices = () => {
+    useSEO({
+        title: "Catarina by Sandane Homes | Premium Corporate Stays & Villas NCR",
+        description: "Expat-focused luxury serviced apartments and villas in Noida, Greater Noida, and Gurgaon. Offering semi-furnished properties with housekeeping, 100% power backup, and corporate amenities.",
+        canonicalUrl: "https://www.sandanehomes.com/catarina-services"
+    });
+
     // Facility Data with Icons
     const facilities = [
         { icon: <FaBuilding />, text: "Semi-furnished flats/villas" },

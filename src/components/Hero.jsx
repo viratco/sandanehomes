@@ -18,10 +18,7 @@ const Hero = () => {
                 </h4>
 
                 <h1 className="hero-title-large">
-                    PREMIUM SERVICED
-                </h1>
-                <h1 className="hero-title-large">
-                    RESIDENCES
+                    PREMIUM SERVICED<br />RESIDENCES
                 </h1>
 
                 <BookingWidget />

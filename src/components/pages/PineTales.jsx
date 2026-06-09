@@ -1,4 +1,5 @@
 import React from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -56,6 +57,12 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const PineTales = () => {
+    useSEO({
+        title: "Pine Tales | Cozy Nature Stay & Scenic Vistas - Sandane Homes",
+        description: "Relax at Pine Tales by Sandane Homes. Breathtaking mountain views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality.",
+        canonicalUrl: "https://www.sandanehomes.com/pine-tales"
+    });
+
     const rooms = [
         {
             title: "Delicious Breakfast",

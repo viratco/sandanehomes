@@ -1,4 +1,5 @@
 import React from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -56,6 +57,12 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Saffron = () => {
+    useSEO({
+        title: "Saffron Inn | Serviced Hotel Rooms in Greater Noida - Sandane Homes",
+        description: "Elegant serviced rooms at Saffron Inn by Sandane Homes. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart.",
+        canonicalUrl: "https://www.sandanehomes.com/saffron"
+    });
+
     const rooms = [
         {
             title: "Dining Area",

@@ -1,4 +1,5 @@
 import React from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import heroImg from '../../assets/IMG_6257.jpg'; // Amara Inn Hero Image - High Res
@@ -55,6 +56,12 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Amara = () => {
+    useSEO({
+        title: "Amara Inn | Premium Serviced Stay in Greater Noida - Sandane Homes",
+        description: "Book your stay at Amara Inn by Sandane Homes in Greater Noida. Featuring deluxe rooms, private balconies, daily breakfast, and customized corporate hospitality.",
+        canonicalUrl: "https://www.sandanehomes.com/amara"
+    });
+
     const rooms = [
         {
             title: "Private Balcony",

@@ -1,4 +1,5 @@
 import React from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -56,6 +57,12 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Glam = () => {
+    useSEO({
+        title: "The Glam | Premium Executive Stay in Greater Noida - Sandane Homes",
+        description: "Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure.",
+        canonicalUrl: "https://www.sandanehomes.com/glam"
+    });
+
     const rooms = [
         {
             title: "Classy Rooms",

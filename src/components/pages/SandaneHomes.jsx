@@ -1,4 +1,5 @@
 import React from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -59,6 +60,12 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const SandaneHomes = () => {
+    useSEO({
+        title: "Sandane Homes - Luxury Serviced Stays & Executive Suites",
+        description: "Indulge in luxury stays at Sandane Homes. Featuring kitchenette rooms, classy executive suites, in-house cafe, 24/7 room service, and top-tier amenities.",
+        canonicalUrl: "https://www.sandanehomes.com/sandane-homes"
+    });
+
     const rooms = [
         {
             title: "Kitchenette",

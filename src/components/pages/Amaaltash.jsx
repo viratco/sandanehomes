@@ -1,4 +1,5 @@
 import React from 'react';
+import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -56,6 +57,12 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Amaaltash = () => {
+    useSEO({
+        title: "Amaaltash by Sandane Homes | Luxury Serviced Apartments",
+        description: "Experience the comfort of home at Amaaltash. Beautiful rooms with common kitchenette, modern bathrooms, elegant interiors, and high-speed WiFi for corporate travelers.",
+        canonicalUrl: "https://www.sandanehomes.com/amaaltash"
+    });
+
     const rooms = [
         {
             title: "Common Kitchenette",
