@@ -47,7 +47,7 @@ const ApartmentTypes = () => {
             link: "/amaaltash"
         },
         {
-            title: "CoCo House by\nSandane Homes", // Tier 3 - Inner Left
+            title: "CoCo House", // Tier 3 - Inner Left
             image: cocoFacadeImg,
             sizeClass: "card-tier-3",
             link: "/coco-house"
