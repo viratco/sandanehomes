@@ -5,8 +5,10 @@ import amaaltashImg from '../assets/IMG_4015.JPG';
 import sandaneHomeImg from '../assets/sandane_home_screenshot_v2_small.jpg';
 import pineTalesImg from '../assets/IMG_6598.JPG';
 import glamMainImg from '../assets/glam_main.jpg'; // New Glam image
-import amaraImg from '../assets/IMG_6257_small.jpg';
-import saffronImg from '../assets/catarina_screenshot_small.jpg'; // Saffron image
+import amaraImg from '../assets/amara_facade.jpg';
+import saffronImg from '../assets/saffron_bedroom.png'; // Saffron image
+import catarinaImg from '../assets/catarina_small.jpg'; // Catarina image
+import cocoFacadeImg from '../assets/coco_facade.jpg'; // CoCo House facade image
 import './ApartmentTypes.css'; // Import the new CSS
 
 const ApartmentTypes = () => {
@@ -30,42 +32,48 @@ const ApartmentTypes = () => {
         setCursorPos({ x: e.clientX, y: e.clientY });
     };
 
-    // 5 items to match the design - Reordered as per request
+    // 7 items symmetrically ordered with Sandane Homes centerpiece
     const apartments = [
         {
-            title: "Amara inn", // Small Left
+            title: "Amara inn", // Tier 1 - Leftmost
             image: amaraImg,
-            sizeClass: "card-small",
+            sizeClass: "card-tier-1",
             link: "/amara"
         },
         {
-            title: "Amaaltash by Sandane Homes", // Medium Left
+            title: "Amaaltash by Sandane Homes", // Tier 2 - Outer Left
             image: amaaltashImg,
-            sizeClass: "card-medium",
+            sizeClass: "card-tier-2",
             link: "/amaaltash"
         },
         {
-            title: "Sandane Homes\nthe luxury boutique", // Large Center 1
+            title: "CoCo House by\nSandane Homes", // Tier 3 - Inner Left
+            image: cocoFacadeImg,
+            sizeClass: "card-tier-3",
+            link: "/coco-house"
+        },
+        {
+            title: "Sandane Homes\nthe luxury boutique", // Tier 4 - Centerpiece
             image: sandaneHomeImg,
-            sizeClass: "card-large",
+            sizeClass: "card-tier-4",
             link: "/sandane-homes"
         },
         {
-            title: "Glam by\nSandane Homes", // Large Center 2
+            title: "Glam by\nSandane Homes", // Tier 3 - Inner Right
             image: glamMainImg,
-            sizeClass: "card-large",
+            sizeClass: "card-tier-3",
             link: "/glam"
         },
         {
-            title: "Pine Tales by Sandane Homes", // Medium Right
+            title: "Pine Tales by Sandane Homes", // Tier 2 - Outer Right
             image: pineTalesImg,
-            sizeClass: "card-medium",
+            sizeClass: "card-tier-2",
             link: "/pine-tales"
         },
         {
-            title: "Saffron inn", // Small Right
+            title: "Saffron inn", // Tier 1 - Rightmost
             image: saffronImg,
-            sizeClass: "card-small",
+            sizeClass: "card-tier-1",
             link: "/saffron"
         }
     ];
@@ -118,19 +126,19 @@ const ApartmentTypes = () => {
 
             {/* Slider Wrapper - Full width to prevent clipping */}
             <div style={{ position: 'relative', width: '100%', margin: '0 auto' }}>
-                
-                {/* Left Arrow */}
-                <button 
-                        className="slider-arrow left-arrow" 
-                        onClick={() => scrollGallery('left')}
-                        aria-label="Scroll left"
-                    >
-                        <FaChevronLeft />
-                    </button>
 
-                    {/* Gallery Container */}
-                    <div className="apartment-gallery-container" ref={galleryRef}>
-                        {apartments.map((apt, index) => (
+                {/* Left Arrow */}
+                <button
+                    className="slider-arrow left-arrow"
+                    onClick={() => scrollGallery('left')}
+                    aria-label="Scroll left"
+                >
+                    <FaChevronLeft />
+                </button>
+
+                {/* Gallery Container */}
+                <div className="apartment-gallery-container" ref={galleryRef}>
+                    {apartments.map((apt, index) => (
                         <Link
                             to={apt.link}
                             key={index}
@@ -148,11 +156,11 @@ const ApartmentTypes = () => {
                             </div>
                         </Link>
                     ))}
-                    </div>
+                </div>
 
-                    {/* Right Arrow */}
-                <button 
-                    className="slider-arrow right-arrow" 
+                {/* Right Arrow */}
+                <button
+                    className="slider-arrow right-arrow"
                     onClick={() => scrollGallery('right')}
                     aria-label="Scroll right"
                 >

@@ -3,16 +3,14 @@ import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
-import heroImg from '../../assets/DSC01701.jpg'; // Saffron Inn Hero Image (requested by user)
-import room1 from '../../assets/DSC01565.jpg';
-import room2 from '../../assets/DSC01571.jpg';
-import room3 from '../../assets/DSC020139.png'; // Using the remaining image here
-import room4 from '../../assets/saffron_bedroom.png';
-import aboutUsImg from '../../assets/IMG_6094.jpg';
-import soheesLogo from '../../assets/upscaled_image.png';
+import heroImg from '../../assets/coco_facade.jpg';
+import room1 from '../../assets/coco_reception.jpg';
+import room2 from '../../assets/coco_room_netflix.jpg'; // Smart Studio Workspace
+import room3 from '../../assets/coco_lounge.jpg';
+import room4 from '../../assets/coco_hallway.jpg'; // Guest Corridors
 import './SandaneHomes.css'; // Import shared CSS
 
-import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
+import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
 const ServiceCard = ({ icon: Icon, title, desc }) => {
     return (
@@ -56,32 +54,32 @@ const ReviewCard = ({ name, date, text }) => {
     );
 };
 
-const Saffron = () => {
+const CocoHouse = () => {
     useSEO({
-        title: "Saffron Inn | Serviced Hotel Rooms in Greater Noida - Sandane Homes",
-        description: "Elegant serviced rooms at Saffron Inn by Sandane Homes. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart.",
-        canonicalUrl: "https://www.sandanehomes.com/saffron"
+        title: "CoCo House | Premium Boutique Hotel Stays in Greater Noida - Sandane Homes",
+        description: "Experience modern luxury and warm hospitality at CoCo House by Sandane Homes. Fully serviced premium hotel rooms, lounge space, and personalized hospitality.",
+        canonicalUrl: "https://www.sandanehomes.com/coco-house"
     });
 
     const rooms = [
         {
-            title: "Dining Area",
-            desc: "Elegant dining space perfect for enjoying your meals in a comfortable and cozy setting.",
+            title: "Reception Area",
+            desc: "Warm and welcoming reception desk with modern check-in facilities and cheerful custom murals.",
             image: room1
         },
         {
-            title: "Twin Bedroom",
-            desc: "Spacious room featuring comfortable twin beds with premium bedding, ideal for friends or family.",
+            title: "Executive Lounge",
+            desc: "Spacious, comfortable seating area featuring vivid murals and modern styling, perfect for relaxing.",
             image: room3
         },
         {
-            title: "Lounge Space",
-            desc: "Relaxing living area featuring plush sofas and elegant decor, perfect for unwinding after a long day.",
+            title: "Smart Studio",
+            desc: "Cozy workspace and entertainment hub featuring flat-screen streaming, writing desk, and custom armchair.",
             image: room2
         },
         {
-            title: "Deluxe Bedroom",
-            desc: "Elegant and luxurious bedroom offering a plush double bed with premium mattress for your ultimate relaxation.",
+            title: "Guest Corridors",
+            desc: "Artistic hallway corridors with vibrant accent graphics leading directly to your guest room.",
             image: room4
         }
     ];
@@ -92,26 +90,20 @@ const Saffron = () => {
         { icon: FaWifi, desc: "High-speed complimentary WiFi for seamless connectivity." },
         { icon: FaDesktop, desc: "Efficient workspace designed for work and relaxation." },
         { icon: FaConciergeBell, desc: "24/7 room service for your comfort and convenience." },
-        { icon: FaGamepad, desc: "Billiards available to play for your entertainment and leisure." },
         { icon: FaBolt, desc: "Complimentary electricity service for guests' convenience and comfort." },
         { icon: FaBroom, desc: "Daily housekeeping service to maintain cleanliness and comfort." }
     ];
 
     const reviews = [
         {
-            name: "Thalshee Ittoosingh",
-            date: "4 months ago",
-            text: "I had a very good stay at this hotel. It feels safe, which is great for solo travelers. The room was clean, the bathroom was spotless, and a very nice balcony. Breakfast was provided. The owner is very welcoming, and the staff are also friendly and helpful. The hotel offers many useful services, making the stay easy and comfortable. Overall, it is a clean, safe, and friendly place that I would gladly recommend."
+            name: "Rajesh Kumar",
+            date: "1 month ago",
+            text: "CoCo House offers fantastic luxury and high-quality room service. The staff is welcoming and makes sure your stay is exceptional. Highly recommend!"
         },
         {
-            name: "Dhiren Singh",
-            date: "3 months ago",
-            text: "The rooms are exceptionally clean and comfortable. The staff is very polite, humble, and always ready to assist. Beds are neat and tidy, and the service is truly top-notch. The owner, Senior Mr. Kapoor, is a true gentleman who personally inspects the entire property to ensure everything is perfect. His polite and professional approach makes the stay even more pleasant. Highly recommended."
-        },
-        {
-            name: "Anju Chahal",
-            date: "2 weeks ago",
-            text: "Stayed for 4 nights, had a wonderful stay. Highly recommend the place. Owner himself is great host and a very generous person."
+            name: "Aisha Sharma",
+            date: "3 weeks ago",
+            text: "Wonderful boutique experience. Loved the warm lighting, design aesthetic, and quiet comfort of the rooms. The host was helpful throughout."
         }
     ];
 
@@ -126,7 +118,7 @@ const Saffron = () => {
                 {/* Left Side - Text */}
                 <div className="sandane-hero-text">
                     <h1 className="sandane-hero-title">
-                        Saffron Inn<br />
+                        CoCo House<br />
                         <span style={{ fontSize: '32px', fontWeight: '400' }}>by Sandane Homes</span>
                     </h1>
                 </div>
@@ -135,23 +127,20 @@ const Saffron = () => {
                 <div className="sandane-hero-image">
                     <img
                         src={heroImg}
-                        alt="Saffron Inn"
+                        alt="CoCo House"
                         className="sandane-hero-img-el"
                     />
                 </div>
 
                 {/* Stats Bar Overlay */}
                 <div className="sandane-stats-bar">
-                    {/* Stat a */}
                     <div className="stat-item">
-                        <div className="stat-number">15k+</div>
+                        <div className="stat-number">5k+</div>
                         <div className="stat-label">Happy Customers</div>
                     </div>
 
-                    {/* Divider */}
                     <div className="stat-divider"></div>
 
-                    {/* Stat 2 */}
                     <div className="stat-item">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <span className="stat-number">4.9</span>
@@ -164,12 +153,10 @@ const Saffron = () => {
                         <div className="stat-label">Overall Rating</div>
                     </div>
 
-                    {/* Divider */}
                     <div className="stat-divider"></div>
 
-                    {/* Stat 3 */}
                     <div className="stat-item">
-                        <div className="stat-number">12+</div>
+                        <div className="stat-number">5+</div>
                         <div className="stat-label">Years Experience</div>
                     </div>
                 </div>
@@ -178,7 +165,7 @@ const Saffron = () => {
                 <div className="sandane-floating-buttons">
                     <button
                         className="btn-book"
-                        onClick={() => window.open('https://www.makemytrip.com/hotels/saffron_inn_india_expo_mart-details-greater_noida.html', '_blank')}
+                        onClick={() => window.open('https://www.makemytrip.com/hotels/coco_house-details-greater_noida.html', '_blank')}
                     >
                         Book Now
                     </button>
@@ -253,4 +240,4 @@ const Saffron = () => {
     );
 };
 
-export default Saffron;
+export default CocoHouse;

@@ -10,6 +10,7 @@ import Amaaltash from './components/pages/Amaaltash';
 import Saffron from './components/pages/Saffron';
 import PineTales from './components/pages/PineTales';
 import Glam from './components/pages/Glam';
+import CocoHouse from './components/pages/CocoHouse';
 import Preloader from './components/Preloader';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/saffron" element={<Saffron />} />
           <Route path="/pine-tales" element={<PineTales />} />
           <Route path="/glam" element={<Glam />} />
+          <Route path="/coco-house" element={<CocoHouse />} />
         </Routes>
       </div>
     </Router>

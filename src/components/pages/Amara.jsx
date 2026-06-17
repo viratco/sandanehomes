@@ -2,10 +2,10 @@ import React from 'react';
 import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import Footer from '../Footer';
-import heroImg from '../../assets/IMG_6257.jpg'; // Amara Inn Hero Image - High Res
-import room1 from '../../assets/IMG_6236.jpg'; // Updated per user request
-import room2 from '../../assets/IMG_6234.jpg'; // Updated per user request
-import room3 from '../../assets/IMG_6229.jpg'; // Updated per user request
+import heroImg from '../../assets/amara_facade.jpg'; // Amara Inn Facade at night
+import room1 from '../../assets/amara_hallway.jpg'; // Hallway with blue wave murals
+import room2 from '../../assets/IMG_6234.jpg';
+import room3 from '../../assets/amara_bedroom.jpg'; // Bedroom with smart TV
 import room4 from '../../assets/IMG_6221.jpg'; // Updated per user request
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
@@ -64,13 +64,13 @@ const Amara = () => {
 
     const rooms = [
         {
-            title: "Private Balcony",
-            desc: "Enjoy your morning coffee or evening snacks in a private, green-carpeted balcony space.",
+            title: "Artistic Corridor",
+            desc: "Beautiful hallway corridors painted with custom blue leaf-like murals creating a chic, artistic atmosphere.",
             image: room1
         },
         {
-            title: "Classy Rooms",
-            desc: "Elegant, spacious, and luxurious room with a premium memory foam mattress for your ultimate relaxation.",
+            title: "Deluxe Smart Room",
+            desc: "Relax in full comfort with custom graphic walls, comfortable bedding, and a smart TV with streaming services.",
             image: room3
         },
         {
@@ -79,8 +79,8 @@ const Amara = () => {
             image: room2
         },
         {
-            title: "Deluxe Rooms",
-            desc: "Relax in full comfort with cozy seating areas and smart TVs pre-loaded with streaming apps for your entertainment.",
+            title: "Executive Rooms",
+            desc: "Spacious executive rooms equipped with contemporary seating areas, vanity desk, and modern amenities.",
             image: room4
         }
     ];

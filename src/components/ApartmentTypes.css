@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1560px;
     margin: 0 auto;
     padding: 40px 40px;
     /* Added side padding to prevent border clipping */
@@ -67,16 +67,23 @@
     /* Handle multi-line titles */
 }
 
-.card-medium .card-info-segment h3 {
-    font-size: 22px;
-    /* Intermediate size */
+.card-tier-1 .card-info-segment h3 {
+    font-size: 15px;
 }
 
-.card-large .card-info-segment h3 {
-    font-size: 32px;
-    /* Keep large as requested */
+.card-tier-2 .card-info-segment h3 {
+    font-size: 17px;
+}
+
+.card-tier-3 .card-info-segment h3 {
+    font-size: 21px;
+}
+
+.card-tier-4 .card-info-segment h3 {
+    font-size: 28px;
     font-weight: 600;
 }
+
 
 .explore-btn {
     font-size: 11px;
@@ -103,31 +110,39 @@
 
 /* Specific Sizes based on position */
 
-/* Outer cards (1st and 6th) */
-.card-small {
+/* Outermost flanking cards (1st and 7th) */
+.card-tier-1 {
     width: 150px;
-    height: 200px;
-    margin-top: 200px;
+    height: 320px;
+    margin-top: 120px;
 }
 
-/* Inner flanking cards (2nd and 5th) */
-.card-medium {
-    width: 210px;
-    height: 420px;
+/* Outer flanking cards (2nd and 6th) */
+.card-tier-2 {
+    width: 180px;
+    height: 400px;
     margin-top: 80px;
 }
 
-/* Center cards (3rd and 4th) */
-.card-large {
-    width: 290px;
-    height: 580px;
+/* Inner flanking cards (3rd and 5th) */
+.card-tier-3 {
+    width: 220px;
+    height: 480px;
+    margin-top: 40px;
+}
+
+/* Center card (4th) */
+.card-tier-4 {
+    width: 280px;
+    height: 560px;
     margin-top: 0;
     z-index: 2;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
+
 /* Laptop screens - add horizontal scroll slider */
-@media (max-width: 1500px) {
+@media (max-width: 1560px) {
     .apartment-gallery-container {
         justify-content: flex-start;
         overflow-x: auto;
@@ -183,7 +198,7 @@
     right: 10px;
 }
 
-@media (min-width: 1501px) {
+@media (min-width: 1561px) {
     .slider-arrow {
         display: none; /* Hide on large screens where it fits */
     }
@@ -215,16 +230,27 @@
         height: 280px !important; /* Unified height for mobile grid except large */
     }
 
-    /* Small and Medium cards */
-    .card-medium, .card-small {
+    /* Other cards */
+    .card-tier-1, .card-tier-2, .card-tier-3 {
         order: 1;
     }
 
-    /* Sandane & Catarina - Top Spotlight */
-    .card-large {
-        grid-column: span 1; /* Each takes half on tablet, or full on smaller? */
+    /* Flagship Sandane Homes - Top Spotlight */
+    .card-tier-4 {
+        grid-column: span 2;
         height: 400px !important;
         order: -1;
+    }
+
+    /* Unify font size on mobile/tablets for consistency */
+    .card-tier-1 .card-info-segment h3,
+    .card-tier-2 .card-info-segment h3,
+    .card-tier-3 .card-info-segment h3 {
+        font-size: 18px !important;
+    }
+
+    .card-tier-4 .card-info-segment h3 {
+        font-size: 24px !important;
     }
 }
 
@@ -233,7 +259,7 @@
         grid-template-columns: 1fr; /* 1 column for phones */
     }
     
-    .card-large {
+    .card-tier-4 {
         grid-column: span 1;
     }
 }

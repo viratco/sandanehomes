@@ -66,6 +66,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                             <li><Link to="/saffron" onClick={() => setIsMobileMenuOpen(false)}>SAFFRON</Link></li>
                                             <li><Link to="/pine-tales" onClick={() => setIsMobileMenuOpen(false)}>PINE TALES</Link></li>
                                             <li><Link to="/glam" onClick={() => setIsMobileMenuOpen(false)}>GLAM</Link></li>
+                                            <li><Link to="/coco-house" onClick={() => setIsMobileMenuOpen(false)}>COCO HOUSE BY SANDANE HOMES</Link></li>
                                         </ul>
                                     </div>
                                 )}
