@@ -141,8 +141,57 @@
 }
 
 
+/* Medium screens & Laptops (e.g. Windows laptops) - scale down sizes to fit 7 cards without scrolling */
+@media (min-width: 1201px) and (max-width: 1560px) {
+    .apartment-gallery-container {
+        justify-content: center;
+        overflow: hidden;
+        gap: 12px;
+        padding: 40px 30px;
+    }
+
+    .card-tier-1 {
+        width: 110px;
+        height: 280px;
+        margin-top: 100px;
+    }
+
+    .card-tier-2 {
+        width: 130px;
+        height: 350px;
+        margin-top: 65px;
+    }
+
+    .card-tier-3 {
+        width: 160px;
+        height: 420px;
+        margin-top: 30px;
+    }
+
+    .card-tier-4 {
+        width: 210px;
+        height: 480px;
+        margin-top: 0;
+    }
+
+    .card-tier-1 .card-info-segment h3,
+    .card-tier-2 .card-info-segment h3 {
+        font-size: 13px;
+    }
+
+    .card-tier-3 .card-info-segment h3 {
+        font-size: 15px;
+    }
+
+    .card-tier-4 .card-info-segment h3 {
+        font-size: 20px;
+    }
+}
+
+
+
 /* Laptop screens - add horizontal scroll slider */
-@media (max-width: 1560px) {
+@media (max-width: 1200px) {
     .apartment-gallery-container {
         justify-content: flex-start;
         overflow-x: auto;
@@ -198,7 +247,7 @@
     right: 10px;
 }
 
-@media (min-width: 1561px) {
+@media (min-width: 1201px) {
     .slider-arrow {
         display: none; /* Hide on large screens where it fits */
     }
