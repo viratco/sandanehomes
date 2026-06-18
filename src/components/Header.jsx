@@ -236,14 +236,23 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                     </div>
                 )}
 
-                {/* Right Info (Custom Phone) */}
-                {customPhone && (
-                    <div className="header-right-info">
+                {/* Right Info (Custom Phone & Translator) */}
+                <div className="header-right-info" style={{ display: 'flex', alignItems: 'center' }}>
+                    {!shouldShowTopBar && window.innerWidth > 1024 && (
+                        <div className="desktop-nav-translator">
+                            <button onClick={() => changeLanguage('ko')} className={`lang-btn ${currentLang === 'ko' ? 'active' : ''}`} aria-label="Translate to Korean"><span className="lang-flag">🇰🇷</span> KR</button>
+                            <span className="lang-divider">|</span>
+                            <button onClick={() => changeLanguage('ja')} className={`lang-btn ${currentLang === 'ja' ? 'active' : ''}`} aria-label="Translate to Japanese"><span className="lang-flag">🇯🇵</span> JP</button>
+                            <span className="lang-divider">|</span>
+                            <button onClick={() => changeLanguage('en')} className={`lang-btn ${currentLang === 'en' ? 'active' : ''}`} aria-label="Translate to English"><span className="lang-flag">🇬🇧</span> EN</button>
+                        </div>
+                    )}
+                    {customPhone && (
                         <a href={`tel:${customPhone.replace(/\s/g, '')}`} style={{ color: 'inherit', textDecoration: 'none' }}>
                             Tel: {customPhone}
                         </a>
-                    </div>
-                )}
+                    )}
+                </div>
             </div>
 
             {/* Mobile menu overlay */}
