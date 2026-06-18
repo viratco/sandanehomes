@@ -11,6 +11,62 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
+    // Helper to get cookie value
+    const getCookie = (name) => {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+        return null;
+    };
+
+    // State for the current language
+    const [currentLang, setCurrentLang] = useState(() => {
+        const cookieVal = getCookie('googtrans');
+        if (cookieVal) {
+            const parts = cookieVal.split('/');
+            const code = parts[parts.length - 1];
+            if (['ko', 'ja', 'en'].includes(code)) {
+                return code;
+            }
+        }
+        return 'en';
+    });
+
+    // Handle language selection
+    const changeLanguage = (lang) => {
+        const hostname = window.location.hostname;
+        const cookieVal = `/en/${lang}`;
+
+        const deleteCookie = (name, path, domain) => {
+            let str = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=${path}`;
+            if (domain) str += `; domain=${domain}`;
+            document.cookie = str;
+        };
+
+        deleteCookie('googtrans', '/');
+        deleteCookie('googtrans', '/', hostname);
+        if (hostname.includes('.')) {
+            const domainParts = hostname.split('.');
+            if (domainParts.length >= 2) {
+                const mainDomain = `.${domainParts.slice(-2).join('.')}`;
+                deleteCookie('googtrans', '/', mainDomain);
+            }
+        }
+
+        document.cookie = `googtrans=${cookieVal}; path=/;`;
+
+        if (hostname !== 'localhost' && hostname !== '127.0.0.1') {
+            const domainParts = hostname.split('.');
+            if (domainParts.length >= 2) {
+                const mainDomain = `.${domainParts.slice(-2).join('.')}`;
+                document.cookie = `googtrans=${cookieVal}; path=/; domain=${mainDomain};`;
+            }
+        }
+
+        setCurrentLang(lang);
+        window.location.reload();
+    };
+
     React.useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 50);
@@ -30,6 +86,31 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                 <div className="header-top-row">
                     <div>BB-28, Block B, Ansal Golf Link -1, Greater Noida, UP 201315</div>
                     <div className="header-contact-info">
+                        <div className="header-translator">
+                            <button 
+                                onClick={() => changeLanguage('ko')} 
+                                className={`lang-btn ${currentLang === 'ko' ? 'active' : ''}`}
+                                aria-label="Translate to Korean"
+                            >
+                                <span className="lang-flag">🇰🇷</span> 한국어
+                            </button>
+                            <span className="lang-divider">|</span>
+                            <button 
+                                onClick={() => changeLanguage('ja')} 
+                                className={`lang-btn ${currentLang === 'ja' ? 'active' : ''}`}
+                                aria-label="Translate to Japanese"
+                            >
+                                <span className="lang-flag">🇯🇵</span> 日本語
+                            </button>
+                            <span className="lang-divider">|</span>
+                            <button 
+                                onClick={() => changeLanguage('en')} 
+                                className={`lang-btn ${currentLang === 'en' ? 'active' : ''}`}
+                                aria-label="Translate to English"
+                            >
+                                <span className="lang-flag">🇬🇧</span> EN
+                            </button>
+                        </div>
                         <span>Tel: +91 9711722273</span>
                         <span>sandanehomes@gmail.com</span>
                     </div>
@@ -114,6 +195,34 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                 )}
                             </li>
                         </ul>
+                        
+                        {/* Mobile Translator */}
+                        <div className="mobile-translator">
+                            <span className="mobile-translator-label">Translate Site</span>
+                            <div className="mobile-translator-buttons">
+                                <button 
+                                    onClick={() => changeLanguage('ko')} 
+                                    className={`mobile-lang-btn ${currentLang === 'ko' ? 'active' : ''}`}
+                                    aria-label="Translate to Korean"
+                                >
+                                    <span className="lang-flag">🇰🇷</span> 한국어
+                                </button>
+                                <button 
+                                    onClick={() => changeLanguage('ja')} 
+                                    className={`mobile-lang-btn ${currentLang === 'ja' ? 'active' : ''}`}
+                                    aria-label="Translate to Japanese"
+                                >
+                                    <span className="lang-flag">🇯🇵</span> 日本語
+                                </button>
+                                <button 
+                                    onClick={() => changeLanguage('en')} 
+                                    className={`mobile-lang-btn ${currentLang === 'en' ? 'active' : ''}`}
+                                    aria-label="Translate to English"
+                                >
+                                    <span className="lang-flag">🇬🇧</span> English
+                                </button>
+                            </div>
+                        </div>
                     </nav>
                 )}
 

@@ -67,3 +67,28 @@ button {
 .uppercase {
   text-transform: uppercase;
 }
+
+/* ===== GOOGLE TRANSLATE CUSTOM OVERRIDES ===== */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+.goog-te-gadget {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+.goog-tooltip {
+  display: none !important;
+}
+.goog-tooltip:hover {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
