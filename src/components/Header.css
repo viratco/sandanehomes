@@ -58,6 +58,13 @@
     border: 1px solid rgba(197, 165, 114, 0.5);
 }
 
+.site-header.is-catarina .desktop-nav-translator {
+    background-color: rgba(5, 5, 5, 0.4);
+    border: 1px solid rgba(197, 165, 114, 0.5);
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
 .site-header.is-catarina .nav-item {
     border-right: 1px solid rgba(197, 165, 114, 0.3);
 }
