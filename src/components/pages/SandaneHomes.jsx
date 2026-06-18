@@ -190,7 +190,7 @@ const SandaneHomes = () => {
                 <div className="sandane-floating-buttons">
                     <button
                         className="btn-book"
-                        onClick={() => window.open('https://www.airbnb.co.in/rooms/1221670335645327335?source_impression_id=p3_1770834136_P33kzHJJB14pFbCG', '_blank')}
+                        onClick={() => window.open('https://bookingengine.stayflexi.com/29512/?checkin=18-06-2026&num_nights=1&num_guests=2&source=google&hotel_id=29512', '_blank')}
                     >
                         Book Now
                     </button>
