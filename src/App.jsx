@@ -13,6 +13,8 @@ import Glam from './components/pages/Glam';
 import CocoHouse from './components/pages/CocoHouse';
 import Preloader from './components/Preloader';
 
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -33,6 +35,7 @@ function App() {
           <Route path="/coco-house" element={<CocoHouse />} />
         </Routes>
       </div>
+      <Analytics />
     </Router>
   );
 }
