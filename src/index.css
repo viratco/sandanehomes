@@ -69,26 +69,32 @@ button {
 }
 
 /* ===== GOOGLE TRANSLATE CUSTOM OVERRIDES ===== */
-iframe.goog-te-banner-frame {
-  display: none !important;
-}
+iframe.goog-te-banner-frame,
+iframe[name="goog-te-banner-frame"],
 .goog-te-banner-frame {
   display: none !important;
+  visibility: hidden !important;
 }
-.goog-te-gadget {
-  display: none !important;
-}
-body {
-  top: 0px !important;
-}
-.goog-tooltip {
-  display: none !important;
-}
+
+div#goog-gt-tt,
+.goog-te-balloon-frame,
+.goog-tooltip,
 .goog-tooltip:hover {
   display: none !important;
+  visibility: hidden !important;
 }
+
 .goog-text-highlight {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+.goog-te-gadget {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
 }
