@@ -10,7 +10,12 @@ const faqs = [
   { question: "Do you offer special corporate rates or group bookings for Expo Mart events?", answer: "Yes, Sandane Homes provides customized corporate packages and discounted group booking rates for event exhibitors and corporate delegations. Please contact our front desk for custom quotes." },
   { question: "Is free parking available on-site at Sandane Homes?", answer: "Yes, we provide secure, complimentary on-site parking for all staying guests." },
   { question: "What are the check-in and check-out timings at Sandane Homes?", answer: "Standard check-in time is 12:00 PM, and check-out time is 11:00 AM. Early check-in or late check-out is subject to room availability." },
-  { question: "Are serviced apartments or kitchen facilities available at the property?", answer: "Yes, Sandane Homes offers boutique serviced apartments featuring modern amenities, and select units include kitchenette access for long-stay guests." }
+  { question: "Are serviced apartments or kitchen facilities available at the property?", answer: "Yes, Sandane Homes offers boutique serviced apartments featuring modern amenities, and select units include kitchenette access for long-stay guests." },
+  { question: "Are pets allowed at Sandane Homes?", answer: "Yes, we are a pet-friendly property! We welcome your furry companions, though we kindly request prior notification during booking to ensure proper arrangements are made." },
+  { question: "Do you provide airport transfers?", answer: "Yes, we offer premium airport pickup and drop-off services upon request. Please share your flight details with our concierge team at least 24 hours in advance." },
+  { question: "Is daily housekeeping included in the stay?", answer: "Absolutely. Daily professional housekeeping is included for all our stays to ensure your apartment remains spotless and comfortable." },
+  { question: "What is your cancellation policy?", answer: "Our cancellation policy varies depending on the type and length of your booking. Generally, standard bookings can be canceled up to 48 hours prior to check-in without penalty." },
+  { question: "Are there dining options available on-site?", answer: "Yes, we offer an exquisite in-house dining experience with customized multi-cuisine menus. We also provide prompt room service so you can enjoy meals in the comfort of your apartment." }
 ];
 
 const FaqItem = ({ faq, isOpen, onClick }) => {
@@ -38,6 +43,9 @@ const FaqSection = () => {
     const navigate = useNavigate();
 
     const isFaqPage = location.pathname === '/faqs';
+    
+    // Show only first 6 FAQs on the Home page, show all on the FAQ page
+    const displayedFaqs = isFaqPage ? faqs : faqs.slice(0, 6);
 
     const toggleFaq = (index) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -52,7 +60,7 @@ const FaqSection = () => {
                 </div>
                 
                 <div className="faq-list">
-                    {faqs.map((faq, index) => (
+                    {displayedFaqs.map((faq, index) => (
                         <FaqItem 
                             key={index} 
                             faq={faq} 
