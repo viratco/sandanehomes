@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import './FaqSection.css';
 
 const faqs = [
@@ -33,6 +34,10 @@ const FaqItem = ({ faq, isOpen, onClick }) => {
 
 const FaqSection = () => {
     const [openIndex, setOpenIndex] = useState(null);
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const isFaqPage = location.pathname === '/faqs';
 
     const toggleFaq = (index) => {
         setOpenIndex(openIndex === index ? null : index);
@@ -56,6 +61,21 @@ const FaqSection = () => {
                         />
                     ))}
                 </div>
+
+                {!isFaqPage && (
+                    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+                        <button 
+                            className="btn-book"
+                            onClick={() => {
+                                window.scrollTo(0, 0);
+                                navigate('/faqs');
+                            }}
+                            style={{ display: 'inline-block', padding: '15px 40px', fontSize: '13px', letterSpacing: '2px' }}
+                        >
+                            VIEW ALL FAQs
+                        </button>
+                    </div>
+                )}
             </div>
         </section>
     );
