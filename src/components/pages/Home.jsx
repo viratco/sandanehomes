@@ -8,6 +8,7 @@ import CuisineSection from '../CuisineSection';
 import ServicesSection from '../ServicesSection';
 import HospitalitySection from '../HospitalitySection';
 import DiscoverSection from '../DiscoverSection';
+import FaqSection from '../FaqSection';
 import ContactSection from '../ContactSection';
 import ReservationSeparator from '../ReservationSeparator';
 import Footer from '../Footer';
@@ -30,6 +31,7 @@ const Home = () => {
 
             <HospitalitySection />
             <DiscoverSection />
+            <FaqSection />
             <ContactSection />
             <Footer />
         </div>
