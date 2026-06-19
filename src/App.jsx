@@ -11,6 +11,7 @@ import Saffron from './components/pages/Saffron';
 import PineTales from './components/pages/PineTales';
 import Glam from './components/pages/Glam';
 import CocoHouse from './components/pages/CocoHouse';
+import FaqPage from './components/pages/FaqPage';
 import Preloader from './components/Preloader';
 
 import { Analytics } from '@vercel/analytics/react';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/pine-tales" element={<PineTales />} />
           <Route path="/glam" element={<Glam />} />
           <Route path="/coco-house" element={<CocoHouse />} />
+          <Route path="/faqs" element={<FaqPage />} />
         </Routes>
       </div>
       <Analytics />
