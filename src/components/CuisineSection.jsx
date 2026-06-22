@@ -54,7 +54,7 @@ const CuisineSection = () => {
                             margin: 0,
                             letterSpacing: '-2px' // Tighter spacing for elegance
                         }}>
-                            CATARINA
+                            RESIDENCES
                         </h2>
                         <h2 style={{
                             fontFamily: 'Playfair Display, serif',
@@ -134,10 +134,10 @@ const CuisineSection = () => {
                                     maxWidth: '450px',
                                     marginBottom: '30px'
                                 }}>
-                                    Discover a haven of sophistication and comfort at Catarina. Designed for the modern professional, our spaces are fully equipped with premium air purifiers, yearly maintenance, and comprehensive services, granting you the ultimate freedom to live wherever you want while ensuring your stay is effortlessly exceptional.
+                                    Discover a haven of sophistication and comfort at Residences by Sandane Homes. Designed for the modern professional, our spaces are fully equipped with premium air purifiers, yearly maintenance, and comprehensive services, granting you the ultimate freedom to live wherever you want while ensuring your stay is effortlessly exceptional.
                                 </p>
                                 <button
-                                    onClick={() => navigate('/catarina-services')}
+                                    onClick={() => navigate('/residences')}
                                     style={{
                                         padding: '14px 35px',
                                         backgroundColor: 'transparent',
@@ -199,11 +199,11 @@ const CuisineSection = () => {
                                     color: '#555', // Changed back to dark gray
                                     marginBottom: '40px'
                                 }}>
-                                    Experience premium fully-serviced luxury accommodations in the heart of Greater Noida. With over 5 years of hospitality excellence, Catarina offers meticulously designed 2BHK to 4BHK apartments and villas, tailored for expats and professionals seeking comfort, convenience, and exceptional service.
+                                    Experience premium fully-serviced luxury accommodations in the heart of Greater Noida. With over 5 years of hospitality excellence, Residences by Sandane Homes offers meticulously designed 2BHK to 4BHK apartments and villas, tailored for expats and professionals seeking comfort, convenience, and exceptional service.
                                 </p>
 
                                 <button
-                                    onClick={() => navigate('/catarina-services')} // Add navigation
+                                    onClick={() => navigate('/residences')} // Add navigation
                                     style={{
                                         padding: '16px 40px',
                                         backgroundColor: 'transparent',
@@ -215,7 +215,7 @@ const CuisineSection = () => {
                                         cursor: 'pointer',
                                         display: 'inline-block'
                                     }}>
-                                    DISCOVER CATARINA SERVICES
+                                    DISCOVER RESIDENCES SERVICES
                                 </button>
                             </div>
                         </div>
@@ -318,7 +318,7 @@ const CuisineSection = () => {
                                 </p>
 
                                 <button
-                                    onClick={() => navigate('/catarina-services')}
+                                    onClick={() => navigate('/residences')}
                                     style={{
                                         padding: '14px 35px',
                                         backgroundColor: 'transparent',
@@ -394,7 +394,7 @@ const CuisineSection = () => {
                                     Walk in with just your suitcase. We handle everything else. Our professional housekeeping team visits 7 days a week to ensure your home is sparkling clean. From laundry to maintenance, we take care of the chores so you can enjoy total privacy and comfort.
                                 </p>
                                 <button
-                                    onClick={() => navigate('/catarina-services')}
+                                    onClick={() => navigate('/residences')}
                                     style={{
                                         padding: '14px 35px',
                                         backgroundColor: 'transparent',
@@ -478,7 +478,7 @@ const CuisineSection = () => {
                                 marginBottom: '40px',
                                 maxWidth: '700px'
                             }}>
-                                Don't just stay—live. Join the community of professionals who have chosen the Catarina standard of comfort, privacy, and service. Limited exclusive units available in DLF & Jaypee Greens.
+                                Don't just stay—live. Join the community of professionals who have chosen the Residences by Sandane Homes standard of comfort, privacy, and service. Limited exclusive units available in DLF & Jaypee Greens.
                             </p>
 
                             <button

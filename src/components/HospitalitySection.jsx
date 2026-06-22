@@ -20,7 +20,7 @@ const HospitalitySection = () => {
                         High Standards of Hospitality
                     </h4>
 
-                    <img src={soheesTxt} alt="Catarina by Sandane Homes" className="hospitality-logo" />
+                    <img src={soheesTxt} alt="Residences by Sandane Homes" className="hospitality-logo" />
                 </div>
             </div>
 

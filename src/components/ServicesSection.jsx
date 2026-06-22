@@ -214,7 +214,7 @@ const ServicesSection = () => {
                             marginBottom: '40px',
                             maxWidth: '700px'
                         }}>
-                            Don't just stay—live. Join the community of professionals who have chosen the Catarina standard of comfort, privacy, and service. Limited exclusive units available in DLF & Jaypee Greens.
+                            Don't just stay—live. Join the community of professionals who have chosen the Residences by Sandane Homes standard of comfort, privacy, and service. Limited exclusive units available in DLF & Jaypee Greens.
                         </p>
 
                         <button

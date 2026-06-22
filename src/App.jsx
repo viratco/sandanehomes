@@ -3,7 +3,7 @@ import ScrollToTop from './components/ScrollToTop';
 import './MobileStyles.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import CatarinaServices from './components/pages/CatarinaServices';
+import Residences from './components/pages/Residences';
 import SandaneHomes from './components/pages/SandaneHomes';
 import Amara from './components/pages/Amara';
 import Amaaltash from './components/pages/Amaaltash';
@@ -26,7 +26,7 @@ function App() {
       <div className="app" style={{ opacity: isLoading ? 0 : 1, transition: 'opacity 0.5s ease-in' }}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/catarina-services" element={<CatarinaServices />} />
+          <Route path="/residences" element={<Residences />} />
           <Route path="/sandane-homes" element={<SandaneHomes />} />
           <Route path="/amara" element={<Amara />} />
           <Route path="/amaaltash" element={<Amaaltash />} />

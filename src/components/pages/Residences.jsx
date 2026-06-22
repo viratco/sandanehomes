@@ -12,11 +12,11 @@ import imgNew5 from '../../assets/IMG_7254.jpg';
 import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
 
-const CatarinaServices = () => {
+const Residences = () => {
     useSEO({
-        title: "Catarina by Sandane Homes | Premium Corporate Stays & Villas NCR",
+        title: "Residences by Sandane Homes | Premium Corporate Stays & Villas NCR",
         description: "Expat-focused luxury serviced apartments and villas in Noida, Greater Noida, and Gurgaon. Offering semi-furnished properties with housekeeping, 100% power backup, and corporate amenities.",
-        canonicalUrl: "https://www.sandanehomes.com/catarina-services"
+        canonicalUrl: "https://www.sandanehomes.com/residences"
     });
 
     // Facility Data with Icons
@@ -33,7 +33,7 @@ const CatarinaServices = () => {
         { icon: <FaBottleWater />, text: "20-liter water jars – five bottles provided per month" },
         { icon: <FaWifi />, text: "Installation and registration of one Wi-Fi connection up to 300 Mbps" },
         { icon: <FaScrewdriverWrench />, text: "Coverage for other maintenance and property upkeep expenses" },
-        { icon: <FaCity />, text: "Options Available in DLF/Jaypee Greens / Godrej Golf Link and other high-end societies" },
+        { icon: <FaCity />, text: "Options Available in DLF / Jaypee Greens / Godrej Golf Link and other high-end societies" },
         { icon: <FaLocationDot />, text: "Location - Gurgaon / Greater Noida / Noida" }
     ];
 
@@ -48,10 +48,10 @@ const CatarinaServices = () => {
                 backgroundPosition: 'center'
             }}>
                 <h1 className="catarina-title">
-                    Catarina <span style={{ fontSize: '0.6em', display: 'block', marginTop: '5px', letterSpacing: '3px' }}>By Sandane Homes</span>
+                    Residences <span style={{ fontSize: '0.6em', display: 'block', marginTop: '5px', letterSpacing: '3px' }}>By Sandane Homes</span>
                 </h1>
                 <p className="catarina-subtitle">
-                    Apartments - Villas - Expert Accommodations
+                    Apartments - Villas - Executive Accommodations
                 </p>
                 <div className="catarina-quote">
                     "Where Comfort Meets Class"
@@ -87,7 +87,7 @@ const CatarinaServices = () => {
                     <p><strong style={{ color: '#111' }}>Options Available in:</strong> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies</p>
                 </div>
 
-                {/* Catarina Info Section */}
+                {/* Residences Info Section */}
                 <div style={{
                     marginTop: '50px',
                     maxWidth: '850px',
@@ -106,7 +106,7 @@ const CatarinaServices = () => {
                         <strong style={{ fontSize: '18px', color: '#1A3C34' }}>Leaving home is hard. Finding it here shouldn't be.</strong>
                     </p>
                     <p style={{ marginBottom: '15px' }}>
-                        Picture this: your long flight is over, and you've just stepped into an unfamiliar country. The excitement is real, but so is the anxiety of starting over. <i>Where will you live? How will you manage the details?</i> At Catarina by Sandane Homes, crossing oceans doesn't mean losing your sense of belonging. We don’t just hand you keys; we welcome you to a sanctuary. From a freshly made bed to curated furnishings that make the space feel like <b>yours</b>, we carry the weight of relocation so you can simply breathe, unpack, and embrace your new chapter.
+                        Picture this: your long flight is over, and you've just stepped into an unfamiliar country. The excitement is real, but so is the anxiety of starting over. <i>Where will you live? How will you manage the details?</i> At Residences by Sandane Homes, crossing oceans doesn't mean losing your sense of belonging. We don’t just hand you keys; we welcome you to a sanctuary. From a freshly made bed to curated furnishings that make the space feel like <b>yours</b>, we carry the weight of relocation so you can simply breathe, unpack, and embrace your new chapter.
                     </p>
                     <ul style={{
                         margin: '0',
@@ -157,10 +157,10 @@ const CatarinaServices = () => {
             <div className="seo-text-block" style={{ padding: '40px 20px', maxWidth: '1000px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
                 <h3 style={{ fontSize: '24px', marginBottom: '20px', color: '#1A3C34' }}>Premium Corporate Housing & Serviced Apartments in Greater Noida</h3>
                 <p style={{ fontSize: '16px', lineHeight: '1.8', marginBottom: '15px' }}>
-                    Catarina by Sandane Homes is the premier choice for <strong>Serviced Apartments in Greater Noida</strong> and top-tier <strong>Corporate Housing across the NCR</strong>. We specialize in providing fully furnished, high-end executive accommodations tailored for expats, diplomats, and corporate leaders. Our long-stay apartments are thoughtfully designed to offer a seamless transition for professionals relocating to Noida or Gurgaon.
+                    Residences by Sandane Homes is the premier choice for <strong>Serviced Apartments in Greater Noida</strong> and top-tier <strong>Corporate Housing across the NCR</strong>. We specialize in providing fully furnished, high-end executive accommodations tailored for expats, diplomats, and corporate leaders. Our long-stay apartments are thoughtfully designed to offer a seamless transition for professionals relocating to Noida or Gurgaon.
                 </p>
                 <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
-                    If you are searching for a <strong>Luxury Serviced Apartment in NCR</strong> that combines the privacy of a private residence with the world-class amenities of a 5-star hotel, Catarina is your perfect match. Enjoy hassle-free living with our comprehensive services including daily housekeeping, high-speed Wi-Fi, and 100% power backup in the most secure and prestigious neighborhoods.
+                    If you are searching for a <strong>Luxury Serviced Apartment in NCR</strong> that combines the privacy of a private residence with the world-class amenities of a 5-star hotel, Residences by Sandane Homes is your perfect match. Enjoy hassle-free living with our comprehensive services including daily housekeeping, high-speed Wi-Fi, and 100% power backup in the most secure and prestigious neighborhoods.
                 </p>
             </div>
 
@@ -219,4 +219,4 @@ const CatarinaServices = () => {
     );
 };
 
-export default CatarinaServices;
+export default Residences;

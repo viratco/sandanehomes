@@ -7,7 +7,6 @@ import pineTalesImg from '../assets/IMG_6598.JPG';
 import glamMainImg from '../assets/glam_main.jpg'; // New Glam image
 import amaraImg from '../assets/amara_facade.jpg';
 import saffronImg from '../assets/saffron_bedroom.png'; // Saffron image
-import catarinaImg from '../assets/catarina_small.jpg'; // Catarina image
 import cocoFacadeImg from '../assets/coco_facade.jpg'; // CoCo House facade image
 import './ApartmentTypes.css'; // Import the new CSS
 

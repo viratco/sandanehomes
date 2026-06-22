@@ -77,10 +77,10 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
 
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
-    const shouldShowTopBar = showTopBar && location.pathname !== '/catarina-services';
+    const shouldShowTopBar = showTopBar && location.pathname !== '/residences';
 
     return (
-        <header className={`site-header ${(isScrolled || location.pathname !== '/') ? 'scrolled' : ''} ${location.pathname !== '/' ? 'is-subpage' : ''} ${location.pathname === '/catarina-services' ? 'is-catarina' : ''}`}>
+        <header className={`site-header ${(isScrolled || location.pathname !== '/') ? 'scrolled' : ''} ${location.pathname !== '/' ? 'is-subpage' : ''} ${location.pathname === '/residences' ? 'is-catarina' : ''}`}>
             {/* Top Info Row */}
             {shouldShowTopBar && (
                 <div className="header-top-row">
@@ -166,7 +166,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                 {isServiceDropdownOpen && (
                                     <div className="dropdown-container">
                                         <ul className="dropdown-list">
-                                            <li><Link to="/catarina-services" onClick={() => setIsMobileMenuOpen(false)}>CATARINA</Link></li>
+                                            <li><Link to="/residences" onClick={() => setIsMobileMenuOpen(false)}>RESIDENCES BY SANDANE</Link></li>
                                         </ul>
                                     </div>
                                 )}
