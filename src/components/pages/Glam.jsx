@@ -3,11 +3,11 @@ import useSEO from '../../hooks/useSEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
-import heroImg from '../../assets/glam_main.jpg'; 
-import room1 from '../../assets/glam_room1.jpg'; 
-import room2 from '../../assets/glam_room2.jpg'; 
-import room3 from '../../assets/glam_room3.jpg'; 
-import room4 from '../../assets/glam_room4.jpg'; 
+import heroImg from '../../assets/glam_main.jpg';
+import room1 from '../../assets/glam_room1.jpg';
+import room2 from '../../assets/glam_room2.jpg';
+import room3 from '../../assets/glam_room3.jpg';
+import room4 from '../../assets/glam_room4.jpg';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
 import './SandaneHomes.css'; // Import shared CSS
@@ -166,13 +166,13 @@ const Glam = () => {
                 </div>
 
                 <div className="sandane-floating-buttons">
-                    <button 
+                    <button
                         className="btn-book"
-                        onClick={() => window.open('https://www.makemytrip.com/hotels/the_glam-details-greater_noida.html', '_blank')}
+                        onClick={() => window.open('https://bookingengine.stayflexi.com/36376/?checkin=25-06-2026&num_nights=1&num_guests=2&source=google&hotel_id=36376')}
                     >
                         Book Now
                     </button>
-                    <button 
+                    <button
                         className="btn-contact"
                         onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
                     >
@@ -216,6 +216,17 @@ const Glam = () => {
                         <ReviewCard key={index} {...review} />
                     ))}
                 </div>
+            </div>
+
+            {/* SEO Text Block */}
+            <div className="seo-text-block" style={{ padding: '60px 20px', maxWidth: '1200px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
+                <h3 style={{ fontSize: '24px', marginBottom: '20px', color: '#333' }}>Discover The Glam: Premium Serviced Apartments in Greater Noida</h3>
+                <p style={{ fontSize: '16px', lineHeight: '1.8', marginBottom: '15px' }}>
+                    Welcome to The Glam by Sandane Homes, offering exquisite luxury serviced apartments conveniently located near the India Expo Centre & Mart. Whether you are traveling for a quick business trip, attending a major exhibition, or looking for a comfortable long-term stay, The Glam provides the perfect blend of hotel-style amenities and the warmth of a home.
+                </p>
+                <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
+                    Our premium executive stays feature fully-equipped class rooms, high-speed Wi-Fi, daily housekeeping, and 24/7 concierge services. Located just a short drive from Pari Chowk, Sharda University, and Knowledge Park, The Glam stands out as a premier destination for corporate travelers and expats seeking fully furnished, pet-friendly accommodation in Delhi NCR. Experience unparalleled hospitality, seamless comfort, and secure parking in Greater Noida.
+                </p>
             </div>
 
             <Footer customPhone="+91 96547 07779" />

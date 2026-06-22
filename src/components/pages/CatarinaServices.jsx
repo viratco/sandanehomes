@@ -153,6 +153,17 @@ const CatarinaServices = () => {
                 </div>
             </div>
 
+            {/* SEO Text Block */}
+            <div className="seo-text-block" style={{ padding: '40px 20px', maxWidth: '1000px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
+                <h3 style={{ fontSize: '24px', marginBottom: '20px', color: '#1A3C34' }}>Premium Corporate Housing & Serviced Apartments in Greater Noida</h3>
+                <p style={{ fontSize: '16px', lineHeight: '1.8', marginBottom: '15px' }}>
+                    Catarina by Sandane Homes is the premier choice for <strong>Serviced Apartments in Greater Noida</strong> and top-tier <strong>Corporate Housing across the NCR</strong>. We specialize in providing fully furnished, high-end executive accommodations tailored for expats, diplomats, and corporate leaders. Our long-stay apartments are thoughtfully designed to offer a seamless transition for professionals relocating to Noida or Gurgaon.
+                </p>
+                <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
+                    If you are searching for a <strong>Luxury Serviced Apartment in NCR</strong> that combines the privacy of a private residence with the world-class amenities of a 5-star hotel, Catarina is your perfect match. Enjoy hassle-free living with our comprehensive services including daily housekeeping, high-speed Wi-Fi, and 100% power backup in the most secure and prestigious neighborhoods.
+                </p>
+            </div>
+
             {/* About & Contact Section */}
             <div className="catarina-section catarina-contact-section">
                 <div style={{

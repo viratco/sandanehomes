@@ -71,7 +71,11 @@ button {
 /* ===== GOOGLE TRANSLATE CUSTOM OVERRIDES ===== */
 iframe.goog-te-banner-frame,
 iframe[name="goog-te-banner-frame"],
-.goog-te-banner-frame {
+.goog-te-banner-frame,
+.skiptranslate > iframe,
+.VIpgJd-ZVi9od-ORHb-OEVmcd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
   display: none !important;
   visibility: hidden !important;
 }

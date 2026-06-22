@@ -235,6 +235,17 @@ const CocoHouse = () => {
                 </div>
             </div>
 
+            {/* SEO Text Block */}
+            <div className="seo-text-block" style={{ padding: '60px 20px', maxWidth: '1200px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
+                <h3 style={{ fontSize: '24px', marginBottom: '20px', color: '#333' }}>Experience CoCo House: Your Boutique Hotel in Greater Noida</h3>
+                <p style={{ fontSize: '16px', lineHeight: '1.8', marginBottom: '15px' }}>
+                    Welcome to CoCo House by Sandane Homes, a uniquely designed premium boutique hotel providing an exquisite stay experience near the India Expo Centre & Mart. Ideal for both business professionals and leisure travelers, CoCo House merges modern aesthetic elegance with exceptional hospitality. Whether you need a short-term luxury stay or executive accommodation, our property offers unparalleled comfort and convenience.
+                </p>
+                <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
+                    Each smartly designed studio and executive room comes fully equipped with high-speed internet, premium entertainment, and dedicated workspaces. Situated centrally in Greater Noida, just moments away from major landmarks like Knowledge Park and local universities, CoCo House is the ultimate choice for visitors seeking a sophisticated, pet-friendly environment with 24-hour concierge service, complimentary breakfast, and daily housekeeping.
+                </p>
+            </div>
+
             <Footer />
         </div>
     );
