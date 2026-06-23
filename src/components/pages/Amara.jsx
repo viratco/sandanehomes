@@ -167,7 +167,7 @@ const Amara = () => {
 
                     {/* Stat 3 */}
                     <div className="stat-item">
-                        <div className="stat-number">12+</div>
+                        <div className="stat-number">10+</div>
                         <div className="stat-label">Years Experience</div>
                     </div>
                 </div>

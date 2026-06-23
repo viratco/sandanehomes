@@ -178,7 +178,7 @@ const SandaneHomes = () => {
                     {/* Stat 3 */}
                     <div className="stat-item">
                         <div className="stat-number">
-                            12+
+                            10+
                         </div>
                         <div className="stat-label">
                             Years Experience

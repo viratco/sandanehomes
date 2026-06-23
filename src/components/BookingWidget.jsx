@@ -32,7 +32,7 @@ const BookingWidget = () => {
             <div className="booking-widget-item" style={{ flex: 1.5 }}>
                 <label className="booking-label">Of Excellence</label>
                 <div className="booking-value-row">
-                    <span className="booking-value" style={{ fontSize: '18px', fontWeight: 'bold' }}>12+ Years</span>
+                    <span className="booking-value" style={{ fontSize: '18px', fontWeight: 'bold' }}>10+ Years</span>
                 </div>
             </div>
 
