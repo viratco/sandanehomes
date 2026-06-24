@@ -1,0 +1,81 @@
+.whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(18, 140, 126, 0.3), 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    outline: none;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1) translateY(-3px);
+    box-shadow: 0 8px 24px rgba(18, 140, 126, 0.4), 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.whatsapp-float:active {
+    transform: scale(0.95) translateY(0);
+}
+
+/* Elegant pulsing ring effect around the button */
+.whatsapp-float::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    border: 2px solid #25D366;
+    opacity: 0;
+    animation: whatsapp-pulse 2.5s infinite;
+    pointer-events: none;
+}
+
+@keyframes whatsapp-pulse {
+    0% {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        transform: scale(1.25);
+        opacity: 0;
+    }
+}
+
+.whatsapp-icon {
+    width: 28px;
+    height: 28px;
+    fill: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover .whatsapp-icon {
+    transform: rotate(10deg);
+}
+
+/* Place higher or adjust size on small screens so it does not crowd UI */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .whatsapp-icon {
+        width: 24px;
+        height: 24px;
+    }
+}

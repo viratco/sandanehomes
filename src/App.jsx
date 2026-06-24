@@ -13,6 +13,7 @@ import Glam from './components/pages/Glam';
 import CocoHouse from './components/pages/CocoHouse';
 import FaqPage from './components/pages/FaqPage';
 import Preloader from './components/Preloader';
+import WhatsAppButton from './components/WhatsAppButton';
 
 import { Analytics } from '@vercel/analytics/react';
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/coco-house" element={<CocoHouse />} />
           <Route path="/faqs" element={<FaqPage />} />
         </Routes>
+        <WhatsAppButton />
       </div>
       <Analytics />
     </Router>
