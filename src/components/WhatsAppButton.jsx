@@ -2,9 +2,8 @@ import React from 'react';
 import './WhatsAppButton.css';
 
 const WhatsAppButton = () => {
-    // URL-encoded text: "Hi! I'm interested in Residences by Sandane Homes. Please provide more details."
     const phoneNumber = "919711722273";
-    const defaultText = encodeURIComponent("Hi! I'm interested in Residences by Sandane Homes. Please provide more details.");
+    const defaultText = encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultText}`;
 
     return (
