@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const useSEO = ({ title, description, canonicalUrl, ogType = 'website', ogImage }) => {
+const useSEO = ({ title, description, canonicalUrl, ogType = 'website', ogImage, jsonLd }) => {
     useEffect(() => {
         // Update Title
         if (title) {
@@ -59,7 +59,27 @@ const useSEO = ({ title, description, canonicalUrl, ogType = 'website', ogImage 
         }
         linkElement.setAttribute('href', currentUrl);
 
-    }, [title, description, canonicalUrl, ogType, ogImage]);
+        // Inject JSON-LD structured data (per-page schema)
+        // Use a unique attribute so we can clean up on unmount to avoid duplicates
+        const JSON_LD_ID = 'useseo-jsonld';
+        const existingScript = document.querySelector(`script[data-seo-id="${JSON_LD_ID}"]`);
+        if (existingScript) existingScript.remove();
+
+        if (jsonLd) {
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.setAttribute('data-seo-id', JSON_LD_ID);
+            script.textContent = JSON.stringify(jsonLd, null, 2);
+            document.head.appendChild(script);
+        }
+
+        // Cleanup JSON-LD on unmount
+        return () => {
+            const scriptToRemove = document.querySelector(`script[data-seo-id="${JSON_LD_ID}"]`);
+            if (scriptToRemove) scriptToRemove.remove();
+        };
+
+    }, [title, description, canonicalUrl, ogType, ogImage, jsonLd]);
 };
 
 export default useSEO;

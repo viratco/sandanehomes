@@ -14,9 +14,50 @@ import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaG
 
 const Residences = () => {
     useSEO({
-        title: "Residences by Sandane Homes | Premium Corporate Stays & Villas NCR",
-        description: "Expat-focused luxury serviced apartments and villas in Noida, Greater Noida, and Gurgaon. Offering semi-furnished properties with housekeeping, 100% power backup, and corporate amenities.",
-        canonicalUrl: "https://www.sandanehomes.com/residences"
+        title: "Serviced Apartments for Expats in Greater Noida | Residences by Sandane Homes",
+        description: "Premium fully-furnished serviced apartments in Greater Noida for corporate expats. Minutes from Honda, LG, Samsung & Yamaha. Flexible monthly stays. Book now.",
+        canonicalUrl: "https://www.sandanehomes.com/residences",
+        ogImage: "https://www.sandanehomes.com/residences-og.jpg",
+        jsonLd: {
+            "@context": "https://schema.org",
+            "@type": "ApartmentComplex",
+            "name": "Residences by Sandane Homes",
+            "description": "Premium fully-furnished serviced apartments in Greater Noida for corporate expats and international professionals. Minutes from Honda Cars India, LG Electronics, Samsung, and Yamaha Motor. Flexible monthly stays with full amenities.",
+            "url": "https://www.sandanehomes.com/residences",
+            "telephone": "+919711722273",
+            "email": "sandanehomes@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "BB-28, Block B, Ansal Golf Link-1",
+                "addressLocality": "Greater Noida",
+                "addressRegion": "Uttar Pradesh",
+                "postalCode": "201315",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 28.4558093,
+                "longitude": 77.5036021
+            },
+            "amenityFeature": [
+                { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi (300 Mbps)", "value": true },
+                { "@type": "LocationFeatureSpecification", "name": "100% Power Backup", "value": true },
+                { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
+                { "@type": "LocationFeatureSpecification", "name": "Air Purifier", "value": true },
+                { "@type": "LocationFeatureSpecification", "name": "Fully Furnished", "value": true },
+                { "@type": "LocationFeatureSpecification", "name": "Laundry Facilities", "value": true }
+            ],
+            "containsPlace": [
+                { "@type": "Apartment", "name": "2BHK Serviced Apartment" },
+                { "@type": "Apartment", "name": "3BHK Serviced Apartment" },
+                { "@type": "Apartment", "name": "4BHK Serviced Apartment" },
+                { "@type": "Apartment", "name": "Luxury Villa" }
+            ],
+            "areaServed": [
+                "Greater Noida", "Noida", "Gurgaon", "NCR"
+            ],
+            "sameAs": "https://www.sandanehomes.com"
+        }
     });
 
     // Facility Data with Icons
