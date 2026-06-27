@@ -2,62 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.sandanehomes.com/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.00</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/residences</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/sandane-homes</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/amara</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/amaaltash</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/saffron</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/pine-tales</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/glam</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/coco-house</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/faqs</loc>
-    <lastmod>2026-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/amara</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/pine-tales</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/saffron</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/glam</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/amaaltash</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/coco-house</loc>
+    <priority>0.6</priority>
   </url>
 </urlset>

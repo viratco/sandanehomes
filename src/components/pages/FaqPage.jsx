@@ -1,17 +1,17 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
 import FaqSection from '../FaqSection';
 
 const FaqPage = () => {
-    useSEO({
+    const seoProps = {
         title: "FAQs – Serviced Apartments & Corporate Stays | Sandane Homes Greater Noida",
         description: "Got questions about long-stay serviced apartments in Greater Noida? Find answers about pricing, amenities, corporate packages & expat accommodation at Sandane Homes.",
-        canonicalUrl: "https://www.sandanehomes.com/faqs",
+        canonical: "https://www.sandanehomes.com/faqs",
         ogImage: "https://www.sandanehomes.com/logo.png",
-        jsonLd: {
+        schema: {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
@@ -97,10 +97,11 @@ const FaqPage = () => {
                 }
             ]
         }
-    });
+    };
 
     return (
         <div className="sandane-homes-page" style={{ backgroundColor: '#f9f9f9', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+            <SEO {...seoProps} />
             <Header showTopBar={false} />
             <SubpageNav />
             <div style={{ flex: 1, paddingTop: '100px' }}>
