@@ -1,4 +1,5 @@
-import { NextResponse } from 'next/server';
+// Vercel Edge Middleware — works with plain Vite/React (no Next.js required)
+// Uses the native Web APIs: Request, Response, URL
 
 // SEO metadata map for all routes
 const SEO_MAP = {
@@ -59,23 +60,18 @@ const SEO_MAP = {
   },
 };
 
-export function middleware(request) {
+export default function middleware(request) {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/$/, '') || '/'; // normalize trailing slash
 
-  // Only process HTML page requests (not assets/api)
-  const isPageRequest = !path.includes('.') && !path.startsWith('/api') && !path.startsWith('/_');
-  if (!isPageRequest) {
-    return NextResponse.next();
+  // Skip non-page requests (assets, fonts, images, etc.)
+  if (path.includes('.') || path.startsWith('/api') || path.startsWith('/_')) {
+    return new Response(null, { status: 200 });
   }
 
   const seo = SEO_MAP[path] || SEO_MAP['/'];
 
-  // Clone the request and pass SEO data as headers to be read by the HTML response
-  const response = NextResponse.next();
-  
-  // Inject SEO data as custom response headers
-  // These are read and applied to the HTML by Vercel's edge
+  const response = new Response(null, { status: 200 });
   response.headers.set('x-seo-title', seo.title);
   response.headers.set('x-seo-description', seo.description);
   response.headers.set('x-seo-canonical', seo.canonical);
@@ -85,13 +81,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    /*
-     * Match all request paths EXCEPT:
-     * - api routes
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.png, logo.png, robots.txt, sitemap.xml, etc.
-     */
     '/((?!api|_next/static|_next/image|favicon|logo|robots|sitemap|assets|.*\\..*).*)',
   ],
 };
