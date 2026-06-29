@@ -52,6 +52,11 @@ const SEO_MAP = {
     description: 'Answers to your most common questions about staying at Sandane Homes — from services and amenities to booking and corporate housing options.',
     canonical: 'https://www.sandanehomes.com/faq',
   },
+  '/serviced-apartments-greater-noida': {
+    title: 'Luxury Serviced Apartments Greater Noida | Sandane Homes',
+    description: 'Fully furnished luxury serviced apartments in Greater Noida for expats & professionals. Daily housekeeping and utilities included. Just arrive.',
+    canonical: 'https://www.sandanehomes.com/serviced-apartments-greater-noida',
+  },
 };
 
 export function middleware(request) {

@@ -36,4 +36,8 @@
     <loc>https://www.sandanehomes.com/coco-house</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-greater-noida</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
