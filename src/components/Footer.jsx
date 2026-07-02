@@ -214,6 +214,33 @@ const Footer = ({ customPhone = "+91 9711722273" }) => {
 
                 </div>
             </div>
+
+            {/* Sitewide links to key landing pages */}
+            <div style={{ borderTop: '1px solid #e8e8e8', padding: '28px 20px', textAlign: 'center' }}>
+                <nav style={{
+                    display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+                    gap: '12px 28px', maxWidth: '1000px', margin: '0 auto',
+                    fontSize: '13px', letterSpacing: '0.5px'
+                }}>
+                    {[
+                        ['Serviced Apartments Greater Noida', '/serviced-apartments-greater-noida'],
+                        ['Korean Expat Housing Delhi NCR', '/korean-expat-housing-delhi-ncr'],
+                        ['Japanese Expat Housing Greater Noida', '/japanese-expat-housing-delhi-ncr'],
+                        ['Long-Term Residences', '/residences'],
+                        ['FAQs', '/faqs'],
+                    ].map(([label, href]) => (
+                        <a
+                            key={href}
+                            href={href}
+                            style={{ color: '#888', textDecoration: 'none', transition: 'color 0.3s' }}
+                            onMouseOver={(e) => e.currentTarget.style.color = '#C5A572'}
+                            onMouseOut={(e) => e.currentTarget.style.color = '#888'}
+                        >
+                            {label}
+                        </a>
+                    ))}
+                </nav>
+            </div>
         </footer>
     );
 };

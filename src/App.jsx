@@ -13,6 +13,8 @@ import Glam from './components/pages/Glam';
 import CocoHouse from './components/pages/CocoHouse';
 import FaqPage from './components/pages/FaqPage';
 import ServicedApartmentsGreaterNoida from './components/pages/ServicedApartmentsGreaterNoida';
+import KoreanExpatHousing from './components/pages/KoreanExpatHousing';
+import JapaneseExpatHousing from './components/pages/JapaneseExpatHousing';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -38,6 +40,8 @@ function App() {
           <Route path="/coco-house" element={<CocoHouse />} />
           <Route path="/faqs" element={<FaqPage />} />
           <Route path="/serviced-apartments-greater-noida" element={<ServicedApartmentsGreaterNoida />} />
+          <Route path="/korean-expat-housing-delhi-ncr" element={<KoreanExpatHousing />} />
+          <Route path="/japanese-expat-housing-delhi-ncr" element={<JapaneseExpatHousing />} />
         </Routes>
         <WhatsAppButton />
       </div>
