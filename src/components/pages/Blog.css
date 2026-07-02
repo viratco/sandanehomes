@@ -1,0 +1,242 @@
+/* ── Blog listing & post typography ── */
+
+.blog-prose {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #444;
+    font-size: 18px;
+    line-height: 1.95;
+}
+
+.blog-prose-paragraph {
+    margin-bottom: 28px;
+}
+
+.blog-prose-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #1A3C34;
+    margin: 56px 0 22px;
+    line-height: 1.3;
+}
+
+.blog-prose-heading:first-child {
+    margin-top: 0;
+}
+
+.blog-prose-subheading {
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    color: #1A3C34;
+    margin: 40px 0 18px;
+    line-height: 1.35;
+}
+
+.blog-prose-list {
+    margin: 0 0 28px;
+    padding-left: 22px;
+}
+
+.blog-prose-list li {
+    margin-bottom: 12px;
+    padding-left: 8px;
+}
+
+.blog-prose-list:not(.blog-prose-list-ordered) {
+    list-style: none;
+    padding-left: 0;
+}
+
+.blog-prose-list:not(.blog-prose-list-ordered) li {
+    position: relative;
+    padding-left: 26px;
+}
+
+.blog-prose-list:not(.blog-prose-list-ordered) li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 8px;
+    height: 8px;
+    background-color: #C5A572;
+    border-radius: 50%;
+}
+
+.blog-prose-list-ordered {
+    counter-reset: item;
+}
+
+.blog-prose-quote {
+    margin: 40px 0;
+    padding: 30px 34px;
+    border-left: 3px solid #C5A572;
+    background-color: #f9f9f9;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.6;
+    color: #1A3C34;
+}
+
+.blog-prose-quote p {
+    margin: 0;
+}
+
+.blog-prose-quote cite {
+    display: block;
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 600;
+    color: #C5A572;
+}
+
+.blog-prose-note {
+    margin: 32px 0;
+    padding: 22px 26px;
+    background-color: #f0f5f3;
+    border-radius: 10px;
+    border: 1px solid #dbe8e3;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #2a4a41;
+}
+
+.blog-prose-figure {
+    margin: 40px 0;
+}
+
+.blog-prose-figure img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+.blog-prose-figure figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+
+/* ── Blog card grid ── */
+
+.blog-card {
+    background-color: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 44px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.blog-card-tag-chip {
+    font-size: 12px;
+    color: #999;
+    background-color: #f5f5f5;
+    padding: 5px 12px;
+    border-radius: 14px;
+}
+
+.blog-card-body {
+    padding: 28px 26px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.blog-card-tag {
+    display: inline-block;
+    align-self: flex-start;
+    background-color: #f0f5f3;
+    color: #1A3C34;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.blog-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    color: #111;
+    line-height: 1.35;
+    margin-bottom: 12px;
+}
+
+.blog-card-excerpt {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.blog-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #999;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 16px;
+}
+
+/* ── Tag filter pills ── */
+
+.blog-filter-pill {
+    padding: 9px 20px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #555;
+    transition: all 0.25s;
+}
+
+.blog-filter-pill.active,
+.blog-filter-pill:hover {
+    background-color: #1A3C34;
+    border-color: #1A3C34;
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .blog-prose-heading {
+        font-size: 25px;
+    }
+    .blog-prose-quote {
+        font-size: 18px;
+        padding: 22px 22px;
+    }
+}

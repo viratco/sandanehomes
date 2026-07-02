@@ -272,7 +272,7 @@ const KoreanExpatHousing = () => {
 
             {/* ── SECTION 3 — KOREAN LANGUAGE SECTION ── */}
             <div style={{
-                background: 'linear-gradient(135deg, #1A3C34 0%, #0d1e1a 100%)',
+                backgroundColor: '#1A3C34',
                 padding: '90px 20px', color: 'white'
             }}>
                 <div style={{ maxWidth: '860px', margin: '0 auto', textAlign: 'center' }}>
@@ -285,13 +285,13 @@ const KoreanExpatHousing = () => {
                     <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '36px', marginBottom: '40px', lineHeight: '1.25' }}>
                         한국인 주재원을 위한 프리미엄 서비스 아파트
                     </h2>
-                    <p style={{ fontSize: '17px', lineHeight: '2', opacity: 0.92, marginBottom: '24px' }}>
+                    <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
                         삼성 R&D 노이다, LG 전자 인도, 현대 협력사, 또는 델리 NCR 지역의 한국계 기업에서 근무하시는 주재원 여러분을 위해 Sandane Homes는 그레이터 노이다에 최고급 서비스 아파트를 제공합니다. 자이피 그린스(Jaypee Greens), 안살 골프 링크스(Ansal Golf Links) 등 프리미엄 게이티드 소사이어티 내에 위치한 저희 아파트는 한국의 주거 기준에 맞춘 청결함, 안전, 그리고 현대적인 편의시설을 갖추고 있습니다.
                     </p>
-                    <p style={{ fontSize: '17px', lineHeight: '2', opacity: 0.92, marginBottom: '24px' }}>
+                    <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
                         모든 아파트는 완전 가구 완비, 일일 하우스키핑, 고속 WiFi(최대 300Mbps), 전기·수도 포함, 그리고 한국 음식을 조리할 수 있는 완전한 주방으로 구성되어 있습니다. 삼성 R&D 캠퍼스까지는 자동차로 약 25~35분 거리이며, 노이다-그레이터 노이다 고속도로를 통해 편리하게 통근하실 수 있습니다. 인근에는 한국 식료품점과 아시안 레스토랑도 있어 고국의 맛을 느끼실 수 있습니다.
                     </p>
-                    <p style={{ fontSize: '17px', lineHeight: '2', opacity: 0.92, marginBottom: '40px' }}>
+                    <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
                         저희 팀은 FRRO 등록 지원, 공항 픽업, 법인 직접 청구(HR 팀 대상), 그리고 입주 전 아파트 완비 서비스를 제공합니다. 인도 도착 전 WhatsApp으로 문의하시면 한국어 담당자가 상세히 안내해 드리겠습니다. 짐만 들고 오세요 — 나머지는 저희가 다 준비해 드립니다.
                     </p>
                     <a
@@ -312,44 +312,6 @@ const KoreanExpatHousing = () => {
                 </div>
             </div>
 
-            {/* ── SECTION 4 — COMMUTE / LOCATION TABLE ── */}
-            <div style={{ padding: '90px 20px', backgroundColor: '#f9f9f9' }}>
-                <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-                    <p className="section-subtitle">Commute Times</p>
-                    <h2 className="section-title" style={{ color: '#1A3C34' }}>Location Intelligence for Korean Expats</h2>
-                    <p style={{ color: '#666', fontSize: '17px', lineHeight: '1.8', marginBottom: '50px' }}>
-                        Our apartments in Jaypee Greens and Ansal Golf Links sit on the southern edge of Greater Noida — perfectly positioned between the Korean-company-heavy Noida corridor and the serene, green residential township.
-                    </p>
-                    <div style={{ overflowX: 'auto' }}>
-                        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '16px', textAlign: 'left' }}>
-                            <thead>
-                                <tr style={{ backgroundColor: '#1A3C34', color: 'white' }}>
-                                    <th style={{ padding: '16px 20px', fontWeight: '700' }}>Destination</th>
-                                    <th style={{ padding: '16px 20px', fontWeight: '700' }}>Distance</th>
-                                    <th style={{ padding: '16px 20px', fontWeight: '700' }}>Approx. Drive Time</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {[
-                                    ["Samsung R&D Campus, Noida Sector 129", "~22 km", "25–35 min"],
-                                    ["LG Electronics India, Noida", "~28 km", "30–40 min"],
-                                    ["Hyundai / Korean vendor offices, Noida", "~25 km", "28–38 min"],
-                                    ["India Expo Mart, Greater Noida", "~8 km", "10–15 min"],
-                                    ["Korean mart / Asian grocery stores", "~10 km", "12–18 min"],
-                                    ["IGI Airport, Delhi", "~55 km", "50–65 min"],
-                                    ["Noida City Centre Metro", "~28 km", "30–40 min"],
-                                ].map(([dest, dist, time], i) => (
-                                    <tr key={i} style={{ backgroundColor: i % 2 === 0 ? '#fff' : '#f5f5f5', borderBottom: '1px solid #eee' }}>
-                                        <td style={{ padding: '14px 20px', color: '#333', fontWeight: '500' }}>{dest}</td>
-                                        <td style={{ padding: '14px 20px', color: '#666' }}>{dist}</td>
-                                        <td style={{ padding: '14px 20px', color: '#1A3C34', fontWeight: '700' }}>{time}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
 
             {/* ── SECTION 5 — FAQ ── */}
             <div style={{ padding: '90px 20px', backgroundColor: '#fff' }}>
@@ -364,16 +326,16 @@ const KoreanExpatHousing = () => {
 
             {/* ── SECTION 6 — FINAL CTA ── */}
             <div style={{
-                background: 'linear-gradient(135deg, #1A3C34 0%, #0d1e1a 100%)',
+                backgroundColor: '#1A3C34',
                 padding: '100px 20px', textAlign: 'center', color: 'white'
             }}>
                 <h2 style={{ fontSize: '42px', marginBottom: '16px', fontFamily: 'Playfair Display, serif' }}>
                     Ready to make Greater Noida home?
                 </h2>
-                <p style={{ fontSize: '19px', color: '#E6CFA1', marginBottom: '12px' }}>
+                <p style={{ fontSize: '19px', color: '#C5A572', marginBottom: '12px' }}>
                     그레이터 노이다에서 편안한 한국인의 집을 찾으셨나요?
                 </p>
-                <p style={{ fontSize: '17px', opacity: 0.85, marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
+                <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
                     Message us on WhatsApp — our team responds within minutes, in English or Korean.
                 </p>
                 <a

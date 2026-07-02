@@ -226,6 +226,7 @@ const Footer = ({ customPhone = "+91 9711722273" }) => {
                         ['Serviced Apartments Greater Noida', '/serviced-apartments-greater-noida'],
                         ['Korean Expat Housing Delhi NCR', '/korean-expat-housing-delhi-ncr'],
                         ['Japanese Expat Housing Greater Noida', '/japanese-expat-housing-delhi-ncr'],
+                        ['Blog', '/blog'],
                         ['Long-Term Residences', '/residences'],
                         ['FAQs', '/faqs'],
                     ].map(([label, href]) => (

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { blogPosts } from './src/data/blogPosts.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -121,6 +122,73 @@ const SEO_MAP = {
   }
 };
 
+// ── Blog: SEO_MAP entries are generated from src/content/blogPosts.js ──
+// Adding a post there automatically produces a static, crawlable page here
+// plus a sitemap.xml entry below — no manual edits needed per post.
+SEO_MAP['/blog'] = {
+  title: 'The Sandane Journal | Relocation Guides & Living in Greater Noida',
+  description: 'Practical guides on expat relocation, neighbourhood life, and corporate housing in Greater Noida & Delhi NCR — from the team at Sandane Homes.',
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Sandane Homes Journal",
+      "url": `${BASE_URL}/blog`,
+      "blogPost": blogPosts.map((p) => ({
+        "@type": "BlogPosting",
+        "headline": p.title,
+        "url": `${BASE_URL}/blog/${p.slug}`,
+        "datePublished": new Date(p.date).toISOString(),
+      })),
+    },
+  ],
+};
+
+const DEFAULT_OG_IMAGE = `${BASE_URL}/residences-og.jpg`;
+
+blogPosts.forEach((post) => {
+  // Cover images are optional (posts can use a CSS gradient placeholder instead);
+  // social previews always need a real image, so fall back to the site default.
+  const ogImage = post.coverImage
+    ? (post.coverImage.startsWith('http') ? post.coverImage : `${BASE_URL}${post.coverImage}`)
+    : DEFAULT_OG_IMAGE;
+  const isoDate = new Date(post.date).toISOString();
+
+  SEO_MAP[`/blog/${post.slug}`] = {
+    title: `${post.title} | Sandane Homes Journal`,
+    description: post.excerpt,
+    ogImage,
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "description": post.excerpt,
+        "image": ogImage,
+        "datePublished": isoDate,
+        "dateModified": isoDate,
+        "author": { "@type": "Organization", "name": post.author || "Sandane Homes" },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sandane Homes",
+          "logo": { "@type": "ImageObject", "url": `${BASE_URL}/logo.png` },
+        },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": `${BASE_URL}/blog/${post.slug}` },
+        "url": `${BASE_URL}/blog/${post.slug}`,
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+          { "@type": "ListItem", "position": 3, "name": post.title, "item": `${BASE_URL}/blog/${post.slug}` },
+        ],
+      },
+    ],
+  };
+});
+
 const distPath = path.join(__dirname, 'dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 
@@ -170,7 +238,7 @@ Object.keys(SEO_MAP).forEach((route) => {
     <meta property="og:url" content="${canonical}" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Sandane Homes" />
-    <meta property="og:image" content="https://www.sandanehomes.com/residences-og.jpg" />
+    <meta property="og:image" content="${seo.ogImage || 'https://www.sandanehomes.com/residences-og.jpg'}" />
     ${schemaTags}
   `;
 
@@ -191,5 +259,21 @@ Object.keys(SEO_MAP).forEach((route) => {
     console.log(`Generated SEO tags for ${route}`);
   }
 });
+
+// ── Keep sitemap.xml in sync with blog posts automatically ──
+const sitemapPath = path.join(distPath, 'sitemap.xml');
+if (fs.existsSync(sitemapPath)) {
+  let sitemapXml = fs.readFileSync(sitemapPath, 'utf8');
+  const blogUrls = [`${BASE_URL}/blog`, ...blogPosts.map((p) => `${BASE_URL}/blog/${p.slug}`)];
+  const newEntries = blogUrls
+    .filter((url) => !sitemapXml.includes(`<loc>${url}</loc>`))
+    .map((url) => `  <url>\n    <loc>${url}</loc>\n    <priority>0.7</priority>\n  </url>\n`)
+    .join('');
+  if (newEntries) {
+    sitemapXml = sitemapXml.replace('</urlset>', `${newEntries}</urlset>`);
+    fs.writeFileSync(sitemapPath, sitemapXml, 'utf8');
+    console.log(`Added ${blogUrls.filter((url) => newEntries.includes(url)).length} blog URL(s) to sitemap.xml`);
+  }
+}
 
 console.log('Post-build SEO generation complete!');

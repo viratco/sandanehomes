@@ -15,6 +15,8 @@ import FaqPage from './components/pages/FaqPage';
 import ServicedApartmentsGreaterNoida from './components/pages/ServicedApartmentsGreaterNoida';
 import KoreanExpatHousing from './components/pages/KoreanExpatHousing';
 import JapaneseExpatHousing from './components/pages/JapaneseExpatHousing';
+import BlogList from './components/pages/BlogList';
+import BlogPost from './components/pages/BlogPost';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -42,6 +44,8 @@ function App() {
           <Route path="/serviced-apartments-greater-noida" element={<ServicedApartmentsGreaterNoida />} />
           <Route path="/korean-expat-housing-delhi-ncr" element={<KoreanExpatHousing />} />
           <Route path="/japanese-expat-housing-delhi-ncr" element={<JapaneseExpatHousing />} />
+          <Route path="/blog" element={<BlogList />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
         <WhatsAppButton />
       </div>

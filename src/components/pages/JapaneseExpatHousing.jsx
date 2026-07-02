@@ -272,7 +272,7 @@ const JapaneseExpatHousing = () => {
 
             {/* ── SECTION 3 — JAPANESE LANGUAGE SECTION ── */}
             <div style={{
-                background: 'linear-gradient(135deg, #1A3C34 0%, #0d1e1a 100%)',
+                backgroundColor: '#1A3C34',
                 padding: '90px 20px', color: 'white'
             }}>
                 <div style={{ maxWidth: '860px', margin: '0 auto', textAlign: 'center' }}>
@@ -285,13 +285,13 @@ const JapaneseExpatHousing = () => {
                     <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '36px', marginBottom: '40px', lineHeight: '1.25' }}>
                         日本人駐在員向け プレミアム・サービスアパートメント
                     </h2>
-                    <p style={{ fontSize: '17px', lineHeight: '2', opacity: 0.92, marginBottom: '24px' }}>
+                    <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
                         ホンダ（Honda Motorcycle and Scooter India）、ヤマハ（Yamaha Motor India）、および関連企業でご勤務される日本人駐在員の皆様へ。Sandane Homesは、グレーター・ノイダにおいて最高水準の安全性、清潔さ、そして快適さを備えた高級サービスアパートメントをご提供しております。
                     </p>
-                    <p style={{ fontSize: '17px', lineHeight: '2', opacity: 0.92, marginBottom: '24px' }}>
+                    <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
                         当施設は、Jaypee GreensやAnsal Golf Linksといった厳重なセキュリティ管理がなされた高級住宅街の中に位置しており、日本のご家族でも安心して暮らすことができます。すべてのアパートメントには、モダンな家具、自炊に便利なフル設備のキッチン、高速Wi-Fi、そして日本人のお客様に高く評価されている徹底した毎日のハウスキーピングサービスが完備されています。面倒な光熱費の手続きや家具の購入は一切不要で、ご到着初日から快適な生活をスタートできます。
                     </p>
-                    <p style={{ fontSize: '17px', lineHeight: '2', opacity: 0.92, marginBottom: '40px' }}>
+                    <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
                         工場への通勤も至便であり、デリー市内やグルガオンからの渋滞に悩まされることなく、毎日の通勤時間を大幅に短縮できます。また、法人契約、企業様への直接請求、外国人登録（FRRO）のサポートなど、人事ご担当者様および駐在員様の負担を軽減する包括的なサービスをご用意しております。詳細につきましては、WhatsAppにてお気軽にお問い合わせください。
                     </p>
                     <a
@@ -312,43 +312,6 @@ const JapaneseExpatHousing = () => {
                 </div>
             </div>
 
-            {/* ── SECTION 4 — COMMUTE / LOCATION TABLE ── */}
-            <div style={{ padding: '90px 20px', backgroundColor: '#f9f9f9' }}>
-                <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-                    <p className="section-subtitle">Convenient Connectivity</p>
-                    <h2 className="section-title" style={{ color: '#1A3C34' }}>Proximity to Key Destinations</h2>
-                    <p style={{ color: '#666', fontSize: '17px', lineHeight: '1.8', marginBottom: '50px' }}>
-                        Located strategically in Greater Noida, our apartments offer quick access to major manufacturing hubs along the Yamuna Expressway and Surajpur, significantly cutting down daily travel time for our residents.
-                    </p>
-                    <div style={{ overflowX: 'auto' }}>
-                        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '16px', textAlign: 'left' }}>
-                            <thead>
-                                <tr style={{ backgroundColor: '#1A3C34', color: 'white' }}>
-                                    <th style={{ padding: '16px 20px', fontWeight: '700' }}>Destination</th>
-                                    <th style={{ padding: '16px 20px', fontWeight: '700' }}>Distance</th>
-                                    <th style={{ padding: '16px 20px', fontWeight: '700' }}>Approx. Drive Time</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {[
-                                    ["Honda (HMSI) Plant, Surajpur", "~12 km", "20–25 min"],
-                                    ["Yamaha Motor Plant, Surajpur", "~10 km", "15–20 min"],
-                                    ["India Expo Mart, Greater Noida", "~8 km", "10–15 min"],
-                                    ["Yamuna Expressway Industrial Area", "Varies", "15–30 min"],
-                                    ["Sector 18, Noida (Shopping & Dining)", "~30 km", "35–45 min"],
-                                    ["Indira Gandhi International Airport", "~55 km", "55–70 min"],
-                                ].map(([dest, dist, time], i) => (
-                                    <tr key={i} style={{ backgroundColor: i % 2 === 0 ? '#fff' : '#f5f5f5', borderBottom: '1px solid #eee' }}>
-                                        <td style={{ padding: '14px 20px', color: '#333', fontWeight: '500' }}>{dest}</td>
-                                        <td style={{ padding: '14px 20px', color: '#666' }}>{dist}</td>
-                                        <td style={{ padding: '14px 20px', color: '#1A3C34', fontWeight: '700' }}>{time}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
 
             {/* ── SECTION 5 — FAQ ── */}
             <div style={{ padding: '90px 20px', backgroundColor: '#fff' }}>
@@ -363,16 +326,16 @@ const JapaneseExpatHousing = () => {
 
             {/* ── SECTION 6 — FINAL CTA ── */}
             <div style={{
-                background: 'linear-gradient(135deg, #1A3C34 0%, #0d1e1a 100%)',
+                backgroundColor: '#1A3C34',
                 padding: '100px 20px', textAlign: 'center', color: 'white'
             }}>
                 <h2 style={{ fontSize: '42px', marginBottom: '16px', fontFamily: 'Playfair Display, serif' }}>
                     Experience uncompromising comfort.
                 </h2>
-                <p style={{ fontSize: '19px', color: '#E6CFA1', marginBottom: '12px' }}>
+                <p style={{ fontSize: '19px', color: '#C5A572', marginBottom: '12px' }}>
                     グレーター・ノイダでの快適な駐在生活をサポートいたします。
                 </p>
-                <p style={{ fontSize: '17px', opacity: 0.85, marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
+                <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
                     Contact us today to discuss your corporate housing needs. Our team is ready to assist you.
                 </p>
                 <a

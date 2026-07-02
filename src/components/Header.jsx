@@ -172,6 +172,13 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                 )}
                             </li>
 
+                            {/* BLOG */}
+                            <li className="nav-item">
+                                <Link to="/blog" className="nav-item-label" style={{ textDecoration: 'none' }} onClick={() => setIsMobileMenuOpen(false)}>
+                                    BLOG
+                                </Link>
+                            </li>
+
                             {/* RESTAURANTS */}
                             <li
                                 className="nav-item nav-item-last"
