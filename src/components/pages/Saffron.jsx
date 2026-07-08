@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -57,11 +57,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Saffron = () => {
-    useSEO({
-        title: "Saffron Inn | Serviced Hotel Rooms in Greater Noida - Sandane Homes",
-        description: "Elegant serviced rooms at Saffron Inn by Sandane Homes. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart.",
-        canonicalUrl: "https://www.sandanehomes.com/saffron"
-    });
 
     const rooms = [
         {
@@ -117,6 +112,12 @@ const Saffron = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="Saffron Inn | Boutique Hotel Greater Noida | Sandane Homes"
+                description="Saffron Inn by Sandane Homes — warm, elegant boutique hotel in Greater Noida. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart."
+                canonical="https://www.sandanehomes.com/saffron"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} />
             <SubpageNav />
 

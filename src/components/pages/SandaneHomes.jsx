@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -60,11 +60,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const SandaneHomes = () => {
-    useSEO({
-        title: "Sandane Homes - Luxury Serviced Stays & Executive Suites",
-        description: "Indulge in luxury stays at Sandane Homes. Featuring kitchenette rooms, classy executive suites, in-house cafe, 24/7 room service, and top-tier amenities.",
-        canonicalUrl: "https://www.sandanehomes.com/sandane-homes"
-    });
 
     const rooms = [
         {
@@ -120,8 +115,15 @@ const SandaneHomes = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="Sandane Homes Hotel | Luxury Serviced Stays & Executive Suites Greater Noida"
+                description="Indulge in luxury at Sandane Homes. Kitchenette rooms, executive suites, in-house café, 24/7 room service, and top-tier amenities for corporate stays in Greater Noida."
+                canonical="https://www.sandanehomes.com/sandane-homes"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} />
             <SubpageNav />
+
 
             {/* Split Section */}
             <div className="sandane-hero-split">

@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import heroImg from '../../assets/amara_facade.jpg'; // Amara Inn Facade at night
@@ -56,11 +56,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Amara = () => {
-    useSEO({
-        title: "Amara Inn | Premium Serviced Stay in Greater Noida - Sandane Homes",
-        description: "Book your stay at Amara Inn by Sandane Homes in Greater Noida. Featuring deluxe rooms, private balconies, daily breakfast, and customized corporate hospitality.",
-        canonicalUrl: "https://www.sandanehomes.com/amara"
-    });
 
     const rooms = [
         {
@@ -116,6 +111,12 @@ const Amara = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="Amara Inn | Premium Boutique Hotel in Greater Noida | Sandane Homes"
+                description="Book Amara Inn by Sandane Homes in Greater Noida. Deluxe rooms, private balconies, daily breakfast, 24/7 housekeeping, and curated corporate hospitality near India Expo Mart."
+                canonical="https://www.sandanehomes.com/amara"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} />
 
             {/* Split Section */}

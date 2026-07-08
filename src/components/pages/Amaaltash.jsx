@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -57,11 +57,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Amaaltash = () => {
-    useSEO({
-        title: "Amaaltash by Sandane Homes | Luxury Serviced Apartments",
-        description: "Experience the comfort of home at Amaaltash. Beautiful rooms with common kitchenette, modern bathrooms, elegant interiors, and high-speed WiFi for corporate travelers.",
-        canonicalUrl: "https://www.sandanehomes.com/amaaltash"
-    });
 
     const rooms = [
         {
@@ -117,6 +112,12 @@ const Amaaltash = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="Amaaltash | Luxury Serviced Apartments Greater Noida | Sandane Homes"
+                description="Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida."
+                canonical="https://www.sandanehomes.com/amaaltash"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} />
             <SubpageNav />
 

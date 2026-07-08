@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -57,11 +57,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const PineTales = () => {
-    useSEO({
-        title: "Pine Tales | Cozy Nature Stay & Scenic Vistas - Sandane Homes",
-        description: "Relax at Pine Tales by Sandane Homes. Breathtaking mountain views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality.",
-        canonicalUrl: "https://www.sandanehomes.com/pine-tales"
-    });
 
     const rooms = [
         {
@@ -117,6 +112,12 @@ const PineTales = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="Pine Tales | Cozy Nature Boutique Stay Greater Noida | Sandane Homes"
+                description="Relax at Pine Tales by Sandane Homes in Greater Noida. Breathtaking scenic views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality."
+                canonical="https://www.sandanehomes.com/pine-tales"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} />
             <SubpageNav />
 

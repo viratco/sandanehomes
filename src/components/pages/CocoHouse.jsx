@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -55,11 +55,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const CocoHouse = () => {
-    useSEO({
-        title: "CoCo House | Premium Boutique Hotel Stays in Greater Noida - Sandane Homes",
-        description: "Experience modern luxury and warm hospitality at CoCo House by Sandane Homes. Fully serviced premium hotel rooms, lounge space, and personalized hospitality.",
-        canonicalUrl: "https://www.sandanehomes.com/coco-house"
-    });
 
     const rooms = [
         {
@@ -109,6 +104,12 @@ const CocoHouse = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="CoCo House | Luxury Boutique Hotel Greater Noida | Sandane Homes"
+                description="CoCo House by Sandane Homes — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now."
+                canonical="https://www.sandanehomes.com/coco-house"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} />
             <SubpageNav />
 

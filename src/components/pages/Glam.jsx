@@ -1,5 +1,5 @@
 import React from 'react';
-import useSEO from '../../hooks/useSEO';
+import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
@@ -57,11 +57,6 @@ const ReviewCard = ({ name, date, text }) => {
 };
 
 const Glam = () => {
-    useSEO({
-        title: "The Glam | Premium Executive Stay in Greater Noida - Sandane Homes",
-        description: "Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure.",
-        canonicalUrl: "https://www.sandanehomes.com/glam"
-    });
 
     const rooms = [
         {
@@ -117,6 +112,12 @@ const Glam = () => {
 
     return (
         <div className="sandane-homes-page">
+            <SEO
+                title="The Glam | Premium Executive Stay Greater Noida | Sandane Homes"
+                description="Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure travellers."
+                canonical="https://www.sandanehomes.com/glam"
+                ogImage="https://www.sandanehomes.com/residences-og.jpg"
+            />
             <Header showTopBar={false} customPhone="+91 96547 07779" />
             <SubpageNav />
 
