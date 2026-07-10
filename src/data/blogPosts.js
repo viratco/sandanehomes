@@ -5,6 +5,108 @@
 
 export const blogPosts = [
     {
+        slug: "noida-international-airport-greater-noida-corporate-stay",
+        title: "Noida International Airport (Jewar): What Corporate Travelers Need to Know",
+        subtitle: "Analyzing transit connectivity, travel times, and premium serviced accommodation options near the upcoming Jewar Airport in Greater Noida.",
+        category: "Transit & Logistics",
+        date: "July 10, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "As Noida International Airport (Jewar) prepares for launch, corporate transit dynamics in Delhi NCR are shifting. Read our guide on stay options and travel times from Greater Noida.",
+        content: [
+            { type: "paragraph", text: "The upcoming Noida International Airport in Jewar is set to redefine corporate transit and international business logistics in Northern India. For multinational firms operating in the Yamuna Expressway, Greater Noida, and Noida industrial corridors, this mega-airport offers an alternative to Delhi's IGIA. However, choosing the right corporate accommodation near the airport requires careful planning." },
+            { type: "heading", text: "Proximity and Transit Times to Jewar Airport" },
+            { type: "paragraph", text: "One of the major advantages of Greater Noida is its direct connectivity via the Yamuna Expressway. Driving times from premium residential hubs like Jaypee Greens or Ansal Golf Links to the Jewar Airport gates will range between 25 and 35 minutes, completely bypassing the heavy urban traffic of central Delhi or Gurugram." },
+            { type: "heading", text: "Where is the Best Place to Stay Near Jewar Airport?" },
+            { type: "paragraph", text: "For visiting executives, auditors, and technical consultants, staying directly near the airport terminal is not recommended due to ongoing commercial development. Instead, Greater Noida serves as the ideal hub. It offers a balanced ecosystem of high-end gated communities, dining options, and corporate serviced residences." },
+            { type: "list", items: [
+                "Direct Highway Access: Reaching the airport via the Yamuna Expressway is smooth and signal-free.",
+                "Corporate Hub Connectivity: Stays in Greater Noida place professionals minutes away from major manufacturing parks and tech centers.",
+                "Fully Managed Amenities: Sandane Homes serviced residences provide premium, high-speed Wi-Fi, daily housekeeping, and professional dining options."
+            ] },
+            { type: "quote", text: "The opening of the Jewar Airport makes Greater Noida the primary gateway for corporate expat professionals in North India.", attribution: "— Business Logistics Consultant" }
+        ],
+        tags: ["Jewar Airport", "Noida International Airport", "Corporate Travel", "Yamuna Expressway", "Greater Noida"]
+    },
+    {
+        slug: "corporate-guest-house-vs-serviced-apartments-greater-noida",
+        title: "Corporate Guest House vs. Serviced Apartments: A Guide for HR Managers",
+        subtitle: "Comparing cost efficiency, flexibility, employee satisfaction, and compliance for executive stays in Greater Noida.",
+        category: "Corporate Stays",
+        date: "July 09, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #68533c 50%, #C5A572 100%)",
+        excerpt: "HR professionals face a choice between standard corporate guest houses and premium serviced apartments in Greater Noida. Here is a direct comparative analysis.",
+        content: [
+            { type: "paragraph", text: "For human resource managers and mobility specialists coordinating relocation for expatriates or domestic executives, choosing the right accommodation model is key. In Greater Noida, the debate usually centers around establishing a dedicated corporate guest house versus booking fully managed serviced apartments." },
+            { type: "heading", text: "Analyzing the Cost of a Corporate Guest House" },
+            { type: "paragraph", text: "A dedicated corporate guest house requires upfront capital investment, long-term lease commitments, staff hiring, and continuous utility management. If employee travel fluctuates, the vacancy rates can quickly erode your budget. Furthermore, managing cook staff and housekeeping adds unnecessary administrative weight." },
+            { type: "heading", text: "The Managed Serviced Apartment Advantage" },
+            { type: "paragraph", text: "Managed serviced apartments, like those operated by Sandane Homes, offer a plug-and-play solution with zero capital expenditure. You only pay for what you use, with the flexibility to scale units up or down depending on project demand." },
+            { type: "list", items: [
+                "Zero Administrative Overhead: Housekeeping, linen changes, Wi-Fi setup, and billing are fully managed by us.",
+                "Customized Catering: In-house culinary staff prepare fresh, home-style meals, with options for customized Japanese or Korean menus.",
+                "GST Compliance: Clear, simplified monthly corporate invoicing with accurate GST compliance."
+            ] },
+            { type: "quote", text: "Outsourcing our executive stays to Sandane Homes reduced our corporate accommodation overhead by 30% while improving feedback from our expatriate assignees.", attribution: "— HR Director, Automotive MNC" }
+        ],
+        tags: ["Corporate Guest House", "Serviced Apartments", "Corporate Housing", "HR Management", "Greater Noida"]
+    },
+    {
+        slug: "hotels-serviced-apartments-near-india-expo-mart-greater-noida",
+        title: "Best Stays and Serviced Apartments Near India Expo Mart Greater Noida",
+        subtitle: "The ultimate guide for international exhibitors and business delegates attending events at India Expo Centre & Mart.",
+        category: "Business Travel",
+        date: "July 08, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #2d3b5e 50%, #1A3C34 100%)",
+        excerpt: "Attending Auto Expo, IHGF, or CPHI at the India Expo Mart? Discover the best serviced apartments and luxury boutique stays located under 10 minutes away.",
+        content: [
+            { type: "paragraph", text: "The India Expo Centre & Mart in Greater Noida is Asia's leading venue for international trade exhibitions. With major global trade shows like the Auto Expo, CPHI India, and IHGF Delhi Fair hosted here annually, the demand for premium corporate stays close to the venue is always high." },
+            { type: "heading", text: "Why Choose Serviced Stays Over Standard Hotels?" },
+            { type: "paragraph", text: "During peak exhibition seasons, standard hotels near the Expo Mart become heavily congested, leading to inflated room rates and compromised service. Serviced apartments and boutique stays like Sandane Homes offer a superior alternative, providing quieter surroundings, spacious rooms, and personalized service." },
+            { type: "list", items: [
+                "Proximity: Our premium boutique properties (like Glam, Saffron, and Amara) are located just 5 to 10 minutes from the India Expo Mart.",
+                "Extended Comfort: Perfect for exhibitors who need to stay for 7 to 10 days, offering separate living areas and laundry support.",
+                "Exhibitor Dining: Custom dining services to align with early morning setup and late evening show hours."
+            ] },
+            { type: "heading", text: "A Tranquil Alternative for Expat Exhibitors" },
+            { type: "paragraph", text: "After a hectic day standing at an exhibition booth, returning to a crowded hotel lobby can be exhausting. Our boutique hotels and managed apartments located in secure, green neighborhoods provide a quiet, relaxing environment to recharge." }
+        ],
+        tags: ["India Expo Mart", "Boutique Hotels", "Serviced Apartments", "Business Stays", "Exhibition Stays"]
+    },
+    {
+        slug: "japanese-korean-expat-housing-greater-noida",
+        title: "Why East Asian Expats Prefer Serviced Apartments in Greater Noida",
+        subtitle: "Exploring cultural familiarity, local amenities, and safety standards that appeal to Japanese and South Korean corporate assignees.",
+        category: "Expat Housing",
+        date: "July 07, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #8B7355 50%, #C5A572 100%)",
+        excerpt: "From Korean marts to authentic Japanese culinary hubs, Greater Noida has become Delhi NCR's preferred base for international corporate assignees. Here is why.",
+        content: [
+            { type: "paragraph", text: "The industrial growth along the Noida-Greater Noida Expressway and Yamuna Expressway has drawn major Japanese and South Korean MNCs. These include Honda, Yamaha, Samsung, and their respective supply chain partners. Consequently, Greater Noida now hosts a thriving East Asian expatriate community." },
+            { type: "heading", text: "Bridging the Cultural Gap in Corporate Housing" },
+            { type: "paragraph", text: "Relocating to India presents significant changes for East Asian expats. The primary housing preference for South Korean and Japanese professionals centers around cleanliness, safety, and cultural familiarity. That is why they prefer gated premium societies like Jaypee Greens or Ansal Golf Links." },
+            { type: "list", items: [
+                "Hygiene and Housekeeping: Strict standards of cleanliness matching Japanese and South Korean expectations.",
+                "Security & Privacy: Multi-layered gated security systems with absolute privacy.",
+                "Local Culinary Services: Dedicated cooks trained to prepare authentic meals (ramyeon, kimchi, miso soup, etc.)."
+            ] },
+            { type: "heading", text: "FRRO Support and Hassle-free Relocation" },
+            { type: "paragraph", text: "Our concierge desk regularly assists Japanese and Korean assignees with documentation for local FRRO registration, corporate lease agreements, and local transport coordination. By providing a comprehensive support structure, we make relocation to India smooth and welcoming." }
+        ],
+        tags: ["Expat Housing", "Korean Expats", "Japanese Expats", "Corporate Housing", "Greater Noida"]
+    },
+    {
         slug: "best-gated-communities-expats-greater-noida",
         title: "Best Gated Communities for Expats & Serviced Apartments in Greater Noida",
         subtitle: "A detailed comparison of security, amenities, and lifestyle in Jaypee Greens, Ansal Golf Links, and Godrej Golf Link.",
