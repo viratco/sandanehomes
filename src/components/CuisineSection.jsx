@@ -483,18 +483,7 @@ const CuisineSection = () => {
 
                             <button
                                 onClick={() => {
-                                    const contactSection = document.getElementById('contact-section');
-                                    if (contactSection) {
-                                        contactSection.scrollIntoView({ behavior: 'smooth' });
-                                        setTimeout(() => {
-                                            contactSection.classList.add('highlight-section');
-                                            setTimeout(() => {
-                                                contactSection.classList.remove('highlight-section');
-                                            }, 2000);
-                                        }, 500); // Wait a bit for the scroll to finish
-                                    } else {
-                                        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-                                    }
+                                    window.location.href = '/residences#contact-section';
                                 }}
                                 style={{
                                     padding: '18px 45px',
