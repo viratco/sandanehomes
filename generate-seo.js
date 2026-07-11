@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { blogPosts } from './src/data/blogPosts.js';
+import { landingPages } from './src/data/landingPages.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -208,6 +209,50 @@ blogPosts.forEach((post) => {
   };
 });
 
+// ── Landing Pages: Generate dynamic SEO_MAP entries from src/data/landingPages.js ──
+landingPages.forEach((page) => {
+  const schemas = [];
+  
+  // Standard Apartment Complex Schema
+  schemas.push({
+    "@context": "https://schema.org",
+    "@type": "ApartmentComplex",
+    "name": page.h1,
+    "description": page.metaDescription,
+    "url": `${BASE_URL}/${page.slug}`,
+    "telephone": "+919711722273",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Greater Noida",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    }
+  });
+
+  // Dynamic FAQ page schema if present
+  if (page.faqs && page.faqs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": page.faqs.map((faq) => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+  }
+
+  SEO_MAP[`/${page.slug}`] = {
+    title: page.metaTitle,
+    description: page.metaDescription,
+    ogImage: `${BASE_URL}/residences-og.jpg`,
+    schemas
+  };
+});
+
 const distPath = path.join(__dirname, 'dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 
@@ -279,19 +324,27 @@ Object.keys(SEO_MAP).forEach((route) => {
   }
 });
 
-// ── Keep sitemap.xml in sync with blog posts automatically ──
+// ── Keep sitemap.xml in sync with blog posts and landing pages automatically ──
 const sitemapPath = path.join(distPath, 'sitemap.xml');
 if (fs.existsSync(sitemapPath)) {
   let sitemapXml = fs.readFileSync(sitemapPath, 'utf8');
-  const blogUrls = [`${BASE_URL}/blog`, ...blogPosts.map((p) => `${BASE_URL}/blog/${p.slug}`)];
-  const newEntries = blogUrls
+  
+  // Combine blog and landing page URLs
+  const customUrls = [
+    `${BASE_URL}/blog`,
+    ...blogPosts.map((p) => `${BASE_URL}/blog/${p.slug}`),
+    ...landingPages.map((p) => `${BASE_URL}/${p.slug}`)
+  ];
+  
+  const newEntries = customUrls
     .filter((url) => !sitemapXml.includes(`<loc>${url}</loc>`))
     .map((url) => `  <url>\n    <loc>${url}</loc>\n    <priority>0.7</priority>\n  </url>\n`)
     .join('');
+    
   if (newEntries) {
     sitemapXml = sitemapXml.replace('</urlset>', `${newEntries}</urlset>`);
     fs.writeFileSync(sitemapPath, sitemapXml, 'utf8');
-    console.log(`Added ${blogUrls.filter((url) => newEntries.includes(url)).length} blog URL(s) to sitemap.xml`);
+    console.log(`Added ${customUrls.filter((url) => newEntries.includes(url)).length} custom URL(s) to sitemap.xml`);
   }
 }
 

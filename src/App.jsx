@@ -17,6 +17,7 @@ import KoreanExpatHousing from './components/pages/KoreanExpatHousing';
 import JapaneseExpatHousing from './components/pages/JapaneseExpatHousing';
 import BlogList from './components/pages/BlogList';
 import BlogPost from './components/pages/BlogPost';
+import LandingPage from './components/pages/LandingPage';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -46,6 +47,21 @@ function App() {
           <Route path="/japanese-expat-housing-delhi-ncr" element={<JapaneseExpatHousing />} />
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
+          
+          {/* SEO Landing Pages (Pages 3-15) */}
+          <Route path="/serviced-apartments-ansal-golf-links" element={<LandingPage slug="serviced-apartments-ansal-golf-links" />} />
+          <Route path="/serviced-apartments-godrej-golf-link" element={<LandingPage slug="serviced-apartments-godrej-golf-link" />} />
+          <Route path="/furnished-apartments-greater-noida" element={<LandingPage slug="furnished-apartments-greater-noida" />} />
+          <Route path="/corporate-housing-greater-noida" element={<LandingPage slug="corporate-housing-greater-noida" />} />
+          <Route path="/long-stay-apartments-greater-noida" element={<LandingPage slug="long-stay-apartments-greater-noida" />} />
+          <Route path="/apartments-near-india-expo-centre" element={<LandingPage slug="apartments-near-india-expo-centre" />} />
+          <Route path="/japanese-expat-housing-greater-noida" element={<LandingPage slug="japanese-expat-housing-greater-noida" />} />
+          <Route path="/expat-housing-delhi-ncr" element={<LandingPage slug="expat-housing-delhi-ncr" />} />
+          <Route path="/corporate-accommodation-noida" element={<LandingPage slug="corporate-accommodation-noida" />} />
+          <Route path="/relocation-housing-noida" element={<LandingPage slug="relocation-housing-noida" />} />
+          <Route path="/accommodation-visiting-engineers-noida" element={<LandingPage slug="accommodation-visiting-engineers-noida" />} />
+          <Route path="/luxury-villa-rental-greater-noida" element={<LandingPage slug="luxury-villa-rental-greater-noida" />} />
+          <Route path="/serviced-apartments-jaypee-greens" element={<LandingPage slug="serviced-apartments-jaypee-greens" />} />
         </Routes>
         <WhatsAppButton />
       </div>
