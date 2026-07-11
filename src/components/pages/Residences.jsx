@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -13,9 +13,52 @@ import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
 
 const Residences = () => {
+    const [formData, setFormData] = useState({
+        fullName: '',
+        email: '',
+        phone: '',
+        duration: '1 month',
+        date: '',
+        message: ''
+    });
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleEnquirySubmit = (e) => {
+        e.preventDefault();
+        fetch("https://formsubmit.co/ajax/sandanehomes@gmail.com", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                _subject: "New Enquiry from Residences Page!",
+                "Full Name": formData.fullName,
+                "Email": formData.email,
+                "Phone": formData.phone,
+                "Duration": formData.duration,
+                "Date": formData.date,
+                "Message": formData.message
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert('Thank you! Your enquiry has been submitted.');
+            setFormData({ fullName: '', email: '', phone: '', duration: '1 month', date: '', message: '' });
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Something went wrong. Please try again.');
+        });
+    };
+
     const seoProps = {
-        title: "Serviced Apartments for Expats in Greater Noida | Residences by Sandane Homes",
-        description: "Premium fully-furnished serviced apartments in Greater Noida for corporate expats. Minutes from Honda, LG, Samsung & Yamaha. Flexible monthly stays. Book now.",
+        title: "Residencies by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida",
+        description: "Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: {
@@ -206,57 +249,81 @@ const Residences = () => {
                 </p>
             </div>
 
-            {/* About & Contact Section */}
-            <div className="catarina-section catarina-contact-section">
+            {/* Custom Enquiry Form specific for Residences */}
+            <div style={{ backgroundColor: '#F9F9F9', padding: '60px 20px', display: 'flex', justifyContent: 'center' }}>
                 <div style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '50px',
-                    alignItems: 'center'
+                    width: '100%',
+                    maxWidth: '450px',
+                    backgroundColor: '#ffffff',
+                    boxShadow: '0 8px 30px rgba(0,0,0,0.06)',
+                    borderRadius: '4px',
+                    overflow: 'hidden'
                 }}>
                     <div style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        width: '100%',
-                        gap: '50px'
+                        backgroundColor: '#08304c', // Matching dark blue/green from mockup
+                        color: '#fff',
+                        padding: '18px',
+                        textAlign: 'center',
+                        fontSize: '18px',
+                        fontWeight: '600',
+                        letterSpacing: '0.5px'
                     }}>
-                        {/* About Us Box */}
-                        <div className="catarina-about-box">
-                            <h3 style={{
-                                fontFamily: 'Playfair Display, serif',
-                                fontSize: '32px',
-                                marginBottom: '30px',
-                                color: '#fff'
-                            }}>
-                                ABOUT US
-                            </h3>
-                            <p style={{ lineHeight: '1.8', fontSize: '15px', color: '#e0e0e0', maxWidth: '800px', margin: '0 auto' }}>
-                                Sandane Homes delivers premium fully-serviced stays across India. With 5+ years in hospitality, we specialize in hosting expats and professionals seeking comfort, convenience, and exceptional service - nationwide.
-                            </p>
-                        </div>
-
-                        {/* Contact Info */}
-                        <div style={{ textAlign: 'center' }}>
-                            <h3 className="section-title">
-                                Contact Us
-                            </h3>
-
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '18px', color: '#555' }}>
-                                    <span style={{ color: '#111', fontSize: '24px' }}>📞</span>
-                                    +91 97117 22273
-                                </div>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '18px', color: '#555' }}>
-                                    <span style={{ color: '#111', fontSize: '24px' }}>✉️</span>
-                                    sandanehomes@gmail.com
-                                </div>
-                            </div>
-                        </div>
+                        Enquiry
                     </div>
+                    
+                    <form onSubmit={handleEnquirySubmit} style={{ padding: '30px 40px', display: 'flex', flexDirection: 'column', gap: '20px', backgroundColor: '#faf9f5' }}>
+                        
+                        <input type="text" name="fullName" placeholder="Full Name" value={formData.fullName} onChange={handleInputChange} required 
+                            style={{ padding: '14px 16px', border: 'none', backgroundColor: '#e6e4d5', fontSize: '15px', color: '#333', outline: 'none' }} />
+                        
+                        <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleInputChange} required 
+                            style={{ padding: '14px 16px', border: 'none', backgroundColor: '#e6e4d5', fontSize: '15px', color: '#333', outline: 'none' }} />
+                        
+                        <input type="tel" name="phone" placeholder="Phone No." value={formData.phone} onChange={handleInputChange} required 
+                            style={{ padding: '14px 16px', border: 'none', backgroundColor: '#e6e4d5', fontSize: '15px', color: '#333', outline: 'none' }} />
+                        
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                            <label style={{ fontSize: '14px', fontWeight: '600', color: '#444' }}>Duration</label>
+                            <select name="duration" value={formData.duration} onChange={handleInputChange} 
+                                style={{ padding: '14px 16px', border: 'none', backgroundColor: '#e6e4d5', fontSize: '15px', color: '#333', outline: 'none', cursor: 'pointer', appearance: 'none' }}>
+                                <option value="1 month">1 month</option>
+                                <option value="2 months">2 months</option>
+                                <option value="3 months">3 months</option>
+                                <option value="6 months">6 months</option>
+                                <option value="1 year+">1 year+</option>
+                            </select>
+                        </div>
+
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                            <label style={{ fontSize: '14px', fontWeight: '600', color: '#444' }}>Date</label>
+                            <input type="date" name="date" value={formData.date} onChange={handleInputChange} required 
+                                style={{ padding: '12px 16px', border: '1px solid #ddd', backgroundColor: '#fff', fontSize: '15px', color: '#666', outline: 'none' }} />
+                        </div>
+
+                        <textarea name="message" placeholder="Message" value={formData.message} onChange={handleInputChange} rows="4" required 
+                            style={{ padding: '14px 16px', border: 'none', backgroundColor: '#e6e4d5', fontSize: '15px', color: '#333', outline: 'none', resize: 'vertical' }}></textarea>
+
+                        <button type="submit" style={{
+                            marginTop: '10px',
+                            backgroundColor: '#08304c',
+                            color: '#fff',
+                            padding: '14px 35px',
+                            border: 'none',
+                            borderRadius: '30px',
+                            fontSize: '15px',
+                            fontWeight: '600',
+                            cursor: 'pointer',
+                            alignSelf: 'flex-start',
+                            letterSpacing: '1px',
+                            transition: 'background-color 0.3s'
+                        }}>
+                            SUBMIT
+                        </button>
+                    </form>
                 </div>
             </div>
 
-            <Footer />
+            <Footer hideContactForm={true} />
         </div>
     );
 };

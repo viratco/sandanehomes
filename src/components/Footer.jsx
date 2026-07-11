@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Footer.css';
 
-const Footer = ({ customPhone = "+91 9711722273" }) => {
+const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => {
     const [email, setEmail] = useState('');
     const [countryCode, setCountryCode] = useState('+91');
     const [phone, setPhone] = useState('');
@@ -52,10 +52,11 @@ const Footer = ({ customPhone = "+91 9711722273" }) => {
 
     return (
         <footer style={{ width: '100%', backgroundColor: '#F9F9F9' }}>
-            <div id="contact-section" className="footer-newsletter-container">
-                <div className="footer-newsletter-row">
+            {!hideContactForm && (
+                <div id="contact-section" className="footer-newsletter-container">
+                    <div className="footer-newsletter-row">
 
-                    {/* LEFT TEXT */}
+                        {/* LEFT TEXT */}
                     <div className="footer-left-col">
                         <h4 style={{
                             color: '#C5A572',
@@ -214,6 +215,7 @@ const Footer = ({ customPhone = "+91 9711722273" }) => {
 
                 </div>
             </div>
+            )}
 
             {/* Sitewide links to key landing pages */}
             <div style={{ borderTop: '1px solid #e8e8e8', padding: '28px 20px', textAlign: 'center' }}>
