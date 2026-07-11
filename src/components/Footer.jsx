@@ -1,13 +1,24 @@
 import React, { useState } from 'react';
 import './Footer.css';
 
-const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => {
+const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isResidences = false }) => {
     const [email, setEmail] = useState('');
     const [countryCode, setCountryCode] = useState('+91');
     const [phone, setPhone] = useState('');
     const [agreed, setAgreed] = useState(false);
+    
+    // Extra fields for Residences page
+    const [fullName, setFullName] = useState('');
+    const [duration, setDuration] = useState('1 month');
+    const [date, setDate] = useState('');
+    const [messageText, setMessageText] = useState('');
 
     const sendEmail = () => {
+        if (isResidences && !fullName) {
+            alert('Please enter your full name');
+            return;
+        }
+
         if (!email) {
             alert('Please enter your email');
             return;
@@ -23,6 +34,11 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => 
             return;
         }
 
+        let messageBody = `New contact submission:\nEmail: ${email}\nPhone: ${countryCode} ${phone}`;
+        if (isResidences) {
+            messageBody = `New Enquiry from Residences Page!\nName: ${fullName}\nEmail: ${email}\nPhone: ${countryCode} ${phone}\nDuration: ${duration}\nDate: ${date}\nMessage: ${messageText}`;
+        }
+
         // FormSubmit.co AJAX Endpoint
         fetch("https://formsubmit.co/ajax/sandanehomes@gmail.com", {
             method: "POST",
@@ -31,10 +47,13 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => 
                 'Accept': 'application/json'
             },
             body: JSON.stringify({
+                _subject: isResidences ? "New Enquiry from Residences Page!" : "New Contact from Sandane Homes Website!",
                 email: email,
                 phone: `${countryCode} ${phone}`,
-                _subject: "New Contact from Sandane Homes Website!",
-                message: `New contact submission:\nEmail: ${email}\nPhone: ${countryCode} ${phone}`
+                fullName: isResidences ? fullName : undefined,
+                duration: isResidences ? duration : undefined,
+                date: isResidences ? date : undefined,
+                message: messageBody
             })
         })
             .then(response => response.json())
@@ -43,6 +62,12 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => 
                 setEmail('');
                 setPhone('');
                 setAgreed(false);
+                if (isResidences) {
+                    setFullName('');
+                    setDuration('1 month');
+                    setDate('');
+                    setMessageText('');
+                }
             })
             .catch(error => {
                 console.error('Error:', error);
@@ -98,8 +123,29 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => 
                     </div>
 
                     {/* RIGHT FORM */}
-                    <div className="footer-right-col">
-                        {/* Email Input */}
+                        <div className="footer-right-col">
+                            
+                            {isResidences && (
+                                <div style={{ position: 'relative', marginBottom: '20px' }}>
+                                    <input
+                                        type="text"
+                                        placeholder="Full Name"
+                                        value={fullName}
+                                        onChange={(e) => setFullName(e.target.value)}
+                                        style={{
+                                            width: '100%',
+                                            padding: '18px 20px',
+                                            backgroundColor: 'transparent',
+                                            border: 'none',
+                                            borderBottom: '1px solid #ccc',
+                                            fontSize: '15px',
+                                            outline: 'none'
+                                        }}
+                                    />
+                                </div>
+                            )}
+
+                            {/* Email Input */}
                         <div style={{ position: 'relative', marginBottom: '20px' }}>
                             <input
                                 type="email"
@@ -176,6 +222,71 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false }) => 
                                 }}
                             />
                         </div>
+
+                            {isResidences && (
+                                <>
+                                    <div style={{ position: 'relative', marginBottom: '20px', display: 'flex', gap: '20px' }}>
+                                        <div style={{ flex: 1 }}>
+                                            <label style={{ fontSize: '12px', color: '#999', display: 'block', marginBottom: '5px', paddingLeft: '20px', textTransform: 'uppercase', letterSpacing: '1px' }}>Duration</label>
+                                            <select
+                                                value={duration}
+                                                onChange={(e) => setDuration(e.target.value)}
+                                                style={{
+                                                    width: '100%',
+                                                    padding: '12px 20px',
+                                                    backgroundColor: 'transparent',
+                                                    border: 'none',
+                                                    borderBottom: '1px solid #ccc',
+                                                    fontSize: '15px',
+                                                    outline: 'none',
+                                                    cursor: 'pointer'
+                                                }}
+                                            >
+                                                <option value="1 month">1 month</option>
+                                                <option value="2 months">2 months</option>
+                                                <option value="3 months">3 months</option>
+                                                <option value="6 months">6 months</option>
+                                                <option value="1 year+">1 year+</option>
+                                            </select>
+                                        </div>
+                                        <div style={{ flex: 1 }}>
+                                            <label style={{ fontSize: '12px', color: '#999', display: 'block', marginBottom: '5px', paddingLeft: '20px', textTransform: 'uppercase', letterSpacing: '1px' }}>Date</label>
+                                            <input
+                                                type="date"
+                                                value={date}
+                                                onChange={(e) => setDate(e.target.value)}
+                                                style={{
+                                                    width: '100%',
+                                                    padding: '12px 20px',
+                                                    backgroundColor: 'transparent',
+                                                    border: 'none',
+                                                    borderBottom: '1px solid #ccc',
+                                                    fontSize: '15px',
+                                                    outline: 'none'
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div style={{ position: 'relative', marginBottom: '30px' }}>
+                                        <textarea
+                                            placeholder="Message"
+                                            value={messageText}
+                                            onChange={(e) => setMessageText(e.target.value)}
+                                            rows="3"
+                                            style={{
+                                                width: '100%',
+                                                padding: '18px 20px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none',
+                                                resize: 'vertical'
+                                            }}
+                                        />
+                                    </div>
+                                </>
+                            )}
 
                         {/* Send Button */}
                         <div style={{ marginBottom: '20px' }}>
