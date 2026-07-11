@@ -5,6 +5,55 @@
 
 export const blogPosts = [
     {
+        slug: "surajpur-industrial-area-corporate-housing-greater-noida",
+        title: "Corporate Housing Near Surajpur Industrial Area Greater Noida",
+        subtitle: "Why tech and manufacturing executives choose fully managed stays in nearby gated societies.",
+        category: "Corporate Stays",
+        date: "July 13, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Maximize efficiency for teams working at LG, Yamaha, or local auto component plants in Surajpur. Compare hotel stays vs nearby premium serviced apartments.",
+        content: [
+            { type: "paragraph", text: "The Surajpur Industrial Area is one of Greater Noida's most established manufacturing hubs, housing major global players like India Yamaha Motor, LG Electronics, and Denso. For corporate assignees, engineers, and plant managers posted to these facilities, finding high-quality housing nearby is essential for maintaining productivity and avoiding the grueling NCR traffic." },
+            { type: "heading", text: "Why Choose Serviced Apartments Over Standalone Hotels?" },
+            { type: "paragraph", text: "While budget business hotels in Surajpur offer basic rooms, they lack the amenities and space needed for extended stays. Managed corporate housing in nearby gated societies like Ansal Golf Links or Jaypee Greens provides a far superior lifestyle, offering quiet environments, full kitchens, and professional services." },
+            { type: "list", items: [
+                "Proximity: Only a 10-15 minute drive to the main Surajpur manufacturing gates.",
+                "Better Recovery: Quiet, green surroundings with high-end clubhouses and fitness centers to relax after long plant shifts.",
+                "Home-Style Dining: Kitchens and cooks equipped to prepare authentic Japanese, Korean, and European meals."
+            ] },
+            { type: "quote", text: "Our technical teams working at the Surajpur plant reported higher satisfaction and zero commute stress once we transitioned them to Sandane Homes serviced suites.", attribution: "— Plant Operations Director" }
+        ],
+        tags: ["Surajpur Industrial Area", "Corporate Housing", "Serviced Apartments", "Greater Noida Stays"]
+    },
+    {
+        slug: "frro-address-verification-noida-greater-noida-guide",
+        title: "Expat Guide: Getting Your FRRO Address Verification Right in Noida",
+        subtitle: "How to avoid common document rejection pitfalls and secure your e-FRRO residency certificate.",
+        category: "Legal & Admin",
+        date: "July 12, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "FRRO registration requires specific landlord agreements and utility verification. Learn what documents are required and how Sandane Homes guarantees 24-hour approval.",
+        content: [
+            { type: "paragraph", text: "For foreign nationals arriving in Noida or Greater Noida on long-term employment or business visas, registering with the Foreigners Regional Registration Office (FRRO) is a mandatory step that must be completed within 14 days of arrival. The most common cause of registration delay is incorrect or incomplete proof of address." },
+            { type: "heading", text: "Standard FRRO Address Proof Requirements" },
+            { type: "paragraph", text: "The e-FRRO portal is notoriously strict regarding address documents. To get approved without rejection, you must submit a combination of:" },
+            { type: "list", items: [
+                "A formal lease agreement registered in the correct format.",
+                "An official confirmation letter from your landlord (or hotel/serviced housing provider).",
+                "A copy of the landlord's utility bill (electricity or water bill) matching the exact address on the lease."
+            ] },
+            { type: "heading", text: "How Sandane Homes Guarantees 24-Hour Approval" },
+            { type: "paragraph", text: "Because we own and manage our corporate housing inventory directly, we don't have to wait for third-party landlords. We provide fully compliant landlord confirmation letters, registered utility copies, and address documentation within 24 hours of your check-in, coordinating directly with your company's HR department." }
+        ],
+        tags: ["FRRO Registration", "Expat Admin", "Noida Visas", "Greater Noida Guide"]
+    },
+    {
         slug: "serviced-apartments-with-kitchen-greater-noida",
         title: "Why Serviced Apartments with Kitchens are Essential for Long-Term Expats",
         subtitle: "The health, financial, and comfort benefits of choosing self-catering serviced accommodation in Greater Noida.",
