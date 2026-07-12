@@ -91,7 +91,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             fontWeight: '600',
                             marginBottom: '20px'
                         }}>
-                            Stay Connected with Sandane Homes
+                            {isResidences ? 'Exclusive Long-Stay Inquiries' : 'Stay Connected with Sandane Homes'}
                         </h4>
 
                         <h2 style={{
@@ -103,8 +103,9 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             maxWidth: '500px',
                             marginBottom: '30px'
                         }}>
-                            Have a question or want to know more about our property showcases?
-                            Share your details and we’ll get back to you.
+                            {isResidences 
+                                ? 'Ready to move in? Share your details to reserve your apartment.' 
+                                : 'Have a question or want to know more about our property showcases? Share your details and we’ll get back to you.'}
                         </h2>
 
                         <div style={{

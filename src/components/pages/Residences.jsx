@@ -4,8 +4,11 @@ import Header from '../Header';
 import Footer from '../Footer';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
 import imgRecreation from '../../assets/services_recreation.jpeg';
+import imgFlower from '../../assets/flower-macro.png';
 import imgTopLeft from '../../assets/IMG_7278.jpg';
 import imgTopRight from '../../assets/IMG_0542.jpg';
+import imgFleetService from '../../assets/fleetservice.png';
+import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
 import imgNew3 from '../../assets/IMG_7257.jpg';
 import imgBottomMiddle from '../../assets/last3.jpeg';
 import imgNew5 from '../../assets/IMG_7254.jpg';
@@ -13,8 +16,19 @@ import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
 
 const Residences = () => {
+    useEffect(() => {
+        if (window.location.hash === '#contact-section') {
+            setTimeout(() => {
+                const element = document.getElementById('contact-section');
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 500); // small delay to let page render
+        }
+    }, []);
+
     const seoProps = {
-        title: "Residencies by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida",
+        title: "Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida",
         description: "Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
@@ -79,10 +93,129 @@ const Residences = () => {
     ];
 
     return (
-        <div className="catarina-services sandane-homes-page">
+        <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#F4F0EB', minHeight: '100vh', overflowX: 'hidden' }}>
             <SEO {...seoProps} />
             <Header showTopBar={false} />
 
+            {/* Commented Out New Editorial Layout */}
+            {false && (
+                <>
+            {/* Editorial Layout Container ("Bel Sognatore" style) */}
+            <div style={{ 
+                position: 'relative', 
+                width: '100%', 
+                maxWidth: '1400px', 
+                margin: '0 auto', 
+                height: '1100px', /* fixed height to allow absolute positioning */
+                paddingTop: '60px'
+            }}>
+                
+                {/* Large Typography Background */}
+                <div style={{
+                    position: 'absolute',
+                    top: '60px', /* Moved completely off the header */
+                    left: '0',
+                    width: '100%',
+                    textAlign: 'center',
+                    zIndex: 10,
+                    pointerEvents: 'none'
+                }}>
+                    <h1 style={{ 
+                        fontFamily: 'Playfair Display, serif', 
+                        fontSize: '100px', /* Significantly smaller */
+                        fontWeight: '400', 
+                        color: '#4A463F', 
+                        margin: 0,
+                        lineHeight: '1'
+                    }}>
+                        Sandane
+                    </h1>
+                    <h1 style={{ 
+                        fontFamily: 'Playfair Display, serif', 
+                        fontSize: '140px', /* Significantly smaller */
+                        fontWeight: '400', 
+                        color: '#4A463F', 
+                        margin: '-20px 0 0 0', /* Adjusted margin for smaller font */
+                        lineHeight: '1',
+                        letterSpacing: '-2px'
+                    }}>
+                        Residences
+                    </h1>
+                </div>
+
+                {/* Left Column (Image + Text) */}
+                <div style={{
+                    position: 'absolute',
+                    top: '200px',
+                    left: '-160px', /* Bleeds significantly off the left edge */
+                    width: '26%', /* Significantly smaller image width */
+                    zIndex: 5
+                }}>
+                    <img src={imgFlower} alt="Residences Detail" style={{ width: '100%', height: 'auto', aspectRatio: '3/4', objectFit: 'cover' }} />
+                    
+                    {/* Text block pulled up to overlap the image */ }
+                    <div style={{ 
+                        marginTop: '-130px', /* Shifted even further up for deeper vertical overlap */
+                        marginLeft: '150px', /* Shifted to the left for more horizontal overlap */
+                        paddingRight: '10px',
+                        minWidth: '340px', /* Prevents text from being crushed by the narrow column */
+                        position: 'relative',
+                        zIndex: 6 /* Higher z-index to sit on top of the image */
+                    }}>
+                        <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', marginBottom: '20px' }}>
+                            Found in the heart of the NCR, <i>Sandane Residences</i> is a 5-star boutique living experience, encompassing fully-serviced apartments and holistic comfort.
+                        </p>
+                        <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif' }}>
+                            \\<br/>
+                            Choose our beautifully curated homes tailored for expats and professionals seeking a sanctuary, from organic amenities to extensive bespoke services.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Center Column (Large Image) */}
+                <div style={{
+                    position: 'absolute',
+                    top: '400px', /* Moved down */
+                    left: '28%',
+                    width: '44%',
+                    zIndex: 2 /* Behind the 'Residences' text */
+                }}>
+                    <img src={imgRecreation} alt="Main View" style={{ width: '100%', height: 'auto', aspectRatio: '4/3', objectFit: 'cover' }} />
+                </div>
+
+                {/* Right Column (Text + Image) */}
+                <div style={{
+                    position: 'absolute',
+                    top: '80px',
+                    right: '-160px', /* Pushed even further right to strongly bleed off edge */
+                    width: '35%', /* Wider to ensure picture goes off edge but text has room */
+                    zIndex: 5
+                }}>
+                    <div style={{ position: 'relative', paddingTop: '60px', paddingLeft: '30px', paddingRight: '120px' /* Big padding to keep text safe while pic bleeds */ }}>
+                        {/* Arched background shape */}
+                        <div style={{
+                            position: 'absolute',
+                            top: '0',
+                            left: '0',
+                            width: '100%',
+                            height: '85%', /* Covers text and top half of image */
+                            backgroundColor: '#EAE1D9',
+                            borderTopLeftRadius: '500px', /* Pill shape top */
+                            borderTopRightRadius: '500px',
+                            zIndex: -1
+                        }}></div>
+                        
+                        <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', fontStyle: 'italic', marginBottom: '40px', textAlign: 'center' }}>
+                            A philosophy of nurture via absolute comfort and a spirit of collaboration are tangibly felt at Sandane Residences, where our team works together to bring the best hospitality to the table.
+                        </p>
+                        <img src={imgTopRight} alt="Architecture View" style={{ width: '100%', height: 'auto', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+                    </div>
+                </div>
+            </div>
+                </>
+            )}
+
+            {/* Restored Old Code */}
             {/* Hero / Title Section */}
             <div className="catarina-hero" style={{
                 backgroundImage: `url(${heroBg})`,
@@ -193,6 +326,116 @@ const Residences = () => {
                         ))}
                     </div>
                 </div>
+            </div>
+
+            {/* 3-Cards Section */}
+            <div style={{ maxWidth: '1400px', margin: '80px auto', padding: '0 20px' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}>
+                    {/* Card 1 */}
+                    <div style={{
+                        flex: '1 1 calc(33.333% - 20px)',
+                        minWidth: '280px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '20px'
+                    }}>
+                        {/* Square Image Box */}
+                        <div style={{
+                            width: '100%',
+                            aspectRatio: '1/1',
+                            backgroundColor: '#e0e0e0',
+                            backgroundImage: `url(${imgFleetService})`, // Fleet Service Image
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '0px',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                        }}></div>
+                        
+                        {/* Text Content Below */}
+                        <div>
+                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
+                                Fleet Car Service
+                            </h3>
+                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
+                                Travel seamlessly with our comprehensive fleet car services. We offer premium car rentals, reliable office or home pick-up and drop-off, and professional driver rentals tailored to your schedule.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div style={{
+                        flex: '1 1 calc(33.333% - 20px)',
+                        minWidth: '280px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '20px'
+                    }}>
+                        {/* Square Image Box */}
+                        <div style={{
+                            width: '100%',
+                            aspectRatio: '1/1',
+                            backgroundColor: '#e0e0e0',
+                            backgroundImage: `url(${imgKoreanBreakfast})`, // Korean Breakfast Image
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '0px',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                        }}></div>
+                        
+                        {/* Text Content Below */}
+                        <div>
+                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
+                                Korean Breakfast
+                            </h3>
+                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
+                                Start your day with an authentic Korean breakfast experience. Thoughtfully prepared with traditional ingredients, offering the perfect blend of warmth and nourishment right at your doorstep.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div style={{
+                        flex: '1 1 calc(33.333% - 20px)',
+                        minWidth: '280px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '20px'
+                    }}>
+                        {/* Square Image Box */}
+                        <div style={{
+                            width: '100%',
+                            aspectRatio: '1/1',
+                            backgroundColor: '#e0e0e0',
+                            backgroundImage: `url(${imgNew3})`, // Placeholder image
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '0px',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                        }}></div>
+                        
+                        {/* Text Content Below */}
+                        <div>
+                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
+                                Curated Apartments
+                            </h3>
+                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
+                                Discover fully-furnished, meticulously designed living spaces. Each curated apartment is tailored to provide expats and professionals with unparalleled comfort, style, and premium amenities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Little Text Below Cards */}
+                <p style={{
+                    textAlign: 'center',
+                    fontSize: '13px',
+                    color: '#888',
+                    marginTop: '25px',
+                    fontStyle: 'italic',
+                    letterSpacing: '0.5px'
+                }}>
+                    * All premium packages and amenities are subject to availability and bespoke configuration.
+                </p>
             </div>
 
             {/* SEO Text Block */}
