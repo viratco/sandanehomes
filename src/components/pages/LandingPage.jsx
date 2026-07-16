@@ -7,6 +7,54 @@ import { getLandingPage } from '../../data/landingPages';
 import { FaWhatsapp, FaArrowRight, FaCalendarAlt, FaEnvelope } from 'react-icons/fa';
 import './SandaneHomes.css'; // Leverage existing premium styles
 
+// Import high-quality property images for split hero
+import imgAnsal from '../../assets/IMG_7257.jpg';
+import imgGodrej from '../../assets/IMG_7272.jpg';
+import imgJaypee from '../../assets/IMG_7278.jpg';
+import imgFurnished from '../../assets/IMG_6221.jpg';
+import imgCorporate from '../../assets/IMG_6094.jpg';
+import imgLongStay from '../../assets/IMG_0586.jpg';
+import imgExpo from '../../assets/IMG_0609.jpg';
+import imgJapanese from '../../assets/IMG_3547.JPG';
+import imgExpat from '../../assets/IMG_4015.JPG';
+import imgCorporateAcc from '../../assets/IMG_4019.JPG';
+import imgRelocation from '../../assets/IMG_6108.jpg';
+import imgEngineers from '../../assets/IMG_6234.jpg';
+import imgVilla from '../../assets/glam_main.jpg';
+
+const getHeroImage = (slug) => {
+    switch (slug) {
+        case 'serviced-apartments-ansal-golf-links':
+            return imgAnsal;
+        case 'serviced-apartments-godrej-golf-link':
+            return imgGodrej;
+        case 'serviced-apartments-jaypee-greens':
+            return imgJaypee;
+        case 'furnished-apartments-greater-noida':
+            return imgFurnished;
+        case 'corporate-housing-greater-noida':
+            return imgCorporate;
+        case 'long-stay-apartments-greater-noida':
+            return imgLongStay;
+        case 'apartments-near-india-expo-centre':
+            return imgExpo;
+        case 'japanese-expat-housing-greater-noida':
+            return imgJapanese;
+        case 'expat-housing-delhi-ncr':
+            return imgExpat;
+        case 'corporate-accommodation-noida':
+            return imgCorporateAcc;
+        case 'relocation-housing-noida':
+            return imgRelocation;
+        case 'accommodation-visiting-engineers-noida':
+            return imgEngineers;
+        case 'luxury-villa-rental-greater-noida':
+            return imgVilla;
+        default:
+            return imgCorporate;
+    }
+};
+
 const LandingPage = ({ slug: propSlug }) => {
     // Can support either prop injection or URL params
     const { slug: paramSlug } = useParams();
@@ -70,8 +118,8 @@ const LandingPage = ({ slug: propSlug }) => {
             <Header showTopBar={false} />
 
             {/* Split Hero Section */}
-            <div className="sandane-hero-split" style={{ backgroundColor: '#FAF8F5' }}>
-                <div className="sandane-hero-text" style={{ padding: '80px 10%' }}>
+            <div className="sandane-hero-split">
+                <div className="sandane-hero-text" style={{ padding: '80px 8%' }}>
                     <span style={{ color: '#C5A572', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '13px', fontWeight: 'bold', display: 'block', marginBottom: '15px' }}>
                         Premium Serviced Residences
                     </span>
@@ -98,6 +146,15 @@ const LandingPage = ({ slug: propSlug }) => {
                             <FaEnvelope size={16} /> Email Us
                         </a>
                     </div>
+                </div>
+
+                {/* Right Side - Image */}
+                <div className="sandane-hero-image">
+                    <img
+                        src={getHeroImage(page.slug)}
+                        alt={page.h1}
+                        className="sandane-hero-img-el"
+                    />
                 </div>
             </div>
 
