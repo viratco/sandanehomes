@@ -101,73 +101,28 @@ const Residences = () => {
             {true && (
                 <>
             {/* Editorial Layout Container ("Bel Sognatore" style) */}
-            <div style={{ 
-                position: 'relative', 
-                width: '100%', 
-                maxWidth: '1400px', 
-                margin: '0 auto', 
-                height: '1100px', /* fixed height to allow absolute positioning */
-                paddingTop: '60px'
-            }}>
+            <div className="editorial-container">
                 
                 {/* Large Typography Background */}
-                <div style={{
-                    position: 'absolute',
-                    top: '150px', /* Shifted down */
-                    left: '0',
-                    width: '100%',
-                    textAlign: 'center',
-                    zIndex: 10,
-                    pointerEvents: 'none'
-                }}>
-                    <h1 style={{ 
-                        fontFamily: "'Bigilla', serif", 
-                        fontSize: '110px', 
-                        fontWeight: 'bold', 
-                        color: '#4A463F', 
-                        margin: 0,
-                        lineHeight: '1',
-                        fontFeatureSettings: '"aalt" 1'
-                    }}>
-                        Residences
-                    </h1>
-                    <h1 style={{ 
-                        fontFamily: "'Bigilla', serif", 
-                        fontSize: '120px', 
-                        fontWeight: 'bold', 
-                        color: '#4A463F', 
-                        margin: '10px 0 0 0', 
-                        lineHeight: '1',
-                        letterSpacing: '-1px',
-                        fontFeatureSettings: '"aalt" 1'
-                    }}>
-                        Sandane Homes
-                    </h1>
+                <div className="editorial-title-bg">
+                    <h1>Residences</h1>
+                    <h1>Sandane Homes</h1>
                 </div>
 
                 {/* Left Column (Image + Text) */}
-                <div style={{
-                    position: 'absolute',
-                    top: '280px', /* Moved further down */
-                    left: '-160px', /* Bleeds significantly off the left edge */
-                    width: '26%', /* Significantly smaller image width */
-                    zIndex: 5
-                }}>
-                    <img src={imgLivingRoom} alt="Residences Detail" style={{ width: '100%', height: 'auto', aspectRatio: '3/4', objectFit: 'cover' }} />
+                <div className="editorial-left-col">
+                    <img src={imgLivingRoom} alt="Residences Detail" />
                     
-                    {/* Text block pulled up to overlap the image */ }
-                    <div style={{ 
-                        marginTop: '-130px', /* Shifted even further up for deeper vertical overlap */
-                        marginLeft: '150px', /* Shifted to the left for more horizontal overlap */
-                        paddingRight: '10px',
-                        minWidth: '340px', /* Prevents text from being crushed by the narrow column */
-                        position: 'relative',
-                        zIndex: 6 /* Higher z-index to sit on top of the image */
-                    }}>
-                        <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', marginBottom: '20px' }}>
-                            Found in the heart of the NCR, <i>Sandane Residences</i> is a 5-star boutique living experience, encompassing fully-serviced apartments and holistic comfort.
-                        </p>
-                        <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif' }}>
+                    {/* Text block pulled up to overlap the image */}
+                    <div className="editorial-left-text">
+                        {/* Glassmorphic card for high readability on photographic background */}
+                        <div className="editorial-glass-card">
+                            <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', margin: 0 }}>
+                                Found in the heart of the NCR, <i>Sandane Residences</i> is a 5-star boutique living experience, encompassing fully-serviced apartments and holistic comfort.
+                            </p>
+                        </div>
+                        
+                        <p className="editorial-subtext">
                             \\<br/>
                             Choose our beautifully curated homes tailored for expats and professionals seeking a sanctuary, from organic amenities to extensive bespoke services.
                         </p>
@@ -175,42 +130,20 @@ const Residences = () => {
                 </div>
 
                 {/* Center Column (Large Image) */}
-                <div style={{
-                    position: 'absolute',
-                    top: '400px', /* Moved down */
-                    left: '28%',
-                    width: '44%',
-                    zIndex: 2 /* Behind the 'Residences' text */
-                }}>
-                    <img src={imgRecreation} alt="Main View" style={{ width: '100%', height: 'auto', aspectRatio: '4/3', objectFit: 'cover' }} />
+                <div className="editorial-center-col">
+                    <img src={imgRecreation} alt="Main View" />
                 </div>
 
                 {/* Right Column (Text + Image) */}
-                <div style={{
-                    position: 'absolute',
-                    top: '80px',
-                    right: '-160px', /* Pushed even further right to strongly bleed off edge */
-                    width: '35%', /* Wider to ensure picture goes off edge but text has room */
-                    zIndex: 5
-                }}>
-                    <div style={{ position: 'relative', paddingTop: '60px', paddingLeft: '30px', paddingRight: '120px' /* Big padding to keep text safe while pic bleeds */ }}>
+                <div className="editorial-right-col">
+                    <div className="editorial-right-inner">
                         {/* Arched background shape */}
-                        <div style={{
-                            position: 'absolute',
-                            top: '0',
-                            left: '0',
-                            width: '100%',
-                            height: '85%', /* Covers text and top half of image */
-                            backgroundColor: '#EAE1D9',
-                            borderTopLeftRadius: '500px', /* Pill shape top */
-                            borderTopRightRadius: '500px',
-                            zIndex: -1
-                        }}></div>
+                        <div className="editorial-arch-bg"></div>
                         
-                        <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', fontStyle: 'italic', marginBottom: '40px', textAlign: 'center' }}>
+                        <p className="editorial-right-text">
                             A philosophy of nurture via absolute comfort and a spirit of collaboration are tangibly felt at Sandane Residences, where our team works together to bring the best hospitality to the table.
                         </p>
-                        <img src={imgTopRight} alt="Architecture View" style={{ width: '100%', height: 'auto', aspectRatio: '3/4', objectFit: 'cover', display: 'block' }} />
+                        <img src={imgTopRight} alt="Architecture View" className="editorial-right-img" />
                     </div>
                 </div>
             </div>

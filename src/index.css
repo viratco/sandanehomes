@@ -166,3 +166,237 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(197, 165, 114, 0.3);
 }
+
+/* ===== RESIDENCES EDITORIAL SECTION RESPONSIVENESS ===== */
+.editorial-container {
+  position: relative; 
+  width: 100%; 
+  max-width: 1400px; 
+  margin: 0 auto; 
+  height: 1100px; /* fixed height for desktop layout */
+  padding-top: 60px;
+}
+
+.editorial-title-bg {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.editorial-title-bg h1 {
+  font-family: 'Bigilla', serif;
+  font-size: 110px;
+  font-weight: bold;
+  color: #4A463F;
+  margin: 0;
+  line-height: 1;
+  font-feature-settings: "aalt" 1;
+}
+
+.editorial-title-bg h1:last-child {
+  font-size: 120px;
+  margin-top: 10px;
+  letter-spacing: -1px;
+}
+
+.editorial-left-col {
+  position: absolute;
+  top: 280px;
+  left: -160px;
+  width: 26%;
+  z-index: 5;
+}
+
+.editorial-left-col img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+.editorial-left-text {
+  margin-top: -130px;
+  margin-left: 150px;
+  padding-right: 10px;
+  min-width: 340px;
+  position: relative;
+  z-index: 6;
+}
+
+.editorial-glass-card {
+  background-color: rgba(244, 240, 235, 0.85);
+  backdrop-filter: blur(12px);
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  border-left: 3px solid #C5A572;
+  margin-bottom: 20px;
+}
+
+.editorial-subtext {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4A463F;
+  font-family: Georgia, serif;
+  padding-left: 24px;
+}
+
+.editorial-center-col {
+  position: absolute;
+  top: 400px;
+  left: 28%;
+  width: 44%;
+  z-index: 2;
+}
+
+.editorial-center-col img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.editorial-right-col {
+  position: absolute;
+  top: 80px;
+  right: -160px;
+  width: 35%;
+  z-index: 5;
+}
+
+.editorial-right-inner {
+  position: relative;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 120px;
+}
+
+.editorial-arch-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background-color: #EAE1D9;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  z-index: -1;
+}
+
+.editorial-right-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4A463F;
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.editorial-right-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  display: block;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1280px) {
+  .editorial-container {
+    max-width: 95%;
+  }
+  .editorial-left-col {
+    left: -40px;
+    width: 30%;
+  }
+  .editorial-right-col {
+    right: -40px;
+    width: 38%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .editorial-title-bg h1 {
+    font-size: 80px;
+  }
+  .editorial-title-bg h1:last-child {
+    font-size: 90px;
+  }
+  .editorial-left-col {
+    left: 20px;
+    width: 35%;
+  }
+  .editorial-right-col {
+    right: 20px;
+    width: 40%;
+  }
+  .editorial-center-col {
+    left: 20%;
+    width: 60%;
+    top: 480px;
+  }
+  .editorial-left-text {
+    margin-left: 60px;
+    margin-top: -60px;
+  }
+}
+
+/* Mobile Responsiveness - Flex Column stack */
+@media (max-width: 768px) {
+  .editorial-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 20px 40px 20px;
+    gap: 30px;
+  }
+  .editorial-title-bg {
+    position: static;
+    text-align: center;
+    margin-bottom: 10px;
+    pointer-events: auto;
+  }
+  .editorial-title-bg h1 {
+    font-size: 48px !important;
+  }
+  .editorial-title-bg h1:last-child {
+    font-size: 54px !important;
+  }
+  .editorial-left-col,
+  .editorial-center-col,
+  .editorial-right-col {
+    position: static;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .editorial-left-text {
+    margin-top: 20px;
+    margin-left: 0;
+    padding-right: 0;
+    min-width: unset;
+  }
+  .editorial-glass-card {
+    padding: 16px;
+  }
+  .editorial-subtext {
+    padding-left: 0;
+  }
+  .editorial-right-inner {
+    padding: 20px;
+  }
+  .editorial-arch-bg {
+    height: 100%;
+    border-radius: 20px; /* simple rounded box on mobile instead of giant arch */
+  }
+  .editorial-right-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
