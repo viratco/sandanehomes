@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Bigilla';
+  src: url('./assets/fonts/Bigilla.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bigilla';
+  src: url('./assets/fonts/Bigilla-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -101,4 +115,54 @@ div#goog-gt-tt,
 body {
   top: 0px !important;
   position: static !important;
+}
+
+/* Premium Discovery Button styling */
+.cuisine-discover-btn {
+  padding: 16px 45px;
+  background-color: #1A3C34;
+  border: 1px solid #1A3C34;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(26, 60, 52, 0.15);
+}
+
+.cuisine-discover-btn:hover {
+  background-color: #C5A572;
+  border-color: #C5A572;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(197, 165, 114, 0.3);
+}
+
+/* Premium Discover More Button */
+.btn-discover {
+  padding: 14px 35px;
+  background-color: #1A3C34;
+  border: 1px solid #1A3C34;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(26, 60, 52, 0.15);
+}
+
+.btn-discover:hover {
+  background-color: #C5A572;
+  border-color: #C5A572;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(197, 165, 114, 0.3);
 }

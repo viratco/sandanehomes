@@ -138,19 +138,9 @@ const CuisineSection = () => {
                                 </p>
                                 <button
                                     onClick={() => navigate('/residences')}
-                                    style={{
-                                        padding: '14px 35px',
-                                        backgroundColor: 'transparent',
-                                        border: '1px solid #C5A572',
-                                        color: '#111',
-                                        fontSize: '13px',
-                                        textTransform: 'capitalize',
-                                        letterSpacing: '1px',
-                                        cursor: 'pointer',
-                                        fontWeight: '400'
-                                    }}
+                                    className="btn-discover"
                                 >
-                                    Discover More
+                                    EXPLORE EXPAT SUITES
                                 </button>
                             </div>
                         </div>
@@ -203,19 +193,10 @@ const CuisineSection = () => {
                                 </p>
 
                                 <button
-                                    onClick={() => navigate('/residences')} // Add navigation
-                                    style={{
-                                        padding: '16px 40px',
-                                        backgroundColor: 'transparent',
-                                        border: '1px solid #C5A572', // Gold border
-                                        color: '#111', // Changed back to dark
-                                        fontSize: '14px',
-                                        textTransform: 'uppercase',
-                                        letterSpacing: '1px',
-                                        cursor: 'pointer',
-                                        display: 'inline-block'
-                                    }}>
-                                    DISCOVER RESIDENCES SERVICES
+                                    onClick={() => navigate('/residences')}
+                                    className="cuisine-discover-btn"
+                                >
+                                    VIEW RESIDENCES
                                 </button>
                             </div>
                         </div>
@@ -319,18 +300,9 @@ const CuisineSection = () => {
 
                                 <button
                                     onClick={() => navigate('/residences')}
-                                    style={{
-                                        padding: '14px 35px',
-                                        backgroundColor: 'transparent',
-                                        border: '1px solid #C5A572',
-                                        color: '#111',
-                                        fontSize: '13px',
-                                        textTransform: 'capitalize',
-                                        letterSpacing: '1px',
-                                        cursor: 'pointer',
-                                        fontWeight: '400'
-                                    }}>
-                                    Discover More
+                                    className="btn-discover"
+                                >
+                                    VIEW KITCHEN AMENITIES
                                 </button>
                             </div>
                         </div>
@@ -395,19 +367,9 @@ const CuisineSection = () => {
                                 </p>
                                 <button
                                     onClick={() => navigate('/residences')}
-                                    style={{
-                                        padding: '14px 35px',
-                                        backgroundColor: 'transparent',
-                                        border: '1px solid #C5A572',
-                                        color: '#111',
-                                        fontSize: '13px',
-                                        textTransform: 'capitalize',
-                                        letterSpacing: '1px',
-                                        cursor: 'pointer',
-                                        fontWeight: '400'
-                                    }}
+                                    className="btn-discover"
                                 >
-                                    Discover More
+                                    VIEW INCLUDED SERVICES
                                 </button>
                             </div>
                         </div>
