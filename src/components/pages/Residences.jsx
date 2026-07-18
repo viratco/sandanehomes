@@ -508,12 +508,23 @@ const Residences = () => {
                                 <p style={{ 
                                     fontSize: '16px', 
                                     lineHeight: '1.8', 
-                                    color: '#555', 
+                                    color: '#333', 
                                     fontStyle: 'italic',
                                     marginBottom: '30px',
                                     fontFamily: 'Georgia, serif'
                                 }}>
-                                    "As an expat relocating with Samsung, finding a reliable stay was crucial. Sandane Residences exceeded all expectations. The Korean breakfast is authentic and delicious, and the service team handles housekeeping with complete professionalism."
+                                    "삼성 주재원으로 인도에 부임하면서 신뢰할 수 있는 숙소를 찾는 것이 가장 중요했습니다. 산다네 레지던스는 기대 이상이었습니다. 정성스럽고 맛있는 한식 조식과 전문적인 하우스키핑 서비스 덕분에 정말 편안하게 생활하고 있습니다."
+                                    <span style={{ 
+                                        display: 'block', 
+                                        marginTop: '15px', 
+                                        fontSize: '14px', 
+                                        color: '#666',
+                                        lineHeight: '1.6',
+                                        fontWeight: '400',
+                                        fontStyle: 'normal'
+                                    }}>
+                                        (Translated: "As a Samsung expat in India, finding a reliable stay was my top priority. Sandane Residences exceeded expectations. The authentic Korean breakfast and professional housekeeping have made my stay extremely comfortable.")
+                                    </span>
                                 </p>
                             </div>
                             <div style={{ 
@@ -642,12 +653,23 @@ const Residences = () => {
                                 <p style={{ 
                                     fontSize: '16px', 
                                     lineHeight: '1.8', 
-                                    color: '#555', 
+                                    color: '#333', 
                                     fontStyle: 'italic',
                                     marginBottom: '30px',
                                     fontFamily: 'Georgia, serif'
                                 }}>
-                                    "A perfect sanctuary for corporate travelers. The driver rentals and fleet service saved us countless hours of planning local transport. Very close to the Yamuna Expressway industrial hubs, making daily commuting easy."
+                                    "出張者にとって完璧なオアシスです。ドライバー付きレンタカーサービスのおかげで、現地での移動手段を計画する手間が大幅に省けました。ヤムナ高速道路の産業ハブにも非常に近く、毎日の通勤がとてもスムーズでした。"
+                                    <span style={{ 
+                                        display: 'block', 
+                                        marginTop: '15px', 
+                                        fontSize: '14px', 
+                                        color: '#666',
+                                        lineHeight: '1.6',
+                                        fontWeight: '400',
+                                        fontStyle: 'normal'
+                                    }}>
+                                        (Translated: "A perfect sanctuary for business travelers. The car rental with driver service saved us the hassle of planning local transport. Very close to the Yamuna Expressway industrial hubs, making daily commuting very smooth.")
+                                    </span>
                                 </p>
                             </div>
                             <div style={{ 
