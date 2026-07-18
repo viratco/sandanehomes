@@ -895,6 +895,7 @@ const Residences = () => {
                     </div>
                 </div>
             </div>
+        </div>
 
             {/* SEO Text Block */}
             <div className="seo-text-block" style={{ padding: '40px 20px', maxWidth: '1000px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
