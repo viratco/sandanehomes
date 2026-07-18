@@ -6,7 +6,7 @@ import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // U
 import imgRecreation from '../../assets/services_recreation.jpeg';
 import imgLivingRoom from '../../assets/IMG_7272.jpg';
 import imgTopLeft from '../../assets/IMG_7278.jpg';
-import imgTopRight from '../../assets/IMG_7278.jpg';
+import imgTopRight from '../../assets/IMG_7256.jpg';
 import imgFleetService from '../../assets/fleetservice.png';
 import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
 import imgNew3 from '../../assets/IMG_7257.jpg';
