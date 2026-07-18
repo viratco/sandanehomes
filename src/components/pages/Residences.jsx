@@ -926,7 +926,6 @@ const Residences = () => {
                     </div>
                 </div>
             </div>
-        </div>
 
             {/* Talk to a Specialist Section */}
             <div style={{ 
