@@ -688,126 +688,120 @@ const Residences = () => {
                 margin: '100px auto', 
                 padding: '0 20px' 
             }}>
-                <div className="specialist-card">
-                    {/* Image side */}
-                    <div className="specialist-img-container">
-                        <img 
-                            src={imgAdvisor} 
-                            alt="Priya - Residence Specialist" 
-                        />
-                        {/* Visual Accent badge */}
-                        <div style={{
-                            position: 'absolute',
-                            bottom: '20px',
-                            left: '20px',
-                            backgroundColor: 'rgba(26, 60, 52, 0.95)',
-                            backdropFilter: 'blur(8px)',
-                            color: '#ffffff',
-                            padding: '8px 16px',
-                            borderRadius: '20px',
-                            fontSize: '12px',
-                            fontWeight: '600',
-                            letterSpacing: '1px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '6px',
-                            border: '1px solid rgba(197, 165, 114, 0.3)'
-                        }}>
-                            <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#2ec4b6', display: 'inline-block' }}></span>
-                            ONLINE TO HELP
-                        </div>
-                    </div>
+                <div style={{
+                    backgroundColor: '#ffffff',
+                    borderRadius: '16px',
+                    boxShadow: '0 20px 50px rgba(0, 0, 0, 0.05)',
+                    border: '1px solid rgba(197, 165, 114, 0.15)',
+                    padding: '55px 60px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '24px',
+                    alignItems: 'center',
+                    textAlign: 'center',
+                    position: 'relative',
+                    overflow: 'hidden'
+                }}>
+                    {/* Visual Gold accent line on top */}
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '4px',
+                        backgroundColor: '#C5A572'
+                    }}></div>
 
-                    {/* Text side */}
-                    <div className="specialist-text-container">
-                        <span style={{ 
-                            color: '#C5A572', 
-                            fontSize: '12px', 
-                            letterSpacing: '3px', 
-                            fontWeight: '600', 
-                            textTransform: 'uppercase' 
-                        }}>
-                            Personal Advisor
-                        </span>
-                        <h3 style={{ 
-                            fontFamily: 'Playfair Display, serif', 
-                            fontSize: '36px', 
-                            fontWeight: '700', 
-                            color: '#1A3C34', 
-                            margin: 0,
-                            lineHeight: '1.2'
-                        }}>
-                            Talk to a Residence Specialist
-                        </h3>
-                        <p style={{ 
-                            fontSize: '15px', 
-                            lineHeight: '1.8', 
-                            color: '#555',
-                            margin: 0
-                        }}>
-                            Relocating to a new country or city can be complex. Priya, our dedicated Residence Advisor, works directly with corporate HR teams, executives, and international expats to customize housing solutions.
-                        </p>
-                        <ul style={{ 
-                            listStyle: 'none', 
-                            padding: 0, 
-                            margin: '10px 0', 
-                            display: 'flex', 
-                            flexDirection: 'column', 
-                            gap: '12px',
-                            fontSize: '14px',
-                            color: '#444'
-                        }}>
-                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Custom lease duration setup (30 days to annual)
-                            </li>
-                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Cultural & culinary alignment (including Korean meals)
-                            </li>
-                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Seamless billing consolidation for corporate expat policies
-                            </li>
-                        </ul>
+                    <span style={{ 
+                        color: '#C5A572', 
+                        fontSize: '12px', 
+                        letterSpacing: '3px', 
+                        fontWeight: '600', 
+                        textTransform: 'uppercase' 
+                    }}>
+                        Corporate Relocation
+                    </span>
+                    <h3 style={{ 
+                        fontFamily: 'Playfair Display, serif', 
+                        fontSize: '36px', 
+                        fontWeight: '700', 
+                        color: '#1A3C34', 
+                        margin: 0,
+                        lineHeight: '1.2'
+                    }}>
+                        Talk to a Residence Specialist
+                    </h3>
+                    <p style={{ 
+                        fontSize: '16px', 
+                        lineHeight: '1.8', 
+                        color: '#555',
+                        margin: 0,
+                        maxWidth: '800px'
+                    }}>
+                        Relocating to a new country or city can be complex. Our dedicated corporate stays team works directly with HR partners, executives, and international expats to customize housing solutions.
+                    </p>
+                    <ul style={{ 
+                        listStyle: 'none', 
+                        padding: 0, 
+                        margin: '15px 0', 
+                        display: 'flex', 
+                        flexWrap: 'wrap',
+                        justifyContent: 'center',
+                        gap: '20px 40px',
+                        fontSize: '15px',
+                        color: '#444',
+                        maxWidth: '850px'
+                    }}>
+                        <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Custom lease duration setup (30 days to annual)
+                        </li>
+                        <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Cultural & culinary alignment (including Korean meals)
+                        </li>
+                        <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Seamless billing consolidation for corporate expat policies
+                        </li>
+                    </ul>
 
-                        <div style={{ marginTop: '10px' }}>
-                            <a
-                                href="https://wa.me/919711722273?text=Hi%20Priya,%20I%20am%20relocating%20and%20would%20like%20to%20discuss%20serviced%20residence%20options."
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                    padding: '16px 35px',
-                                    fontSize: '14px',
-                                    backgroundColor: '#1A3C34',
-                                    border: '1px solid #1A3C34',
-                                    borderRadius: '30px',
-                                    fontWeight: '600',
-                                    color: '#ffffff',
-                                    letterSpacing: '1.5px',
-                                    display: 'inline-flex',
-                                    alignItems: 'center',
-                                    gap: '12px',
-                                    boxShadow: '0 8px 25px rgba(26, 60, 52, 0.2)',
-                                    transition: 'all 0.3s ease',
-                                    textDecoration: 'none'
-                                }}
-                                onMouseOver={e => {
-                                    e.currentTarget.style.backgroundColor = '#C5A572';
-                                    e.currentTarget.style.borderColor = '#C5A572';
-                                    e.currentTarget.style.transform = 'translateY(-2px)';
-                                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(197, 165, 114, 0.4)';
-                                }}
-                                onMouseOut={e => {
-                                    e.currentTarget.style.backgroundColor = '#1A3C34';
-                                    e.currentTarget.style.borderColor = '#1A3C34';
-                                    e.currentTarget.style.transform = 'translateY(0)';
-                                    e.currentTarget.style.boxShadow = '0 8px 25px rgba(26, 60, 52, 0.2)';
-                                }}
-                            >
-                                <svg viewBox="0 0 448 512" width="16" height="16" fill="currentColor" style={{ flexShrink: 0 }}>
-                                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L3.2 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
-                                </svg>
-                                CONSULT PRIYA NOW
-                            </a>
-                        </div>
+                    <div style={{ marginTop: '15px' }}>
+                        <a
+                            href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20relocating%20and%20would%20like%20to%20discuss%20serviced%20residence%20options."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                padding: '16px 40px',
+                                fontSize: '14px',
+                                backgroundColor: '#1A3C34',
+                                border: '1px solid #1A3C34',
+                                borderRadius: '30px',
+                                fontWeight: '600',
+                                color: '#ffffff',
+                                letterSpacing: '1.5px',
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: '12px',
+                                boxShadow: '0 8px 25px rgba(26, 60, 52, 0.2)',
+                                transition: 'all 0.3s ease',
+                                textDecoration: 'none'
+                            }}
+                            onMouseOver={e => {
+                                e.currentTarget.style.backgroundColor = '#C5A572';
+                                e.currentTarget.style.borderColor = '#C5A572';
+                                e.currentTarget.style.transform = 'translateY(-2px)';
+                                e.currentTarget.style.boxShadow = '0 10px 30px rgba(197, 165, 114, 0.4)';
+                            }}
+                            onMouseOut={e => {
+                                e.currentTarget.style.backgroundColor = '#1A3C34';
+                                e.currentTarget.style.borderColor = '#1A3C34';
+                                e.currentTarget.style.transform = 'translateY(0)';
+                                e.currentTarget.style.boxShadow = '0 8px 25px rgba(26, 60, 52, 0.2)';
+                            }}
+                        >
+                            <svg viewBox="0 0 448 512" width="16" height="16" fill="currentColor" style={{ flexShrink: 0 }}>
+                                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L3.2 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                            </svg>
+                            TALK TO A SPECIALIST
+                        </a>
                     </div>
                 </div>
             </div>
