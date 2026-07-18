@@ -676,9 +676,12 @@ const Residences = () => {
                                     <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Hiroshi Yoshida</h4>
                                     <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>VP Operations, Logistics Partner</span>
                                 </div>
-                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
             {/* Talk to a Specialist Section */}
             <div style={{ 
                 maxWidth: '1100px', 
