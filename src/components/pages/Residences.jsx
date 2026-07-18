@@ -12,7 +12,7 @@ import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
 import imgNew3 from '../../assets/IMG_7257.jpg';
 import imgBottomMiddle from '../../assets/last3.jpeg';
 import imgNew5 from '../../assets/IMG_7254.jpg';
-import imgAdvisor from '../../assets/advisor_headshot.png';
+import imgAbstractInterior from '../../assets/abstract_luxury_interior.png';
 import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft } from 'react-icons/fa6';
 
@@ -688,82 +688,172 @@ const Residences = () => {
                 margin: '100px auto', 
                 padding: '0 20px' 
             }}>
-                <div style={{
-                    backgroundColor: '#ffffff',
-                    borderRadius: '16px',
-                    boxShadow: '0 20px 50px rgba(0, 0, 0, 0.05)',
-                    border: '1px solid rgba(197, 165, 114, 0.15)',
-                    padding: '55px 60px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '24px',
-                    alignItems: 'center',
-                    textAlign: 'center',
-                    position: 'relative',
-                    overflow: 'hidden'
-                }}>
-                    {/* Visual Gold accent line on top */}
-                    <div style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '4px',
-                        backgroundColor: '#C5A572'
-                    }}></div>
+                <div className="specialist-card">
+                    {/* Visual Art / Architecture Side */}
+                    <div className="specialist-img-container" style={{ position: 'relative' }}>
+                        <img 
+                            src={imgAbstractInterior} 
+                            alt="Bespoke Relocation Interior Detail" 
+                        />
+                        {/* Decorative Gold Frame Offset */}
+                        <div style={{
+                            position: 'absolute',
+                            top: '20px',
+                            left: '20px',
+                            right: '20px',
+                            bottom: '20px',
+                            border: '1px solid rgba(197, 165, 114, 0.4)',
+                            pointerEvents: 'none',
+                            zIndex: 2
+                        }}></div>
+                        
+                        {/* Large Abstract Gold Label overlay */}
+                        <div style={{
+                            position: 'absolute',
+                            bottom: '30px',
+                            left: '30px',
+                            right: '30px',
+                            backgroundColor: 'rgba(26, 60, 52, 0.92)',
+                            backdropFilter: 'blur(10px)',
+                            padding: '20px',
+                            border: '1px solid rgba(197, 165, 114, 0.25)',
+                            zIndex: 3
+                        }}>
+                            <div style={{ 
+                                fontFamily: 'Playfair Display, serif', 
+                                color: '#ffffff', 
+                                fontSize: '18px', 
+                                fontWeight: '600',
+                                marginBottom: '5px',
+                                letterSpacing: '0.5px'
+                            }}>
+                                Sandane Stays
+                            </div>
+                            <div style={{ 
+                                color: '#C5A572', 
+                                fontSize: '11px', 
+                                letterSpacing: '2px', 
+                                textTransform: 'uppercase',
+                                fontWeight: '500'
+                            }}>
+                                Custom Extended Lease
+                            </div>
+                        </div>
+                    </div>
 
-                    <span style={{ 
-                        color: '#C5A572', 
-                        fontSize: '12px', 
-                        letterSpacing: '3px', 
-                        fontWeight: '600', 
-                        textTransform: 'uppercase' 
+                    {/* Editorial Copy Stays Side */}
+                    <div className="specialist-text-container" style={{ 
+                        position: 'relative',
+                        backgroundColor: '#ffffff'
                     }}>
-                        Corporate Relocation
-                    </span>
-                    <h3 style={{ 
-                        fontFamily: 'Playfair Display, serif', 
-                        fontSize: '36px', 
-                        fontWeight: '700', 
-                        color: '#1A3C34', 
-                        margin: 0,
-                        lineHeight: '1.2'
-                    }}>
-                        Talk to a Residence Specialist
-                    </h3>
-                    <p style={{ 
-                        fontSize: '16px', 
-                        lineHeight: '1.8', 
-                        color: '#555',
-                        margin: 0,
-                        maxWidth: '800px'
-                    }}>
-                        Relocating to a new country or city can be complex. Our dedicated corporate stays team works directly with HR partners, executives, and international expats to customize housing solutions.
-                    </p>
-                    <ul style={{ 
-                        listStyle: 'none', 
-                        padding: 0, 
-                        margin: '15px 0', 
-                        display: 'flex', 
-                        flexWrap: 'wrap',
-                        justifyContent: 'center',
-                        gap: '20px 40px',
-                        fontSize: '15px',
-                        color: '#444',
-                        maxWidth: '850px'
-                    }}>
-                        <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Custom lease duration setup (30 days to annual)
-                        </li>
-                        <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Cultural & culinary alignment (including Korean meals)
-                        </li>
-                        <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Seamless billing consolidation for corporate expat policies
-                        </li>
-                    </ul>
+                        {/* Background subtle serif initial for luxury catalog aesthetic */}
+                        <span style={{
+                            position: 'absolute',
+                            right: '30px',
+                            top: '10px',
+                            fontFamily: 'Playfair Display, serif',
+                            fontSize: '180px',
+                            color: 'rgba(197, 165, 114, 0.05)',
+                            lineHeight: 1,
+                            pointerEvents: 'none',
+                            userSelect: 'none',
+                            fontWeight: '700'
+                        }}>
+                            S
+                        </span>
 
-                    <div style={{ marginTop: '15px' }}>
+                        <span style={{ 
+                            color: '#C5A572', 
+                            fontSize: '12px', 
+                            letterSpacing: '3px', 
+                            fontWeight: '600', 
+                            textTransform: 'uppercase',
+                            display: 'block'
+                        }}>
+                            Expat Housing Services
+                        </span>
+                        <h3 style={{ 
+                            fontFamily: 'Playfair Display, serif', 
+                            fontSize: '38px', 
+                            fontWeight: '700', 
+                            color: '#1A3C34', 
+                            margin: 0,
+                            lineHeight: '1.2',
+                            position: 'relative',
+                            zIndex: 2
+                        }}>
+                            Bespoke Relocation & Stays
+                        </h3>
+                        <p style={{ 
+                            fontSize: '15px', 
+                            lineHeight: '1.8', 
+                            color: '#555',
+                            margin: 0,
+                            position: 'relative',
+                            zIndex: 2
+                        }}>
+                            Relocating to a new country or managing corporate expat housing demands precision. Our corporate housing desk works directly with HR leads, global relocation partners, and executive expats to configure turnkey luxury residences across the NCR.
+                        </p>
+                        
+                        <div style={{ 
+                            display: 'flex', 
+                            flexDirection: 'column', 
+                            gap: '14px', 
+                            margin: '10px 0',
+                            position: 'relative',
+                            zIndex: 2
+                        }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                <span style={{ 
+                                    width: '24px', 
+                                    height: '24px', 
+                                    borderRadius: '50%', 
+                                    backgroundColor: 'rgba(197, 165, 114, 0.1)', 
+                                    display: 'flex', 
+                                    alignItems: 'center', 
+                                    justifyContent: 'center',
+                                    color: '#C5A572',
+                                    fontSize: '12px',
+                                    fontWeight: 'bold',
+                                    flexShrink: 0
+                                }}>✓</span>
+                                <span style={{ fontSize: '14px', color: '#444' }}>Custom lease durations (30 days up to annual terms)</span>
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                <span style={{ 
+                                    width: '24px', 
+                                    height: '24px', 
+                                    borderRadius: '50%', 
+                                    backgroundColor: 'rgba(197, 165, 114, 0.1)', 
+                                    display: 'flex', 
+                                    alignItems: 'center', 
+                                    justifyContent: 'center',
+                                    color: '#C5A572',
+                                    fontSize: '12px',
+                                    fontWeight: 'bold',
+                                    flexShrink: 0
+                                }}>✓</span>
+                                <span style={{ fontSize: '14px', color: '#444' }}>Tailored dining configurations & local vehicle support</span>
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                <span style={{ 
+                                    width: '24px', 
+                                    height: '24px', 
+                                    borderRadius: '50%', 
+                                    backgroundColor: 'rgba(197, 165, 114, 0.1)', 
+                                    display: 'flex', 
+                                    alignItems: 'center', 
+                                    justifyContent: 'center',
+                                    color: '#C5A572',
+                                    fontSize: '12px',
+                                    fontWeight: 'bold',
+                                    flexShrink: 0
+                                }}>✓</span>
+                                <span style={{ fontSize: '14px', color: '#444' }}>Consolidated invoicing under corporate policy specs</span>
+                            </div>
+                        </div>
+
+                        <div style={{ marginTop: '10px', position: 'relative', zIndex: 2 }}>
                         <a
                             href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20relocating%20and%20would%20like%20to%20discuss%20serviced%20residence%20options."
                             target="_blank"
