@@ -12,8 +12,9 @@ import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
 import imgNew3 from '../../assets/IMG_7257.jpg';
 import imgBottomMiddle from '../../assets/last3.jpeg';
 import imgNew5 from '../../assets/IMG_7254.jpg';
+import imgAdvisor from '../../assets/advisor_headshot.png';
 import './SandaneHomes.css'; // Import shared CSS
-import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot } from 'react-icons/fa6';
+import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft } from 'react-icons/fa6';
 
 const Residences = () => {
     useEffect(() => {
@@ -432,6 +433,380 @@ const Residences = () => {
                 }}>
                     * All premium packages and amenities are subject to availability and bespoke configuration.
                 </p>
+            </div>
+
+            {/* Testimonials / Reviews Section */}
+            <div style={{ 
+                backgroundColor: '#F4F0EB', 
+                padding: '100px 20px', 
+                borderTop: '1px solid rgba(197, 165, 114, 0.2)',
+                borderBottom: '1px solid rgba(197, 165, 114, 0.2)'
+            }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                    <div style={{ textAlign: 'center', marginBottom: '60px' }}>
+                        <span style={{ 
+                            color: '#C5A572', 
+                            fontSize: '13px', 
+                            textTransform: 'uppercase', 
+                            letterSpacing: '3px', 
+                            fontWeight: '600',
+                            display: 'block',
+                            marginBottom: '10px'
+                        }}>
+                            Guest Experiences
+                        </span>
+                        <h2 style={{ 
+                            fontFamily: 'Playfair Display, serif', 
+                            fontSize: '42px', 
+                            fontWeight: '700', 
+                            color: '#1A3C34',
+                            margin: 0
+                        }}>
+                            Trusted by Global Executives
+                        </h2>
+                        <div style={{ 
+                            width: '60px', 
+                            height: '2px', 
+                            backgroundColor: '#C5A572', 
+                            margin: '20px auto 0 auto' 
+                        }}></div>
+                    </div>
+
+                    <div style={{ 
+                        display: 'grid', 
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
+                        gap: '30px',
+                        justifyContent: 'center'
+                    }}>
+                        {/* Review 1 */}
+                        <div style={{
+                            backgroundColor: '#ffffff',
+                            padding: '40px 30px',
+                            borderRadius: '8px',
+                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            border: '1px solid rgba(197, 165, 114, 0.1)',
+                            position: 'relative'
+                        }}>
+                            <span style={{ 
+                                position: 'absolute', 
+                                top: '20px', 
+                                right: '30px', 
+                                color: 'rgba(197, 165, 114, 0.15)',
+                                fontSize: '40px'
+                            }}>
+                                <FaQuoteLeft />
+                            </span>
+                            <div>
+                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                    {[...Array(5)].map((_, i) => (
+                                        <FaStar key={i} size={14} color="#C5A572" />
+                                    ))}
+                                </div>
+                                <p style={{ 
+                                    fontSize: '16px', 
+                                    lineHeight: '1.8', 
+                                    color: '#555', 
+                                    fontStyle: 'italic',
+                                    marginBottom: '30px',
+                                    fontFamily: 'Georgia, serif'
+                                }}>
+                                    "As an expat relocating with Samsung, finding a reliable stay was crucial. Sandane Residences exceeded all expectations. The Korean breakfast is authentic and delicious, and the service team handles housekeeping with complete professionalism."
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    JS
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Jae-Seok Min</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Senior Engineer, Samsung India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 2 */}
+                        <div style={{
+                            backgroundColor: '#ffffff',
+                            padding: '40px 30px',
+                            borderRadius: '8px',
+                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            border: '1px solid rgba(197, 165, 114, 0.1)',
+                            position: 'relative'
+                        }}>
+                            <span style={{ 
+                                position: 'absolute', 
+                                top: '20px', 
+                                right: '30px', 
+                                color: 'rgba(197, 165, 114, 0.15)',
+                                fontSize: '40px'
+                            }}>
+                                <FaQuoteLeft />
+                            </span>
+                            <div>
+                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                    {[...Array(5)].map((_, i) => (
+                                        <FaStar key={i} size={14} color="#C5A572" />
+                                    ))}
+                                </div>
+                                <p style={{ 
+                                    fontSize: '16px', 
+                                    lineHeight: '1.8', 
+                                    color: '#555', 
+                                    fontStyle: 'italic',
+                                    marginBottom: '30px',
+                                    fontFamily: 'Georgia, serif'
+                                }}>
+                                    "Exceptional stay. The property in Ansal Golf Links is beautiful, quiet, and secure. Having dedicated maintenance staff and high-speed fiber internet made working from home seamless. The best corporate housing experience in Greater Noida."
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    MK
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Marcus K.</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Director, Automotive Supplier Group</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 3 */}
+                        <div style={{
+                            backgroundColor: '#ffffff',
+                            padding: '40px 30px',
+                            borderRadius: '8px',
+                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            border: '1px solid rgba(197, 165, 114, 0.1)',
+                            position: 'relative'
+                        }}>
+                            <span style={{ 
+                                position: 'absolute', 
+                                top: '20px', 
+                                right: '30px', 
+                                color: 'rgba(197, 165, 114, 0.15)',
+                                fontSize: '40px'
+                            }}>
+                                <FaQuoteLeft />
+                            </span>
+                            <div>
+                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                    {[...Array(5)].map((_, i) => (
+                                        <FaStar key={i} size={14} color="#C5A572" />
+                                    ))}
+                                </div>
+                                <p style={{ 
+                                    fontSize: '16px', 
+                                    lineHeight: '1.8', 
+                                    color: '#555', 
+                                    fontStyle: 'italic',
+                                    marginBottom: '30px',
+                                    fontFamily: 'Georgia, serif'
+                                }}>
+                                    "A perfect sanctuary for corporate travelers. The driver rentals and fleet service saved us countless hours of planning local transport. Very close to the Yamuna Expressway industrial hubs, making daily commuting easy."
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    HY
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Hiroshi Yoshida</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>VP Operations, Logistics Partner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            {/* Talk to a Specialist Section */}
+            <div style={{ 
+                maxWidth: '1100px', 
+                margin: '100px auto', 
+                padding: '0 20px' 
+            }}>
+                <div className="specialist-card">
+                    {/* Image side */}
+                    <div className="specialist-img-container">
+                        <img 
+                            src={imgAdvisor} 
+                            alt="Priya - Residence Specialist" 
+                        />
+                        {/* Visual Accent badge */}
+                        <div style={{
+                            position: 'absolute',
+                            bottom: '20px',
+                            left: '20px',
+                            backgroundColor: 'rgba(26, 60, 52, 0.95)',
+                            backdropFilter: 'blur(8px)',
+                            color: '#ffffff',
+                            padding: '8px 16px',
+                            borderRadius: '20px',
+                            fontSize: '12px',
+                            fontWeight: '600',
+                            letterSpacing: '1px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '6px',
+                            border: '1px solid rgba(197, 165, 114, 0.3)'
+                        }}>
+                            <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#2ec4b6', display: 'inline-block' }}></span>
+                            ONLINE TO HELP
+                        </div>
+                    </div>
+
+                    {/* Text side */}
+                    <div className="specialist-text-container">
+                        <span style={{ 
+                            color: '#C5A572', 
+                            fontSize: '12px', 
+                            letterSpacing: '3px', 
+                            fontWeight: '600', 
+                            textTransform: 'uppercase' 
+                        }}>
+                            Personal Advisor
+                        </span>
+                        <h3 style={{ 
+                            fontFamily: 'Playfair Display, serif', 
+                            fontSize: '36px', 
+                            fontWeight: '700', 
+                            color: '#1A3C34', 
+                            margin: 0,
+                            lineHeight: '1.2'
+                        }}>
+                            Talk to a Residence Specialist
+                        </h3>
+                        <p style={{ 
+                            fontSize: '15px', 
+                            lineHeight: '1.8', 
+                            color: '#555',
+                            margin: 0
+                        }}>
+                            Relocating to a new country or city can be complex. Priya, our dedicated Residence Advisor, works directly with corporate HR teams, executives, and international expats to customize housing solutions.
+                        </p>
+                        <ul style={{ 
+                            listStyle: 'none', 
+                            padding: 0, 
+                            margin: '10px 0', 
+                            display: 'flex', 
+                            flexDirection: 'column', 
+                            gap: '12px',
+                            fontSize: '14px',
+                            color: '#444'
+                        }}>
+                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Custom lease duration setup (30 days to annual)
+                            </li>
+                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Cultural & culinary alignment (including Korean meals)
+                            </li>
+                            <li style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span> Seamless billing consolidation for corporate expat policies
+                            </li>
+                        </ul>
+
+                        <div style={{ marginTop: '10px' }}>
+                            <a
+                                href="https://wa.me/919711722273?text=Hi%20Priya,%20I%20am%20relocating%20and%20would%20like%20to%20discuss%20serviced%20residence%20options."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    padding: '16px 35px',
+                                    fontSize: '14px',
+                                    backgroundColor: '#1A3C34',
+                                    border: '1px solid #1A3C34',
+                                    borderRadius: '30px',
+                                    fontWeight: '600',
+                                    color: '#ffffff',
+                                    letterSpacing: '1.5px',
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '12px',
+                                    boxShadow: '0 8px 25px rgba(26, 60, 52, 0.2)',
+                                    transition: 'all 0.3s ease',
+                                    textDecoration: 'none'
+                                }}
+                                onMouseOver={e => {
+                                    e.currentTarget.style.backgroundColor = '#C5A572';
+                                    e.currentTarget.style.borderColor = '#C5A572';
+                                    e.currentTarget.style.transform = 'translateY(-2px)';
+                                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(197, 165, 114, 0.4)';
+                                }}
+                                onMouseOut={e => {
+                                    e.currentTarget.style.backgroundColor = '#1A3C34';
+                                    e.currentTarget.style.borderColor = '#1A3C34';
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                    e.currentTarget.style.boxShadow = '0 8px 25px rgba(26, 60, 52, 0.2)';
+                                }}
+                            >
+                                <svg viewBox="0 0 448 512" width="16" height="16" fill="currentColor" style={{ flexShrink: 0 }}>
+                                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L3.2 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                </svg>
+                                CONSULT PRIYA NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             {/* SEO Text Block */}

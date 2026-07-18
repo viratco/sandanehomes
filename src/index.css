@@ -400,3 +400,50 @@ body {
     margin-bottom: 20px;
   }
 }
+
+/* ===== SPECIALIST SECTION ===== */
+.specialist-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(197, 165, 114, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.specialist-img-container {
+  flex: 1 1 400px;
+  position: relative;
+  min-height: 480px;
+  min-width: 320px;
+}
+
+.specialist-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+}
+
+.specialist-text-container {
+  flex: 1.2 1 450px;
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .specialist-text-container {
+    padding: 30px 20px;
+    gap: 15px;
+  }
+  .specialist-img-container {
+    min-height: 320px;
+    flex: 1 1 100%;
+  }
+}
