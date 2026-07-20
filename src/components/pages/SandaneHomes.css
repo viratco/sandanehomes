@@ -634,10 +634,13 @@
 }
 
 .catarina-about-box {
-    background-color: #000;
+    background: linear-gradient(135deg, #1A3C34 0%, #112823 100%);
     color: #fff;
-    padding: 60px;
+    padding: 60px 40px;
+    border-radius: 24px;
     text-align: center;
+    box-shadow: 0 20px 50px rgba(26, 60, 52, 0.18);
+    border: 1px solid rgba(197, 165, 114, 0.35);
 }
 
 @media (max-width: 768px) {

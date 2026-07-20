@@ -1154,52 +1154,210 @@ const Residences = () => {
             </div>
 
             {/* About & Contact Section */}
-            <div className="catarina-section catarina-contact-section">
-                <div style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '50px',
-                    alignItems: 'center'
-                }}>
+            <div className="catarina-section catarina-contact-section" id="contact-section" style={{ padding: '80px 20px 100px', backgroundColor: '#FAF8F5' }}>
+                <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '60px' }}>
+                    
+                    {/* Elegant About Us Banner */}
                     <div style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        width: '100%',
-                        gap: '50px'
+                        background: 'linear-gradient(135deg, #1A3C34 0%, #112823 100%)',
+                        borderRadius: '24px',
+                        padding: '60px 40px',
+                        textAlign: 'center',
+                        color: '#fff',
+                        position: 'relative',
+                        overflow: 'hidden',
+                        boxShadow: '0 20px 50px rgba(26,60,52,0.18)',
+                        border: '1px solid rgba(197,165,114,0.35)'
                     }}>
-                        {/* About Us Box */}
-                        <div className="catarina-about-box">
-                            <h3 style={{
-                                fontFamily: 'Playfair Display, serif',
-                                fontSize: '32px',
-                                marginBottom: '30px',
-                                color: '#fff'
-                            }}>
-                                ABOUT US
-                            </h3>
-                            <p style={{ lineHeight: '1.8', fontSize: '15px', color: '#e0e0e0', maxWidth: '800px', margin: '0 auto' }}>
-                                Sandane Homes delivers premium fully-serviced stays across India. With 5+ years in hospitality, we specialize in hosting expats and professionals seeking comfort, convenience, and exceptional service - nationwide.
-                            </p>
-                        </div>
+                        {/* Decorative Gold Glow */}
+                        <div style={{
+                            position: 'absolute',
+                            top: '-60px',
+                            right: '-60px',
+                            width: '220px',
+                            height: '220px',
+                            background: 'radial-gradient(circle, rgba(197,165,114,0.22) 0%, transparent 70%)',
+                            pointerEvents: 'none'
+                        }} />
+                        <div style={{
+                            position: 'absolute',
+                            bottom: '-60px',
+                            left: '-60px',
+                            width: '220px',
+                            height: '220px',
+                            background: 'radial-gradient(circle, rgba(197,165,114,0.15) 0%, transparent 70%)',
+                            pointerEvents: 'none'
+                        }} />
 
-                        {/* Contact Info */}
-                        <div style={{ textAlign: 'center' }}>
-                            <h3 className="section-title">
-                                Contact Us
-                            </h3>
+                        <span style={{
+                            fontSize: '12px',
+                            letterSpacing: '3px',
+                            textTransform: 'uppercase',
+                            color: '#C5A572',
+                            fontWeight: '800',
+                            display: 'inline-block',
+                            marginBottom: '14px'
+                        }}>
+                            Welcome To Sandane Homes
+                        </span>
+                        
+                        <h2 style={{
+                            fontFamily: 'Playfair Display, serif',
+                            fontSize: '38px',
+                            margin: '0 0 20px',
+                            color: '#fff',
+                            fontWeight: '600'
+                        }}>
+                            About Us
+                        </h2>
 
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '18px', color: '#555' }}>
-                                    <span style={{ color: '#111', fontSize: '24px' }}>📞</span>
-                                    +91 97117 22273
-                                </div>
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '18px', color: '#555' }}>
-                                    <span style={{ color: '#111', fontSize: '24px' }}>✉️</span>
-                                    sandanehomes@gmail.com
-                                </div>
-                            </div>
+                        <div style={{
+                            width: '60px',
+                            height: '2px',
+                            backgroundColor: '#C5A572',
+                            margin: '0 auto 28px'
+                        }} />
+
+                        <p style={{
+                            lineHeight: '1.9',
+                            fontSize: '17px',
+                            color: '#E0E0E0',
+                            maxWidth: '780px',
+                            margin: '0 auto 36px',
+                            fontWeight: '400'
+                        }}>
+                            Sandane Homes delivers premium, fully-serviced luxury stays across India. With 5+ years of hospitality excellence, we specialize in hosting expats, diplomats, and corporate professionals seeking refined comfort, absolute privacy, and uncompromised nationwide service.
+                        </p>
+
+                        {/* Highlight Pills */}
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            flexWrap: 'wrap',
+                            gap: '14px'
+                        }}>
+                            {[
+                                "✨ 5+ Years Hospitality Excellence",
+                                "🛡️ 100% Gated Society Safety",
+                                "🔑 Fully Managed Just-Arrive Suites",
+                                "🌏 Expat & Corporate Specialist"
+                            ].map((pill, idx) => (
+                                <span key={idx} style={{
+                                    backgroundColor: 'rgba(255,255,255,0.08)',
+                                    border: '1px solid rgba(197,165,114,0.3)',
+                                    color: '#F0E6D2',
+                                    padding: '10px 22px',
+                                    borderRadius: '30px',
+                                    fontSize: '14px',
+                                    fontWeight: '500'
+                                }}>
+                                    {pill}
+                                </span>
+                            ))}
                         </div>
                     </div>
+
+                    {/* Contact Info */}
+                    <div style={{ textAlign: 'center' }}>
+                        <span style={{
+                            fontSize: '12px',
+                            letterSpacing: '3px',
+                            textTransform: 'uppercase',
+                            color: '#C5A572',
+                            fontWeight: '800',
+                            display: 'inline-block',
+                            marginBottom: '10px'
+                        }}>
+                            Get In Touch
+                        </span>
+                        <h2 style={{
+                            fontFamily: 'Playfair Display, serif',
+                            fontSize: '36px',
+                            color: '#1A3C34',
+                            margin: '0 0 36px'
+                        }}>
+                            Contact Us
+                        </h2>
+
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                            gap: '24px',
+                            maxWidth: '800px',
+                            margin: '0 auto'
+                        }}>
+                            {/* Phone Card */}
+                            <a href="tel:+919711722273" style={{
+                                textDecoration: 'none',
+                                backgroundColor: '#fff',
+                                padding: '28px 24px',
+                                borderRadius: '16px',
+                                boxShadow: '0 8px 30px rgba(0,0,0,0.05)',
+                                border: '1px solid #EFEAE4',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '18px',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 35px rgba(26,60,52,0.12)'; }}
+                            onMouseOut={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,0,0,0.05)'; }}
+                            >
+                                <div style={{
+                                    width: '52px',
+                                    height: '52px',
+                                    borderRadius: '50%',
+                                    backgroundColor: 'rgba(26,60,52,0.08)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontSize: '22px',
+                                    flexShrink: 0
+                                }}>
+                                    📞
+                                </div>
+                                <div style={{ textAlign: 'left' }}>
+                                    <p style={{ margin: 0, fontSize: '13px', textTransform: 'uppercase', color: '#888', fontWeight: '600', letterSpacing: '1px' }}>Call / WhatsApp</p>
+                                    <p style={{ margin: '4px 0 0', fontSize: '18px', fontWeight: '700', color: '#1A3C34' }}>+91 97117 22273</p>
+                                </div>
+                            </a>
+
+                            {/* Email Card */}
+                            <a href="mailto:sandanehomes@gmail.com" style={{
+                                textDecoration: 'none',
+                                backgroundColor: '#fff',
+                                padding: '28px 24px',
+                                borderRadius: '16px',
+                                boxShadow: '0 8px 30px rgba(0,0,0,0.05)',
+                                border: '1px solid #EFEAE4',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '18px',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 35px rgba(26,60,52,0.12)'; }}
+                            onMouseOut={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,0,0,0.05)'; }}
+                            >
+                                <div style={{
+                                    width: '52px',
+                                    height: '52px',
+                                    borderRadius: '50%',
+                                    backgroundColor: 'rgba(197,165,114,0.15)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontSize: '22px',
+                                    flexShrink: 0
+                                }}>
+                                    ✉️
+                                </div>
+                                <div style={{ textAlign: 'left' }}>
+                                    <p style={{ margin: 0, fontSize: '13px', textTransform: 'uppercase', color: '#888', fontWeight: '600', letterSpacing: '1px' }}>Email Us</p>
+                                    <p style={{ margin: '4px 0 0', fontSize: '17px', fontWeight: '700', color: '#1A3C34' }}>sandanehomes@gmail.com</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
                 </>
