@@ -1316,8 +1316,9 @@ const Residences = () => {
                                     📞
                                 </div>
                                 <div style={{ textAlign: 'left' }}>
-                                    <p style={{ margin: 0, fontSize: '13px', textTransform: 'uppercase', color: '#888', fontWeight: '600', letterSpacing: '1px' }}>Call / WhatsApp</p>
-                                    <p style={{ margin: '4px 0 0', fontSize: '18px', fontWeight: '700', color: '#1A3C34' }}>+91 97117 22273</p>
+                                    <p style={{ margin: 0, fontSize: '12px', textTransform: 'uppercase', color: '#888', fontWeight: '700', letterSpacing: '1px' }}>Call / WhatsApp / KakaoTalk</p>
+                                    <p style={{ margin: '3px 0 2px', fontSize: '18px', fontWeight: '700', color: '#1A3C34' }}>+91 97117 22273</p>
+                                    <span style={{ fontSize: '11px', color: '#C5A572', fontWeight: '600', letterSpacing: '0.5px' }}>💬 KakaoTalk &bull; WhatsApp &bull; WeChat</span>
                                 </div>
                             </a>
 
