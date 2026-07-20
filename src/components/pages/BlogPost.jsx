@@ -146,20 +146,49 @@ const BlogPost = () => {
                             <FaRegClock /> {post.readTime}
                         </span>
                     </div>
+                    <div style={{ marginTop: '30px' }}>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '14px 32px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '16px', fontWeight: 'bold',
+                                boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                            onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                        >
+                            Explore Luxury Residences &rarr;
+                        </Link>
+                    </div>
                 </div>
             </div>
 
             {/* ── BREADCRUMB ── */}
             <div style={{ backgroundColor: '#fff', borderBottom: '1px solid #eee', padding: '18px 20px' }}>
-                <div style={{ maxWidth: '760px', margin: '0 auto', fontSize: '14px', color: '#888' }}>
-                    <Link to="/" style={{ color: '#888' }}>Home</Link> <span style={{ margin: '0 8px' }}>/</span>
-                    <Link to="/blog" style={{ color: '#888' }}>Blog</Link> <span style={{ margin: '0 8px' }}>/</span>
-                    <span style={{ color: '#1A3C34', fontWeight: '600' }}>{post.title}</span>
+                <div style={{ maxWidth: '760px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', fontSize: '14px', color: '#888' }}>
+                    <div>
+                        <Link to="/" style={{ color: '#888' }}>Home</Link> <span style={{ margin: '0 8px' }}>/</span>
+                        <Link to="/blog" style={{ color: '#888' }}>Blog</Link> <span style={{ margin: '0 8px' }}>/</span>
+                        <span style={{ color: '#1A3C34', fontWeight: '600' }}>{post.title}</span>
+                    </div>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '6px',
+                            color: '#C5A572', fontWeight: '700', textDecoration: 'none',
+                            fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px'
+                        }}
+                    >
+                        View Serviced Suites &rarr;
+                    </Link>
                 </div>
             </div>
 
             {/* ── CONTENT ── */}
-            <div style={{ padding: '80px 20px 0', backgroundColor: '#fff' }}>
+            <div style={{ padding: '60px 20px 0', backgroundColor: '#fff' }}>
                 <BlogContent blocks={post.content} />
             </div>
 
