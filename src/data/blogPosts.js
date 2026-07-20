@@ -518,6 +518,110 @@ export const blogPosts = [
         ],
         tags: ["Greater Noida Guide", "Where to Stay", "Neighborhood Guide", "Serviced Residences"]
     },
+    {
+        slug: "chinese-expat-housing-greater-noida-serviced-apartments",
+        title: "Chinese Expat Housing in Greater Noida: Best Serviced Apartments & Hotels",
+        subtitle: "A complete guide for Chinese professionals relocating to Greater Noida — from finding the right accommodation to settling in with ease.",
+        category: "Expat Living",
+        date: "July 20, 2026",
+        readTime: "7 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #8B0000 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Greater Noida hosts a fast-growing Chinese business community drawn by manufacturing, trade, and expo opportunities. Here is how to find the best housing as a Chinese expat.",
+        content: [
+            { type: "paragraph", text: "Greater Noida has emerged as one of North India's most important hubs for Chinese business professionals, engineers, and trade representatives. With the India Expo Mart — one of Asia's largest exhibition centers — attracting Chinese companies across electronics, manufacturing, and infrastructure sectors, the demand for premium short-stay and long-stay accommodation for Chinese nationals has grown significantly." },
+            { type: "heading", text: "Why Greater Noida for Chinese Expats?" },
+            { type: "paragraph", text: "Unlike Delhi or Gurgaon, Greater Noida offers a unique combination of space, safety, and affordability. Chinese professionals working with companies along the Yamuna Expressway industrial corridor — including electronics manufacturing, auto components, and engineering firms — find Greater Noida ideally positioned to minimize daily commute time." },
+            { type: "list", items: [
+                "India Expo Mart proximity: For Chinese delegations attending trade exhibitions (like the India International Trade Fair spin-offs and sector-specific expos), Greater Noida is the closest premium residential base.",
+                "Yamuna Expressway connectivity: Direct, uncongested road access to manufacturing zones and industrial sectors hosting Chinese FDI projects.",
+                "Gated community safety: Premium societies like Jaypee Greens, Ansal Golf Links, and Godrej Golf Link offer the kind of secure, disciplined environment that Chinese professionals appreciate.",
+                "Airport access: 55–65 minutes to Indira Gandhi International Airport via the Yamuna Expressway, ideal for frequent travelers back to China."
+            ] },
+            { type: "heading", text: "Serviced Apartments vs. Hotels for Chinese Expats in Greater Noida" },
+            { type: "paragraph", text: "While several business hotels operate near the India Expo Mart and Pari Chowk, they are primarily suited for short stays of 2–5 days. For Chinese professionals on extended assignments of 1–12 months, serviced apartments provide a dramatically superior experience:" },
+            { type: "list", items: [
+                "Full kitchen facilities to prepare home-style Chinese meals — a critical comfort factor for long-term stays.",
+                "Significantly larger living spaces: a full 1BHK or 2BHK apartment versus a single hotel room.",
+                "25–40% lower daily cost on stays exceeding 30 days compared to business hotels.",
+                "A private, residential environment instead of a high-traffic hotel lobby.",
+                "Fully managed FRRO documentation for hassle-free visa compliance."
+            ] },
+            { type: "heading", text: "Sandane Homes: Trusted by Chinese Professionals in Greater Noida" },
+            { type: "paragraph", text: "At Sandane Homes, we have extensive experience hosting Chinese expat professionals across industries. Our serviced apartments in Jaypee Greens and Ansal Golf Links offer fully furnished, well-equipped spaces with dedicated support for FRRO registration, company invoicing, and airport transfers. Contact us on WhatsApp for a same-day availability check." },
+            { type: "quote", text: "Sandane Homes made our team's 4-month project stay in Greater Noida completely seamless — from FRRO documentation to organizing Chinese New Year celebrations in the apartment.", attribution: "— Project Manager, Chinese Engineering Firm, Greater Noida" }
+        ],
+        tags: ["Chinese Expats", "Greater Noida Housing", "Serviced Apartments", "India Expo Mart", "Chinese Professionals India"]
+    },
+    {
+        slug: "chinese-expat-guide-frro-registration-greater-noida",
+        title: "FRRO Guide for Chinese Nationals in Greater Noida: Step-by-Step Registration",
+        subtitle: "Avoid visa compliance delays — here is exactly what Chinese expats need to complete FRRO registration smoothly in Noida and Greater Noida.",
+        category: "Legal & Admin",
+        date: "July 19, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #8B0000 50%, #C5A572 100%)",
+        excerpt: "Chinese nationals on Business, Employment, or Project visas must register with FRRO within 14 days. Learn what documents are needed and how Sandane Homes guarantees 24-hour address verification.",
+        content: [
+            { type: "paragraph", text: "For Chinese nationals arriving in India on long-term visas — including Employment (E), Business (B), or Project (P) visas — registering with the Foreigners Regional Registration Office (FRRO) is a mandatory legal requirement. Registration must be completed within 14 days of arrival. Non-compliance can result in visa penalties or complications during future travel. For Chinese professionals based in Noida or Greater Noida, this process is handled through the e-FRRO online portal (indianfrro.gov.in)." },
+            { type: "heading", text: "Documents Required for FRRO Registration (Chinese Nationals)" },
+            { type: "paragraph", text: "The e-FRRO system requires a precise set of documents for Chinese nationals. Incomplete or improperly formatted documents are the leading cause of rejection and delays:" },
+            { type: "list", items: [
+                "Valid Chinese Passport with visa stamp (Employment, Business, or Project visa).",
+                "Original visa letter from the Indian company / sponsor (Form C for hotels; landlord letter for private accommodation).",
+                "Completed rental/lease agreement between the tenant (you) and the property owner — must include exact address, lease dates, and landlord's signature.",
+                "Copy of landlord's Aadhaar card and PAN card.",
+                "Copy of the utility bill (electricity or water) at the exact property address — must be a recent bill within the last 2 months.",
+                "Passport-sized photographs.",
+                "Company appointment/deputation letter from Chinese employer or Indian subsidiary."
+            ] },
+            { type: "heading", text: "Why Sandane Homes Is the Best Choice for FRRO-Compliant Housing" },
+            { type: "paragraph", text: "Since we are the direct property owner and manager of all our serviced apartments, Sandane Homes can provide every document required for FRRO address verification within 24 hours of your check-in:" },
+            { type: "list", items: [
+                "Pre-formatted landlord confirmation letter with all legally required details.",
+                "Registered lease agreement in the correct format accepted by the e-FRRO portal.",
+                "Current utility bill (electricity) with exact property address matching the lease.",
+                "Copies of all property ownership documents for the upload portal."
+            ] },
+            { type: "paragraph", text: "Our concierge team has assisted hundreds of international expats — including Chinese professionals — in completing FRRO registration without a single document rejection. We coordinate directly with your company's India HR team and guide you through every step of the online portal submission." },
+            { type: "quote", text: "Our entire FRRO registration was completed in under 48 hours thanks to Sandane Homes providing all the correct address documents immediately. It was the smoothest part of our India relocation.", attribution: "— Senior Engineer, Chinese Manufacturing Company, Surajpur" }
+        ],
+        tags: ["FRRO Registration", "Chinese Nationals India", "Visa Compliance", "Greater Noida Expats", "e-FRRO Guide"]
+    },
+    {
+        slug: "chinese-professionals-serviced-apartments-near-india-expo-mart",
+        title: "Serviced Apartments Near India Expo Mart for Chinese Delegations & Long-Term Stays",
+        subtitle: "Premium, hotel-quality accommodation steps from Greater Noida's India Expo Mart — ideal for Chinese trade delegations and project teams.",
+        category: "Corporate Stays",
+        date: "July 18, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #8B0000 50%, #C5A572 100%)",
+        excerpt: "From short expo visits to 6-month engineering projects, Chinese teams in Greater Noida choose serviced apartments over hotels for space, cost, and cultural comfort.",
+        content: [
+            { type: "paragraph", text: "The India Expo Mart in Greater Noida is one of the largest exhibition and convention centers in Asia, and it hosts dozens of major trade fairs attended by thousands of Chinese business delegations each year — from electronics and solar panels to furniture, chemicals, and auto components. Whether you are attending a 3-day exhibition or your company has assigned a project team for 6 months, choosing the right accommodation in Greater Noida makes an enormous difference." },
+            { type: "heading", text: "India Expo Mart Proximity: Why Location Matters" },
+            { type: "paragraph", text: "Our premium serviced apartments in Jaypee Greens and Ansal Golf Links are located just 10–20 minutes from the India Expo Mart by road, offering immediate access without the congestion of central Delhi or Noida. For Chinese delegations attending multi-day exhibitions, this proximity eliminates taxi costs and morning rush stress." },
+            { type: "heading", text: "What Chinese Guests Appreciate About Sandane Homes" },
+            { type: "paragraph", text: "We have hosted Chinese professionals from multiple industries and understand their specific expectations. Here is what our Chinese guests consistently appreciate:" },
+            { type: "list", items: [
+                "Full kitchen for self-catering: Access to wok-friendly gas stoves, large refrigerators, and all cooking essentials to prepare Chinese cuisine at home — a significant comfort during long stays.",
+                "Quiet, private environment: Unlike busy hotel lobbies with constant foot traffic, our gated society apartments offer a calm, residential feel after long conference days.",
+                "WeChat/WhatsApp support: Our team communicates on WeChat and WhatsApp for easy, real-time coordination throughout your stay.",
+                "Air purification: Every apartment is equipped with air purifiers — a feature highly valued by Chinese guests accustomed to similar standards at home.",
+                "Flexible check-in and check-out: We accommodate late-night arrivals and early morning airport drop-offs, critical for Chinese guests on international flight schedules.",
+                "Corporate invoicing in INR: Clean, GST-compliant invoices for your company's Indian subsidiary or direct reimbursement process."
+            ] },
+            { type: "heading", text: "Group & Corporate Bookings for Chinese Project Teams" },
+            { type: "paragraph", text: "Chinese EPC firms, engineering companies, and manufacturing vendors often deploy teams of 3–15 people to Greater Noida for project durations of 3–12 months. Sandane Homes offers dedicated corporate housing packages with multiple simultaneous units in the same society, one account manager, and consolidated monthly billing — making life significantly easier for your India HR coordinator." },
+            { type: "quote", text: "我们在桑达内家园的住宿非常舒适。厨房设施完善，让我们的团队能够自己烹饪中餐，这对长期出差来说非常重要。服务团队专业高效，随时通过微信提供支持。", attribution: "— 项目经理，中国基础设施公司，大诺伊达" }
+        ],
+        tags: ["India Expo Mart", "Chinese Delegation Housing", "Greater Noida Serviced Apartments", "Chinese Expat India", "Corporate Accommodation"]
+    },
 ];
 
 export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug) || null;

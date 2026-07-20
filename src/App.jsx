@@ -15,6 +15,7 @@ import FaqPage from './components/pages/FaqPage';
 import ServicedApartmentsGreaterNoida from './components/pages/ServicedApartmentsGreaterNoida';
 import KoreanExpatHousing from './components/pages/KoreanExpatHousing';
 import JapaneseExpatHousing from './components/pages/JapaneseExpatHousing';
+import ChineseExpatHousing from './components/pages/ChineseExpatHousing';
 import BlogList from './components/pages/BlogList';
 import BlogPost from './components/pages/BlogPost';
 import LandingPage from './components/pages/LandingPage';
@@ -45,6 +46,7 @@ function App() {
           <Route path="/serviced-apartments-greater-noida" element={<ServicedApartmentsGreaterNoida />} />
           <Route path="/korean-expat-housing-delhi-ncr" element={<KoreanExpatHousing />} />
           <Route path="/japanese-expat-housing-delhi-ncr" element={<JapaneseExpatHousing />} />
+          <Route path="/chinese-expat-housing-greater-noida" element={<ChineseExpatHousing />} />
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           
