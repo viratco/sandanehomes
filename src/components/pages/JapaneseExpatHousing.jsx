@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -190,6 +191,21 @@ const JapaneseExpatHousing = () => {
                 </p>
 
                 <div style={{ position: 'relative', zIndex: 2, display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '10px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '16px 36px', borderRadius: '30px',
+                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'all 0.3s'
+                        }}
+                        onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                        onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                    >
+                        Explore Luxury Residences <FaArrowRight />
+                    </Link>
                     <a
                         href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Japanese%20expat%20looking%20for%20housing%20in%20Greater%20Noida`}
                         target="_blank" rel="noopener noreferrer"
@@ -204,20 +220,6 @@ const JapaneseExpatHousing = () => {
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
                         <FaWhatsapp size={22} /> WhatsApp Us / お問い合わせ
-                    </a>
-                    <a
-                        href="/residences"
-                        style={{
-                            display: 'flex', alignItems: 'center', gap: '10px',
-                            backgroundColor: 'transparent', color: 'white',
-                            border: '2px solid white', padding: '16px 32px', borderRadius: '30px',
-                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                            transition: 'all 0.3s'
-                        }}
-                        onMouseOver={e => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = '#111'; }}
-                        onMouseOut={e => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'white'; }}
-                    >
-                        View Properties <FaArrowRight />
                     </a>
                 </div>
             </div>
@@ -237,9 +239,37 @@ const JapaneseExpatHousing = () => {
                     <p style={{ marginBottom: '28px' }}>
                         The location of our properties in Greater Noida provides a strategic advantage. It offers a drastically reduced and smoother commute to the industrial sectors along the Yamuna Expressway and Surajpur compared to living in central Delhi or Gurgaon. Furthermore, the tranquil, green environment of our chosen societies provides a welcome contrast to the bustling city, offering a quiet, disciplined community atmosphere that our Japanese residents highly appreciate. 
                     </p>
-                    <p style={{ marginBottom: '0' }}>
+                    <p style={{ marginBottom: '28px' }}>
                         We are proud to partner directly with corporate HR teams from leading Japanese multinationals and their vendor networks. We streamline the entire relocation process, offering direct corporate invoicing, assistance with mandatory FRRO registration, and dedicated ongoing support. Discover the finest <strong>Japanese serviced apartments in Greater Noida</strong>, where luxury, safety, and convenience converge.
                     </p>
+
+                    {/* MID-PAGE BANNER BUTTON */}
+                    <div style={{
+                        marginTop: '40px', backgroundColor: '#1A3C34', borderRadius: '16px',
+                        padding: '36px 30px', textAlign: 'center', color: '#fff',
+                        boxShadow: '0 10px 30px rgba(26,60,52,0.15)'
+                    }}>
+                        <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#C5A572', margin: '0 0 12px' }}>
+                            Ready to explore available luxury suites?
+                        </h3>
+                        <p style={{ fontSize: '15px', color: '#E0E0E0', margin: '0 0 24px' }}>
+                            Browse photos, floor plans, and amenities of our Japanese-friendly serviced residences.
+                        </p>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '14px 32px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '16px', fontWeight: 'bold',
+                                transition: 'all 0.3s'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                            onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                        >
+                            Explore Available Residences <FaArrowRight />
+                        </Link>
+                    </div>
                 </div>
             </div>
 
@@ -294,21 +324,37 @@ const JapaneseExpatHousing = () => {
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
                         工場への通勤も至便であり、デリー市内やグルガオンからの渋滞に悩まされることなく、毎日の通勤時間を大幅に短縮できます。また、法人契約、企業様への直接請求、外国人登録（FRRO）のサポートなど、人事ご担当者様および駐在員様の負担を軽減する包括的なサービスをご用意しております。詳細につきましては、WhatsAppにてお気軽にお問い合わせください。
                     </p>
-                    <a
-                        href={`https://wa.me/${PHONE}?text=こんにちは%E3%80%82グレーター・ノイダの日本人向けサービスアパートメントについて詳細を教えてください%E3%80%82`}
-                        target="_blank" rel="noopener noreferrer"
-                        style={{
-                            display: 'inline-flex', alignItems: 'center', gap: '10px',
-                            backgroundColor: '#25D366', color: 'white',
-                            padding: '16px 36px', borderRadius: '30px',
-                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                            transition: 'transform 0.3s'
-                        }}
-                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                    >
-                        <FaWhatsapp size={22} /> WhatsAppでお問い合わせ (日本語可)
-                    </a>
+                    <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '16px 36px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                transition: 'transform 0.3s'
+                            }}
+                            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                        >
+                            物件一覧を見る / View Residences &rarr;
+                        </Link>
+                        <a
+                            href={`https://wa.me/${PHONE}?text=こんにちは%E3%80%82グレーター・ノイダの日本人向けサービスアパートメントについて詳細を教えてください%E3%80%82`}
+                            target="_blank" rel="noopener noreferrer"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#25D366', color: 'white',
+                                padding: '16px 36px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                transition: 'transform 0.3s'
+                            }}
+                            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                        >
+                            <FaWhatsapp size={22} /> WhatsAppでお問い合わせ
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -338,21 +384,38 @@ const JapaneseExpatHousing = () => {
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
                     Contact us today to discuss your corporate housing needs. Our team is ready to assist you.
                 </p>
-                <a
-                    href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Japanese%20expat%20interested%20in%20your%20serviced%20apartments.`}
-                    target="_blank" rel="noopener noreferrer"
-                    style={{
-                        display: 'inline-flex', alignItems: 'center', gap: '12px',
-                        backgroundColor: '#25D366', color: 'white',
-                        padding: '18px 44px', borderRadius: '40px',
-                        textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
-                        transition: 'transform 0.3s'
-                    }}
-                    onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                    onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                >
-                    <FaWhatsapp size={26} /> WhatsApp Us Now
-                </a>
+                <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '18px 44px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        Browse All Residences <FaArrowRight />
+                    </Link>
+                    <a
+                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Japanese%20expat%20interested%20in%20your%20serviced%20apartments.`}
+                        target="_blank" rel="noopener noreferrer"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#25D366', color: 'white',
+                            padding: '18px 44px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        <FaWhatsapp size={26} /> WhatsApp Us Now
+                    </a>
+                </div>
             </div>
 
             <Footer />

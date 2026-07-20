@@ -163,6 +163,43 @@ const BlogPost = () => {
                 <BlogContent blocks={post.content} />
             </div>
 
+            {/* ── INLINE RESIDENCES BANNER CTA ── */}
+            <div style={{ padding: '20px 20px 60px', backgroundColor: '#fff' }}>
+                <div style={{
+                    maxWidth: '760px', margin: '0 auto',
+                    background: 'linear-gradient(135deg, #F5EFEB 0%, #E6DFD5 100%)',
+                    borderRadius: '16px', padding: '36px 30px',
+                    border: '1px solid #D5C7B5',
+                    boxShadow: '0 8px 30px rgba(26,60,52,0.08)',
+                    textAlign: 'center'
+                }}>
+                    <span style={{ fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '800' }}>
+                        Sandane Homes Collection
+                    </span>
+                    <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '26px', color: '#1A3C34', margin: '12px 0' }}>
+                        Explore Our Luxury Serviced Residences
+                    </h3>
+                    <p style={{ color: '#555', fontSize: '15px', maxWidth: '560px', margin: '0 auto 24px', lineHeight: '1.6' }}>
+                        Discover fully furnished, hotel-serviced 1BHK, 2BHK, and studio suites in Greater Noida's finest gated societies like Jaypee Greens &amp; Ansal Golf Links.
+                    </p>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '10px',
+                            backgroundColor: '#1A3C34', color: '#fff',
+                            padding: '14px 32px', borderRadius: '30px',
+                            textDecoration: 'none', fontSize: '16px', fontWeight: '700',
+                            boxShadow: '0 4px 15px rgba(26,60,52,0.2)',
+                            transition: 'all 0.3s ease'
+                        }}
+                        onMouseOver={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                        onMouseOut={e => { e.currentTarget.style.backgroundColor = '#1A3C34'; e.currentTarget.style.color = '#fff'; }}
+                    >
+                        View All Available Residences &rarr;
+                    </Link>
+                </div>
+            </div>
+
             {/* ── TAGS ── */}
             {post.tags && post.tags.length > 0 && (
                 <div style={{ padding: '0 20px 80px', backgroundColor: '#fff' }}>
@@ -183,23 +220,39 @@ const BlogPost = () => {
                     Looking for a home in Greater Noida?
                 </h2>
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '40px', maxWidth: '560px', margin: '0 auto 40px' }}>
-                    Message us on WhatsApp — our team responds within minutes and can help you find the right serviced apartment.
+                    Explore our collection of luxury residences or message our team on WhatsApp for instant assistance.
                 </p>
-                <a
-                    href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20read%20your%20blog%20post%20and%20I%27d%20like%20to%20know%20more%20about%20housing%20in%20Greater%20Noida`}
-                    target="_blank" rel="noopener noreferrer"
-                    style={{
-                        display: 'inline-flex', alignItems: 'center', gap: '12px',
-                        backgroundColor: '#25D366', color: 'white',
-                        padding: '16px 38px', borderRadius: '40px',
-                        textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                        transition: 'transform 0.3s'
-                    }}
-                    onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                    onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                >
-                    <FaWhatsapp size={22} /> WhatsApp Us
-                </a>
+                <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '10px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '16px 36px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                            transition: 'transform 0.3s, background-color 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        Explore Residences &rarr;
+                    </Link>
+                    <a
+                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20read%20your%20blog%20post%20and%20I%27d%20like%20to%20know%20more%20about%20housing%20in%20Greater%20Noida`}
+                        target="_blank" rel="noopener noreferrer"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#25D366', color: 'white',
+                            padding: '16px 36px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        <FaWhatsapp size={22} /> WhatsApp Us
+                    </a>
+                </div>
             </div>
 
             {/* ── RELATED POSTS ── */}

@@ -91,9 +91,26 @@ const BlogList = () => {
                 <h1 className="catarina-title" style={{ position: 'relative', zIndex: 2, maxWidth: '820px', margin: '0 auto', fontSize: '48px', lineHeight: '1.2' }}>
                     Guides &amp; Stories for Life in Greater Noida
                 </h1>
-                <p style={{ position: 'relative', zIndex: 2, fontSize: '18px', color: '#eee', maxWidth: '650px', margin: '20px auto 0', lineHeight: '1.7' }}>
+                <p style={{ position: 'relative', zIndex: 2, fontSize: '18px', color: '#eee', maxWidth: '650px', margin: '20px auto 30px', lineHeight: '1.7' }}>
                     Relocation advice, neighbourhood insights, and practical tips for expats and professionals settling into Delhi NCR.
                 </p>
+                <div style={{ position: 'relative', zIndex: 2 }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '10px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '14px 32px', borderRadius: '30px',
+                            textDecoration: 'none', fontSize: '16px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'all 0.3s'
+                        }}
+                        onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                        onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                    >
+                        Browse All Serviced Residences &rarr;
+                    </Link>
+                </div>
             </div>
 
             {/* ── FILTER + GRID ── */}
@@ -141,6 +158,38 @@ const BlogList = () => {
                             ))}
                         </div>
                     )}
+
+                    {/* PROMO BANNER TO RESIDENCES */}
+                    <div style={{
+                        marginTop: '70px', backgroundColor: '#1A3C34', borderRadius: '16px',
+                        padding: '44px 30px', textAlign: 'center', color: '#fff',
+                        boxShadow: '0 10px 30px rgba(26,60,52,0.15)'
+                    }}>
+                        <span style={{ fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '800' }}>
+                            Sandane Homes Portfolio
+                        </span>
+                        <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '32px', color: '#fff', margin: '14px 0 16px' }}>
+                            Find Your Ideal Serviced Suite in Greater Noida
+                        </h2>
+                        <p style={{ fontSize: '16px', color: '#E0E0E0', maxWidth: '600px', margin: '0 auto 28px', lineHeight: '1.7' }}>
+                            Explore fully furnished 1BHK, 2BHK, and studio residences in gated communities with 24/7 security, daily housekeeping, and full corporate amenities.
+                        </p>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '16px 40px', borderRadius: '35px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                                transition: 'all 0.3s'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                            onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                        >
+                            Explore Residences &rarr;
+                        </Link>
+                    </div>
                 </div>
             </div>
 

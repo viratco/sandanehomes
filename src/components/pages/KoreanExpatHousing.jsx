@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -184,12 +185,22 @@ const KoreanExpatHousing = () => {
                 <p style={{ position: 'relative', zIndex: 2, fontSize: '20px', color: '#E6CFA1', maxWidth: '750px', margin: '20px auto 10px', lineHeight: '1.7', fontWeight: '500' }}>
                     Premium serviced apartments near Samsung R&D, LG Electronics &amp; the Korean community in Greater Noida
                 </p>
-                {/* Korean language tagline */}
-                <p className="catarina-lang-text" style={{ position: 'relative', zIndex: 2, fontSize: '18px', maxWidth: '650px', margin: '10px auto 40px' }}>
-                    그레이터 노이다의 프리미엄 서비스 아파트 — 삼성, LG, 현대 근무자를 위한 최적의 주거 공간
-                </p>
-
                 <div style={{ position: 'relative', zIndex: 2, display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '10px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '16px 36px', borderRadius: '30px',
+                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'all 0.3s'
+                        }}
+                        onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                        onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                    >
+                        Explore Luxury Residences <FaArrowRight />
+                    </Link>
                     <a
                         href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Korean%20expat%20looking%20for%20housing%20in%20Greater%20Noida`}
                         target="_blank" rel="noopener noreferrer"
@@ -205,20 +216,6 @@ const KoreanExpatHousing = () => {
                     >
                         <FaWhatsapp size={22} /> WhatsApp Us / 카카오 문의
                     </a>
-                    <a
-                        href="/residences"
-                        style={{
-                            display: 'flex', alignItems: 'center', gap: '10px',
-                            backgroundColor: 'transparent', color: 'white',
-                            border: '2px solid white', padding: '16px 32px', borderRadius: '30px',
-                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                            transition: 'all 0.3s'
-                        }}
-                        onMouseOver={e => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = '#111'; }}
-                        onMouseOut={e => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'white'; }}
-                    >
-                        View Properties <FaArrowRight />
-                    </a>
                 </div>
             </div>
 
@@ -226,28 +223,53 @@ const KoreanExpatHousing = () => {
             <div style={{ backgroundColor: '#f9f9f9', padding: '90px 20px' }}>
                 <div style={{ maxWidth: '900px', margin: '0 auto', color: '#444', fontSize: '18px', lineHeight: '1.95' }}>
                     <p style={{ marginBottom: '28px' }}>
-                        Relocating to India as a Korean expat is a significant transition. Whether you are joining <strong>Samsung R&D India</strong> in Noida Sector 129, the <strong>LG Electronics India</strong> office, a <strong>Hyundai</strong> vendor firm along the Yamuna Expressway, or a Korean EPC company managing an infrastructure project in Delhi NCR — finding the right home that matches Korean standards of cleanliness, safety, and modern living is non-negotiable.
+                        Relocating to Delhi NCR as a South Korean expatriate comes with unique priorities — securing housing in a safe, gated community, staying within a manageable commute of major corporate hubs like Samsung R&amp;D (Sector 129 Noida) and LG Electronics, and having access to familiar Korean amenities.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        At <a href="/" style={{ color: '#1A3C34', fontWeight: '700' }}>Sandane Homes</a>, we have built our <strong>Korean expat housing in Delhi NCR</strong> specifically around what Korean professionals and their families genuinely need. Our <strong>serviced apartments in Greater Noida</strong> are located inside gated premium societies — <strong>Jaypee Greens, Ansal Golf Links, and Godrej Golf Link</strong> — known for their green surroundings, quiet residential atmosphere, and high-security infrastructure. These are not generic rentals. They are fully managed homes where you arrive, unpack, and everything works.
+                        At <a href="/" style={{ color: '#1A3C34', fontWeight: '700' }}>Sandane Homes</a>, we offer premium <strong>Korean expat housing in Greater Noida</strong> designed specifically to meet these expectations. Located within secure, gated societies like <strong>Jaypee Greens</strong>, <strong>Ansal Golf Links</strong>, and <strong>Godrej Golf Link</strong>, our serviced apartments provide peace of mind, high security, and exceptional comfort for Korean families and individual corporate assignees.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        We understand that Korean expats have specific expectations that most Indian landlords and serviced apartment operators simply do not appreciate. The housekeeping must be meticulous and thorough — not a surface wipe. The kitchen must have a gas hob, a proper refrigerator, and all utensils you need to cook <em>doenjang jjigae</em> or <em>japchae</em> on a Tuesday evening. The WiFi must be robust enough for a video call with your family in Seoul without buffering. Our properties meet every one of these standards.
+                        Every apartment features a fully equipped kitchen (ideal for preparing Korean food at home), high-speed Wi-Fi, daily housekeeping by trained staff, 100% power backup, and dedicated support for mandatory FRRO address registration — allowing your relocation to be completely hassle-free from day one.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        <strong>Proximity to the Korean community</strong> is also a real advantage of our location. Greater Noida and the Noida corridor host a growing Korean expat population, and there are Korean marts and Asian grocery stores in the area stocking Korean staples — ramyeon, gochujang, doenjang, kimchi, and packaged foods from home. Several Korean and Asian restaurants have opened nearby, so you are never far from a bowl of <em>sundubu jjigae</em> or authentic Korean BBQ.
+                        We partner directly with Korean multinationals (Samsung, LG, Hyundai vendors, EPC companies) and their HR departments to provide direct corporate invoicing and flexible short- or long-term lease terms.
                     </p>
-                    <p style={{ marginBottom: '0' }}>
-                        Our corporate housing team works directly with <strong>HR departments at Korean multinational companies</strong> and their Indian subsidiaries. We offer direct company invoicing, expedited setup, FRRO registration guidance, and airport pickup on arrival. From the moment your assignment begins to the day you hand back your keys, every aspect of your housing is handled. This is what <strong>Korean expat accommodation in Greater Noida</strong> should look and feel like.
-                    </p>
+
+                    {/* MID-PAGE BANNER BUTTON */}
+                    <div style={{
+                        marginTop: '40px', backgroundColor: '#1A3C34', borderRadius: '16px',
+                        padding: '36px 30px', textAlign: 'center', color: '#fff',
+                        boxShadow: '0 10px 30px rgba(26,60,52,0.15)'
+                    }}>
+                        <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#C5A572', margin: '0 0 12px' }}>
+                            View Our Korean Expat Residences
+                        </h3>
+                        <p style={{ fontSize: '15px', color: '#E0E0E0', margin: '0 0 24px' }}>
+                            Browse photos, floor plans, and amenities of our Korean-friendly serviced suites in Greater Noida.
+                        </p>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '14px 32px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '16px', fontWeight: 'bold',
+                                transition: 'all 0.3s'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                            onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                        >
+                            Explore Available Residences <FaArrowRight />
+                        </Link>
+                    </div>
                 </div>
             </div>
 
             {/* ── SECTION 2 — HIGHLIGHTS GRID ── */}
             <div style={{ padding: '90px 20px', backgroundColor: '#fff' }}>
                 <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                    <p className="section-subtitle">Why Korean Expats Choose Us</p>
-                    <h2 className="section-title" style={{ color: '#1A3C34' }}>Everything You Need, Ready on Day One</h2>
+                    <p className="section-subtitle">Tailored Expat Lifestyle</p>
+                    <h2 className="section-title" style={{ color: '#1A3C34' }}>Why Korean Professionals Choose Sandane Homes</h2>
                 </div>
                 <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '28px' }}>
                     {highlights.map((item, i) => (
@@ -286,29 +308,45 @@ const KoreanExpatHousing = () => {
                         한국인 주재원을 위한 프리미엄 서비스 아파트
                     </h2>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
-                        삼성 R&D 노이다, LG 전자 인도, 현대 협력사, 또는 델리 NCR 지역의 한국계 기업에서 근무하시는 주재원 여러분을 위해 Sandane Homes는 그레이터 노이다에 최고급 서비스 아파트를 제공합니다. 자이피 그린스(Jaypee Greens), 안살 골프 링크스(Ansal Golf Links) 등 프리미엄 게이티드 소사이어티 내에 위치한 저희 아파트는 한국의 주거 기준에 맞춘 청결함, 안전, 그리고 현대적인 편의시설을 갖추고 있습니다.
+                        삼성 R&amp;D 센터, LG전자, 현대 협력사 등 인도 노이다 및 그레이터 노이다 지역에 근무하시는 한국인 주재원 및 가족 여러분을 환영합니다. Sandane Homes는 최고 수준의 보안과 청결, 편의시설을 갖춘 고급 레지던스를 제공합니다.
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
-                        모든 아파트는 완전 가구 완비, 일일 하우스키핑, 고속 WiFi(최대 300Mbps), 전기·수도 포함, 그리고 한국 음식을 조리할 수 있는 완전한 주방으로 구성되어 있습니다. 삼성 R&D 캠퍼스까지는 자동차로 약 25~35분 거리이며, 노이다-그레이터 노이다 고속도로를 통해 편리하게 통근하실 수 있습니다. 인근에는 한국 식료품점과 아시안 레스토랑도 있어 고국의 맛을 느끼실 수 있습니다.
+                        Jaypee Greens, Ansal Golf Links 등 최고의 게이티드 단지 내 위치하여 24시간 철저한 경비와 CCTV 시스템으로 안전하며, 한식 조리가 가능한 풀옵션 주방, 고속 인터넷, 100% 비상 발전 시스템, 일일 하우스키핑 서비스를 제공합니다.
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
-                        저희 팀은 FRRO 등록 지원, 공항 픽업, 법인 직접 청구(HR 팀 대상), 그리고 입주 전 아파트 완비 서비스를 제공합니다. 인도 도착 전 WhatsApp으로 문의하시면 한국어 담당자가 상세히 안내해 드리겠습니다. 짐만 들고 오세요 — 나머지는 저희가 다 준비해 드립니다.
+                        또한 법인 계약 및 직구 청구, 거주지 증명 및 FRRO 등록 서류 지원 등 인사 담당자 및 주재원분들의 편의를 위한 모든 행정 절차를 완벽하게 지원해 드립니다. 자세한 문의는 카카오톡/WhatsApp으로 언제든지 연락 주시기 바랍니다.
                     </p>
-                    <a
-                        href={`https://wa.me/${PHONE}?text=안녕하세요%2C%20그레이터%20노이다%20주재원%20숙소%20문의드립니다`}
-                        target="_blank" rel="noopener noreferrer"
-                        style={{
-                            display: 'inline-flex', alignItems: 'center', gap: '10px',
-                            backgroundColor: '#25D366', color: 'white',
-                            padding: '16px 36px', borderRadius: '30px',
-                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                            transition: 'transform 0.3s'
-                        }}
-                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                    >
-                        <FaWhatsapp size={22} /> 한국어로 문의하기 (WhatsApp)
-                    </a>
+                    <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '16px 36px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                transition: 'transform 0.3s'
+                            }}
+                            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                        >
+                            레지던스 목록 보기 / View Residences &rarr;
+                        </Link>
+                        <a
+                            href={`https://wa.me/${PHONE}?text=안녕하세요.%20그레이터%20노이다%20한국인%20레지던스%20문의드립니다.`}
+                            target="_blank" rel="noopener noreferrer"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#25D366', color: 'white',
+                                padding: '16px 36px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                transition: 'transform 0.3s'
+                            }}
+                            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                        >
+                            <FaWhatsapp size={22} /> 카카오 / WhatsApp 문의
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -316,7 +354,7 @@ const KoreanExpatHousing = () => {
             {/* ── SECTION 5 — FAQ ── */}
             <div style={{ padding: '90px 20px', backgroundColor: '#fff' }}>
                 <div style={{ maxWidth: '820px', margin: '0 auto' }}>
-                    <p className="section-subtitle" style={{ textAlign: 'center' }}>자주 묻는 질문 / FAQ</p>
+                    <p className="section-subtitle" style={{ textAlign: 'center' }}>자주 묻는 질문</p>
                     <h2 className="section-title" style={{ color: '#1A3C34', textAlign: 'center' }}>Frequently Asked Questions</h2>
                     <div style={{ borderTop: '1px solid #e0e0e0' }}>
                         {faqs.map((faq, i) => <FAQItem key={i} question={faq.question} answer={faq.answer} />)}
@@ -330,29 +368,46 @@ const KoreanExpatHousing = () => {
                 padding: '100px 20px', textAlign: 'center', color: 'white'
             }}>
                 <h2 style={{ fontSize: '42px', marginBottom: '16px', fontFamily: 'Playfair Display, serif' }}>
-                    Ready to make Greater Noida home?
+                    Your Home Base in Greater Noida.
                 </h2>
                 <p style={{ fontSize: '19px', color: '#C5A572', marginBottom: '12px' }}>
-                    그레이터 노이다에서 편안한 한국인의 집을 찾으셨나요?
+                    안전하고 편안한 인도 주재원 생활, Sandane Homes가 함께합니다.
                 </p>
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
                     Message us on WhatsApp — our team responds within minutes, in English or Korean.
                 </p>
-                <a
-                    href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Korean%20expat%20interested%20in%20housing%20near%20Samsung%20R%26D%20Greater%20Noida`}
-                    target="_blank" rel="noopener noreferrer"
-                    style={{
-                        display: 'inline-flex', alignItems: 'center', gap: '12px',
-                        backgroundColor: '#25D366', color: 'white',
-                        padding: '18px 44px', borderRadius: '40px',
-                        textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
-                        transition: 'transform 0.3s'
-                    }}
-                    onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                    onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                >
-                    <FaWhatsapp size={26} /> WhatsApp Us Now
-                </a>
+                <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '18px 44px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        Browse All Residences <FaArrowRight />
+                    </Link>
+                    <a
+                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Korean%20expat%20interested%20in%20housing%20near%20Samsung%20R%26D%20Greater%20Noida`}
+                        target="_blank" rel="noopener noreferrer"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#25D366', color: 'white',
+                            padding: '18px 44px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        <FaWhatsapp size={26} /> WhatsApp Us Now
+                    </a>
+                </div>
             </div>
 
             <Footer />

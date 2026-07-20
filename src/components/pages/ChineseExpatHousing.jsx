@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -191,6 +192,21 @@ const ChineseExpatHousing = () => {
                 </p>
 
                 <div style={{ position: 'relative', zIndex: 2, display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '10px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '16px 36px', borderRadius: '30px',
+                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'all 0.3s'
+                        }}
+                        onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                        onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                    >
+                        Explore Luxury Residences <FaArrowRight />
+                    </Link>
                     <a
                         href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Chinese%20expat%20looking%20for%20housing%20in%20Greater%20Noida`}
                         target="_blank" rel="noopener noreferrer"
@@ -205,20 +221,6 @@ const ChineseExpatHousing = () => {
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
                         <FaWhatsapp size={22} /> WhatsApp Us / 微信咨询
-                    </a>
-                    <a
-                        href="/residences"
-                        style={{
-                            display: 'flex', alignItems: 'center', gap: '10px',
-                            backgroundColor: 'transparent', color: 'white',
-                            border: '2px solid white', padding: '16px 32px', borderRadius: '30px',
-                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                            transition: 'all 0.3s'
-                        }}
-                        onMouseOver={e => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = '#111'; }}
-                        onMouseOut={e => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'white'; }}
-                    >
-                        View Properties <FaArrowRight />
                     </a>
                 </div>
             </div>
@@ -235,9 +237,37 @@ const ChineseExpatHousing = () => {
                     <p style={{ marginBottom: '28px' }}>
                         Unlike a business hotel near Pari Chowk or the Expo Mart, our serviced apartments offer a full residential experience: a spacious living area, a fully equipped private kitchen, high-speed fiber internet, daily professional housekeeping, and complete power backup. You arrive with your suitcase — everything else is ready and waiting.
                     </p>
-                    <p style={{ marginBottom: '0' }}>
+                    <p style={{ marginBottom: '28px' }}>
                         For Chinese companies deploying project teams, our <strong>corporate housing packages</strong> include direct company invoicing in INR, multiple simultaneous apartment units in the same gated society, one dedicated WeChat-accessible account manager, and full FRRO documentation support from day one. Discover what makes Sandane Homes the preferred choice for <strong>Chinese expat housing in Greater Noida</strong>.
                     </p>
+
+                    {/* MID-PAGE BANNER BUTTON */}
+                    <div style={{
+                        marginTop: '40px', backgroundColor: '#1A3C34', borderRadius: '16px',
+                        padding: '36px 30px', textAlign: 'center', color: '#fff',
+                        boxShadow: '0 10px 30px rgba(26,60,52,0.15)'
+                    }}>
+                        <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#C5A572', margin: '0 0 12px' }}>
+                            Ready to choose your residence?
+                        </h3>
+                        <p style={{ fontSize: '15px', color: '#E0E0E0', margin: '0 0 24px' }}>
+                            View detailed floor plans, amenities, and photos of our luxury suites in Jaypee Greens &amp; Ansal Golf Links.
+                        </p>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '14px 32px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '16px', fontWeight: 'bold',
+                                transition: 'all 0.3s'
+                            }}
+                            onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
+                            onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
+                        >
+                            Explore Available Residences <FaArrowRight />
+                        </Link>
+                    </div>
                 </div>
             </div>
 
@@ -289,21 +319,37 @@ const ChineseExpatHousing = () => {
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
                         我们的团队可通过微信（WeChat）和WhatsApp进行沟通，提供中英文双语支持。我们也提供完整的外国人登记处（FRRO）证件支持，帮助您在抵达印度后14天内顺利完成合规登记。如需了解更多或进行预订，请随时通过微信或WhatsApp联系我们。
                     </p>
-                    <a
-                        href={`https://wa.me/${PHONE}?text=您好，我是一位在大诺伊达工作的中国专业人士，希望了解您的服务公寓详情。`}
-                        target="_blank" rel="noopener noreferrer"
-                        style={{
-                            display: 'inline-flex', alignItems: 'center', gap: '10px',
-                            backgroundColor: '#25D366', color: 'white',
-                            padding: '16px 36px', borderRadius: '30px',
-                            textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
-                            transition: 'transform 0.3s'
-                        }}
-                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                    >
-                        <FaWhatsapp size={22} /> 微信 / WhatsApp 咨询（支持中文）
-                    </a>
+                    <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                        <Link
+                            to="/residences"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#C5A572', color: '#1A3C34',
+                                padding: '16px 36px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                transition: 'transform 0.3s'
+                            }}
+                            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                        >
+                            查看精选住宅 / Explore Residences &rarr;
+                        </Link>
+                        <a
+                            href={`https://wa.me/${PHONE}?text=您好，我是一位在大诺伊达工作的中国专业人士，希望了解您的服务公寓详情。`}
+                            target="_blank" rel="noopener noreferrer"
+                            style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                backgroundColor: '#25D366', color: 'white',
+                                padding: '16px 36px', borderRadius: '30px',
+                                textDecoration: 'none', fontSize: '17px', fontWeight: 'bold',
+                                transition: 'transform 0.3s'
+                            }}
+                            onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                            onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                        >
+                            <FaWhatsapp size={22} /> 微信 / WhatsApp 咨询
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -354,23 +400,40 @@ const ChineseExpatHousing = () => {
                     大诺伊达，您在印度的温馨家园。
                 </p>
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '44px', maxWidth: '560px', margin: '0 auto 44px' }}>
-                    Contact us today for same-day availability. Corporate packages and group bookings welcome.
+                    Contact us today for same-day availability or browse our portfolio of luxury residences.
                 </p>
-                <a
-                    href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Chinese%20expat%20interested%20in%20your%20serviced%20apartments%20in%20Greater%20Noida.`}
-                    target="_blank" rel="noopener noreferrer"
-                    style={{
-                        display: 'inline-flex', alignItems: 'center', gap: '12px',
-                        backgroundColor: '#25D366', color: 'white',
-                        padding: '18px 44px', borderRadius: '40px',
-                        textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
-                        transition: 'transform 0.3s'
-                    }}
-                    onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-                    onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-                >
-                    <FaWhatsapp size={26} /> WhatsApp Us Now
-                </a>
+                <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <Link
+                        to="/residences"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#C5A572', color: '#1A3C34',
+                            padding: '18px 44px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
+                            boxShadow: '0 4px 20px rgba(197,165,114,0.4)',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        Browse All Residences <FaArrowRight />
+                    </Link>
+                    <a
+                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Chinese%20expat%20interested%20in%20your%20serviced%20apartments%20in%20Greater%20Noida.`}
+                        target="_blank" rel="noopener noreferrer"
+                        style={{
+                            display: 'inline-flex', alignItems: 'center', gap: '12px',
+                            backgroundColor: '#25D366', color: 'white',
+                            padding: '18px 44px', borderRadius: '40px',
+                            textDecoration: 'none', fontSize: '19px', fontWeight: 'bold',
+                            transition: 'transform 0.3s'
+                        }}
+                        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        <FaWhatsapp size={26} /> WhatsApp Us Now
+                    </a>
+                </div>
             </div>
 
             <Footer />
