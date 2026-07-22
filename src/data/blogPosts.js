@@ -26,6 +26,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Our technical teams working at the Surajpur plant reported higher satisfaction and zero commute stress once we transitioned them to Sandane Homes serviced suites.", attribution: "— Plant Operations Director" }
         ],
+        faqs: [
+        {
+                "question": "How far is Sandane Homes housing from the Surajpur Industrial Area?",
+                "answer": "Our serviced apartments in Ansal Golf Links and Jaypee Greens are located approximately 10 to 15 minutes away by car, avoiding main NCR bottleneck traffic."
+        },
+        {
+                "question": "Are corporate GST invoices provided for company bookings?",
+                "answer": "Yes, Sandane Homes provides fully compliant GST invoices in INR suitable for Indian corporate entities and international company expense accounting."
+        },
+        {
+                "question": "Are specialized dietary catering options available for international executives?",
+                "answer": "Yes, apartments feature fully equipped kitchens for private cooking, and custom meal options (including authentic Japanese, Korean, and Western meals) can be arranged."
+        }
+],
         tags: ["Surajpur Industrial Area", "Corporate Housing", "Serviced Apartments", "Greater Noida Stays"]
     },
     {
@@ -51,6 +65,20 @@ export const blogPosts = [
             { type: "heading", text: "How Sandane Homes Guarantees 24-Hour Approval" },
             { type: "paragraph", text: "Because we own and manage our corporate housing inventory directly, we don't have to wait for third-party landlords. We provide fully compliant landlord confirmation letters, registered utility copies, and address documentation within 24 hours of your check-in, coordinating directly with your company's HR department." }
         ],
+        faqs: [
+        {
+                "question": "What address documents are needed for FRRO registration in Greater Noida?",
+                "answer": "You need a registered lease agreement, a landlord address confirmation letter, and a recent electricity or utility bill matching the exact property address."
+        },
+        {
+                "question": "How quickly can Sandane Homes provide FRRO registration documents?",
+                "answer": "We provide complete, verified landlord address letters and registered utility documentation within 24 hours of check-in."
+        },
+        {
+                "question": "Is FRRO registration required for short business trips under 180 days?",
+                "answer": "Foreign nationals with visas stipulating 'registration required within 14 days' must register regardless of duration. Stays exceeding 180 days always require FRRO completion."
+        }
+],
         tags: ["FRRO Registration", "Expat Admin", "Noida Visas", "Greater Noida Guide"]
     },
     {
@@ -83,6 +111,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Having a kitchen meant my wife and I could cook simple, healthy Japanese meals after work. It made Greater Noida feel like our real home.", attribution: "— Japanese automotive corporate assignee" }
         ],
+        faqs: [
+        {
+                "question": "What cookware and appliances are included in Sandane Homes kitchens?",
+                "answer": "Our kitchens feature gas burners or induction cooktops, microwave ovens, large refrigerators, RO water purifiers, electric kettles, and complete cooking utensils."
+        },
+        {
+                "question": "Can we cook authentic Asian or Western meals in the apartment?",
+                "answer": "Yes, all kitchens are private, well-ventilated, and fully equipped with wok-friendly cookware and utensils for self-catering."
+        },
+        {
+                "question": "Are groceries readily accessible near the apartments in Greater Noida?",
+                "answer": "Yes, express online grocery delivery (Blinkit, Zepto, Instamart) delivers in under 15 minutes, and local supermarkets are within 5 minutes."
+        }
+],
         tags: ["Serviced Apartments", "Kitchenette", "Corporate Housing", "Expat Health", "Greater Noida Stays"]
     },
     {
@@ -109,6 +151,20 @@ export const blogPosts = [
             { type: "paragraph", text: "For female travelers arriving late at night or navigating the city for the first time, local transit can be intimidating. Sandane Homes offers verified airport pickup services, trusted local driver networks, and 24/7 concierge support to handle any local requirements." },
             { type: "quote", text: "Staying in a gated community like Jaypee Greens allowed me to walk safely in the evenings and focus completely on my corporate audit assignment.", attribution: "— European Tech Auditor" }
         ],
+        faqs: [
+        {
+                "question": "What security measures are present at Sandane Homes properties?",
+                "answer": "Our residences feature 24/7 multi-tier gated security, CCTV coverage, electronic smart locks, verified housekeeping personnel, and intercom systems."
+        },
+        {
+                "question": "Is transport safe for single female guests traveling late at night?",
+                "answer": "Yes, we provide private chauffeured fleet transfers with GPS tracking for airport pick-ups and late-night business commutes."
+        },
+        {
+                "question": "Are gated societies like Jaypee Greens and Ansal Golf Links safe to walk around?",
+                "answer": "Yes, both Jaypee Greens and Ansal Golf Links are private, secured residential townships with perimeter fencing, security patrols, and serene walking tracks."
+        }
+],
         tags: ["Safety", "Gated Communities", "Female Travelers", "Corporate Stay", "Greater Noida"]
     },
     {
@@ -134,6 +190,20 @@ export const blogPosts = [
             { type: "heading", text: "High-End Comfort After a Hard Shift" },
             { type: "paragraph", text: "Industrial operations demand long hours. Coming back to a quiet, premium serviced suite with hot water, high-speed Wi-Fi, and a home-cooked dinner makes a massive difference in recovery. We specialize in managing custom expat housing to make sure your technical teams and executives can focus on their core operations." }
         ],
+        faqs: [
+        {
+                "question": "How close are these apartments to the Yamuna Expressway industrial zone?",
+                "answer": "Our properties offer direct access to the Yamuna Expressway, reducing travel time to industrial sectors and tech parks to 15-25 minutes."
+        },
+        {
+                "question": "Is long-term corporate lease pricing available for project teams?",
+                "answer": "Yes, we offer discounted monthly rates and customized long-term accommodation packages for corporate teams staying 1 to 24 months."
+        },
+        {
+                "question": "Are high-speed internet and power backup available 24/7?",
+                "answer": "Yes, all units feature 300 Mbps fiber internet and 100% DG power backup to guarantee uninterrupted remote work."
+        }
+],
         tags: ["Yamuna Expressway", "Surajpur Industrial", "Corporate Stays", "Manufacturing Stays", "Greater Noida"]
     },
     {
@@ -160,6 +230,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "The opening of the Jewar Airport makes Greater Noida the primary gateway for corporate expat professionals in North India.", attribution: "— Business Logistics Consultant" }
         ],
+        faqs: [
+        {
+                "question": "How far is Greater Noida from the upcoming Noida International Airport (Jewar)?",
+                "answer": "Greater Noida is the closest major residential corridor to Jewar Airport, accessible via the Yamuna Expressway in approximately 25-30 minutes."
+        },
+        {
+                "question": "Why is Greater Noida preferred over Delhi for Jewar airport commuters?",
+                "answer": "Greater Noida offers signal-free expressway access, lower traffic congestion, larger green residential spaces, and much shorter travel times to Jewar."
+        },
+        {
+                "question": "Do you offer airport transfer services for international flights?",
+                "answer": "Yes, our private concierge arranges airport transfers to both IGI Airport Delhi and Jewar Noida International Airport 24/7."
+        }
+],
         tags: ["Jewar Airport", "Noida International Airport", "Corporate Travel", "Yamuna Expressway", "Greater Noida"]
     },
     {
@@ -186,6 +270,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Outsourcing our executive stays to Sandane Homes reduced our corporate accommodation overhead by 30% while improving feedback from our expatriate assignees.", attribution: "— HR Director, Automotive MNC" }
         ],
+        faqs: [
+        {
+                "question": "What makes serviced apartments better than traditional company guest houses?",
+                "answer": "Serviced apartments offer lower operational overhead, greater privacy, professional daily housekeeping, individual kitchens, and no lock-in maintenance contracts."
+        },
+        {
+                "question": "Can companies book multiple apartments in the same building for a team?",
+                "answer": "Yes, we can host corporate teams across adjacent suites in the same gated society with single-point billing."
+        },
+        {
+                "question": "Are utilities like electricity, water, and WiFi included in the corporate rate?",
+                "answer": "Yes, all-inclusive corporate packages covering maintenance, high-speed WiFi, utility allowances, and daily housekeeping are standard."
+        }
+],
         tags: ["Corporate Guest House", "Serviced Apartments", "Corporate Housing", "HR Management", "Greater Noida"]
     },
     {
@@ -211,6 +309,20 @@ export const blogPosts = [
             { type: "heading", text: "A Tranquil Alternative for Expat Exhibitors" },
             { type: "paragraph", text: "After a hectic day standing at an exhibition booth, returning to a crowded hotel lobby can be exhausting. Our boutique hotels and managed apartments located in secure, green neighborhoods provide a quiet, relaxing environment to recharge." }
         ],
+        faqs: [
+        {
+                "question": "How far are Sandane Homes serviced suites from India Expo Mart?",
+                "answer": "Our apartments in Jaypee Greens and Ansal Golf Links are just 8 to 12 minutes drive from India Expo Mart."
+        },
+        {
+                "question": "Is early check-in or late check-out available for expo delegates?",
+                "answer": "Yes, we accommodate flexible flight schedules and early check-ins upon prior request."
+        },
+        {
+                "question": "Can small delegation meetings be held inside the apartment?",
+                "answer": "Yes, our 2BHK and executive suites feature spacious living and dining areas suitable for quiet team discussions."
+        }
+],
         tags: ["India Expo Mart", "Boutique Hotels", "Serviced Apartments", "Business Stays", "Exhibition Stays"]
     },
     {
@@ -236,6 +348,20 @@ export const blogPosts = [
             { type: "heading", text: "FRRO Support and Hassle-free Relocation" },
             { type: "paragraph", text: "Our concierge desk regularly assists Japanese and Korean assignees with documentation for local FRRO registration, corporate lease agreements, and local transport coordination. By providing a comprehensive support structure, we make relocation to India smooth and welcoming." }
         ],
+        faqs: [
+        {
+                "question": "What Asian-friendly amenities are provided in Sandane Homes apartments?",
+                "answer": "We offer Japanese TV channels/streaming options, rice cookers, bidets/Japanese washlets on request, quiet greenery, and authentic Asian meal services."
+        },
+        {
+                "question": "Are there Japanese and Korean grocery markets nearby?",
+                "answer": "Yes, authentic Asian grocery stores and Korean/Japanese bakeries in Greater Noida and Noida Sector 18 are within easy driving distance."
+        },
+        {
+                "question": "Is assistance provided for local SIM cards, banking, and FRRO registration?",
+                "answer": "Yes, our dedicated expat concierge assists guests with SIM card activation, local bank account setup, and 24-hour FRRO address proof."
+        }
+],
         tags: ["Expat Housing", "Korean Expats", "Japanese Expats", "Corporate Housing", "Greater Noida"]
     },
     {
@@ -282,6 +408,20 @@ export const blogPosts = [
             { type: "paragraph", text: "Renting an apartment directly in these premium societies can be logistically challenging for expats. You have to deal with individual landlords, set up utility connections, manage internet providers, and arrange housekeeping. " },
             { type: "paragraph", text: "A serviced apartment by Sandane Homes solves all these problems. We lease premium properties within these exact societies, fully furnish them to international standards, and manage everything for you. One monthly invoice covers your rent, Wi-Fi, electricity, housekeeping, and maintenance. If you are relocating to Greater Noida or managing expat housing for your company, reach out to us today via WhatsApp to discuss our available units." }
         ],
+        faqs: [
+        {
+                "question": "Which gated societies in Greater Noida are most popular among expats?",
+                "answer": "Jaypee Greens, Ansal Golf Links, and Godrej Golf Link are top-rated due to their high security, green landscapes, golf courses, and international community."
+        },
+        {
+                "question": "What recreational facilities are available in these gated societies?",
+                "answer": "Facilities include 18-hole championship golf courses, swimming pools, tennis courts, fitness centers, walking trails, and clubhouses."
+        },
+        {
+                "question": "Is power backup and clean drinking water guaranteed in these communities?",
+                "answer": "Yes, all our apartments feature 100% DG power backup and multi-stage RO water purification systems."
+        }
+],
         tags: ["Greater Noida", "Expat Housing", "Gated Communities", "Jaypee Greens", "Ansal Golf Links"]
     },
     {
@@ -312,6 +452,20 @@ export const blogPosts = [
             { type: "heading", text: "Growing International Community" },
             { type: "paragraph", text: "As Honda, Yamaha, Samsung vendors, and Korean/Japanese EPC firms have established a presence along the Yamuna Expressway, so too has the expat community grown. Korean marts, Asian grocery stores, and authentic restaurants are now readily accessible." },
         ],
+        faqs: [
+        {
+                "question": "Why do expatriates prefer Greater Noida over Central Delhi or Gurgaon?",
+                "answer": "Greater Noida provides wider roads, significantly less traffic congestion, cleaner air, larger living spaces, and closer proximity to major manufacturing hubs."
+        },
+        {
+                "question": "What international schools are located near Greater Noida for expat families?",
+                "answer": "Top institutions include Genesis Global School, Step by Step School, Shiv Nadar School, and DPS Greater Noida."
+        },
+        {
+                "question": "How is medical healthcare access in Greater Noida?",
+                "answer": "World-class hospitals including Fortis Hospital, Kailash Hospital, and Max Super Speciality Hospital are within 10-15 minutes drive."
+        }
+],
         tags: ["Greater Noida", "Expat Life", "Relocation", "Corporate Housing"]
     },
     {
@@ -335,6 +489,20 @@ export const blogPosts = [
             { type: "paragraph", text: "Sandane Homes apartments are move-in ready on Day 1. You arrive with your suitcase. Everything works. For corporate HR teams managing multiple relocations, it eliminates administrative chaos and fits neatly into standard billing processes." },
             { type: "quote", text: "We tried the unfurnished route first. Three months later, we moved into Sandane Homes. We wish we had done it from the start.", attribution: "— Japanese professional, Honda India assignment" },
         ],
+        faqs: [
+        {
+                "question": "Why is a fully serviced apartment better than renting an unfurnished flat?",
+                "answer": "Serviced apartments eliminate security deposits, long lock-in contracts, furniture buying, utility setup hassles, and landlord disputes."
+        },
+        {
+                "question": "Are bed linens, towels, and kitchen utensils provided?",
+                "answer": "Yes, luxury linens, bath towels, complete kitchenware, and daily housekeeping are included as standard."
+        },
+        {
+                "question": "Can lease terms be extended on short notice?",
+                "answer": "Yes, flexible extensions from week-to-week or month-to-month are available for corporate assignees."
+        }
+],
         tags: ["Housing Guide", "Furnished Apartments", "Expat Tips", "Corporate Housing"]
     },
     {
@@ -360,6 +528,20 @@ export const blogPosts = [
             { type: "paragraph", text: "We provide your tenancy agreement in the exact FRRO-required format and guide you through each step. We can connect you with local liaison services for in-person support if needed." },
             { type: "quote", text: "I was very stressed about FRRO — I'd heard horror stories. The Sandane team made it completely painless.", attribution: "— Korean resident, Samsung assignment" },
         ],
+        faqs: [
+        {
+                "question": "Who is required to register with the FRRO in India?",
+                "answer": "Any foreigner visiting India on an Employment, Business, Student, or Research visa for more than 180 days must register within 14 days of arrival."
+        },
+        {
+                "question": "Can FRRO registration be done entirely online?",
+                "answer": "Yes, registration is processed through the official e-FRRO portal (indianfrro.gov.in) with uploaded digital documents."
+        },
+        {
+                "question": "How does Sandane Homes assist with the e-FRRO application?",
+                "answer": "We provide verified landlord confirmation letters, lease contracts, and utility proof formatted specifically to pass e-FRRO verification without delay."
+        }
+],
         tags: ["FRRO", "Legal", "India Visa", "Expat Admin", "Greater Noida"]
     },
     {
@@ -386,6 +568,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Staying just 10 minutes away from the Expo Mart in a spacious Sandane Homes apartment completely changed our exhibition experience. We had a private kitchen to cook our own meals, and plenty of space to relax.", attribution: "— Italian Sourcing Director, IHGF Exhibitor" }
         ],
+        faqs: [
+        {
+                "question": "Are serviced apartments cheaper than hotel rooms during major expos at India Expo Centre?",
+                "answer": "Yes, serviced apartments offer up to 40% cost savings for stays longer than 3 days, providing double the living space compared to standard hotel rooms."
+        },
+        {
+                "question": "How far is Sandane Homes from India Expo Centre?",
+                "answer": "Located in Jaypee Greens and Ansal Golf Links, our suites are just 8-10 minutes away via wide, signal-free roads."
+        },
+        {
+                "question": "Is daily transport provided from the apartment to India Expo Centre?",
+                "answer": "Yes, private chauffeur-driven fleet pickups and drop-offs can be arranged on request."
+        }
+],
         tags: ["India Expo Centre", "Expo Mart Hotels", "Business Travel", "Greater Noida Stays"]
     },
     {
@@ -412,6 +608,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Ansal Golf Links-1 is right next to Pari Chowk, yet it feels like a quiet sanctuary. Sandane Homes gave us the perfect balance of convenience and peaceful comfort.", attribution: "— Relocation Advisor, Ernst & Young" }
         ],
+        faqs: [
+        {
+                "question": "Why stay near Pari Chowk in Greater Noida?",
+                "answer": "Pari Chowk is the main commercial and transit hub of Greater Noida, offering immediate access to the Aqua Line Metro, Yamuna Expressway, and top dining spots."
+        },
+        {
+                "question": "Are Sandane Homes apartments close to Pari Chowk?",
+                "answer": "Yes, our properties in Ansal Golf Links are right at Pari Chowk (2 minutes away), providing maximum convenience with high-end gated security."
+        },
+        {
+                "question": "Is metro connectivity available from Pari Chowk to Noida and Delhi?",
+                "answer": "Yes, the Noida Metro Aqua Line connects Pari Chowk directly to Sector 51 Noida, linking with the Delhi Metro Blue Line."
+        }
+],
         tags: ["Pari Chowk", "Greater Noida Hotels", "Ansal Golf Links", "Transit Stays"]
     },
     {
@@ -438,6 +648,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "As a visiting professor at Sharda University for three weeks, having a full apartment with a workspace and a kitchen was a lifesaver. It was infinitely better than a hotel room.", attribution: "— Professor of Data Science, European University" }
         ],
+        faqs: [
+        {
+                "question": "How close are Sandane Homes apartments to Knowledge Park Greater Noida?",
+                "answer": "Our serviced apartments are located 5-10 minutes drive from Knowledge Park I, II, and III."
+        },
+        {
+                "question": "Are these apartments suitable for visiting university professors, researchers, or corporate trainers?",
+                "answer": "Yes, we provide quiet, high-speed 300 Mbps WiFi environments with study desks ideal for academics and visiting professionals."
+        },
+        {
+                "question": "Are short stays of a few days allowed?",
+                "answer": "Yes, we welcome both short-term stays (few days) and extended monthly corporate leases."
+        }
+],
         tags: ["Knowledge Park Stays", "Greater Noida Universities", "Academic Stays", "Extended Travel"]
     },
     {
@@ -464,6 +688,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Sandane Homes has been our trusted accommodation partner for over three years. Their attention to detail, expat dining preferences, and FRRO support make them the best in Noida.", attribution: "— Head of HR, Japanese Global Logistics Firm" }
         ],
+        faqs: [
+        {
+                "question": "What services are included in Sandane Homes corporate packages?",
+                "answer": "Packages include daily housekeeping, 300 Mbps internet, utility allowances, 24/7 power backup, maintenance, and corporate GST billing."
+        },
+        {
+                "question": "Can customized corporate billing be issued to foreign companies?",
+                "answer": "Yes, we support international wire transfers, corporate credit cards, and GST invoices for local subsidiaries."
+        },
+        {
+                "question": "Are studios, 1BHK, and 2BHK configurations available?",
+                "answer": "Yes, we offer executive studios, spacious 1BHKs, and luxury 2BHK suites to suit different team hierarchies."
+        }
+],
         tags: ["Corporate Housing", "Expat Relocation", "Greater Noida Stays", "FRRO Support"]
     },
     {
@@ -490,6 +728,20 @@ export const blogPosts = [
             ] },
             { type: "quote", text: "Having a warm, authentic Korean breakfast served in my apartment every morning made my six-month corporate assignment in Greater Noida feel incredibly comfortable.", attribution: "— Technical Coordinator, LG India Plant" }
         ],
+        faqs: [
+        {
+                "question": "Why do Korean and Japanese expats prefer Sandane Homes in Greater Noida?",
+                "answer": "We offer tailored amenities like rice cookers, water purifiers, Japanese/Korean TV content, high security, quiet golf course views, and bilingual support staff."
+        },
+        {
+                "question": "Are Korean and Japanese restaurants available near the apartments?",
+                "answer": "Yes, popular Korean and Japanese eateries in Greater Noida, Noida Sector 18, and Golf Course Road are easily accessible."
+        },
+        {
+                "question": "How is address proof provided for Korean/Japanese expat FRRO registration?",
+                "answer": "We provide verified landlord confirmation letters and utility proof within 24 hours of arrival."
+        }
+],
         tags: ["Korean Expats", "Japanese Expats", "Expat Dining", "Greater Noida Serviced Suites"]
     },
     {
@@ -516,6 +768,20 @@ export const blogPosts = [
             { type: "paragraph", text: "If you are staying for more than a few days, a serviced apartment is nearly always superior to a hotel. It offers twice the space, full laundry facilities, private kitchen options, and a significantly lower daily rate for long stays." },
             { type: "quote", text: "Greater Noida is highly sectors-based. Staying in a gated sanctuary like Ansal Golf Links near Pari Chowk saved us hours of commute time and gave us a peaceful home base.", attribution: "— Relocation Lead, Multinational Tech Corporation" }
         ],
+        faqs: [
+        {
+                "question": "What is the best area to stay in Greater Noida for first-time visitors?",
+                "answer": "Gated societies near Pari Chowk and Jaypee Greens (Sector Omega I / Pari Chowk area) are the safest, most scenic, and best-connected areas."
+        },
+        {
+                "question": "How far is Greater Noida from Central Delhi?",
+                "answer": "Central Delhi (Connaught Place) is approximately 45-50 minutes away via the Noida-Greater Noida Expressway."
+        },
+        {
+                "question": "What is the best way to get around Greater Noida?",
+                "answer": "App-based cabs (Uber, Ola), private chauffeured cars, and the Noida Metro Aqua Line provide fast, hassle-free travel."
+        }
+],
         tags: ["Greater Noida Guide", "Where to Stay", "Neighborhood Guide", "Serviced Residences"]
     },
     {
@@ -556,6 +822,20 @@ export const blogPosts = [
             { type: "paragraph", text: "如果贵公司有员工即将派驻大诺伊达，欢迎联系我们了解详情。" },
             { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / KakaoTalk / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 大诺伊达团队" }
         ],
+        faqs: [
+        {
+                "question": "大诺伊达服务式公寓距离维沃（Vivo）和OPPO工厂有多远？",
+                "answer": "我们位于Jaypee Greens与Ansal Golf Links的公寓距离维沃Kasna工厂约15分钟车程，距离OPPO Ecotech-VII工厂约20分钟车程，避免市中心交通拥堵。"
+        },
+        {
+                "question": "公寓是否包含真正的中式烹饪厨房设备？",
+                "answer": "是的，每套公寓均配备独立厨房、包含适合中式烹饪的燃气灶/电磁炉、大容量冰箱、微波炉、净水器及全套常用厨具。"
+        },
+        {
+                "question": "入住后多久可以拿到办理FRRO登记所需的地址证明信？",
+                "answer": "Sandane Homes 作为房屋直接管理方，可在您入住后24小时内提供合规的业主地址确认信及最新电费账单副本。"
+        }
+],
         tags: ["大诺伊达服务式公寓", "中国外派员工", "维沃OPPO工厂住宿", "FRRO登记协助", "Jaypee Greens"]
     },
     {
@@ -593,6 +873,20 @@ export const blogPosts = [
             { type: "paragraph", text: "欢迎联系了解更多详情。" },
             { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 企业外派服务部" }
         ],
+        faqs: [
+        {
+                "question": "企业批量预订员工住宿是否支持开具印度企业GST发票？",
+                "answer": "是的，我们提供符合印度税务标准的官方企业GST发票，方便公司内部报销和税务抵扣。"
+        },
+        {
+                "question": "如果多名中国员工同时派驻，能否安排在同一社区？",
+                "answer": "可以，我们在Jaypee Greens和Ansal Golf Links拥有多套公寓，可将同一团队集中安排在同一高端门禁社区内，方便出行与交流。"
+        },
+        {
+                "question": "公寓是否包含日常通勤和机场接送车队服务？",
+                "answer": "是的，我们提供专属车队预订服务，涵盖德里英迪拉·甘地国际机场接送以及每日工厂往返通勤。"
+        }
+],
         tags: ["维沃工厂住宿", "OPPO工厂住宿", "Kasna工业区", "Ecotech-VII", "企业长住公寓"]
     },
     {
@@ -632,6 +926,20 @@ export const blogPosts = [
             { type: "paragraph", text: "Sandane Homes 为所有入住的外国籍客户标准提供FRRO地址确认信协助服务，无需额外催促。" },
             { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 法务与客户支持" }
         ],
+        faqs: [
+        {
+                "question": "中国公民在印度办理FRRO登记的14天期限是如何计算的？",
+                "answer": "14天期限从您持有效工作（E）或商务（B）签证入境印度的盖章日期开始计算，建议在抵达后前3天内提交申请。"
+        },
+        {
+                "question": "如果住宿提供方无法出具合规地址信会怎样？",
+                "answer": "地址证明材料不合规是e-FRRO审核被退回的最常见原因，可能导致登记逾期并面临行政罚款。Sandane Homes 确保100%提供官方合规文件。"
+        },
+        {
+                "question": "e-FRRO登记是否可以全程在线办理？",
+                "answer": "是的，目前主要通过 indianfrro.gov.in 官方网站在线提交资料，特殊情况下官方可能会要求现场核验。"
+        }
+],
         tags: ["FRRO登记", "中国公民印度签证", "地址证明信", "e-FRRO流程", "大诺伊达外派"]
     },
     {
@@ -667,6 +975,20 @@ export const blogPosts = [
             { type: "paragraph", text: "Sandane Homes 为中国外派专业人士提供全权管理的服务式公寓，欢迎联系了解详情。" },
             { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 生活礼宾部" }
         ],
+        faqs: [
+        {
+                "question": "在大诺伊达如何采购中式调味料和食材？",
+                "answer": "常用调料（酱油、花椒、干辣椒等）可通过亚马逊印度（Amazon.in）或德里的中式进口超市购买，快捷配送至大诺伊达社区。"
+        },
+        {
+                "question": "抵达大诺伊达后如何快速办理当地手机SIM卡？",
+                "answer": "您只需携带护照、有效签证及入住证明文件，前往大诺伊达运营商营业厅（如Airtel或Jio）即可在48小时内激活SIM卡。"
+        },
+        {
+                "question": "大诺伊达的社区安保和日常居住环境安全性如何？",
+                "answer": "Jaypee Greens与Ansal Golf Links均为高级封闭式门禁社区，配备24小时保安巡逻、CCTV监控及电子门禁，环境宁静安全。"
+        }
+],
         tags: ["印度生活指南", "中国外派员工", "中式食材采购", "大诺伊达微信群", "银行卡与SIM卡"]
     },
     {
@@ -702,6 +1024,20 @@ export const blogPosts = [
             { type: "paragraph", text: "如果您的企业即将派驻员工到大诺伊达，欢迎联系我们了解具体方案。" },
             { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 品牌部" }
         ],
+        faqs: [
+        {
+                "question": "长期派驻（1-6个月）选择服务式公寓比酒店节省多少成本？",
+                "answer": "对于超过30天的长期住宿，服务式公寓的月租综合成本通常比同等级商务酒店节省30%至45%，且使用面积大一倍以上。"
+        },
+        {
+                "question": "服务式公寓的保洁服务频率是怎样的？",
+                "answer": "Sandane Homes 标准提供每日专业保洁与定期床品洗涤换洗服务，保持酒店级别的卫生标准。"
+        },
+        {
+                "question": "如果派驻计划临时变更，租期是否可以灵活延长或缩短？",
+                "answer": "是的，我们为企业客户提供灵活的租期协议，支持按周或按月弹性续租。"
+        }
+],
         tags: ["服务式公寓对比", "大诺伊达酒店", "企业住房成本", "长期住宿", "Sandane Homes"]
     }
 ];

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import BlogContent from '../BlogContent';
 import { getBlogPost, getRelatedPosts } from '../../data/blogPosts';
-import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import './Blog.css';
 import './SandaneHomes.css';
 
@@ -18,6 +18,7 @@ const BlogPost = () => {
     const { slug } = useParams();
     const PHONE = '919711722273';
     const post = getBlogPost(slug);
+    const [openFaqIndex, setOpenFaqIndex] = useState(0);
 
     if (!post) {
         return (
@@ -88,6 +89,19 @@ const BlogPost = () => {
         ],
     };
 
+    const faqSchema = post.faqs && post.faqs.length > 0 ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: post.faqs.map(faq => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer
+            }
+        }))
+    } : null;
+
     const relatedPosts = getRelatedPosts(post.slug, 3);
 
     const heroBackgroundStyle = post.coverImage
@@ -104,6 +118,8 @@ const BlogPost = () => {
         { lang: 'x-default', href: canonical }
     ];
 
+    const schemas = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
+
     return (
         <div className="catarina-services sandane-homes-page">
             <SEO
@@ -114,7 +130,7 @@ const BlogPost = () => {
                 ogType="article"
                 lang={post.lang || 'en'}
                 hreflang={hreflang}
-                schema={[articleSchema, breadcrumbSchema]}
+                schema={schemas}
             />
 
             <Header showTopBar={false} />
@@ -209,7 +225,7 @@ const BlogPost = () => {
             </div>
 
             {/* ── INLINE RESIDENCES BANNER CTA ── */}
-            <div style={{ padding: '20px 20px 60px', backgroundColor: '#fff' }}>
+            <div style={{ padding: '20px 20px 40px', backgroundColor: '#fff' }}>
                 <div style={{
                     maxWidth: '760px', margin: '0 auto',
                     background: 'linear-gradient(135deg, #F5EFEB 0%, #E6DFD5 100%)',
@@ -247,9 +263,90 @@ const BlogPost = () => {
                 </div>
             </div>
 
+            {/* ── FAQ ACCORDION SECTION ── */}
+            {post.faqs && post.faqs.length > 0 && (
+                <div style={{ padding: '50px 20px 60px', backgroundColor: '#FAF8F5', borderTop: '1px solid #EAE5DC', borderBottom: '1px solid #EAE5DC' }}>
+                    <div style={{ maxWidth: '760px', margin: '0 auto' }}>
+                        <div style={{ textAlign: 'center', marginBottom: '36px' }}>
+                            <span style={{ fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '800' }}>
+                                {isZh ? '常见问题解答' : 'Frequently Asked Questions'}
+                            </span>
+                            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '30px', color: '#1A3C34', marginTop: '8px' }}>
+                                {isZh ? '关于本文内容的常见疑问' : 'Questions Related to This Article'}
+                            </h2>
+                            <div style={{ width: '40px', height: '3px', backgroundColor: '#C5A572', margin: '12px auto 0', borderRadius: '2px' }} />
+                        </div>
+
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                            {post.faqs.map((faq, index) => {
+                                const isOpen = openFaqIndex === index;
+                                return (
+                                    <div
+                                        key={index}
+                                        style={{
+                                            backgroundColor: '#ffffff',
+                                            borderRadius: '14px',
+                                            border: '1px solid #E6E1D7',
+                                            boxShadow: isOpen ? '0 6px 20px rgba(26,60,52,0.06)' : '0 2px 6px rgba(0,0,0,0.02)',
+                                            transition: 'all 0.3s ease',
+                                            overflow: 'hidden'
+                                        }}
+                                    >
+                                        <button
+                                            onClick={() => setOpenFaqIndex(isOpen ? null : index)}
+                                            style={{
+                                                width: '100%',
+                                                padding: '18px 22px',
+                                                display: 'flex',
+                                                justifyContent: 'space-between',
+                                                alignItems: 'center',
+                                                textAlign: 'left',
+                                                background: 'none',
+                                                border: 'none',
+                                                cursor: 'pointer',
+                                                outline: 'none',
+                                                gap: '16px'
+                                            }}
+                                        >
+                                            <span style={{ fontSize: '16px', fontWeight: '700', color: '#1A3C34', lineHeight: '1.4' }}>
+                                                {faq.question}
+                                            </span>
+                                            <span style={{
+                                                display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                                                width: '28px', height: '28px', borderRadius: '50%',
+                                                backgroundColor: isOpen ? '#1A3C34' : '#F0ECE4',
+                                                color: isOpen ? '#C5A572' : '#1A3C34',
+                                                flexShrink: 0,
+                                                transition: 'all 0.3s ease',
+                                                transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)'
+                                            }}>
+                                                <FaChevronDown size={12} />
+                                            </span>
+                                        </button>
+                                        {isOpen && (
+                                            <div style={{
+                                                padding: '0 22px 20px',
+                                                color: '#4A5568',
+                                                fontSize: '15px',
+                                                lineHeight: '1.7',
+                                                borderTop: '1px solid #F0ECE4',
+                                                paddingTop: '14px',
+                                                backgroundColor: '#FFFCF9'
+                                            }}>
+                                                {faq.answer}
+                                            </div>
+                                        )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
+            )}
+
             {/* ── TAGS ── */}
             {post.tags && post.tags.length > 0 && (
-                <div style={{ padding: '0 20px 80px', backgroundColor: '#fff' }}>
+                <div style={{ padding: '50px 20px 60px', backgroundColor: '#fff' }}>
                     <div className="blog-card-tags" style={{ maxWidth: '760px', margin: '0 auto' }}>
                         {post.tags.map((tag) => (
                             <span key={tag} className="blog-card-tag-chip">{tag}</span>
