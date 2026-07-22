@@ -51,7 +51,11 @@ const BlogPost = () => {
         );
     }
 
-    const canonical = `https://www.sandanehomes.com/blog/${post.slug}`;
+    const isZh = post.lang === 'zh-CN' || post.lang === 'zh';
+    const canonical = isZh 
+        ? `https://www.sandanehomes.com/zh/${post.slug}`
+        : `https://www.sandanehomes.com/blog/${post.slug}`;
+
     const ogImage = post.coverImage
         ? (post.coverImage.startsWith('http') ? post.coverImage : `https://www.sandanehomes.com${post.coverImage}`)
         : DEFAULT_OG_IMAGE;
@@ -60,7 +64,7 @@ const BlogPost = () => {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: post.title,
-        description: post.excerpt,
+        description: post.metaDescription || post.excerpt,
         image: ogImage,
         datePublished: new Date(post.date).toISOString(),
         dateModified: new Date(post.date).toISOString(),
@@ -78,8 +82,8 @@ const BlogPost = () => {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sandanehomes.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.sandanehomes.com/blog' },
+            { '@type': 'ListItem', position: 1, name: isZh ? '首页' : 'Home', item: 'https://www.sandanehomes.com/' },
+            { '@type': 'ListItem', position: 2, name: isZh ? '博客' : 'Blog', item: 'https://www.sandanehomes.com/blog' },
             { '@type': 'ListItem', position: 3, name: post.title, item: canonical },
         ],
     };
@@ -90,14 +94,26 @@ const BlogPost = () => {
         ? { backgroundImage: `url(${post.coverImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
         : { background: post.coverGradient || '#1A3C34' };
 
+    const hreflang = isZh ? [
+        { lang: 'zh-CN', href: canonical },
+        { lang: 'zh', href: canonical },
+        { lang: 'en', href: `https://www.sandanehomes.com/blog/${post.slug}` },
+        { lang: 'x-default', href: canonical }
+    ] : [
+        { lang: 'en', href: canonical },
+        { lang: 'x-default', href: canonical }
+    ];
+
     return (
         <div className="catarina-services sandane-homes-page">
             <SEO
-                title={`${post.title} | Sandane Homes Journal`}
-                description={post.excerpt}
+                title={post.metaTitle || `${post.title} | Sandane Homes`}
+                description={post.metaDescription || post.excerpt}
                 canonical={canonical}
                 ogImage={ogImage}
                 ogType="article"
+                lang={post.lang || 'en'}
+                hreflang={hreflang}
                 schema={[articleSchema, breadcrumbSchema]}
             />
 
@@ -140,7 +156,7 @@ const BlogPost = () => {
                     )}
                     <div style={{ display: 'flex', gap: '22px', justifyContent: 'center', marginTop: '24px', color: '#eee', fontSize: '14px' }}>
                         <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <FaRegCalendarAlt /> {formatDate(post.date)}
+                            <FaRegCalendarAlt /> {post.date}
                         </span>
                         <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                             <FaRegClock /> {post.readTime}
@@ -160,7 +176,7 @@ const BlogPost = () => {
                             onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
                             onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         >
-                            Explore Luxury Residences &rarr;
+                            {isZh ? '探索大诺伊达精选高级公寓 \u2192' : 'Explore Luxury Residences \u2192'}
                         </Link>
                     </div>
                 </div>
@@ -170,8 +186,8 @@ const BlogPost = () => {
             <div style={{ backgroundColor: '#fff', borderBottom: '1px solid #eee', padding: '18px 20px' }}>
                 <div style={{ maxWidth: '760px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', fontSize: '14px', color: '#888' }}>
                     <div>
-                        <Link to="/" style={{ color: '#888' }}>Home</Link> <span style={{ margin: '0 8px' }}>/</span>
-                        <Link to="/blog" style={{ color: '#888' }}>Blog</Link> <span style={{ margin: '0 8px' }}>/</span>
+                        <Link to="/" style={{ color: '#888' }}>{isZh ? '首页' : 'Home'}</Link> <span style={{ margin: '0 8px' }}>/</span>
+                        <Link to="/blog" style={{ color: '#888' }}>{isZh ? '博客文章' : 'Blog'}</Link> <span style={{ margin: '0 8px' }}>/</span>
                         <span style={{ color: '#1A3C34', fontWeight: '600' }}>{post.title}</span>
                     </div>
                     <Link
@@ -182,7 +198,7 @@ const BlogPost = () => {
                             fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px'
                         }}
                     >
-                        View Serviced Suites &rarr;
+                        {isZh ? '查看精选公寓房源 \u2192' : 'View Serviced Suites \u2192'}
                     </Link>
                 </div>
             </div>
@@ -206,10 +222,12 @@ const BlogPost = () => {
                         Sandane Homes Collection
                     </span>
                     <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '26px', color: '#1A3C34', margin: '12px 0' }}>
-                        Explore Our Luxury Serviced Residences
+                        {isZh ? '探索 Sandane Homes 奢华服务式公寓' : 'Explore Our Luxury Serviced Residences'}
                     </h3>
                     <p style={{ color: '#555', fontSize: '15px', maxWidth: '560px', margin: '0 auto 24px', lineHeight: '1.6' }}>
-                        Discover fully furnished, hotel-serviced 1BHK, 2BHK, and studio suites in Greater Noida's finest gated societies like Jaypee Greens &amp; Ansal Golf Links.
+                        {isZh
+                            ? '为您打造的全套家具、每日保洁、具备完整烹饪设施的 1BHK、2BHK 及独立套房。位于 Jaypee Greens 与 Ansal Golf Links 等高端门禁社区。'
+                            : 'Discover fully furnished, hotel-serviced 1BHK, 2BHK, and studio suites in Greater Noida\'s finest gated societies like Jaypee Greens & Ansal Golf Links.'}
                     </p>
                     <Link
                         to="/residences"
@@ -224,7 +242,7 @@ const BlogPost = () => {
                         onMouseOver={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         onMouseOut={e => { e.currentTarget.style.backgroundColor = '#1A3C34'; e.currentTarget.style.color = '#fff'; }}
                     >
-                        View All Available Residences &rarr;
+                        {isZh ? '查看所有可预订房源 \u2192' : 'View All Available Residences \u2192'}
                     </Link>
                 </div>
             </div>
@@ -246,10 +264,12 @@ const BlogPost = () => {
                 padding: '90px 20px', textAlign: 'center', color: 'white'
             }}>
                 <h2 style={{ fontSize: '34px', marginBottom: '16px', fontFamily: 'Playfair Display, serif' }}>
-                    Looking for a home in Greater Noida?
+                    {isZh ? '正在寻找大诺伊达的理想居所？' : 'Looking for a home in Greater Noida?'}
                 </h2>
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '40px', maxWidth: '560px', margin: '0 auto 40px' }}>
-                    Explore our collection of luxury residences or message our team on WhatsApp for instant assistance.
+                    {isZh
+                        ? '探索我们的豪华住宅系列，或通过微信 / WhatsApp 联系我们的专属团队获得即时协助。'
+                        : 'Explore our collection of luxury residences or message our team on WhatsApp for instant assistance.'}
                 </p>
                 <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                     <Link
@@ -264,10 +284,10 @@ const BlogPost = () => {
                         onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        Explore Residences &rarr;
+                        {isZh ? '查看精选房源 \u2192' : 'Explore Residences \u2192'}
                     </Link>
                     <a
-                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20read%20your%20blog%20post%20and%20I%27d%20like%20to%20know%20more%20about%20housing%20in%20Greater%20Noida`}
+                        href={`https://wa.me/${PHONE}?text=${encodeURIComponent(isZh ? '您好，我了解了贵司大诺伊达服务式公寓博客，想咨询外派住宿预订。' : 'Hello, I read your blog post and I would like to know more about housing in Greater Noida')}`}
                         target="_blank" rel="noopener noreferrer"
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '12px',
@@ -279,7 +299,7 @@ const BlogPost = () => {
                         onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        <FaWhatsapp size={22} /> WhatsApp Us
+                        <FaWhatsapp size={22} /> {isZh ? '微信 / WhatsApp 咨询' : 'WhatsApp Us'}
                     </a>
                 </div>
             </div>

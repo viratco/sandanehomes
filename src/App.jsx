@@ -49,6 +49,8 @@ function App() {
           <Route path="/chinese-expat-housing-greater-noida" element={<ChineseExpatHousing />} />
           <Route path="/blog" element={<BlogList />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/zh/:slug" element={<BlogPost />} />
+          <Route path="/cn/:slug" element={<BlogPost />} />
           
           {/* SEO Landing Pages (Pages 3-15) */}
           <Route path="/serviced-apartments-ansal-golf-links" element={<LandingPage slug="serviced-apartments-ansal-golf-links" />} />

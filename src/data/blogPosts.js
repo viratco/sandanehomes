@@ -519,110 +519,201 @@ export const blogPosts = [
         tags: ["Greater Noida Guide", "Where to Stay", "Neighborhood Guide", "Serviced Residences"]
     },
     {
-        slug: "chinese-expat-housing-greater-noida-serviced-apartments",
-        title: "Chinese Expat Housing in Greater Noida: Best Serviced Apartments & Hotels",
-        subtitle: "A complete guide for Chinese professionals relocating to Greater Noida — from finding the right accommodation to settling in with ease.",
-        category: "Expat Living",
-        date: "July 20, 2026",
-        readTime: "7 min read",
-        author: "Sandane Homes Team",
+        slug: "da-nuoyida-fuwushi-gongyu-zhinan",
+        title: "大诺伊达服务式公寓完整指南——为中国外派员工打造",
+        metaTitle: "大诺伊达服务式公寓完整指南 | 近维沃OPPO工厂 | Sandane Homes",
+        metaDescription: "大诺伊达（Greater Noida）服务式公寓完整指南，专为中国外派员工打造。近维沃、OPPO工厂，全套厨房设备，每日保洁，FRRO登记协助。",
+        subtitle: "大诺伊达（Greater Noida）服务式公寓完整指南，专为中国外派员工打造",
+        category: "外派住宿指南",
+        lang: "zh-CN",
+        date: "July 22, 2026",
+        readTime: "6 分钟阅读",
+        author: "Sandane Homes 团队",
         coverImage: "/blog/covers/living-room.jpg",
-        coverGradient: "linear-gradient(135deg, #8B0000 0%, #1A3C34 50%, #C5A572 100%)",
-        excerpt: "Greater Noida hosts a fast-growing Chinese business community drawn by manufacturing, trade, and expo opportunities. Here is how to find the best housing as a Chinese expat.",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #8B0000 50%, #C5A572 100%)",
+        excerpt: "大诺伊达（Greater Noida）服务式公寓完整指南，专为中国外派员工打造。近维沃、OPPO工厂，全套厨房设备，每日保洁，FRRO登记协助。",
         content: [
-            { type: "paragraph", text: "Greater Noida has emerged as one of North India's most important hubs for Chinese business professionals, engineers, and trade representatives. With the India Expo Mart — one of Asia's largest exhibition centers — attracting Chinese companies across electronics, manufacturing, and infrastructure sectors, the demand for premium short-stay and long-stay accommodation for Chinese nationals has grown significantly." },
-            { type: "heading", text: "Why Greater Noida for Chinese Expats?" },
-            { type: "paragraph", text: "Unlike Delhi or Gurgaon, Greater Noida offers a unique combination of space, safety, and affordability. Chinese professionals working with companies along the Yamuna Expressway industrial corridor — including electronics manufacturing, auto components, and engineering firms — find Greater Noida ideally positioned to minimize daily commute time." },
+            { type: "paragraph", text: "大诺伊达（Greater Noida）近年来已成为印度最重要的电子制造业中心之一。维沃（Vivo）在Kasna地区的大型智能手机制造工厂，OPPO在Ecotech-VII的生产基地，以及围绕这两家企业逐渐形成的供应链网络，共同推动了这一区域的快速发展。" },
+            { type: "paragraph", text: "对于被派驻到这里工作的中国工程师、经理和技术人员来说，住房选择直接影响到派驻期间的生活质量——这通常是6个月到数年不等的长期安排。" },
+            { type: "heading", text: "什么是服务式公寓" },
+            { type: "paragraph", text: "服务式公寓是一种完全配备家具的住宅式公寓，同时提供酒店级别的服务：每日保洁、水电网络全包、洗衣服务，以及专门的维修响应团队。与普通租房不同的是服务，与酒店不同的是空间和真正可以做饭的厨房。" },
+            { type: "heading", text: "大诺伊达最适合中国外派人员居住的社区" },
             { type: "list", items: [
-                "India Expo Mart proximity: For Chinese delegations attending trade exhibitions (like the India International Trade Fair spin-offs and sector-specific expos), Greater Noida is the closest premium residential base.",
-                "Yamuna Expressway connectivity: Direct, uncongested road access to manufacturing zones and industrial sectors hosting Chinese FDI projects.",
-                "Gated community safety: Premium societies like Jaypee Greens, Ansal Golf Links, and Godrej Golf Link offer the kind of secure, disciplined environment that Chinese professionals appreciate.",
-                "Airport access: 55–65 minutes to Indira Gandhi International Airport via the Yamuna Expressway, ideal for frequent travelers back to China."
+                "Jaypee Greens（杰佩格林社区）：这是整个走廊地区国际外派人员最集中的社区，围绕高尔夫球场建设，道路宽敞，绿化良好，安保严格。距离维沃工厂约15分钟车程，距离OPPO工厂约20分钟车程。",
+                "Ansal Golf Links（安萨尔高尔夫社区）：公寓面积普遍更大，环境更安静，位于诺伊达和大诺伊达之间，交通便利。",
+                "Godrej Golf Link（歌德瑞高尔夫社区）：高端别墅选项，建筑质量出色，适合高级管理人员或需要更大居住空间的家庭。"
             ] },
-            { type: "heading", text: "Serviced Apartments vs. Hotels for Chinese Expats in Greater Noida" },
-            { type: "paragraph", text: "While several business hotels operate near the India Expo Mart and Pari Chowk, they are primarily suited for short stays of 2–5 days. For Chinese professionals on extended assignments of 1–12 months, serviced apartments provide a dramatically superior experience:" },
+            { type: "heading", text: "选择服务式公寓前必须确认的事项" },
+            { type: "paragraph", text: "在签约任何住房之前，务必明确以下几点：" },
             { type: "list", items: [
-                "Full kitchen facilities to prepare home-style Chinese meals — a critical comfort factor for long-term stays.",
-                "Significantly larger living spaces: a full 1BHK or 2BHK apartment versus a single hotel room.",
-                "25–40% lower daily cost on stays exceeding 30 days compared to business hotels.",
-                "A private, residential environment instead of a high-traffic hotel lobby.",
-                "Fully managed FRRO documentation for hassle-free visa compliance."
+                "厨房设备是否真正齐全——不只是有炉灶和冰箱，而是包括炒锅、蒸锅等中式烹饪所需的完整设备。这一点对中国员工尤其重要，因为家常菜的烹饪方式对厨具要求较高。",
+                "保洁频率是每日还是每周——每日保洁才是真正的服务式公寓标准。",
+                "WiFi速度是否有书面承诺——建议要求至少300 Mbps，这样才能满足与国内团队视频会议的需求。",
+                "是否提供FRRO登记文件协助——所有在印度停留超过180天的外国公民都必须在抵达后14天内完成FRRO（外国人区域注册办公室）登记，需要住宿提供方出具地址证明信。这是整个流程中最容易被耽误的环节，务必提前确认。"
             ] },
-            { type: "heading", text: "Sandane Homes: Trusted by Chinese Professionals in Greater Noida" },
-            { type: "paragraph", text: "At Sandane Homes, we have extensive experience hosting Chinese expat professionals across industries. Our serviced apartments in Jaypee Greens and Ansal Golf Links offer fully furnished, well-equipped spaces with dedicated support for FRRO registration, company invoicing, and airport transfers. Contact us on WhatsApp for a same-day availability check." },
-            { type: "quote", text: "Sandane Homes made our team's 4-month project stay in Greater Noida completely seamless — from FRRO documentation to organizing Chinese New Year celebrations in the apartment.", attribution: "— Project Manager, Chinese Engineering Firm, Greater Noida" }
+            { type: "heading", text: "关于Sandane Homes的Residencies" },
+            { type: "paragraph", text: "我们在Jaypee Greens、Ansal Golf Links和Godrej Golf Link均设有全权管理的服务式公寓，专为包括中国、韩国、日本外派员工在内的国际专业人士打造。全套家具、每日保洁、300 Mbps高速网络、空气净化器、100%备用电源，以及FRRO登记文件协助。企业客户可直接开具GST发票。我们还提供专属车队服务，涵盖机场接送和日常通勤。" },
+            { type: "paragraph", text: "如果贵公司有员工即将派驻大诺伊达，欢迎联系我们了解详情。" },
+            { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / KakaoTalk / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 大诺伊达团队" }
         ],
-        tags: ["Chinese Expats", "Greater Noida Housing", "Serviced Apartments", "India Expo Mart", "Chinese Professionals India"]
+        tags: ["大诺伊达服务式公寓", "中国外派员工", "维沃OPPO工厂住宿", "FRRO登记协助", "Jaypee Greens"]
     },
     {
-        slug: "chinese-expat-guide-frro-registration-greater-noida",
-        title: "FRRO Guide for Chinese Nationals in Greater Noida: Step-by-Step Registration",
-        subtitle: "Avoid visa compliance delays — here is exactly what Chinese expats need to complete FRRO registration smoothly in Noida and Greater Noida.",
-        category: "Legal & Admin",
-        date: "July 19, 2026",
-        readTime: "6 min read",
-        author: "Sandane Homes Team",
+        slug: "weiwo-oppo-yuangong-zhusu-zhinan",
+        title: "维沃、OPPO印度工厂员工住宿完整指南",
+        metaTitle: "维沃(Vivo)、OPPO印度工厂员工住宿完整指南 | Sandane Homes",
+        metaDescription: "维沃和OPPO在大诺伊达工厂附近的最佳员工住宿选择。全套厨房设备，FRRO登记协助，企业GST开票，专属车队服务。",
+        subtitle: "维沃(Vivo)、OPPO在大诺伊达工厂附近的最佳员工住宿选择",
+        category: "企业外派住宿",
+        lang: "zh-CN",
+        date: "July 21, 2026",
+        readTime: "5 分钟阅读",
+        author: "Sandane Homes 团队",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #8B0000 50%, #C5A572 100%)",
+        excerpt: "维沃和OPPO在大诺伊达工厂附近的最佳员工住宿选择。全套厨房设备，FRRO登记协助，企业GST开票，专属车队服务。",
+        content: [
+            { type: "paragraph", text: "如果您即将被公司派往维沃在Kasna的工厂，或OPPO在Ecotech-VII的生产基地工作，这篇指南将为您提供实用的住房建议。" },
+            { type: "heading", text: "工厂地理位置概览" },
+            { type: "paragraph", text: "维沃的大型智能手机制造工厂位于大诺伊达Kasna地区，产能规模可观。OPPO的生产基地位于大诺伊达工业发展区的Ecotech-VII区块。这两家企业都是Yamuna高速公路走廊电子制造业集群的重要组成部分，近年来该区域持续快速发展。" },
+            { type: "heading", text: "大多数外派员工的居住选择" },
+            { type: "paragraph", text: "Jaypee Greens和Ansal Golf Links是距离Kasna和Ecotech工业区最近的高端住宅社区，车程一般在10到20分钟之间，具体取决于工厂位置和交通状况。这两个社区提供门禁安保、良好维护的环境，以及逐渐形成的国际社区氛围。" },
+            { type: "heading", text: "为什么厨房配置对中国员工尤为重要" },
+            { type: "paragraph", text: "印度租房市场中的\"精装公寓\"标准差异很大——有些仅有一个炉灶和冰箱，有些则配备完整的厨具。中式烹饪（炒菜需要较大火力，蒸菜需要专门设备）对厨房设备的要求较高，建议在确定住房前明确询问具体配置，而不是想当然地认为\"精装\"就等于齐全。" },
+            { type: "heading", text: "FRRO登记——最容易被忽视的环节" },
+            { type: "paragraph", text: "任何在印度停留超过180天的外国公民，必须在抵达后14天内完成FRRO登记。所需材料包括护照、签证、公司雇佣证明信，以及——这是最常导致延误的部分——住宿提供方出具的地址确认信。" },
+            { type: "paragraph", text: "建议在预订住房前直接询问：\"入住后多久能拿到FRRO地址确认信？\"一个明确、自信的回答（理想情况下是24至48小时内）通常也反映了这家住房提供商整体的服务水平。" },
+            { type: "heading", text: "空气质量——季节性因素" },
+            { type: "paragraph", text: "每年10月至次年2月，整个德里NCR地区（包括大诺伊达）的空气质量会明显下降。对于来自中国类似受影响城市的员工来说，这种情况并不陌生。多数有经验的居民会在这几个月内使用空气净化器，将其视为标准配置而非可选项。" },
+            { type: "heading", text: "时差——比想象中更方便" },
+            { type: "paragraph", text: "印度比中国标准时间慢2.5小时，这个时差对于与国内团队协调工作来说相当友好，比欧洲或美国同事需要处理的时差简单得多。" },
+            { type: "heading", text: "Sandane Homes 如何提供帮助" },
+            { type: "paragraph", text: "我们在Jaypee Greens和Ansal Golf Links运营全权管理的服务式公寓，专为维沃、OPPO及大诺伊达制造业走廊的员工打造。全套配齐的厨房、每日保洁、300 Mbps网络、空气净化器、FRRO登记协助，以及企业GST开票服务。同时提供专属车队，负责机场接送和工厂日常通勤。" },
+            { type: "paragraph", text: "对于同时安置多名员工的企业客户，我们可以将团队安排在同一社区，并合并为单一发票，简化行政流程。" },
+            { type: "paragraph", text: "欢迎联系了解更多详情。" },
+            { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 企业外派服务部" }
+        ],
+        tags: ["维沃工厂住宿", "OPPO工厂住宿", "Kasna工业区", "Ecotech-VII", "企业长住公寓"]
+    },
+    {
+        slug: "yindu-frro-dengji-zhongguo-gongmin-zhinan",
+        title: "中国公民在印度FRRO登记完整流程指南",
+        metaTitle: "中国公民在印度FRRO登记完整流程指南 | Sandane Homes",
+        metaDescription: "详细解读中国公民在印度的FRRO外国人登记流程、所需材料和常见延误问题，帮助您顺利完成法定登记手续。",
+        subtitle: "帮助您顺利完成在印度的FRRO外国人法定登记手续",
+        category: "法律与行政",
+        lang: "zh-CN",
+        date: "July 20, 2026",
+        readTime: "5 分钟阅读",
+        author: "Sandane Homes 团队",
         coverImage: "/blog/covers/hallway-mirror.jpg",
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #8B0000 50%, #C5A572 100%)",
-        excerpt: "Chinese nationals on Business, Employment, or Project visas must register with FRRO within 14 days. Learn what documents are needed and how Sandane Homes guarantees 24-hour address verification.",
+        excerpt: "详细解读中国公民在印度的FRRO外国人登记流程、所需材料和常见延误问题，帮助您顺利完成法定登记手续。",
         content: [
-            { type: "paragraph", text: "For Chinese nationals arriving in India on long-term visas — including Employment (E), Business (B), or Project (P) visas — registering with the Foreigners Regional Registration Office (FRRO) is a mandatory legal requirement. Registration must be completed within 14 days of arrival. Non-compliance can result in visa penalties or complications during future travel. For Chinese professionals based in Noida or Greater Noida, this process is handled through the e-FRRO online portal (indianfrro.gov.in)." },
-            { type: "heading", text: "Documents Required for FRRO Registration (Chinese Nationals)" },
-            { type: "paragraph", text: "The e-FRRO system requires a precise set of documents for Chinese nationals. Incomplete or improperly formatted documents are the leading cause of rejection and delays:" },
+            { type: "paragraph", text: "FRRO（外国人区域注册办公室）登记是任何在印度停留超过180天的外国公民必须完成的法定手续。这个流程本身并不复杂，但因为准备不足而延误的情况却相当常见。以下是详细的流程解读，特别针对派驻大诺伊达制造业走廊工作的中国公民。" },
+            { type: "heading", text: "谁需要办理FRRO登记" },
+            { type: "paragraph", text: "持有工作签证或商务签证、在印度停留超过180天的所有外国公民，包括中国籍人士，都必须办理登记，且必须在抵达印度后14天内完成——这是硬性法律规定，并非建议性质，逾期登记将面临罚款。" },
+            { type: "heading", text: "办理登记前需要准备的材料" },
             { type: "list", items: [
-                "Valid Chinese Passport with visa stamp (Employment, Business, or Project visa).",
-                "Original visa letter from the Indian company / sponsor (Form C for hotels; landlord letter for private accommodation).",
-                "Completed rental/lease agreement between the tenant (you) and the property owner — must include exact address, lease dates, and landlord's signature.",
-                "Copy of landlord's Aadhaar card and PAN card.",
-                "Copy of the utility bill (electricity or water) at the exact property address — must be a recent bill within the last 2 months.",
-                "Passport-sized photographs.",
-                "Company appointment/deputation letter from Chinese employer or Indian subsidiary."
+                "有效护照及签证",
+                "护照照片（需符合当前门户网站的具体规格要求）",
+                "公司出具的雇佣或派驻证明信",
+                "住宿提供方出具的官方地址确认信——这是整个流程中最容易造成延误的环节"
             ] },
-            { type: "heading", text: "Why Sandane Homes Is the Best Choice for FRRO-Compliant Housing" },
-            { type: "paragraph", text: "Since we are the direct property owner and manager of all our serviced apartments, Sandane Homes can provide every document required for FRRO address verification within 24 hours of your check-in:" },
-            { type: "list", items: [
-                "Pre-formatted landlord confirmation letter with all legally required details.",
-                "Registered lease agreement in the correct format accepted by the e-FRRO portal.",
-                "Current utility bill (electricity) with exact property address matching the lease.",
-                "Copies of all property ownership documents for the upload portal."
-            ] },
-            { type: "paragraph", text: "Our concierge team has assisted hundreds of international expats — including Chinese professionals — in completing FRRO registration without a single document rejection. We coordinate directly with your company's India HR team and guide you through every step of the online portal submission." },
-            { type: "quote", text: "Our entire FRRO registration was completed in under 48 hours thanks to Sandane Homes providing all the correct address documents immediately. It was the smoothest part of our India relocation.", attribution: "— Senior Engineer, Chinese Manufacturing Company, Surajpur" }
+            { type: "heading", text: "登记流程" },
+            { type: "paragraph", text: "目前登记主要通过在线门户网站（indianfrro.gov.in）完成。您需要创建账户，提交所需材料，多数情况下还需要进行简短的现场核实，不过整体流程已逐步向线上化方向简化。" },
+            { type: "heading", text: "最容易导致延误的环节" },
+            { type: "paragraph", text: "地址确认信。如果您的住宿是由公司安排的，请提前——而不是等到需要时才——向住宿提供方确认他们是否会主动提供这份文件，以及需要多长时间。那些需要多次催促才能提供这份文件的住宿提供商，往往也反映了其整体服务水平存在问题，不仅仅是文件延误这么简单。" },
+            { type: "heading", text: "公司的协助角色" },
+            { type: "paragraph", text: "您所在公司的人力资源或行政部门通常会协助整个登记流程，但最终责任在于个人本身。建议自行记录14天期限，而不是完全依赖他人代为管理，尤其是在抵达初期，工作交接和登记流程同时进行的繁忙阶段。" },
+            { type: "heading", text: "实用建议" },
+            { type: "paragraph", text: "在安排住宿之前，明确询问这个问题：\"入住后多久能拿到FRRO地址确认信？\"一个具体、自信的回答，是判断这家住宿提供商整体行政服务水平的重要参考。" },
+            { type: "paragraph", text: "对于即将派驻大诺伊达制造业走廊的中国专业人士，提前确认这一细节，能显著减少抵达初期两周内的行政压力。" },
+            { type: "paragraph", text: "Sandane Homes 为所有入住的外国籍客户标准提供FRRO地址确认信协助服务，无需额外催促。" },
+            { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 法务与客户支持" }
         ],
-        tags: ["FRRO Registration", "Chinese Nationals India", "Visa Compliance", "Greater Noida Expats", "e-FRRO Guide"]
+        tags: ["FRRO登记", "中国公民印度签证", "地址证明信", "e-FRRO流程", "大诺伊达外派"]
     },
     {
-        slug: "chinese-professionals-serviced-apartments-near-india-expo-mart",
-        title: "Serviced Apartments Near India Expo Mart for Chinese Delegations & Long-Term Stays",
-        subtitle: "Premium, hotel-quality accommodation steps from Greater Noida's India Expo Mart — ideal for Chinese trade delegations and project teams.",
-        category: "Corporate Stays",
-        date: "July 18, 2026",
-        readTime: "5 min read",
-        author: "Sandane Homes Team",
+        slug: "yindu-shenghuo-zhongguo-yuangong",
+        title: "中国外派员工在大诺伊达的生活指南",
+        metaTitle: "中国外派员工在大诺伊达的生活指南——美食、社区与日常 | Sandane Homes",
+        metaDescription: "大诺伊达中国外派员工生活实用指南：中式食材采购、社区网络建设、银行开户、SIM卡办理等日常生活要点。",
+        subtitle: "中式食材采购、社区网络建设、银行开户、SIM卡办理等日常生活要点",
+        category: "生活指南",
+        lang: "zh-CN",
+        date: "July 19, 2026",
+        readTime: "6 分钟阅读",
+        author: "Sandane Homes 团队",
         coverImage: "/blog/covers/kitchen.jpg",
         coverGradient: "linear-gradient(135deg, #1A3C34 0%, #8B0000 50%, #C5A572 100%)",
-        excerpt: "From short expo visits to 6-month engineering projects, Chinese teams in Greater Noida choose serviced apartments over hotels for space, cost, and cultural comfort.",
+        excerpt: "大诺伊达中国外派员工生活实用指南：中式食材采购、社区网络建设、银行开户、SIM卡办理等日常生活要点。",
         content: [
-            { type: "paragraph", text: "The India Expo Mart in Greater Noida is one of the largest exhibition and convention centers in Asia, and it hosts dozens of major trade fairs attended by thousands of Chinese business delegations each year — from electronics and solar panels to furniture, chemicals, and auto components. Whether you are attending a 3-day exhibition or your company has assigned a project team for 6 months, choosing the right accommodation in Greater Noida makes an enormous difference." },
-            { type: "heading", text: "India Expo Mart Proximity: Why Location Matters" },
-            { type: "paragraph", text: "Our premium serviced apartments in Jaypee Greens and Ansal Golf Links are located just 10–20 minutes from the India Expo Mart by road, offering immediate access without the congestion of central Delhi or Noida. For Chinese delegations attending multi-day exhibitions, this proximity eliminates taxi costs and morning rush stress." },
-            { type: "heading", text: "What Chinese Guests Appreciate About Sandane Homes" },
-            { type: "paragraph", text: "We have hosted Chinese professionals from multiple industries and understand their specific expectations. Here is what our Chinese guests consistently appreciate:" },
-            { type: "list", items: [
-                "Full kitchen for self-catering: Access to wok-friendly gas stoves, large refrigerators, and all cooking essentials to prepare Chinese cuisine at home — a significant comfort during long stays.",
-                "Quiet, private environment: Unlike busy hotel lobbies with constant foot traffic, our gated society apartments offer a calm, residential feel after long conference days.",
-                "WeChat/WhatsApp support: Our team communicates on WeChat and WhatsApp for easy, real-time coordination throughout your stay.",
-                "Air purification: Every apartment is equipped with air purifiers — a feature highly valued by Chinese guests accustomed to similar standards at home.",
-                "Flexible check-in and check-out: We accommodate late-night arrivals and early morning airport drop-offs, critical for Chinese guests on international flight schedules.",
-                "Corporate invoicing in INR: Clean, GST-compliant invoices for your company's Indian subsidiary or direct reimbursement process."
-            ] },
-            { type: "heading", text: "Group & Corporate Bookings for Chinese Project Teams" },
-            { type: "paragraph", text: "Chinese EPC firms, engineering companies, and manufacturing vendors often deploy teams of 3–15 people to Greater Noida for project durations of 3–12 months. Sandane Homes offers dedicated corporate housing packages with multiple simultaneous units in the same society, one account manager, and consolidated monthly billing — making life significantly easier for your India HR coordinator." },
-            { type: "quote", text: "我们在桑达内家园的住宿非常舒适。厨房设施完善，让我们的团队能够自己烹饪中餐，这对长期出差来说非常重要。服务团队专业高效，随时通过微信提供支持。", attribution: "— 项目经理，中国基础设施公司，大诺伊达" }
+            { type: "paragraph", text: "除了住房和法律手续，日常生活中的细节——能否吃到熟悉的食物、能否找到可以交流的社区——往往决定了一次派驻经历是否真正可持续。以下是围绕这些实际问题的指南。" },
+            { type: "heading", text: "中式食材采购" },
+            { type: "paragraph", text: "随着大诺伊达中国专业人士社区的成长，食材采购情况比多数人预期的要好，但仍需要花些心思寻找。" },
+            { type: "paragraph", text: "德里的专门进口商店可以买到酱油、面条、花椒等常见调料。亚马逊印度也逐渐上架了不少中式基础食材，配送覆盖大诺伊达地区，相对可靠。" },
+            { type: "paragraph", text: "外出就餐的选择在大诺伊达本地相对有限，中央诺伊达和德里的选择更丰富，但随着本地社区壮大，这一情况正在逐步改善。" },
+            { type: "heading", text: "大多数人最终的实际安排" },
+            { type: "paragraph", text: "多数中国专业人士在这里最终会比在国内更频繁地在家做饭——不是因为选择有限，而是因为开车去中央诺伊达吃饭远不如在家做饭方便。这也是为什么住房中厨房设备是否齐全变得格外重要的原因——不仅仅是有炉灶，而是有真正能做出家常菜的完整厨具。" },
+            { type: "heading", text: "社区网络" },
+            { type: "paragraph", text: "中国专业人士社区规模虽然比韩国或日本社区小，但确实存在并在制造业基础扩大的同时持续成长。中国驻印度商会以及与主要制造业雇主相关的非正式网络，是建立联系的合理起点。围绕特定公司或大德里NCR地区组建的微信群，很可能是最快融入社区的方式——建议在抵达第一周就请同事拉您入群，而不是等待。" },
+            { type: "heading", text: "银行开户与SIM卡办理" },
+            { type: "paragraph", text: "SIM卡办理需要护照和签证进行现场身份核实，建议在抵达后48小时内完成。汇丰银行（HDFC）和ICICI银行对外国公民的开户流程相对便捷，通常需要FRRO登记进度证明及雇佣证明信。" },
+            { type: "heading", text: "子女教育与医疗" },
+            { type: "paragraph", text: "大诺伊达及周边诺伊达走廊的国际学校和CBSE课程学校，越来越有经验处理外派家庭孩子的插班入学。医疗方面，大诺伊达的Kailash医院和Fortis医院可覆盖大部分日常医疗需求，专科医疗有时需前往德里，车程约45至60分钟。" },
+            { type: "heading", text: "整体建议" },
+            { type: "paragraph", text: "这里的生活基础设施——住房、食物、社区——正随着制造业基础的扩大而持续发展。选择一家配备齐全厨房、服务可靠、提供文件协助的住宿提供商，能显著缓解一次通常长达数年的专业派驻期间的适应压力。" },
+            { type: "paragraph", text: "Sandane Homes 为中国外派专业人士提供全权管理的服务式公寓，欢迎联系了解详情。" },
+            { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 生活礼宾部" }
         ],
-        tags: ["India Expo Mart", "Chinese Delegation Housing", "Greater Noida Serviced Apartments", "Chinese Expat India", "Corporate Accommodation"]
+        tags: ["印度生活指南", "中国外派员工", "中式食材采购", "大诺伊达微信群", "银行卡与SIM卡"]
     },
+    {
+        slug: "da-nuoyida-changzhu-gongyu-vs-jiudian",
+        title: "大诺伊达长住公寓 vs 酒店：哪个更适合长期派驻？",
+        metaTitle: "大诺伊达长住公寓 vs 酒店：哪个更适合长期派驻？| Sandane Homes",
+        metaDescription: "大诺伊达长期派驻员工应该选择服务式公寓还是酒店？详细成本和体验对比分析，帮助企业和个人做出明智选择。",
+        subtitle: "详细成本和体验对比分析，帮助企业和个人做出明智选择",
+        category: "对比与指南",
+        lang: "zh-CN",
+        date: "July 18, 2026",
+        readTime: "5 分钟阅读",
+        author: "Sandane Homes 团队",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #8B0000 50%, #C5A572 100%)",
+        excerpt: "大诺伊达长期派驻员工应该选择服务式公寓还是酒店？详细成本和体验对比分析，帮助企业和个人做出明智选择。",
+        content: [
+            { type: "paragraph", text: "对于即将派驻大诺伊达工作数月甚至数年的专业人士来说，住酒店还是选择服务式公寓，是一个值得认真权衡的实际问题。以下是基于实际情况的诚实对比。" },
+            { type: "heading", text: "酒店的优势" },
+            { type: "paragraph", text: "无需任何前期准备，入住即可使用。酒店内设施齐全，包括餐厅、健身房、客房服务。灵活性高，退房和延期相对容易。" },
+            { type: "heading", text: "酒店对长期派驻的局限性" },
+            { type: "paragraph", text: "没有厨房，意味着每一餐都依赖酒店餐厅或外卖，长期下来成本和健康影响都不容忽视。只有一个房间，没有真正的生活空间。按夜计费，长期住宿总成本往往显著高于按月计费的服务式公寓。" },
+            { type: "heading", text: "服务式公寓的优势" },
+            { type: "paragraph", text: "真正的居住空间——卧室、客厅、可以实际做饭的厨房。按月计费，长期住宿的每晚实际成本通常显著低于同等条件的酒店。提供FRRO登记协助和企业GST开票，这两项在长期派驻中非常重要，酒店通常无法提供同等支持。" },
+            { type: "heading", text: "成本对比的实际情况" },
+            { type: "paragraph", text: "对于任何超过一个月的住宿，服务式公寓在财务和生活体验两方面通常都优于酒店，即使不考虑其他因素。以德里NCR地区中等商务酒店为例，长期住宿的总成本往往显著高于同等品质的服务式公寓，且空间和生活体验相差悬殊。" },
+            { type: "heading", text: "什么时候酒店仍然是更好的选择" },
+            { type: "paragraph", text: "真正短期的停留（一周以内），或者特别看重酒店特定设施（如健身房、泳池）的情况下，酒店仍然是更实用的选择。" },
+            { type: "heading", text: "大诺伊达制造业走廊的具体情况" },
+            { type: "paragraph", text: "对于派驻维沃、OPPO或大诺伊达制造业走廊工作的专业人士，Jaypee Greens和Ansal Golf Links的服务式公寓提供了介于酒店和普通租房之间的最佳平衡——真正的居住体验，加上专业化的服务保障。" },
+            { type: "heading", text: "Sandane Homes 的服务式公寓" },
+            { type: "paragraph", text: "我们在大诺伊达提供全权管理的服务式公寓，全套家具、每日保洁、齐全厨房设备、FRRO登记协助、企业GST开票，以及专属车队服务。适合2周至24个月的灵活住宿期限。" },
+            { type: "paragraph", text: "如果您的企业即将派驻员工到大诺伊达，欢迎联系我们了解具体方案。" },
+            { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 品牌部" }
+        ],
+        tags: ["服务式公寓对比", "大诺伊达酒店", "企业住房成本", "长期住宿", "Sandane Homes"]
+    }
 ];
 
-export const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug) || null;
-export const getRelatedPosts = (slug, count = 3) => blogPosts.filter(p => p.slug !== slug).slice(0, count);
+export const getBlogPost = (slug) => {
+    if (!slug) return null;
+    const cleanSlug = slug.replace(/^\/?(zh|cn|blog)\//, '').replace(/^\/+/, '');
+    return blogPosts.find(p => p.slug === cleanSlug || p.slug === slug) || null;
+};
+
+export const getRelatedPosts = (slug, count = 3) => {
+    const current = getBlogPost(slug);
+    const currentSlug = current ? current.slug : slug;
+    return blogPosts.filter(p => p.slug !== currentSlug).slice(0, count);
+};
