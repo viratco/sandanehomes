@@ -5,6 +5,110 @@
 
 export const blogPosts = [
     {
+        "slug": "hotels-near-india-expo-mart-greater-noida",
+        "title": "Hotels Near India Expo Mart Greater Noida",
+        "metaTitle": "Hotels Near India Expo Mart Greater Noida | Sandane Homes",
+        "metaDescription": "Corporate hotels near India Expo Mart in Greater Noida. Minutes from the venue. Group booking consolidation, GST invoicing, workspace-ready rooms for exhibitors & delegations.",
+        "subtitle": "Corporate hotels near India Expo Mart and Expo Plaza in Greater Noida — minutes from venue gates with group booking consolidation & GST billing.",
+        "category": "Hotel Stays",
+        "date": "July 23, 2026",
+        "readTime": "5 min read",
+        "author": "Sandane Homes Team",
+        "coverImage": "/blog/covers/living-room.jpg",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        "excerpt": "Corporate hotels near India Expo Mart in Greater Noida. Minutes from the venue. Group booking consolidation, GST invoicing, workspace-ready rooms for exhibitors & delegations.",
+        "content": [
+                {
+                        "type": "paragraph",
+                        "text": "When major international trade fairs, expos, and global summits take place at <strong>India Expo Mart & Centre</strong> (Knowledge Park II, Greater Noida), thousands of exhibitors, corporate travel managers, and overseas trade delegations flood the city. Securing reliable, comfortable hotel accommodation near the venue is crucial to avoid exhausting commutes and guarantee a productive stay."
+                },
+                {
+                        "type": "heading",
+                        "text": "Why Location Matters: Staying Near India Expo Mart & Expo Plaza"
+                },
+                {
+                        "type": "paragraph",
+                        "text": "Navigating Greater Noida during peak exhibition hours can be stressful if your hotel is miles away in Central Delhi or Gurgaon. <a href=\"/\">Sandane Homes</a> operates a curated collection of boutique hotel properties — including <a href=\"/amaaltash\">Amaaltash</a>, <a href=\"/saffron\">Saffron Inn</a>, <a href=\"/pine-tales\">Pine Tales</a>, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — positioned just minutes from India Expo Mart, Expo Plaza, and <a href=\"/blog/hotels-near-pari-chowk-greater-noida\">Pari Chowk</a>."
+                },
+                {
+                        "type": "list",
+                        "items": [
+                                "<strong>Under 10 Minutes to Expo Mart Gates:</strong> Quick, signal-free transit so your team arrives early at booth setups without rush-hour stress.",
+                                "<strong>Close to Pari Chowk & Knowledge Park:</strong> Instant access to Aqua Line Metro stations, dining belts, and commercial hubs.",
+                                "<strong>Quiet Residential Setting:</strong> Peaceful environments designed for evening recovery after long trade fair days."
+                        ]
+                },
+                {
+                        "type": "heading",
+                        "text": "Tailored Corporate Services for Trade Fair Delegations & Exhibitors"
+                },
+                {
+                        "type": "paragraph",
+                        "text": "Unlike standard tourist hotels, Sandane Homes hotel properties are engineered for business assignees and corporate delegations attending events at Expo Plaza and India Expo Mart:"
+                },
+                {
+                        "type": "list",
+                        "items": [
+                                "<strong>Group Booking Consolidation:</strong> Reserve multiple room inventory blocks in the same hotel property with one dedicated account manager.",
+                                "<strong>Consolidated Corporate GST Invoicing:</strong> Clean, itemized B2B invoicing in INR for seamless tax compliance and HR reimbursement.",
+                                "<strong>Workspace-Ready Guest Rooms:</strong> Ergonomic desks, multi-plug charging stations, and dedicated 300 Mbps high-speed optical fiber WiFi in every room.",
+                                "<strong>Flexible Check-In & Check-Out:</strong> Accommodation tailored to early morning flight arrivals and late-night exhibition teardowns."
+                        ]
+                },
+                {
+                        "type": "heading",
+                        "text": "Explore Sandane Homes Hotel Properties"
+                },
+                {
+                        "type": "paragraph",
+                        "text": "Whether you are a solo corporate auditor or managing a 20-person vendor booth team, choose the hotel layout that best fits your travel requirement:"
+                },
+                {
+                        "type": "list",
+                        "items": [
+                                "<a href=\"/amaaltash\"><strong>Amaaltash by Sandane Homes:</strong></a> Elegant, spacious guest rooms with executive workspaces and common kitchenette facilities.",
+                                "<a href=\"/saffron\"><strong>Saffron Inn by Sandane Homes:</strong></a> Stylish twin and double executive bedrooms with 24/7 room service near Pari Chowk.",
+                                "<a href=\"/coco-house\"><strong>CoCo House by Sandane Homes:</strong></a> Chic boutique hotel atmosphere with modern interiors, aesthetic lounges, and high-speed Wi-Fi.",
+                                "<a href=\"/pine-tales\"><strong>Pine Tales by Sandane Homes:</strong></a> Scenic terrace options, tranquil greenery, and complimentary hot breakfast spreads.",
+                                "<a href=\"/glam\"><strong>The Glam by Sandane Homes:</strong></a> Premium executive suites equipped with smart entertainment systems and dedicated workspace tables."
+                        ]
+                },
+                {
+                        "type": "quote",
+                        "text": "Sandane Homes hosted our 14-member trade delegation during the India Expo Mart show. The 8-minute commute, GST billing, and fast WiFi made our corporate trip seamless.",
+                        "attribution": "— Senior Trade Coordinator, International Electronics Expo"
+                },
+                {
+                        "type": "cta"
+                }
+        ],
+        "faqs": [
+                {
+                        "question": "How far are Sandane Homes hotels from India Expo Mart & Centre?",
+                        "answer": "Our hotel properties — Amaaltash, Saffron Inn, Pine Tales, CoCo House, and The Glam — are located within 8 to 12 minutes drive from India Expo Mart gates via wide, signal-free roads."
+                },
+                {
+                        "question": "Can we get consolidated GST billing for corporate group bookings?",
+                        "answer": "Yes, Sandane Homes provides fully compliant corporate GST invoices with itemized billing for corporate travel accounting and company reimbursements."
+                },
+                {
+                        "question": "Are early check-in and airport shuttle transfers available for expo exhibitors?",
+                        "answer": "Yes, we offer flexible check-in times upon request and arrange 24/7 private chauffeured transfers to both Delhi IGI Airport and Jewar Noida International Airport."
+                },
+                {
+                        "question": "What in-room amenities are provided for business travelers?",
+                        "answer": "Every room includes 300 Mbps high-speed fiber internet, dedicated workspace desks, daily housekeeping, 100% DG power backup, RO drinking water, and complimentary breakfast."
+                }
+        ],
+        "tags": [
+                "Hotels Near India Expo Mart",
+                "Expo Plaza Hotels",
+                "Greater Noida Corporate Hotels",
+                "Trade Fair Accommodation",
+                "Sandane Homes Hotels"
+        ]
+},
+    {
         slug: "surajpur-industrial-area-corporate-housing-greater-noida",
         title: "Corporate Housing Near Surajpur Industrial Area Greater Noida",
         subtitle: "Why tech and manufacturing executives choose fully managed stays in nearby gated societies.",

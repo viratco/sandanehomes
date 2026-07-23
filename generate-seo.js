@@ -167,45 +167,83 @@ SEO_MAP['/blog'] = {
 const DEFAULT_OG_IMAGE = `${BASE_URL}/residences-og.jpg`;
 
 blogPosts.forEach((post) => {
-  // Cover images are optional (posts can use a CSS gradient placeholder instead);
-  // social previews always need a real image, so fall back to the site default.
   const ogImage = post.coverImage
     ? (post.coverImage.startsWith('http') ? post.coverImage : `${BASE_URL}${post.coverImage}`)
     : DEFAULT_OG_IMAGE;
   const isoDate = new Date(post.date).toISOString();
+  const pageTitle = post.metaTitle || `${post.title} | Sandane Homes Journal`;
+  const pageDescription = post.metaDescription || post.excerpt;
+
+  const schemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": post.title,
+      "description": pageDescription,
+      "image": ogImage,
+      "datePublished": isoDate,
+      "dateModified": isoDate,
+      "author": { "@type": "Organization", "name": post.author || "Sandane Homes" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sandane Homes",
+        "logo": { "@type": "ImageObject", "url": `${BASE_URL}/logo.png` },
+      },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": `${BASE_URL}/blog/${post.slug}` },
+      "url": `${BASE_URL}/blog/${post.slug}`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
+        { "@type": "ListItem", "position": 3, "name": post.title, "item": `${BASE_URL}/blog/${post.slug}` },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Sandane Homes",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Greater Noida",
+        "addressRegion": "Uttar Pradesh",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91 97117 22273",
+      "url": `${BASE_URL}`,
+      "areaServed": [
+        "India Expo Mart",
+        "Knowledge Park Greater Noida",
+        "Pari Chowk",
+        "Alpha Commercial Belt",
+        "Surajpur",
+        "Yamuna Expressway"
+      ]
+    }
+  ];
+
+  if (post.faqs && post.faqs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": post.faqs.map((faq) => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+  }
 
   SEO_MAP[`/blog/${post.slug}`] = {
-    title: `${post.title} | Sandane Homes Journal`,
-    description: post.excerpt,
+    title: pageTitle,
+    description: pageDescription,
     ogImage,
-    schemas: [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": post.title,
-        "description": post.excerpt,
-        "image": ogImage,
-        "datePublished": isoDate,
-        "dateModified": isoDate,
-        "author": { "@type": "Organization", "name": post.author || "Sandane Homes" },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Sandane Homes",
-          "logo": { "@type": "ImageObject", "url": `${BASE_URL}/logo.png` },
-        },
-        "mainEntityOfPage": { "@type": "WebPage", "@id": `${BASE_URL}/blog/${post.slug}` },
-        "url": `${BASE_URL}/blog/${post.slug}`,
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${BASE_URL}/blog` },
-          { "@type": "ListItem", "position": 3, "name": post.title, "item": `${BASE_URL}/blog/${post.slug}` },
-        ],
-      },
-    ],
+    schemas
   };
 });
 
