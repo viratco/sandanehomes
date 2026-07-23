@@ -220,7 +220,7 @@ const Residences = () => {
                 {/* Aesthetic Enquire Now Button */}
                 <div style={{ marginTop: '35px', display: 'flex', justifyContent: 'center' }}>
                     <a
-                        href="https://wa.me/919711722273?text=Hello%20Sandane%20Homes%2C%20I%20am%20interested%20in%20booking%20a%20serviced%20apartment%20/%20villa."
+                        href="https://wa.me/918826269690?text=hi..%20i%20wana%20talk%20abt%20residences%20by%20sandane%20homes"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="enquire-pulse-btn"
@@ -467,7 +467,7 @@ const Residences = () => {
 
                         <div style={{ marginTop: '10px', position: 'relative', zIndex: 2 }}>
                         <a
-                            href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20relocating%20and%20would%20like%20to%20discuss%20serviced%20residence%20options."
+                            href="https://wa.me/918826269690?text=hi..%20i%20wana%20talk%20abt%20residences%20by%20sandane%20homes"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
@@ -781,8 +781,8 @@ const Residences = () => {
                             maxWidth: '800px',
                             margin: '0 auto'
                         }}>
-                            {/* Phone Card */}
-                            <a href="tel:+919711722273" style={{
+                            {/* Phone / WhatsApp Card */}
+                            <a href="https://wa.me/918826269690?text=hi..%20i%20wana%20talk%20abt%20residences%20by%20sandane%20homes" target="_blank" rel="noopener noreferrer" style={{
                                 textDecoration: 'none',
                                 backgroundColor: '#fff',
                                 padding: '28px 24px',
@@ -812,7 +812,7 @@ const Residences = () => {
                                 </div>
                                 <div style={{ textAlign: 'left' }}>
                                     <p style={{ margin: 0, fontSize: '12px', textTransform: 'uppercase', color: '#888', fontWeight: '700', letterSpacing: '1px' }}>Call / WhatsApp / KakaoTalk</p>
-                                    <p style={{ margin: '3px 0 2px', fontSize: '18px', fontWeight: '700', color: '#1A3C34' }}>+91 97117 22273</p>
+                                    <p style={{ margin: '3px 0 2px', fontSize: '18px', fontWeight: '700', color: '#1A3C34' }}>+91 88262 69690</p>
                                     <span style={{ fontSize: '11px', color: '#C5A572', fontWeight: '600', letterSpacing: '0.5px' }}>💬 KakaoTalk &bull; WhatsApp &bull; WeChat</span>
                                 </div>
                             </a>

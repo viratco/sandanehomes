@@ -1,9 +1,15 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import './WhatsAppButton.css';
 
 const WhatsAppButton = () => {
-    const phoneNumber = "919711722273";
-    const defaultText = encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
+    const location = useLocation();
+    const isResidencesPage = location.pathname.toLowerCase() === '/residences';
+
+    const phoneNumber = isResidencesPage ? "918826269690" : "919711722273";
+    const defaultText = isResidencesPage
+        ? encodeURIComponent("hi.. i wana talk abt residences by sandane homes")
+        : encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultText}`;
 
     return (
