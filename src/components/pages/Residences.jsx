@@ -148,498 +148,6 @@ const Residences = () => {
                     </div>
                 </div>
             </div>
-
-{/* Testimonials / Reviews Section */}
-            <div style={{ 
-                backgroundColor: '#F4F0EB', 
-                padding: '100px 20px', 
-                borderTop: '1px solid rgba(197, 165, 114, 0.2)',
-                borderBottom: '1px solid rgba(197, 165, 114, 0.2)'
-            }}>
-                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-                    <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-                        <span style={{ 
-                            color: '#C5A572', 
-                            fontSize: '13px', 
-                            textTransform: 'uppercase', 
-                            letterSpacing: '3px', 
-                            fontWeight: '600',
-                            display: 'block',
-                            marginBottom: '10px'
-                        }}>
-                            Guest Experiences
-                        </span>
-                        <h2 style={{ 
-                            fontFamily: 'Playfair Display, serif', 
-                            fontSize: '42px', 
-                            fontWeight: '700', 
-                            color: '#1A3C34',
-                            margin: 0
-                        }}>
-                            Trusted by Global Executives
-                        </h2>
-                        <div style={{ 
-                            width: '60px', 
-                            height: '2px', 
-                            backgroundColor: '#C5A572', 
-                            margin: '20px auto 0 auto' 
-                        }}></div>
-                    </div>
-
-                    <div style={{ 
-                        display: 'grid', 
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
-                        gap: '30px',
-                        justifyContent: 'center'
-                    }}>
-                        {/* Review 1 */}
-                        <div style={{
-                            backgroundColor: '#ffffff',
-                            padding: '40px 30px',
-                            borderRadius: '8px',
-                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'space-between',
-                            border: '1px solid rgba(197, 165, 114, 0.1)',
-                            position: 'relative'
-                        }}>
-                            <span style={{ 
-                                position: 'absolute', 
-                                top: '20px', 
-                                right: '30px', 
-                                color: 'rgba(197, 165, 114, 0.15)',
-                                fontSize: '40px'
-                            }}>
-                                <FaQuoteLeft />
-                            </span>
-                            <div>
-                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
-                                    {[...Array(5)].map((_, i) => (
-                                        <FaStar key={i} size={14} color="#C5A572" />
-                                    ))}
-                                </div>
-                                <p style={{ 
-                                    fontSize: '16px', 
-                                    lineHeight: '1.8', 
-                                    color: '#333', 
-                                    fontStyle: 'italic',
-                                    marginBottom: '30px',
-                                    fontFamily: 'Georgia, serif'
-                                }}>
-                                    "삼성 주재원으로 인도에 부임하면서 신뢰할 수 있는 숙소를 찾는 것이 가장 중요했습니다. 산다네 레지던스는 기대 이상이었습니다. 정성스럽고 맛있는 한식 조식과 전문적인 하우스키핑 서비스 덕분에 정말 편안하게 생활하고 있습니다."
-                                    <span style={{ 
-                                        display: 'block', 
-                                        marginTop: '15px', 
-                                        fontSize: '14px', 
-                                        color: '#666',
-                                        lineHeight: '1.6',
-                                        fontWeight: '400',
-                                        fontStyle: 'normal'
-                                    }}>
-                                        (Translated: "As a Samsung expat in India, finding a reliable stay was my top priority. Sandane Residences exceeded expectations. The authentic Korean breakfast and professional housekeeping have made my stay extremely comfortable.")
-                                    </span>
-                                </p>
-                            </div>
-                            <div style={{ 
-                                display: 'flex', 
-                                alignItems: 'center', 
-                                gap: '15px', 
-                                borderTop: '1px solid #f2f2f2', 
-                                paddingTop: '20px' 
-                            }}>
-                                <div style={{
-                                    width: '45px',
-                                    height: '45px',
-                                    borderRadius: '50%',
-                                    backgroundColor: '#1A3C34',
-                                    color: '#ffffff',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    fontWeight: 'bold',
-                                    fontSize: '16px',
-                                    fontFamily: 'Playfair Display, serif'
-                                }}>
-                                    JS
-                                </div>
-                                <div>
-                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Jae-Seok Min</h4>
-                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Senior Engineer, Samsung India</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Review 2 */}
-                        <div style={{
-                            backgroundColor: '#ffffff',
-                            padding: '40px 30px',
-                            borderRadius: '8px',
-                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'space-between',
-                            border: '1px solid rgba(197, 165, 114, 0.1)',
-                            position: 'relative'
-                        }}>
-                            <span style={{ 
-                                position: 'absolute', 
-                                top: '20px', 
-                                right: '30px', 
-                                color: 'rgba(197, 165, 114, 0.15)',
-                                fontSize: '40px'
-                            }}>
-                                <FaQuoteLeft />
-                            </span>
-                            <div>
-                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
-                                    {[...Array(5)].map((_, i) => (
-                                        <FaStar key={i} size={14} color="#C5A572" />
-                                    ))}
-                                </div>
-                                <p style={{ 
-                                    fontSize: '16px', 
-                                    lineHeight: '1.8', 
-                                    color: '#555', 
-                                    fontStyle: 'italic',
-                                    marginBottom: '30px',
-                                    fontFamily: 'Georgia, serif'
-                                }}>
-                                    "Exceptional stay. The property in Ansal Golf Links is beautiful, quiet, and secure. Having dedicated maintenance staff and high-speed fiber internet made working from home seamless. The best corporate housing experience in Greater Noida."
-                                </p>
-                            </div>
-                            <div style={{ 
-                                display: 'flex', 
-                                alignItems: 'center', 
-                                gap: '15px', 
-                                borderTop: '1px solid #f2f2f2', 
-                                paddingTop: '20px' 
-                            }}>
-                                <div style={{
-                                    width: '45px',
-                                    height: '45px',
-                                    borderRadius: '50%',
-                                    backgroundColor: '#1A3C34',
-                                    color: '#ffffff',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    fontWeight: 'bold',
-                                    fontSize: '16px',
-                                    fontFamily: 'Playfair Display, serif'
-                                }}>
-                                    MK
-                                </div>
-                                <div>
-                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Marcus K.</h4>
-                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Director, Automotive Supplier Group</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Review 3 */}
-                        <div style={{
-                            backgroundColor: '#ffffff',
-                            padding: '40px 30px',
-                            borderRadius: '8px',
-                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'space-between',
-                            border: '1px solid rgba(197, 165, 114, 0.1)',
-                            position: 'relative'
-                        }}>
-                            <span style={{ 
-                                position: 'absolute', 
-                                top: '20px', 
-                                right: '30px', 
-                                color: 'rgba(197, 165, 114, 0.15)',
-                                fontSize: '40px'
-                            }}>
-                                <FaQuoteLeft />
-                            </span>
-                            <div>
-                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
-                                    {[...Array(5)].map((_, i) => (
-                                        <FaStar key={i} size={14} color="#C5A572" />
-                                    ))}
-                                </div>
-                                <p style={{ 
-                                    fontSize: '16px', 
-                                    lineHeight: '1.8', 
-                                    color: '#333', 
-                                    fontStyle: 'italic',
-                                    marginBottom: '30px',
-                                    fontFamily: 'Georgia, serif'
-                                }}>
-                                    "出張者にとって完璧なオアシスです。ドライバー付きレンタカーサービスのおかげで、現地での移動手段を計画する手間が大幅に省けました。ヤムナ高速道路の産業ハブにも非常に近く、毎日の通勤がとてもスムーズでした。"
-                                    <span style={{ 
-                                        display: 'block', 
-                                        marginTop: '15px', 
-                                        fontSize: '14px', 
-                                        color: '#666',
-                                        lineHeight: '1.6',
-                                        fontWeight: '400',
-                                        fontStyle: 'normal'
-                                    }}>
-                                        (Translated: "A perfect sanctuary for business travelers. The car rental with driver service saved us the hassle of planning local transport. Very close to the Yamuna Expressway industrial hubs, making daily commuting very smooth.")
-                                    </span>
-                                </p>
-                            </div>
-                            <div style={{ 
-                                display: 'flex', 
-                                alignItems: 'center', 
-                                gap: '15px', 
-                                borderTop: '1px solid #f2f2f2', 
-                                paddingTop: '20px' 
-                            }}>
-                                <div style={{
-                                    width: '45px',
-                                    height: '45px',
-                                    borderRadius: '50%',
-                                    backgroundColor: '#1A3C34',
-                                    color: '#ffffff',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    fontWeight: 'bold',
-                                    fontSize: '16px',
-                                    fontFamily: 'Playfair Display, serif'
-                                }}>
-                                    HY
-                                </div>
-                                <div>
-                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Hiroshi Yoshida</h4>
-                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>VP Operations, Logistics Partner</span>
-                                </div>
-                        </div>
-                    </div>
-
-                    {/* Review 4 (Chinese) */}
-                    <div style={{
-                        backgroundColor: '#ffffff',
-                        padding: '40px 30px',
-                        borderRadius: '8px',
-                        boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'space-between',
-                        border: '1px solid rgba(197, 165, 114, 0.1)',
-                        position: 'relative'
-                    }}>
-                        <span style={{ 
-                            position: 'absolute', 
-                            top: '20px', 
-                            right: '30px', 
-                            color: 'rgba(197, 165, 114, 0.15)',
-                            fontSize: '40px'
-                        }}>
-                            <FaQuoteLeft />
-                        </span>
-                        <div>
-                            <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
-                                {[...Array(5)].map((_, i) => (
-                                    <FaStar key={i} size={14} color="#C5A572" />
-                                ))}
-                            </div>
-                            <p style={{ 
-                                fontSize: '16px', 
-                                lineHeight: '1.8', 
-                                color: '#333', 
-                                fontStyle: 'italic',
-                                marginBottom: '30px',
-                                fontFamily: 'Georgia, serif'
-                            }}>
-                                "在印度工作的六个月里，这里是我的家。房间设计非常典雅，每天的清洁服务也很周到。特别感谢前台团队帮助我协调上下班的专车服务。对于任何来大诺伊达出差或常驻的中国高管来说，这绝对是首选。"
-                                <span style={{ 
-                                    display: 'block', 
-                                    marginTop: '15px', 
-                                    fontSize: '14px', 
-                                    color: '#666',
-                                    lineHeight: '1.6',
-                                    fontWeight: '400',
-                                    fontStyle: 'normal'
-                                }}>
-                                    (Translated: "During my six months working in India, this was my home. The rooms are elegantly designed and daily housekeeping is meticulous. Special thanks to the concierge desk for coordinating my office commute transport. Highly recommended for any Chinese executive relocations to Greater Noida.")
-                                </span>
-                            </p>
-                        </div>
-                        <div style={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            gap: '15px', 
-                            borderTop: '1px solid #f2f2f2', 
-                            paddingTop: '20px' 
-                        }}>
-                            <div style={{
-                                width: '45px',
-                                height: '45px',
-                                borderRadius: '50%',
-                                backgroundColor: '#1A3C34',
-                                color: '#ffffff',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                fontWeight: 'bold',
-                                fontSize: '16px',
-                                fontFamily: 'Playfair Display, serif'
-                            }}>
-                                LW
-                            </div>
-                            <div>
-                                <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Li Wei</h4>
-                                <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Project Director, SAIC Motor India</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Review 5 (German expat - English) */}
-                    <div style={{
-                        backgroundColor: '#ffffff',
-                        padding: '40px 30px',
-                        borderRadius: '8px',
-                        boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'space-between',
-                        border: '1px solid rgba(197, 165, 114, 0.1)',
-                        position: 'relative'
-                    }}>
-                        <span style={{ 
-                            position: 'absolute', 
-                            top: '20px', 
-                            right: '30px', 
-                            color: 'rgba(197, 165, 114, 0.15)',
-                            fontSize: '40px'
-                        }}>
-                            <FaQuoteLeft />
-                        </span>
-                        <div>
-                            <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
-                                {[...Array(5)].map((_, i) => (
-                                    <FaStar key={i} size={14} color="#C5A572" />
-                                ))}
-                            </div>
-                            <p style={{ 
-                                fontSize: '16px', 
-                                lineHeight: '1.8', 
-                                color: '#333', 
-                                fontStyle: 'italic',
-                                marginBottom: '30px',
-                                fontFamily: 'Georgia, serif'
-                            }}>
-                                "Highly recommend Sandane Residences. As a German engineer visiting Honda Cars for a three-month assignment, I appreciated the secure gated community, the stable electricity, and the exceptionally high-speed fiber internet. The team does a great job making you feel welcome."
-                            </p>
-                        </div>
-                        <div style={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            gap: '15px', 
-                            borderTop: '1px solid #f2f2f2', 
-                            paddingTop: '20px' 
-                        }}>
-                            <div style={{
-                                width: '45px',
-                                height: '45px',
-                                borderRadius: '50%',
-                                backgroundColor: '#1A3C34',
-                                color: '#ffffff',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                fontWeight: 'bold',
-                                fontSize: '16px',
-                                fontFamily: 'Playfair Display, serif'
-                            }}>
-                                TM
-                            </div>
-                            <div>
-                                <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Dr. Thomas Mueller</h4>
-                                <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Consulting Specialist, Honda Cars India</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Review 6 (French - French + English) */}
-                    <div style={{
-                        backgroundColor: '#ffffff',
-                        padding: '40px 30px',
-                        borderRadius: '8px',
-                        boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'space-between',
-                        border: '1px solid rgba(197, 165, 114, 0.1)',
-                        position: 'relative'
-                    }}>
-                        <span style={{ 
-                            position: 'absolute', 
-                            top: '20px', 
-                            right: '30px', 
-                            color: 'rgba(197, 165, 114, 0.15)',
-                            fontSize: '40px'
-                        }}>
-                            <FaQuoteLeft />
-                        </span>
-                        <div>
-                            <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
-                                {[...Array(5)].map((_, i) => (
-                                    <FaStar key={i} size={14} color="#C5A572" />
-                                ))}
-                            </div>
-                            <p style={{ 
-                                fontSize: '16px', 
-                                lineHeight: '1.8', 
-                                color: '#333', 
-                                fontStyle: 'italic',
-                                marginBottom: '30px',
-                                fontFamily: 'Georgia, serif'
-                                }}>
-                                    "Nous avons réservé plusieurs appartements chez Sandane pour nos équipes techniques. Le service est impeccable, la communication très fluide et la facturation d'entreprise simplifiée. Nos collaborateurs ont adoré leur séjour."
-                                    <span style={{ 
-                                        display: 'block', 
-                                        marginTop: '15px', 
-                                        fontSize: '14px', 
-                                        color: '#666',
-                                        lineHeight: '1.6',
-                                        fontWeight: '400',
-                                        fontStyle: 'normal'
-                                    }}>
-                                        (Translated: "We booked several apartments at Sandane for our technical teams. The service is impeccable, communication is fluid, and corporate invoicing is simplified. Our staff loved their stay.")
-                                    </span>
-                                </p>
-                            </div>
-                            <div style={{ 
-                                display: 'flex', 
-                                alignItems: 'center', 
-                                gap: '15px', 
-                                borderTop: '1px solid #f2f2f2', 
-                                paddingTop: '20px' 
-                            }}>
-                                <div style={{
-                                    width: '45px',
-                                    height: '45px',
-                                    borderRadius: '50%',
-                                    backgroundColor: '#1A3C34',
-                                    color: '#ffffff',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    fontWeight: 'bold',
-                                    fontSize: '16px',
-                                    fontFamily: 'Playfair Display, serif'
-                                }}>
-                                    CD
-                                </div>
-                                <div>
-                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Chloé Dubois</h4>
-                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>HR Mobility Coordinator, Alstom Transport</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
                 </>
             )}
 
@@ -1350,6 +858,498 @@ const Residences = () => {
             </div>
                 </>
             )}
+
+            {/* Testimonials / Reviews Section */}
+            <div style={{ 
+                backgroundColor: '#F4F0EB', 
+                padding: '100px 20px', 
+                borderTop: '1px solid rgba(197, 165, 114, 0.2)',
+                borderBottom: '1px solid rgba(197, 165, 114, 0.2)'
+            }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                    <div style={{ textAlign: 'center', marginBottom: '60px' }}>
+                        <span style={{ 
+                            color: '#C5A572', 
+                            fontSize: '13px', 
+                            textTransform: 'uppercase', 
+                            letterSpacing: '3px', 
+                            fontWeight: '600',
+                            display: 'block',
+                            marginBottom: '10px'
+                        }}>
+                            Guest Experiences
+                        </span>
+                        <h2 style={{ 
+                            fontFamily: 'Playfair Display, serif', 
+                            fontSize: '42px', 
+                            fontWeight: '700', 
+                            color: '#1A3C34',
+                            margin: 0
+                        }}>
+                            Trusted by Global Executives
+                        </h2>
+                        <div style={{ 
+                            width: '60px', 
+                            height: '2px', 
+                            backgroundColor: '#C5A572', 
+                            margin: '20px auto 0 auto' 
+                        }}></div>
+                    </div>
+
+                    <div style={{ 
+                        display: 'grid', 
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', 
+                        gap: '30px',
+                        justifyContent: 'center'
+                    }}>
+                        {/* Review 1 */}
+                        <div style={{
+                            backgroundColor: '#ffffff',
+                            padding: '40px 30px',
+                            borderRadius: '8px',
+                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            border: '1px solid rgba(197, 165, 114, 0.1)',
+                            position: 'relative'
+                        }}>
+                            <span style={{ 
+                                position: 'absolute', 
+                                top: '20px', 
+                                right: '30px', 
+                                color: 'rgba(197, 165, 114, 0.15)',
+                                fontSize: '40px'
+                            }}>
+                                <FaQuoteLeft />
+                            </span>
+                            <div>
+                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                    {[...Array(5)].map((_, i) => (
+                                        <FaStar key={i} size={14} color="#C5A572" />
+                                    ))}
+                                </div>
+                                <p style={{ 
+                                    fontSize: '16px', 
+                                    lineHeight: '1.8', 
+                                    color: '#333', 
+                                    fontStyle: 'italic',
+                                    marginBottom: '30px',
+                                    fontFamily: 'Georgia, serif'
+                                }}>
+                                    "삼성 주재원으로 인도에 부임하면서 신뢰할 수 있는 숙소를 찾는 것이 가장 중요했습니다. 산다네 레지던스는 기대 이상이었습니다. 정성스럽고 맛있는 한식 조식과 전문적인 하우스키핑 서비스 덕분에 정말 편안하게 생활하고 있습니다."
+                                    <span style={{ 
+                                        display: 'block', 
+                                        marginTop: '15px', 
+                                        fontSize: '14px', 
+                                        color: '#666',
+                                        lineHeight: '1.6',
+                                        fontWeight: '400',
+                                        fontStyle: 'normal'
+                                    }}>
+                                        (Translated: "As a Samsung expat in India, finding a reliable stay was my top priority. Sandane Residences exceeded expectations. The authentic Korean breakfast and professional housekeeping have made my stay extremely comfortable.")
+                                    </span>
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    JS
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Jae-Seok Min</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Senior Engineer, Samsung India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 2 */}
+                        <div style={{
+                            backgroundColor: '#ffffff',
+                            padding: '40px 30px',
+                            borderRadius: '8px',
+                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            border: '1px solid rgba(197, 165, 114, 0.1)',
+                            position: 'relative'
+                        }}>
+                            <span style={{ 
+                                position: 'absolute', 
+                                top: '20px', 
+                                right: '30px', 
+                                color: 'rgba(197, 165, 114, 0.15)',
+                                fontSize: '40px'
+                            }}>
+                                <FaQuoteLeft />
+                            </span>
+                            <div>
+                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                    {[...Array(5)].map((_, i) => (
+                                        <FaStar key={i} size={14} color="#C5A572" />
+                                    ))}
+                                </div>
+                                <p style={{ 
+                                    fontSize: '16px', 
+                                    lineHeight: '1.8', 
+                                    color: '#555', 
+                                    fontStyle: 'italic',
+                                    marginBottom: '30px',
+                                    fontFamily: 'Georgia, serif'
+                                }}>
+                                    "Exceptional stay. The property in Ansal Golf Links is beautiful, quiet, and secure. Having dedicated maintenance staff and high-speed fiber internet made working from home seamless. The best corporate housing experience in Greater Noida."
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    MK
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Marcus K.</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Director, Automotive Supplier Group</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Review 3 */}
+                        <div style={{
+                            backgroundColor: '#ffffff',
+                            padding: '40px 30px',
+                            borderRadius: '8px',
+                            boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            border: '1px solid rgba(197, 165, 114, 0.1)',
+                            position: 'relative'
+                        }}>
+                            <span style={{ 
+                                position: 'absolute', 
+                                top: '20px', 
+                                right: '30px', 
+                                color: 'rgba(197, 165, 114, 0.15)',
+                                fontSize: '40px'
+                            }}>
+                                <FaQuoteLeft />
+                            </span>
+                            <div>
+                                <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                    {[...Array(5)].map((_, i) => (
+                                        <FaStar key={i} size={14} color="#C5A572" />
+                                    ))}
+                                </div>
+                                <p style={{ 
+                                    fontSize: '16px', 
+                                    lineHeight: '1.8', 
+                                    color: '#333', 
+                                    fontStyle: 'italic',
+                                    marginBottom: '30px',
+                                    fontFamily: 'Georgia, serif'
+                                }}>
+                                    "出張者にとって完璧なオアシスです。ドライバー付きレンタカーサービスのおかげで、現地での移動手段を計画する手間が大幅に省けました。ヤムナ高速道路の産業ハブにも非常に近く、毎日の通勤がとてもスムーズでした。"
+                                    <span style={{ 
+                                        display: 'block', 
+                                        marginTop: '15px', 
+                                        fontSize: '14px', 
+                                        color: '#666',
+                                        lineHeight: '1.6',
+                                        fontWeight: '400',
+                                        fontStyle: 'normal'
+                                    }}>
+                                        (Translated: "A perfect sanctuary for business travelers. The car rental with driver service saved us the hassle of planning local transport. Very close to the Yamuna Expressway industrial hubs, making daily commuting very smooth.")
+                                    </span>
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    HY
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Hiroshi Yoshida</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>VP Operations, Logistics Partner</span>
+                                </div>
+                        </div>
+                    </div>
+
+                    {/* Review 4 (Chinese) */}
+                    <div style={{
+                        backgroundColor: '#ffffff',
+                        padding: '40px 30px',
+                        borderRadius: '8px',
+                        boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-between',
+                        border: '1px solid rgba(197, 165, 114, 0.1)',
+                        position: 'relative'
+                    }}>
+                        <span style={{ 
+                            position: 'absolute', 
+                            top: '20px', 
+                            right: '30px', 
+                            color: 'rgba(197, 165, 114, 0.15)',
+                            fontSize: '40px'
+                        }}>
+                            <FaQuoteLeft />
+                        </span>
+                        <div>
+                            <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                {[...Array(5)].map((_, i) => (
+                                    <FaStar key={i} size={14} color="#C5A572" />
+                                ))}
+                            </div>
+                            <p style={{ 
+                                fontSize: '16px', 
+                                lineHeight: '1.8', 
+                                color: '#333', 
+                                fontStyle: 'italic',
+                                marginBottom: '30px',
+                                fontFamily: 'Georgia, serif'
+                            }}>
+                                "在印度工作的六个月里，这里是我的家。房间设计非常典雅，每天的清洁服务也很周到。特别感谢前台团队帮助我协调上下班的专车服务。对于任何来大诺伊达出差或常驻的中国高管来说，这绝对是首选。"
+                                <span style={{ 
+                                    display: 'block', 
+                                    marginTop: '15px', 
+                                    fontSize: '14px', 
+                                    color: '#666',
+                                    lineHeight: '1.6',
+                                    fontWeight: '400',
+                                    fontStyle: 'normal'
+                                }}>
+                                    (Translated: "During my six months working in India, this was my home. The rooms are elegantly designed and daily housekeeping is meticulous. Special thanks to the concierge desk for coordinating my office commute transport. Highly recommended for any Chinese executive relocations to Greater Noida.")
+                                </span>
+                            </p>
+                        </div>
+                        <div style={{ 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            gap: '15px', 
+                            borderTop: '1px solid #f2f2f2', 
+                            paddingTop: '20px' 
+                        }}>
+                            <div style={{
+                                width: '45px',
+                                height: '45px',
+                                borderRadius: '50%',
+                                backgroundColor: '#1A3C34',
+                                color: '#ffffff',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                fontWeight: 'bold',
+                                fontSize: '16px',
+                                fontFamily: 'Playfair Display, serif'
+                            }}>
+                                LW
+                            </div>
+                            <div>
+                                <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Li Wei</h4>
+                                <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Project Director, SAIC Motor India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Review 5 (German expat - English) */}
+                    <div style={{
+                        backgroundColor: '#ffffff',
+                        padding: '40px 30px',
+                        borderRadius: '8px',
+                        boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-between',
+                        border: '1px solid rgba(197, 165, 114, 0.1)',
+                        position: 'relative'
+                    }}>
+                        <span style={{ 
+                            position: 'absolute', 
+                            top: '20px', 
+                            right: '30px', 
+                            color: 'rgba(197, 165, 114, 0.15)',
+                            fontSize: '40px'
+                        }}>
+                            <FaQuoteLeft />
+                        </span>
+                        <div>
+                            <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                {[...Array(5)].map((_, i) => (
+                                    <FaStar key={i} size={14} color="#C5A572" />
+                                ))}
+                            </div>
+                            <p style={{ 
+                                fontSize: '16px', 
+                                lineHeight: '1.8', 
+                                color: '#333', 
+                                fontStyle: 'italic',
+                                marginBottom: '30px',
+                                fontFamily: 'Georgia, serif'
+                            }}>
+                                "Highly recommend Sandane Residences. As a German engineer visiting Honda Cars for a three-month assignment, I appreciated the secure gated community, the stable electricity, and the exceptionally high-speed fiber internet. The team does a great job making you feel welcome."
+                            </p>
+                        </div>
+                        <div style={{ 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            gap: '15px', 
+                            borderTop: '1px solid #f2f2f2', 
+                            paddingTop: '20px' 
+                        }}>
+                            <div style={{
+                                width: '45px',
+                                height: '45px',
+                                borderRadius: '50%',
+                                backgroundColor: '#1A3C34',
+                                color: '#ffffff',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                fontWeight: 'bold',
+                                fontSize: '16px',
+                                fontFamily: 'Playfair Display, serif'
+                            }}>
+                                TM
+                            </div>
+                            <div>
+                                <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Dr. Thomas Mueller</h4>
+                                <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>Consulting Specialist, Honda Cars India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Review 6 (French - French + English) */}
+                    <div style={{
+                        backgroundColor: '#ffffff',
+                        padding: '40px 30px',
+                        borderRadius: '8px',
+                        boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-between',
+                        border: '1px solid rgba(197, 165, 114, 0.1)',
+                        position: 'relative'
+                    }}>
+                        <span style={{ 
+                            position: 'absolute', 
+                            top: '20px', 
+                            right: '30px', 
+                            color: 'rgba(197, 165, 114, 0.15)',
+                            fontSize: '40px'
+                        }}>
+                            <FaQuoteLeft />
+                        </span>
+                        <div>
+                            <div style={{ display: 'flex', gap: '3px', marginBottom: '15px' }}>
+                                {[...Array(5)].map((_, i) => (
+                                    <FaStar key={i} size={14} color="#C5A572" />
+                                ))}
+                            </div>
+                            <p style={{ 
+                                fontSize: '16px', 
+                                lineHeight: '1.8', 
+                                color: '#333', 
+                                fontStyle: 'italic',
+                                marginBottom: '30px',
+                                fontFamily: 'Georgia, serif'
+                                }}>
+                                    "Nous avons réservé plusieurs appartements chez Sandane pour nos équipes techniques. Le service est impeccable, la communication très fluide et la facturation d'entreprise simplifiée. Nos collaborateurs ont adoré leur séjour."
+                                    <span style={{ 
+                                        display: 'block', 
+                                        marginTop: '15px', 
+                                        fontSize: '14px', 
+                                        color: '#666',
+                                        lineHeight: '1.6',
+                                        fontWeight: '400',
+                                        fontStyle: 'normal'
+                                    }}>
+                                        (Translated: "We booked several apartments at Sandane for our technical teams. The service is impeccable, communication is fluid, and corporate invoicing is simplified. Our staff loved their stay.")
+                                    </span>
+                                </p>
+                            </div>
+                            <div style={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: '15px', 
+                                borderTop: '1px solid #f2f2f2', 
+                                paddingTop: '20px' 
+                            }}>
+                                <div style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '50%',
+                                    backgroundColor: '#1A3C34',
+                                    color: '#ffffff',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    fontWeight: 'bold',
+                                    fontSize: '16px',
+                                    fontFamily: 'Playfair Display, serif'
+                                }}>
+                                    CD
+                                </div>
+                                <div>
+                                    <h4 style={{ margin: '0 0 3px 0', fontSize: '16px', color: '#1A3C34', fontWeight: '600' }}>Chloé Dubois</h4>
+                                    <span style={{ fontSize: '12px', color: '#888', letterSpacing: '0.5px' }}>HR Mobility Coordinator, Alstom Transport</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <Footer isResidences={true} />
         </div>
