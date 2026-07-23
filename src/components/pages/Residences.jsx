@@ -294,134 +294,6 @@ const Residences = () => {
                 </div>
             </div>
 
-            {/* Facilities Section */}
-            <div className="catarina-facilities-section">
-                <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
-                    <h2 className="section-title" style={{ marginBottom: '50px' }}>
-                        Facilities Provided
-                    </h2>
-
-                    <div className="catarina-facilities-grid">
-                        {facilities.map((facility, index) => (
-                            <div key={index} className="catarina-facility-item">
-                                <span className="catarina-facility-icon">{facility.icon}</span>
-                                <div>{facility.text}</div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-
-            {/* 3-Cards Section */}
-            <div style={{ maxWidth: '1400px', margin: '80px auto', padding: '0 20px' }}>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}>
-                    {/* Card 1 */}
-                    <div style={{
-                        flex: '1 1 calc(33.333% - 20px)',
-                        minWidth: '280px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '20px'
-                    }}>
-                        {/* Square Image Box */}
-                        <div style={{
-                            width: '100%',
-                            aspectRatio: '1/1',
-                            backgroundColor: '#e0e0e0',
-                            backgroundImage: `url(${imgFleetService})`, // Fleet Service Image
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            borderRadius: '0px',
-                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                        }}></div>
-                        
-                        {/* Text Content Below */}
-                        <div>
-                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
-                                Fleet Car Service
-                            </h3>
-                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
-                                Travel seamlessly with our comprehensive fleet car services. We offer premium car rentals, reliable office or home pick-up and drop-off, and professional driver rentals tailored to your schedule.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Card 2 */}
-                    <div style={{
-                        flex: '1 1 calc(33.333% - 20px)',
-                        minWidth: '280px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '20px'
-                    }}>
-                        {/* Square Image Box */}
-                        <div style={{
-                            width: '100%',
-                            aspectRatio: '1/1',
-                            backgroundColor: '#e0e0e0',
-                            backgroundImage: `url(${imgKoreanBreakfast})`, // Korean Breakfast Image
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            borderRadius: '0px',
-                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                        }}></div>
-                        
-                        {/* Text Content Below */}
-                        <div>
-                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
-                                Korean Breakfast
-                            </h3>
-                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
-                                Start your day with an authentic Korean breakfast experience. Thoughtfully prepared with traditional ingredients, offering the perfect blend of warmth and nourishment right at your doorstep.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Card 3 */}
-                    <div style={{
-                        flex: '1 1 calc(33.333% - 20px)',
-                        minWidth: '280px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '20px'
-                    }}>
-                        {/* Square Image Box */}
-                        <div style={{
-                            width: '100%',
-                            aspectRatio: '1/1',
-                            backgroundColor: '#e0e0e0',
-                            backgroundImage: `url(${imgNew3})`, // Placeholder image
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            borderRadius: '0px',
-                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                        }}></div>
-                        
-                        {/* Text Content Below */}
-                        <div>
-                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
-                                Curated Apartments
-                            </h3>
-                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
-                                Discover fully-furnished, meticulously designed living spaces. Each curated apartment is tailored to provide expats and professionals with unparalleled comfort, style, and premium amenities.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Little Text Below Cards */}
-                <p style={{
-                    textAlign: 'center',
-                    fontSize: '13px',
-                    color: '#888',
-                    marginTop: '25px',
-                    fontStyle: 'italic',
-                    letterSpacing: '0.5px'
-                }}>
-                    * All premium packages and amenities are subject to availability and bespoke configuration.
-                </p>
-            </div>
-
             {/* Talk to a Specialist Section */}
             <div style={{ 
                 maxWidth: '1100px', 
@@ -636,6 +508,134 @@ const Residences = () => {
                 </div>
             </div>
         </div>
+
+            {/* Facilities Section */}
+            <div className="catarina-facilities-section">
+                <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
+                    <h2 className="section-title" style={{ marginBottom: '50px' }}>
+                        Facilities Provided
+                    </h2>
+
+                    <div className="catarina-facilities-grid">
+                        {facilities.map((facility, index) => (
+                            <div key={index} className="catarina-facility-item">
+                                <span className="catarina-facility-icon">{facility.icon}</span>
+                                <div>{facility.text}</div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            {/* 3-Cards Section */}
+            <div style={{ maxWidth: '1400px', margin: '80px auto', padding: '0 20px' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}>
+                    {/* Card 1 */}
+                    <div style={{
+                        flex: '1 1 calc(33.333% - 20px)',
+                        minWidth: '280px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '20px'
+                    }}>
+                        {/* Square Image Box */}
+                        <div style={{
+                            width: '100%',
+                            aspectRatio: '1/1',
+                            backgroundColor: '#e0e0e0',
+                            backgroundImage: `url(${imgFleetService})`, // Fleet Service Image
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '0px',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                        }}></div>
+                        
+                        {/* Text Content Below */}
+                        <div>
+                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
+                                Fleet Car Service
+                            </h3>
+                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
+                                Travel seamlessly with our comprehensive fleet car services. We offer premium car rentals, reliable office or home pick-up and drop-off, and professional driver rentals tailored to your schedule.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div style={{
+                        flex: '1 1 calc(33.333% - 20px)',
+                        minWidth: '280px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '20px'
+                    }}>
+                        {/* Square Image Box */}
+                        <div style={{
+                            width: '100%',
+                            aspectRatio: '1/1',
+                            backgroundColor: '#e0e0e0',
+                            backgroundImage: `url(${imgKoreanBreakfast})`, // Korean Breakfast Image
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '0px',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                        }}></div>
+                        
+                        {/* Text Content Below */}
+                        <div>
+                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
+                                Korean Breakfast
+                            </h3>
+                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
+                                Start your day with an authentic Korean breakfast experience. Thoughtfully prepared with traditional ingredients, offering the perfect blend of warmth and nourishment right at your doorstep.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div style={{
+                        flex: '1 1 calc(33.333% - 20px)',
+                        minWidth: '280px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '20px'
+                    }}>
+                        {/* Square Image Box */}
+                        <div style={{
+                            width: '100%',
+                            aspectRatio: '1/1',
+                            backgroundColor: '#e0e0e0',
+                            backgroundImage: `url(${imgNew3})`, // Placeholder image
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            borderRadius: '0px',
+                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                        }}></div>
+                        
+                        {/* Text Content Below */}
+                        <div>
+                            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '28px', fontWeight: '700', marginBottom: '15px', color: '#1A3C34' }}>
+                                Curated Apartments
+                            </h3>
+                            <p style={{ lineHeight: '1.7', fontSize: '15px', color: '#555', fontWeight: '400' }}>
+                                Discover fully-furnished, meticulously designed living spaces. Each curated apartment is tailored to provide expats and professionals with unparalleled comfort, style, and premium amenities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Little Text Below Cards */}
+                <p style={{
+                    textAlign: 'center',
+                    fontSize: '13px',
+                    color: '#888',
+                    marginTop: '25px',
+                    fontStyle: 'italic',
+                    letterSpacing: '0.5px'
+                }}>
+                    * All premium packages and amenities are subject to availability and bespoke configuration.
+                </p>
+            </div>
 
             {/* SEO Text Block */}
             <div className="seo-text-block" style={{ padding: '40px 20px', maxWidth: '1000px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
