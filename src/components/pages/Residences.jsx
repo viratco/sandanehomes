@@ -860,6 +860,9 @@ const Residences = () => {
                 </>
             )}
 
+            <ExpatPopupBar />
+            <Footer isResidences={true} />
+
             {/* Testimonials / Reviews Section */}
             <div style={{ 
                 backgroundColor: '#F4F0EB', 
@@ -1352,8 +1355,7 @@ const Residences = () => {
                 </div>
             </div>
 
-            <ExpatPopupBar />
-            <Footer isResidences={true} />
+            
         </div>
     );
 };
