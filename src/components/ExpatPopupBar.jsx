@@ -52,7 +52,7 @@ const ExpatPopupBar = () => {
                 <div className="expat-popup-header">
                     <span className="expat-popup-badge">
                         <span className="expat-live-dot"></span>
-                        <span className="expat-flags">🇰🇷 🇯🇵 🇨🇳</span> EXPAT RESIDENCES
+                        <span className="expat-flags">🇰🇷 🇯🇵</span> EXPAT RESIDENCES
                     </span>
                 </div>
 
@@ -73,9 +73,6 @@ const ExpatPopupBar = () => {
                     </Link>
                     <Link to="/japanese-expat-housing-delhi-ncr" className="expat-chip">
                         🇯🇵 日本語 Guide
-                    </Link>
-                    <Link to="/chinese-expat-housing-greater-noida" className="expat-chip">
-                        🇨🇳 中文 Guide
                     </Link>
                 </div>
 
