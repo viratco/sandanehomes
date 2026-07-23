@@ -147,6 +147,7 @@ const Residences = () => {
                         <img src={imgTopRight} alt="Architecture View" className="editorial-right-img" />
                     </div>
                 </div>
+            </div>
 
 {/* Testimonials / Reviews Section */}
             <div style={{ 
@@ -638,9 +639,6 @@ const Residences = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            
             </div>
                 </>
             )}
