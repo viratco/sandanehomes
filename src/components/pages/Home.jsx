@@ -12,6 +12,7 @@ import FaqSection from '../FaqSection';
 import ContactSection from '../ContactSection';
 import ReservationSeparator from '../ReservationSeparator';
 import Footer from '../Footer';
+import ExpatPopupBar from '../ExpatPopupBar';
 
 const Home = () => {
     return (
@@ -34,6 +35,7 @@ const Home = () => {
             <FaqSection />
             <ContactSection />
             <Footer />
+            <ExpatPopupBar />
         </div>
     );
 };
