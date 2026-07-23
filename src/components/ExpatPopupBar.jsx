@@ -60,12 +60,15 @@ const ExpatPopupBar = () => {
 
                 {/* Main Headline */}
                 <h4 className="expat-popup-title">
-                    Are you an expat relocating to Greater Noida?
+                    {isResidencesPage ? "Relocating to Greater Noida?" : "Are you an expat relocating to Greater Noida?"}
                 </h4>
 
                 {/* Short Info Description */}
                 <p className="expat-popup-desc">
-                    Discover luxury 1, 2 &amp; 3 BHK serviced apartments in <strong>Jaypee Greens</strong> &amp; <strong>DLF</strong> with 24/7 security, daily housekeeping, full kitchens &amp; 24/7 concierge.
+                    {isResidencesPage 
+                        ? "Premium corporate suites are in high demand. Enquire now to check real-time availability and secure your reservation."
+                        : <span>Discover luxury 1, 2 &amp; 3 BHK serviced apartments in <strong>Jaypee Greens</strong> &amp; <strong>DLF</strong> with 24/7 security, daily housekeeping, full kitchens &amp; 24/7 concierge.</span>
+                    }
                 </p>
 
                 {isResidencesPage ? (
