@@ -223,6 +223,7 @@ const Residences = () => {
                         href="https://wa.me/919711722273?text=Hello%20Sandane%20Homes%2C%20I%20am%20interested%20in%20booking%20a%20serviced%20apartment%20/%20villa."
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="enquire-pulse-btn"
                         style={{
                             padding: '16px 50px',
                             fontSize: '14px',
@@ -235,21 +236,7 @@ const Residences = () => {
                             display: 'inline-flex',
                             alignItems: 'center',
                             gap: '12px',
-                            boxShadow: '0 8px 25px rgba(26, 60, 52, 0.2)',
-                            transition: 'all 0.3s ease',
                             textDecoration: 'none'
-                        }}
-                        onMouseOver={e => {
-                            e.currentTarget.style.backgroundColor = '#C5A572';
-                            e.currentTarget.style.borderColor = '#C5A572';
-                            e.currentTarget.style.transform = 'translateY(-2px)';
-                            e.currentTarget.style.boxShadow = '0 10px 30px rgba(197, 165, 114, 0.4)';
-                        }}
-                        onMouseOut={e => {
-                            e.currentTarget.style.backgroundColor = '#1A3C34';
-                            e.currentTarget.style.borderColor = '#1A3C34';
-                            e.currentTarget.style.transform = 'translateY(0)';
-                            e.currentTarget.style.boxShadow = '0 8px 25px rgba(26, 60, 52, 0.2)';
                         }}
                     >
                         <svg viewBox="0 0 448 512" width="16" height="16" fill="currentColor" style={{ flexShrink: 0 }}>
