@@ -62,7 +62,7 @@
 /* Luxury Card Container */
 .expat-popup-card {
     position: relative;
-    background: linear-gradient(135deg, rgba(26, 60, 52, 0.97) 0%, rgba(15, 34, 29, 0.99) 100%);
+    background: linear-gradient(135deg, rgba(15, 32, 67, 0.97) 0%, rgba(8, 18, 38, 0.99) 100%);
     border: 1px solid rgba(197, 165, 114, 0.45);
     border-radius: 20px;
     padding: 22px 22px 20px;
@@ -118,7 +118,7 @@
 
 .expat-popup-close:hover {
     background: #C5A572;
-    color: #1A3C34;
+    color: #0F2043;
     border-color: #C5A572;
     transform: rotate(90deg) scale(1.05);
 }
@@ -218,7 +218,7 @@
 
 .expat-chip:hover {
     background: #C5A572;
-    color: #1A3C34;
+    color: #0F2043;
     border-color: #C5A572;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(197, 165, 114, 0.3);
@@ -232,7 +232,7 @@
     justify-content: space-between;
     width: 100%;
     background: linear-gradient(135deg, #C5A572 0%, #B3925F 100%);
-    color: #1A3C34;
+    color: #0F2043;
     padding: 11.5px 18px;
     border-radius: 30px;
     text-decoration: none;
@@ -264,7 +264,7 @@
 
 .expat-popup-btn:hover {
     background: #ffffff;
-    color: #1A3C34;
+    color: #0F2043;
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(255, 255, 255, 0.35);
 }
@@ -280,14 +280,14 @@
     justify-content: center;
     width: 22px;
     height: 22px;
-    background: rgba(26, 60, 52, 0.12);
+    background: rgba(15, 32, 67, 0.12);
     border-radius: 50%;
     transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .expat-popup-btn:hover .expat-btn-icon {
     transform: translateX(3px);
-    background: rgba(26, 60, 52, 0.15);
+    background: rgba(15, 32, 67, 0.18);
 }
 
 /* Responsive Mobile Rules */
