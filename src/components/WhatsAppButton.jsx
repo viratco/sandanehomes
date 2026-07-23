@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
 
     const phoneNumber = isResidencesPage ? "918826269690" : "919711722273";
     const defaultText = isResidencesPage
-        ? encodeURIComponent("hi.. i wana talk abt residences by sandane homes")
+        ? encodeURIComponent("Hello Sandane Homes, I would like to inquire about executive housing options at Residences by Sandane Homes.")
         : encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultText}`;
 

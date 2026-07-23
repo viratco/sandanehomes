@@ -220,7 +220,7 @@ const Residences = () => {
                 {/* Aesthetic Enquire Now Button */}
                 <div style={{ marginTop: '35px', display: 'flex', justifyContent: 'center' }}>
                     <a
-                        href="https://wa.me/918826269690?text=hi..%20i%20wana%20talk%20abt%20residences%20by%20sandane%20homes"
+                        href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="enquire-pulse-btn"
@@ -467,7 +467,7 @@ const Residences = () => {
 
                         <div style={{ marginTop: '10px', position: 'relative', zIndex: 2 }}>
                         <a
-                            href="https://wa.me/918826269690?text=hi..%20i%20wana%20talk%20abt%20residences%20by%20sandane%20homes"
+                            href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes."
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
@@ -782,7 +782,7 @@ const Residences = () => {
                             margin: '0 auto'
                         }}>
                             {/* Phone / WhatsApp Card */}
-                            <a href="https://wa.me/918826269690?text=hi..%20i%20wana%20talk%20abt%20residences%20by%20sandane%20homes" target="_blank" rel="noopener noreferrer" style={{
+                            <a href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes." target="_blank" rel="noopener noreferrer" style={{
                                 textDecoration: 'none',
                                 backgroundColor: '#fff',
                                 padding: '28px 24px',
