@@ -293,39 +293,35 @@
 /* Responsive Mobile Rules */
 @media (max-width: 480px) {
     .expat-popup-container {
-        right: 10px;
+        right: 8px;
         left: auto;
-        bottom: 80px;
-        width: 220px;
-        max-width: 220px;
+        bottom: 78px;
+        width: 170px;
+        max-width: 170px;
     }
 
     .expat-popup-card {
-        padding: 12px 12px 10px;
-        border-radius: 14px;
+        padding: 10px 10px 9px;
+        border-radius: 12px;
     }
 
     .expat-popup-glow {
-        width: 70px;
-        height: 70px;
-        top: -25px;
-        right: -25px;
+        display: none;
     }
 
     .expat-popup-header {
-        margin-bottom: 6px;
+        margin-bottom: 5px;
     }
 
     .expat-popup-badge {
-        font-size: 8.5px;
-        letter-spacing: 0.8px;
-        padding: 3px 7px;
-        gap: 4px;
+        font-size: 7.5px;
+        letter-spacing: 0.5px;
+        padding: 2px 6px;
+        gap: 3px;
     }
 
     .expat-flags {
-        font-size: 10px;
-        letter-spacing: 0px;
+        display: none;
     }
 
     .expat-live-dot {
@@ -334,39 +330,39 @@
     }
 
     .expat-popup-title {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 1.3;
-        margin-bottom: 5px;
-        padding-right: 20px;
+        margin-bottom: 4px;
+        padding-right: 18px;
     }
 
+    /* Hide description on mobile — keep it minimal */
     .expat-popup-desc {
-        font-size: 10.5px;
-        line-height: 1.45;
-        margin-bottom: 10px;
+        display: none;
     }
 
-    /* Hide chips on mobile to keep popup compact */
+    /* Hide chips on mobile */
     .expat-popup-chips {
         display: none;
     }
 
     .expat-popup-btn {
-        font-size: 11.5px;
-        padding: 8px 11px;
-        border-radius: 20px;
+        font-size: 10.5px;
+        padding: 7px 10px;
+        border-radius: 18px;
+        margin-top: 8px !important;
     }
 
     .expat-btn-icon {
-        width: 17px;
-        height: 17px;
+        width: 15px;
+        height: 15px;
     }
 
     .expat-popup-close {
-        width: 20px;
-        height: 20px;
-        top: 8px;
-        right: 8px;
+        width: 18px;
+        height: 18px;
+        top: 7px;
+        right: 7px;
     }
 }
 
