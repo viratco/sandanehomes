@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
+import ExpatPopupBar from '../ExpatPopupBar';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
 import imgRecreation from '../../assets/services_recreation.jpeg';
 import imgLivingRoom from '../../assets/IMG_7272.jpg';
@@ -1351,6 +1352,7 @@ const Residences = () => {
                 </div>
             </div>
 
+            <ExpatPopupBar />
             <Footer isResidences={true} />
         </div>
     );
