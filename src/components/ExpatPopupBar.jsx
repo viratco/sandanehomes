@@ -58,7 +58,7 @@ const ExpatPopupBar = () => {
 
                 {/* Main Headline */}
                 <h4 className="expat-popup-title">
-                    Are you Korean, Japanese, Chinese, or relocating to Greater Noida?
+                    Are you an expat relocating to Greater Noida?
                 </h4>
 
                 {/* Short Info Description */}
