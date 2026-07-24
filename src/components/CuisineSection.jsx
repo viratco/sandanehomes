@@ -171,6 +171,11 @@ const CuisineSection = () => {
 
 
 
+                                <div
+                                    onClick={() => navigate('/residences')}
+                                    style={{ cursor: 'pointer' }}
+                                    title="View Residences by Sandane Homes"
+                                >
                                 <h3 style={{
                                     fontFamily: 'Playfair Display, serif',
                                     fontSize: '36px',
@@ -191,6 +196,7 @@ const CuisineSection = () => {
                                 }}>
                                     Experience premium fully-serviced luxury accommodations in the heart of Greater Noida. With over 5 years of hospitality excellence, Residences by Sandane Homes offers meticulously designed 2BHK to 4BHK apartments and villas, tailored for expats and professionals seeking comfort, convenience, and exceptional service.
                                 </p>
+                                </div>
 
                                 <button
                                     onClick={() => navigate('/residences')}
