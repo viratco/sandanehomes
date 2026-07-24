@@ -19,13 +19,19 @@ import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaG
 
 const Residences = () => {
     useEffect(() => {
-        if (window.location.hash === '#contact-section') {
+        if (window.location.hash === '#contact-section' || window.location.hash === '#footer-contact-section') {
             setTimeout(() => {
-                const element = document.getElementById('contact-section');
+                const element = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
                 if (element) {
                     element.scrollIntoView({ behavior: 'smooth' });
+                    element.classList.remove('highlight-section');
+                    void element.offsetWidth;
+                    element.classList.add('highlight-section');
+                    setTimeout(() => {
+                        element.classList.remove('highlight-section');
+                    }, 2600);
                 }
-            }, 500); // small delay to let page render
+            }, 300);
         }
     }, []);
 
@@ -650,7 +656,7 @@ const Residences = () => {
             </div>
 
             {/* About & Contact Section */}
-            <div className="catarina-section catarina-contact-section" id="contact-section" style={{ padding: '80px 20px 100px', backgroundColor: '#FAF8F5' }}>
+            <div className="catarina-section catarina-contact-section" id="residences-info-cards-section" style={{ padding: '80px 20px 100px', backgroundColor: '#FAF8F5' }}>
                 <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '60px' }}>
                     
                     {/* Elegant About Us Banner */}

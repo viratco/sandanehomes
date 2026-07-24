@@ -33,6 +33,23 @@ const ExpatPopupBar = () => {
         }, 350);
     };
 
+    const handleEnquireClick = (e) => {
+        if (e) e.preventDefault();
+        handleDismiss();
+        const element = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+            element.classList.remove('highlight-section');
+            void element.offsetWidth;
+            element.classList.add('highlight-section');
+            setTimeout(() => {
+                element.classList.remove('highlight-section');
+            }, 2600);
+        } else {
+            window.location.href = '/residences#footer-contact-section';
+        }
+    };
+
     if (isDismissed || !isVisible) return null;
 
     return (
@@ -71,44 +88,17 @@ const ExpatPopupBar = () => {
                     }
                 </p>
 
-                {isResidencesPage ? (
-                    /* Main Action Button for Residences Page (Enquiry Now -> WhatsApp) */
-                    <a 
-                        href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="expat-popup-btn"
-                        style={{ marginTop: '15px' }}
-                    >
-                        <span className="expat-btn-text">Enquiry Now</span>
-                        <span className="expat-btn-icon">
-                            <FaArrowRight size={11} />
-                        </span>
-                    </a>
-                ) : (
-                    <>
-                        {/* Quick Language Chips */}
-                        <div className="expat-popup-chips">
-                            <Link to="/korean-expat-housing-delhi-ncr" className="expat-chip">
-                                🇰🇷 한국어 Guide
-                            </Link>
-                            <Link to="/japanese-expat-housing-delhi-ncr" className="expat-chip">
-                                🇯🇵 日本語 Guide
-                            </Link>
-                            <Link to="/chinese-expat-housing-greater-noida" className="expat-chip">
-                                🇨🇳 中文 Guide
-                            </Link>
-                        </div>
-
-                        {/* Main Action Button */}
-                        <Link to="/residences" className="expat-popup-btn">
-                            <span className="expat-btn-text">See Residencies by Sandane Homes</span>
-                            <span className="expat-btn-icon">
-                                <FaArrowRight size={11} />
-                            </span>
-                        </Link>
-                    </>
-                )}
+                {/* Main Action Button (Enquire Now -> Scroll to Footer Contact Form) */}
+                <button 
+                    onClick={handleEnquireClick}
+                    className="expat-popup-btn"
+                    style={{ marginTop: '15px', border: 'none', cursor: 'pointer' }}
+                >
+                    <span className="expat-btn-text">Enquire Now</span>
+                    <span className="expat-btn-icon">
+                        <FaArrowRight size={11} />
+                    </span>
+                </button>
             </div>
         </div>
     );

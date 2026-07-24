@@ -40,22 +40,27 @@
     }
 }
 
-/* Highlight Animation */
+/* Highlight & Glow Animation */
 .highlight-section {
-    animation: flashHighlight 2s ease-out;
+    animation: flashHighlightGlow 2.5s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: all 0.5s ease;
 }
 
-@keyframes flashHighlight {
+@keyframes flashHighlightGlow {
     0% {
+        box-shadow: 0 0 0 rgba(197, 165, 114, 0);
         background-color: transparent;
     }
-
     20% {
-        background-color: #E2D1B3;
-        /* A soft gold/beige flash */
+        box-shadow: 0 0 60px rgba(197, 165, 114, 0.5), inset 0 0 35px rgba(197, 165, 114, 0.25);
+        background-color: rgba(226, 209, 179, 0.35);
     }
-
+    50% {
+        box-shadow: 0 0 80px rgba(197, 165, 114, 0.65), inset 0 0 45px rgba(197, 165, 114, 0.35);
+        background-color: rgba(226, 209, 179, 0.45);
+    }
     100% {
+        box-shadow: 0 0 0 rgba(197, 165, 114, 0);
         background-color: transparent;
     }
 }

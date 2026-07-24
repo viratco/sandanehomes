@@ -78,7 +78,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
     return (
         <footer style={{ width: '100%', backgroundColor: '#F9F9F9' }}>
             {!hideContactForm && (
-                <div id="contact-section" className="footer-newsletter-container">
+                <div id="footer-contact-section" className="footer-newsletter-container">
                     <div className="footer-newsletter-row">
 
                         {/* LEFT TEXT */}
