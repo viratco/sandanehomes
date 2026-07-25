@@ -6,12 +6,12 @@
 export const landingPages = [
     {
         slug: "serviced-apartments-ansal-golf-links",
-        metaTitle: "Serviced Apartments in Ansal Golf Links Greater Noida | Residencies by Sandane Homes",
+        metaTitle: "Serviced Apartments in Ansal Golf Links Greater Noida | Residences by Sandane Homes",
         metaDescription: "Luxury serviced apartments in Ansal Golf Links, Greater Noida. Fully furnished, daily housekeeping, 300 Mbps WiFi, car fleet. Perfect for corporate expats near Yamuna Expressway.",
         canonical: "https://www.sandanehomes.com/serviced-apartments-ansal-golf-links",
         h1: "Serviced Apartments in Ansal Golf Links, Greater Noida",
         subtitle: "Spacious. Secure. Minutes from the Yamuna Expressway corridor.",
-        intro: "Ansal Golf Links is one of Greater Noida's most established premium residential societies — known for its spacious apartments, wide internal roads, lush green landscaping, and exceptional security infrastructure. For expat professionals and corporate assignees requiring more space and a quieter residential environment, Ansal Golf Links is consistently among the top choices. Residencies by Sandane Homes operates fully managed luxury serviced apartments inside Ansal Golf Links — completely furnished, professionally maintained, and ready for immediate occupation.",
+        intro: "Ansal Golf Links is one of Greater Noida's most established premium residential societies — known for its spacious apartments, wide internal roads, lush green landscaping, and exceptional security infrastructure. For expat professionals and corporate assignees requiring more space and a quieter residential environment, Ansal Golf Links is consistently among the top choices. Residences by Sandane Homes operates fully managed luxury serviced apartments inside Ansal Golf Links — completely furnished, professionally maintained, and ready for immediate occupation.",
         whyChooseTitle: "Why Ansal Golf Links for Expat Professionals",
         whyChooseItems: [
             {
@@ -81,12 +81,12 @@ export const landingPages = [
     },
     {
         slug: "serviced-apartments-godrej-golf-link",
-        metaTitle: "Serviced Apartments in Godrej Golf Link Greater Noida | Residencies by Sandane Homes",
+        metaTitle: "Serviced Apartments in Godrej Golf Link Greater Noida | Residences by Sandane Homes",
         metaDescription: "Premium serviced apartments and villas in Godrej Golf Link, Greater Noida. 3BHK to 4BHK + villas. Daily housekeeping, car fleet, FRRO support. For senior expat professionals.",
         canonical: "https://www.sandanehomes.com/serviced-apartments-godrej-golf-link",
         h1: "Serviced Apartments & Villas in Godrej Golf Link, Greater Noida",
         subtitle: "Premium living. The Godrej standard. Everything managed.",
-        intro: "Godrej Golf Link represents the premium end of Greater Noida's residential landscape. Developed by Godrej Properties — one of India's most trusted real estate brands — this integrated township combines lush golf course surroundings with premium apartment towers and independent villas built to the highest standards. For senior corporate executives, expat families requiring maximum space, and professionals who will not compromise on quality of living — Godrej Golf Link is the address of choice. Residencies by Sandane Homes operates fully managed serviced apartments and villas inside Godrej Golf Link — completely furnished, professionally maintained, and ready for immediate occupation.",
+        intro: "Godrej Golf Link represents the premium end of Greater Noida's residential landscape. Developed by Godrej Properties — one of India's most trusted real estate brands — this integrated township combines lush golf course surroundings with premium apartment towers and independent villas built to the highest standards. For senior corporate executives, expat families requiring maximum space, and professionals who will not compromise on quality of living — Godrej Golf Link is the address of choice. Residences by Sandane Homes operates fully managed serviced apartments and villas inside Godrej Golf Link — completely furnished, professionally maintained, and ready for immediate occupation.",
         whyChooseTitle: "Why Senior Expat Professionals Choose Godrej Golf Link",
         whyChooseItems: [
             {
@@ -152,13 +152,13 @@ export const landingPages = [
     },
     {
         slug: "furnished-apartments-greater-noida",
-        metaTitle: "Furnished Apartments in Greater Noida | Long Stay | Residencies by Sandane Homes",
+        metaTitle: "Furnished Apartments in Greater Noida | Long Stay | Residences by Sandane Homes",
         metaDescription: "Fully furnished apartments in Greater Noida for expats, corporate professionals & long stays. 1BHK to 4BHK in Jaypee Greens, Ansal Golf Links & Godrej Golf Link. Just arrive.",
         canonical: "https://www.sandanehomes.com/furnished-apartments-greater-noida",
         h1: "Fully Furnished Apartments in Greater Noida",
         subtitle: "Not \"semi-furnished.\" Not \"furniture on request.\" Fully furnished — everything in place.",
-        intro: "When people search for furnished apartments in Greater Noida, they encounter a wide spectrum. At one end: a flat with a bed and a broken ceiling fan listed as \"furnished.\" At the other: a professionally managed, hotel-grade serviced apartment where every drawer, every cabinet, and every surface is stocked before arrival. Residencies by Sandane Homes operates at the second end of that spectrum — exclusively. Our fully furnished apartments in Greater Noida are located in Jaypee Greens, Ansal Golf Links, and Godrej Golf Link — and every single one is prepared to the same standard before a guest arrives.",
-        whyChooseTitle: "What \"Fully Furnished\" Actually Means at Residencies",
+        intro: "When people search for furnished apartments in Greater Noida, they encounter a wide spectrum. At one end: a flat with a bed and a broken ceiling fan listed as \"furnished.\" At the other: a professionally managed, hotel-grade serviced apartment where every drawer, every cabinet, and every surface is stocked before arrival. Residences by Sandane Homes operates at the second end of that spectrum — exclusively. Our fully furnished apartments in Greater Noida are located in Jaypee Greens, Ansal Golf Links, and Godrej Golf Link — and every single one is prepared to the same standard before a guest arrives.",
+        whyChooseTitle: "What \"Fully Furnished\" Actually Means at Residences",
         whyChooseItems: [
             {
                 title: "Bedrooms",
@@ -188,11 +188,11 @@ export const landingPages = [
         faqs: [
             {
                 question: "Are the furnished apartments in Greater Noida fully equipped including kitchen?",
-                answer: "Yes. Every Residencies by Sandane Homes apartment comes with a fully equipped kitchen — cooktop, refrigerator, microwave, oven, full cookware, crockery, and cutlery. This is non-negotiable for our Korean and Japanese guests and standard across all our properties."
+                answer: "Yes. Every Residences by Sandane Homes apartment comes with a fully equipped kitchen — cooktop, refrigerator, microwave, oven, full cookware, crockery, and cutlery. This is non-negotiable for our Korean and Japanese guests and standard across all our properties."
             },
             {
                 question: "What is the difference between a furnished apartment and a serviced apartment in Greater Noida?",
-                answer: "A furnished apartment has furniture. A serviced apartment has furniture plus daily housekeeping, maintenance, utilities, linen service, and professional management. All Residencies by Sandane Homes apartments are serviced apartments — not just furnished."
+                answer: "A furnished apartment has furniture. A serviced apartment has furniture plus daily housekeeping, maintenance, utilities, linen service, and professional management. All Residences by Sandane Homes apartments are serviced apartments — not just furnished."
             },
             {
                 question: "Can I view the apartment before committing?",
@@ -210,12 +210,12 @@ export const landingPages = [
     },
     {
         slug: "corporate-housing-greater-noida",
-        metaTitle: "Corporate Housing in Greater Noida | For MNCs & Expat Teams | Residencies by Sandane Homes",
+        metaTitle: "Corporate Housing in Greater Noida | For MNCs & Expat Teams | Residences by Sandane Homes",
         metaDescription: "Corporate housing in Greater Noida for MNCs, HR teams, and expat employees. GST billing, FRRO support, car fleet, daily housekeeping. Near Honda, Yamaha, India Expo Mart.",
         canonical: "https://www.sandanehomes.com/corporate-housing-greater-noida",
         h1: "Corporate Housing in Greater Noida",
         subtitle: "Built for HR teams. Designed for assignees. Zero complaints.",
-        intro: "Corporate housing in Greater Noida is not just a property transaction. It is the thing that determines whether your assignee's first month in India is productive — or spent dealing with accommodation problems. Residencies by Sandane Homes is Greater Noida's dedicated corporate housing partner — built specifically around the needs of HR managers, Global Mobility teams, relocation agencies, and the multinational companies posting employees to the NCR corridor.",
+        intro: "Corporate housing in Greater Noida is not just a property transaction. It is the thing that determines whether your assignee's first month in India is productive — or spent dealing with accommodation problems. Residences by Sandane Homes is Greater Noida's dedicated corporate housing partner — built specifically around the needs of HR managers, Global Mobility teams, relocation agencies, and the multinational companies posting employees to the NCR corridor.",
         whyChooseTitle: "What Corporate Housing Actually Requires",
         whyChooseItems: [
             {
@@ -232,7 +232,7 @@ export const landingPages = [
             },
             {
                 title: "Zero complaints from assignees",
-                text: "The metric HR managers care about most: the employee never complains about housing. Residencies by Sandane Homes delivers this through daily housekeeping, fast maintenance response, and an apartment that is genuinely comfortable from day one."
+                text: "The metric HR managers care about most: the employee never complains about housing. Residences by Sandane Homes delivers this through daily housekeeping, fast maintenance response, and an apartment that is genuinely comfortable from day one."
             }
         ],
         commuteTable: null,
@@ -248,7 +248,7 @@ export const landingPages = [
         ],
         faqs: [
             {
-                question: "How does corporate housing billing work at Residencies by Sandane Homes?",
+                question: "How does corporate housing billing work at Residences by Sandane Homes?",
                 answer: "We issue GST-compliant invoices addressed to your company for every booking. Billing can be monthly, at checkout, or on a custom cycle agreed in advance. We accept bank transfers and corporate payment methods."
             },
             {
@@ -276,13 +276,13 @@ export const landingPages = [
     },
     {
         slug: "long-stay-apartments-greater-noida",
-        metaTitle: "Long Stay Apartments in Greater Noida | Monthly & Quarterly | Residencies by Sandane Homes",
+        metaTitle: "Long Stay Apartments in Greater Noida | Monthly & Quarterly | Residences by Sandane Homes",
         metaDescription: "Long stay furnished apartments in Greater Noida for 1 to 12 months. Fully managed, daily housekeeping, corporate billing. Ideal for expats, engineers & corporate professionals.",
         canonical: "https://www.sandanehomes.com/long-stay-apartments-greater-noida",
         h1: "Long Stay Apartments in Greater Noida",
         subtitle: "Stay a month. Stay a year. Everything stays handled.",
-        intro: "Long stay accommodation in Greater Noida serves a very specific need — and it is a need that hotels cannot meet and standard rentals do not serve well. You need more than a room. You need a home — with a real kitchen, daily cleaning, maintained utilities, and a team that is genuinely available when something needs attention. You need it flexible — because assignment timelines change and lease rigidity is the last thing you need. And you need it managed — so your focus stays on work, not on the apartment. That is exactly what Residencies by Sandane Homes delivers for long stay guests in Greater Noida.",
-        whyChooseTitle: "Why Long Stay at Residencies Beats Every Alternative",
+        intro: "Long stay accommodation in Greater Noida serves a very specific need — and it is a need that hotels cannot meet and standard rentals do not serve well. You need more than a room. You need a home — with a real kitchen, daily cleaning, maintained utilities, and a team that is genuinely available when something needs attention. You need it flexible — because assignment timelines change and lease rigidity is the last thing you need. And you need it managed — so your focus stays on work, not on the apartment. That is exactly what Residences by Sandane Homes delivers for long stay guests in Greater Noida.",
+        whyChooseTitle: "Why Long Stay at Residences Beats Every Alternative",
         whyChooseItems: [
             {
                 title: "vs Hotels",
@@ -290,11 +290,11 @@ export const landingPages = [
             },
             {
                 title: "vs Standard rentals",
-                text: "Standard rentals require broker fees, society deposits, furniture purchase, utility setup, maintenance coordination, and rigid 11-month agreements. None of this applies with Residencies."
+                text: "Standard rentals require broker fees, society deposits, furniture purchase, utility setup, maintenance coordination, and rigid 11-month agreements. None of this applies with Residences."
             },
             {
                 title: "vs Paying guest / PG accommodation",
-                text: "No comparison. Residencies is a private, fully managed luxury apartment — not a shared PG."
+                text: "No comparison. Residences is a private, fully managed luxury apartment — not a shared PG."
             }
         ],
         commuteTable: null,
@@ -310,7 +310,7 @@ export const landingPages = [
         ],
         faqs: [
             {
-                question: "What is the minimum long stay duration at Residencies by Sandane Homes?",
+                question: "What is the minimum long stay duration at Residences by Sandane Homes?",
                 answer: "Our standard minimum stay is 1 month. Short project stays of 2 weeks are accommodated subject to availability. For long stays of 3 months or more, we offer our best rates."
             },
             {
@@ -323,7 +323,7 @@ export const landingPages = [
             },
             {
                 question: "Is long stay accommodation in Greater Noida cheaper than a hotel?",
-                answer: "Significantly. Monthly rates for a fully serviced 2BHK in Residencies by Sandane Homes compare favourably with even budget business hotels — and the quality and space are incomparable. Contact us for a specific quote."
+                answer: "Significantly. Monthly rates for a fully serviced 2BHK in Residences by Sandane Homes compare favourably with even budget business hotels — and the quality and space are incomparable. Contact us for a specific quote."
             },
             {
                 question: "Do you provide monthly invoices for long stay bookings?",
@@ -337,12 +337,12 @@ export const landingPages = [
     },
     {
         slug: "apartments-near-india-expo-centre",
-        metaTitle: "Apartments near India Expo Centre Greater Noida | Residencies by Sandane Homes",
+        metaTitle: "Apartments near India Expo Centre Greater Noida | Residences by Sandane Homes",
         metaDescription: "Fully furnished serviced apartments 10 minutes from India Expo Centre & Mart, Greater Noida. Daily housekeeping, car fleet, corporate billing. Book before your next event.",
         canonical: "https://www.sandanehomes.com/apartments-near-india-expo-centre",
         h1: "Serviced Apartments near India Expo Centre, Greater Noida",
         subtitle: "10 minutes from India Expo Mart. Fully managed. Ready before the event starts.",
-        intro: "India Expo Centre & Mart in Greater Noida is one of India's largest exhibition and convention venues — hosting Auto Expo, Plastindia, India International Trade Fair, and hundreds of major B2B events throughout the year. It draws international visitors, exhibitors, and business delegations from Korea, Japan, Germany, the United States, and across Southeast Asia. For anyone attending, exhibiting, or managing operations at India Expo Mart for more than a few days — a serviced apartment beats a hotel in every practical dimension. Residencies by Sandane Homes operates fully managed serviced apartments in Jaypee Greens and Ansal Golf Links — both approximately 10–15 minutes from India Expo Centre via smooth internal roads.",
+        intro: "India Expo Centre & Mart in Greater Noida is one of India's largest exhibition and convention venues — hosting Auto Expo, Plastindia, India International Trade Fair, and hundreds of major B2B events throughout the year. It draws international visitors, exhibitors, and business delegations from Korea, Japan, Germany, the United States, and across Southeast Asia. For anyone attending, exhibiting, or managing operations at India Expo Mart for more than a few days — a serviced apartment beats a hotel in every practical dimension. Residences by Sandane Homes operates fully managed serviced apartments in Jaypee Greens and Ansal Golf Links — both approximately 10–15 minutes from India Expo Centre via smooth internal roads.",
         whyChooseTitle: "Why Choose a Serviced Apartment over a Hotel for India Expo Mart Events",
         whyChooseItems: [
             {
@@ -402,12 +402,12 @@ export const landingPages = [
     },
     {
         slug: "japanese-expat-housing-greater-noida",
-        metaTitle: "Japanese Expat Housing Greater Noida | Near Honda, Yamaha | Residencies by Sandane Homes",
+        metaTitle: "Japanese Expat Housing Greater Noida | Near Honda, Yamaha | Residences by Sandane Homes",
         metaDescription: "Luxury serviced apartments for Japanese expats in Greater Noida. Near Honda India, Yamaha Motor India. Daily housekeeping, FRRO support. 日本語対応可能。",
         canonical: "https://www.sandanehomes.com/japanese-expat-housing-greater-noida",
         h1: "Japanese Expat Housing in Greater Noida",
         subtitle: "グレーターノイダの日本人駐在員向け住宅",
-        intro: "Greater Noida is home to one of the largest concentrations of Japanese professionals in India. Honda Motorcycle & Scooter India and Yamaha Motor India — both on the Yamuna Expressway corridor — rotate Japanese engineers, managers, and senior executives consistently through the NCR. Denso India, Toyota Kirloskar suppliers, and a growing network of Japanese automotive component manufacturers add to this community significantly. Residencies by Sandane Homes operates luxury serviced apartments in Greater Noida specifically suited to what Japanese expat professionals require.",
+        intro: "Greater Noida is home to one of the largest concentrations of Japanese professionals in India. Honda Motorcycle & Scooter India and Yamaha Motor India — both on the Yamuna Expressway corridor — rotate Japanese engineers, managers, and senior executives consistently through the NCR. Denso India, Toyota Kirloskar suppliers, and a growing network of Japanese automotive component manufacturers add to this community significantly. Residences by Sandane Homes operates luxury serviced apartments in Greater Noida specifically suited to what Japanese expat professionals require.",
         whyChooseTitle: "What Japanese Expat Professionals Need — And What We Provide",
         whyChooseItems: [
             {
@@ -469,12 +469,12 @@ export const landingPages = [
     },
     {
         slug: "expat-housing-delhi-ncr",
-        metaTitle: "Expat Housing in Delhi NCR | Luxury Serviced Apartments | Residencies by Sandane Homes",
+        metaTitle: "Expat Housing in Delhi NCR | Luxury Serviced Apartments | Residences by Sandane Homes",
         metaDescription: "Expat housing across Delhi NCR — Greater Noida, Noida & Gurgaon. Fully managed luxury serviced apartments for Korean, Japanese & international professionals. Just arrive.",
         canonical: "https://www.sandanehomes.com/expat-housing-delhi-ncr",
         h1: "Expat Housing in Delhi NCR",
         subtitle: "Greater Noida. Noida. Gurgaon. One trusted partner across the entire NCR.",
-        intro: "Delhi NCR is home to one of the most significant expat professional communities in Asia. Korean engineers, Japanese executives, British and American MNC leaders, European technical specialists — the NCR corridor spans three states and hosts thousands of international professionals at any given moment. Finding the right expat housing in Delhi NCR is not a simple search. The right location depends on where your office is. The right size depends on whether you are relocating alone or with family. The right service level depends on how long you are staying and what your company expects. Residencies by Sandane Homes simplifies all of this — with fully managed luxury expat housing across Greater Noida, Noida, and Gurgaon.",
+        intro: "Delhi NCR is home to one of the most significant expat professional communities in Asia. Korean engineers, Japanese executives, British and American MNC leaders, European technical specialists — the NCR corridor spans three states and hosts thousands of international professionals at any given moment. Finding the right expat housing in Delhi NCR is not a simple search. The right location depends on where your office is. The right size depends on whether you are relocating alone or with family. The right service level depends on how long you are staying and what your company expects. Residences by Sandane Homes simplifies all of this — with fully managed luxury expat housing across Greater Noida, Noida, and Gurgaon.",
         whyChooseTitle: "NCR Expat Housing by Corridor",
         whyChooseItems: [
             {
@@ -512,12 +512,12 @@ export const landingPages = [
                 answer: "Greater Noida for Honda, Yamaha, and supply chain companies. Gurgaon for Maruti Suzuki, Panasonic, and Toyota suppliers. We operate in both corridors."
             },
             {
-                question: "Can Residencies by Sandane Homes help with FRRO registration across NCR?",
+                question: "Can Residences by Sandane Homes help with FRRO registration across NCR?",
                 answer: "Yes. We provide official address confirmation letters for FRRO registration for all our properties across NCR — Greater Noida, Noida, and Gurgaon — within 24 hours of check-in."
             },
             {
                 question: "Does one company manage all NCR locations?",
-                answer: "Yes. Residencies by Sandane Homes is your single point of contact across all NCR locations. One call, one team, one invoice."
+                answer: "Yes. Residences by Sandane Homes is your single point of contact across all NCR locations. One call, one team, one invoice."
             }
         ],
         related: [
@@ -527,17 +527,17 @@ export const landingPages = [
     },
     {
         slug: "corporate-accommodation-noida",
-        metaTitle: "Corporate Accommodation in Noida | For MNCs & Expats | Residencies by Sandane Homes",
+        metaTitle: "Corporate Accommodation in Noida | For MNCs & Expats | Residences by Sandane Homes",
         metaDescription: "Corporate accommodation in Noida for MNCs, expat assignees & visiting professionals. Fully furnished, daily housekeeping, FRRO support, GST billing. Near Samsung, LG, IT corridor.",
         canonical: "https://www.sandanehomes.com/corporate-accommodation-noida",
         h1: "Corporate Accommodation in Noida",
         subtitle: "For Samsung, LG, and every MNC posting employees to Noida.",
-        intro: "Noida is one of the most significant corporate and technology corridors in North India. Samsung R&D Institute India, LG Electronics, Panasonic, and a dense ecosystem of IT companies, manufacturing firms, and MNC offices make Noida one of the top destinations for international corporate postings in the country. Residencies by Sandane Homes provides premium corporate accommodation in Noida — fully managed, fully furnished, and built around what corporate HR teams and expat assignees actually need.",
+        intro: "Noida is one of the most significant corporate and technology corridors in North India. Samsung R&D Institute India, LG Electronics, Panasonic, and a dense ecosystem of IT companies, manufacturing firms, and MNC offices make Noida one of the top destinations for international corporate postings in the country. Residences by Sandane Homes provides premium corporate accommodation in Noida — fully managed, fully furnished, and built around what corporate HR teams and expat assignees actually need.",
         whyChooseTitle: "Why Noida Requires Specialist Corporate Accommodation",
         whyChooseItems: [
             {
                 title: "Eliminating market inconsistency",
-                text: "Noida's corporate accommodation market is large but inconsistent. Brokers dominate. Quality varies enormously. Furnished flats that look professional in photos often arrive with missing equipment. Residencies by Sandane Homes controls our inventory directly, eliminating these issues."
+                text: "Noida's corporate accommodation market is large but inconsistent. Brokers dominate. Quality varies enormously. Furnished flats that look professional in photos often arrive with missing equipment. Residences by Sandane Homes controls our inventory directly, eliminating these issues."
             },
             {
                 title: "Reducing HR overhead",
@@ -581,17 +581,17 @@ export const landingPages = [
     },
     {
         slug: "relocation-housing-noida",
-        metaTitle: "Relocation Housing in Noida | Corporate Relocation Apartments | Residencies by Sandane Homes",
+        metaTitle: "Relocation Housing in Noida | Corporate Relocation Apartments | Residences by Sandane Homes",
         metaDescription: "Relocation housing in Noida for corporate employees, expats & international assignees. Fully managed, FRRO support, GST billing, car fleet. One call handles everything.",
         canonical: "https://www.sandanehomes.com/relocation-housing-noida",
         h1: "Relocation Housing in Noida",
         subtitle: "One call. Everything sorted. Your employee arrives home.",
-        intro: "Corporate relocation to Noida involves a long checklist — visa processing, FRRO registration, company onboarding, finding a school for the children, opening a bank account, getting a SIM card. Housing should be the easiest item on that list. Residencies by Sandane Homes makes it exactly that. Our relocation housing in Noida and Greater Noida is designed to remove every friction point from the housing side of the relocation process — for HR managers, Global Mobility teams, relocation agencies, and the assignees themselves.",
+        intro: "Corporate relocation to Noida involves a long checklist — visa processing, FRRO registration, company onboarding, finding a school for the children, opening a bank account, getting a SIM card. Housing should be the easiest item on that list. Residences by Sandane Homes makes it exactly that. Our relocation housing in Noida and Greater Noida is designed to remove every friction point from the housing side of the relocation process — for HR managers, Global Mobility teams, relocation agencies, and the assignees themselves.",
         whyChooseTitle: "The Relocation Housing Problem We Solve",
         whyChooseItems: [
             {
                 title: "Day 1 Readiness",
-                text: "Most assignees spend weeks in expensive hotels while searching for housing. With Residencies, they land at IGI Airport, our car picks them up, and they walk straight into a fully prepared apartment with working WiFi and a stocked kitchen."
+                text: "Most assignees spend weeks in expensive hotels while searching for housing. With Residences, they land at IGI Airport, our car picks them up, and they walk straight into a fully prepared apartment with working WiFi and a stocked kitchen."
             },
             {
                 title: "Zero Lost Productivity",
@@ -635,12 +635,12 @@ export const landingPages = [
     },
     {
         slug: "accommodation-visiting-engineers-noida",
-        metaTitle: "Accommodation for Visiting Engineers in Noida & Greater Noida | Residencies by Sandane Homes",
+        metaTitle: "Accommodation for Visiting Engineers in Noida & Greater Noida | Residences by Sandane Homes",
         metaDescription: "Fully furnished serviced apartments for visiting engineers in Noida and Greater Noida. Near Honda, Yamaha, Samsung, LG. Flexible 2-week to 12-month stays. Corporate billing.",
         canonical: "https://www.sandanehomes.com/accommodation-visiting-engineers-noida",
         h1: "Accommodation for Visiting Engineers in Noida & Greater Noida",
         subtitle: "Short project. Long project. Every duration covered.",
-        intro: "Every month, hundreds of visiting engineers arrive in the NCR corridor. Automotive engineers at Honda and Yamaha. Electronics engineers at Samsung and LG. Manufacturing specialists visiting supplier plants along the Yamuna Expressway. Quality inspectors, project managers, technical consultants — all on fixed-term assignments ranging from 2 weeks to 12 months. Most of them spend their first week in a hotel and their second week solving the accommodation problem. Residencies by Sandane Homes solves it before they land.",
+        intro: "Every month, hundreds of visiting engineers arrive in the NCR corridor. Automotive engineers at Honda and Yamaha. Electronics engineers at Samsung and LG. Manufacturing specialists visiting supplier plants along the Yamuna Expressway. Quality inspectors, project managers, technical consultants — all on fixed-term assignments ranging from 2 weeks to 12 months. Most of them spend their first week in a hotel and their second week solving the accommodation problem. Residences by Sandane Homes solves it before they land.",
         whyChooseTitle: "What Visiting Engineers Actually Need",
         whyChooseItems: [
             {
@@ -702,7 +702,7 @@ export const landingPages = [
     },
     {
         slug: "luxury-villa-rental-greater-noida",
-        metaTitle: "Luxury Villa Rental in Greater Noida | 4BHK Villas for Expats | Residencies by Sandane Homes",
+        metaTitle: "Luxury Villa Rental in Greater Noida | 4BHK Villas for Expats | Residences by Sandane Homes",
         metaDescription: "Premium luxury villa rentals in Greater Noida for senior expat executives and families. Fully managed, daily housekeeping, golf course views. Book your villa stay.",
         canonical: "https://www.sandanehomes.com/luxury-villa-rental-greater-noida",
         h1: "Luxury Villa Rentals in Greater Noida",
@@ -761,12 +761,12 @@ export const landingPages = [
     },
     {
         slug: "serviced-apartments-jaypee-greens",
-        metaTitle: "Serviced Apartments in Jaypee Greens Greater Noida | Residencies by Sandane Homes",
+        metaTitle: "Serviced Apartments in Jaypee Greens Greater Noida | Residences by Sandane Homes",
         metaDescription: "Premium serviced apartments in Jaypee Greens, Greater Noida. Fully furnished, daily housekeeping, golf course views. Safe expat housing near Honda & Yamaha.",
         canonical: "https://www.sandanehomes.com/serviced-apartments-jaypee-greens",
         h1: "Serviced Apartments in Jaypee Greens, Greater Noida",
         subtitle: "Luxury golf course living. Established expat community. Fully serviced.",
-        intro: "Jaypee Greens is the premier residential destination in Greater Noida, famous for its lush golf resort atmosphere, high-end security, and a vibrant community of international expat professionals. Located close to the Yamuna Expressway, it provides unparalleled convenience for executives working at the local manufacturing plants of Honda, Yamaha, and surrounding industrial clusters. Residencies by Sandane Homes offers fully serviced luxury apartments inside Jaypee Greens, delivering a premium residential lifestyle combined with daily housekeeping, corporate billing, and dedicated transport logistics.",
+        intro: "Jaypee Greens is the premier residential destination in Greater Noida, famous for its lush golf resort atmosphere, high-end security, and a vibrant community of international expat professionals. Located close to the Yamuna Expressway, it provides unparalleled convenience for executives working at the local manufacturing plants of Honda, Yamaha, and surrounding industrial clusters. Residences by Sandane Homes offers fully serviced luxury apartments inside Jaypee Greens, delivering a premium residential lifestyle combined with daily housekeeping, corporate billing, and dedicated transport logistics.",
         whyChooseTitle: "Why Expats Choose Jaypee Greens",
         whyChooseItems: [
             {

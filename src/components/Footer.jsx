@@ -341,7 +341,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                         ['Korean Expat Housing Delhi NCR', '/korean-expat-housing-delhi-ncr'],
                         ['Japanese Expat Housing Greater Noida', '/japanese-expat-housing-delhi-ncr'],
                         ['Blog', '/blog'],
-                        ['Long-Term Residences', '/residences'],
+                        ['Residences', '/residences'],
                         ['FAQs', '/faqs'],
                     ].map(([label, href]) => (
                         <a

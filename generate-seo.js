@@ -16,7 +16,7 @@ const SEO_MAP = {
     description: 'Discover luxury serviced apartments and premium residences by Sandane Homes in Greater Noida. Fully-serviced stays with top-notch amenities, professional hospitality, and comfort.',
   },
   '/residences': {
-    title: 'Residencies by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
+    title: 'Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
     description: 'Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.',
   },
   '/amara': {

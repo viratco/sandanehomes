@@ -69,10 +69,12 @@ const ExpatPopupBar = () => {
 
                 {/* Top Live Badge */}
                 <div className="expat-popup-header">
-                    <span className="expat-popup-badge">
-                        <span className="expat-live-dot"></span>
-                        <span className="expat-flags">🇰🇷 🇯🇵 🇨🇳</span> EXPAT RESIDENCES
-                    </span>
+                    <Link to="/residences" style={{ textDecoration: 'none' }}>
+                        <span className="expat-popup-badge">
+                            <span className="expat-live-dot"></span>
+                            <span className="expat-flags">🇰🇷 🇯🇵 🇨🇳</span> RESIDENCES
+                        </span>
+                    </Link>
                 </div>
 
                 {/* Main Headline */}

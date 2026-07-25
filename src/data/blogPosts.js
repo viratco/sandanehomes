@@ -1106,7 +1106,7 @@ export const blogPosts = [
                 "WiFi速度是否有书面承诺——建议要求至少300 Mbps，这样才能满足与国内团队视频会议的需求。",
                 "是否提供FRRO登记文件协助——所有在印度停留超过180天的外国公民都必须在抵达后14天内完成FRRO（外国人区域注册办公室）登记，需要住宿提供方出具地址证明信。这是整个流程中最容易被耽误的环节，务必提前确认。"
             ] },
-            { type: "heading", text: "关于Sandane Homes的Residencies" },
+            { type: "heading", text: "关于Sandane Homes的Residences" },
             { type: "paragraph", text: "我们在Jaypee Greens、Ansal Golf Links和Godrej Golf Link均设有全权管理的服务式公寓，专为包括中国、韩国、日本外派员工在内的国际专业人士打造。全套家具、每日保洁、300 Mbps高速网络、空气净化器、100%备用电源，以及FRRO登记文件协助。企业客户可直接开具GST发票。我们还提供专属车队服务，涵盖机场接送和日常通勤。" },
             { type: "paragraph", text: "如果贵公司有员工即将派驻大诺伊达，欢迎联系我们了解详情。" },
             { type: "quote", text: "联系方式：+91 97117 22273（WhatsApp / KakaoTalk / WeChat） | residencesbysandanehomes@gmail.com", attribution: "— Sandane Homes 大诺伊达团队" }

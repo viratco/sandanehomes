@@ -64,6 +64,14 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
         }
 
         setCurrentLang(lang);
+
+        if (lang === 'ko' || lang === 'ja') {
+            if (window.location.pathname.toLowerCase() !== '/residences') {
+                window.location.href = '/residences';
+                return;
+            }
+        }
+
         window.location.reload();
     };
 
@@ -153,7 +161,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                 )}
                             </li>
 
-                            {/* SERVICE APARTMENT */}
+                            {/* RESIDENCES */}
                             <li
                                 className="nav-item"
                                 onMouseEnter={() => !isMobileMenuOpen && setIsServiceDropdownOpen(true)}
@@ -162,7 +170,9 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                     if (window.innerWidth <= 1024) setIsServiceDropdownOpen(!isServiceDropdownOpen);
                                 }}
                             >
-                                <span className="nav-item-label">SERVICE APARTMENT</span>
+                                <Link to="/residences" className="nav-item-label" style={{ textDecoration: 'none' }} onClick={() => setIsMobileMenuOpen(false)}>
+                                    RESIDENCES
+                                </Link>
                                 {isServiceDropdownOpen && (
                                     <div className="dropdown-container">
                                         <ul className="dropdown-list">

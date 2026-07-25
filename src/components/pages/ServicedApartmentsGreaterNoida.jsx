@@ -8,7 +8,7 @@ import { FaCouch, FaBroom, FaBolt, FaCalendarAlt, FaMapMarkerAlt, FaFileInvoiceD
 
 const faqs = [
     {
-        question: "What is included in a Residencies by Sandane Homes serviced apartment?",
+        question: "What is included in a Residences by Sandane Homes serviced apartment?",
         answer: "Our luxury serviced apartments are fully furnished and equipped with premium furniture, high-quality bed and bath linens, and a fully functional kitchen with all necessary utensils. The monthly rent includes all utilities such as high-speed Wi-Fi (up to 300 Mbps), electricity with 100% power backup, and water. You also receive daily professional housekeeping services and maintenance support, ensuring a completely hassle-free living experience."
     },
     {
@@ -70,7 +70,7 @@ const ServicedApartmentsGreaterNoida = () => {
     const apartmentComplexSchema = {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
-        "name": "Residencies by Sandane Homes — Greater Noida",
+        "name": "Residences by Sandane Homes — Greater Noida",
         "description": "Fully furnished luxury serviced apartments in Greater Noida for expats and corporate professionals.",
         "url": "https://www.sandanehomes.com/serviced-apartments-greater-noida",
         "telephone": "+919711722273",
@@ -116,7 +116,7 @@ const ServicedApartmentsGreaterNoida = () => {
             {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "Residencies",
+                "name": "Residences",
                 "item": "https://www.sandanehomes.com/residences"
             },
             {
@@ -207,7 +207,7 @@ const ServicedApartmentsGreaterNoida = () => {
                         Finding the right long-term accommodation when relocating to a new country can be challenging. At <a href="/" style={{ color: '#1A3C34', fontWeight: 'bold' }}>Sandane Homes</a>, our premium <strong>serviced apartments Greater Noida</strong> are designed specifically to solve this problem for expats, corporate professionals, and international assignees. We provide a seamless living experience where everything is taken care of from the moment you step through the door. 
                     </p>
                     <p style={{ marginTop: '20px' }}>
-                        Unlike standard rentals that require you to buy furniture, set up Wi-Fi, and manage utility bills, our <strong>furnished apartments Greater Noida</strong> come completely equipped. You get premium furniture, a fully stocked kitchen, and all essential electronics. Our key selling point is a zero-setup philosophy—your home is ready from day one. Whether you are looking for short-term project accommodation or long-term <strong>corporate housing Greater Noida</strong>, <a href="/residences" style={{ color: '#1A3C34', fontWeight: 'bold' }}>Residencies by Sandane Homes</a> offers the perfect blend of hotel-like luxury and residential privacy. Discover the ultimate <strong>expat accommodation Greater Noida</strong> where you can simply arrive, unpack, and instantly feel at home.
+                        Unlike standard rentals that require you to buy furniture, set up Wi-Fi, and manage utility bills, our <strong>furnished apartments Greater Noida</strong> come completely equipped. You get premium furniture, a fully stocked kitchen, and all essential electronics. Our key selling point is a zero-setup philosophy—your home is ready from day one. Whether you are looking for short-term project accommodation or long-term <strong>corporate housing Greater Noida</strong>, <a href="/residences" style={{ color: '#1A3C34', fontWeight: 'bold' }}>Residences by Sandane Homes</a> offers the perfect blend of hotel-like luxury and residential privacy. Discover the ultimate <strong>expat accommodation Greater Noida</strong> where you can simply arrive, unpack, and instantly feel at home.
                     </p>
                 </div>
             </div>

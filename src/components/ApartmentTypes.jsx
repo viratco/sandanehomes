@@ -79,7 +79,7 @@ const ApartmentTypes = () => {
 
     return (
         <section
-            id="accommodations"
+            id="our-luxury-hotels"
             style={{ backgroundColor: '#FFFBF5', padding: '40px 0 80px 0', color: '#111', textAlign: 'center', position: 'relative' }}
             onMouseMove={handleMouseMove}
         >
