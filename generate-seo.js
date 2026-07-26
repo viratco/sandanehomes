@@ -305,18 +305,29 @@ const originalHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 Object.keys(SEO_MAP).forEach((route) => {
   const seo = SEO_MAP[route];
   const canonical = `${BASE_URL}${route === '/' ? '' : route}`;
-  
-  // Create a regex to find the <title> tag
-  let newHtml = originalHtml.replace(/<title>.*?<\/title>/i, `<title>${seo.title}</title>`);
-  
-  // Replace the meta description (or add if it doesn't exist)
+  const ogImage = seo.ogImage || `${BASE_URL}/residences-og.jpg`;
+
+  // Start with the original HTML
+  let newHtml = originalHtml;
+
+  // 1. Replace <title>
+  newHtml = newHtml.replace(/<title>.*?<\/title>/i, `<title>${seo.title}</title>`);
+
+  // 2. Replace <meta name="description">
   if (newHtml.includes('<meta name="description"')) {
     newHtml = newHtml.replace(/<meta name="description" content=".*?"\s*\/?>/i, `<meta name="description" content="${seo.description}" />`);
   } else {
     newHtml = newHtml.replace('</title>', `</title>\n    <meta name="description" content="${seo.description}" />`);
   }
-  
-  // Set the html lang attribute for language-targeted pages
+
+  // 3. Strip ALL existing OG tags, canonical, twitter tags from the base HTML
+  //    so they don't appear twice (with homepage values first, page-specific second).
+  newHtml = newHtml
+    .replace(/<meta property="og:[^"]*" content="[^"]*"\s*\/?>\n?/gi, '')
+    .replace(/<meta name="twitter:[^"]*" content="[^"]*"\s*\/?>\n?/gi, '')
+    .replace(/<link rel="canonical" href="[^"]*"\s*\/?>\n?/gi, '');
+
+  // 4. Set the html lang attribute for language-targeted pages
   if (seo.lang) {
     newHtml = newHtml.replace(/<html lang=".*?"/i, `<html lang="${seo.lang}"`);
   }
@@ -331,7 +342,7 @@ Object.keys(SEO_MAP).forEach((route) => {
     .map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`)
     .join('\n    ');
 
-  // Inject canonical and OG tags before </head>
+  // 5. Inject canonical, OG, and Twitter tags before </head>
   const tagsToInject = `
     <link rel="canonical" href="${canonical}" />
     ${hreflangTags}
@@ -340,7 +351,11 @@ Object.keys(SEO_MAP).forEach((route) => {
     <meta property="og:url" content="${canonical}" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Sandane Homes" />
-    <meta property="og:image" content="${seo.ogImage || 'https://www.sandanehomes.com/residences-og.jpg'}" />
+    <meta property="og:image" content="${ogImage}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${seo.title}" />
+    <meta name="twitter:description" content="${seo.description}" />
+    <meta name="twitter:image" content="${ogImage}" />
     ${schemaTags}
   `;
 

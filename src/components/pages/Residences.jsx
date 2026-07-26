@@ -105,26 +105,6 @@ const Residences = () => {
             <SEO {...seoProps} />
             <Header showTopBar={false} />
 
-            {/* Multilingual Support Banner for Korean & Japanese Expats */}
-            <div className="residences-expat-notice" style={{
-                backgroundColor: '#1A3C34',
-                color: '#C5A572',
-                textAlign: 'center',
-                padding: '12px 20px',
-                fontSize: '13px',
-                fontWeight: '500',
-                letterSpacing: '0.5px',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                gap: '15px',
-                flexWrap: 'wrap',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-            }}>
-                <span>🇰🇷 한국어 &amp; 🇯🇵 日本語 Dedicated Expat Housing Support</span>
-                <span style={{ opacity: 0.4 }}>|</span>
-                <span>24/7 WhatsApp Concierge: <a href="https://wa.me/919711722273?text=Hello%2C%20I%20am%20interested%20in%20Residences%20by%20Sandane%20Homes" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff', fontWeight: '700', textDecoration: 'underline' }}>+91 9711722273</a></span>
-            </div>
 
             {/* Commented Out New Editorial Layout */}
             {true && (
