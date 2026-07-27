@@ -213,6 +213,11 @@ blogPosts.forEach((post) => {
       },
       "telephone": "+91 97117 22273",
       "url": `${BASE_URL}`,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "489"
+      },
       "areaServed": [
         "India Expo Mart",
         "Knowledge Park Greater Noida",

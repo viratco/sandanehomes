@@ -91,7 +91,7 @@ export const blogPosts = [
         "slug": "best-corporate-hotels-greater-noida",
         "title": "Best Corporate Hotels in Greater Noida for Business Travel",
         "metaTitle": "Best Corporate Hotels in Greater Noida for Business Travel | Sandane Homes",
-        "metaDescription": "Corporate hotels in Greater Noida with GST invoicing, group booking consolidation, multi-language support & workspace-ready rooms. Amaltaash, Saffron, Pine Tales & CoCo House.",
+        "metaDescription": "Corporate hotels in Greater Noida with GST invoicing, group booking consolidation & workspace-ready rooms. Amaltaash, Amara Inn, Saffron Inn & The Glam.",
         "subtitle": "A complete guide for corporate travel managers, HR teams, and executive travelers seeking premium business stays in Greater Noida.",
         "category": "Corporate Hotels",
         "date": "July 23, 2026",
@@ -99,7 +99,7 @@ export const blogPosts = [
         "author": "Sandane Homes Team",
         "coverImage": "/blog/covers/living-room.jpg",
         "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #2c1810 50%, #C5A572 100%)",
-        "excerpt": "Corporate hotels in Greater Noida with GST invoicing, group booking consolidation, multi-language support & workspace-ready rooms. Amaltaash, Saffron, Pine Tales & CoCo House.",
+        "excerpt": "Corporate hotels in Greater Noida with GST invoicing, group booking consolidation & workspace-ready rooms. Amaltaash, Amara Inn, Saffron Inn & The Glam.",
         "content": [
                 {
                         "type": "paragraph",
@@ -175,7 +175,7 @@ export const blogPosts = [
         "slug": "hotels-near-india-expo-mart-greater-noida",
         "title": "Hotels Near India Expo Mart Greater Noida",
         "metaTitle": "Hotels Near India Expo Mart Greater Noida | Sandane Homes",
-        "metaDescription": "Corporate hotels near India Expo Mart in Greater Noida. Minutes from the venue. Group booking consolidation, GST invoicing, workspace-ready rooms for exhibitors & delegations.",
+        "metaDescription": "Corporate hotels near India Expo Mart in Greater Noida. Rated 4.9★. Group booking consolidation, GST invoicing, workspace-ready rooms for exhibitors & delegations.",
         "subtitle": "Corporate hotels near India Expo Mart and Expo Plaza in Greater Noida — minutes from venue gates with group booking consolidation & GST billing.",
         "category": "Hotel Stays",
         "date": "July 23, 2026",
@@ -183,7 +183,7 @@ export const blogPosts = [
         "author": "Sandane Homes Team",
         "coverImage": "/blog/covers/living-room.jpg",
         "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
-        "excerpt": "Corporate hotels near India Expo Mart in Greater Noida. Minutes from the venue. Group booking consolidation, GST invoicing, workspace-ready rooms for exhibitors & delegations.",
+        "excerpt": "Corporate hotels near India Expo Mart in Greater Noida. Rated 4.9★. Group booking consolidation, GST invoicing, workspace-ready rooms for exhibitors & delegations.",
         "content": [
                 {
                         "type": "paragraph",
