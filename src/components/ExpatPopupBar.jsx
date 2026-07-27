@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { FaTimes, FaArrowRight } from 'react-icons/fa';
 import './ExpatPopupBar.css';
 
 const ExpatPopupBar = () => {
     const location = useLocation();
+    const navigate = useNavigate();
     const isResidencesPage = location.pathname.toLowerCase() === '/residences';
     const [isVisible, setIsVisible] = useState(false);
     const [isDismissed, setIsDismissed] = useState(false);
@@ -33,20 +34,24 @@ const ExpatPopupBar = () => {
         }, 350);
     };
 
-    const handleEnquireClick = (e) => {
+    const handleActionClick = (e) => {
         if (e) e.preventDefault();
         handleDismiss();
-        const element = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-            element.classList.remove('highlight-section');
-            void element.offsetWidth;
-            element.classList.add('highlight-section');
-            setTimeout(() => {
+        if (isResidencesPage) {
+            const element = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
                 element.classList.remove('highlight-section');
-            }, 2600);
+                void element.offsetWidth;
+                element.classList.add('highlight-section');
+                setTimeout(() => {
+                    element.classList.remove('highlight-section');
+                }, 2600);
+            } else {
+                window.location.href = '/residences#footer-contact-section';
+            }
         } else {
-            window.location.href = '/residences#footer-contact-section';
+            navigate('/residences');
         }
     };
 
@@ -90,13 +95,15 @@ const ExpatPopupBar = () => {
                     }
                 </p>
 
-                {/* Main Action Button (Enquire Now -> Scroll to Footer Contact Form) */}
+                {/* Main Action Button */}
                 <button 
-                    onClick={handleEnquireClick}
+                    onClick={handleActionClick}
                     className="expat-popup-btn"
                     style={{ marginTop: '15px', border: 'none', cursor: 'pointer' }}
                 >
-                    <span className="expat-btn-text">Enquire Now</span>
+                    <span className="expat-btn-text">
+                        {isResidencesPage ? "Enquire Now" : "View Residences"}
+                    </span>
                     <span className="expat-btn-icon">
                         <FaArrowRight size={11} />
                     </span>
