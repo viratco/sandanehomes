@@ -19,13 +19,14 @@ const CuisineSection = () => {
             paddingBottom: '100px'
         }}>
             <div className="catarina-box" style={{
-                maxWidth: '95%',
-                margin: '50px auto',
+                width: '98%',
+                maxWidth: '1600px',
+                margin: '30px auto',
                 backgroundColor: '#FFFFFF',
                 boxShadow: '0px 0px 20px rgba(0,0,0,0.05)',
                 borderRadius: '12px',
                 overflow: 'hidden',
-                border: '4px solid rgba(197, 165, 114, 0.4)' // Increased thickness and opacity for visibility
+                border: '4px solid #C5A572'
             }}>
                 {/* Main Header */}
                 <div style={{ textAlign: 'center', padding: '80px 20px 50px 20px' }}>
@@ -242,7 +243,7 @@ const CuisineSection = () => {
                 <div className="services-box" style={{
                     backgroundColor: '#F9F9F9',
                     margin: '30px auto 30px auto', // Added top margin
-                    maxWidth: '95%',
+                    maxWidth: '98%',
                     padding: '3px',
                     borderRadius: '8px'
                 }}>
@@ -319,7 +320,7 @@ const CuisineSection = () => {
                 <div className="services-box" style={{
                     backgroundColor: '#F9F9F9',
                     margin: '0 auto 30px auto',
-                    maxWidth: '95%',
+                    maxWidth: '98%',
                     padding: '3px',
                     borderRadius: '8px'
                 }}>
@@ -394,7 +395,7 @@ const CuisineSection = () => {
                 {/* Third Box: Closing CTA */}
                 < div style={{
                     margin: '0 auto 30px auto',
-                    maxWidth: '95%',
+                    maxWidth: '98%',
                     padding: '0', // Removed padding for immersive look
                     borderRadius: '8px'
                 }}>
