@@ -382,28 +382,61 @@ Object.keys(SEO_MAP).forEach((route) => {
   }
 });
 
-// ── Keep sitemap.xml in sync with blog posts and landing pages automatically ──
-const sitemapPath = path.join(distPath, 'sitemap.xml');
-if (fs.existsSync(sitemapPath)) {
-  let sitemapXml = fs.readFileSync(sitemapPath, 'utf8');
-  
-  // Combine blog and landing page URLs
-  const customUrls = [
-    `${BASE_URL}/blog`,
-    ...blogPosts.map((p) => `${BASE_URL}/blog/${p.slug}`),
-    ...landingPages.map((p) => `${BASE_URL}/${p.slug}`)
-  ];
-  
-  const newEntries = customUrls
-    .filter((url) => !sitemapXml.includes(`<loc>${url}</loc>`))
-    .map((url) => `  <url>\n    <loc>${url}</loc>\n    <priority>0.7</priority>\n  </url>\n`)
-    .join('');
-    
-  if (newEntries) {
-    sitemapXml = sitemapXml.replace('</urlset>', `${newEntries}</urlset>`);
-    fs.writeFileSync(sitemapPath, sitemapXml, 'utf8');
-    console.log(`Added ${customUrls.filter((url) => newEntries.includes(url)).length} custom URL(s) to sitemap.xml`);
-  }
+// ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
+const highPrioritySlugs = [
+  'hotels-near-india-expo-mart-greater-noida',
+  'best-corporate-hotels-greater-noida',
+  'hotels-near-knowledge-park-greater-noida',
+  'hotels-near-pari-chowk-greater-noida',
+  'business-hotels-greater-noida-for-trade-fair-teams',
+  'serviced-apartments-greater-noida',
+  'korean-expat-housing-delhi-ncr',
+  'japanese-expat-housing-delhi-ncr',
+  'residences'
+];
+
+function buildSitemapXml() {
+  const currentDate = new Date().toISOString().split('T')[0];
+
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+
+  // Homepage
+  xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
+
+  // Main Pages
+  const mainPages = ['/residences', '/sandane-homes', '/amara', '/amaaltash', '/saffron', '/glam', '/pine-tales', '/coco-house', '/blog', '/faqs'];
+  mainPages.forEach((route) => {
+    const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';
+    xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  });
+
+  // Blog Posts
+  blogPosts.forEach((post) => {
+    const isHighPriority = highPrioritySlugs.includes(post.slug);
+    const priority = isHighPriority ? '0.9' : '0.8';
+    const postDate = new Date(post.date).toISOString().split('T')[0];
+    xml += `  <url>\n    <loc>${BASE_URL}/blog/${post.slug}</loc>\n    <lastmod>${postDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  });
+
+  // Landing Pages
+  landingPages.forEach((page) => {
+    const isHighPriority = highPrioritySlugs.includes(page.slug);
+    const priority = isHighPriority ? '0.9' : '0.7';
+    xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  });
+
+  xml += `</urlset>\n`;
+  return xml;
 }
+
+const finalSitemapXml = buildSitemapXml();
+fs.writeFileSync(path.join(distPath, 'sitemap.xml'), finalSitemapXml, 'utf8');
+
+const publicSitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
+if (fs.existsSync(path.dirname(publicSitemapPath))) {
+  fs.writeFileSync(publicSitemapPath, finalSitemapXml, 'utf8');
+}
+console.log(`Generated high-priority sitemap.xml with ${blogPosts.length} blog posts and ${landingPages.length} landing pages!`);
 
 console.log('Post-build SEO generation complete!');
