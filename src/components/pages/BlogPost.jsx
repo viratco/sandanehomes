@@ -22,7 +22,7 @@ const BlogPost = () => {
 
     React.useEffect(() => {
         if (slug === 'hotels-near-india-expo-mart-greater-noida') {
-            window.location.replace('/residences');
+            window.location.replace('/#our-luxury-hotels');
         }
     }, [slug]);
 
