@@ -20,6 +20,12 @@ const BlogPost = () => {
     const post = getBlogPost(slug);
     const [openFaqIndex, setOpenFaqIndex] = useState(0);
 
+    React.useEffect(() => {
+        if (slug === 'hotels-near-india-expo-mart-greater-noida') {
+            window.location.replace('/residences');
+        }
+    }, [slug]);
+
     if (!post) {
         return (
             <div className="catarina-services sandane-homes-page">
