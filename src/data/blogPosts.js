@@ -5,6 +5,44 @@
 
 export const blogPosts = [
     {
+        slug: "extended-stay-hotel-greater-noida-amara-inn",
+        title: "Why the Fourth Night Is the One That Tests a Hotel",
+        metaTitle: "Extended Stay Hotel Greater Noida | Amara Inn by Sandane Homes",
+        metaDescription: "Amara Inn by Sandane Homes — extended stay hotel at CE 318, Ansal Golf Link-1, Greater Noida. 4.8★ across 179 Google reviews. Near India Expo Mart and Pari Chowk.",
+        subtitle: "Almost any hotel can deliver a good single night. The room is clean because it was just prepared. Nothing has broken yet. You haven't been there long enough for the operation's weaknesses to surface.",
+        category: "Hotel Stays",
+        date: "August 13, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Amara Inn by Sandane Homes — extended stay hotel at CE 318, Ansal Golf Link-1, Greater Noida. 4.8★ across 179 Google reviews. Near India Expo Mart and Pari Chowk.",
+        content: [
+            { type: "paragraph", text: "Almost any hotel can deliver a good single night. The room is clean because it was just prepared. Nothing has broken yet. You haven't been there long enough for the operation's weaknesses to surface. Extended stays are the honest test, and they measure entirely different things." },
+            { type: "heading", text: "What starts to matter after night three" },
+            { type: "list", items: [
+                "<strong>Housekeeping frequency:</strong> Weekly cleaning is common and perfectly adequate for two nights. By night five it isn't, and the difference between daily and periodic service becomes the difference between a comfortable stay and a slowly degrading one.",
+                "<strong>Maintenance response time:</strong> On a one-night stay, a slow response is an inconvenience you leave behind. On a two-week stay, a two-day response time means living with the problem.",
+                "<strong>Whether the room works as a workspace:</strong> Business travellers on extended assignments spend real waking hours in the room. Adequate desk space, lighting, and quiet stop being nice-to-haves.",
+                "<strong>Whether requests are remembered:</strong> Small operations have an advantage here that scale can't replicate. Being recognised by staff on day six, having a preference remembered without repeating it — this is the thing guests reference in reviews."
+            ] },
+            { type: "heading", text: "How Amara Inn is configured for this" },
+            { type: "paragraph", text: "<a href='/amara'>Amara Inn by Sandane Homes</a>, at CE 318, Block C, Ansal Golf Link-1, Greater Noida, is the property within the Sandane Homes portfolio most specifically suited to multi-day and extended business stays." },
+            { type: "paragraph", text: "Daily housekeeping rather than periodic. Responsive on-site maintenance rather than escalated ticketing. Rooms configured for spending waking hours in. And the service consistency reflected in 179 Google reviews at 4.8★ — the second-highest review volume in the Sandane Homes group." },
+            { type: "heading", text: "Corporate infrastructure for longer bookings" },
+            { type: "paragraph", text: "GST-compliant invoicing consolidated across the full stay duration rather than issued per week. Flexibility when assignment lengths change, which they routinely do. Multi-language support consistent with the Sandane Homes group's Korean, Japanese, and Chinese language capability." },
+            { type: "heading", text: "Location & Suitability" },
+            { type: "paragraph", text: "CE 318, Block C, Ansal Golf Link-1, Greater Noida — the same cluster as the group's other properties, and within reach of India Expo Centre & Mart, Pari Chowk, and Knowledge Park. Ideal for engineers, technical specialists on multi-week assignments, consultants, and exhibition teams." },
+            { type: "quote", text: "Amara Inn by Sandane Homes | CE 318, Block C, Ansal Golf Link-1, Greater Noida, UP 201315 | +91 97117 22273 | sandanehomes.com", attribution: "— Sandane Homes Extended Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What is the guest rating for Amara Inn on Google?", answer: "Amara Inn holds a 4.8★ rating across 179 Google reviews in Greater Noida." },
+            { question: "Is Amara Inn suitable for multi-week corporate extended stays?", answer: "Yes, Amara Inn is specifically configured for extended stays with daily housekeeping, workspace desks, 300 Mbps internet, and consolidated B2B GST billing." }
+        ],
+        tags: ["Amara Inn", "Extended Stay Hotel Greater Noida", "India Expo Mart Hotels", "Corporate Housing", "Sandane Homes"]
+    },
+    {
         slug: "boutique-hotel-greater-noida-the-glam",
         title: "What Makes a Boutique Hotel Actually Boutique",
         metaTitle: "Boutique Hotel in Greater Noida | The Glam by Sandane Homes",

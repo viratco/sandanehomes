@@ -30,6 +30,7 @@ const PROPERTY_REDIRECTS = {
     'coco-house-hotel-near-pari-chowk-greater-noida': '/coco-house',
     'group-booking-hotel-near-india-expo-mart': '/coco-house',
     'boutique-hotel-greater-noida-the-glam': '/glam',
+    'extended-stay-hotel-greater-noida-amara-inn': '/amara',
 };
 
 const BlogPost = () => {
