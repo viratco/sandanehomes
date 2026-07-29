@@ -13,6 +13,13 @@ import ContactSection from '../ContactSection';
 import ReservationSeparator from '../ReservationSeparator';
 import Footer from '../Footer';
 import ExpatPopupBar from '../ExpatPopupBar';
+import { createLodgingSchema } from '../../utils/schemaHelper';
+
+const homeSchema = createLodgingSchema({
+    name: "Sandane Homes",
+    url: "https://www.sandanehomes.com/",
+    description: "Discover luxury serviced apartments and premium residences by Sandane Homes in Greater Noida. Fully-serviced stays with top-notch amenities, professional hospitality, and comfort."
+});
 
 const Home = () => {
     return (
@@ -22,6 +29,7 @@ const Home = () => {
                 description="Discover luxury serviced apartments and premium residences by Sandane Homes in Greater Noida. Fully-serviced stays with top-notch amenities, professional hospitality, and comfort."
                 canonical="https://www.sandanehomes.com/"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={homeSchema}
             />
             <Header />
             <Hero />

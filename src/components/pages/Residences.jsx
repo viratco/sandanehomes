@@ -48,6 +48,11 @@ const Residences = () => {
             "url": "https://www.sandanehomes.com/residences",
             "telephone": "+919711722273",
             "email": "sandanehomes@gmail.com",
+            "parentOrganization": {
+                "@type": "Organization",
+                "name": "Sandane Homes",
+                "url": "https://www.sandanehomes.com"
+            },
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "BB-28, Block B, Ansal Golf Link-1",

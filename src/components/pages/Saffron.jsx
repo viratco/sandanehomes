@@ -10,7 +10,15 @@ import room3 from '../../assets/DSC020139.png'; // Using the remaining image her
 import room4 from '../../assets/saffron_bedroom.png';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
-import './SandaneHomes.css'; // Import shared CSS
+import './SandaneHomes.css';
+import { createHotelSchema } from '../../utils/schemaHelper';
+
+const saffronSchema = createHotelSchema({
+    name: "Saffron Inn by Sandane Homes",
+    url: "https://www.sandanehomes.com/saffron",
+    description: "Saffron Inn by Sandane Homes — warm, elegant boutique hotel in Greater Noida. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart.",
+    starRating: 4
+});
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
@@ -117,6 +125,7 @@ const Saffron = () => {
                 description="Saffron Inn by Sandane Homes — warm, elegant boutique hotel in Greater Noida. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart."
                 canonical="https://www.sandanehomes.com/saffron"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={saffronSchema}
             />
             <Header showTopBar={false} />
             <SubpageNav />

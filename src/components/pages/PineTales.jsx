@@ -10,7 +10,15 @@ import room3 from '../../assets/IMG_3547_small.jpg';
 import room4 from '../../assets/IMG_6108.jpg';
 import aboutUsImg from '../../assets/Copy of IMG_6597.JPG'; // Replaces Sohee's Kitchen Image
 import soheesLogo from '../../assets/upscaled_image.png';
-import './SandaneHomes.css'; // Import shared CSS
+import './SandaneHomes.css';
+import { createHotelSchema } from '../../utils/schemaHelper';
+
+const pineTalesSchema = createHotelSchema({
+    name: "Pine Tales by Sandane Homes",
+    url: "https://www.sandanehomes.com/pine-tales",
+    description: "Relax at Pine Tales by Sandane Homes in Greater Noida. Breathtaking scenic views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality.",
+    starRating: 4
+});
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
@@ -117,6 +125,7 @@ const PineTales = () => {
                 description="Relax at Pine Tales by Sandane Homes in Greater Noida. Breathtaking scenic views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality."
                 canonical="https://www.sandanehomes.com/pine-tales"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={pineTalesSchema}
             />
             <Header showTopBar={false} />
             <SubpageNav />

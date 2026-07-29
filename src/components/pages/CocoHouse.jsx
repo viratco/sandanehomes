@@ -8,7 +8,15 @@ import room1 from '../../assets/coco_reception.jpg';
 import room2 from '../../assets/coco_room_netflix.jpg'; // Smart Studio Workspace
 import room3 from '../../assets/coco_lounge.jpg';
 import room4 from '../../assets/coco_hallway.jpg'; // Guest Corridors
-import './SandaneHomes.css'; // Import shared CSS
+import './SandaneHomes.css';
+import { createHotelSchema } from '../../utils/schemaHelper';
+
+const cocoSchema = createHotelSchema({
+    name: "CoCo House by Sandane Homes",
+    url: "https://www.sandanehomes.com/coco-house",
+    description: "CoCo House by Sandane Homes — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now.",
+    starRating: 4
+}); // Import shared CSS
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
@@ -109,6 +117,7 @@ const CocoHouse = () => {
                 description="CoCo House by Sandane Homes — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now."
                 canonical="https://www.sandanehomes.com/coco-house"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={cocoSchema}
             />
             <Header showTopBar={false} />
             <SubpageNav />

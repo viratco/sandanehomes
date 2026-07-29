@@ -14,6 +14,14 @@ import soheesLogo from '../../assets/upscaled_image.png';
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 import './SandaneHomes.css';
+import { createHotelSchema } from '../../utils/schemaHelper';
+
+const sandaneHomesSchema = createHotelSchema({
+    name: "Sandane Homes Hotel",
+    url: "https://www.sandanehomes.com/sandane-homes",
+    description: "Indulge in luxury at Sandane Homes. Kitchenette rooms, executive suites, in-house café, 24/7 room service, and top-tier amenities for corporate stays in Greater Noida.",
+    starRating: 5
+});
 
 const ServiceCard = ({ icon: Icon, title, desc }) => {
     return (
@@ -120,6 +128,7 @@ const SandaneHomes = () => {
                 description="Indulge in luxury at Sandane Homes. Kitchenette rooms, executive suites, in-house café, 24/7 room service, and top-tier amenities for corporate stays in Greater Noida."
                 canonical="https://www.sandanehomes.com/sandane-homes"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={sandaneHomesSchema}
             />
             <Header showTopBar={false} />
             <SubpageNav />

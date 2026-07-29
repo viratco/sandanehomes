@@ -14,53 +14,55 @@ const SEO_MAP = {
   '/': {
     title: 'Sandane Homes | Premium Serviced Apartments & Stays in Greater Noida',
     description: 'Discover luxury serviced apartments and premium residences by Sandane Homes in Greater Noida. Fully-serviced stays with top-notch amenities, professional hospitality, and comfort.',
+    schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" } }]
   },
   '/residences': {
     title: 'Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
     description: 'Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.',
+    schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }] }]
   },
   '/amara': {
     title: 'Amara Inn | Premium Boutique Hotel in Greater Noida | Sandane Homes',
     description: 'Book Amara Inn by Sandane Homes in Greater Noida. Deluxe rooms, private balconies, daily breakfast, 24/7 housekeeping, and curated corporate hospitality near India Expo Mart.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Amara Inn by Sandane Homes", "url": "https://www.sandanehomes.com/amara", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Amara Inn by Sandane Homes", "url": "https://www.sandanehomes.com/amara", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/coco-house': {
     title: 'CoCo House | Luxury Boutique Hotel Greater Noida | Sandane Homes',
     description: 'CoCo House by Sandane Homes — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "CoCo House by Sandane Homes", "url": "https://www.sandanehomes.com/coco-house", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "CoCo House by Sandane Homes", "url": "https://www.sandanehomes.com/coco-house", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/saffron': {
     title: 'Saffron Inn | Boutique Hotel Greater Noida | Sandane Homes',
     description: 'Saffron Inn by Sandane Homes — warm, elegant boutique hotel in Greater Noida. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Saffron Inn by Sandane Homes", "url": "https://www.sandanehomes.com/saffron", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Saffron Inn by Sandane Homes", "url": "https://www.sandanehomes.com/saffron", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
 
   '/sandane-homes': {
     title: 'Sandane Homes Hotel | Luxury Serviced Stays & Executive Suites Greater Noida',
     description: 'Indulge in luxury at Sandane Homes. Kitchenette rooms, executive suites, in-house café, 24/7 room service, and top-tier amenities for corporate stays in Greater Noida.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/sandane-homes", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "5" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Kitchenette", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/sandane-homes", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "5" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Kitchenette", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/glam': {
     title: 'The Glam | Premium Executive Stay Greater Noida | Sandane Homes',
     description: 'Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure travellers.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "The Glam by Sandane Homes", "url": "https://www.sandanehomes.com/glam", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "The Glam by Sandane Homes", "url": "https://www.sandanehomes.com/glam", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/pine-tales': {
     title: 'Pine Tales | Cozy Nature Boutique Stay Greater Noida | Sandane Homes',
     description: 'Relax at Pine Tales by Sandane Homes in Greater Noida. Breathtaking scenic views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Pine Tales by Sandane Homes", "url": "https://www.sandanehomes.com/pine-tales", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Complimentary Breakfast", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Terrace", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Pine Tales by Sandane Homes", "url": "https://www.sandanehomes.com/pine-tales", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Complimentary Breakfast", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Terrace", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/amaaltash': {
     title: 'Amaaltash | Luxury Serviced Apartments Greater Noida | Sandane Homes',
     description: 'Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with common kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Amaaltash by Sandane Homes", "url": "https://www.sandanehomes.com/amaaltash", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Kitchenette", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Amaaltash by Sandane Homes", "url": "https://www.sandanehomes.com/amaaltash", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Kitchenette", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/faqs': {
     title: 'FAQs | Sandane Homes Serviced Apartments Greater Noida',
@@ -213,6 +215,11 @@ blogPosts.forEach((post) => {
       },
       "telephone": "+91 97117 22273",
       "url": `${BASE_URL}`,
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Sandane Homes",
+        "url": `${BASE_URL}`
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",

@@ -10,8 +10,16 @@ import room4 from '../../assets/IMG_6221.jpg'; // Updated per user request
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
 import './SandaneHomes.css'; // Import shared CSS
+import { createHotelSchema } from '../../utils/schemaHelper';
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
+
+const amaraSchema = createHotelSchema({
+    name: "Amara Inn by Sandane Homes",
+    url: "https://www.sandanehomes.com/amara",
+    description: "Book Amara Inn by Sandane Homes in Greater Noida. Deluxe rooms, private balconies, daily breakfast, 24/7 housekeeping, and curated corporate hospitality near India Expo Mart.",
+    starRating: 4
+});
 
 const ServiceCard = ({ icon: Icon, title, desc }) => {
     return (
@@ -116,6 +124,7 @@ const Amara = () => {
                 description="Book Amara Inn by Sandane Homes in Greater Noida. Deluxe rooms, private balconies, daily breakfast, 24/7 housekeeping, and curated corporate hospitality near India Expo Mart."
                 canonical="https://www.sandanehomes.com/amara"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={amaraSchema}
             />
             <Header showTopBar={false} />
 

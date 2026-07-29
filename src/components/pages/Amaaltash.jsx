@@ -10,7 +10,15 @@ import room3 from '../../assets/IMG_7278.jpg';
 import room4 from '../../assets/Copy of IMG_3987.JPG';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
-import './SandaneHomes.css'; // Import shared CSS
+import './SandaneHomes.css';
+import { createHotelSchema } from '../../utils/schemaHelper';
+
+const amaaltashSchema = createHotelSchema({
+    name: "Amaaltash by Sandane Homes",
+    url: "https://www.sandanehomes.com/amaaltash",
+    description: "Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with common kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida.",
+    starRating: 4
+});
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
@@ -114,9 +122,10 @@ const Amaaltash = () => {
         <div className="sandane-homes-page">
             <SEO
                 title="Amaaltash | Luxury Serviced Apartments Greater Noida | Sandane Homes"
-                description="Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida."
+                description="Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with common kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida."
                 canonical="https://www.sandanehomes.com/amaaltash"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={amaaltashSchema}
             />
             <Header showTopBar={false} />
             <SubpageNav />

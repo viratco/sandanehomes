@@ -10,7 +10,15 @@ import room3 from '../../assets/glam_room3.jpg';
 import room4 from '../../assets/glam_room4.jpg';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
-import './SandaneHomes.css'; // Import shared CSS
+import './SandaneHomes.css';
+import { createHotelSchema } from '../../utils/schemaHelper';
+
+const glamSchema = createHotelSchema({
+    name: "The Glam by Sandane Homes",
+    url: "https://www.sandanehomes.com/glam",
+    description: "Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure travellers.",
+    starRating: 4
+});
 
 import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
 
@@ -117,6 +125,7 @@ const Glam = () => {
                 description="Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure travellers."
                 canonical="https://www.sandanehomes.com/glam"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
+                schema={glamSchema}
             />
             <Header showTopBar={false} customPhone="+91 96547 07779" />
             <SubpageNav />
