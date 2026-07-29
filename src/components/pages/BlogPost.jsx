@@ -31,6 +31,7 @@ const PROPERTY_REDIRECTS = {
     'group-booking-hotel-near-india-expo-mart': '/coco-house',
     'boutique-hotel-greater-noida-the-glam': '/glam',
     'extended-stay-hotel-greater-noida-amara-inn': '/amara',
+    'hotels-near-ihe-2026-india-international-hospitality-expo': '/#our-luxury-hotels',
 };
 
 const BlogPost = () => {

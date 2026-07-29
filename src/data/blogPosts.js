@@ -5,6 +5,48 @@
 
 export const blogPosts = [
     {
+        slug: "hotels-near-ihe-2026-india-international-hospitality-expo",
+        title: "Hotels Near India International Hospitality Expo 2026 — Book Before Rooms Fill",
+        metaTitle: "Hotels Near IHE 2026 | India International Hospitality Expo Greater Noida | Sandane Homes",
+        metaDescription: "Attending IHE 2026 at India Expo Centre & Mart, Greater Noida (Aug 5-8)? Sandane Homes operates 6 hotels minutes from the venue. Book now — rooms filling fast.",
+        subtitle: "India International Hospitality Expo 2026 runs from August 5 to August 8 at India Expo Centre & Mart, Knowledge Park II, Greater Noida. Over 1,000 exhibiting brands from 16+ countries will be on-site across four days.",
+        category: "Event Stays",
+        date: "August 14, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Attending IHE 2026 at India Expo Centre & Mart, Greater Noida (Aug 5-8)? Sandane Homes operates 6 hotels minutes from the venue. Book now — rooms filling fast.",
+        content: [
+            { type: "paragraph", text: "India International Hospitality Expo 2026 runs from August 5 to August 8 at India Expo Centre & Mart, Knowledge Park II, Greater Noida. Over 1,000 exhibiting brands from 16+ countries will be on-site across four days, making IHE 2026 one of the most significant hospitality and F&B events on the Indian exhibition calendar." },
+            { type: "paragraph", text: "If you're attending — as an exhibitor, buyer, delegate, or organiser — accommodation is the first logistics decision that actually affects how your event experience goes." },
+            { type: "heading", text: "Why hotel proximity matters more at IHE than at most exhibitions" },
+            { type: "paragraph", text: "IHE 2026 runs across four full days with setup days preceding the opening. Teams making multiple daily trips to India Expo Centre & Mart need accommodation that holds up under event-week traffic conditions — not just on a Tuesday afternoon. The Greater Noida corridor compresses significantly during major exhibitions, and a hotel that shows as ten minutes on Google Maps can behave very differently at 8am on opening day." },
+            { type: "heading", text: "Sandane Homes — 6 hotels minutes from India Expo Centre & Mart" },
+            { type: "paragraph", text: "The Sandane Homes group operates six boutique hotel properties in Ansal Golf Link-1, Greater Noida — all within a short drive of the IHE 2026 venue at Knowledge Park II:" },
+            { type: "list", items: [
+                "<strong><a href='/sandane-homes'>Sandane Homes The Luxury Boutique</a>:</strong> BB-28, Block B, Ansal Golf Link-1 (4.9★ across 490+ Google reviews) — Flagship property for senior executives.",
+                "<strong><a href='/amaaltash'>Amaltaash by Sandane Homes</a>:</strong> AE-183, Block A, Ansal Golf Link-1 — Premium boutique stay for corporate trade teams.",
+                "<strong><a href='/glam'>The Glam by Sandane Homes</a>:</strong> Plot No. AE-189, Block A, Ansal Golf Link-1 (8.5/10 on Booking.com) — Design-led luxury boutique hotel.",
+                "<strong><a href='/amara'>Amara Inn by Sandane Homes</a>:</strong> CE 318, Block C, Ansal Golf Link-1 (4.8★ across 179 Google reviews) — Suited for extended multi-day stays.",
+                "<strong><a href='/coco-house'>CoCo House by Sandane Homes</a>:</strong> AE-186, Block A, Ansal Golf Link-1 (4.9★) — Group-booking property with consolidated B2B GST billing.",
+                "<strong><a href='/pine-tales'>Pine Tales by Sandane Homes</a>:</strong> Ansal Golf Link-1 — Boutique accommodation in the same quiet green corridor."
+            ] },
+            { type: "heading", text: "Corporate provisions for IHE 2026 attendees" },
+            { type: "paragraph", text: "All Sandane Homes properties offer GST-compliant invoicing addressed to the company, consolidated billing for group bookings across the full event dates, and flexible check-in and check-out timing to accommodate setup and teardown schedules." },
+            { type: "paragraph", text: "Multi-language support — Korean, Japanese, Chinese, and English — is available for the international delegations attending IHE 2026 from 16+ countries." },
+            { type: "heading", text: "Relevant to IHE 2026 specifically" },
+            { type: "paragraph", text: "The hospitality expo's own category — F&B brands, hotel interior suppliers, kitchen equipment manufacturers, guest amenity companies — is an audience that understands accommodation quality better than most. Sandane Homes' 490+ reviews and consistent 4.9★ rating are the most reviewable evidence of what staying with us is like." },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 (WhatsApp available) | residencesbysandanehomes@gmail.com | sandanehomes.com", attribution: "— Official Accommodation Partner for Greater Noida Trade Fairs" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What are the dates for India International Hospitality Expo (IHE) 2026?", answer: "IHE 2026 takes place from August 5 to August 8, 2026, at India Expo Centre & Mart, Greater Noida." },
+            { question: "How far are Sandane Homes properties from India Expo Centre & Mart?", answer: "All 6 Sandane Homes hotels in Ansal Golf Link-1 are just 8 to 10 minutes drive from India Expo Mart gates." }
+        ],
+        tags: ["IHE 2026", "India International Hospitality Expo", "Hotels Near India Expo Mart", "Greater Noida Trade Fair Hotels", "Sandane Homes"]
+    },
+    {
         slug: "extended-stay-hotel-greater-noida-amara-inn",
         title: "Why the Fourth Night Is the One That Tests a Hotel",
         metaTitle: "Extended Stay Hotel Greater Noida | Amara Inn by Sandane Homes",
