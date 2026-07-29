@@ -5,6 +5,44 @@
 
 export const blogPosts = [
     {
+        slug: "boutique-hotel-greater-noida-the-glam",
+        title: "What Makes a Boutique Hotel Actually Boutique",
+        metaTitle: "Boutique Hotel in Greater Noida | The Glam by Sandane Homes",
+        metaDescription: "The Glam by Sandane Homes — design-led boutique hotel in Ansal Golf Link-1, Greater Noida. 8.5/10 on Booking.com. Near India Expo Mart, Pari Chowk and Knowledge Park.",
+        subtitle: "The word has been used loosely enough in hospitality marketing that it now signals almost nothing. Any independent property with reasonable furnishings can call itself boutique, and most do.",
+        category: "Hotel Stays",
+        date: "August 12, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "The Glam by Sandane Homes — design-led boutique hotel in Ansal Golf Link-1, Greater Noida. 8.5/10 on Booking.com. Near India Expo Mart, Pari Chowk and Knowledge Park.",
+        content: [
+            { type: "paragraph", text: "The word has been used loosely enough in hospitality marketing that it now signals almost nothing. Any independent property with reasonable furnishings can call itself boutique, and most do." },
+            { type: "paragraph", text: "Used properly, it should describe something specific: a smaller operation where design is deliberate rather than defaulted, and where service is personal rather than systematised. Both are difficult to fake at scale, which is precisely why chains rarely attempt it." },
+            { type: "heading", text: "Where The Glam sits within this" },
+            { type: "paragraph", text: "<a href='/glam'>The Glam by Sandane Homes</a> is located at Plot No. AE-189, Block A, Ansal Golf Link-1, Greater Noida. Within the six-property Sandane Homes portfolio, it's the property that leads most clearly with design character." },
+            { type: "paragraph", text: "That means lighting, materials, and spatial decisions made with intention rather than assembled from a business-hotel template. The practical outcome is straightforward: after a full day on an exhibition floor at India Expo Centre & Mart, returning to a room that's genuinely pleasant to be in is a different experience from returning to one that merely functions." },
+            { type: "heading", text: "What the platform data says" },
+            { type: "paragraph", text: "The Glam holds 8.5/10 on Booking.com, rated 'Very Good,' with a staff score of 8.2 — and is flagged on the platform as 'Top Location: Highly rated by recent guests.' On Google, the property holds a 4.7 rating." },
+            { type: "heading", text: "Operational standards remain unchanged" },
+            { type: "paragraph", text: "This matters for anyone booking on behalf of a company, because design character is worthless if the operational basics fail. The Glam runs to the same standard as the wider Sandane Homes group — daily housekeeping, responsive maintenance, GST-compliant corporate invoicing, consolidated billing for group bookings, and the service consistency that has earned the portfolio 490+ Google reviews at 4.9★." },
+            { type: "heading", text: "Facilities & Location" },
+            { type: "list", items: [
+                "<strong>Facilities:</strong> Family rooms with air conditioning, balcony, and private bathroom. Breakfast available. Free private parking. Shared kitchen with electric kettle. Tea and coffee maker, free toiletries in-room.",
+                "<strong>Location:</strong> Ansal Golf Link-1 places The Glam within convenient reach of India Expo Centre & Mart, Pari Chowk, and the Knowledge Park corridor — the same cluster as the group's other properties.",
+                "<strong>Who it suits:</strong> Guests on longer exhibition stays where environment starts to matter, companies hosting visiting clients, and travelers seeking design-led stays."
+            ] },
+            { type: "quote", text: "The Glam by Sandane Homes | Plot No. AE-189, Block A, Ansal Golf Link-1, Greater Noida, UP 201315 | +91 97117 22273 | sandanehomes.com", attribution: "— Sandane Homes Luxury Portfolio" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What is the guest rating for The Glam on Booking.com and Google?", answer: "The Glam holds an 8.5/10 'Very Good' rating on Booking.com and a 4.7 rating on Google." },
+            { question: "Is The Glam located near India Expo Mart and Pari Chowk?", answer: "Yes, The Glam is located in Block A, Ansal Golf Link-1, just 8 minutes drive from India Expo Mart and Pari Chowk." }
+        ],
+        tags: ["The Glam", "Boutique Hotel Greater Noida", "India Expo Mart Hotels", "Pari Chowk Hotels", "Sandane Homes"]
+    },
+    {
         slug: "group-booking-hotel-near-india-expo-mart",
         title: "Booking a Hotel for an Exhibition Team in Greater Noida: What Actually Goes Wrong",
         metaTitle: "Group Booking Hotels Near India Expo Mart | CoCo House by Sandane Homes",

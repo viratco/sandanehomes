@@ -391,6 +391,7 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'boutique-hotel-greater-noida-the-glam',
   'group-booking-hotel-near-india-expo-mart',
   'hotels-near-india-expo-mart-greater-noida',
   'amaaltash-hotel-near-india-expo-mart-greater-noida',
