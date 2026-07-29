@@ -32,6 +32,11 @@ const PROPERTY_REDIRECTS = {
     'boutique-hotel-greater-noida-the-glam': '/glam',
     'extended-stay-hotel-greater-noida-amara-inn': '/amara',
     'hotels-near-ihe-2026-india-international-hospitality-expo': '/#our-luxury-hotels',
+    'sandane-homes-luxury-hotel-near-ihe-2026-greater-noida': '/sandane-homes',
+    'amaaltash-hotel-near-ihe-2026-india-expo-mart-greater-noida': '/amaaltash',
+    'the-glam-boutique-hotel-near-ihe-2026-greater-noida': '/glam',
+    'amara-inn-hotel-near-ihe-2026-india-expo-mart-greater-noida': '/amara',
+    'coco-house-hotel-near-ihe-2026-india-expo-mart-greater-noida': '/coco-house',
 };
 
 const BlogPost = () => {
