@@ -5,6 +5,194 @@
 
 export const blogPosts = [
     {
+        slug: "the-glam-luxury-hotel-near-india-expo-mart-greater-noida",
+        title: "The Glam Luxury Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "The Glam Luxury Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "The Glam by Sandane Homes offers luxury hotel suites 8 mins from India Expo Mart Greater Noida. Executive workspaces, smart amenities & GST billing.",
+        subtitle: "Executive luxury suite accommodation 8 minutes from India Expo Mart — designed for senior corporate directors, VIP buyers, and trade delegations.",
+        category: "Hotel Stays",
+        date: "August 10, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "The Glam by Sandane Homes offers luxury hotel suites 8 mins from India Expo Mart Greater Noida. Executive workspaces, smart amenities & GST billing.",
+        content: [
+            { type: "paragraph", text: "<strong>The Glam by Sandane Homes</strong> is Greater Noida's premier luxury executive suite hotel, situated just 8 minutes from <strong>India Expo Mart & Centre</strong>." },
+            { type: "heading", text: "Luxury Hospitality Tailored for Expo Delegates" },
+            { type: "paragraph", text: "Hosting trade fair exhibitors, international sourcing managers, and C-level executives, <a href='/glam'>The Glam</a> provides an elevated stay experience:" },
+            { type: "list", items: [
+                "<strong>8 Minutes to Expo Mart:</strong> Direct signal-free transit to exhibition halls and Expo Plaza.",
+                "<strong>Smart Executive Suites:</strong> Ultra-modern rooms featuring dedicated ergonomic workstations and smart entertainment.",
+                "<strong>Corporate Billing Compliance:</strong> Direct itemized B2B GST invoices for corporate accounting.",
+                "<strong>Chauffeured Transfers:</strong> 24/7 private concierge shuttles for Delhi IGI and Jewar Airport transfers."
+            ] },
+            { type: "quote", text: "The Glam is hands-down the top luxury executive hotel choice for Expo Mart visitors. Seamless service and premium rooms.", attribution: "— Vice President, Global Electronics Manufacturer" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is The Glam from India Expo Mart?", answer: "The Glam by Sandane Homes is located just 8 minutes drive from India Expo Mart & Centre." },
+            { question: "Are corporate GST invoices provided at The Glam?", answer: "Yes, Sandane Homes issues compliant corporate GST invoices for all guest stays." }
+        ],
+        tags: ["The Glam Hotel", "India Expo Mart Hotels", "Luxury Stays Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "the-glam-boutique-hotel-near-pari-chowk-greater-noida",
+        title: "The Glam Boutique Hotel Near Pari Chowk Greater Noida",
+        metaTitle: "The Glam Boutique Hotel Near Pari Chowk Greater Noida | Sandane Homes",
+        metaDescription: "Stay at The Glam near Pari Chowk, Greater Noida. Executive hotel suites with high-speed fiber WiFi, 24/7 room service & metro accessibility.",
+        subtitle: "Luxury hotel suite accommodation near Pari Chowk commercial hub — offering direct access to Aqua Line metro, expressways, and business parks.",
+        category: "Hotel Stays",
+        date: "August 09, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #2c1810 50%, #C5A572 100%)",
+        excerpt: "Stay at The Glam near Pari Chowk, Greater Noida. Executive hotel suites with high-speed fiber WiFi, 24/7 room service & metro accessibility.",
+        content: [
+            { type: "paragraph", text: "<strong>The Glam by Sandane Homes</strong> near Pari Chowk offers central location advantage paired with luxury boutique hotel accommodation." },
+            { type: "heading", text: "Why Business Travelers Choose The Glam Near Pari Chowk" },
+            { type: "paragraph", text: "Located minutes from Pari Chowk Metro Station, <a href='/glam'>The Glam</a> connects guests seamlessly to Knowledge Park, Surajpur, and Noida:" },
+            { type: "list", items: [
+                "<strong>Central Transit Access:</strong> Quick access to Aqua Line Metro and Noida-Greater Noida Expressway.",
+                "<strong>300 Mbps Optical Fiber:</strong> Uninterrupted high-speed Wi-Fi for video conferencing and remote work.",
+                "<strong>Boutique Luxury:</strong> Daily housekeeping, hot gourmet breakfast, 100% DG power backup, and 24/7 security."
+            ] },
+            { type: "quote", text: "Staying near Pari Chowk at The Glam gave our executive team ideal access to meetings across Greater Noida.", attribution: "— Business Operations Lead, MNC Consulting" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How close is The Glam to Pari Chowk Metro Station?", answer: "The Glam is located 3 minutes from Pari Chowk Metro Station." },
+            { question: "Does The Glam offer 24/7 room service and security?", answer: "Yes, 24/7 room service, concierge support, and gated security are provided." }
+        ],
+        tags: ["The Glam Hotel", "Pari Chowk Hotels", "Luxury Stays Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "amara-inn-corporate-hotel-near-india-expo-mart-greater-noida",
+        title: "Amara Inn Corporate Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "Amara Inn Corporate Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "Amara Inn by Sandane Homes offers deluxe rooms 8 mins from India Expo Mart Greater Noida. Corporate group bookings, GST invoicing & hot breakfast.",
+        subtitle: "Deluxe corporate hotel stay 8 minutes from India Expo Mart — featuring balcony bedrooms, group booking blocks, and GST billing compliance.",
+        category: "Hotel Stays",
+        date: "August 08, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Amara Inn by Sandane Homes offers deluxe rooms 8 mins from India Expo Mart Greater Noida. Corporate group bookings, GST invoicing & hot breakfast.",
+        content: [
+            { type: "paragraph", text: "<strong>Amara Inn by Sandane Homes</strong> is a top-choice corporate hotel property situated 8 minutes from <strong>India Expo Mart & Centre</strong>." },
+            { type: "heading", text: "Streamlined Hotel Stays for Expo Exhibitors" },
+            { type: "paragraph", text: "Designed for corporate project teams and expo delegates, <a href='/amara'>Amara Inn</a> delivers dependable hospitality:" },
+            { type: "list", items: [
+                "<strong>8 Minutes to Expo Mart:</strong> Signal-free access for hassle-free morning and evening commutes.",
+                "<strong>Deluxe Balcony Rooms:</strong> Comfortable executive rooms equipped with dedicated work desks.",
+                "<strong>Group Consolidation:</strong> Synchronized room inventory for vendor teams and sales staff.",
+                "<strong>Full GST Billing:</strong> Clear B2B invoicing for easy expense reimbursement."
+            ] },
+            { type: "quote", text: "Amara Inn provided outstanding service for our 12-person booth team during Auto Expo.", attribution: "— Event Operations Manager, Automotive Supplier" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Amara Inn from India Expo Mart?", answer: "Amara Inn is located 8 minutes drive from India Expo Mart." },
+            { question: "Can group booking blocks be reserved at Amara Inn?", answer: "Yes, Sandane Homes coordinates multi-room group blocks at Amara Inn." }
+        ],
+        tags: ["Amara Inn Hotel", "India Expo Mart Hotels", "Corporate Stays Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "amara-inn-hotel-near-pari-chowk-metro-station-greater-noida",
+        title: "Amara Inn Hotel Near Pari Chowk Metro Station Greater Noida",
+        metaTitle: "Amara Inn Hotel Near Pari Chowk Metro Station Greater Noida | Sandane Homes",
+        metaDescription: "Amara Inn is a top-rated boutique hotel near Pari Chowk Metro Station in Greater Noida. Balcony rooms, 24/7 concierge & quiet gated security.",
+        subtitle: "Boutique hotel stay near Pari Chowk Metro Station — combining quiet gated sector security with rapid metro and expressway access.",
+        category: "Hotel Stays",
+        date: "August 07, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Amara Inn is a top-rated boutique hotel near Pari Chowk Metro Station in Greater Noida. Balcony rooms, 24/7 concierge & quiet gated security.",
+        content: [
+            { type: "paragraph", text: "<strong>Amara Inn by Sandane Homes</strong> near Pari Chowk Metro Station provides strategic connectivity for business travelers across Greater Noida and Noida." },
+            { type: "heading", text: "Central Convenience & Hotel Comforts" },
+            { type: "paragraph", text: "Guests staying at <a href='/amara'>Amara Inn</a> enjoy proximity to commercial centers, dining hubs, and metro lines:" },
+            { type: "list", items: [
+                "<strong>Minutes to Pari Chowk Metro:</strong> Direct transit connection to Sector 51 Noida and Delhi Metro network.",
+                "<strong>Quiet Gated Location:</strong> Peaceful residential sector setting free from highway noise.",
+                "<strong>Full Amenities:</strong> 300 Mbps internet, daily housekeeping, express breakfast, and power backup."
+            ] },
+            { type: "quote", text: "Amara Inn near Pari Chowk was clean, quiet, and perfectly located for our business meetings.", attribution: "— Regional Sales Director, Medical Devices Company" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Amara Inn from Pari Chowk Metro Station?", answer: "Amara Inn is just 3 minutes from Pari Chowk Metro Station." },
+            { question: "Is breakfast included at Amara Inn?", answer: "Yes, hot daily breakfast is included with all stays." }
+        ],
+        tags: ["Amara Inn Hotel", "Pari Chowk Metro Hotels", "Greater Noida Stays", "Sandane Homes"]
+    },
+    {
+        slug: "coco-house-boutique-hotel-near-india-expo-mart-greater-noida",
+        title: "CoCo House Boutique Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "CoCo House Boutique Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "CoCo House by Sandane Homes is a chic boutique hotel 10 mins from India Expo Mart Greater Noida. Netflix rooms, 300 Mbps internet & breakfast.",
+        subtitle: "Modern boutique hotel stay 10 minutes from India Expo Mart — featuring stylish room interiors, high-speed fiber internet, and lounge spaces.",
+        category: "Hotel Stays",
+        date: "August 06, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "CoCo House by Sandane Homes is a chic boutique hotel 10 mins from India Expo Mart Greater Noida. Netflix rooms, 300 Mbps internet & breakfast.",
+        content: [
+            { type: "paragraph", text: "<strong>CoCo House by Sandane Homes</strong> offers chic boutique hotel accommodation just 10 minutes drive from <strong>India Expo Mart & Centre</strong>." },
+            { type: "heading", text: "Boutique Design & Expo Accessibility" },
+            { type: "paragraph", text: "Designed for creative executives, media crews, and trade delegates, <a href='/coco-house'>CoCo House</a> stands out with contemporary flair:" },
+            { type: "list", items: [
+                "<strong>10 Minutes to Expo Mart:</strong> Fast commute via broad main avenues.",
+                "<strong>Modern In-Room Features:</strong> Smart TVs, 300 Mbps Wi-Fi, work desks, and aesthetic interiors.",
+                "<strong>Full Hotel Service:</strong> Daily housekeeping, hot breakfast spreads, and 24/7 security."
+            ] },
+            { type: "quote", text: "CoCo House was ideal for our design delegation. Fast internet, great food, and close to Expo Mart.", attribution: "— Lead Designer, International Expo Agency" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is CoCo House from India Expo Mart?", answer: "CoCo House is located 10 minutes drive from India Expo Mart." },
+            { question: "Does CoCo House issue corporate GST bills?", answer: "Yes, official corporate GST invoices are provided for all bookings." }
+        ],
+        tags: ["CoCo House Hotel", "India Expo Mart Hotels", "Boutique Hotel Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "coco-house-hotel-near-pari-chowk-greater-noida",
+        title: "CoCo House Hotel Near Pari Chowk Greater Noida",
+        metaTitle: "CoCo House Hotel Near Pari Chowk Greater Noida | Sandane Homes",
+        metaDescription: "CoCo House offers stylish hotel rooms near Pari Chowk Greater Noida. Ideal for business travelers, exhibition delegates & young professionals.",
+        subtitle: "Contemporary boutique hotel rooms near Pari Chowk — direct access to commercial centers, restaurants, and expressway corridors.",
+        category: "Hotel Stays",
+        date: "August 05, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "CoCo House offers stylish hotel rooms near Pari Chowk Greater Noida. Ideal for business travelers, exhibition delegates & young professionals.",
+        content: [
+            { type: "paragraph", text: "<strong>CoCo House by Sandane Homes</strong> near Pari Chowk combines central location convenience with boutique aesthetic comfort." },
+            { type: "heading", text: "Prime Location Near Pari Chowk" },
+            { type: "paragraph", text: "Positioned close to Pari Chowk, <a href='/coco-house'>CoCo House</a> provides seamless access across Greater Noida:" },
+            { type: "list", items: [
+                "<strong>Aqua Line Metro Access:</strong> Minutes from Pari Chowk Metro Station.",
+                "<strong>Dining & Entertainment:</strong> Walking distance to top restaurants and commercial hubs.",
+                "<strong>High-Speed Infrastructure:</strong> Dedicated 300 Mbps Wi-Fi, work desks, and 100% DG power backup."
+            ] },
+            { type: "quote", text: "CoCo House near Pari Chowk gave us great connectivity and superb room quality.", attribution: "— Senior Consultant, Technology Firm" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How close is CoCo House to Pari Chowk?", answer: "CoCo House is situated just 3 minutes from Pari Chowk." },
+            { question: "Is parking available at CoCo House?", answer: "Yes, secure gated parking is available on premises." }
+        ],
+        tags: ["CoCo House Hotel", "Pari Chowk Hotels", "Greater Noida Stays", "Sandane Homes"]
+    },
+    {
         slug: "amaaltash-hotel-near-india-expo-mart-greater-noida",
         title: "Amaaltash Hotel Near India Expo Mart Greater Noida",
         metaTitle: "Amaaltash Hotel Near India Expo Mart Greater Noida | Sandane Homes",

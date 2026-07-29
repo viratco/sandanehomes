@@ -22,6 +22,12 @@ const PROPERTY_REDIRECTS = {
     'pine-tales-hotel-near-india-expo-mart-greater-noida': '/pine-tales',
     'glam-hotel-near-india-expo-mart-greater-noida': '/glam',
     'amara-inn-hotel-near-india-expo-mart-greater-noida': '/amara',
+    'the-glam-luxury-hotel-near-india-expo-mart-greater-noida': '/glam',
+    'the-glam-boutique-hotel-near-pari-chowk-greater-noida': '/glam',
+    'amara-inn-corporate-hotel-near-india-expo-mart-greater-noida': '/amara',
+    'amara-inn-hotel-near-pari-chowk-metro-station-greater-noida': '/amara',
+    'coco-house-boutique-hotel-near-india-expo-mart-greater-noida': '/coco-house',
+    'coco-house-hotel-near-pari-chowk-greater-noida': '/coco-house',
 };
 
 const BlogPost = () => {
