@@ -14,6 +14,16 @@ const formatDate = (dateStr) =>
 
 const DEFAULT_OG_IMAGE = 'https://www.sandanehomes.com/residences-og.jpg';
 
+const PROPERTY_REDIRECTS = {
+    'hotels-near-india-expo-mart-greater-noida': '/#our-luxury-hotels',
+    'amaaltash-hotel-near-india-expo-mart-greater-noida': '/amaaltash',
+    'saffron-inn-hotel-near-india-expo-mart-greater-noida': '/saffron',
+    'coco-house-hotel-near-india-expo-mart-greater-noida': '/coco-house',
+    'pine-tales-hotel-near-india-expo-mart-greater-noida': '/pine-tales',
+    'glam-hotel-near-india-expo-mart-greater-noida': '/glam',
+    'amara-inn-hotel-near-india-expo-mart-greater-noida': '/amara',
+};
+
 const BlogPost = () => {
     const { slug } = useParams();
     const PHONE = '919711722273';
@@ -21,8 +31,8 @@ const BlogPost = () => {
     const [openFaqIndex, setOpenFaqIndex] = useState(0);
 
     React.useEffect(() => {
-        if (slug === 'hotels-near-india-expo-mart-greater-noida') {
-            window.location.replace('/#our-luxury-hotels');
+        if (PROPERTY_REDIRECTS[slug]) {
+            window.location.replace(PROPERTY_REDIRECTS[slug]);
         }
     }, [slug]);
 

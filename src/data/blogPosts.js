@@ -5,6 +5,195 @@
 
 export const blogPosts = [
     {
+        slug: "amaaltash-hotel-near-india-expo-mart-greater-noida",
+        title: "Amaaltash Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "Amaaltash Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "Amaaltash by Sandane Homes is a luxury boutique hotel located 8 minutes from India Expo Mart Greater Noida. Corporate GST billing, workspace rooms & breakfast.",
+        subtitle: "Luxury boutique hotel accommodation 8 minutes from India Expo Mart — featuring spacious executive rooms, common kitchenette, and corporate GST billing.",
+        category: "Hotel Stays",
+        date: "August 04, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Amaaltash by Sandane Homes is a luxury boutique hotel located 8 minutes from India Expo Mart Greater Noida. Corporate GST billing, workspace rooms & breakfast.",
+        content: [
+            { type: "paragraph", text: "<strong>Amaaltash by Sandane Homes</strong> is one of Greater Noida's most sought-after boutique hotel properties for corporate travelers, trade fair exhibitors, and international delegates attending events at <strong>India Expo Mart & Centre</strong>." },
+            { type: "heading", text: "Why Choose Amaaltash for India Expo Mart Visits?" },
+            { type: "paragraph", text: "Situated just 8 minutes from India Expo Mart gates in a quiet, secure gated sector, <a href='/amaaltash'>Amaaltash</a> combines luxury boutique hospitality with essential business infrastructure:" },
+            { type: "list", items: [
+                "<strong>8 Minutes Drive to Expo Mart:</strong> Wide, signal-free access roads ensure quick transit to exhibition halls.",
+                "<strong>Executive Workspaces:</strong> Dedicated desks, ergonomic seating, and 300 Mbps optical fiber Wi-Fi in every room.",
+                "<strong>Corporate GST Billing:</strong> Direct B2B invoicing with full tax compliance for seamless corporate expense claims.",
+                "<strong>Common Kitchenette & Dining:</strong> Freshly prepared hot breakfast, daily housekeeping, and 24/7 DG power backup."
+            ] },
+            { type: "quote", text: "Amaaltash was the perfect base for our trade delegation. Quiet, 8 minutes to Expo Mart, and flawless GST billing.", attribution: "— Senior Trade Commissioner, International Trade Delegation" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Amaaltash from India Expo Mart?", answer: "Amaaltash by Sandane Homes is located just 8 minutes drive from India Expo Mart & Centre." },
+            { question: "Does Amaaltash provide corporate GST invoices?", answer: "Yes, Sandane Homes provides itemized corporate GST invoices for all stays at Amaaltash." },
+            { question: "What in-room amenities are included?", answer: "300 Mbps Wi-Fi, study desk, hot breakfast, daily housekeeping, RO water, and 24/7 security." }
+        ],
+        tags: ["Amaaltash Hotel", "India Expo Mart Hotels", "Greater Noida Corporate Stays", "Sandane Homes Hotels"]
+    },
+    {
+        slug: "saffron-inn-hotel-near-india-expo-mart-greater-noida",
+        title: "Saffron Inn Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "Saffron Inn Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "Saffron Inn by Sandane Homes offers executive hotel rooms 5 mins from Pari Chowk & 8 mins from India Expo Mart Greater Noida. Corporate rates & 24/7 service.",
+        subtitle: "Executive hotel accommodation near Pari Chowk junction — 8 minutes drive to India Expo Mart with corporate group booking consolidation.",
+        category: "Hotel Stays",
+        date: "August 03, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Saffron Inn by Sandane Homes offers executive hotel rooms 5 mins from Pari Chowk & 8 mins from India Expo Mart Greater Noida. Corporate rates & 24/7 service.",
+        content: [
+            { type: "paragraph", text: "<strong>Saffron Inn by Sandane Homes</strong> provides executive hotel accommodation positioned right near the Pari Chowk commercial hub and just 8 minutes from <strong>India Expo Mart & Centre</strong>." },
+            { type: "heading", text: "Key Business Advantages at Saffron Inn" },
+            { type: "paragraph", text: "Ideal for sales delegations, booth presenters, and visiting business executives, <a href='/saffron'>Saffron Inn</a> delivers premium central connectivity:" },
+            { type: "list", items: [
+                "<strong>Prime Transit Location:</strong> 2 minutes from Pari Chowk Metro Station and 8 minutes to Expo Mart.",
+                "<strong>Executive Bedrooms:</strong> High-comfort double and twin room layouts with 300 Mbps internet.",
+                "<strong>Corporate Billing & Group Blocks:</strong> Consolidated group reservations and official GST tax invoices.",
+                "<strong>24/7 Concierge Support:</strong> Private chauffeured fleet transfers for airport and venue pickups."
+            ] },
+            { type: "quote", text: "Saffron Inn gave our team instant access to Pari Chowk metro and Expo Mart. Exceptional room service and comfort.", attribution: "— Regional Manager, Industrial Electronics MNC" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How close is Saffron Inn to Pari Chowk Metro and Expo Mart?", answer: "Saffron Inn is 2 minutes from Pari Chowk Metro and 8 minutes drive from India Expo Mart." },
+            { question: "Is private car parking available at Saffron Inn?", answer: "Yes, secure gated car parking is available on premises for all guests." }
+        ],
+        tags: ["Saffron Inn Hotel", "Pari Chowk Hotels", "India Expo Mart Stays", "Sandane Homes"]
+    },
+    {
+        slug: "coco-house-hotel-near-india-expo-mart-greater-noida",
+        title: "CoCo House Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "CoCo House Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "CoCo House by Sandane Homes is a modern boutique hotel near India Expo Mart Greater Noida. Stylish rooms, high-speed WiFi & corporate travel amenities.",
+        subtitle: "Chic luxury boutique hotel stay 10 minutes from India Expo Mart — designed for creative teams, tech executives, and exhibition managers.",
+        category: "Hotel Stays",
+        date: "August 02, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "CoCo House by Sandane Homes is a modern boutique hotel near India Expo Mart Greater Noida. Stylish rooms, high-speed WiFi & corporate travel amenities.",
+        content: [
+            { type: "paragraph", text: "<strong>CoCo House by Sandane Homes</strong> is a stylish boutique hotel property offering chic interior design and premium amenities just 10 minutes from <strong>India Expo Mart</strong>." },
+            { type: "heading", text: "Modern Comfort for Exhibition Teams" },
+            { type: "paragraph", text: "Popular among design agencies, media crews, and tech delegates, <a href='/coco-house'>CoCo House</a> offers a fresh contemporary atmosphere:" },
+            { type: "list", items: [
+                "<strong>Boutique Aesthetics:</strong> Modern rooms with smart LED TVs, high-speed fiber Wi-Fi, and plush bedding.",
+                "<strong>10 Mins to Expo Mart:</strong> Effortless daily commute to exhibition halls via signal-free main roads.",
+                "<strong>Corporate Hospitality:</strong> Daily housekeeping, hot breakfast spreads, and 100% DG power backup."
+            ] },
+            { type: "quote", text: "CoCo House is easily the most stylish hotel property near Expo Mart. Loved the lounge spaces and fast Wi-Fi.", attribution: "— Creative Director, Exhibition Design Studio" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is CoCo House from India Expo Mart?", answer: "CoCo House by Sandane Homes is located approximately 10 minutes drive from India Expo Mart." },
+            { question: "Are breakfast and housekeeping included at CoCo House?", answer: "Yes, hot daily breakfast and 7-day housekeeping are standard for all guests." }
+        ],
+        tags: ["CoCo House Hotel", "Expo Mart Boutique Hotels", "Greater Noida Stays", "Sandane Homes"]
+    },
+    {
+        slug: "pine-tales-hotel-near-india-expo-mart-greater-noida",
+        title: "Pine Tales Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "Pine Tales Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "Pine Tales by Sandane Homes is a scenic boutique stay near India Expo Mart Greater Noida. Terrace rooms, quiet environment & corporate group bookings.",
+        subtitle: "Serene boutique nature hotel stay 10 minutes from India Expo Mart — private terrace views, quiet ambience, and corporate amenities.",
+        category: "Hotel Stays",
+        date: "August 01, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #2c1810 50%, #C5A572 100%)",
+        excerpt: "Pine Tales by Sandane Homes is a scenic boutique stay near India Expo Mart Greater Noida. Terrace rooms, quiet environment & corporate group bookings.",
+        content: [
+            { type: "paragraph", text: "<strong>Pine Tales by Sandane Homes</strong> offers a tranquil green setting for business delegates who prefer rest and relaxation after intensive expo days at <strong>India Expo Mart</strong>." },
+            { type: "heading", text: "Peaceful Atmosphere & High-Speed Amenities" },
+            { type: "paragraph", text: "Located 10 minutes from venue halls, <a href='/pine-tales'>Pine Tales</a> delivers peaceful surroundings without compromising business connectivity:" },
+            { type: "list", items: [
+                "<strong>Terrace & Scenic Views:</strong> Airy rooms with terrace balconies ideal for evening relaxation.",
+                "<strong>Corporate Convenience:</strong> 300 Mbps Wi-Fi, work desks, itemized GST billing, and airport shuttles.",
+                "<strong>Gated Security:</strong> 24/7 security personnel inside a calm, residential enclave."
+            ] },
+            { type: "quote", text: "After long 10-hour days at the trade booth, coming back to the quiet terrace at Pine Tales was fantastic.", attribution: "— Project Head, European Machinery Supplier" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Pine Tales from India Expo Mart?", answer: "Pine Tales is located 10 minutes drive from India Expo Mart & Centre." },
+            { question: "Is Pine Tales suitable for corporate group bookings?", answer: "Yes, full room blocks can be reserved for visiting delegations." }
+        ],
+        tags: ["Pine Tales Hotel", "Expo Mart Hotels", "Boutique Stays Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "glam-hotel-near-india-expo-mart-greater-noida",
+        title: "The Glam Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "The Glam Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "The Glam by Sandane Homes offers luxury executive suites near India Expo Mart Greater Noida. Smart entertainment, workspace desks & GST billing.",
+        subtitle: "Luxury executive suite hotel accommodation 8 minutes from India Expo Mart — featuring premium interiors, dedicated workspaces, and concierge service.",
+        category: "Hotel Stays",
+        date: "July 31, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "The Glam by Sandane Homes offers luxury executive suites near India Expo Mart Greater Noida. Smart entertainment, workspace desks & GST billing.",
+        content: [
+            { type: "paragraph", text: "<strong>The Glam by Sandane Homes</strong> provides luxury executive suite hotel accommodation tailored for senior corporate directors, VIP buyers, and international exhibitors attending <strong>India Expo Mart</strong>." },
+            { type: "heading", text: "Executive Luxury Meets Venue Proximity" },
+            { type: "paragraph", text: "Positioned just 8 minutes from Expo Mart, <a href='/glam'>The Glam</a> offers an elevated lodging experience:" },
+            { type: "list", items: [
+                "<strong>Executive Suites:</strong> Spacious layouts with smart entertainment, ergonomic workstations, and luxury bath fittings.",
+                "<strong>Concierge Fleet Service:</strong> Chauffeured airport transfers and daily scheduled Expo Mart shuttles.",
+                "<strong>Corporate Compliance:</strong> Full B2B GST invoicing and priority check-in assistance."
+            ] },
+            { type: "quote", text: "The Glam exceeded our corporate executive travel standards. Top-notch suite finishes and just 8 minutes from Expo Mart.", attribution: "— Managing Director, Global Sourcing Firm" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is The Glam from India Expo Mart?", answer: "The Glam by Sandane Homes is 8 minutes drive from India Expo Mart." },
+            { question: "What VIP services are offered at The Glam?", answer: "24/7 private concierge, airport pickups, high-speed fiber internet, and executive breakfast." }
+        ],
+        tags: ["The Glam Hotel", "Luxury Expo Mart Hotels", "Executive Stays Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "amara-inn-hotel-near-india-expo-mart-greater-noida",
+        title: "Amara Inn Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "Amara Inn Hotel Near India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "Amara Inn by Sandane Homes is a premium boutique hotel near India Expo Mart Greater Noida. Deluxe rooms, balconies & 24/7 corporate concierge.",
+        subtitle: "Deluxe boutique hotel accommodation 8 minutes from India Expo Mart — private balcony options, corporate GST accounting, and 24/7 hospitality.",
+        category: "Hotel Stays",
+        date: "July 30, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Amara Inn by Sandane Homes is a premium boutique hotel near India Expo Mart Greater Noida. Deluxe rooms, balconies & 24/7 corporate concierge.",
+        content: [
+            { type: "paragraph", text: "<strong>Amara Inn by Sandane Homes</strong> is a premier boutique hotel offering deluxe guest rooms and personalized hospitality 8 minutes from <strong>India Expo Mart & Centre</strong>." },
+            { type: "heading", text: "Boutique Hospitality for Business Visitors" },
+            { type: "paragraph", text: "Located in a serene gated sector, <a href='/amara'>Amara Inn</a> caters to visiting executives, auditors, and trade fair teams:" },
+            { type: "list", items: [
+                "<strong>Deluxe Room Layouts:</strong> Comfortably furnished rooms with private balconies and workspace setups.",
+                "<strong>8 Minutes to Expo Mart:</strong> Direct access via main arterial avenues.",
+                "<strong>Complete Corporate Support:</strong> Itemized GST billing, 300 Mbps optical fiber Wi-Fi, and hot breakfast."
+            ] },
+            { type: "quote", text: "Amara Inn felt like a home away from home. Excellent service, quiet rooms, and very close to Expo Mart.", attribution: "— Operations Lead, Automotive OEM" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How close is Amara Inn to India Expo Mart?", answer: "Amara Inn by Sandane Homes is located 8 minutes drive from India Expo Mart." },
+            { question: "Does Amara Inn offer power backup and internet for business travelers?", answer: "Yes, 100% DG power backup and 300 Mbps Wi-Fi are provided 24/7." }
+        ],
+        tags: ["Amara Inn Hotel", "Expo Mart Hotels", "Boutique Hotel Greater Noida", "Sandane Homes"]
+    },
+    {
         "slug": "business-hotels-greater-noida-for-trade-fair-teams",
         "title": "Hotels in Greater Noida for Trade Fair Teams & Exhibitors",
         "metaTitle": "Hotels in Greater Noida for Trade Fair Teams & Exhibitors | Sandane Homes",

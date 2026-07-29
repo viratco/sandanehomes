@@ -385,6 +385,12 @@ Object.keys(SEO_MAP).forEach((route) => {
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
   'hotels-near-india-expo-mart-greater-noida',
+  'amaaltash-hotel-near-india-expo-mart-greater-noida',
+  'saffron-inn-hotel-near-india-expo-mart-greater-noida',
+  'coco-house-hotel-near-india-expo-mart-greater-noida',
+  'pine-tales-hotel-near-india-expo-mart-greater-noida',
+  'glam-hotel-near-india-expo-mart-greater-noida',
+  'amara-inn-hotel-near-india-expo-mart-greater-noida',
   'best-corporate-hotels-greater-noida',
   'hotels-near-knowledge-park-greater-noida',
   'hotels-near-pari-chowk-greater-noida',
