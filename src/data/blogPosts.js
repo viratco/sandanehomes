@@ -5,6 +5,45 @@
 
 export const blogPosts = [
     {
+        slug: "group-booking-hotel-near-india-expo-mart",
+        title: "Booking a Hotel for an Exhibition Team in Greater Noida: What Actually Goes Wrong",
+        metaTitle: "Group Booking Hotels Near India Expo Mart | CoCo House by Sandane Homes",
+        metaDescription: "Booking a hotel for an exhibition team in Greater Noida? CoCo House by Sandane Homes offers group rates, consolidated GST invoicing and a location minutes from India Expo Mart.",
+        subtitle: "Arranging accommodation for yourself before a trade fair is a ten-minute task. Arranging it for a team of twelve is a different exercise entirely, and the failure points are consistent enough to plan around.",
+        category: "Hotel Stays",
+        date: "August 11, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Booking a hotel for an exhibition team in Greater Noida? CoCo House by Sandane Homes offers group rates, consolidated GST invoicing and a location minutes from India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "Arranging accommodation for yourself before a trade fair is a ten-minute task. Arranging it for a team of twelve is a different exercise entirely, and the failure points are consistent enough to plan around." },
+            { type: "heading", text: "The four things that reliably go wrong" },
+            { type: "list", items: [
+                "<strong>Splitting the team across properties:</strong> It seems harmless when two hotels are five minutes apart. In practice it means two check-in processes, two morning departure points, two sets of WiFi credentials to distribute, and — weeks later — a finance team reconciling a dozen separate invoices from two different vendors.",
+                "<strong>Discovering the invoicing problem at checkout:</strong> GST-compliant invoicing addressed to the company, consolidated across the entire group rather than issued per guest, should be confirmed at the point of booking. It frequently isn't, and the discovery happens when someone tries to file the expense claim.",
+                "<strong>Assuming standard check-in times will work:</strong> Exhibition schedules do not respect hotel hours. Setup crews arrive before standard check-in. Teardown teams finish well after checkout. If these timings aren't flagged when booking, they become a negotiation at the front desk on a day when nobody has the patience for it.",
+                "<strong>Trusting map distance over event-day distance:</strong> Greater Noida's roads compress substantially during major exhibitions at India Expo Centre & Mart. A property that's a ten-minute drive on an ordinary afternoon behaves very differently at 8am on an opening day, when every exhibitor in the region is converging on the same gates."
+            ] },
+            { type: "heading", text: "How CoCo House is set up to avoid all four" },
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> is located at AE-186, Block A, Ansal Golf Link-1, Greater Noida — within genuine reach of India Expo Centre & Mart, Pari Chowk, and Knowledge Park." },
+            { type: "paragraph", text: "The property handles group bookings under a single consolidated GST invoice, with one point of contact managing the whole reservation rather than a rotating front desk. Check-in and check-out timings can be arranged around your actual event schedule when flagged at booking. And keeping the full team in one property removes the coordination overhead entirely." },
+            { type: "heading", text: "Who this suits" },
+            { type: "paragraph", text: "Exhibition teams staying through setup, show days, and teardown. Stall fabrication crews, who typically arrive several days before an event and leave after everyone else. Corporate delegations. Visiting technical teams on multi-day project work." },
+            { type: "heading", text: "Practical booking guidance" },
+            { type: "paragraph", text: "Accommodation near India Expo Mart tightens meaningfully during major shows, and group bookings need more inventory than individual reservations. Three to four weeks ahead of confirmed dates is a sensible minimum." },
+            { type: "paragraph", text: "CoCo House is one of six properties operated by the Sandane Homes group in Greater Noida, alongside Sandane Homes The Luxury Boutique, Amaltaash by Sandane Homes, The Glam by Sandane Homes, Amara Inn by Sandane Homes, and Pine Tales by Sandane Homes." },
+            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida, UP 201315 | +91 97117 22273 | sandanehomes.com", attribution: "— Sandane Homes Group Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can CoCo House provide single consolidated B2B GST invoicing for group bookings?", answer: "Yes, Sandane Homes provides unified corporate GST invoices covering all rooms under a single corporate booking." },
+            { question: "How far is CoCo House from India Expo Centre & Mart?", answer: "CoCo House is located in Ansal Golf Link-1, Greater Noida, just 8-10 minutes drive from India Expo Mart gates." }
+        ],
+        tags: ["Group Booking Hotels", "CoCo House", "India Expo Mart Hotels", "Exhibition Team Accommodation", "Sandane Homes"]
+    },
+    {
         slug: "the-glam-luxury-hotel-near-india-expo-mart-greater-noida",
         title: "The Glam Luxury Hotel Near India Expo Mart Greater Noida",
         metaTitle: "The Glam Luxury Hotel Near India Expo Mart Greater Noida | Sandane Homes",

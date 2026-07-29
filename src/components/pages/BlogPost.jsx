@@ -28,6 +28,7 @@ const PROPERTY_REDIRECTS = {
     'amara-inn-hotel-near-pari-chowk-metro-station-greater-noida': '/amara',
     'coco-house-boutique-hotel-near-india-expo-mart-greater-noida': '/coco-house',
     'coco-house-hotel-near-pari-chowk-greater-noida': '/coco-house',
+    'group-booking-hotel-near-india-expo-mart': '/coco-house',
 };
 
 const BlogPost = () => {
