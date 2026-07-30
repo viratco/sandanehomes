@@ -47,6 +47,16 @@ const PROPERTY_REDIRECTS = {
     'hotels-near-renewable-energy-india-expo-rei-2026': '/#our-luxury-hotels',
     'hotels-near-cphi-pmec-india-2026-greater-noida': '/#our-luxury-hotels',
     'hotels-5-minutes-from-india-expo-mart-greater-noida': '/#our-luxury-hotels',
+    'sandane-homes-luxury-suites-greater-noida-ansal-golf-links': '/sandane-homes',
+    'amaaltash-hotel-near-surajpur-industrial-area-greater-noida': '/amaaltash',
+    'the-glam-luxury-stay-near-noida-international-airport-corridor': '/glam',
+    'amara-inn-hotel-near-yamuna-expressway-industrial-hub': '/amara',
+    'coco-house-corporate-team-housing-greater-noida': '/coco-house',
+    'hotels-near-auto-expo-2026-india-expo-mart-greater-noida': '/#our-luxury-hotels',
+    'hotels-near-noida-expo-centre-sector-62-greater-noida-corridor': '/#our-luxury-hotels',
+    'best-boutique-hotels-in-greater-noida-with-kitchenette-wifi': '/sandane-homes',
+    'serviced-apartments-vs-hotels-near-india-expo-mart-greater-noida': '/residences',
+    'hotels-near-galgotias-university-sharda-university-knowledge-park': '/#our-luxury-hotels',
 };
 
 const BlogPost = () => {

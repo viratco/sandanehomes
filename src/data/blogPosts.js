@@ -5,6 +5,296 @@
 
 export const blogPosts = [
     {
+        slug: "sandane-homes-luxury-suites-greater-noida-ansal-golf-links",
+        title: "Sandane Homes Luxury Suites Ansal Golf Links-1 Greater Noida",
+        metaTitle: "Sandane Homes Luxury Suites Ansal Golf Links-1 Greater Noida",
+        metaDescription: "Book Sandane Homes Luxury Suites in Ansal Golf Links-1 Greater Noida. Kitchenette suites, 4.9★ Google rating, 300 Mbps WiFi & GST billing.",
+        subtitle: "Executive luxury suite accommodation in the quiet green enclave of Ansal Golf Links-1, Greater Noida.",
+        category: "Hotel Stays",
+        date: "September 10, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book Sandane Homes Luxury Suites in Ansal Golf Links-1 Greater Noida. Kitchenette suites, 4.9★ Google rating, 300 Mbps WiFi & GST billing.",
+        content: [
+            { type: "paragraph", text: "<a href='/sandane-homes'>Sandane Homes The Luxury Boutique</a> (BB-28, Block B, Ansal Golf Link-1) is the flagship executive suite property in Greater Noida, holding a 4.9★ rating across 490+ Google reviews." },
+            { type: "heading", text: "Why Choose Sandane Homes Luxury Suites" },
+            { type: "list", items: [
+                "<strong>Ansal Golf Links-1 Location:</strong> Situated in a gated, quiet residential neighborhood minutes from Pari Chowk.",
+                "<strong>Kitchenette & Workstations:</strong> Rooms equipped with kitchenette, workspace desk, and 300 Mbps high-speed WiFi.",
+                "<strong>B2B GST Billing:</strong> Direct corporate invoicing for trade fair delegations and corporate travelers."
+            ] },
+            { type: "quote", text: "Sandane Homes The Luxury Boutique | BB-28, Block B, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Flagship Executive Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Where is Sandane Homes Luxury Suites located?", answer: "Sandane Homes is located at BB-28, Block B, Ansal Golf Link-1, Greater Noida." }
+        ],
+        tags: ["Ansal Golf Links", "Sandane Homes", "Luxury Suites Greater Noida", "Corporate Housing"]
+    },
+    {
+        slug: "amaaltash-hotel-near-surajpur-industrial-area-greater-noida",
+        title: "Amaaltash Hotel Near Surajpur Industrial Area Greater Noida",
+        metaTitle: "Amaaltash Hotel Near Surajpur Industrial Area Greater Noida",
+        metaDescription: "Amaaltash by Sandane Homes — corporate hotel near Surajpur Industrial Area & India Expo Mart. Common kitchenette, clean rooms, GST billing.",
+        subtitle: "Serene corporate hotel stay 10 minutes from Surajpur Industrial Area and India Expo Centre & Mart.",
+        category: "Hotel Stays",
+        date: "September 9, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Amaaltash by Sandane Homes — corporate hotel near Surajpur Industrial Area & India Expo Mart. Common kitchenette, clean rooms, GST billing.",
+        content: [
+            { type: "paragraph", text: "<a href='/amaaltash'>Amaaltash by Sandane Homes</a> (AE-183, Block A, Ansal Golf Link-1) offers comfortable corporate stays for engineers, managers, and executives visiting manufacturing hubs in Surajpur Industrial Area." },
+            { type: "heading", text: "Key Features for Surajpur Corporate Visitors" },
+            { type: "list", items: [
+                "<strong>Fast Commute to Surajpur:</strong> 10 minutes drive to major industrial units including LG, Yamaha, and Honda.",
+                "<strong>Common Kitchenette Facilities:</strong> Clean rooms, electric kettles, daily housekeeping, and 24/7 service.",
+                "<strong>Corporate GST Billing:</strong> Direct invoicing for corporate accounts."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Surajpur Industrial Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Amaaltash from Surajpur Industrial Area?", answer: "Amaaltash is located 10 minutes drive from Surajpur Industrial Area in Ansal Golf Link-1." }
+        ],
+        tags: ["Surajpur Industrial Area", "Amaaltash", "Corporate Hotel Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "the-glam-luxury-stay-near-noida-international-airport-corridor",
+        title: "The Glam Luxury Stay Near Noida International Airport (Jewar Airport Corridor)",
+        metaTitle: "The Glam Luxury Stay Near Noida International Airport Corridor",
+        metaDescription: "Stay at The Glam by Sandane Homes on the Jewar Airport / Noida International Airport Corridor. Rated 8.5/10 on Booking.com. Design-led rooms.",
+        subtitle: "Design-led boutique hotel stay along the Noida International Airport (Jewar) corridor in Greater Noida.",
+        category: "Hotel Stays",
+        date: "September 8, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Stay at The Glam by Sandane Homes on the Jewar Airport / Noida International Airport Corridor. Rated 8.5/10 on Booking.com. Design-led rooms.",
+        content: [
+            { type: "paragraph", text: "<a href='/glam'>The Glam by Sandane Homes</a> (Plot No. AE-189, Block A, Ansal Golf Link-1) is strategically located along the Noida International Airport (Jewar Airport) express corridor." },
+            { type: "heading", text: "Why Travellers Choose The Glam" },
+            { type: "list", items: [
+                "<strong>Jewar Airport Connectivity:</strong> Direct access via Yamuna Expressway corridor.",
+                "<strong>8.5/10 Rating on Booking.com:</strong> Highly rated for design, cleanliness, and staff service.",
+                "<strong>Luxury Interiors:</strong> Designer rooms, balcony options, dedicated work desks, and daily housekeeping."
+            ] },
+            { type: "quote", text: "The Glam by Sandane Homes | AE-189, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Jewar Corridor Luxury Stay" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is The Glam close to Noida International Airport (Jewar)?", answer: "The Glam is located on the direct Yamuna Expressway corridor connecting to Jewar Airport." }
+        ],
+        tags: ["Noida International Airport", "Jewar Airport Hotels", "The Glam", "Greater Noida Boutique Hotels"]
+    },
+    {
+        slug: "amara-inn-hotel-near-yamuna-expressway-industrial-hub",
+        title: "Amara Inn Hotel Near Yamuna Expressway Industrial Hub Greater Noida",
+        metaTitle: "Amara Inn Hotel Near Yamuna Expressway Industrial Hub Greater Noida",
+        metaDescription: "Amara Inn by Sandane Homes — 4.8★ corporate hotel near Yamuna Expressway Industrial Hub & India Expo Mart. Daily housekeeping & B2B GST bills.",
+        subtitle: "Corporate extended stay hotel 8 minutes from Yamuna Expressway Industrial Hub and India Expo Mart.",
+        category: "Hotel Stays",
+        date: "September 7, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Amara Inn by Sandane Homes — 4.8★ corporate hotel near Yamuna Expressway Industrial Hub & India Expo Mart. Daily housekeeping & B2B GST bills.",
+        content: [
+            { type: "paragraph", text: "<a href='/amara'>Amara Inn by Sandane Homes</a> (CE 318, Block C, Ansal Golf Link-1) holds a 4.8★ rating across 179 Google reviews, servicing corporate professionals along the Yamuna Expressway industrial belt." },
+            { type: "heading", text: "Yamuna Expressway Stay Highlights" },
+            { type: "list", items: [
+                "<strong>4.8★ Google Rating:</strong> Clean, spacious rooms with private balconies and quiet surroundings.",
+                "<strong>Industrial Belt Proximity:</strong> Quick access to Yamuna Expressway, Sector 32/33 industrial hubs.",
+                "<strong>Consolidated Corporate GST Billing:</strong> Direct corporate billing for extended stays."
+            ] },
+            { type: "quote", text: "Amara Inn by Sandane Homes | CE 318, Block C, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Yamuna Expressway Corporate Hotel" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is Amara Inn convenient for Yamuna Expressway industrial stays?", answer: "Yes, Amara Inn is situated directly off Yamuna Expressway connector in Ansal Golf Link-1." }
+        ],
+        tags: ["Yamuna Expressway Hotels", "Amara Inn", "Corporate Stays Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "coco-house-corporate-team-housing-greater-noida",
+        title: "CoCo House Corporate Team Housing & Exhibition Delegation Stays",
+        metaTitle: "CoCo House Corporate Team Housing & Delegation Stays Greater Noida",
+        metaDescription: "CoCo House by Sandane Homes provides full corporate team housing & group stays with single consolidated B2B GST invoicing in Greater Noida.",
+        subtitle: "Dedicated group accommodation & team housing 8 minutes from India Expo Centre & Mart.",
+        category: "Hotel Stays",
+        date: "September 6, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "CoCo House by Sandane Homes provides full corporate team housing & group stays with single consolidated B2B GST invoicing in Greater Noida.",
+        content: [
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is configured specifically for corporate team housing and trade fair delegation stays." },
+            { type: "heading", text: "Why Corporate Teams Stay at CoCo House" },
+            { type: "list", items: [
+                "<strong>Unified B2B GST Invoicing:</strong> Single invoice for the entire team.",
+                "<strong>Entire Delegation Under One Roof:</strong> Eliminates multi-hotel management hassle.",
+                "<strong>Event Schedule Alignment:</strong> Flexible check-in/out for setup and teardown teams."
+            ] },
+            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Corporate Team Housing" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can CoCo House accommodate 10-20 corporate guests under one booking?", answer: "Yes, CoCo House is designed for full team bookings with single GST billing." }
+        ],
+        tags: ["Corporate Housing", "CoCo House", "Group Booking Greater Noida", "Sandane Homes"]
+    },
+    {
+        slug: "hotels-near-auto-expo-2026-india-expo-mart-greater-noida",
+        title: "Hotels Near Auto Expo 2026 at India Expo Centre & Mart Greater Noida",
+        metaTitle: "Hotels Near Auto Expo 2026 Greater Noida | Sandane Homes",
+        metaDescription: "Attending Auto Expo 2026 at India Expo Centre & Mart? Sandane Homes operates 6 luxury boutique hotels 8 mins from the venue. Book now.",
+        subtitle: "Official accommodation guide for automotive delegations, exhibitors, and media attending Auto Expo 2026 in Greater Noida.",
+        category: "Event Stays",
+        date: "September 5, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Attending Auto Expo 2026 at India Expo Centre & Mart? Sandane Homes operates 6 luxury boutique hotels 8 mins from the venue. Book now.",
+        content: [
+            { type: "paragraph", text: "Auto Expo is Asia's largest automotive show at India Expo Centre & Mart, Greater Noida. <a href='/#our-luxury-hotels'>Sandane Homes</a> operates 6 boutique hotels 8 minutes from the exhibition gates." },
+            { type: "heading", text: "Auto Expo 2026 Stay Advantages" },
+            { type: "list", items: [
+                "<strong>8 Minutes Commute:</strong> Bypass heavy traffic congestion on event days.",
+                "<strong>490+ Reviews at 4.9★:</strong> Top-rated luxury suites and corporate rooms.",
+                "<strong>Corporate GST Billing:</strong> Single billing for OEM & media delegations."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Auto Expo 2026 Hotel Partner" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far are Sandane Homes hotels from Auto Expo 2026?", answer: "All 6 Sandane Homes hotels are located 8 minutes drive from India Expo Mart." }
+        ],
+        tags: ["Auto Expo 2026", "Hotels Near Auto Expo", "India Expo Mart Hotels", "Sandane Homes"]
+    },
+    {
+        slug: "hotels-near-noida-expo-centre-sector-62-greater-noida-corridor",
+        title: "Hotels Near Noida Expo Centre & Knowledge Park Corridor Greater Noida",
+        metaTitle: "Hotels Near Noida Expo Centre Corridor Greater Noida | Sandane Homes",
+        metaDescription: "Looking for hotels near Noida Expo Centre & Knowledge Park corridor? Sandane Homes operates 6 top-rated boutique hotels with GST invoicing.",
+        subtitle: "Boutique hotel guide for corporate visitors along the Noida Expo & Knowledge Park corridor.",
+        category: "Hotel Stays",
+        date: "September 4, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Looking for hotels near Noida Expo Centre & Knowledge Park corridor? Sandane Homes operates 6 top-rated boutique hotels with GST invoicing.",
+        content: [
+            { type: "paragraph", text: "Corporate delegates visiting expo centers across Noida and Greater Noida choose <a href='/#our-luxury-hotels'>Sandane Homes</a> for premium amenities and quiet residential surrounds." },
+            { type: "heading", text: "Corridor Stay Benefits" },
+            { type: "list", items: [
+                "<strong>Noida-Greater Noida Expressway Access:</strong> Rapid transit to Sector 62, Knowledge Park, and Expo Mart.",
+                "<strong>Boutique Luxury:</strong> High-speed 300 Mbps WiFi, daily housekeeping, and 24/7 room service.",
+                "<strong>Corporate Billing:</strong> Full GST invoice support."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Corporate Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Are Sandane Homes properties close to Noida Expressway?", answer: "Yes, all properties in Ansal Golf Link-1 are located right off Pari Chowk on the Expressway." }
+        ],
+        tags: ["Noida Expo Centre", "Knowledge Park Hotels", "Expressway Hotels", "Sandane Homes"]
+    },
+    {
+        slug: "best-boutique-hotels-in-greater-noida-with-kitchenette-wifi",
+        title: "Best Boutique Hotels in Greater Noida with Kitchenette & 300 Mbps WiFi",
+        metaTitle: "Best Boutique Hotels in Greater Noida with Kitchenette & 300 Mbps WiFi",
+        metaDescription: "Discover boutique hotel rooms in Greater Noida with private kitchenettes, 300 Mbps high-speed WiFi, and 24/7 room service at Sandane Homes.",
+        subtitle: "Luxury boutique hotel rooms with private kitchenette and 300 Mbps fiber internet in Greater Noida.",
+        category: "Hotel Stays",
+        date: "September 3, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Discover boutique hotel rooms in Greater Noida with private kitchenettes, 300 Mbps high-speed WiFi, and 24/7 room service at Sandane Homes.",
+        content: [
+            { type: "paragraph", text: "For business travellers and corporate expats, having a private kitchenette and 300 Mbps fiber WiFi elevates an ordinary hotel room into a functional home office. <a href='/sandane-homes'>Sandane Homes The Luxury Boutique</a> leads Greater Noida in long-stay room amenities." },
+            { type: "heading", text: "In-Room Luxury Features" },
+            { type: "list", items: [
+                "<strong>Kitchenette Equipment:</strong> Induction, microwave, refrigerator, and electric kettle.",
+                "<strong>300 Mbps WiFi:</strong> Dedicated high-speed fiber for Zoom calls and remote working.",
+                "<strong>Daily Housekeeping:</strong> Professional daily cleaning, fresh linens, and room service."
+            ] },
+            { type: "quote", text: "Sandane Homes Luxury Boutique | BB-28, Block B, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Kitchenette Suite Specialist" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Do Sandane Homes rooms include private kitchenettes?", answer: "Yes, executive suites at Sandane Homes include private kitchenettes and dining setups." }
+        ],
+        tags: ["Hotels with Kitchenette", "300 Mbps WiFi Hotels", "Sandane Homes", "Greater Noida Luxury"]
+    },
+    {
+        slug: "serviced-apartments-vs-hotels-near-india-expo-mart-greater-noida",
+        title: "Serviced Apartments vs Hotels Near India Expo Mart Greater Noida",
+        metaTitle: "Serviced Apartments vs Hotels Near India Expo Mart Greater Noida",
+        metaDescription: "Comparing serviced apartments and hotels for corporate stays near India Expo Mart Greater Noida. Full guide by Sandane Homes.",
+        subtitle: "Comprehensive guide comparing extended stay serviced apartments and boutique hotels near India Expo Mart.",
+        category: "Hotel Stays",
+        date: "September 2, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Comparing serviced apartments and hotels for corporate stays near India Expo Mart Greater Noida. Full guide by Sandane Homes.",
+        content: [
+            { type: "paragraph", text: "When planning corporate travel to Greater Noida, choosing between serviced apartments (<a href='/residences'>Residences by Sandane Homes</a>) and boutique hotels depends on stay duration and team size." },
+            { type: "heading", text: "Comparison Summary" },
+            { type: "list", items: [
+                "<strong>Serviced Apartments (/residences):</strong> Best for 1+ month stays, expats, and visiting families with full kitchen, washing machine, and living room.",
+                "<strong>Boutique Hotels (/sandane-homes):</strong> Ideal for 1-14 day trade fair trips, daily housekeeping, in-house breakfast, and instant room service.",
+                "<strong>Both Include:</strong> 100% power backup, 300 Mbps WiFi, GST billing, and 24/7 security."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Hospitality Comparison Guide" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Which is better for long stays: serviced apartments or hotels?", answer: "For stays longer than 3 weeks, Residences by Sandane Homes offers full apartment living; for trade fair visits under 2 weeks, boutique hotels are ideal." }
+        ],
+        tags: ["Serviced Apartments vs Hotels", "Residences by Sandane Homes", "Corporate Stay Guide", "India Expo Mart"]
+    },
+    {
+        slug: "hotels-near-galgotias-university-sharda-university-knowledge-park",
+        title: "Hotels Near Galgotias University & Sharda University Knowledge Park Greater Noida",
+        metaTitle: "Hotels Near Galgotias & Sharda University Greater Noida | Sandane Homes",
+        metaDescription: "Book hotels near Galgotias University & Sharda University in Knowledge Park Greater Noida. Sandane Homes offers luxury stays 5 mins away.",
+        subtitle: "Boutique hotel accommodation near Galgotias University, Sharda University, and Knowledge Park campus corridor.",
+        category: "Hotel Stays",
+        date: "September 1, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book hotels near Galgotias University & Sharda University in Knowledge Park Greater Noida. Sandane Homes offers luxury stays 5 mins away.",
+        content: [
+            { type: "paragraph", text: "Visiting professors, university delegates, guest lecturers, and families attending convocations at Galgotias University and Sharda University choose <a href='/#our-luxury-hotels'>Sandane Homes</a> for quiet, top-rated stays in Ansal Golf Link-1." },
+            { type: "heading", text: "University Stay Benefits" },
+            { type: "list", items: [
+                "<strong>5 Minutes Drive:</strong> Located right across Knowledge Park university campuses.",
+                "<strong>Quiet Residential Setting:</strong> Clean, peaceful neighborhood in gated Ansal Golf Link-1.",
+                "<strong>Premium Hospitality:</strong> 490+ Google reviews at 4.9★, high-speed WiFi, and daily breakfast."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Knowledge Park University Hotels" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Sandane Homes from Galgotias University and Sharda University?", answer: "Sandane Homes is located 5 minutes drive from both Galgotias University and Sharda University in Knowledge Park." }
+        ],
+        tags: ["Galgotias University Hotels", "Sharda University Hotels", "Knowledge Park Hotels", "Sandane Homes"]
+    },
+    {
         slug: "sandane-homes-luxury-hotel-near-india-expo-mart-gate-1",
         title: "Sandane Homes Luxury Hotel Near India Expo Mart Gate 1 & Gate 2 Greater Noida",
         metaTitle: "Sandane Homes Luxury Hotel Near India Expo Mart Gate 1 & Gate 2",

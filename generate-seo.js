@@ -391,6 +391,16 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'sandane-homes-luxury-suites-greater-noida-ansal-golf-links',
+  'amaaltash-hotel-near-surajpur-industrial-area-greater-noida',
+  'the-glam-luxury-stay-near-noida-international-airport-corridor',
+  'amara-inn-hotel-near-yamuna-expressway-industrial-hub',
+  'coco-house-corporate-team-housing-greater-noida',
+  'hotels-near-auto-expo-2026-india-expo-mart-greater-noida',
+  'hotels-near-noida-expo-centre-sector-62-greater-noida-corridor',
+  'best-boutique-hotels-in-greater-noida-with-kitchenette-wifi',
+  'serviced-apartments-vs-hotels-near-india-expo-mart-greater-noida',
+  'hotels-near-galgotias-university-sharda-university-knowledge-park',
   'sandane-homes-luxury-hotel-near-india-expo-mart-gate-1',
   'amaaltash-hotel-near-knowledge-park-2-expo-mart-greater-noida',
   'the-glam-boutique-hotel-near-pari-chowk-expo-mart',
