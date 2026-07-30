@@ -57,6 +57,11 @@ const PROPERTY_REDIRECTS = {
     'best-boutique-hotels-in-greater-noida-with-kitchenette-wifi': '/sandane-homes',
     'serviced-apartments-vs-hotels-near-india-expo-mart-greater-noida': '/residences',
     'hotels-near-galgotias-university-sharda-university-knowledge-park': '/#our-luxury-hotels',
+    'coco-house-sandane-homes-boutique-hotel-near-india-expo-mart': '/coco-house',
+    'coco-house-sandane-homes-group-accommodation-for-trade-exhibitors': '/coco-house',
+    'coco-house-sandane-homes-hotel-near-pari-chowk-greater-noida': '/coco-house',
+    'coco-house-sandane-homes-budget-luxury-hotel-knowledge-park': '/coco-house',
+    'coco-house-sandane-homes-long-stay-corporate-guest-house': '/coco-house',
 };
 
 const BlogPost = () => {

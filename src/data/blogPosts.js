@@ -5,6 +5,151 @@
 
 export const blogPosts = [
     {
+        slug: "coco-house-sandane-homes-boutique-hotel-near-india-expo-mart",
+        title: "CoCo House / Sandane Homes Boutique Hotel Near India Expo Mart Greater Noida",
+        metaTitle: "CoCo House / Sandane Homes Boutique Hotel Near India Expo Mart",
+        metaDescription: "Book CoCo House / Sandane Homes boutique hotel 8 mins from India Expo Mart. Group booking rates, consolidated GST billing & clean luxury rooms.",
+        subtitle: "Chic boutique hotel stay 8 minutes from India Expo Centre & Mart by CoCo House / Sandane Homes.",
+        category: "Hotel Stays",
+        date: "September 15, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book CoCo House / Sandane Homes boutique hotel 8 mins from India Expo Mart. Group booking rates, consolidated GST billing & clean luxury rooms.",
+        content: [
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is the signature group-booking boutique hotel in Greater Noida, located just 8 minutes from India Expo Centre & Mart." },
+            { type: "heading", text: "Why Choose CoCo House / Sandane Homes" },
+            { type: "list", items: [
+                "<strong>8 Minutes to Expo Mart Gates:</strong> Quick, hassle-free commute to trade show halls.",
+                "<strong>Group Booking Rates:</strong> Tailored room packages for exhibition teams and corporate delegations.",
+                "<strong>Single B2B GST Invoicing:</strong> Unified invoicing for easy corporate expense reconciliation."
+            ] },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Group Exhibition Accommodations" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is CoCo House / Sandane Homes from India Expo Mart?", answer: "CoCo House / Sandane Homes is located in Block A, Ansal Golf Link-1, exactly 8 minutes drive from India Expo Mart." }
+        ],
+        tags: ["CoCo House / Sandane Homes", "CoCo House", "Hotels Near India Expo Mart", "Greater Noida Stays"]
+    },
+    {
+        slug: "coco-house-sandane-homes-group-accommodation-for-trade-exhibitors",
+        title: "CoCo House / Sandane Homes Group Accommodation for Trade Exhibitors Greater Noida",
+        metaTitle: "CoCo House / Sandane Homes Group Accommodation for Trade Exhibitors",
+        metaDescription: "Exhibiting at India Expo Mart? CoCo House / Sandane Homes offers full team group housing with single B2B GST invoicing and flexible check-in.",
+        subtitle: "Dedicated exhibition team group housing and corporate accommodation by CoCo House / Sandane Homes.",
+        category: "Hotel Stays",
+        date: "September 14, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Exhibiting at India Expo Mart? CoCo House / Sandane Homes offers full team group housing with single B2B GST invoicing and flexible check-in.",
+        content: [
+            { type: "paragraph", text: "Coordinating hotel stays for an entire exhibition team requires reliable logistics. <a href='/coco-house'>CoCo House / Sandane Homes</a> simplifies group accommodation with dedicated room blocks and flexible schedule support." },
+            { type: "heading", text: "Exhibitor Stay Features" },
+            { type: "list", items: [
+                "<strong>Team Unity:</strong> Keep your entire delegation under one roof in Ansal Golf Link-1.",
+                "<strong>Setup & Teardown Flexibility:</strong> Support for early check-in and late check-out for stall crews.",
+                "<strong>Corporate Billing:</strong> Consolidated B2B GST invoicing."
+            ] },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Trade Fair Team Specialist" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can CoCo House / Sandane Homes host groups of 10-15 people?", answer: "Yes, CoCo House / Sandane Homes specializes in group stays for exhibition teams." }
+        ],
+        tags: ["CoCo House / Sandane Homes", "Exhibitor Accommodation", "Group Booking Hotels", "India Expo Mart"]
+    },
+    {
+        slug: "coco-house-sandane-homes-hotel-near-pari-chowk-greater-noida",
+        title: "CoCo House / Sandane Homes Hotel Near Pari Chowk Greater Noida",
+        metaTitle: "CoCo House / Sandane Homes Hotel Near Pari Chowk Greater Noida",
+        metaDescription: "CoCo House / Sandane Homes located off Pari Chowk, Greater Noida. Deluxe twin & king rooms, high-speed 300 Mbps WiFi & daily housekeeping.",
+        subtitle: "Prime boutique hotel stay near Pari Chowk Metro Station by CoCo House / Sandane Homes.",
+        category: "Hotel Stays",
+        date: "September 13, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "CoCo House / Sandane Homes located off Pari Chowk, Greater Noida. Deluxe twin & king rooms, high-speed 300 Mbps WiFi & daily housekeeping.",
+        content: [
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> offers unbeatable access to Pari Chowk Metro Station, Noida-Greater Noida Expressway, and Knowledge Park II." },
+            { type: "heading", text: "Key Amenities at CoCo House / Sandane Homes" },
+            { type: "list", items: [
+                "<strong>Deluxe King & Twin Bed Options:</strong> Perfect for corporate colleagues traveling together.",
+                "<strong>300 Mbps WiFi & Workspace:</strong> High-speed fiber internet and quiet workspace environment.",
+                "<strong>24/7 Room Service & Housekeeping:</strong> Spotless daily cleaning and responsive hospitality."
+            ] },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Pari Chowk Boutique Stay" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is CoCo House / Sandane Homes from Pari Chowk Metro?", answer: "CoCo House / Sandane Homes is located 5 minutes drive from Pari Chowk Metro Station." }
+        ],
+        tags: ["CoCo House / Sandane Homes", "Pari Chowk Hotels", "Greater Noida Stays", "Sandane Homes"]
+    },
+    {
+        slug: "coco-house-sandane-homes-budget-luxury-hotel-knowledge-park",
+        title: "CoCo House / Sandane Homes Budget Luxury Hotel Near Knowledge Park Greater Noida",
+        metaTitle: "CoCo House / Sandane Homes Budget Luxury Hotel Knowledge Park",
+        metaDescription: "Budget luxury hotel rooms near Knowledge Park & India Expo Mart at CoCo House / Sandane Homes. 24/7 service, GST billing & express commute.",
+        subtitle: "Accessible luxury boutique accommodation near Knowledge Park II by CoCo House / Sandane Homes.",
+        category: "Hotel Stays",
+        date: "September 12, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Budget luxury hotel rooms near Knowledge Park & India Expo Mart at CoCo House / Sandane Homes. 24/7 service, GST billing & express commute.",
+        content: [
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> delivers high-value luxury stays for budget-conscious corporate travelers and trade fair attendees in Knowledge Park." },
+            { type: "heading", text: "Why Choose Budget Luxury at CoCo House / Sandane Homes" },
+            { type: "list", items: [
+                "<strong>Competitive Group Pricing:</strong> Premium boutique experience at optimized pricing.",
+                "<strong>Cleanliness & Security:</strong> Daily housekeeping, secure gated entry, and 24/7 front desk.",
+                "<strong>Express Venue Commute:</strong> 8 minutes to Knowledge Park II expo centers."
+            ] },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Value Corporate Luxury" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is CoCo House / Sandane Homes affordable for corporate teams?", answer: "Yes, CoCo House / Sandane Homes offers attractive group rates and B2B GST invoicing." }
+        ],
+        tags: ["CoCo House / Sandane Homes", "Knowledge Park Hotels", "Budget Luxury Hotels", "Sandane Homes"]
+    },
+    {
+        slug: "coco-house-sandane-homes-long-stay-corporate-guest-house",
+        title: "CoCo House / Sandane Homes Long Stay Corporate Guest House Greater Noida",
+        metaTitle: "CoCo House / Sandane Homes Long Stay Corporate Guest House",
+        metaDescription: "Long stay corporate guest house rooms for project teams & engineers at CoCo House / Sandane Homes. Daily housekeeping & B2B GST invoices.",
+        subtitle: "Multi-week corporate team guest house accommodation by CoCo House / Sandane Homes.",
+        category: "Hotel Stays",
+        date: "September 11, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Long stay corporate guest house rooms for project teams & engineers at CoCo House / Sandane Homes. Daily housekeeping & B2B GST invoices.",
+        content: [
+            { type: "paragraph", text: "For companies managing extended projects in Greater Noida, <a href='/coco-house'>CoCo House / Sandane Homes</a> serves as a fully managed corporate guest house alternative." },
+            { type: "heading", text: "Corporate Guest House Amenities" },
+            { type: "list", items: [
+                "<strong>Dedicated Corporate Block:</strong> Private room blocks for long-term project teams.",
+                "<strong>All-Inclusive Management:</strong> Housekeeping, laundry, WiFi, power backup, and security managed end-to-end.",
+                "<strong>Consolidated Monthly GST Invoicing:</strong> Direct B2B billing for corporate accounts."
+            ] },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Corporate Guest House Specialist" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can CoCo House / Sandane Homes serve as a long-term corporate guest house?", answer: "Yes, CoCo House / Sandane Homes offers multi-week and monthly corporate guest house packages." }
+        ],
+        tags: ["CoCo House / Sandane Homes", "Corporate Guest House", "Long Stay Greater Noida", "Sandane Homes"]
+    },
+    {
         slug: "sandane-homes-luxury-suites-greater-noida-ansal-golf-links",
         title: "Sandane Homes Luxury Suites Ansal Golf Links-1 Greater Noida",
         metaTitle: "Sandane Homes Luxury Suites Ansal Golf Links-1 Greater Noida",
@@ -124,7 +269,7 @@ export const blogPosts = [
         slug: "coco-house-corporate-team-housing-greater-noida",
         title: "CoCo House Corporate Team Housing & Exhibition Delegation Stays",
         metaTitle: "CoCo House Corporate Team Housing & Delegation Stays Greater Noida",
-        metaDescription: "CoCo House by Sandane Homes provides full corporate team housing & group stays with single consolidated B2B GST invoicing in Greater Noida.",
+        metaDescription: "CoCo House / Sandane Homes provides full corporate team housing & group stays with single consolidated B2B GST invoicing in Greater Noida.",
         subtitle: "Dedicated group accommodation & team housing 8 minutes from India Expo Centre & Mart.",
         category: "Hotel Stays",
         date: "September 6, 2026",
@@ -132,16 +277,16 @@ export const blogPosts = [
         author: "Sandane Homes Team",
         coverImage: "/blog/covers/hallway-mirror.jpg",
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
-        excerpt: "CoCo House by Sandane Homes provides full corporate team housing & group stays with single consolidated B2B GST invoicing in Greater Noida.",
+        excerpt: "CoCo House / Sandane Homes provides full corporate team housing & group stays with single consolidated B2B GST invoicing in Greater Noida.",
         content: [
-            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is configured specifically for corporate team housing and trade fair delegation stays." },
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is configured specifically for corporate team housing and trade fair delegation stays." },
             { type: "heading", text: "Why Corporate Teams Stay at CoCo House" },
             { type: "list", items: [
                 "<strong>Unified B2B GST Invoicing:</strong> Single invoice for the entire team.",
                 "<strong>Entire Delegation Under One Roof:</strong> Eliminates multi-hotel management hassle.",
                 "<strong>Event Schedule Alignment:</strong> Flexible check-in/out for setup and teardown teams."
             ] },
-            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Corporate Team Housing" },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Corporate Team Housing" },
             { type: "cta" }
         ],
         faqs: [
@@ -415,7 +560,7 @@ export const blogPosts = [
         slug: "coco-house-group-booking-hotel-single-gst-expo-mart",
         title: "CoCo House Group Booking Hotel Near India Expo Mart (Single GST Billing)",
         metaTitle: "CoCo House Group Booking Hotel Near India Expo Mart | Single GST Billing",
-        metaDescription: "CoCo House by Sandane Homes offers group booking rates & single consolidated B2B GST invoicing for trade fair teams near India Expo Mart.",
+        metaDescription: "CoCo House / Sandane Homes offers group booking rates & single consolidated B2B GST invoicing for trade fair teams near India Expo Mart.",
         subtitle: "Dedicated group booking hotel 8 minutes from India Expo Centre & Mart with single consolidated B2B GST invoicing.",
         category: "Hotel Stays",
         date: "August 26, 2026",
@@ -423,16 +568,16 @@ export const blogPosts = [
         author: "Sandane Homes Team",
         coverImage: "/blog/covers/hallway-mirror.jpg",
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
-        excerpt: "CoCo House by Sandane Homes offers group booking rates & single consolidated B2B GST invoicing for trade fair teams near India Expo Mart.",
+        excerpt: "CoCo House / Sandane Homes offers group booking rates & single consolidated B2B GST invoicing for trade fair teams near India Expo Mart.",
         content: [
-            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is the leading group-booking property in Greater Noida, specifically configured to host full trade fair delegations under one roof." },
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is the leading group-booking property in Greater Noida, specifically configured to host full trade fair delegations under one roof." },
             { type: "heading", text: "Why Exhibition Teams Choose CoCo House" },
             { type: "list", items: [
                 "<strong>Single Consolidated GST Invoice:</strong> One corporate bill covering all room reservations.",
                 "<strong>Keep Your Entire Team Together:</strong> Eliminate multi-property check-in friction.",
                 "<strong>Flexible Check-In/Check-Out:</strong> Tailored timing for stall fabrication and setup teams."
             ] },
-            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Group Booking Hotel Specialist" },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Group Booking Hotel Specialist" },
             { type: "cta" }
         ],
         faqs: [
@@ -576,7 +721,7 @@ export const blogPosts = [
                 "<strong>Amaaltash by Sandane Homes:</strong> AE-183, Block A.",
                 "<strong>The Glam by Sandane Homes:</strong> AE-189, Block A (8.5/10 on Booking.com).",
                 "<strong>Amara Inn by Sandane Homes:</strong> CE 318, Block C (4.8★ across 179 reviews).",
-                "<strong>CoCo House by Sandane Homes:</strong> AE-186, Block A (Group booking specialist).",
+                "<strong>CoCo House / Sandane Homes:</strong> AE-186, Block A (Group booking specialist).",
                 "<strong>Pine Tales by Sandane Homes:</strong> Ansal Golf Link-1."
             ] },
             { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Greater Noida Premier Hotels" },
@@ -722,7 +867,7 @@ export const blogPosts = [
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
         excerpt: "Book CoCo House Hotel by Sandane Homes for IHE 2026 (Aug 5-8). Group booking rates, consolidated B2B GST billing, 8 mins to India Expo Mart.",
         content: [
-            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is the premier group-booking hotel property for teams exhibiting at India International Hospitality Expo 2026 (IHE 2026, August 5–8, Greater Noida)." },
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is the premier group-booking hotel property for teams exhibiting at India International Hospitality Expo 2026 (IHE 2026, August 5–8, Greater Noida)." },
             { type: "paragraph", text: "CoCo House handles full exhibition delegations under a single consolidated GST invoice, with dedicated group rates and flexible check-in times for stall fabrication and setup teams." },
             { type: "heading", text: "Why CoCo House for IHE 2026 Group Bookings" },
             { type: "list", items: [
@@ -730,7 +875,7 @@ export const blogPosts = [
                 "<strong>Keep Your Entire Team Together:</strong> Eliminate multi-hotel coordination friction.",
                 "<strong>Event Schedule Flexibility:</strong> Early check-in and late check-out support for setup/teardown crews."
             ] },
-            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Group Exhibition Accommodations" },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Group Exhibition Accommodations" },
             { type: "cta" }
         ],
         faqs: [
@@ -763,7 +908,7 @@ export const blogPosts = [
                 "<strong><a href='/amaaltash'>Amaltaash by Sandane Homes</a>:</strong> AE-183, Block A, Ansal Golf Link-1 — Premium boutique stay for corporate trade teams.",
                 "<strong><a href='/glam'>The Glam by Sandane Homes</a>:</strong> Plot No. AE-189, Block A, Ansal Golf Link-1 (8.5/10 on Booking.com) — Design-led luxury boutique hotel.",
                 "<strong><a href='/amara'>Amara Inn by Sandane Homes</a>:</strong> CE 318, Block C, Ansal Golf Link-1 (4.8★ across 179 Google reviews) — Suited for extended multi-day stays.",
-                "<strong><a href='/coco-house'>CoCo House by Sandane Homes</a>:</strong> AE-186, Block A, Ansal Golf Link-1 (4.9★) — Group-booking property with consolidated B2B GST billing.",
+                "<strong><a href='/coco-house'>CoCo House / Sandane Homes</a>:</strong> AE-186, Block A, Ansal Golf Link-1 (4.9★) — Group-booking property with consolidated B2B GST billing.",
                 "<strong><a href='/pine-tales'>Pine Tales by Sandane Homes</a>:</strong> Ansal Golf Link-1 — Boutique accommodation in the same quiet green corridor."
             ] },
             { type: "heading", text: "Corporate provisions for IHE 2026 attendees" },
@@ -859,8 +1004,8 @@ export const blogPosts = [
     {
         slug: "group-booking-hotel-near-india-expo-mart",
         title: "Booking a Hotel for an Exhibition Team in Greater Noida: What Actually Goes Wrong",
-        metaTitle: "Group Booking Hotels Near India Expo Mart | CoCo House by Sandane Homes",
-        metaDescription: "Booking a hotel for an exhibition team in Greater Noida? CoCo House by Sandane Homes offers group rates, consolidated GST invoicing and a location minutes from India Expo Mart.",
+        metaTitle: "Group Booking Hotels Near India Expo Mart | CoCo House / Sandane Homes",
+        metaDescription: "Booking a hotel for an exhibition team in Greater Noida? CoCo House / Sandane Homes offers group rates, consolidated GST invoicing and a location minutes from India Expo Mart.",
         subtitle: "Arranging accommodation for yourself before a trade fair is a ten-minute task. Arranging it for a team of twelve is a different exercise entirely, and the failure points are consistent enough to plan around.",
         category: "Hotel Stays",
         date: "August 11, 2026",
@@ -868,7 +1013,7 @@ export const blogPosts = [
         author: "Sandane Homes Team",
         coverImage: "/blog/covers/hallway-mirror.jpg",
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
-        excerpt: "Booking a hotel for an exhibition team in Greater Noida? CoCo House by Sandane Homes offers group rates, consolidated GST invoicing and a location minutes from India Expo Mart.",
+        excerpt: "Booking a hotel for an exhibition team in Greater Noida? CoCo House / Sandane Homes offers group rates, consolidated GST invoicing and a location minutes from India Expo Mart.",
         content: [
             { type: "paragraph", text: "Arranging accommodation for yourself before a trade fair is a ten-minute task. Arranging it for a team of twelve is a different exercise entirely, and the failure points are consistent enough to plan around." },
             { type: "heading", text: "The four things that reliably go wrong" },
@@ -879,14 +1024,14 @@ export const blogPosts = [
                 "<strong>Trusting map distance over event-day distance:</strong> Greater Noida's roads compress substantially during major exhibitions at India Expo Centre & Mart. A property that's a ten-minute drive on an ordinary afternoon behaves very differently at 8am on an opening day, when every exhibitor in the region is converging on the same gates."
             ] },
             { type: "heading", text: "How CoCo House is set up to avoid all four" },
-            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> is located at AE-186, Block A, Ansal Golf Link-1, Greater Noida — within genuine reach of India Expo Centre & Mart, Pari Chowk, and Knowledge Park." },
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House / Sandane Homes</a> is located at AE-186, Block A, Ansal Golf Link-1, Greater Noida — within genuine reach of India Expo Centre & Mart, Pari Chowk, and Knowledge Park." },
             { type: "paragraph", text: "The property handles group bookings under a single consolidated GST invoice, with one point of contact managing the whole reservation rather than a rotating front desk. Check-in and check-out timings can be arranged around your actual event schedule when flagged at booking. And keeping the full team in one property removes the coordination overhead entirely." },
             { type: "heading", text: "Who this suits" },
             { type: "paragraph", text: "Exhibition teams staying through setup, show days, and teardown. Stall fabrication crews, who typically arrive several days before an event and leave after everyone else. Corporate delegations. Visiting technical teams on multi-day project work." },
             { type: "heading", text: "Practical booking guidance" },
             { type: "paragraph", text: "Accommodation near India Expo Mart tightens meaningfully during major shows, and group bookings need more inventory than individual reservations. Three to four weeks ahead of confirmed dates is a sensible minimum." },
             { type: "paragraph", text: "CoCo House is one of six properties operated by the Sandane Homes group in Greater Noida, alongside Sandane Homes The Luxury Boutique, Amaltaash by Sandane Homes, The Glam by Sandane Homes, Amara Inn by Sandane Homes, and Pine Tales by Sandane Homes." },
-            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida, UP 201315 | +91 97117 22273 | sandanehomes.com", attribution: "— Sandane Homes Group Hospitality" },
+            { type: "quote", text: "CoCo House / Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida, UP 201315 | +91 97117 22273 | sandanehomes.com", attribution: "— Sandane Homes Group Hospitality" },
             { type: "cta" }
         ],
         faqs: [
@@ -1025,7 +1170,7 @@ export const blogPosts = [
         slug: "coco-house-boutique-hotel-near-india-expo-mart-greater-noida",
         title: "CoCo House Boutique Hotel Near India Expo Mart Greater Noida",
         metaTitle: "CoCo House Boutique Hotel Near India Expo Mart Greater Noida | Sandane Homes",
-        metaDescription: "CoCo House by Sandane Homes is a chic boutique hotel 10 mins from India Expo Mart Greater Noida. Netflix rooms, 300 Mbps internet & breakfast.",
+        metaDescription: "CoCo House / Sandane Homes is a chic boutique hotel 10 mins from India Expo Mart Greater Noida. Netflix rooms, 300 Mbps internet & breakfast.",
         subtitle: "Modern boutique hotel stay 10 minutes from India Expo Mart — featuring stylish room interiors, high-speed fiber internet, and lounge spaces.",
         category: "Hotel Stays",
         date: "August 06, 2026",
@@ -1033,9 +1178,9 @@ export const blogPosts = [
         author: "Sandane Homes Team",
         coverImage: "/blog/covers/hallway-mirror.jpg",
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
-        excerpt: "CoCo House by Sandane Homes is a chic boutique hotel 10 mins from India Expo Mart Greater Noida. Netflix rooms, 300 Mbps internet & breakfast.",
+        excerpt: "CoCo House / Sandane Homes is a chic boutique hotel 10 mins from India Expo Mart Greater Noida. Netflix rooms, 300 Mbps internet & breakfast.",
         content: [
-            { type: "paragraph", text: "<strong>CoCo House by Sandane Homes</strong> offers chic boutique hotel accommodation just 10 minutes drive from <strong>India Expo Mart & Centre</strong>." },
+            { type: "paragraph", text: "<strong>CoCo House / Sandane Homes</strong> offers chic boutique hotel accommodation just 10 minutes drive from <strong>India Expo Mart & Centre</strong>." },
             { type: "heading", text: "Boutique Design & Expo Accessibility" },
             { type: "paragraph", text: "Designed for creative executives, media crews, and trade delegates, <a href='/coco-house'>CoCo House</a> stands out with contemporary flair:" },
             { type: "list", items: [
@@ -1066,7 +1211,7 @@ export const blogPosts = [
         coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
         excerpt: "CoCo House offers stylish hotel rooms near Pari Chowk Greater Noida. Ideal for business travelers, exhibition delegates & young professionals.",
         content: [
-            { type: "paragraph", text: "<strong>CoCo House by Sandane Homes</strong> near Pari Chowk combines central location convenience with boutique aesthetic comfort." },
+            { type: "paragraph", text: "<strong>CoCo House / Sandane Homes</strong> near Pari Chowk combines central location convenience with boutique aesthetic comfort." },
             { type: "heading", text: "Prime Location Near Pari Chowk" },
             { type: "paragraph", text: "Positioned close to Pari Chowk, <a href='/coco-house'>CoCo House</a> provides seamless access across Greater Noida:" },
             { type: "list", items: [
@@ -1152,7 +1297,7 @@ export const blogPosts = [
         slug: "coco-house-hotel-near-india-expo-mart-greater-noida",
         title: "CoCo House Hotel Near India Expo Mart Greater Noida",
         metaTitle: "CoCo House Hotel Near India Expo Mart Greater Noida | Sandane Homes",
-        metaDescription: "CoCo House by Sandane Homes is a modern boutique hotel near India Expo Mart Greater Noida. Stylish rooms, high-speed WiFi & corporate travel amenities.",
+        metaDescription: "CoCo House / Sandane Homes is a modern boutique hotel near India Expo Mart Greater Noida. Stylish rooms, high-speed WiFi & corporate travel amenities.",
         subtitle: "Chic luxury boutique hotel stay 10 minutes from India Expo Mart — designed for creative teams, tech executives, and exhibition managers.",
         category: "Hotel Stays",
         date: "August 02, 2026",
@@ -1160,9 +1305,9 @@ export const blogPosts = [
         author: "Sandane Homes Team",
         coverImage: "/blog/covers/hallway-mirror.jpg",
         coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
-        excerpt: "CoCo House by Sandane Homes is a modern boutique hotel near India Expo Mart Greater Noida. Stylish rooms, high-speed WiFi & corporate travel amenities.",
+        excerpt: "CoCo House / Sandane Homes is a modern boutique hotel near India Expo Mart Greater Noida. Stylish rooms, high-speed WiFi & corporate travel amenities.",
         content: [
-            { type: "paragraph", text: "<strong>CoCo House by Sandane Homes</strong> is a stylish boutique hotel property offering chic interior design and premium amenities just 10 minutes from <strong>India Expo Mart</strong>." },
+            { type: "paragraph", text: "<strong>CoCo House / Sandane Homes</strong> is a stylish boutique hotel property offering chic interior design and premium amenities just 10 minutes from <strong>India Expo Mart</strong>." },
             { type: "heading", text: "Modern Comfort for Exhibition Teams" },
             { type: "paragraph", text: "Popular among design agencies, media crews, and tech delegates, <a href='/coco-house'>CoCo House</a> offers a fresh contemporary atmosphere:" },
             { type: "list", items: [
@@ -1174,7 +1319,7 @@ export const blogPosts = [
             { type: "cta" }
         ],
         faqs: [
-            { question: "How far is CoCo House from India Expo Mart?", answer: "CoCo House by Sandane Homes is located approximately 10 minutes drive from India Expo Mart." },
+            { question: "How far is CoCo House from India Expo Mart?", answer: "CoCo House / Sandane Homes is located approximately 10 minutes drive from India Expo Mart." },
             { question: "Are breakfast and housekeeping included at CoCo House?", answer: "Yes, hot daily breakfast and 7-day housekeeping are standard for all guests." }
         ],
         tags: ["CoCo House Hotel", "Expo Mart Boutique Hotels", "Greater Noida Stays", "Sandane Homes"]
@@ -1403,7 +1548,7 @@ export const blogPosts = [
                         "items": [
                                 "<a href=\"/amaaltash\"><strong>Amaaltash by Sandane Homes:</strong></a> Ideal for long-term project leaders and auditors needing spacious rooms and shared kitchenette access.",
                                 "<a href=\"/saffron\"><strong>Saffron Inn by Sandane Homes:</strong></a> Premium twin and double rooms offering 24/7 room service and central connectivity at Pari Chowk.",
-                                "<a href=\"/coco-house\"><strong>CoCo House by Sandane Homes:</strong></a> Chic, modern boutique rooms popular among creative agencies, tech executives, and delegation teams.",
+                                "<a href=\"/coco-house\"><strong>CoCo House / Sandane Homes:</strong></a> Chic, modern boutique rooms popular among creative agencies, tech executives, and delegation teams.",
                                 "<a href=\"/pine-tales\"><strong>Pine Tales by Sandane Homes:</strong></a> Serene, green setting with private balcony and terrace options for post-work relaxation.",
                                 "<a href=\"/glam\"><strong>The Glam by Sandane Homes:</strong></a> Luxury executive suites featuring smart entertainment setups and dedicated workstations."
                         ]
@@ -1503,7 +1648,7 @@ export const blogPosts = [
                         "items": [
                                 "<a href=\"/amaaltash\"><strong>Amaaltash by Sandane Homes:</strong></a> Elegant, spacious guest rooms with executive workspaces and common kitchenette facilities.",
                                 "<a href=\"/saffron\"><strong>Saffron Inn by Sandane Homes:</strong></a> Stylish twin and double executive bedrooms with 24/7 room service near Pari Chowk.",
-                                "<a href=\"/coco-house\"><strong>CoCo House by Sandane Homes:</strong></a> Chic boutique hotel atmosphere with modern interiors, aesthetic lounges, and high-speed Wi-Fi.",
+                                "<a href=\"/coco-house\"><strong>CoCo House / Sandane Homes:</strong></a> Chic boutique hotel atmosphere with modern interiors, aesthetic lounges, and high-speed Wi-Fi.",
                                 "<a href=\"/pine-tales\"><strong>Pine Tales by Sandane Homes:</strong></a> Scenic terrace options, tranquil greenery, and complimentary hot breakfast spreads.",
                                 "<a href=\"/glam\"><strong>The Glam by Sandane Homes:</strong></a> Premium executive suites equipped with smart entertainment systems and dedicated workspace tables."
                         ]
@@ -1619,7 +1764,7 @@ export const blogPosts = [
             { type: "list", items: [
                 "<a href='/saffron'><strong>Saffron Inn by Sandane Homes:</strong></a> Located 2 minutes from Pari Chowk, offering executive bedrooms, 24/7 service, and corporate GST billing.",
                 "<a href='/amaaltash'><strong>Amaaltash by Sandane Homes:</strong></a> Luxury guest rooms with spacious work layouts and common kitchen facilities.",
-                "<a href='/coco-house'><strong>CoCo House by Sandane Homes:</strong></a> Modern aesthetic rooms with high-speed internet and lounge spaces.",
+                "<a href='/coco-house'><strong>CoCo House / Sandane Homes:</strong></a> Modern aesthetic rooms with high-speed internet and lounge spaces.",
                 "<strong>Professional Hospitality:</strong> Daily housekeeping, hot breakfast spreads, 100% DG power backup, and 24/7 security."
             ] },
             { type: "quote", text: "Staying near Pari Chowk at Saffron Inn allowed our sales team to hit meetings in Noida and Expo Mart in under 15 minutes each way.", attribution: "— Regional Business Head, Logistics MNC" },

@@ -391,6 +391,11 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'coco-house-sandane-homes-boutique-hotel-near-india-expo-mart',
+  'coco-house-sandane-homes-group-accommodation-for-trade-exhibitors',
+  'coco-house-sandane-homes-hotel-near-pari-chowk-greater-noida',
+  'coco-house-sandane-homes-budget-luxury-hotel-knowledge-park',
+  'coco-house-sandane-homes-long-stay-corporate-guest-house',
   'sandane-homes-luxury-suites-greater-noida-ansal-golf-links',
   'amaaltash-hotel-near-surajpur-industrial-area-greater-noida',
   'the-glam-luxury-stay-near-noida-international-airport-corridor',
