@@ -5,6 +5,299 @@
 
 export const blogPosts = [
     {
+        slug: "sandane-homes-luxury-hotel-near-india-expo-mart-gate-1",
+        title: "Sandane Homes Luxury Hotel Near India Expo Mart Gate 1 & Gate 2 Greater Noida",
+        metaTitle: "Sandane Homes Luxury Hotel Near India Expo Mart Gate 1 & Gate 2",
+        metaDescription: "Book Sandane Homes Luxury Boutique Hotel 8 mins from India Expo Mart Gate 1 & Gate 2. 4.9★ rated executive suites, 300 Mbps WiFi & GST invoicing.",
+        subtitle: "Executive luxury suite accommodation 8 minutes from Gate 1 & Gate 2 of India Expo Centre & Mart, Greater Noida.",
+        category: "Hotel Stays",
+        date: "August 30, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book Sandane Homes Luxury Boutique Hotel 8 mins from India Expo Mart Gate 1 & Gate 2. 4.9★ rated executive suites, 300 Mbps WiFi & GST invoicing.",
+        content: [
+            { type: "paragraph", text: "When attending major international exhibitions at India Expo Centre & Mart, entering and exiting via Gate 1 and Gate 2 is where event-day traffic concentrates. <a href='/sandane-homes'>Sandane Homes The Luxury Boutique</a> (BB-28, Block B, Ansal Golf Link-1) is situated just 8 minutes drive from Gate 1 & Gate 2." },
+            { type: "heading", text: "Why Gate Proximity Matters for Corporate Delegations" },
+            { type: "list", items: [
+                "<strong>Direct Access to Venue Gates:</strong> Situated in Ansal Golf Link-1, allowing fast bypass of Knowledge Park congestion.",
+                "<strong>4.9★ Rating across 490+ Google Reviews:</strong> The highest-rated luxury stay in Greater Noida.",
+                "<strong>Executive Workspace & High-Speed WiFi:</strong> Dedicated desks, 300 Mbps internet, 24/7 room service, and in-house dining.",
+                "<strong>B2B Corporate Invoicing:</strong> GST-compliant single invoices for corporate trade fair teams."
+            ] },
+            { type: "quote", text: "Sandane Homes The Luxury Boutique | BB-28, Block B, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Flagship Luxury Accommodation" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Sandane Homes from Gate 1 of India Expo Mart?", answer: "Sandane Homes is located in Block B, Ansal Golf Link-1, exactly 8 minutes drive from Gate 1 & Gate 2 of India Expo Mart." }
+        ],
+        tags: ["India Expo Mart Gate 1", "Sandane Homes", "Hotels Near India Expo Mart", "Greater Noida Executive Hotels"]
+    },
+    {
+        slug: "amaaltash-hotel-near-knowledge-park-2-expo-mart-greater-noida",
+        title: "Amaaltash Hotel Near Knowledge Park 2 & India Expo Mart Greater Noida",
+        metaTitle: "Amaaltash Hotel Near Knowledge Park 2 & Expo Mart Greater Noida",
+        metaDescription: "Amaaltash by Sandane Homes — corporate hotel near Knowledge Park 2 Metro & India Expo Mart. Common kitchenette, clean rooms, GST billing.",
+        subtitle: "Serene corporate hotel accommodation 8 minutes from Knowledge Park 2 Metro and India Expo Centre & Mart.",
+        category: "Hotel Stays",
+        date: "August 29, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Amaaltash by Sandane Homes — corporate hotel near Knowledge Park 2 Metro & India Expo Mart. Common kitchenette, clean rooms, GST billing.",
+        content: [
+            { type: "paragraph", text: "<a href='/amaaltash'>Amaaltash by Sandane Homes</a> (AE-183, Block A, Ansal Golf Link-1) is located in the Knowledge Park 2 corridor, offering seamless access to Aqua Line metro connectivity and India Expo Centre & Mart." },
+            { type: "heading", text: "Key Features of Amaaltash" },
+            { type: "list", items: [
+                "<strong>Knowledge Park 2 Metro Proximity:</strong> Quick access to metro connectivity and industrial hubs.",
+                "<strong>Common Kitchenette & Modern Rooms:</strong> Tea/coffee makers, air conditioning, and daily housekeeping.",
+                "<strong>GST Corporate Billing:</strong> Direct corporate invoicing for trade delegations and visiting engineers."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Corporate Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is Amaaltash close to Knowledge Park 2 Metro Station?", answer: "Yes, Amaaltash is located in Ansal Golf Link-1, minutes from Knowledge Park 2 Metro Station and India Expo Mart." }
+        ],
+        tags: ["Knowledge Park 2 Hotels", "Amaaltash", "India Expo Mart Hotels", "Greater Noida Stays"]
+    },
+    {
+        slug: "the-glam-boutique-hotel-near-pari-chowk-expo-mart",
+        title: "The Glam Boutique Hotel Near Pari Chowk & India Expo Mart Greater Noida",
+        metaTitle: "The Glam Boutique Hotel Near Pari Chowk & Expo Mart Greater Noida",
+        metaDescription: "Stay at The Glam by Sandane Homes near Pari Chowk & India Expo Mart. 8.5/10 on Booking.com. Design-led luxury rooms for corporate travelers.",
+        subtitle: "Design-led luxury boutique hotel 8 minutes from Pari Chowk Metro and India Expo Centre & Mart.",
+        category: "Hotel Stays",
+        date: "August 28, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Stay at The Glam by Sandane Homes near Pari Chowk & India Expo Mart. 8.5/10 on Booking.com. Design-led luxury rooms for corporate travelers.",
+        content: [
+            { type: "paragraph", text: "<a href='/glam'>The Glam by Sandane Homes</a> (Plot No. AE-189, Block A, Ansal Golf Link-1) is the premier design-led boutique hotel choice near Pari Chowk Metro and India Expo Mart." },
+            { type: "heading", text: "Why Guests Choose The Glam" },
+            { type: "list", items: [
+                "<strong>8.5/10 Rating on Booking.com:</strong> Highly rated for location, cleanliness, and staff hospitality.",
+                "<strong>Pari Chowk Connectivity:</strong> Situated right off Pari Chowk, providing rapid access to Noida-Greater Noida Expressway.",
+                "<strong>Curated Interior Character:</strong> Stylish rooms, dedicated workspaces, balcony views, and daily housekeeping."
+            ] },
+            { type: "quote", text: "The Glam by Sandane Homes | AE-189, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Luxury Design Stay" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is The Glam from Pari Chowk Metro Station?", answer: "The Glam is located 5 minutes drive from Pari Chowk Metro Station in Ansal Golf Link-1." }
+        ],
+        tags: ["Pari Chowk Hotels", "The Glam", "Boutique Hotel Greater Noida", "India Expo Mart Hotels"]
+    },
+    {
+        slug: "amara-inn-corporate-hotel-extended-stay-expo-mart",
+        title: "Amara Inn Corporate Hotel & Extended Stays Near India Expo Mart",
+        metaTitle: "Amara Inn Corporate Hotel & Extended Stays Near India Expo Mart",
+        metaDescription: "Amara Inn by Sandane Homes — 4.8★ extended stay hotel near India Expo Mart & Pari Chowk. Daily housekeeping, spacious work desks & B2B GST bills.",
+        subtitle: "Multi-week extended stay corporate hotel 8 minutes from India Expo Centre & Mart and Pari Chowk.",
+        category: "Hotel Stays",
+        date: "August 27, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Amara Inn by Sandane Homes — 4.8★ extended stay hotel near India Expo Mart & Pari Chowk. Daily housekeeping, spacious work desks & B2B GST bills.",
+        content: [
+            { type: "paragraph", text: "<a href='/amara'>Amara Inn by Sandane Homes</a> (CE 318, Block C, Ansal Golf Link-1) is rated 4.8★ across 179 Google reviews and is specifically designed for multi-day corporate stays, visiting engineers, and extended trade fair visits." },
+            { type: "heading", text: "Extended Stay Features at Amara Inn" },
+            { type: "list", items: [
+                "<strong>4.8★ Google Review Consistency:</strong> Top-rated service, spotless rooms, and quiet environment.",
+                "<strong>Daily Housekeeping & Laundry:</strong> Fresh linens, daily room cleaning, and responsive maintenance.",
+                "<strong>Consolidated Corporate Billing:</strong> Unified GST invoicing for multi-week corporate stays."
+            ] },
+            { type: "quote", text: "Amara Inn by Sandane Homes | CE 318, Block C, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Extended Stay Corporate Hotel" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is Amara Inn configured for extended corporate stays?", answer: "Yes, Amara Inn specializes in multi-week stays with daily housekeeping, high-speed WiFi, and B2B GST billing." }
+        ],
+        tags: ["Extended Stay Greater Noida", "Amara Inn", "Corporate Housing", "India Expo Mart Hotels"]
+    },
+    {
+        slug: "coco-house-group-booking-hotel-single-gst-expo-mart",
+        title: "CoCo House Group Booking Hotel Near India Expo Mart (Single GST Billing)",
+        metaTitle: "CoCo House Group Booking Hotel Near India Expo Mart | Single GST Billing",
+        metaDescription: "CoCo House by Sandane Homes offers group booking rates & single consolidated B2B GST invoicing for trade fair teams near India Expo Mart.",
+        subtitle: "Dedicated group booking hotel 8 minutes from India Expo Centre & Mart with single consolidated B2B GST invoicing.",
+        category: "Hotel Stays",
+        date: "August 26, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "CoCo House by Sandane Homes offers group booking rates & single consolidated B2B GST invoicing for trade fair teams near India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "<a href='/coco-house'>CoCo House by Sandane Homes</a> (AE-186, Block A, Ansal Golf Link-1) is the leading group-booking property in Greater Noida, specifically configured to host full trade fair delegations under one roof." },
+            { type: "heading", text: "Why Exhibition Teams Choose CoCo House" },
+            { type: "list", items: [
+                "<strong>Single Consolidated GST Invoice:</strong> One corporate bill covering all room reservations.",
+                "<strong>Keep Your Entire Team Together:</strong> Eliminate multi-property check-in friction.",
+                "<strong>Flexible Check-In/Check-Out:</strong> Tailored timing for stall fabrication and setup teams."
+            ] },
+            { type: "quote", text: "CoCo House by Sandane Homes | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com", attribution: "— Group Booking Hotel Specialist" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can CoCo House provide single corporate GST billing for group bookings?", answer: "Yes, Sandane Homes issues consolidated B2B GST invoices for all rooms under a group booking." }
+        ],
+        tags: ["Group Booking Hotels", "CoCo House", "GST Billing Hotels", "India Expo Mart Hotels"]
+    },
+    {
+        slug: "hotels-near-ihgf-delhi-fair-2026-india-expo-mart",
+        title: "Hotels Near IHGF Delhi Fair 2026 at India Expo Centre & Mart Greater Noida",
+        metaTitle: "Hotels Near IHGF Delhi Fair 2026 Greater Noida | Sandane Homes",
+        metaDescription: "Attending IHGF Delhi Fair 2026 at India Expo Centre & Mart? Sandane Homes operates 6 luxury boutique hotels 8 mins from the venue. Book now.",
+        subtitle: "Boutique hotel accommodation for international buyers and exhibitors attending IHGF Delhi Fair 2026 at India Expo Mart.",
+        category: "Event Stays",
+        date: "August 25, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Attending IHGF Delhi Fair 2026 at India Expo Centre & Mart? Sandane Homes operates 6 luxury boutique hotels 8 mins from the venue. Book now.",
+        content: [
+            { type: "paragraph", text: "The IHGF Delhi Fair is one of the world's largest handicrafts and gifts trade fairs, bringing thousands of international buyers to India Expo Centre & Mart, Greater Noida. <a href='/#our-luxury-hotels'>Sandane Homes</a> operates 6 boutique hotels just 8 minutes from the fairgrounds." },
+            { type: "heading", text: "Why Stay with Sandane Homes for IHGF Delhi Fair 2026" },
+            { type: "list", items: [
+                "<strong>6 Boutique Hotels in Ansal Golf Link-1:</strong> Options ranging from executive suites to group-booking properties.",
+                "<strong>490+ Reviews at 4.9★:</strong> Top-rated service, clean rooms, daily housekeeping, and 24/7 room service.",
+                "<strong>Multi-Language Assistance:</strong> Support for international buyer delegations in English, Japanese, Korean, and Chinese."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | residencesbysandanehomes@gmail.com | sandanehomes.com", attribution: "— Official IHGF Delhi Fair Hotel Partner" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far are Sandane Homes hotels from IHGF Delhi Fair 2026?", answer: "All 6 Sandane Homes properties are located 8 minutes drive from India Expo Mart." }
+        ],
+        tags: ["IHGF Delhi Fair 2026", "Hotels Near India Expo Mart", "Handicrafts Fair Stays", "Sandane Homes"]
+    },
+    {
+        slug: "hotels-near-elecrama-2026-india-expo-mart-greater-noida",
+        title: "Hotels Near Elecrama 2026 at India Expo Centre & Mart Greater Noida",
+        metaTitle: "Hotels Near Elecrama 2026 Greater Noida | Sandane Homes",
+        metaDescription: "Exhibiting at Elecrama 2026 Greater Noida? Stay at Sandane Homes boutique hotels near India Expo Mart with corporate GST billing & fast commute.",
+        subtitle: "Official corporate hotel accommodation guide for exhibitors and visitors attending Elecrama 2026 at India Expo Mart.",
+        category: "Event Stays",
+        date: "August 24, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Exhibiting at Elecrama 2026 Greater Noida? Stay at Sandane Homes boutique hotels near India Expo Mart with corporate GST billing & fast commute.",
+        content: [
+            { type: "paragraph", text: "Elecrama is the flagship showcase of the Indian electrical and power sector at India Expo Centre & Mart, Greater Noida. <a href='/#our-luxury-hotels'>Sandane Homes</a> provides premium corporate stays 8 minutes from the venue." },
+            { type: "heading", text: "Elecrama 2026 Accommodation Highlights" },
+            { type: "list", items: [
+                "<strong>Fast 8-Minute Venue Commute:</strong> Located in quiet green Ansal Golf Link-1.",
+                "<strong>B2B Corporate Invoicing:</strong> Consolidated GST billing for engineering and technical teams.",
+                "<strong>Executive Work Desks & 300 Mbps WiFi:</strong> High-speed internet and quiet workspaces."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Elecrama 2026 Corporate Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can Sandane Homes accommodate large corporate teams for Elecrama 2026?", answer: "Yes, Sandane Homes operates 6 properties with capacity for full corporate delegations." }
+        ],
+        tags: ["Elecrama 2026", "Hotels Near India Expo Mart", "Electrical Expo Hotels", "Sandane Homes"]
+    },
+    {
+        slug: "hotels-near-renewable-energy-india-expo-rei-2026",
+        title: "Hotels Near Renewable Energy India Expo (REI 2026) Greater Noida",
+        metaTitle: "Hotels Near REI Expo 2026 Greater Noida | Sandane Homes",
+        metaDescription: "Official accommodation guide for Renewable Energy India Expo (REI 2026) at India Expo Mart. 6 Sandane Homes hotels with GST invoicing.",
+        subtitle: "Boutique corporate hotel accommodation for Renewable Energy India Expo (REI 2026) at India Expo Mart.",
+        category: "Event Stays",
+        date: "August 23, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Official accommodation guide for Renewable Energy India Expo (REI 2026) at India Expo Mart. 6 Sandane Homes hotels with GST invoicing.",
+        content: [
+            { type: "paragraph", text: "Renewable Energy India Expo (REI Expo 2026) gathers global clean-energy leaders at India Expo Centre & Mart, Greater Noida. <a href='/#our-luxury-hotels'>Sandane Homes</a> offers luxury serviced accommodation 8 minutes from the expo halls." },
+            { type: "heading", text: "REI Expo 2026 Hotel Services" },
+            { type: "list", items: [
+                "<strong>Proximity to Expo Mart:</strong> 8 minutes drive, avoiding major event traffic.",
+                "<strong>Clean Energy & Expat Friendly:</strong> Premium furnished rooms, daily housekeeping, and 24/7 room service.",
+                "<strong>GST Corporate Billing:</strong> Direct corporate invoicing."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— REI Expo 2026 Hospitality Partner" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How close are Sandane Homes hotels to REI Expo 2026?", answer: "All 6 Sandane Homes hotels are located 8 minutes drive from India Expo Mart." }
+        ],
+        tags: ["REI Expo 2026", "Renewable Energy India Expo", "India Expo Mart Hotels", "Sandane Homes"]
+    },
+    {
+        slug: "hotels-near-cphi-pmec-india-2026-greater-noida",
+        title: "Hotels Near CPHI & PMEC India 2026 at India Expo Mart Greater Noida",
+        metaTitle: "Hotels Near CPHI & PMEC India 2026 Greater Noida | Sandane Homes",
+        metaDescription: "Book hotels for CPHI & PMEC India 2026 at India Expo Mart. Sandane Homes offers executive stays 8 mins from venue for pharma delegations.",
+        subtitle: "Executive hotel accommodation for pharma and machinery delegations attending CPHI & PMEC India 2026 at India Expo Mart.",
+        category: "Event Stays",
+        date: "August 22, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Book hotels for CPHI & PMEC India 2026 at India Expo Mart. Sandane Homes offers executive stays 8 mins from venue for pharma delegations.",
+        content: [
+            { type: "paragraph", text: "CPHI & PMEC India is the South Asian pharmaceutical industry's flagship exhibition at India Expo Centre & Mart, Greater Noida. <a href='/#our-luxury-hotels'>Sandane Homes</a> provides executive accommodation tailored for international pharma delegations." },
+            { type: "heading", text: "CPHI & PMEC 2026 Stay Advantages" },
+            { type: "list", items: [
+                "<strong>Executive Suites & Serviced Rooms:</strong> Quiet workspaces, high-speed 300 Mbps WiFi, and daily housekeeping.",
+                "<strong>8 Minutes Commute:</strong> Fast access to CPHI exhibition halls.",
+                "<strong>Corporate GST Billing:</strong> Unified corporate invoices for pharma delegations."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— CPHI & PMEC 2026 Hospitality" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Where to stay for CPHI & PMEC India 2026 in Greater Noida?", answer: "Sandane Homes operates 6 luxury boutique hotels 8 minutes from India Expo Mart." }
+        ],
+        tags: ["CPHI PMEC India 2026", "Pharma Expo Hotels", "India Expo Mart Hotels", "Sandane Homes"]
+    },
+    {
+        slug: "hotels-5-minutes-from-india-expo-mart-greater-noida",
+        title: "Hotels Within 5 Minutes Drive of India Expo Mart & Centre Greater Noida",
+        metaTitle: "Hotels Within 5 Mins of India Expo Mart Greater Noida | Sandane Homes",
+        metaDescription: "Looking for hotels within 5 to 8 minutes drive of India Expo Mart Greater Noida? Sandane Homes operates 6 top-rated hotels in Ansal Golf Link-1.",
+        subtitle: "Complete guide to boutique hotels located within 5 to 8 minutes drive of India Expo Centre & Mart, Greater Noida.",
+        category: "Hotel Stays",
+        date: "August 21, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Looking for hotels within 5 to 8 minutes drive of India Expo Mart Greater Noida? Sandane Homes operates 6 top-rated hotels in Ansal Golf Link-1.",
+        content: [
+            { type: "paragraph", text: "Finding a hotel within genuine 5 to 8 minutes drive of India Expo Centre & Mart is critical during major trade shows. <a href='/#our-luxury-hotels'>Sandane Homes</a> operates 6 boutique properties in Ansal Golf Link-1, Greater Noida:" },
+            { type: "list", items: [
+                "<strong>Sandane Homes The Luxury Boutique:</strong> BB-28, Block B (4.9★ across 490+ Google reviews).",
+                "<strong>Amaaltash by Sandane Homes:</strong> AE-183, Block A.",
+                "<strong>The Glam by Sandane Homes:</strong> AE-189, Block A (8.5/10 on Booking.com).",
+                "<strong>Amara Inn by Sandane Homes:</strong> CE 318, Block C (4.8★ across 179 reviews).",
+                "<strong>CoCo House by Sandane Homes:</strong> AE-186, Block A (Group booking specialist).",
+                "<strong>Pine Tales by Sandane Homes:</strong> Ansal Golf Link-1."
+            ] },
+            { type: "quote", text: "Sandane Homes Group | +91 97117 22273 | sandanehomes.com", attribution: "— Greater Noida Premier Hotels" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Which hotels are closest to India Expo Mart Greater Noida?", answer: "Sandane Homes group operates 6 boutique hotels in Ansal Golf Link-1, just 5 to 8 minutes drive from India Expo Mart." }
+        ],
+        tags: ["Hotels Near India Expo Mart", "5 Minutes to Expo Mart", "Sandane Homes", "Greater Noida Hotels"]
+    },
+    {
         slug: "sandane-homes-luxury-hotel-near-ihe-2026-greater-noida",
         title: "Sandane Homes Luxury Hotel Near India International Hospitality Expo 2026 (IHE 2026)",
         metaTitle: "Sandane Homes Luxury Hotel Near IHE 2026 Greater Noida | Sandane Homes",

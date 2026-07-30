@@ -391,6 +391,16 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'sandane-homes-luxury-hotel-near-india-expo-mart-gate-1',
+  'amaaltash-hotel-near-knowledge-park-2-expo-mart-greater-noida',
+  'the-glam-boutique-hotel-near-pari-chowk-expo-mart',
+  'amara-inn-corporate-hotel-extended-stay-expo-mart',
+  'coco-house-group-booking-hotel-single-gst-expo-mart',
+  'hotels-near-ihgf-delhi-fair-2026-india-expo-mart',
+  'hotels-near-elecrama-2026-india-expo-mart-greater-noida',
+  'hotels-near-renewable-energy-india-expo-rei-2026',
+  'hotels-near-cphi-pmec-india-2026-greater-noida',
+  'hotels-5-minutes-from-india-expo-mart-greater-noida',
   'sandane-homes-luxury-hotel-near-ihe-2026-greater-noida',
   'amaaltash-hotel-near-ihe-2026-india-expo-mart-greater-noida',
   'the-glam-boutique-hotel-near-ihe-2026-greater-noida',

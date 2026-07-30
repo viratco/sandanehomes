@@ -37,6 +37,16 @@ const PROPERTY_REDIRECTS = {
     'the-glam-boutique-hotel-near-ihe-2026-greater-noida': '/glam',
     'amara-inn-hotel-near-ihe-2026-india-expo-mart-greater-noida': '/amara',
     'coco-house-hotel-near-ihe-2026-india-expo-mart-greater-noida': '/coco-house',
+    'sandane-homes-luxury-hotel-near-india-expo-mart-gate-1': '/sandane-homes',
+    'amaaltash-hotel-near-knowledge-park-2-expo-mart-greater-noida': '/amaaltash',
+    'the-glam-boutique-hotel-near-pari-chowk-expo-mart': '/glam',
+    'amara-inn-corporate-hotel-extended-stay-expo-mart': '/amara',
+    'coco-house-group-booking-hotel-single-gst-expo-mart': '/coco-house',
+    'hotels-near-ihgf-delhi-fair-2026-india-expo-mart': '/#our-luxury-hotels',
+    'hotels-near-elecrama-2026-india-expo-mart-greater-noida': '/#our-luxury-hotels',
+    'hotels-near-renewable-energy-india-expo-rei-2026': '/#our-luxury-hotels',
+    'hotels-near-cphi-pmec-india-2026-greater-noida': '/#our-luxury-hotels',
+    'hotels-5-minutes-from-india-expo-mart-greater-noida': '/#our-luxury-hotels',
 };
 
 const BlogPost = () => {
