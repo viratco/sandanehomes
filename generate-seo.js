@@ -391,6 +391,7 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'amaaltash-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida',
   'the-glam-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida',
   'residences-by-sandane-homes-luxury-serviced-apartments-greater-noida',
   'residences-by-sandane-homes-expat-housing-ansal-golf-links-greater-noida',

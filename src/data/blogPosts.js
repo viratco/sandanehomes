@@ -5,6 +5,35 @@
 
 export const blogPosts = [
     {
+        slug: "amaaltash-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida",
+        title: "Amaaltash / Sandane Homes Boutique Hotel Ansal Golf Links-1 Greater Noida",
+        metaTitle: "Amaaltash / Sandane Homes Boutique Hotel Ansal Golf Links-1",
+        metaDescription: "Book Amaaltash / Sandane Homes — executive boutique hotel at AE-183, Ansal Golf Link-1, Greater Noida. 4.8★ on Google. Near India Expo Mart, Pari Chowk & Surajpur.",
+        subtitle: "Executive corporate hotel stay at Plot No. AE-183, Block A, Ansal Golf Link-1, Greater Noida.",
+        category: "Hotel Stays",
+        date: "October 12, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Book Amaaltash / Sandane Homes — executive boutique hotel at AE-183, Ansal Golf Link-1, Greater Noida. 4.8★ on Google. Near India Expo Mart, Pari Chowk & Surajpur.",
+        content: [
+            { type: "paragraph", text: "<a href='/amaaltash'>Amaaltash / Sandane Homes</a> (Plot No. AE-183, Block A, Ansal Golf Link-1) is a premier executive boutique hotel in Greater Noida, carrying an outstanding 4.8★ Google rating." },
+            { type: "heading", text: "Why Choose Amaaltash / Sandane Homes" },
+            { type: "list", items: [
+                "<strong>Corporate Executive Focus:</strong> Spacious guest rooms with dedicated workstations and peaceful garden surrounds.",
+                "<strong>Shared Kitchenette & Dining:</strong> Access to microwave, refrigerator, and water dispenser facilities for extended stays.",
+                "<strong>Industrial & Expo Access:</strong> Minutes from Surajpur Industrial Area, India Expo Mart, and Pari Chowk Metro Station."
+            ] },
+            { type: "quote", text: "Amaaltash / Sandane Homes | AE-183, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Flagship Executive Guest House" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Where is Amaaltash / Sandane Homes located?", answer: "Amaaltash is located at Plot No. AE-183, Block A, Ansal Golf Link-1, Greater Noida, just 8 minutes from India Expo Mart." }
+        ],
+        tags: ["Amaaltash", "Sandane Homes", "Executive Hotel Greater Noida", "Surajpur Corporate Stay"]
+    },
+    {
         slug: "the-glam-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida",
         title: "The Glam / Sandane Homes Boutique Hotel Ansal Golf Links-1 Greater Noida",
         metaTitle: "The Glam / Sandane Homes Boutique Hotel Ansal Golf Links-1",
