@@ -391,6 +391,11 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'residences-by-sandane-homes-luxury-serviced-apartments-greater-noida',
+  'residences-by-sandane-homes-expat-housing-ansal-golf-links-greater-noida',
+  'residences-by-sandane-homes-corporate-serviced-apartments-long-stay',
+  'residences-by-sandane-homes-furnished-2bhk-3bhk-apartments-near-pari-chowk',
+  'residences-by-sandane-homes-relocation-housing-surajpur-yamuna-expressway',
   'coco-house-sandane-homes-boutique-hotel-near-india-expo-mart',
   'coco-house-sandane-homes-group-accommodation-for-trade-exhibitors',
   'coco-house-sandane-homes-hotel-near-pari-chowk-greater-noida',

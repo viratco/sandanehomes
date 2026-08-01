@@ -62,6 +62,11 @@ const PROPERTY_REDIRECTS = {
     'coco-house-sandane-homes-hotel-near-pari-chowk-greater-noida': '/coco-house',
     'coco-house-sandane-homes-budget-luxury-hotel-knowledge-park': '/coco-house',
     'coco-house-sandane-homes-long-stay-corporate-guest-house': '/coco-house',
+    'residences-by-sandane-homes-luxury-serviced-apartments-greater-noida': '/residences',
+    'residences-by-sandane-homes-expat-housing-ansal-golf-links-greater-noida': '/residences',
+    'residences-by-sandane-homes-corporate-serviced-apartments-long-stay': '/residences',
+    'residences-by-sandane-homes-furnished-2bhk-3bhk-apartments-near-pari-chowk': '/residences',
+    'residences-by-sandane-homes-relocation-housing-surajpur-yamuna-expressway': '/residences',
 };
 
 const BlogPost = () => {

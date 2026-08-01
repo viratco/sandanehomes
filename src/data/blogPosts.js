@@ -5,6 +5,151 @@
 
 export const blogPosts = [
     {
+        slug: "residences-by-sandane-homes-luxury-serviced-apartments-greater-noida",
+        title: "Residences by Sandane Homes Luxury Serviced Apartments Greater Noida",
+        metaTitle: "Residences by Sandane Homes Luxury Serviced Apartments Greater Noida",
+        metaDescription: "Book Residences by Sandane Homes — luxury 2 & 3 BHK serviced apartments in Ansal Golf Links-1 Greater Noida. Fully furnished, daily housekeeping & expat amenities.",
+        subtitle: "Fully furnished 2 & 3 BHK luxury serviced apartment living in Ansal Golf Links-1, Greater Noida.",
+        category: "Expat Housing",
+        date: "October 5, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book Residences by Sandane Homes — luxury 2 & 3 BHK serviced apartments in Ansal Golf Links-1 Greater Noida. Fully furnished, daily housekeeping & expat amenities.",
+        content: [
+            { type: "paragraph", text: "<a href='/residences'>Residences by Sandane Homes</a> provides luxury 2 & 3 BHK fully serviced apartments in the prestigious gated community of Ansal Golf Links-1, Greater Noida." },
+            { type: "heading", text: "Why Choose Residences by Sandane Homes" },
+            { type: "list", items: [
+                "<strong>Move-in Ready Luxury:</strong> Fully furnished living rooms, master bedrooms, equipped kitchens, and private balconies.",
+                "<strong>All-Inclusive Serviced Living:</strong> Daily housekeeping, 300 Mbps high-speed WiFi, 100% power backup, and 24/7 security.",
+                "<strong>Prime Location:</strong> Minutes from Pari Chowk, India Expo Mart, and Noida-Greater Noida Expressway."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Flagship Luxury Serviced Apartments" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What is included in Residences by Sandane Homes serviced apartments?", answer: "All units include complete furniture, equipped kitchen, daily housekeeping, 300 Mbps WiFi, power backup, and corporate GST billing." }
+        ],
+        tags: ["Residences by Sandane Homes", "Serviced Apartments Greater Noida", "Expat Housing", "Luxury 2BHK 3BHK"]
+    },
+    {
+        slug: "residences-by-sandane-homes-expat-housing-ansal-golf-links-greater-noida",
+        title: "Residences by Sandane Homes Expat Housing Ansal Golf Links-1 Greater Noida",
+        metaTitle: "Residences by Sandane Homes Expat Housing Ansal Golf Links-1",
+        metaDescription: "Premier Korean & Japanese expat housing at Residences by Sandane Homes in Ansal Golf Links-1. 24/7 security, international TV channels & full kitchen setup.",
+        subtitle: "Dedicated Korean & Japanese expat community housing in gated Ansal Golf Links-1, Greater Noida.",
+        category: "Expat Housing",
+        date: "October 4, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Premier Korean & Japanese expat housing at Residences by Sandane Homes in Ansal Golf Links-1. 24/7 security, international TV channels & full kitchen setup.",
+        content: [
+            { type: "paragraph", text: "<a href='/residences'>Residences by Sandane Homes</a> is the preferred residential housing provider for Japanese, Korean, and international corporate expatriates living in Greater Noida." },
+            { type: "heading", text: "Expat Community Advantages" },
+            { type: "list", items: [
+                "<strong>Expat-Tailored Services:</strong> International TV broadcasting, Korean/Japanese breakfast assistance, and multi-lingual staff support.",
+                "<strong>FRRO & Address Verification Support:</strong> Full documentation assistance for corporate expat registrations.",
+                "<strong>Gated 3-Tier Security:</strong> Peaceful green surrounds in Ansal Golf Link-1 with 24/7 perimeter guarding."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Premier Expat Housing Provider" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Does Residences by Sandane Homes provide FRRO registration support for expats?", answer: "Yes, Sandane Homes provides full lease agreements and FRRO address verification documents." }
+        ],
+        tags: ["Residences by Sandane Homes", "Expat Housing Greater Noida", "Korean Housing Noida", "Japanese Expat Stay"]
+    },
+    {
+        slug: "residences-by-sandane-homes-corporate-serviced-apartments-long-stay",
+        title: "Residences by Sandane Homes Corporate Serviced Apartments Long Stay",
+        metaTitle: "Residences by Sandane Homes Corporate Serviced Apartments Long Stay",
+        metaDescription: "Long stay corporate serviced apartments in Greater Noida by Residences by Sandane Homes. High-speed 300 Mbps WiFi, daily housekeeping & single B2B GST bill.",
+        subtitle: "Multi-month corporate serviced apartment rentals with all utilities, WiFi, and daily housekeeping included.",
+        category: "Expat Housing",
+        date: "October 3, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Long stay corporate serviced apartments in Greater Noida by Residences by Sandane Homes. High-speed 300 Mbps WiFi, daily housekeeping & single B2B GST bill.",
+        content: [
+            { type: "paragraph", text: "For multinational corporations placing project teams in Greater Noida for 1 to 12 months, <a href='/residences'>Residences by Sandane Homes</a> delivers cost-effective, fully managed corporate apartments." },
+            { type: "heading", text: "Corporate Long-Stay Features" },
+            { type: "list", items: [
+                "<strong>Zero Capital Outlay:</strong> Fully equipped apartments with refrigerator, washing machine, microwave, and cooking utensils.",
+                "<strong>Unified B2B GST Billing:</strong> Monthly corporate invoicing covering rent, maintenance, WiFi, and utilities.",
+                "<strong>Dedicated Account Management:</strong> Single point of contact for corporate HR & travel desks."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Corporate Accommodation Partner" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What is the minimum stay for corporate long-stay apartments?", answer: "Residences by Sandane Homes caters to corporate stays ranging from 1 week up to several months." }
+        ],
+        tags: ["Residences by Sandane Homes", "Corporate Long Stay", "Serviced Apartments", "B2B Corporate Invoicing"]
+    },
+    {
+        slug: "residences-by-sandane-homes-furnished-2bhk-3bhk-apartments-near-pari-chowk",
+        title: "Residences by Sandane Homes Furnished 2 BHK & 3 BHK Apartments Near Pari Chowk",
+        metaTitle: "Residences by Sandane Homes Furnished 2 & 3 BHK Near Pari Chowk",
+        metaDescription: "Fully furnished 2 BHK & 3 BHK luxury apartments near Pari Chowk & India Expo Mart by Residences by Sandane Homes. Kitchenette, balcony & 24/7 room service.",
+        subtitle: "Spacious fully equipped 2 BHK & 3 BHK apartments minutes from Pari Chowk Metro Station.",
+        category: "Expat Housing",
+        date: "October 2, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Fully furnished 2 BHK & 3 BHK luxury apartments near Pari Chowk & India Expo Mart by Residences by Sandane Homes. Kitchenette, balcony & 24/7 room service.",
+        content: [
+            { type: "paragraph", text: "<a href='/residences'>Residences by Sandane Homes</a> offers spacious 2 BHK and 3 BHK luxury furnished apartments located just 5 minutes from Pari Chowk Metro Station." },
+            { type: "heading", text: "Apartment Specifications" },
+            { type: "list", items: [
+                "<strong>2 BHK Suites (1200+ sq ft):</strong> Twin bedrooms with ensuite bathrooms, living room, dining area, and full kitchen.",
+                "<strong>3 BHK Executive Residences (1600+ sq ft):</strong> Ideal for executive families and senior management delegations.",
+                "<strong>High-Speed Connectivity:</strong> 300 Mbps fiber WiFi and smart entertainment systems."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Luxury 2BHK & 3BHK Residences" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Are 2 BHK and 3 BHK apartments fully furnished?", answer: "Yes, all Residences by Sandane Homes units come 100% furnished with appliances and kitchen equipment." }
+        ],
+        tags: ["Residences by Sandane Homes", "2BHK Apartments Greater Noida", "3BHK Serviced Apartments", "Pari Chowk"]
+    },
+    {
+        slug: "residences-by-sandane-homes-relocation-housing-surajpur-yamuna-expressway",
+        title: "Residences by Sandane Homes Relocation Housing Surajpur & Yamuna Expressway",
+        metaTitle: "Residences by Sandane Homes Relocation Housing Greater Noida",
+        metaDescription: "Seamless relocation housing for executive expats & corporate families near Surajpur & Yamuna Expressway by Residences by Sandane Homes.",
+        subtitle: "Hassle-free corporate relocation housing for international families in Greater Noida.",
+        category: "Expat Housing",
+        date: "October 1, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Seamless relocation housing for executive expats & corporate families near Surajpur & Yamuna Expressway by Residences by Sandane Homes.",
+        content: [
+            { type: "paragraph", text: "Relocating to Greater Noida for assignments in Surajpur Industrial Hub or Yamuna Expressway industrial zones is seamless with <a href='/residences'>Residences by Sandane Homes</a>." },
+            { type: "heading", text: "Relocation Package Benefits" },
+            { type: "list", items: [
+                "<strong>Turnkey Immediate Check-in:</strong> Arrive with personal luggage; everything else is ready.",
+                "<strong>Industrial Hub Access:</strong> Fast 10-minute commute to Surajpur, Yamuna Expressway, and Knowledge Park.",
+                "<strong>Family-Friendly Environment:</strong> Gated community, manicured parks, and top international school connectivity."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Turnkey Relocation Housing" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How fast can an expat family check into Residences by Sandane Homes?", answer: "Apartments are fully prepared for instant turnkey check-in upon lease signing." }
+        ],
+        tags: ["Residences by Sandane Homes", "Relocation Housing Greater Noida", "Surajpur Housing", "Yamuna Expressway"]
+    },
+    {
         slug: "coco-house-sandane-homes-boutique-hotel-near-india-expo-mart",
         title: "CoCo House / Sandane Homes Boutique Hotel Near India Expo Mart Greater Noida",
         metaTitle: "CoCo House / Sandane Homes Boutique Hotel Near India Expo Mart",
