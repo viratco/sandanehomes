@@ -5,6 +5,35 @@
 
 export const blogPosts = [
     {
+        slug: "the-glam-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida",
+        title: "The Glam / Sandane Homes Boutique Hotel Ansal Golf Links-1 Greater Noida",
+        metaTitle: "The Glam / Sandane Homes Boutique Hotel Ansal Golf Links-1",
+        metaDescription: "Book The Glam / Sandane Homes — design-led boutique hotel in Ansal Golf Link-1, Greater Noida. 8.5/10 on Booking.com. Near India Expo Mart, Pari Chowk & Knowledge Park.",
+        subtitle: "Design-led boutique hotel stay at Plot No. AE-189, Ansal Golf Link-1, Greater Noida.",
+        category: "Hotel Stays",
+        date: "October 10, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book The Glam / Sandane Homes — design-led boutique hotel in Ansal Golf Link-1, Greater Noida. 8.5/10 on Booking.com. Near India Expo Mart, Pari Chowk & Knowledge Park.",
+        content: [
+            { type: "paragraph", text: "<a href='/glam'>The Glam / Sandane Homes</a> (Plot No. AE-189, Block A, Ansal Golf Link-1) is a signature design-led boutique hotel in Greater Noida, holding an impressive 8.5/10 rating on Booking.com." },
+            { type: "heading", text: "Why Choose The Glam / Sandane Homes" },
+            { type: "list", items: [
+                "<strong>Design-Led Aesthetic:</strong> Meticulously curated interiors with premium furnishings and tranquil garden views.",
+                "<strong>Prime Connectivity:</strong> Located minutes from India Expo Centre & Mart, Pari Chowk Metro, and Knowledge Park.",
+                "<strong>All-Inclusive Hospitality:</strong> High-speed 300 Mbps WiFi, 100% power backup, daily housekeeping & single B2B GST invoicing."
+            ] },
+            { type: "quote", text: "The Glam / Sandane Homes | AE-189, Ansal Golf Link-1, Greater Noida | +91 97117 22273 / +91 96547 07779 | sandanehomes.com/glam", attribution: "— Flagship Boutique Hotel" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Where is The Glam / Sandane Homes located?", answer: "The Glam is located at Plot No. AE-189, Block A, Ansal Golf Link-1, Greater Noida, minutes from India Expo Mart and Pari Chowk." }
+        ],
+        tags: ["The Glam", "Sandane Homes", "Boutique Hotel Greater Noida", "India Expo Mart Hotel"]
+    },
+    {
         slug: "residences-by-sandane-homes-luxury-serviced-apartments-greater-noida",
         title: "Residences by Sandane Homes Luxury Serviced Apartments Greater Noida",
         metaTitle: "Residences by Sandane Homes Luxury Serviced Apartments Greater Noida",

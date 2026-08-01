@@ -67,6 +67,7 @@ const PROPERTY_REDIRECTS = {
     'residences-by-sandane-homes-corporate-serviced-apartments-long-stay': '/residences',
     'residences-by-sandane-homes-furnished-2bhk-3bhk-apartments-near-pari-chowk': '/residences',
     'residences-by-sandane-homes-relocation-housing-surajpur-yamuna-expressway': '/residences',
+    'the-glam-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida': '/glam',
 };
 
 const BlogPost = () => {
