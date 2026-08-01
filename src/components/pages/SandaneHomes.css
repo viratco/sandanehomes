@@ -600,6 +600,17 @@
     background-position: center;
 }
 
+.residences-clickable-photo {
+    cursor: pointer !important;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.3s ease;
+}
+
+.residences-clickable-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 14px 35px rgba(26, 60, 52, 0.22);
+    filter: brightness(1.03);
+}
+
 .catarina-facilities-section {
     background-color: #F9F9F9;
     padding: 80px 5%;

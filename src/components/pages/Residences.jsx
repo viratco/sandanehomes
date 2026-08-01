@@ -18,19 +18,23 @@ import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft } from 'react-icons/fa6';
 
 const Residences = () => {
+    const scrollToFooterInquiry = () => {
+        const element = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+            element.classList.remove('highlight-section');
+            void element.offsetWidth;
+            element.classList.add('highlight-section');
+            setTimeout(() => {
+                element.classList.remove('highlight-section');
+            }, 2600);
+        }
+    };
+
     useEffect(() => {
         if (window.location.hash === '#contact-section' || window.location.hash === '#footer-contact-section') {
             setTimeout(() => {
-                const element = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
-                if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                    element.classList.remove('highlight-section');
-                    void element.offsetWidth;
-                    element.classList.add('highlight-section');
-                    setTimeout(() => {
-                        element.classList.remove('highlight-section');
-                    }, 2600);
-                }
+                scrollToFooterInquiry();
             }, 300);
         }
     }, []);
@@ -125,7 +129,7 @@ const Residences = () => {
 
                 {/* Left Column (Image + Text) */}
                 <div className="editorial-left-col">
-                    <img src={imgLivingRoom} alt="Residences Detail" />
+                    <img src={imgLivingRoom} alt="Residences Detail" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
                     
                     {/* Text block pulled up to overlap the image */}
                     <div className="editorial-left-text">
@@ -145,7 +149,7 @@ const Residences = () => {
 
                 {/* Center Column (Large Image) */}
                 <div className="editorial-center-col">
-                    <img src={imgRecreation} alt="Main View" />
+                    <img src={imgRecreation} alt="Main View" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
                 </div>
 
                 {/* Right Column (Text + Image) */}
@@ -157,7 +161,7 @@ const Residences = () => {
                         <p className="editorial-right-text">
                             A philosophy of nurture via absolute comfort and a spirit of collaboration are tangibly felt at Sandane Residences, where our team works together to bring the best hospitality to the table.
                         </p>
-                        <img src={imgTopRight} alt="Architecture View" className="editorial-right-img" />
+                        <img src={imgTopRight} alt="Architecture View" className="editorial-right-img residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
                     </div>
                 </div>
             </div>
@@ -298,12 +302,12 @@ const Residences = () => {
             {/* Image Gallery (Mimicking flyer grid) */}
             <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
                 <div className="catarina-gallery-grid">
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgTopLeft})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgRecreation})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgTopRight})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgNew3})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgBottomMiddle})` }}></div>
-                    <div className="catarina-gallery-item" style={{ backgroundImage: `url(${imgNew5})` }}></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopLeft})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgRecreation})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopRight})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgNew3})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgBottomMiddle})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgNew5})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                 </div>
             </div>
 
@@ -319,6 +323,9 @@ const Residences = () => {
                         <img 
                             src={imgAbstractInterior} 
                             alt="Bespoke Relocation Interior Detail" 
+                            className="residences-clickable-photo"
+                            onClick={scrollToFooterInquiry}
+                            title="Click to send an inquiry"
                         />
                         {/* Decorative Gold Frame Offset */}
                         <div style={{
@@ -552,16 +559,21 @@ const Residences = () => {
                         gap: '20px'
                     }}>
                         {/* Square Image Box */}
-                        <div style={{
-                            width: '100%',
-                            aspectRatio: '1/1',
-                            backgroundColor: '#e0e0e0',
-                            backgroundImage: `url(${imgFleetService})`, // Fleet Service Image
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            borderRadius: '0px',
-                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                        }}></div>
+                        <div 
+                            className="residences-clickable-photo"
+                            onClick={scrollToFooterInquiry}
+                            title="Click to send an inquiry"
+                            style={{
+                                width: '100%',
+                                aspectRatio: '1/1',
+                                backgroundColor: '#e0e0e0',
+                                backgroundImage: `url(${imgFleetService})`, // Fleet Service Image
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                                borderRadius: '0px',
+                                boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                            }}
+                        ></div>
                         
                         {/* Text Content Below */}
                         <div>
@@ -583,16 +595,21 @@ const Residences = () => {
                         gap: '20px'
                     }}>
                         {/* Square Image Box */}
-                        <div style={{
-                            width: '100%',
-                            aspectRatio: '1/1',
-                            backgroundColor: '#e0e0e0',
-                            backgroundImage: `url(${imgKoreanBreakfast})`, // Korean Breakfast Image
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            borderRadius: '0px',
-                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                        }}></div>
+                        <div 
+                            className="residences-clickable-photo"
+                            onClick={scrollToFooterInquiry}
+                            title="Click to send an inquiry"
+                            style={{
+                                width: '100%',
+                                aspectRatio: '1/1',
+                                backgroundColor: '#e0e0e0',
+                                backgroundImage: `url(${imgKoreanBreakfast})`, // Korean Breakfast Image
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                                borderRadius: '0px',
+                                boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                            }}
+                        ></div>
                         
                         {/* Text Content Below */}
                         <div>
@@ -614,16 +631,21 @@ const Residences = () => {
                         gap: '20px'
                     }}>
                         {/* Square Image Box */}
-                        <div style={{
-                            width: '100%',
-                            aspectRatio: '1/1',
-                            backgroundColor: '#e0e0e0',
-                            backgroundImage: `url(${imgNew3})`, // Placeholder image
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            borderRadius: '0px',
-                            boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                        }}></div>
+                        <div 
+                            className="residences-clickable-photo"
+                            onClick={scrollToFooterInquiry}
+                            title="Click to send an inquiry"
+                            style={{
+                                width: '100%',
+                                aspectRatio: '1/1',
+                                backgroundColor: '#e0e0e0',
+                                backgroundImage: `url(${imgNew3})`, // Placeholder image
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                                borderRadius: '0px',
+                                boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
+                            }}
+                        ></div>
                         
                         {/* Text Content Below */}
                         <div>
