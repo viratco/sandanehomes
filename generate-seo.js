@@ -400,6 +400,10 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'coco-house-auto-guide-119507',
+  'amaaltash-by-sandane-homes-auto-guide-119507',
+  'the-glam-by-sandane-homes-auto-guide-119507',
+  'residences-by-sandane-homes-auto-guide-119507',
   'the-glam-by-sandane-homes-luxury-boutique-stay-ansal-golf-links',
   'amara-inn-by-sandane-homes-corporate-extended-stay-hotel-greater-noida',
   'saffron-inn-by-sandane-homes-peaceful-hotel-near-india-expo-mart',
