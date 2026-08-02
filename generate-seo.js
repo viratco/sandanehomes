@@ -400,6 +400,11 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'the-glam-by-sandane-homes-luxury-boutique-stay-ansal-golf-links',
+  'amara-inn-by-sandane-homes-corporate-extended-stay-hotel-greater-noida',
+  'saffron-inn-by-sandane-homes-peaceful-hotel-near-india-expo-mart',
+  'pine-tales-by-sandane-homes-cozy-boutique-stay-greater-noida',
+  'sandane-homes-complete-hotel-portfolio-guide-greater-noida',
   'coco-house-hotel-near-auto-expo-2026-greater-noida',
   'coco-house-corporate-hotel-stay-knowledge-park-greater-noida',
   'coco-house-vs-5-star-hotels-india-expo-mart-stay',
