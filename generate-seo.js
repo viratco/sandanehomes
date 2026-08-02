@@ -400,6 +400,11 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'coco-house-hotel-near-auto-expo-2026-greater-noida',
+  'coco-house-corporate-hotel-stay-knowledge-park-greater-noida',
+  'coco-house-vs-5-star-hotels-india-expo-mart-stay',
+  'coco-house-early-check-in-late-check-out-expo-mart-exhibitors',
+  'coco-house-long-stay-hotel-rooms-surajpur-industrial-area',
   'residences-by-sandane-homes-luxury-3bhk-family-serviced-apartments-greater-noida',
   'residences-by-sandane-homes-relocation-guide-corporate-expats-noida',
   'coco-house-boutique-stay-creative-agencies-media-crews-expo-mart',
