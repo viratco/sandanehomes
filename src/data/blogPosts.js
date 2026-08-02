@@ -5,6 +5,163 @@
 
 export const blogPosts = [
     {
+        slug: "amaaltash-by-sandane-homes-ihe-2026-exhibitor-hotel-booking-guide",
+        title: "Amaaltash by Sandane Homes: Complete Exhibitor Hotel Booking Guide for IHE 2026 India Expo Mart",
+        metaTitle: "Amaaltash by Sandane Homes IHE 2026 Exhibitor Hotel Booking Guide",
+        metaDescription: "Official exhibitor stay guide for IHE 2026 (India International Hospitality Expo). Book Amaaltash by Sandane Homes in Ansal Golf Links-1. 8 mins to Expo Mart, GST invoicing & team room blocks.",
+        subtitle: "The ultimate accommodation guide for kitchen equipment manufacturers, F&B suppliers, hotel tech vendors, and trade exhibitors attending IHE 2026 at India Expo Mart.",
+        category: "Event Stays",
+        date: "October 26, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Official exhibitor stay guide for IHE 2026 (India International Hospitality Expo). Book Amaaltash by Sandane Homes in Ansal Golf Links-1. 8 mins to Expo Mart, GST invoicing & team room blocks.",
+        content: [
+            { type: "paragraph", text: "The <strong>India International Hospitality Expo (IHE 2026)</strong> at <strong>India Expo Centre & Mart, Greater Noida</strong> is the premier sourcing hub for the global hospitality, catering, and food service industries. Hosting thousands of hoteliers, chefs, restaurant owners, and international exhibitors, securing corporate hotel accommodation near the venue is crucial for booth operational efficiency." },
+            { type: "heading", text: "Why IHE 2026 Exhibitors Choose Amaaltash by Sandane Homes" },
+            { type: "paragraph", text: "<a href='/amaaltash'>Amaaltash by Sandane Homes</a> (Plot No. AE-183, Block A, Ansal Golf Link-1) is rated <strong>4.8★ on Google</strong> and provides executive guest rooms tailored specifically for exhibition teams and corporate directors." },
+            { type: "list", items: [
+                "<strong>8 Minutes to Expo Mart Gates:</strong> Bypasses main arterial traffic jams via signal-free routes through Ansal Golf Links-1.",
+                "<strong>Synchronized Team Inventory:</strong> Host your entire 5 to 15-person booth crew under one roof in serene boutique surroundings.",
+                "<strong>Consolidated GST Billing:</strong> Itemized corporate invoices covering room nights, shuttles, and meal services for easy tax filing.",
+                "<strong>300 Mbps Fiber WiFi:</strong> Dedicated high-speed internet in every room for rapid lead sync, media uploads, and remote work."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Preferred IHE 2026 Exhibitor Hotel" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Amaaltash by Sandane Homes from India Expo Mart during IHE 2026?", answer: "Amaaltash by Sandane Homes is located in Block A, Ansal Golf Link-1, exactly 8 minutes drive from India Expo Mart exhibition halls." },
+            { question: "Can corporate exhibitors book room blocks for IHE 2026?", answer: "Yes, Amaaltash by Sandane Homes offers dedicated corporate inventory blocks with single master GST invoicing for company delegations." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "IHE 2026", "India Expo Mart Hotels", "Hospitality Expo Accommodations"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-group-stay-hospitality-delegates-ihe-expo-mart",
+        title: "Group Hotel Stays for Hospitality Delegates at IHE 2026: Amaaltash by Sandane Homes",
+        metaTitle: "Group Hotel Stays IHE 2026 Hospitality Delegates | Amaaltash by Sandane Homes",
+        metaDescription: "Reserve corporate group hotel blocks for IHE 2026 hospitality delegations at Amaaltash by Sandane Homes. Dedicated floors, single GST invoice, 300 Mbps WiFi & express Expo Mart shuttle.",
+        subtitle: "Seamless group accommodation for hotel chains, culinary associations, F&B delegations, and international buyers attending IHE 2026.",
+        category: "Event Stays",
+        date: "October 25, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Reserve corporate group hotel blocks for IHE 2026 hospitality delegations at Amaaltash by Sandane Homes. Dedicated floors, single GST invoice, 300 Mbps WiFi & express Expo Mart shuttle.",
+        content: [
+            { type: "paragraph", text: "Managing travel logistics for a 10 to 20-person corporate delegation during <strong>IHE 2026 (India International Hospitality Expo)</strong> requires a hotel partner that understands corporate compliance, group coordination, and tight exhibition schedules." },
+            { type: "heading", text: "Streamlined Group Logistics at Amaaltash by Sandane Homes" },
+            { type: "paragraph", text: "At <a href='/amaaltash'>Amaaltash by Sandane Homes</a>, corporate travel managers enjoy dedicated group booking perks:" },
+            { type: "list", items: [
+                "<strong>Dedicated Floor Inventory:</strong> Keep your sales teams, technical staff, and executive directors together in adjacent rooms.",
+                "<strong>Flexible Express Breakfast:</strong> Early morning hot breakfast spreads starting at 7:00 AM tailored to booth opening hours.",
+                "<strong>Private Fleet Shuttles:</strong> Dedicated chauffeured vans arranged for group transfers to India Expo Mart Hall 1-14 gates.",
+                "<strong>Single Master Billing:</strong> Unified corporate invoicing with GST tax credits for Indian subsidiaries and overseas firms."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Delegation Hospitality Partner" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can Amaaltash by Sandane Homes accommodate group bookings of 10 to 20 guests for IHE 2026?", answer: "Yes, we specialize in corporate delegation group blocks with single point account management and master GST invoicing." },
+            { question: "Are early breakfasts provided for exhibition booth staff?", answer: "Yes, express hot breakfasts and packed meal boxes can be arranged for early departures." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "IHE 2026 Group Stays", "Hospitality Expo Hotel Blocks", "India Expo Mart"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-executive-hotel-rooms-kitchenette-ihe-2026",
+        title: "Executive Rooms with Shared Kitchenette for IHE 2026 Visitors: Amaaltash by Sandane Homes",
+        metaTitle: "Executive Rooms with Kitchenette for IHE 2026 | Amaaltash by Sandane Homes",
+        metaDescription: "Stay at Amaaltash by Sandane Homes during IHE 2026. Executive rooms with work desks, shared kitchenette, 24/7 housekeeping & 8-minute commute to India Expo Mart.",
+        subtitle: "High-comfort executive stays featuring shared kitchenette access, workstation setups, and peaceful garden surroundings for IHE 2026 delegates.",
+        category: "Event Stays",
+        date: "October 24, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Stay at Amaaltash by Sandane Homes during IHE 2026. Executive rooms with work desks, shared kitchenette, 24/7 housekeeping & 8-minute commute to India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "Visiting <strong>IHE 2026 at India Expo Mart</strong> as a culinary consultant, executive chef, or hotel equipment buyer? <a href='/amaaltash'>Amaaltash by Sandane Homes</a> blends executive hotel comfort with home-like convenience." },
+            { type: "heading", text: "Unique In-Room & Shared Amenities" },
+            { type: "list", items: [
+                "<strong>Shared Kitchenette & Dining:</strong> Microwave, refrigerator, RO water dispenser, and tea/coffee facilities — perfect for late-night snacks or preparing light meals.",
+                "<strong>Executive Workstation:</strong> Dedicated study desk, multi-plug charging hub, and ergonomic seating for evening report filing.",
+                "<strong>Tranquil Enclave:</strong> Set in quiet Ansal Golf Links-1 away from congested highway noise, guaranteeing rest after long expo days.",
+                "<strong>Daily Housekeeping:</strong> Professional 7-day room service, crisp linen, and modern ensuite shower bathrooms."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Executive Guest House Experience" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What kitchenette facilities are available at Amaaltash by Sandane Homes?", answer: "Guests have access to a shared executive kitchenette with microwave, refrigerator, hot water kettle, and drinking water dispenser." },
+            { question: "Is WiFi fast enough for online video calls and presentation editing?", answer: "Yes, every room is powered by 300 Mbps optical fiber internet." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "IHE 2026 Hotel Rooms", "Kitchenette Hotel Greater Noida", "India Expo Mart"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-vs-5-star-hotels-ihe-2026-expo-mart",
+        title: "Amaaltash by Sandane Homes vs 5-Star Hotels for IHE 2026 India Expo Mart Attendees",
+        metaTitle: "Amaaltash by Sandane Homes vs 5-Star Hotels | IHE 2026 India Expo Mart",
+        metaDescription: "Compare boutique hotel stays at Amaaltash by Sandane Homes vs 5-star hotels for IHE 2026. 8 mins to Expo Mart, peaceful Ansal Golf Links-1 setting, 4.8★ Google rating & 40% cost savings.",
+        subtitle: "Why smart exhibitors and hospitality executives choose Amaaltash by Sandane Homes over expensive 5-star hotel rooms during IHE 2026.",
+        category: "Event Stays",
+        date: "October 23, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Compare boutique hotel stays at Amaaltash by Sandane Homes vs 5-star hotels for IHE 2026. 8 mins to Expo Mart, peaceful Ansal Golf Links-1 setting, 4.8★ Google rating & 40% cost savings.",
+        content: [
+            { type: "paragraph", text: "During major trade fairs like <strong>IHE 2026 (India International Hospitality Expo)</strong>, 5-star commercial hotels in Greater Noida and Noida triple their room rates and enforce rigid policies. <a href='/amaaltash'>Amaaltash by Sandane Homes</a> offers an executive boutique alternative that delivers superior value." },
+            { type: "heading", text: "Direct Comparison: Amaaltash by Sandane Homes vs 5-Star Commercial Hotels" },
+            { type: "list", items: [
+                "<strong>Proximity & Commute:</strong> Located in Ansal Golf Links-1, just 8 minutes from Expo Mart gates — saving 30+ minutes of gridlock daily compared to Noida/Delhi hotels.",
+                "<strong>40% Cost Savings:</strong> Fair, transparent corporate pricing without surge multipliers during peak trade fair dates.",
+                "<strong>Peaceful Recovery Environment:</strong> Quiet residential surroundings vs noisy, chaotic commercial hotel lobbies.",
+                "<strong>Personalized Service & Kitchenette:</strong> Shared kitchenette access, instant WhatsApp concierge, and 4.8★ Google-rated hospitality."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Smart Corporate Choice" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Why do trade fair delegates prefer Amaaltash by Sandane Homes over 5-star hotels?", answer: "Amaaltash offers an 8-minute commute to Expo Mart, 4.8★ Google rating, shared kitchenette access, GST billing, and competitive corporate rates without surge pricing." },
+            { question: "Is secure parking available at Amaaltash by Sandane Homes?", answer: "Yes, private secure parking inside gated premises is provided for all guests." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "IHE 2026 Hotel Comparison", "Boutique Hotel Greater Noida", "Expo Mart Stays"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-early-check-in-gst-billing-ihe-2026",
+        title: "Seamless Corporate Booking, Early Check-In & GST Invoicing for IHE 2026 at Amaaltash by Sandane Homes",
+        metaTitle: "Corporate Rates & GST Billing for IHE 2026 | Amaaltash by Sandane Homes",
+        metaDescription: "Seamless corporate booking for IHE 2026 exhibitors at Amaaltash by Sandane Homes. Flexible check-in/out, itemized B2B GST tax invoices & direct Expo Mart access.",
+        subtitle: "Hassle-free corporate travel logistics for IHE 2026 trade show coordinators, booth managers, and corporate travel desks.",
+        category: "Event Stays",
+        date: "October 22, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Seamless corporate booking for IHE 2026 exhibitors at Amaaltash by Sandane Homes. Flexible check-in/out, itemized B2B GST tax invoices & direct Expo Mart access.",
+        content: [
+            { type: "paragraph", text: "Exhibition teams arriving at <strong>India Expo Mart</strong> for <strong>IHE 2026</strong> often face midnight booth construction setups and early morning show debuts. Standard hotels enforce rigid 2:00 PM check-ins. <a href='/amaaltash'>Amaaltash by Sandane Homes</a> simplifies corporate travel." },
+            { type: "heading", text: "Corporate Convenience for IHE 2026 Logistics Managers" },
+            { type: "list", items: [
+                "<strong>Flexible Check-In & Check-Out:</strong> Pre-arranged early arrival and late departure windows to align with booth setup and teardown schedules.",
+                "<strong>Full GST Tax Invoicing:</strong> Official B2B invoices with itemized room, laundry, and dining charges for effortless corporate expense reimbursement.",
+                "<strong>24/7 Concierge Support:</strong> WhatsApp concierge (+91 97117 22273) for instant taxi arrangements, airport drop-offs, and local dining assistance.",
+                "<strong>100% DG Power Backup & Security:</strong> Uninterrupted power and 24/7 gated security inside Ansal Golf Links-1."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | AE-183, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Corporate Travel Partner" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Does Amaaltash by Sandane Homes provide GST invoices for corporate bookings?", answer: "Yes, official itemized B2B GST invoices are issued for all corporate bookings." },
+            { question: "Can early check-in be requested for booth setup teams?", answer: "Yes, early check-in and flexible departure options can be coordinated with our reservation team." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "IHE 2026 GST Billing", "Corporate Hotel Greater Noida", "India Expo Mart"]
+    },
+    {
         slug: "residences-by-sandane-homes-korean-expat-housing-greater-noida",
         title: "Residences by Sandane Homes Korean Expat Housing in Greater Noida (한국인 주재원 아파트)",
         metaTitle: "Korean Expat Housing Greater Noida | Residences by Sandane Homes (한국인 주재원)",

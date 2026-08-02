@@ -391,6 +391,11 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'amaaltash-by-sandane-homes-ihe-2026-exhibitor-hotel-booking-guide',
+  'amaaltash-by-sandane-homes-group-stay-hospitality-delegates-ihe-expo-mart',
+  'amaaltash-by-sandane-homes-executive-hotel-rooms-kitchenette-ihe-2026',
+  'amaaltash-by-sandane-homes-vs-5-star-hotels-ihe-2026-expo-mart',
+  'amaaltash-by-sandane-homes-early-check-in-gst-billing-ihe-2026',
   'residences-by-sandane-homes-korean-expat-housing-greater-noida',
   'residences-by-sandane-homes-japanese-expat-housing-greater-noida',
   'residences-by-sandane-homes-serviced-apartments-near-india-expo-mart',
