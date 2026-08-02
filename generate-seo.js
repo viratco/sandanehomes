@@ -29,9 +29,9 @@ const SEO_MAP = {
   },
   '/coco-house': {
     title: 'CoCo House | Luxury Boutique Hotel Greater Noida | Sandane Homes',
-    description: 'CoCo House by Sandane Homes — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now.',
+    description: 'CoCo House — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
-    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "CoCo House by Sandane Homes", "url": "https://www.sandanehomes.com/coco-house", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "CoCo House", "url": "https://www.sandanehomes.com/coco-house", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/saffron': {
     title: 'Saffron Inn | Boutique Hotel Greater Noida | Sandane Homes',
