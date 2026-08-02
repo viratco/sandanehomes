@@ -5,6 +5,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import heroBg from '../../assets/hero-bg.webp';
 import { blogPosts } from '../../data/blogPosts';
+import { PROPERTY_REDIRECTS, getBlogRedirect } from '../../data/blogRedirects';
 import './Blog.css';
 import './SandaneHomes.css';
 
@@ -138,7 +139,7 @@ const BlogList = () => {
                     ) : (
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '32px' }}>
                             {posts.map((post) => (
-                                <Link key={post.slug} to={`/blog/${post.slug}`} className="blog-card" style={{ textDecoration: 'none' }}>
+                                <Link key={post.slug} to={PROPERTY_REDIRECTS[post.slug] || getBlogRedirect(post.slug)} className="blog-card" style={{ textDecoration: 'none' }}>
                                     {post.coverImage ? (
                                         <img src={post.coverImage} alt={post.title} className="blog-card-image" loading="lazy" />
                                     ) : (
