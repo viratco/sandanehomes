@@ -5,6 +5,130 @@
 
 export const blogPosts = [
     {
+        slug: "residences-by-sandane-homes-luxury-3bhk-family-serviced-apartments-greater-noida",
+        title: "Residences by Sandane Homes: Luxury 3 BHK Family Serviced Apartments in Greater Noida",
+        metaTitle: "Luxury 3 BHK Family Serviced Apartments | Residences by Sandane Homes",
+        metaDescription: "Book luxury 3 BHK family serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1 Greater Noida. Fully furnished, 24/7 security, kids play area & expat amenities.",
+        subtitle: "Spacious 3 BHK luxury family serviced apartments in gated Ansal Golf Links-1, near top international schools and corporate hubs.",
+        category: "Expat Housing",
+        date: "November 5, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book luxury 3 BHK family serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1 Greater Noida. Fully furnished, 24/7 security, kids play area & expat amenities.",
+        content: [
+            { type: "paragraph", text: "Relocating to Greater Noida with family requires generous living space, top-tier security, and proximity to international schools. <a href='/residences'>Residences by Sandane Homes</a> provides luxury 3 BHK serviced apartments (1600+ sq ft) inside the prestigious gated community of Ansal Golf Links-1." },
+            { type: "heading", text: "Family-Friendly Luxury Features" },
+            { type: "list", items: [
+                "<strong>Three Spacious Bedrooms:</strong> Master suites with ensuite bathrooms, plush bedding, and private balconies overlooking manicured gardens.",
+                "<strong>Equipped Family Kitchen:</strong> Complete cooking setup with large refrigerator, gas stove/induction, microwave, water purifier, and full cookware.",
+                "<strong>3-Tier Gated Security:</strong> 24/7 perimeter security, CCTV monitoring, and controlled visitor entry providing total peace of mind for families.",
+                "<strong>Turnkey All-Inclusive Living:</strong> Daily housekeeping, 300 Mbps high-speed WiFi, 100% DG power backup, and FRRO registration support within 24 hours."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Family Luxury Serviced Living" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "What is the size of 3 BHK family apartments at Residences by Sandane Homes?", answer: "Our 3 BHK family apartments range from 1600 to 1800+ sq ft, featuring separate living and dining rooms." },
+            { question: "Are international schools easily accessible from Ansal Golf Links-1?", answer: "Yes, top international schools in Greater Noida and Noida are located within a 10 to 15 minute drive." }
+        ],
+        tags: ["Residences by Sandane Homes", "3BHK Family Apartments", "Expat Housing Greater Noida", "Serviced Apartments"]
+    },
+    {
+        slug: "residences-by-sandane-homes-relocation-guide-corporate-expats-noida",
+        title: "Corporate Expat Relocation Guide to Greater Noida: Residences by Sandane Homes",
+        metaTitle: "Corporate Expat Relocation Guide Greater Noida | Residences by Sandane Homes",
+        metaDescription: "Comprehensive expat relocation guide for corporate assignees moving to Greater Noida. Turnkey luxury apartments by Residences by Sandane Homes with FRRO & school access.",
+        subtitle: "Everything corporate assignees and HR relocation managers need to know for a smooth move to Greater Noida.",
+        category: "Expat Housing",
+        date: "November 4, 2026",
+        readTime: "6 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #3e5a4d 50%, #C5A572 100%)",
+        excerpt: "Comprehensive expat relocation guide for corporate assignees moving to Greater Noida. Turnkey luxury apartments by Residences by Sandane Homes with FRRO & school access.",
+        content: [
+            { type: "paragraph", text: "Moving across international borders for executive corporate assignments in Delhi NCR can feel overwhelming. <a href='/residences'>Residences by Sandane Homes</a> simplifies the relocation journey with fully managed, turnkey luxury serviced housing." },
+            { type: "heading", text: "Essential Steps for Corporate Expat Relocation" },
+            { type: "list", items: [
+                "<strong>Zero-Hassle Immediate Move-in:</strong> Fully furnished 2 BHK & 3 BHK residences complete with appliances, electronics, linens, and kitchenware — just unpack personal luggage.",
+                "<strong>Fast FRRO Compliance:</strong> Receive landlord address proof letters and lease documentation within 24 hours for seamless e-FRRO registration.",
+                "<strong>Strategic Industrial Access:</strong> Fast commutes to Surajpur manufacturing plants, Noida Expressway tech hubs, and Yamuna Expressway corridors.",
+                "<strong>Single Monthly GST Bill:</strong> Rent, utilities, daily housekeeping, 300 Mbps fiber WiFi, and maintenance consolidated for corporate expense filing."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Turnkey Expat Relocation Specialist" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How quickly can an expat complete FRRO registration with Residences by Sandane Homes?", answer: "We issue official address confirmation documents within 24 hours of arrival so e-FRRO registration is submitted on time." },
+            { question: "Are corporate long-term leases available?", answer: "Yes, flexible corporate lease terms from 1 month up to multiple years are accommodated." }
+        ],
+        tags: ["Residences by Sandane Homes", "Expat Relocation Guide", "Greater Noida Housing", "Corporate Housing Noida"]
+    },
+    {
+        slug: "coco-house-boutique-stay-creative-agencies-media-crews-expo-mart",
+        title: "CoCo House: Stylish Boutique Stay for Creative Agencies & Media Crews Near India Expo Mart",
+        metaTitle: "CoCo House | Boutique Stay for Media & Exhibition Teams Near Expo Mart",
+        metaDescription: "Book CoCo House in Greater Noida — stylish boutique stay 8 mins from India Expo Mart for media crews, event managers & creative delegations. Single GST bill & 300 Mbps WiFi.",
+        subtitle: "Chic contemporary hotel accommodation tailored for media directors, event managers, and creative trade fair teams.",
+        category: "Event Stays",
+        date: "November 3, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Book CoCo House in Greater Noida — stylish boutique stay 8 mins from India Expo Mart for media crews, event managers & creative delegations. Single GST bill & 300 Mbps WiFi.",
+        content: [
+            { type: "paragraph", text: "Creative agencies, video production crews, and event management firms executing major trade shows at <strong>India Expo Mart</strong> require a hotel property that inspires creativity and delivers flawless logistics. <a href='/coco-house'>CoCo House</a> is the top boutique choice in Greater Noida." },
+            { type: "heading", text: "Why Creative & Production Teams Prefer CoCo House" },
+            { type: "list", items: [
+                "<strong>Chic Contemporary Design:</strong> Aesthetic interiors, ambient lighting, and stylish lounge spaces designed for team debriefs and creative focus.",
+                "<strong>8 Minutes to Expo Mart:</strong> Direct signal-free commute to India Expo Centre & Mart exhibition halls.",
+                "<strong>High-Speed 300 Mbps Fiber WiFi:</strong> Unrestricted fiber bandwidth for uploading 4K media footage, client assets, and campaign reports.",
+                "<strong>Corporate Team Support:</strong> Consolidated GST invoicing, daily housekeeping, 100% power backup, and 24/7 security."
+            ] },
+            { type: "quote", text: "CoCo House | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/coco-house", attribution: "— Creative Agency Boutique Choice" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is CoCo House suitable for media production crews working late hours?", answer: "Yes, CoCo House offers 24/7 access, flexible check-in windows, and high-speed Wi-Fi for evening media processing." },
+            { question: "How far is CoCo House from India Expo Mart?", answer: "CoCo House is located in Ansal Golf Link-1, just 8 minutes drive from India Expo Mart." }
+        ],
+        tags: ["CoCo House", "Media Crew Hotel", "Creative Agency Stays", "India Expo Mart Hotels"]
+    },
+    {
+        slug: "coco-house-group-booking-discounted-rates-trade-fairs-greater-noida",
+        title: "CoCo House: Exclusive Group Booking Hotel Rates for Trade Fair Teams in Greater Noida",
+        metaTitle: "CoCo House Group Booking Hotel Rates for Trade Fairs Greater Noida",
+        metaDescription: "Reserve full team hotel blocks at CoCo House near India Expo Mart. Exclusive group booking rates, single B2B GST master invoice, 8 mins commute & express breakfast.",
+        subtitle: "Cost-effective, synchronized group hotel accommodations for corporate trade fair exhibitors and event delegates.",
+        category: "Event Stays",
+        date: "November 2, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #2c1810 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "Reserve full team hotel blocks at CoCo House near India Expo Mart. Exclusive group booking rates, single B2B GST master invoice, 8 mins commute & express breakfast.",
+        content: [
+            { type: "paragraph", text: "Planning hotel stays for a 5 to 20-person vendor team during trade exhibitions like Auto Expo, IHGF Delhi Fair, ELECRAMA, or CPHI India? <a href='/coco-house'>CoCo House</a> specializes in group room blocks with single master corporate billing." },
+            { type: "heading", text: "Advantages of Group Reservations at CoCo House" },
+            { type: "list", items: [
+                "<strong>Synchronized Team Lodging:</strong> Host your entire event delegation under one roof in modern boutique twin and king rooms.",
+                "<strong>Consolidated Master Invoicing:</strong> Single itemized corporate GST bill covering room stays, breakfasts, and shuttle transfers for easy HR accounting.",
+                "<strong>Flexible Schedule Accommodation:</strong> Express early breakfasts and flexible check-in/out to support early show opens and late-night booth teardowns.",
+                "<strong>Prime Connectivity:</strong> Minutes from Pari Chowk Metro, Knowledge Park II, and direct signal-free access to India Expo Mart."
+            ] },
+            { type: "quote", text: "CoCo House | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/coco-house", attribution: "— Group Exhibition Hotel Specialist" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Can CoCo House handle corporate group bookings of 10 to 15 rooms?", answer: "Yes, CoCo House specializes in dedicated group inventory blocks with consolidated corporate GST billing." },
+            { question: "Are airport shuttles available for group arrivals?", answer: "Yes, chauffeured private fleet vans can be arranged 24/7 for Delhi IGI and Jewar Airport transfers." }
+        ],
+        tags: ["CoCo House", "Group Booking Hotels", "Exhibitor Housing", "Trade Fair Greater Noida"]
+    },
+    {
         slug: "amaaltash-by-sandane-homes-ihe-2026-exhibitor-hotel-booking-guide",
         title: "Amaaltash by Sandane Homes: Complete Exhibitor Hotel Booking Guide for IHE 2026 India Expo Mart",
         metaTitle: "Amaaltash by Sandane Homes IHE 2026 Exhibitor Hotel Booking Guide",

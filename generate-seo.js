@@ -400,6 +400,10 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'residences-by-sandane-homes-luxury-3bhk-family-serviced-apartments-greater-noida',
+  'residences-by-sandane-homes-relocation-guide-corporate-expats-noida',
+  'coco-house-boutique-stay-creative-agencies-media-crews-expo-mart',
+  'coco-house-group-booking-discounted-rates-trade-fairs-greater-noida',
   'amaaltash-by-sandane-homes-ihe-2026-exhibitor-hotel-booking-guide',
   'amaaltash-by-sandane-homes-group-stay-hospitality-delegates-ihe-expo-mart',
   'amaaltash-by-sandane-homes-executive-hotel-rooms-kitchenette-ihe-2026',
