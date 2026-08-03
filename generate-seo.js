@@ -256,7 +256,9 @@ blogPosts.forEach((post) => {
     title: pageTitle,
     description: pageDescription,
     ogImage,
-    schemas
+    schemas,
+    lang: post.lang || 'en',
+    hreflang: post.lang ? [post.lang, 'en'] : ['en']
   };
 });
 
@@ -400,6 +402,12 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'residences-by-sandane-homes-japanese-expat-housing-guide-noida',
+  'coco-house-japanese-business-trip-hotel-india-expo-mart',
+  'residences-by-sandane-homes-korean-expat-housing-greater-noida',
+  'amaaltash-by-sandane-homes-korean-executive-hotel-rooms',
+  'residences-by-sandane-homes-chinese-expat-serviced-apartments',
+  'the-glam-by-sandane-homes-chinese-executive-boutique-stay',
   'coco-house-auto-guide-128805',
   'amaaltash-by-sandane-homes-auto-guide-128805',
   'the-glam-by-sandane-homes-auto-guide-128805',

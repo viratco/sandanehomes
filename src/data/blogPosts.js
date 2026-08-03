@@ -5,6 +5,198 @@
 
 export const blogPosts = [
     {
+        slug: "residences-by-sandane-homes-japanese-expat-housing-guide-noida",
+        title: "Residences by Sandane Homes: インド・大ノイダの日本人駐在員向け高級サービスアパート",
+        metaTitle: "大ノイダ 日本人駐在員 サービスアパート | Residences by Sandane Homes",
+        metaDescription: "インド大ノイダの日本人駐在員・出張者向け高級サービスアパート Residences by Sandane Homes。Ansal Golf Links-1の24時間セキュリティ、高速WiFi、日本食対応、FRRO登録サポート。",
+        subtitle: "駿河・スラジュプル工業団地やヤマナ高速道路至近。日本人ご家族・単身赴任者に最適な2BHK・3BHK高級アパート。",
+        category: "Expat Housing",
+        date: "August 4, 2026",
+        readTime: "6分",
+        lang: "ja",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "インド大ノイダの日本人駐在員・出張者向け高級サービスアパート Residences by Sandane Homes。Ansal Golf Links-1の24時間セキュリティ、高速WiFi、日本食対応、FRRO登録サポート。",
+        content: [
+            { type: "paragraph", text: "インド・デリー首都圏（NCR）の大ノイダに赴任される日本人駐在員およびご家族向けに、<a href='/residences'>Residences by Sandane Homes</a> は家具家電付きの最高級サービスアパートを提供しております。" },
+            { type: "heading", text: "日本人駐在員に選ばれる理由" },
+            { type: "list", items: [
+                "<strong>安心の三重ゲートセキュリティ:</strong> Ansal Golf Links-1 内に位置し、24時間警備体制とCCTVカメラを完備。",
+                "<strong>快適な生活環境:</strong> 300 Mbps高速光インターネット、100%バックアップ電源、毎日のハウスキーピング。",
+                "<strong>迅速なFRRO登録サポート:</strong> ご到着後24時間以内に住所証明書類を発行し、FRRO手続きをスムーズにサポート。",
+                "<strong>法人一括請求（GST対応）:</strong> 家賃・水光熱費・清掃費を一つの法人請求書にまとめて発行。"
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— 日本人駐在員・出張者専用レジデンス" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "FRROの外国人登録に必要な書類は発行されますか？", answer: "はい。ご入居後24時間以内に公式な住所証明書および賃貸契約証明を発行いたします。" },
+            { question: "スラジュプル工業団地へのアクセスは？", answer: "車で約10〜12分の好立地です。" }
+        ],
+        tags: ["Residences by Sandane Homes", "日本人駐在員", "大ノイダ サービスアパート", "インド駐在 住宅"]
+    },
+    {
+        slug: "coco-house-japanese-business-trip-hotel-india-expo-mart",
+        title: "CoCo House: インドエキスポマート展示会出張に最適なデザイナーズホテル",
+        metaTitle: "CoCo House | インドエキスポマート至近の出張・ブティックホテル",
+        metaDescription: "India Expo Martから車で8分。CoCo Houseは大ノイダの日本人出張者・ブース設営チームに選ばれるスタイリッシュなブティックホテルです。300Mbps高速WiFi、法人GST請求書対応。",
+        subtitle: "快適な静寂と高速インターネット空間。展示会期中の日本人ビジネスパーソンに最適な宿泊環境。",
+        category: "Event Stays",
+        date: "August 4, 2026",
+        readTime: "5分",
+        lang: "ja",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/bedroom.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        excerpt: "India Expo Martから車で8分。CoCo Houseは大ノイダの日本人出張者・ブース設営チームに選ばれるスタイリッシュなブティックホテルです。300Mbps高速WiFi、法人GST請求書対応。",
+        content: [
+            { type: "paragraph", text: "India Expo Mart で開催される各種国際展示会（Auto Expo、IHGF、ELECRAMAなど）にご参加される日本企業の出張者様へ。<a href='/coco-house'>CoCo House</a> は会場から車で僅か8分の高級ブティックホテルです。" },
+            { type: "heading", text: "CoCo House の出張者向け特長" },
+            { type: "list", items: [
+                "<strong>展示会場まで車で8分の好立地:</strong> 渋滞を避けてスムーズに搬入・設営・ご来場が可能です。",
+                "<strong>300 Mbps 高速光WiFi:</strong> 日本本社とのWeb会議や大容量データの送受信も快適。",
+                "<strong>柔軟なアーリーチェックイン対応:</strong> 早朝便で到着される出張者様のための柔軟なスケジュール対応。",
+                "<strong>明朗な法人GST請求書:</strong> 宿泊・朝食代金を一括で法人経理用に発行。"
+            ] },
+            { type: "quote", text: "CoCo House | AE-186, Block A, Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/coco-house", attribution: "— 展示会日本人出張者御用達ホテル" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "India Expo Mart への送迎タクシーは手配できますか？", answer: "はい。24時間フロントにて専用タクシーおよびハイヤーの手配を行っております。" },
+            { question: "ツインルームの予約は可能ですか？", answer: "はい。同僚の方との相部屋にも最適なツインベッドルームをご用意しております。" }
+        ],
+        tags: ["CoCo House", "インドエキスポマート ホテル", "大ノイダ 出張", "インド展示会 宿泊"]
+    },
+    {
+        slug: "residences-by-sandane-homes-korean-expat-housing-greater-noida",
+        title: "Residences by Sandane Homes: 인도 노이다 주재원 전용 고급 서비스 아파트",
+        metaTitle: "인도 노이다 한국인 주재원 고급 아파트 | Residences by Sandane Homes",
+        metaDescription: "인도 그레이터 노이다 Ansal Golf Links-1에 위치한 Residences by Sandane Homes. 24시간 철저한 보안, 초고속 300Mbps WiFi, 한국어 지원 및 24시간 이내 FRRO 거주지 증명 발급.",
+        subtitle: "삼성, LG, 현대 신공장 및 수라주푸르 공단 접근성이 뛰어난 최고급 주재원 및 가족 전용 레지던스.",
+        category: "Expat Housing",
+        date: "August 4, 2026",
+        readTime: "6분",
+        lang: "ko",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "인도 그레이터 노이다 Ansal Golf Links-1에 위치한 Residences by Sandane Homes. 24시간 철저한 보안, 초고속 300Mbps WiFi, 한국어 지원 및 24시간 이내 FRRO 거주지 증명 발급.",
+        content: [
+            { type: "paragraph", text: "인도 노이다 및 그레이터 노이다로 파견되는 한국 기업 주재원과 가족분들을 위해 <a href='/residences'>Residences by Sandane Homes</a>는 풀 옵션 최고급 레지던스 아파트를 제공합니다." },
+            { type: "heading", text: "한국인 주재원을 위한 특화 서비스" },
+            { type: "list", items: [
+                "<strong>완벽한 보안 시스템:</strong> 고급 게이티드 커뮤니티(Ansal Golf Links-1) 내 위치, 24시간 경비원 배치 및 CCTV 가동.",
+                "<strong>초고속 300 Mbps 인터넷:</strong> 한국 본사와의 원활한 업무 연락 및 4K 스트리밍이 가능한 고속 광통신.",
+                "<strong>24시간 이내 FRRO 서류 발급:</strong> 거주지 증명서 및 임대 계약 서류를 신속하게 발급하여 외국인 등록 지원.",
+                "<strong>법인 GST 통합 정산:</strong> 임대료, 관리비, 청소비를 하나의 법인 정산 세금 계산서로 통합 발급."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— 노이다 한국 주재원 전용 서비스 아파트" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "수라주푸르 공단 및 삼성/LG 공장과의 거리는 얼마나 되나요?", answer: "차량으로 약 10~15분 거리로 출퇴근이 매우 편리합니다." },
+            { question: "주방 설비와 가전제품이 포함되어 있나요?", answer: "네, 냉장고, 인덕션/가스레인지, 전자레인지, 정수기 및 풀세트 식기류가 완비되어 있습니다." }
+        ],
+        tags: ["Residences by Sandane Homes", "인도 주재원 아파트", "노이다 한인 주거", "그레이터노이다 레지던스"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-korean-executive-hotel-rooms",
+        title: "Amaaltash by Sandane Homes: 노이다 한국인 엔지니어 및 비즈니스 출장 전용 호텔",
+        metaTitle: "Amaaltash by Sandane Homes | 노이다 한국인 출장 레지던스 호텔",
+        metaDescription: "인도 노이다 출장자를 위한 Amaaltash by Sandane Homes. 미니 주방, 고속 WiFi, 조용한 정원 환경, 법인 GST 영수증 발급 가능.",
+        subtitle: "수라주푸르 및 야무나 고속도로 공단 출장 한국인 엔지니어 및 컨설턴트를 위한 최고급 호텔.",
+        category: "Boutique Stays",
+        date: "August 4, 2026",
+        readTime: "5분",
+        lang: "ko",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #2e4d43 50%, #C5A572 100%)",
+        excerpt: "인도 노이다 출장자를 위한 Amaaltash by Sandane Homes. 미니 주방, 고속 WiFi, 조용한 정원 환경, 법인 GST 영수증 발급 가능.",
+        content: [
+            { type: "paragraph", text: "노이다 공단 지역 출장 엔지니어 및 기술 컨설턴트를 위해 <a href='/amaaltash'>Amaaltash by Sandane Homes</a>는 프라이빗한 미니 주방과 조용한 휴식 공간을 갖춘 호텔 객실을 제공합니다." },
+            { type: "heading", text: "한국인 비즈니스 출장자 추천 이유" },
+            { type: "list", items: [
+                "<strong>미니 주방 시설 완비:</strong> 간단한 요리가 가능한 인덕션, 냉장고, 전자레인지 구비.",
+                "<strong>노이다 주요 공단 접근성:</strong> 수라주푸르 및 지식단지(Knowledge Park) 차로 8~10분.",
+                "<strong>정갈한 조식 제공:</strong> 바쁜 아침 일정을 위한 신선한 조식 서비스 제공.",
+                "<strong>법인 GST 세금계산서 발급:</strong> 한국 기업 경비 처리를 위한 완벽한 증빙 서류 발급."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— 노이다 출장자 추천 레지던스 호텔" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "인도 엑스포 마트 전시장까지 얼마나 걸리나요?", answer: "차량으로 약 8분 거리에 위치해 있습니다." },
+            { question: "법인 세금계산서(GST Invoice) 발급이 가능한가요?", answer: "네, 법인 명의의 B2B GST 정산 영수증을 즉시 발급해 드립니다." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "노이다 한국인 호텔", "인도 출장 숙소", "그레이터노이다 비즈니스 호텔"]
+    },
+    {
+        slug: "residences-by-sandane-homes-chinese-expat-serviced-apartments",
+        title: "Residences by Sandane Homes: 大诺伊达中资企业中方员工高级服务式公寓",
+        metaTitle: "大诺伊达中资企业外派员工高级公寓 | Residences by Sandane Homes",
+        metaDescription: "为您提供大诺伊达 Ansal Golf Links-1 社区内的高级服务式公寓 Residences by Sandane Homes。全套家具、24小时安保、300Mbps光纤网络及24小时内FRRO居住证明协助。",
+        subtitle: "毗邻 Vivo、OPPO 等中资企业工厂与 Surajpur 工业区，专为中方管理人员与技术专家打造。",
+        category: "Expat Housing",
+        date: "August 4, 2026",
+        readTime: "6分钟",
+        lang: "zh",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1a1a2e 0%, #1A3C34 50%, #C5A572 100%)",
+        excerpt: "为您提供大诺伊达 Ansal Golf Links-1 社区内的高级服务式公寓 Residences by Sandane Homes。全套家具、24小时安保、300Mbps光纤网络及24小时内FRRO居住证明协助。",
+        content: [
+            { type: "paragraph", text: "针对在印度大诺伊达及苏拉杰普尔（Surajpur）工业区工作的中资企业中方管理层及技术专家，<a href='/residences'>Residences by Sandane Homes</a> 提供全适宜的高品质服务式公寓。" },
+            { type: "heading", text: "中资企业外派员工核心优势" },
+            { type: "list", items: [
+                "<strong>封闭式高端社区安保:</strong> 位于 Ansal Golf Links-1，24小时保安巡逻及监控，确保人身与财产安全。",
+                "<strong>提包入住标准:</strong> 包含全套家具、高品质家电、独立厨房、每日清洁及300 Mbps高速光纤网络。",
+                "<strong>快速协助 FRRO 居住证明:</strong> 入住24小时内出具官方居住证明及租赁合同，保障外派人员合规登记。",
+                "<strong>统一 B2B 税务开票:</strong> 房租、水电及保洁费用统一开具合规 GST 进项发票，方便公司报销。"
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— 中资企业外派高管首选公寓" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "公寓距离 Vivo / OPPO 工业园多远？", answer: "车程约 10 至 15 分钟，交通十分便利。" },
+            { question: "是否支持开具公司名义的 GST 发票？", answer: "支持，可开具包含公司 GST 编号的合规正规发票。" }
+        ],
+        tags: ["Residences by Sandane Homes", "大诺伊达中资企业", "印度外派公寓", "大诺伊达服务式公寓"]
+    },
+    {
+        slug: "the-glam-by-sandane-homes-chinese-executive-boutique-stay",
+        title: "The Glam by Sandane Homes: 大诺伊达展会与中资商务考察奢华精品酒店",
+        metaTitle: "The Glam by Sandane Homes | 大诺伊达奢华商务精品酒店",
+        metaDescription: "入住 The Glam by Sandane Homes，距离印度 Expo Mart 展馆仅8分钟。奢华客房、300Mbps高速网络、B2B GST 开票服务，为中资展团与出差高管提供极致体验。",
+        subtitle: "为参与 Expo Mart 展会及中资工厂考察的企业代表团提供高端精品住宿。",
+        category: "Boutique Stays",
+        date: "August 4, 2026",
+        readTime: "5分钟",
+        lang: "zh",
+        author: "Sandane Homes Team",
+        coverImage: "/blog/covers/bedroom.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        excerpt: "入住 The Glam by Sandane Homes，距离印度 Expo Mart 展馆仅8分钟。奢华客房、300Mbps高速网络、B2B GST 开票服务，为中资展团与出差高管提供极致体验。",
+        content: [
+            { type: "paragraph", text: "前往 India Expo Mart 参加 Auto Expo、ELECRAMA、IHGF 等展会或进行工厂商务考察的中资代表团，<a href='/glam'>The Glam by Sandane Homes</a> 提供奢华舒适的精品酒店客房。" },
+            { type: "heading", text: "商务出差及展团首选" },
+            { type: "list", items: [
+                "<strong>展馆8分钟车程:</strong> 无交通拥堵，快速往返 India Expo Mart 展馆。",
+                "<strong>300 Mbps 光纤专线:</strong> 方便与国内总部视频会议及大文件传输。",
+                "<strong>灵活入住与专车接送:</strong> 24小时前台服务及德里机场/展馆专车接送预订。",
+                "<strong>规范财务对账开票:</strong> 提供清晰明了的 B2B 发票，支持公对公转账。"
+            ] },
+            { type: "quote", text: "The Glam by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/glam", attribution: "— 商务考察与参展代表团酒店" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "酒店距离 India Expo Mart 展馆有多远？", answer: "位于 Ansal Golf Link-1，车程仅需 8 分钟。" },
+            { question: "是否提供接机与展馆接送服务？", answer: "提供 24 小时付费专车接送机及展馆接送服务。" }
+        ],
+        tags: ["The Glam by Sandane Homes", "印度展会酒店", "大诺伊达精品酒店", "Expo Mart 住宿"]
+    },
+    {
         slug: "coco-house-auto-guide-128805",
         title: "CoCo House: Premier Exhibition Hotel for Trade Fair Exhibitors Near India Expo Mart",
         metaTitle: "CoCo House | Premier Exhibition Hotel Near India Expo Mart",
