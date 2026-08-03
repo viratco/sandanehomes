@@ -5,6 +5,130 @@
 
 export const blogPosts = [
     {
+        slug: "coco-house-auto-guide-091160",
+        title: "CoCo House: Premier Exhibition Hotel for Trade Fair Exhibitors Near India Expo Mart",
+        metaTitle: "CoCo House | Premier Exhibition Hotel Near India Expo Mart",
+        metaDescription: "Book CoCo House in Greater Noida — 8 mins from India Expo Mart with twin rooms, single GST bill, 300 Mbps WiFi & 24/7 express dining.",
+        subtitle: "Top boutique stay tailored for exhibition booth crews, project managers, and trade fair vendors.",
+        category: "Event Stays",
+        date: "August 3, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Automation",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        excerpt: "Book CoCo House in Greater Noida — 8 mins from India Expo Mart with twin rooms, single GST bill, 300 Mbps WiFi & 24/7 express dining.",
+        content: [
+            { type: "paragraph", text: "Book CoCo House in Greater Noida — 8 mins from India Expo Mart with twin rooms, single GST bill, 300 Mbps WiFi & 24/7 express dining. Explore hospitality excellence with <a href='/coco-house'>CoCo House</a> in Greater Noida." },
+            { type: "heading", text: "Key Highlights & Amenities" },
+            { type: "list", items: [
+                "<strong>Prime Location:</strong> Direct signal-free access to India Expo Mart, Knowledge Park, and major industrial centers.",
+                "<strong>300 Mbps Fiber WiFi:</strong> High-bandwidth connectivity for business work and seamless streaming.",
+                "<strong>Corporate Accounting:</strong> Single B2B GST master invoicing for easy expense consolidation.",
+                "<strong>24/7 Concierge:</strong> Attentive hospitality team and round-the-clock security."
+            ] },
+            { type: "quote", text: "CoCo House | Greater Noida | +91 97117 22273 | sandanehomes.com/coco-house", attribution: "— Hospitality Excellence" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How to book a stay at CoCo House?", answer: "Book directly at sandanehomes.com/coco-house or call +91 97117 22273." },
+            { question: "Is GST billing available?", answer: "Yes, complete B2B GST tax invoices are provided." }
+        ],
+        tags: ["CoCo House","Exhibition Hotel Expo Mart","Boutique Hotel Greater Noida"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-auto-guide-091160",
+        title: "Amaaltash by Sandane Homes: Serene Executive Stays in Ansal Golf Links-1 Greater Noida",
+        metaTitle: "Amaaltash by Sandane Homes | Executive Stays Ansal Golf Links",
+        metaDescription: "Experience executive hospitality at Amaaltash by Sandane Homes in Ansal Golf Links-1. Quiet rooms with kitchenette, 300 Mbps WiFi & GST billing.",
+        subtitle: "Peaceful boutique rooms with kitchenette amenities near Knowledge Park & India Expo Mart.",
+        category: "Boutique Stays",
+        date: "August 3, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Automation",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        excerpt: "Experience executive hospitality at Amaaltash by Sandane Homes in Ansal Golf Links-1. Quiet rooms with kitchenette, 300 Mbps WiFi & GST billing.",
+        content: [
+            { type: "paragraph", text: "Experience executive hospitality at Amaaltash by Sandane Homes in Ansal Golf Links-1. Quiet rooms with kitchenette, 300 Mbps WiFi & GST billing. Explore hospitality excellence with <a href='/amaaltash'>Amaaltash by Sandane Homes</a> in Greater Noida." },
+            { type: "heading", text: "Key Highlights & Amenities" },
+            { type: "list", items: [
+                "<strong>Prime Location:</strong> Direct signal-free access to India Expo Mart, Knowledge Park, and major industrial centers.",
+                "<strong>300 Mbps Fiber WiFi:</strong> High-bandwidth connectivity for business work and seamless streaming.",
+                "<strong>Corporate Accounting:</strong> Single B2B GST master invoicing for easy expense consolidation.",
+                "<strong>24/7 Concierge:</strong> Attentive hospitality team and round-the-clock security."
+            ] },
+            { type: "quote", text: "Amaaltash by Sandane Homes | Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Hospitality Excellence" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How to book a stay at Amaaltash by Sandane Homes?", answer: "Book directly at sandanehomes.com/amaaltash or call +91 97117 22273." },
+            { question: "Is GST billing available?", answer: "Yes, complete B2B GST tax invoices are provided." }
+        ],
+        tags: ["Amaaltash by Sandane Homes","Ansal Golf Links Stay","Executive Hotel Greater Noida"]
+    },
+    {
+        slug: "the-glam-by-sandane-homes-auto-guide-091160",
+        title: "The Glam by Sandane Homes: Luxury Boutique Suites Near Noida Airport Corridor",
+        metaTitle: "The Glam by Sandane Homes | Luxury Boutique Suites Noida Airport Corridor",
+        metaDescription: "Book luxury suites at The Glam by Sandane Homes near Jewar Noida International Airport corridor. Designer interiors, high-speed WiFi & GST invoicing.",
+        subtitle: "Elegantly designed luxury suites for corporate travelers and flight transit guests.",
+        category: "Boutique Stays",
+        date: "August 3, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Automation",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        excerpt: "Book luxury suites at The Glam by Sandane Homes near Jewar Noida International Airport corridor. Designer interiors, high-speed WiFi & GST invoicing.",
+        content: [
+            { type: "paragraph", text: "Book luxury suites at The Glam by Sandane Homes near Jewar Noida International Airport corridor. Designer interiors, high-speed WiFi & GST invoicing. Explore hospitality excellence with <a href='/glam'>The Glam by Sandane Homes</a> in Greater Noida." },
+            { type: "heading", text: "Key Highlights & Amenities" },
+            { type: "list", items: [
+                "<strong>Prime Location:</strong> Direct signal-free access to India Expo Mart, Knowledge Park, and major industrial centers.",
+                "<strong>300 Mbps Fiber WiFi:</strong> High-bandwidth connectivity for business work and seamless streaming.",
+                "<strong>Corporate Accounting:</strong> Single B2B GST master invoicing for easy expense consolidation.",
+                "<strong>24/7 Concierge:</strong> Attentive hospitality team and round-the-clock security."
+            ] },
+            { type: "quote", text: "The Glam by Sandane Homes | Greater Noida | +91 97117 22273 | sandanehomes.com/glam", attribution: "— Hospitality Excellence" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How to book a stay at The Glam by Sandane Homes?", answer: "Book directly at sandanehomes.com/glam or call +91 97117 22273." },
+            { question: "Is GST billing available?", answer: "Yes, complete B2B GST tax invoices are provided." }
+        ],
+        tags: ["The Glam by Sandane Homes","Noida Airport Corridor Hotel","Luxury Boutique Stay"]
+    },
+    {
+        slug: "residences-by-sandane-homes-auto-guide-091160",
+        title: "Residences by Sandane Homes: Luxury 2BHK & 3BHK Serviced Apartments in Greater Noida",
+        metaTitle: "Residences by Sandane Homes | Luxury 2BHK 3BHK Serviced Apartments",
+        metaDescription: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & FRRO support.",
+        subtitle: "Fully managed corporate and expat family residences inside gated Ansal Golf Links-1.",
+        category: "Expat Housing",
+        date: "August 3, 2026",
+        readTime: "5 min read",
+        author: "Sandane Homes Automation",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        excerpt: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & FRRO support.",
+        content: [
+            { type: "paragraph", text: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & FRRO support. Explore hospitality excellence with <a href='/residences'>Residences by Sandane Homes</a> in Greater Noida." },
+            { type: "heading", text: "Key Highlights & Amenities" },
+            { type: "list", items: [
+                "<strong>Prime Location:</strong> Direct signal-free access to India Expo Mart, Knowledge Park, and major industrial centers.",
+                "<strong>300 Mbps Fiber WiFi:</strong> High-bandwidth connectivity for business work and seamless streaming.",
+                "<strong>Corporate Accounting:</strong> Single B2B GST master invoicing for easy expense consolidation.",
+                "<strong>24/7 Concierge:</strong> Attentive hospitality team and round-the-clock security."
+            ] },
+            { type: "quote", text: "Residences by Sandane Homes | Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Hospitality Excellence" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How to book a stay at Residences by Sandane Homes?", answer: "Book directly at sandanehomes.com/residences or call +91 97117 22273." },
+            { question: "Is GST billing available?", answer: "Yes, complete B2B GST tax invoices are provided." }
+        ],
+        tags: ["Residences by Sandane Homes","Expat Housing Greater Noida","Serviced Apartments"]
+    },
+    {
         slug: "coco-house-auto-guide-119507",
         title: "CoCo House: Premier Exhibition Hotel for Trade Fair Exhibitors Near India Expo Mart",
         metaTitle: "CoCo House | Premier Exhibition Hotel Near India Expo Mart",
