@@ -73,9 +73,9 @@ const TOPIC_TEMPLATES = [
             {
                 title: "Residences by Sandane Homes: Luxury 2BHK & 3BHK Serviced Apartments in Greater Noida",
                 metaTitle: "Residences by Sandane Homes | Luxury 2BHK 3BHK Serviced Apartments",
-                metaDescription: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & FRRO support.",
+                metaDescription: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & 300 Mbps WiFi.",
                 subtitle: "Fully managed corporate and expat family residences inside gated Ansal Golf Links-1.",
-                excerpt: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & FRRO support.",
+                excerpt: "Book luxury 2BHK & 3BHK serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1. Turnkey expat housing with 24/7 security & 300 Mbps WiFi.",
                 tags: ["Residences by Sandane Homes", "Expat Housing Greater Noida", "Serviced Apartments"]
             }
         ]

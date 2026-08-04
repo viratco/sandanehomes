@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -234,15 +235,15 @@ const Residences = () => {
                     <p><strong style={{ color: '#111' }}>Options Available in:</strong> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies</p>
                 </div>
 
-                {/* Aesthetic Enquire Now Button */}
-                <div style={{ marginTop: '35px', display: 'flex', justifyContent: 'center' }}>
+                {/* Aesthetic Action Buttons */}
+                <div style={{ marginTop: '35px', display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
                     <a
                         href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="enquire-pulse-btn"
                         style={{
-                            padding: '16px 50px',
+                            padding: '16px 40px',
                             fontSize: '14px',
                             backgroundColor: '#1A3C34',
                             border: '1px solid #1A3C34',
@@ -261,6 +262,26 @@ const Residences = () => {
                         </svg>
                         ENQUIRE NOW
                     </a>
+                    <Link
+                        to="/residences/relocation"
+                        className="enquire-pulse-btn"
+                        style={{
+                            padding: '16px 40px',
+                            fontSize: '14px',
+                            backgroundColor: '#C5A572',
+                            border: '1px solid #C5A572',
+                            borderRadius: '30px',
+                            fontWeight: '600',
+                            color: '#112823',
+                            letterSpacing: '1.5px',
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: '8px',
+                            textDecoration: 'none'
+                        }}
+                    >
+                        RELOCATION SERVICES →
+                    </Link>
                 </div>
 
                 {/* Residences Info Section */}
@@ -485,13 +506,13 @@ const Residences = () => {
                             </div>
                         </div>
 
-                        <div style={{ marginTop: '10px', position: 'relative', zIndex: 2 }}>
+                        <div style={{ marginTop: '10px', position: 'relative', zIndex: 2, display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
                         <a
                             href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes."
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
-                                padding: '16px 40px',
+                                padding: '16px 36px',
                                 fontSize: '14px',
                                 backgroundColor: '#1A3C34',
                                 border: '1px solid #1A3C34',
@@ -524,6 +545,37 @@ const Residences = () => {
                             </svg>
                             TALK TO A SPECIALIST
                         </a>
+                        <Link
+                            to="/residences/relocation"
+                            style={{
+                                padding: '16px 36px',
+                                fontSize: '14px',
+                                backgroundColor: '#C5A572',
+                                border: '1px solid #C5A572',
+                                borderRadius: '30px',
+                                fontWeight: '600',
+                                color: '#112823',
+                                letterSpacing: '1.5px',
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: '8px',
+                                textDecoration: 'none',
+                                boxShadow: '0 8px 25px rgba(197, 165, 114, 0.25)',
+                                transition: 'all 0.3s ease'
+                            }}
+                            onMouseOver={e => {
+                                e.currentTarget.style.backgroundColor = '#1A3C34';
+                                e.currentTarget.style.borderColor = '#1A3C34';
+                                e.currentTarget.style.color = '#ffffff';
+                            }}
+                            onMouseOut={e => {
+                                e.currentTarget.style.backgroundColor = '#C5A572';
+                                e.currentTarget.style.borderColor = '#C5A572';
+                                e.currentTarget.style.color = '#112823';
+                            }}
+                        >
+                            RELOCATION SERVICES →
+                        </Link>
                     </div>
                 </div>
             </div>
