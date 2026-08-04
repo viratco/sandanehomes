@@ -19,6 +19,7 @@ import ChineseExpatHousing from './components/pages/ChineseExpatHousing';
 import BlogList from './components/pages/BlogList';
 import BlogPost from './components/pages/BlogPost';
 import LandingPage from './components/pages/LandingPage';
+import Relocation from './components/pages/Relocation';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/residences" element={<Residences />} />
+          <Route path="/residences/relocation" element={<Relocation />} />
           <Route path="/sandane-homes" element={<SandaneHomes />} />
           <Route path="/amara" element={<Amara />} />
           <Route path="/amaaltash" element={<Amaaltash />} />

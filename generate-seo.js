@@ -73,6 +73,27 @@ const SEO_MAP = {
     title: 'Luxury Serviced Apartments Greater Noida | Sandane Homes',
     description: 'Fully furnished luxury serviced apartments in Greater Noida for expats & professionals. Daily housekeeping and utilities included. Just arrive.',
   },
+  '/residences/relocation': {
+    title: 'Sandane Homes Relocation Services | Corporate & Expat Relocation Greater Noida',
+    description: 'Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. 24-hr FRRO address verification, fully furnished luxury apartments, B2B GST invoicing & concierge.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+    schemas: [{
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Sandane Homes Relocation Services",
+      "serviceType": "Corporate & Expat Relocation",
+      "provider": {
+        "@type": "Organization",
+        "name": "Residences by Sandane Homes",
+        "url": "https://www.sandanehomes.com/residences"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Greater Noida, Uttar Pradesh, India"
+      },
+      "description": "Comprehensive corporate relocation services for international expats and executives moving to Greater Noida. Includes FRRO registration support, turnkey furnished apartments, airport pickup, and B2B GST master billing."
+    }]
+  },
   '/korean-expat-housing-delhi-ncr': {
     title: 'Korean Expat Housing in Delhi NCR | Serviced Apartments near Samsung, LG | Sandane',
     description: 'Premium serviced apartments for Korean expats in Greater Noida & Delhi NCR. Near Samsung R&D, LG Electronics, Korean mart. FRRO help, corporate billing, daily housekeeping. 한국인 주재원 아파트.',
@@ -523,7 +544,7 @@ function buildSitemapXml() {
   xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
   // Main Pages
-  const mainPages = ['/residences', '/sandane-homes', '/amara', '/amaaltash', '/saffron', '/glam', '/pine-tales', '/coco-house', '/blog', '/faqs'];
+  const mainPages = ['/residences', '/residences/relocation', '/sandane-homes', '/amara', '/amaaltash', '/saffron', '/glam', '/pine-tales', '/coco-house', '/blog', '/faqs'];
   mainPages.forEach((route) => {
     const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;

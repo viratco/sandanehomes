@@ -177,6 +177,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                     <div className="dropdown-container">
                                         <ul className="dropdown-list">
                                             <li><Link to="/residences" onClick={() => setIsMobileMenuOpen(false)}>RESIDENCES BY SANDANE</Link></li>
+                                            <li><Link to="/residences/relocation" onClick={() => setIsMobileMenuOpen(false)}>RELOCATION SERVICES</Link></li>
                                         </ul>
                                     </div>
                                 )}
