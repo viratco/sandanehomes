@@ -423,6 +423,10 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'coco-house-auto-guide-749892',
+  'amaaltash-by-sandane-homes-auto-guide-749892',
+  'the-glam-by-sandane-homes-auto-guide-749892',
+  'residences-by-sandane-homes-auto-guide-749892',
   'coco-house-auto-guide-798702',
   'amaaltash-by-sandane-homes-auto-guide-798702',
   'the-glam-by-sandane-homes-auto-guide-798702',
