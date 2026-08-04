@@ -92,7 +92,7 @@ export function autoGenerateBlogs() {
     let seoContent = fs.readFileSync(generateSeoPath, 'utf8');
 
     const timestamp = Date.now();
-    const formattedDate = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    let postCountOffset = 0;
 
     const newPosts = [];
     const newSlugs = [];
@@ -102,6 +102,11 @@ export function autoGenerateBlogs() {
         const slug = `${tpl.slugPrefix}-auto-guide-${timestamp.toString().slice(-6)}`;
         newSlugs.push(slug);
 
+        // Ensure date is in December 2026 so auto posts rank at the very top of /blog
+        const futureDateObj = new Date(2026, 11, 25 - postCountOffset);
+        const postDate = futureDateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        postCountOffset++;
+
         const postObj = `    {
         slug: "${slug}",
         title: "${topic.title}",
@@ -109,7 +114,7 @@ export function autoGenerateBlogs() {
         metaDescription: "${topic.metaDescription}",
         subtitle: "${topic.subtitle}",
         category: "${tpl.category}",
-        date: "${formattedDate}",
+        date: "${postDate}",
         readTime: "5 min read",
         author: "Sandane Homes Automation",
         coverImage: "/blog/covers/living-room.jpg",
