@@ -1,19 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import ExpatPopupBar from '../ExpatPopupBar';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG';
-import imgLivingRoom from '../../assets/IMG_7272.jpg';
-import imgTopRight from '../../assets/livingroom.jpeg';
-import imgRecreation from '../../assets/services_recreation.jpeg';
 import './Relocation.css';
 import { 
-  FaPlaneArrival, FaBuilding, FaPassport, FaFileInvoiceDollar, 
-  FaWifi, FaShieldHalved, FaCar, FaUtensils, FaGraduationCap, 
-  FaHospital, FaSquareCheck, FaChevronRight, FaPlus, 
-  FaWhatsapp, FaEnvelope, FaLocationDot, FaBed, FaCouch, 
-  FaBroom, FaPhone, FaHandshake, FaGlobe, FaHouseUser
+  FaPassport, FaFileInvoiceDollar, FaPlaneArrival, FaBuilding, 
+  FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, 
+  FaBottleWater, FaWifi, FaScrewdriverWrench, FaLocationDot, 
+  FaShieldHalved, FaPlus, FaWhatsapp, FaEnvelope, FaGlobe, 
+  FaHouseUser, FaHandshake, FaChevronRight, FaCheck
 } from 'react-icons/fa6';
 
 const Relocation = () => {
@@ -30,9 +27,17 @@ const Relocation = () => {
     }
   };
 
+  useEffect(() => {
+    if (window.location.hash === '#contact-section' || window.location.hash === '#footer-contact-section') {
+      setTimeout(() => {
+        scrollToContact();
+      }, 300);
+    }
+  }, []);
+
   const seoProps = {
     title: "Sandane Homes Relocation Services | Corporate & Expat Relocation Greater Noida",
-    description: "Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. 24-hr FRRO address verification, fully furnished luxury apartments, B2B GST invoicing & concierge.",
+    description: "Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. Fully furnished luxury 2BHK & 3BHK apartments, B2B GST invoicing, 300 Mbps WiFi & concierge.",
     canonical: "https://www.sandanehomes.com/residences/relocation",
     ogImage: "https://www.sandanehomes.com/residences-og.jpg",
     schema: {
@@ -49,7 +54,7 @@ const Relocation = () => {
         "@type": "AdministrativeArea",
         "name": "Greater Noida, Uttar Pradesh, India"
       },
-      "description": "Comprehensive corporate relocation services for international expats and executives moving to Greater Noida. Includes FRRO registration support, turnkey furnished apartments, airport pickup, and B2B GST master billing."
+      "description": "Comprehensive corporate relocation services for international expats and executives moving to Greater Noida. Includes turnkey furnished apartments, airport pickup, 300 Mbps WiFi, and B2B GST master billing."
     }
   };
 
@@ -58,14 +63,14 @@ const Relocation = () => {
       flag: "🇯🇵",
       title: "Japanese Corporate Teams",
       subtitle: "Honda, Yamaha, Canon & Suppliers",
-      desc: "Tailored housing solutions with 24/7 gated security inside Ansal Golf Links-1, quiet work environments, Japanese cuisine arrangements, and complete FRRO visa assistance.",
+      desc: "Tailored housing solutions with 24/7 gated security inside Ansal Golf Links-1, quiet work environments, Japanese cuisine arrangements, and dedicated expat care.",
       hubs: "Surajpur Industrial Area & Yamuna Expressway"
     },
     {
       flag: "🇰🇷",
       title: "Korean Executive Teams",
       subtitle: "Samsung, LG, Hyundai Supply Chain",
-      desc: "Full-service 2BHK & 3BHK residences with Korean breakfast options, 300 Mbps fiber internet, rapid FRRO documentation, and daily housekeeping.",
+      desc: "Full-service 2BHK & 3BHK residences with Korean breakfast options, 300 Mbps fiber internet, daily housekeeping, and 24/7 maintenance dispatch.",
       hubs: "Noida Expressway & Knowledge Park"
     },
     {
@@ -86,32 +91,32 @@ const Relocation = () => {
 
   const processSteps = [
     {
-      step: "01",
+      step: "PHASE 01",
       title: "Pre-Arrival Planning",
       desc: "Virtual 4K video walkthroughs, floorplan selection, custom lease drafting, and advance B2B GST tax invoice coordination for corporate HR.",
       bullets: ["Virtual 4K apartment tours", "Corporate lease customization", "Advance GST invoice generation"]
     },
     {
-      step: "02",
+      step: "PHASE 02",
       title: "Seamless Arrival & Handover",
       desc: "Private airport pickup coordination from IGI Airport / Jewar Corridor, 24/7 key handover, and welcome kit with local SIM card & currency guidance.",
       bullets: ["Private chauffeur airport transfer", "24/7 key handover & orientation", "Welcome SIM & essentials kit"]
     },
     {
-      step: "03",
-      title: "First-Week Compliance",
-      desc: "Official FRRO address proof and tenancy documents issued within 24 hours of arrival. Direct guidance for local bank account opening.",
-      bullets: ["24-hr FRRO address verification", "Bank account opening support", "Neighborhood orientation tour"]
+      step: "PHASE 03",
+      title: "Arrival & Settlement Onboarding",
+      desc: "Personalized apartment walkthrough, 300 Mbps fiber internet activation, neighborhood orientation tour, and local area essentials guidance.",
+      bullets: ["Turnkey apartment handover", "Local area orientation tour", "Bank & SIM setup assistance"]
     },
     {
-      step: "04",
+      step: "PHASE 04",
       title: "Ongoing Concierge Care",
       desc: "Daily housekeeping, 300 Mbps WiFi management, emergency maintenance dispatch, school admission advisory, and smooth lease renewals.",
       bullets: ["Daily housekeeping & laundry", "24/7 emergency maintenance", "International school advisory"]
     }
   ];
 
-  const packageCategories = [
+  const packagePillars = [
     {
       icon: <FaHouseUser />,
       title: "Turnkey Living & Comfort",
@@ -125,15 +130,15 @@ const Relocation = () => {
       ]
     },
     {
-      icon: <FaPassport />,
-      title: "Legal & Corporate Accounting",
+      icon: <FaFileInvoiceDollar />,
+      title: "Corporate Accounting & Support",
       items: [
-        "Official FRRO address proof within 24 hrs",
         "Consolidated single B2B GST master invoice",
         "Flexible corporate lease terms (1–24 months)",
         "Security deposit protection & refund guarantee",
         "Bank account opening assistance",
-        "Direct corporate billing coordination"
+        "Direct corporate billing coordination",
+        "24/7 Property upkeep & maintenance"
       ]
     },
     {
@@ -154,7 +159,7 @@ const Relocation = () => {
     { name: "Honda Cars India Plant", dist: "5 km • 10 min drive" },
     { name: "Samsung Electronics HQ", dist: "8 km • 12 min drive" },
     { name: "LG Electronics Plant", dist: "8 km • 12 min drive" },
-    { name: "Vivo / OPPO Hubs", dist: "12 km • 15 min drive" },
+    { name: "Vivo / OPPO Mobile Hubs", dist: "12 km • 15 min drive" },
     { name: "India Expo Mart", dist: "8 min signal-free drive" },
     { name: "Pari Chowk Metro Station", dist: "5 min drive" },
     { name: "Noida International Airport (Jewar)", dist: "35 min corridor drive" },
@@ -163,8 +168,8 @@ const Relocation = () => {
 
   const faqs = [
     {
-      q: "Do you issue official FRRO address verification documents?",
-      a: "Yes. Within 24 hours of arrival, Residences by Sandane Homes provides complete notarized tenancy contracts and official landlord Form C / address verification documents required for FRRO registration."
+      q: "What amenities are included in the serviced apartments?",
+      a: "All relocation apartments include 300 Mbps fiber WiFi, daily housekeeping, 100% dual-grid power backup, fully equipped kitchens, air purifiers, and 24/7 gated security inside Ansal Golf Links-1."
     },
     {
       q: "Can lease payments be billed directly to our corporate entity with GST?",
@@ -189,131 +194,112 @@ const Relocation = () => {
   ];
 
   return (
-    <div className="reloc-page">
+    <div className="reloc-portal">
       <SEO {...seoProps} />
       <Header />
       <ExpatPopupBar />
 
-      {/* Hero Section */}
-      <section className="reloc-hero" style={{ backgroundImage: `url(${heroBg})` }}>
-        <div className="reloc-hero-overlay"></div>
-        <div className="reloc-hero-content">
-          <div className="reloc-badge">
-            <FaHandshake /> Corporate & Expat Relocation
+      {/* Split Cinema Hero Section */}
+      <section className="reloc-hero-split">
+        <div className="reloc-hero-left">
+          <div className="reloc-gold-badge">
+            <FaHandshake /> 360° Corporate Relocation Support
           </div>
-          <h1 className="reloc-hero-title">
-            Move to India, <span>Stress-Free.</span>
+          <h1 className="reloc-hero-h1">
+            Seamless Expat Relocation to <span>Greater Noida.</span>
           </h1>
-          <p className="reloc-hero-subtitle">
-            Complete end-to-end relocation support for Japanese, Korean, Chinese & MNC expat executives and their families in Greater Noida. Managed by <strong>Residences by Sandane Homes</strong>.
+          <p className="reloc-hero-p">
+            Turnkey executive housing, B2B GST master invoicing, and full lifestyle concierge for Japanese, Korean, Chinese & MNC corporate teams. Managed by <strong>Residences by Sandane Homes</strong>.
           </p>
-          <div className="reloc-hero-actions">
-            <a href="#reloc-package" className="reloc-btn-primary">
-              View Relocation Package <FaChevronRight />
+          <div className="reloc-hero-cta-group">
+            <a href="https://wa.me/919711722273?text=Hello%2C%20I%20am%20interested%20in%20Sandane%20Homes%20Relocation%20Services%20for%20our%20corporate%20team." target="_blank" rel="noopener noreferrer" className="reloc-btn-gold">
+              <FaWhatsapp /> Request Corporate Proposal
             </a>
-            <a href="https://wa.me/919711722273?text=Hello%2C%20I%20am%20interested%20in%20Sandane%20Homes%20Relocation%20Services%20for%20our%20corporate%20team." target="_blank" rel="noopener noreferrer" className="reloc-btn-secondary">
-              <FaWhatsapp /> Contact Relocation Specialist
+            <a href="#reloc-roadmap" className="reloc-btn-outline">
+              Explore 4-Step Process <FaChevronRight />
             </a>
+          </div>
+        </div>
+        <div className="reloc-hero-right">
+          <img src={heroBg} alt="Sandane Relocation Executive Living" className="reloc-hero-img-fill" />
+          <div className="reloc-hero-glass-badge">
+            <h4>Turnkey Executive Housing</h4>
+            <p>Fully furnished 2BHK & 3BHK residences with daily housekeeping & 300 Mbps fiber internet.</p>
           </div>
         </div>
       </section>
 
-      {/* Metrics Bar */}
-      <section className="reloc-stats-bar">
-        <div className="reloc-stats-grid">
-          <div className="reloc-stat-item">
-            <h3>24 Hours</h3>
-            <p>FRRO Address Proof Issuance</p>
-          </div>
-          <div className="reloc-stat-item">
-            <h3>100% Turnkey</h3>
-            <p>Furnished & Serviced Apartments</p>
-          </div>
-          <div className="reloc-stat-item">
-            <h3>Single B2B</h3>
-            <p>GST Master Tax Billing</p>
-          </div>
-          <div className="reloc-stat-item">
-            <h3>24/7 Care</h3>
-            <p>Multilingual Expat Concierge</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Who We Relocate */}
-      <section className="reloc-section">
-        <div className="reloc-section-header">
-          <span className="reloc-section-tag">Target Corporate Demographics</span>
-          <h2 className="reloc-section-title">Specialized Relocation for International Corporate Teams</h2>
-          <p className="reloc-section-desc">
-            We understand the distinct cultural, culinary, security, and administrative needs of global professionals moving to NCR's prime industrial corridor.
+      {/* Target Demographics Section */}
+      <section className="reloc-portal-section">
+        <div className="reloc-portal-header">
+          <span className="reloc-tag">Corporate Expat Solutions</span>
+          <h2 className="reloc-h2">Specialized Relocation for Global Industries</h2>
+          <p className="reloc-p">
+            Tailored to the unique culinary, security, and housing requirements of corporate expatriates moving to NCR's primary manufacturing belt.
           </p>
         </div>
-        <div className="reloc-personas-grid">
+        <div className="reloc-persona-row">
           {personas.map((item, idx) => (
-            <div key={idx} className="reloc-persona-card">
-              <div className="reloc-persona-header">
-                <span className="reloc-persona-flag">{item.flag}</span>
+            <div key={idx} className="reloc-persona-box">
+              <div className="reloc-persona-top">
+                <div className="reloc-persona-flag-circle">{item.flag}</div>
                 <div>
-                  <h3 className="reloc-persona-title">{item.title}</h3>
-                  <div className="reloc-persona-subtitle">{item.subtitle}</div>
+                  <div className="reloc-persona-name">{item.title}</div>
+                  <div className="reloc-persona-sub">{item.subtitle}</div>
                 </div>
               </div>
-              <p className="reloc-persona-body">{item.desc}</p>
-              <div className="reloc-persona-hubs">
-                <div className="reloc-persona-hubs-title">Key Industrial Corridors:</div>
-                <div className="reloc-persona-hubs-list">{item.hubs}</div>
+              <p className="reloc-persona-desc">{item.desc}</p>
+              <div className="reloc-persona-pill">
+                Key Industrial Hubs: {item.hubs}
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Interactive Process Timeline */}
-      <section className="reloc-section" style={{ padding: '0 24px' }}>
-        <div className="reloc-timeline-section">
-          <div className="reloc-section-header">
-            <span className="reloc-section-tag" style={{ color: '#C5A572' }}>Seamless 4-Step Journey</span>
-            <h2 className="reloc-section-title">Our End-to-End Relocation Process</h2>
-            <p className="reloc-section-desc">
-              From your initial inquiry to long-term community living, we ensure zero friction for your corporate HR and relocating employees.
-            </p>
-          </div>
-          <div className="reloc-steps-grid">
-            {processSteps.map((step, idx) => (
-              <div key={idx} className="reloc-step-card">
-                <div className="reloc-step-number">{step.step}</div>
-                <h3 className="reloc-step-title">{step.title}</h3>
-                <p className="reloc-step-desc">{step.desc}</p>
-                <ul className="reloc-step-bullets">
-                  {step.bullets.map((b, bIdx) => (
-                    <li key={bIdx}>{b}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+      {/* 4-Step Relocation Roadmap */}
+      <section className="reloc-portal-section" id="reloc-roadmap" style={{ background: '#FFFFFF', borderRadius: '32px', padding: '80px 5%' }}>
+        <div className="reloc-portal-header">
+          <span className="reloc-tag">Step-by-Step Onboarding</span>
+          <h2 className="reloc-h2">Our 4-Phase Relocation Roadmap</h2>
+          <p className="reloc-p">
+            From pre-flight housing selection to daily expat concierge care, we manage the entire transition.
+          </p>
+        </div>
+        <div className="reloc-roadmap-grid">
+          {processSteps.map((step, idx) => (
+            <div key={idx} className="reloc-roadmap-card">
+              <div className="reloc-roadmap-node">{step.step}</div>
+              <h3 className="reloc-roadmap-title">{step.title}</h3>
+              <p className="reloc-roadmap-desc">{step.desc}</p>
+              <ul className="reloc-roadmap-check">
+                {step.bullets.map((b, bIdx) => (
+                  <li key={bIdx}><FaCheck /> {b}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Package Features */}
-      <section className="reloc-section" id="reloc-package">
-        <div className="reloc-section-header">
-          <span className="reloc-section-tag">Complete Package</span>
-          <h2 className="reloc-section-title">What is Included in Sandane Homes Relocation Services</h2>
-          <p className="reloc-section-desc">
-            Everything your executives and families need for immediate comfort, legal compliance, and operational peace of mind.
+      {/* Feature Checklist Pillars */}
+      <section className="reloc-portal-section">
+        <div className="reloc-portal-header">
+          <span className="reloc-tag">All-Inclusive Services</span>
+          <h2 className="reloc-h2">What is Included in Your Relocation Package</h2>
+          <p className="reloc-p">
+            Everything your executives and families need for total comfort, hassle-free stays, and corporate accounting ease.
           </p>
         </div>
-        <div className="reloc-package-grid">
-          {packageCategories.map((cat, idx) => (
-            <div key={idx} className="reloc-package-card">
-              <div className="reloc-package-icon">{cat.icon}</div>
-              <h3 className="reloc-package-title">{cat.title}</h3>
-              <ul className="reloc-package-list">
-                {cat.items.map((item, itemIdx) => (
+        <div className="reloc-pillars-grid">
+          {packagePillars.map((pillar, idx) => (
+            <div key={idx} className="reloc-pillar-card">
+              <div className="reloc-pillar-icon">{pillar.icon}</div>
+              <h3 className="reloc-pillar-h3">{pillar.title}</h3>
+              <ul className="reloc-pillar-ul">
+                {pillar.items.map((item, itemIdx) => (
                   <li key={itemIdx}>
-                    <FaSquareCheck /> {item}
+                    <FaCheck /> {item}
                   </li>
                 ))}
               </ul>
@@ -322,65 +308,22 @@ const Relocation = () => {
         </div>
       </section>
 
-      {/* Residence Accommodation Options */}
-      <section className="reloc-section" style={{ background: '#FFFFFF', borderRadius: '32px', padding: '80px 24px', margin: '40px auto', maxWidth: '1240px' }}>
-        <div className="reloc-section-header">
-          <span className="reloc-section-tag">Featured Accommodations</span>
-          <h2 className="reloc-section-title">Residences by Sandane Homes Portfolio</h2>
-          <p className="reloc-section-desc">
-            Nestled inside gated Ansal Golf Links-1, Greater Noida with 24-hr security, private balconies, and lush green views.
+      {/* Industrial Proximity Radar Grid */}
+      <section className="reloc-portal-section" style={{ background: '#112823', borderRadius: '32px', padding: '80px 5%', color: '#ffffff' }}>
+        <div className="reloc-portal-header">
+          <span className="reloc-tag" style={{ color: '#C5A572' }}>Strategic Connectivity</span>
+          <h2 className="reloc-h2" style={{ color: '#ffffff' }}>Minutes from Major Manufacturing Hubs</h2>
+          <p className="reloc-p" style={{ color: '#D1DED9' }}>
+            Situated inside gated Ansal Golf Links-1, enjoying fast signal-free commutes to leading multinational plants.
           </p>
         </div>
-        <div className="reloc-residences-grid">
-          <div className="reloc-residence-card">
-            <img src={imgLivingRoom} alt="2BHK Executive Serviced Apartment" className="reloc-residence-img" />
-            <div className="reloc-residence-body">
-              <span className="reloc-residence-tag">Single Executive & Couples</span>
-              <h3 className="reloc-residence-title">2BHK Executive Serviced Apartment</h3>
-              <p className="reloc-residence-desc">
-                Spacious living room, master bedroom with ergonomic workspace, high-speed 300 Mbps WiFi, private kitchen, and daily housekeeping.
-              </p>
-              <div className="reloc-residence-features">
-                <div className="reloc-residence-feature"><FaBed /> 2 Bedrooms</div>
-                <div className="reloc-residence-feature"><FaCouch /> Fully Furnished</div>
-                <div className="reloc-residence-feature"><FaBroom /> Daily Housekeeping</div>
-              </div>
-            </div>
-          </div>
-          <div className="reloc-residence-card">
-            <img src={imgTopRight} alt="3BHK Luxury Family Residence" className="reloc-residence-img" />
-            <div className="reloc-residence-body">
-              <span className="reloc-residence-tag">Expat Family Residence</span>
-              <h3 className="reloc-residence-title">3BHK Luxury Family Residence</h3>
-              <p className="reloc-residence-desc">
-                Expansive layout featuring 3 ensuite bedrooms, dining hall, modern kitchen, air purifiers, and 24/7 gated security for relocating families.
-              </p>
-              <div className="reloc-residence-features">
-                <div className="reloc-residence-feature"><FaBed /> 3 Bedrooms</div>
-                <div className="reloc-residence-feature"><FaShieldHalved /> 24/7 Security</div>
-                <div className="reloc-residence-feature"><FaUtensils /> Full Kitchen</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Proximity / Distance Grid */}
-      <section className="reloc-section">
-        <div className="reloc-section-header">
-          <span className="reloc-section-tag">Strategic Location</span>
-          <h2 className="reloc-section-title">Minutes from Major Industrial & Airport Hubs</h2>
-          <p className="reloc-section-desc">
-            Situated in Ansal Golf Links-1, enjoy signal-free connectivity to top manufacturing plants, exhibition centers, and metro lines.
-          </p>
-        </div>
-        <div className="reloc-proximity-grid">
+        <div className="reloc-radar-grid">
           {proximities.map((item, idx) => (
-            <div key={idx} className="reloc-proximity-item">
-              <div className="reloc-proximity-icon"><FaLocationDot /></div>
+            <div key={idx} className="reloc-radar-card">
+              <div className="reloc-radar-icon"><FaLocationDot /></div>
               <div>
-                <div className="reloc-proximity-name">{item.name}</div>
-                <div className="reloc-proximity-dist">{item.dist}</div>
+                <div className="reloc-radar-title">{item.name}</div>
+                <div className="reloc-radar-time">{item.dist}</div>
               </div>
             </div>
           ))}
@@ -388,23 +331,23 @@ const Relocation = () => {
       </section>
 
       {/* FAQ Accordion */}
-      <section className="reloc-section">
-        <div className="reloc-section-header">
-          <span className="reloc-section-tag">Frequently Asked Questions</span>
-          <h2 className="reloc-section-title">Corporate & Expat Relocation FAQs</h2>
-          <p className="reloc-section-desc">
-            Common questions regarding lease terms, FRRO documentation, B2B invoicing, and relocation logistics.
+      <section className="reloc-portal-section">
+        <div className="reloc-portal-header">
+          <span className="reloc-tag">Frequently Asked Questions</span>
+          <h2 className="reloc-h2">Corporate & Expat Relocation FAQs</h2>
+          <p className="reloc-p">
+            Common questions regarding lease terms, serviced amenities, B2B invoicing, and relocation logistics.
           </p>
         </div>
-        <div className="reloc-faq-container">
+        <div className="reloc-accordion">
           {faqs.map((faq, idx) => (
-            <div key={idx} className={`reloc-faq-item ${activeFaq === idx ? 'active' : ''}`}>
-              <button className="reloc-faq-question" onClick={() => toggleFaq(idx)}>
+            <div key={idx} className={`reloc-acc-item ${activeFaq === idx ? 'active' : ''}`}>
+              <button className="reloc-acc-btn" onClick={() => toggleFaq(idx)}>
                 <span>{faq.q}</span>
-                <span className="reloc-faq-icon"><FaPlus /></span>
+                <span className="reloc-acc-icon"><FaPlus /></span>
               </button>
               {activeFaq === idx && (
-                <div className="reloc-faq-answer">
+                <div className="reloc-acc-body">
                   <p>{faq.a}</p>
                 </div>
               )}
@@ -413,19 +356,29 @@ const Relocation = () => {
         </div>
       </section>
 
-      {/* CTA Footer Banner */}
-      <section className="reloc-section" style={{ padding: '0 24px' }}>
-        <div className="reloc-cta-banner">
-          <h2>Ready to Plan Your Corporate Relocation?</h2>
-          <p>
-            Connect with our dedicated relocation manager for custom corporate proposals, virtual apartment tours, and corporate lease structuring.
+      {/* Contact Section */}
+      <section className="reloc-portal-section" id="footer-contact-section" style={{ paddingBottom: '90px' }}>
+        <div style={{ background: 'linear-gradient(135deg, #112823 0%, #1A3C34 100%)', borderRadius: '32px', padding: '70px 40px', color: '#ffffff', textAlign: 'center', boxShadow: '0 20px 50px rgba(17, 40, 35, 0.25)' }}>
+          <h2 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 'clamp(2rem, 3.5vw, 3rem)', color: '#ffffff', marginBottom: '18px' }}>
+            Plan Your Corporate Relocation Proposal
+          </h2>
+          <p style={{ fontSize: '1.1rem', color: '#D1DED9', maxWidth: '700px', margin: '0 auto 36px auto', lineHeight: '1.65' }}>
+            Connect with our dedicated corporate relocation manager for customized executive housing proposals, virtual apartment tours, and corporate lease terms.
           </p>
-          <div className="reloc-cta-buttons">
-            <a href="https://wa.me/919711722273?text=Hello%2C%20I%20would%20like%20to%20request%20a%20relocation%20proposal%20for%20our%20company." target="_blank" rel="noopener noreferrer" className="reloc-btn-primary">
+          <div style={{ display: 'flex', gap: '18px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <a
+              href="https://wa.me/919711722273?text=Hello%2C%20I%20would%20like%20to%20request%20a%20relocation%20proposal%20for%20our%20company."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="reloc-btn-gold"
+            >
               <FaWhatsapp /> Chat on WhatsApp (+91 97117 22273)
             </a>
-            <a href="mailto:sandanehomes@gmail.com?subject=Relocation%20Services%20Inquiry" className="reloc-btn-secondary">
-              <FaEnvelope /> Email Corporate HR Team
+            <a
+              href="mailto:sandanehomes@gmail.com?subject=Corporate%20Relocation%20Inquiry"
+              className="reloc-btn-outline"
+            >
+              <FaEnvelope /> Email Corporate HR
             </a>
           </div>
         </div>

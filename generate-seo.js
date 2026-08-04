@@ -75,7 +75,7 @@ const SEO_MAP = {
   },
   '/residences/relocation': {
     title: 'Sandane Homes Relocation Services | Corporate & Expat Relocation Greater Noida',
-    description: 'Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. 24-hr FRRO address verification, fully furnished luxury apartments, B2B GST invoicing & concierge.',
+    description: 'Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. Fully furnished luxury apartments, B2B GST invoicing, 300 Mbps WiFi & concierge.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
     schemas: [{
       "@context": "https://schema.org",
@@ -91,7 +91,7 @@ const SEO_MAP = {
         "@type": "AdministrativeArea",
         "name": "Greater Noida, Uttar Pradesh, India"
       },
-      "description": "Comprehensive corporate relocation services for international expats and executives moving to Greater Noida. Includes FRRO registration support, turnkey furnished apartments, airport pickup, and B2B GST master billing."
+      "description": "Comprehensive corporate relocation services for international expats and executives moving to Greater Noida. Includes turnkey furnished apartments, airport pickup, 300 Mbps WiFi, and B2B GST master billing."
     }]
   },
   '/korean-expat-housing-delhi-ncr': {
