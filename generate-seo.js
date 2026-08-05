@@ -423,6 +423,10 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'residences-by-sandane-homes-luxury-villas-japanese-korean-expats-greater-noida',
+  'residences-by-sandane-homes-korean-luxury-villas-guide',
+  'residences-by-sandane-homes-japanese-luxury-villas-guide',
+  'residences-by-sandane-homes-chinese-luxury-villas-guide',
   'residences-by-sandane-homes-3bhk-luxury-serviced-apartments-japanese-korean-expats',
   'residences-by-sandane-homes-korean-3bhk-serviced-apartments-guide',
   'residences-by-sandane-homes-japanese-3bhk-serviced-apartments-guide',
