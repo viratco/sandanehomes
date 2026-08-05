@@ -423,6 +423,10 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'residences-by-sandane-homes-1bhk-luxury-serviced-apartments-japanese-korean-expats',
+  'residences-by-sandane-homes-korean-1bhk-serviced-apartments-guide',
+  'residences-by-sandane-homes-japanese-1bhk-serviced-apartments-guide',
+  'residences-by-sandane-homes-chinese-1bhk-serviced-apartments-guide',
   'coco-house-auto-guide-749892',
   'amaaltash-by-sandane-homes-auto-guide-749892',
   'the-glam-by-sandane-homes-auto-guide-749892',
