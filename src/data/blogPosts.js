@@ -5,6 +5,164 @@
 
 export const blogPosts = [
     {
+        slug: "residences-by-sandane-homes-2bhk-luxury-serviced-apartments-japanese-korean-expats",
+        title: "Residences by Sandane Homes: Luxury 2BHK Serviced Apartments & Family Residences for Japanese & Korean Expats in Greater Noida",
+        metaTitle: "2BHK Luxury Serviced Apartments Greater Noida for Japanese & Korean Expats | Sandane",
+        metaDescription: "Explore fully furnished 2BHK luxury serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1 Greater Noida. Perfect for Japanese & Korean corporate expat families with 300 Mbps WiFi, daily housekeeping & B2B GST invoicing.",
+        subtitle: "Complete guide to 2BHK luxury serviced apartments for corporate executives and expat families moving to Greater Noida.",
+        category: "Expat Housing",
+        date: "January 9, 2027",
+        readTime: "8 min read",
+        author: "Sandane Homes Expat Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Explore fully furnished 2BHK luxury serviced apartments at Residences by Sandane Homes in Ansal Golf Links-1 Greater Noida.",
+        content: [
+            { type: "paragraph", text: "For senior corporate executives, rotational technical teams, and expat families relocating to Greater Noida—home to global industrial giants like Honda Cars India, Yamaha, Samsung Electronics, LG Electronics, Vivo, and OPPO—spacious and secure living arrangements are essential. <a href='/residences'>Residences by Sandane Homes</a> offers luxury <strong>2BHK serviced apartments</strong> inside gated Ansal Golf Links-1, combining 5-star hospitality with the independence of home." },
+            { type: "heading", text: "Why Choose a 2BHK Serviced Apartment?" },
+            { type: "paragraph", text: "A 2BHK configuration is the ideal choice for executives needing a home office or extra space for family members and visiting colleagues." },
+            { type: "list", items: [
+                "<strong>Two Ensuite Bedrooms:</strong> Features twin master bedrooms with dedicated private bathrooms, plush king mattresses, and built-in wardrobes.",
+                "<strong>Expansive Living & Dining Hall:</strong> Includes a stylish lounge suite, dining table, HD smart TV, and private green balcony.",
+                "<strong>Full Chef's Kitchenette:</strong> Equipped with double-door refrigerator, microwave oven, RO water purifier, electric kettle, and complete cookware.",
+                "<strong>Dual Workstation Setup:</strong> High-speed 300 Mbps fiber WiFi across all rooms for uninterrupted corporate calls and remote work.",
+                "<strong>Daily Housekeeping & Laundry:</strong> Daily cleaning, 7-day personal laundry service, and twice-weekly linen changes."
+            ] },
+            { type: "heading", text: "Strategic Location & Industrial Commute Times" },
+            { type: "paragraph", text: "Located in the tranquil, gated enclave of Ansal Golf Links-1 with 24/7 security checkpoint control:" },
+            { type: "list", items: [
+                "<strong>Honda Cars & Surajpur Industrial Area:</strong> 10 minutes (5 km) via express corridors.",
+                "<strong>Samsung Electronics & LG Electronics HQ:</strong> 12 minutes (8 km) direct commute.",
+                "<strong>Vivo & OPPO Mobile Manufacturing Hubs:</strong> 15 minutes (12 km).",
+                "<strong>India Expo Mart & Knowledge Park:</strong> 8 minutes signal-free drive.",
+                "<strong>Noida International Airport Corridor (Jewar):</strong> 35 minutes via upcoming highway."
+            ] },
+            { type: "heading", text: "Corporate Accounting & Expat Services" },
+            { type: "paragraph", text: "We partner directly with corporate HR leads and relocation agencies, offering single B2B GST master tax invoicing, flexible lease durations (1 to 24 months), Japanese/Korean meal arrangements, and 24/7 on-site property maintenance." },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— Luxury Expat Residences" },
+            { type: "cta" }
+        ]
+    },
+    {
+        slug: "residences-by-sandane-homes-korean-2bhk-serviced-apartments-guide",
+        title: "Residences by Sandane Homes: 인도 노이다 2BHK 프리미엄 서비스 아파트 & 주재원 가족 주거 가이드",
+        metaTitle: "인도 노이다 2BHK 고급 서비스 아파트 & 한국인 주재원 가족 숙소 | Residences by Sandane Homes",
+        metaDescription: "인도 대노이다 Ansal Golf Links-1에 위치한 Residences by Sandane Homes의 2BHK 고급 서비스 아파트. 삼성, LG 한국인 주재원 및 가족을 위한 초고속 300 Mbps Wi-Fi, 24시간 보안, 매일 청소, 한식 조식, B2B GST 법인 세금계산서 지원.",
+        subtitle: "삼성, LG, 현대를 비롯한 대노이다 한국 기업 주재원 임원 및 가족을 위한 2BHK 아파트 가이드.",
+        category: "Expat Housing",
+        date: "January 8, 2027",
+        readTime: "8분",
+        author: "Sandane Homes Expat Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "ko",
+        excerpt: "인도 대노이다 Ansal Golf Links-1에 위치한 Residences by Sandane Homes의 2BHK 고급 서비스 아파트 가이드.",
+        content: [
+            { type: "paragraph", text: "인도 대노이다(Greater Noida)에 파견되는 한국 기업 주재원 임원, 가족 및 출장 팀을 위해 <a href='/residences'>Residences by Sandane Homes</a>는 넓고 쾌적한 <strong>2BHK 고급 서비스 아파트</strong>를 제공합니다. 삼성전자, LG전자, 현대자동차 협력사가 집중된 산업 단지 출퇴근이 매우 용이합니다." },
+            { type: "heading", text: "한국인 주재원 가족을 위한 2BHK 레지던스 특징" },
+            { type: "paragraph", text: "독립된 2개의 침실과 거실, 독립 주방 공간으로 가족 단위 주재원 및 임원 출장팀에 최적입니다." },
+            { type: "list", items: [
+                "<strong>2개의 마스터 침실 & 욕실:</strong> 2개의 침실에 각각 전용 욕실이 연결되어 있어 가족이나 2인 주재원 출장팀이 독립된 개인 공간을 누릴 수 있습니다.",
+                "<strong>넓은 거실 및 식당:</strong> 고급 소파 세트, 식탁, 스마트 TV, 발코니 정원 조망 제공.",
+                "<strong>풀옵션 정수 주방:</strong> RO 역삼투압 정수기, 양문형 냉장고, 전자레인지, 온·냉수 디스펜서, 풀 세트 식기 구비.",
+                "<strong>300 Mbps 초고속 광Wi-Fi:</strong> 한국 본사 업무 및 자녀 온라인 학습에 최적화된 안정적인 통신 인프라.",
+                "<strong>일일 청소 및 세탁 서비스:</strong> 매일 청소, 주 2회 침구 교체, 개인 의류 세탁 서비스 포함."
+            ] },
+            { type: "heading", text: "삼성·LG 공장 및 출퇴근 안내" },
+            { type: "paragraph", text: "24시간 경비원이 출입을 통제하는 게이티드 고급 주거 단지 Ansal Golf Links-1 입지:" },
+            { type: "list", items: [
+                "<strong>삼성전자 HQ & LG전자 생산공장:</strong> 차량 12분 (8km).",
+                "<strong>혼다·야마하 및 수라주푸르 산업단지:</strong> 차량 10분 (5km).",
+                "<strong>인디아 엑스포 마트 (India Expo Mart):</strong> 차량 8분.",
+                "<strong>노이다 국제공항 (Jewar Airport Corridor):</strong> 차량 35분."
+            ] },
+            { type: "heading", text: "법인 GST 세금계산서 및 한식 지원" },
+            { type: "paragraph", text: "한국 기업 법인 회계용 B2B GST 마스터 세금계산서를 즉시 발급하며, 요청 시 정갈한 한식 조식 및 식사 손수 배달 서비스가 지원됩니다." },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— 한국인 주재원 전용 2BHK 숙소" },
+            { type: "cta" }
+        ]
+    },
+    {
+        slug: "residences-by-sandane-homes-japanese-2bhk-serviced-apartments-guide",
+        title: "Residences by Sandane Homes: インド・大ノイダの日本人駐在員・ご家族向け2BHK高級サービスアパート完全ガイド",
+        metaTitle: "インド大ノイダ 日本人駐在員ファミリー向け2BHKサービスアパート | Residences by Sandane Homes",
+        metaDescription: "ホンダ、ヤマハ、パナソニック等日系企業駐在員とご家族向け2BHK高級サービスアパート。大ノイダAnsal Golf Links-1、家具家電付き、300 Mbps光WiFi、毎日清掃、日本食対応、B2B GST法人請求。",
+        subtitle: "ホンダ・ヤマハなど大ノイダ赴任の日本人駐在員・ご家族向け2BHKレジデンス完全ガイド。",
+        category: "Expat Housing",
+        date: "January 7, 2027",
+        readTime: "8分",
+        author: "Sandane Homes Expat Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "ja",
+        excerpt: "インド大ノイダ赴任の日本人駐在員・ご家族向け2BHK高級サービスアパート完全ガイド。",
+        content: [
+            { type: "paragraph", text: "インド・デリーNCRおよび大ノイダ（Greater Noida）へご家族同伴または複数名で赴任される日系企業（ホンダ・ヤマハ・パナソニック等）の駐在員・エグゼクティブの方々のために、<a href='/residences'>Residences by Sandane Homes</a>は広々とした<strong>2BHK高級サービスアパートメント</strong>をご用意しております。" },
+            { type: "heading", text: "日本人ファミリー・駐在員に選ばれる2BHKの特徴" },
+            { type: "paragraph", text: "2つの独立した主寝室と広大なリビングルーム、専用キッチンを備え、プライバシーと快適性を両立します。" },
+            { type: "list", items: [
+                "<strong>2つの独立したベッドルーム＆専用バスルーム:</strong> 主寝室ごとに専用バスタブ/シャワー付きトイレを備え、ご家族や同僚との共同生活も快適です。",
+                "<strong>広々としたリビング＆ダイニング:</strong> 上質なソファセット、ダイニングテーブル、バルコニー、スマートテレビを完備。",
+                "<strong>フル装備の専用キッチン:</strong> RO反滲透浄水器、大型冷蔵庫、電子レンジ、電気ケトル、冷温水ディスペンサー、調理器具一式。",
+                "<strong>300 Mbps光WiFi＆書斎環境:</strong> 日本本社とのWeb会議やご家族の動画視聴も快適な通信環境。",
+                "<strong>毎日ハウスキーピング＆洗濯:</strong> 週7日の掃除、週2回のシーツ交換、衣類洗濯サービス込み。"
+            ] },
+            { type: "heading", text: "主要日系工場への車アクセス" },
+            { type: "paragraph", text: "24時間警備員が常駐する高級タウンシップAnsal Golf Links-1内:" },
+            { type: "list", items: [
+                "<strong>ホンダ・カーズ・インディア＆Surajpur工業団地:</strong> 車で10分（5 km）。",
+                "<strong>ヤマハ発動機・パナソニック関連施設:</strong> 車で12〜15分。",
+                "<strong>インディア・エキスポ・マート (India Expo Mart):</strong> 車で8分。",
+                "<strong>ノイダ国際空港（Jewar Airport Corridor）:</strong> 車で35分。"
+            ] },
+            { type: "heading", text: "法人B2B GST請求＆安心の日本語サポート" },
+            { type: "paragraph", text: "日系企業の経理要件を満たす単一B2B GST法人税金請求書を発行いたします。日本食のアレンジ手配や24時間体制のコンシェルジュサポートも万全です。" },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— 日本人駐在員・ご家族向け2BHKレジデンス" },
+            { type: "cta" }
+        ]
+    },
+    {
+        slug: "residences-by-sandane-homes-chinese-2bhk-serviced-apartments-guide",
+        title: "Residences by Sandane Homes: 大诺伊达2BHK豪华精装服务式公寓与外企高管及家庭宜居指南",
+        metaTitle: "大诺伊达2BHK外企高管及家庭服务式公寓 | Residences by Sandane Homes",
+        metaDescription: "位于大诺伊达Ansal Golf Links-1的高端2BHK双卧精装服务式公寓。专为Vivo、OPPO、小米等中资高管及家庭打造，配备300 Mbps光纤网络、每日清洁、B2B GST发票及24小时全天候安保。",
+        subtitle: "大诺伊达Ansal Golf Links-1高端封闭式社区内面向外企高管及家庭的2BHK双卧精装公寓。",
+        category: "Expat Housing",
+        date: "January 6, 2027",
+        readTime: "8分钟",
+        author: "Sandane Homes Expat Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "zh",
+        excerpt: "位于大诺伊达Ansal Golf Links-1的高端2BHK双卧精装服务式公寓完全指南。",
+        content: [
+            { type: "paragraph", text: "针对赴印度德里首都圈及大诺伊达（Greater Noida）工作的外企高管、中资企业高管及随行家庭（如Vivo、OPPO、小米、比亚迪等），<a href='/residences'>Residences by Sandane Homes</a> 在Ansal Golf Links-1封闭式高端社区提供全精装 <strong>2BHK双卧豪华服务式公寓</strong>。" },
+            { type: "heading", text: "2BHK双卧服务式公寓配置与亮点" },
+            { type: "paragraph", text: "2BHK双卧户型兼具宽敞空间与私密性，特别适合家庭入住或双高管合租。" },
+            { type: "list", items: [
+                "<strong>双主卧带独立卫生间:</strong> 两个独立主卧均配有独立卫生间、舒适大床及嵌入式衣柜，互不打扰。",
+                "<strong>宽敞客厅与独立餐厅:</strong> 配有沙发套件、餐桌椅、智能电视及私人观景阳台。",
+                "<strong>全套独立厨卫与净水:</strong>  équipée 有RO反渗透净水器、双门冰箱、微波炉、电热水壶及全套厨具。",
+                "<strong>300 Mbps全屋光纤Wi-Fi:</strong> 确保与国内总部高清视频会议及家庭娱乐流畅无卡顿。",
+                "<strong>每日客房清洁与衣物清洗:</strong> 每周7天客房清洁、每周 twice 换洗被褥，并提供衣物清洗服务。"
+            ] },
+            { type: "heading", text: "园区与周边产业带交通时距" },
+            { type: "paragraph", text: "便利连接各大手机制造基地及工业园区：" },
+            { type: "list", items: [
+                "<strong>Surajpur 工业区及本田/雅马哈工厂:</strong> 车程 10 分钟 (5 km)。",
+                "<strong>三星及LG电子生产基地:</strong> 直达车程 12 分钟 (8 km)。",
+                "<strong>Vivo 及 OPPO Ecotech 智能制造产业园:</strong> 车程 15 分钟 (12 km)。",
+                "<strong>大诺伊达国际展馆 (India Expo Mart):</strong> 车程 8 分钟。",
+                "<strong>诺伊达新国际机场 (Jewar Airport Corridor):</strong> 车程 35 分钟。"
+            ] },
+            { type: "heading", text: "企业 B2B GST 发票与专属管家" },
+            { type: "paragraph", text: "开具符合企业财务标准的 B2B GST 增值税发票，提供 1 至 24 个月灵活租期及24小时全天候管家服务。" },
+            { type: "quote", text: "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | +91 97117 22273 | sandanehomes.com/residences", attribution: "— 大诺伊达2BHK外企高管公寓" },
+            { type: "cta" }
+        ]
+    },
+    {
         slug: "residences-by-sandane-homes-1bhk-luxury-serviced-apartments-japanese-korean-expats",
         title: "Residences by Sandane Homes: Premium 1BHK Serviced Apartments & Executive Homes for Japanese & Korean Expats in Greater Noida",
         metaTitle: "1BHK Luxury Serviced Apartments Greater Noida for Japanese & Korean Expats | Sandane",
