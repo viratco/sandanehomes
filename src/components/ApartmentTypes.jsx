@@ -31,49 +31,37 @@ const ApartmentTypes = () => {
         setCursorPos({ x: e.clientX, y: e.clientY });
     };
 
-    // 7 items symmetrically ordered with Sandane Homes centerpiece
+    // 5 items symmetrically ordered with Sandane Homes centerpiece
     const apartments = [
         {
-            title: "Amara Inn by Sandane Homes", // Tier 1 - Leftmost
+            title: "Amara Inn by Sandane Homes",
             image: amaraImg,
             sizeClass: "card-tier-1",
             link: "/amara"
         },
         {
-            title: "Amaaltash by Sandane Homes", // Tier 2 - Outer Left
+            title: "Amaaltash by Sandane Homes",
             image: amaaltashImg,
             sizeClass: "card-tier-2",
             link: "/amaaltash"
         },
         {
-            title: "CoCo House", // Tier 3 - Inner Left
-            image: cocoFacadeImg,
-            sizeClass: "card-tier-3",
-            link: "/coco-house"
-        },
-        {
-            title: "Sandane Homes\nthe luxury boutique", // Tier 4 - Centerpiece
+            title: "Sandane Homes\nthe luxury boutique",
             image: sandaneHomeImg,
             sizeClass: "card-tier-4",
             link: "/sandane-homes"
         },
         {
-            title: "The Glam by Sandane Homes", // Tier 3 - Inner Right
+            title: "The Glam by Sandane Homes",
             image: glamMainImg,
             sizeClass: "card-tier-3",
             link: "/glam"
         },
         {
-            title: "Pine Tales by Sandane Homes", // Tier 2 - Outer Right
-            image: pineTalesImg,
-            sizeClass: "card-tier-2",
-            link: "/pine-tales"
-        },
-        {
-            title: "Saffron Inn by Sandane Homes", // Tier 1 - Rightmost
-            image: saffronImg,
+            title: "CoCo House",
+            image: cocoFacadeImg,
             sizeClass: "card-tier-1",
-            link: "/saffron"
+            link: "/coco-house"
         }
     ];
 
