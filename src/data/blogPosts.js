@@ -5,6 +5,258 @@
 
 export const blogPosts = [
     {
+        slug: "coco-house-premier-boutique-hotel-homestay-near-india-expo-mart",
+        title: "CoCo House: Premier Boutique Hotel & Homestay Experience Near India Expo Mart Greater Noida",
+        metaTitle: "CoCo House | Boutique Hotel & Luxury Homestay Near India Expo Mart",
+        metaDescription: "Book CoCo House in Greater Noida — chic boutique hotel and homestay comfort just 8 minutes from India Expo Mart. Featuring luxury rooms, 300 Mbps WiFi, B2B GST billing & express room service.",
+        subtitle: "Discover why exhibitors and business travellers rate CoCo House as Greater Noida's best boutique hotel and homestay stay near Pari Chowk & India Expo Mart.",
+        category: "Boutique Stays",
+        date: "February 10, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Book CoCo House in Greater Noida — chic boutique hotel and homestay comfort just 8 minutes from India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "Whether you are attending major trade events like Auto Expo, IHGF Delhi Fair, ELECRAMA, or CPHI India at the India Expo Centre & Mart, finding accommodation that balances hotel convenience with home stay warmth can be challenging. <a href='/coco-house'>CoCo House</a> stands out as Greater Noida's premier boutique hotel and luxury homestay destination, offering stylish rooms and personalized hospitality." },
+            { type: "heading", text: "Why Choose CoCo House for Expo Mart & Business Visits?" },
+            { type: "paragraph", text: "CoCo House delivers a seamless blend of high-end hotel amenities and intimate homestay relaxation:" },
+            { type: "list", items: [
+                "<strong>8 Minutes to India Expo Mart:</strong> Convenient signal-free drive to Expo Mart Gate 1, eliminating long commuting delays.",
+                "<strong>Stylish Designer Rooms:</strong> Modern aesthetic with plush bedding, work desks, ambient lighting, and immaculate bathrooms.",
+                "<strong>300 Mbps High-Speed WiFi:</strong> Dedicated high-bandwidth internet for business presentations, virtual meetings, and HD streaming.",
+                "<strong>Homestay Comfort & In-House Dining:</strong> Freshly cooked breakfasts, warm hospitality, and 24/7 express room service.",
+                "<strong>Corporate Single GST Invoicing:</strong> Direct B2B GST tax billing for hassle-free corporate expense settlement."
+            ] },
+            { type: "heading", text: "Ideal for Trade Exhibitors, Corporate Teams & Group Stays" },
+            { type: "paragraph", text: "CoCo House is specifically arranged to cater to trade exhibition booth teams, project managers, and corporate delegations needing multiple rooms under one roof. Guests enjoy round-the-clock security, daily professional housekeeping, and a peaceful environment to unwind after a demanding day at the expo center." },
+            { type: "quote", text: "CoCo House | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/coco-house", attribution: "— Premier Boutique Hotel & Homestay" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How close is CoCo House to India Expo Mart?", answer: "CoCo House is located approximately 8 minutes (3.5 km) from India Expo Mart Gate 1." },
+            { question: "Does CoCo House provide corporate GST billing?", answer: "Yes, we provide direct single B2B GST invoices for corporate bookings." }
+        ],
+        tags: ["CoCo House", "Boutique Hotel Greater Noida", "Homestay Near Expo Mart", "Hotels Near India Expo Mart"]
+    },
+    {
+        slug: "amaaltash-by-sandane-homes-luxury-boutique-hotel-homestay-ansal-golf-links",
+        title: "Amaaltash by Sandane Homes: Elegant Boutique Hotel & Peaceful Homestay Retreat in Ansal Golf Links-1",
+        metaTitle: "Amaaltash by Sandane Homes | Boutique Hotel & Homestay Ansal Golf Links",
+        metaDescription: "Experience quiet elegance at Amaaltash by Sandane Homes. A luxury boutique hotel and serene homestay near India Expo Mart and Knowledge Park with private kitchenette, plush bedding & GST invoicing.",
+        subtitle: "Combines boutique hotel service with home stay relaxation for corporate executives, trade visitors, and long-stay guests in Greater Noida.",
+        category: "Boutique Stays",
+        date: "February 9, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Experience quiet elegance at Amaaltash by Sandane Homes — luxury boutique hotel rooms & peaceful homestay comfort in Ansal Golf Links-1.",
+        content: [
+            { type: "paragraph", text: "Tucked inside the green, secure residential enclave of Ansal Golf Links-1, <a href='/amaaltash'>Amaaltash by Sandane Homes</a> offers a unique hospitality concept: the refined luxury of a boutique hotel combined with the peaceful privacy of a high-end homestay." },
+            { type: "heading", text: "Signature Features of Amaaltash by Sandane Homes" },
+            { type: "paragraph", text: "Every detail at Amaaltash by Sandane Homes is curated for executive comfort:" },
+            { type: "list", items: [
+                "<strong>Common Kitchenette & Self-Service Bar:</strong> Perfect for morning coffee, tea preparation, and light meals.",
+                "<strong>Spacious Master & Deluxe Bedrooms:</strong> Elegantly styled rooms with orthopedic mattresses and quiet air conditioning.",
+                "<strong>Prime Proximity to Knowledge Park & Expo Mart:</strong> Just 5–8 minutes from Knowledge Park II universities and India Expo Mart.",
+                "<strong>24/7 Housekeeping & Concierge:</strong> Professional room cleaning, daily fresh linens, and round-the-clock assistance.",
+                "<strong>Secure Gated Environment:</strong> 24-hour guarded security inside Ansal Golf Links-1 with convenient private parking."
+            ] },
+            { type: "heading", text: "Who Chooses Amaaltash by Sandane Homes?" },
+            { type: "paragraph", text: "Amaaltash by Sandane Homes is a favorite choice for corporate delegates visiting Surajpur Industrial Area, faculty members and guest speakers at Sharda & Galgotias universities, and exhibition attendees seeking a tranquil retreat away from crowded commercial hotel lobbies." },
+            { type: "quote", text: "Amaaltash by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amaaltash", attribution: "— Luxury Boutique Hotel & Homestay" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Is breakfast available at Amaaltash by Sandane Homes?", answer: "Yes, complimentary fresh breakfast is served daily for all guests." },
+            { question: "Is WiFi high-speed for business work?", answer: "Yes, complimentary 300 Mbps fiber WiFi is available throughout the property." }
+        ],
+        tags: ["Amaaltash by Sandane Homes", "Boutique Hotel Ansal Golf Links", "Homestay Greater Noida", "Expo Mart Hotel"]
+    },
+    {
+        slug: "the-glam-by-sandane-homes-contemporary-boutique-hotel-noida-airport-corridor",
+        title: "The Glam by Sandane Homes: Contemporary Boutique Hotel & Stylish Homestay Suites Near Noida Airport Corridor",
+        metaTitle: "The Glam by Sandane Homes | Contemporary Boutique Hotel Near Expo Mart",
+        metaDescription: "Stay at The Glam by Sandane Homes in Greater Noida. Premium boutique hotel suites with memory foam mattresses, smart TVs, fast WiFi & B2B GST billing near Jewar Airport Corridor & Expo Mart.",
+        subtitle: "Contemporary boutique hotel rooms and homestay luxury for trade fair delegates, airline transit guests, and corporate leaders.",
+        category: "Boutique Stays",
+        date: "February 8, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Stay at The Glam by Sandane Homes — premium boutique hotel suites with contemporary design near Jewar Airport Corridor & India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "For modern business travellers and exhibition delegates who appreciate chic design and seamless connectivity, <a href='/glam'>The Glam by Sandane Homes</a> offers superior boutique hotel suites and homestay luxury in Greater Noida." },
+            { type: "heading", text: "Boutique Comfort & Modern Amenities" },
+            { type: "paragraph", text: "Designed for relaxation and productivity, The Glam by Sandane Homes provides high-spec accommodation:" },
+            { type: "list", items: [
+                "<strong>Deluxe Suites with Memory Foam Mattresses:</strong> Restful sleep guaranteed after long days at trade fairs or travel.",
+                "<strong>Smart TVs & Fiber Wi-Fi:</strong> Pre-loaded streaming applications and 300 Mbps internet speed for entertainment and business.",
+                "<strong>Strategic Airport Corridor Location:</strong> Situated along the direct connectivity route to the upcoming Jewar Noida International Airport and Yamuna Expressway.",
+                "<strong>24/7 Room Service & Dining:</strong> Freshly prepared hot meals served directly to your suite.",
+                "<strong>Corporate Single GST Master Billing:</strong> Streamlined corporate invoicing for international and Indian business entities."
+            ] },
+            { type: "heading", text: "Elevated Stay Experience" },
+            { type: "paragraph", text: "Whether staying for a weekend expo at India Expo Mart or an extended business trip across Noida Expressway, guests at The Glam by Sandane Homes experience 5-star standard cleanliness, secure parking, and warm personalized care." },
+            { type: "quote", text: "The Glam by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 96547 07779 | sandanehomes.com/glam", attribution: "— Contemporary Boutique Hotel & Suites" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How to book a stay at The Glam by Sandane Homes?", answer: "Book directly at sandanehomes.com/glam or call +91 96547 07779." },
+            { question: "Is room service available 24/7?", answer: "Yes, our room service team is available 24/7 to serve freshly prepared meals." }
+        ],
+        tags: ["The Glam by Sandane Homes", "Boutique Hotel Greater Noida", "Airport Corridor Hotel", "Expo Mart Hotel Stay"]
+    },
+    {
+        slug: "amara-inn-by-sandane-homes-executive-boutique-hotel-near-expo-mart",
+        title: "Amara Inn by Sandane Homes: Executive Boutique Hotel & Homestay Comfort Near India Expo Mart & Yamuna Expressway",
+        metaTitle: "Amara Inn by Sandane Homes | Executive Boutique Hotel Near Expo Mart",
+        metaDescription: "Book Amara Inn by Sandane Homes in Greater Noida. Premier boutique hotel rooms with private balconies, complimentary daily breakfast, 24/7 room service & easy Expo Mart access.",
+        subtitle: "Executive boutique hotel amenities meets home stay hospitality for visiting engineers, corporate teams, and trade delegates.",
+        category: "Boutique Stays",
+        date: "February 7, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Book Amara Inn by Sandane Homes in Greater Noida — executive boutique hotel rooms with private balconies & daily breakfast near India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "Combining business functionality with boutique charm, <a href='/amara'>Amara Inn by Sandane Homes</a> is engineered for corporate travelers, technical engineers, and exhibition delegates seeking a high-standard hotel and homestay experience in Greater Noida." },
+            { type: "heading", text: "Key Features of Amara Inn by Sandane Homes" },
+            { type: "paragraph", text: "Amara Inn by Sandane Homes delivers essential comforts designed around executive requirements:" },
+            { type: "list", items: [
+                "<strong>Private Balcony Suites:</strong> Airy, spacious rooms featuring private balconies overlooking quiet residential greenery.",
+                "<strong>Complimentary Daily Breakfast:</strong> Wholesome hot breakfast served every morning to start your business day right.",
+                "<strong>Close to Pari Chowk Metro & Expo Mart:</strong> 5 minutes from Pari Chowk Metro Station and less than 10 minutes from India Expo Mart.",
+                "<strong>High-Speed Wi-Fi & Work Desks:</strong> Ergonomic workspace in every room for laptop productivity and calls.",
+                "<strong>24/7 Housekeeping & Maintenance:</strong> Dedicated on-site team ensuring spotless rooms and immediate assistance."
+            ] },
+            { type: "heading", text: "Corporate Housing Partner" },
+            { type: "paragraph", text: "Amara Inn by Sandane Homes works directly with corporate HR and travel desks, offering standardized tariffs, direct company billing, and customized stay durations for corporate assignees." },
+            { type: "quote", text: "Amara Inn by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/amara", attribution: "— Executive Boutique Hotel" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Where is Amara Inn by Sandane Homes located?", answer: "Amara Inn by Sandane Homes is located in Block B, Ansal Golf Link-1, Greater Noida, near Pari Chowk and India Expo Mart." },
+            { question: "Does Amara Inn provide breakfast?", answer: "Yes, fresh daily breakfast is included with all stays." }
+        ],
+        tags: ["Amara Inn by Sandane Homes", "Executive Boutique Hotel", "Homestay Comfort Greater Noida", "Expo Mart Stay"]
+    },
+    {
+        slug: "saffron-inn-by-sandane-homes-warm-boutique-hotel-homestay-greater-noida",
+        title: "Saffron Inn by Sandane Homes: Warm Boutique Hotel & Cozy Homestay Living Near Pari Chowk & Expo Mart",
+        metaTitle: "Saffron Inn by Sandane Homes | Warm Boutique Hotel & Homestay Experience",
+        metaDescription: "Relax at Saffron Inn by Sandane Homes in Greater Noida. Featuring twin and king boutique hotel rooms, homestay ambiance, 24/7 room service, and single GST billing near India Expo Mart.",
+        subtitle: "A welcoming boutique hotel and homestay destination for trade show teams, solo business travellers, and visiting families.",
+        category: "Boutique Stays",
+        date: "February 6, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Relax at Saffron Inn by Sandane Homes in Greater Noida — warm boutique hotel rooms, twin bed options & homestay comfort near India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "Warm hospitality and homely comfort define <a href='/saffron'>Saffron Inn by Sandane Homes</a>. Designed to feel like a boutique sanctuary, it provides business travelers and trade show visitors with a peaceful stay in Greater Noida." },
+            { type: "heading", text: "What Makes Saffron Inn by Sandane Homes Special?" },
+            { type: "paragraph", text: "Whether traveling solo or in a team, guests enjoy carefully planned room features:" },
+            { type: "list", items: [
+                "<strong>Twin & King Bed Configuration:</strong> Versatile room arrangements suitable for colleagues sharing rooms or solo executives.",
+                "<strong>Cozy Lounge & Dining Area:</strong> Welcoming common areas to relax, read, or catch up with colleagues.",
+                "<strong>Proximity to Expo Mart & Commercial Hubs:</strong> Quick access to India Expo Centre, Alpha Commercial Belt, and Pari Chowk.",
+                "<strong>Full Power Backup & 300 Mbps WiFi:</strong> Uninterrupted electrical supply and fast internet connectivity guaranteed.",
+                "<strong>B2B GST Invoicing:</strong> Official GST corporate receipts issued promptly for all stays."
+            ] },
+            { type: "heading", text: "A True Home Away From Home" },
+            { type: "paragraph", text: "Saffron Inn by Sandane Homes focuses on genuine care, clean aesthetics, and responsive service, making every guest feel truly at home during short-term or extended visits." },
+            { type: "quote", text: "Saffron Inn by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/saffron", attribution: "— Warm Boutique Hotel & Homestay" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Are twin beds available at Saffron Inn by Sandane Homes?", answer: "Yes, we offer both twin-bed and king-bed boutique room options." },
+            { question: "Is parking available on-site?", answer: "Yes, free secure parking is available for all guests." }
+        ],
+        tags: ["Saffron Inn by Sandane Homes", "Boutique Hotel Greater Noida", "Homestay Near Pari Chowk", "India Expo Mart Hotel"]
+    },
+    {
+        slug: "pine-tales-by-sandane-homes-scenic-nature-boutique-hotel-retreat",
+        title: "Pine Tales by Sandane Homes: Scenic Nature-Inspired Boutique Hotel & Homestay Sanctuary in Greater Noida",
+        metaTitle: "Pine Tales by Sandane Homes | Scenic Nature Boutique Hotel & Homestay",
+        metaDescription: "Discover Pine Tales by Sandane Homes — a serene nature boutique hotel and homestay with terrace rooms, lush surroundings, complimentary breakfast & quick drive to India Expo Mart.",
+        subtitle: "Enjoy nature-infused boutique hotel luxury and peaceful homestay comfort just minutes from Knowledge Park & Expo Mart.",
+        category: "Boutique Stays",
+        date: "February 5, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Discover Pine Tales by Sandane Homes — a scenic nature-inspired boutique hotel & homestay with private terrace rooms near India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "If you desire a refreshing, scenic stay surrounded by greenery and tranquility, <a href='/pine-tales'>Pine Tales by Sandane Homes</a> offers a nature-inspired boutique hotel and homestay experience in Greater Noida." },
+            { type: "heading", text: "Highlights of Pine Tales by Sandane Homes" },
+            { type: "paragraph", text: "Pine Tales by Sandane Homes is crafted to provide a soothing, restorative ambiance:" },
+            { type: "list", items: [
+                "<strong>Terrace & Scenic Garden Views:</strong> Private terrace seating and scenic outlooks for peaceful morning coffees.",
+                "<strong>Cozy Bedrooms & Plush Linens:</strong> Soft bedding, warm wood accents, and silent air conditioning.",
+                "<strong>Complimentary Breakfast Served Daily:</strong> Delicious breakfast made to order every morning.",
+                "<strong>Minutes to India Expo Mart & Knowledge Park:</strong> Easy 8-minute drive to Expo Mart and university campuses.",
+                "<strong>300 Mbps Wi-Fi & 24/7 Security:</strong> Seamless high-speed internet paired with round-the-clock security."
+            ] },
+            { type: "heading", text: "A Relaxing Sanctuary for Travellers" },
+            { type: "paragraph", text: "Avoid the noise of main roads and urban congestion. Pine Tales by Sandane Homes provides corporate guests and leisure travellers with a green sanctuary near Pari Chowk." },
+            { type: "quote", text: "Pine Tales by Sandane Homes | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/pine-tales", attribution: "— Nature Boutique Hotel & Retreat" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "Does Pine Tales by Sandane Homes have terrace room options?", answer: "Yes, select rooms at Pine Tales by Sandane Homes feature private terrace access." },
+            { question: "Is breakfast included?", answer: "Yes, complimentary breakfast is served daily for guests." }
+        ],
+        tags: ["Pine Tales by Sandane Homes", "Nature Boutique Hotel", "Homestay Greater Noida", "Expo Mart Hotel"]
+    },
+    {
+        slug: "sandane-homes-hotel-luxury-boutique-suites-kitchenette-expo-mart",
+        title: "Sandane Homes Hotel: Premier Luxury Boutique Hotel & Executive Suites with Kitchenette Near India Expo Mart",
+        metaTitle: "Sandane Homes Hotel | Luxury Boutique Hotel & Executive Suites Greater Noida",
+        metaDescription: "Book Sandane Homes Hotel in Greater Noida. Luxury boutique hotel suites with kitchenette, 300 Mbps fiber WiFi, 24/7 room service & B2B GST master billing near India Expo Mart Gate 1.",
+        subtitle: "The flagship boutique hotel experience offering kitchenette suites, homestay warmth, and 5-star corporate hospitality.",
+        category: "Boutique Stays",
+        date: "February 4, 2027",
+        readTime: "6 min read",
+        author: "Sandane Homes Hospitality Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        lang: "en",
+        excerpt: "Book Sandane Homes Hotel in Greater Noida — luxury boutique hotel suites with kitchenette & 24/7 hospitality near India Expo Mart.",
+        content: [
+            { type: "paragraph", text: "<a href='/sandane-homes'>Sandane Homes Hotel</a> represents the pinnacle of executive boutique hotel accommodation in Greater Noida, featuring designer kitchenette suites, 24/7 room service, and top-tier corporate hospitality." },
+            { type: "heading", text: "Flagship Luxury & Executive Amenities" },
+            { type: "paragraph", text: "Designed for demanding business leaders, international executives, and expo exhibitors:" },
+            { type: "list", items: [
+                "<strong>Private Kitchenette in Suites:</strong> Equipped with electric kettle, microwave, RO water filter, and mini-fridge for complete independence.",
+                "<strong>In-House Dining & Room Service:</strong> Custom menus prepared by culinary staff and served 24/7 to your suite.",
+                "<strong>3-Minute Drive to India Expo Mart:</strong> Located just 1.5 km from India Expo Centre Gate 1 for maximum convenience.",
+                "<strong>Billiards & Executive Lounge:</strong> Recreational spaces to network, relax, or meet business colleagues.",
+                "<strong>Consolidated Corporate GST Billing:</strong> Direct corporate account setup and single master GST invoices."
+            ] },
+            { type: "heading", text: "The Benchmark of Greater Noida Hospitality" },
+            { type: "paragraph", text: "Combining luxury boutique hotel services with the warmth of a residential homestay, Sandane Homes Hotel sets the standard for corporate stays in Delhi NCR." },
+            { type: "quote", text: "Sandane Homes Hotel | Ansal Golf Link-1, Greater Noida | +91 97117 22273 | sandanehomes.com/sandane-homes", attribution: "— Luxury Boutique Hotel & Executive Suites" },
+            { type: "cta" }
+        ],
+        faqs: [
+            { question: "How far is Sandane Homes Hotel from India Expo Mart?", answer: "Sandane Homes Hotel is just 1.5 km (3 minutes drive) from India Expo Mart." },
+            { question: "Do the suites have kitchenettes?", answer: "Yes, executive suites feature private kitchenette facilities." }
+        ],
+        tags: ["Sandane Homes Hotel", "Luxury Boutique Hotel", "Homestay Suites Expo Mart", "Greater Noida Executive Hotel"]
+    },
+    {
         slug: "residences-by-sandane-homes-luxury-villas-japanese-korean-expats-greater-noida",
         title: "Residences by Sandane Homes: Luxury Independent Villas & Private Estates for Japanese & Korean Expats in Greater Noida",
         metaTitle: "Luxury Independent Villas Greater Noida for Japanese & Korean Expats | Sandane",
