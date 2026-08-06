@@ -121,7 +121,7 @@ const Saffron = () => {
     return (
         <div className="sandane-homes-page">
             <SEO
-                title="Saffron Inn | Boutique Hotel Greater Noida | Sandane Homes"
+                title="Saffron Inn by Sandane Homes | Boutique Hotel in Greater Noida"
                 description="Saffron Inn by Sandane Homes — warm, elegant boutique hotel in Greater Noida. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart."
                 canonical="https://www.sandanehomes.com/saffron"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"

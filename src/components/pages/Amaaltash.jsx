@@ -121,7 +121,7 @@ const Amaaltash = () => {
     return (
         <div className="sandane-homes-page">
             <SEO
-                title="Amaaltash | Luxury Serviced Apartments Greater Noida | Sandane Homes"
+                title="Amaaltash by Sandane Homes | Luxury Boutique Hotel in Greater Noida"
                 description="Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with common kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida."
                 canonical="https://www.sandanehomes.com/amaaltash"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"

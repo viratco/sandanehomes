@@ -124,8 +124,8 @@ const SandaneHomes = () => {
     return (
         <div className="sandane-homes-page">
             <SEO
-                title="Sandane Homes Hotel | Luxury Serviced Stays & Executive Suites Greater Noida"
-                description="Indulge in luxury at Sandane Homes. Kitchenette rooms, executive suites, in-house café, 24/7 room service, and top-tier amenities for corporate stays in Greater Noida."
+                title="Sandane Homes Hotel | Luxury Boutique Hotel & Executive Suites in Greater Noida"
+                description="Indulge in luxury at Sandane Homes Hotel. Kitchenette rooms, executive suites, in-house café, 24/7 room service, and top-tier amenities for corporate stays in Greater Noida."
                 canonical="https://www.sandanehomes.com/sandane-homes"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 schema={sandaneHomesSchema}

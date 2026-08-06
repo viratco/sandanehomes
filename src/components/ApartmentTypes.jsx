@@ -34,7 +34,7 @@ const ApartmentTypes = () => {
     // 7 items symmetrically ordered with Sandane Homes centerpiece
     const apartments = [
         {
-            title: "Amara inn", // Tier 1 - Leftmost
+            title: "Amara Inn by Sandane Homes", // Tier 1 - Leftmost
             image: amaraImg,
             sizeClass: "card-tier-1",
             link: "/amara"
@@ -58,7 +58,7 @@ const ApartmentTypes = () => {
             link: "/sandane-homes"
         },
         {
-            title: "Glam by\nSandane Homes", // Tier 3 - Inner Right
+            title: "The Glam by Sandane Homes", // Tier 3 - Inner Right
             image: glamMainImg,
             sizeClass: "card-tier-3",
             link: "/glam"
@@ -70,7 +70,7 @@ const ApartmentTypes = () => {
             link: "/pine-tales"
         },
         {
-            title: "Saffron inn", // Tier 1 - Rightmost
+            title: "Saffron Inn by Sandane Homes", // Tier 1 - Rightmost
             image: saffronImg,
             sizeClass: "card-tier-1",
             link: "/saffron"

@@ -113,7 +113,7 @@ const CocoHouse = () => {
     return (
         <div className="sandane-homes-page">
             <SEO
-                title="CoCo House | Luxury Boutique Hotel Greater Noida | Sandane Homes"
+                title="CoCo House | Luxury Boutique Hotel in Greater Noida"
                 description="CoCo House — a chic luxury boutique hotel in Greater Noida. Premium rooms, stylish interiors, full housekeeping, and curated hospitality. Book now."
                 canonical="https://www.sandanehomes.com/coco-house"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
@@ -128,8 +128,7 @@ const CocoHouse = () => {
                 {/* Left Side - Text */}
                 <div className="sandane-hero-text">
                     <h1 className="sandane-hero-title">
-                        CoCo House<br />
-                        <span style={{ fontSize: '32px', fontWeight: '400' }}>by Sandane Homes</span>
+                        CoCo House
                     </h1>
                 </div>
 

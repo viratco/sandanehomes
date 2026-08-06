@@ -16,7 +16,7 @@ import { createHotelSchema } from '../../utils/schemaHelper';
 const glamSchema = createHotelSchema({
     name: "The Glam by Sandane Homes",
     url: "https://www.sandanehomes.com/glam",
-    description: "Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure travellers.",
+    description: "Luxury boutique hotel stay at The Glam by Sandane Homes in Greater Noida. Stylish rooms, deluxe suites, dedicated workspaces, smart entertainment, and 24/7 hospitality.",
     starRating: 4
 });
 
@@ -121,8 +121,8 @@ const Glam = () => {
     return (
         <div className="sandane-homes-page">
             <SEO
-                title="The Glam | Premium Executive Stay Greater Noida | Sandane Homes"
-                description="Premium serviced living at The Glam by Sandane Homes. Stylish rooms, dedicated workspaces, smart entertainment, and daily housekeeping for business and leisure travellers."
+                title="The Glam by Sandane Homes | Luxury Boutique Hotel in Greater Noida"
+                description="Luxury boutique hotel stay at The Glam by Sandane Homes in Greater Noida. Stylish rooms, deluxe suites, dedicated workspaces, smart entertainment, and 24/7 hospitality."
                 canonical="https://www.sandanehomes.com/glam"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 schema={glamSchema}
@@ -145,18 +145,23 @@ const Glam = () => {
                 <div className="sandane-hero-image">
                     <img
                         src={heroImg}
-                        alt="The Glam"
-                        className="sandane-hero-img-el glam-hero-img"
+                        alt="The Glam Luxury"
+                        className="sandane-hero-img-el"
                     />
                 </div>
 
                 {/* Stats Bar Overlay */}
                 <div className="sandane-stats-bar">
+                    {/* Stat a */}
                     <div className="stat-item">
                         <div className="stat-number">15k+</div>
                         <div className="stat-label">Happy Customers</div>
                     </div>
+
+                    {/* Divider */}
                     <div className="stat-divider"></div>
+
+                    {/* Stat 2 */}
                     <div className="stat-item">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <span className="stat-number">4.9</span>
@@ -168,17 +173,22 @@ const Glam = () => {
                         </div>
                         <div className="stat-label">Overall Rating</div>
                     </div>
+
+                    {/* Divider */}
                     <div className="stat-divider"></div>
+
+                    {/* Stat 3 */}
                     <div className="stat-item">
                         <div className="stat-number">10+</div>
                         <div className="stat-label">Years Experience</div>
                     </div>
                 </div>
 
+                {/* Floating Book Now Button below Stats Bar */}
                 <div className="sandane-floating-buttons">
                     <button
                         className="btn-book"
-                        onClick={() => window.open('https://bookingengine.stayflexi.com/36376/?checkin=25-06-2026&num_nights=1&num_guests=2&source=google&hotel_id=36376')}
+                        onClick={() => window.open('https://bookingengine.stayflexi.com/29780/?checkin=25-07-2026&num_nights=2&num_guests=2&source=google&hotel_id=29780', '_blank')}
                     >
                         Book Now
                     </button>
@@ -226,17 +236,6 @@ const Glam = () => {
                         <ReviewCard key={index} {...review} />
                     ))}
                 </div>
-            </div>
-
-            {/* SEO Text Block */}
-            <div className="seo-text-block" style={{ padding: '60px 20px', maxWidth: '1200px', margin: '0 auto', textAlign: 'center', color: '#555' }}>
-                <h3 style={{ fontSize: '24px', marginBottom: '20px', color: '#333' }}>Discover The Glam: Premium Serviced Apartments in Greater Noida</h3>
-                <p style={{ fontSize: '16px', lineHeight: '1.8', marginBottom: '15px' }}>
-                    Welcome to The Glam by Sandane Homes, offering exquisite luxury serviced apartments conveniently located near the India Expo Centre & Mart. Whether you are traveling for a quick business trip, attending a major exhibition, or looking for a comfortable long-term stay, The Glam provides the perfect blend of hotel-style amenities and the warmth of a home.
-                </p>
-                <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
-                    Our premium executive stays feature fully-equipped class rooms, high-speed Wi-Fi, daily housekeeping, and 24/7 concierge services. Located just a short drive from Pari Chowk, Sharda University, and Knowledge Park, The Glam stands out as a premier destination for corporate travelers and expats seeking fully furnished, pet-friendly accommodation in Delhi NCR. Experience unparalleled hospitality, seamless comfort, and secure parking in Greater Noida.
-                </p>
             </div>
 
             <Footer customPhone="+91 96547 07779" />

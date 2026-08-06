@@ -121,7 +121,7 @@ const PineTales = () => {
     return (
         <div className="sandane-homes-page">
             <SEO
-                title="Pine Tales | Cozy Nature Boutique Stay Greater Noida | Sandane Homes"
+                title="Pine Tales by Sandane Homes | Cozy Nature Boutique Hotel in Greater Noida"
                 description="Relax at Pine Tales by Sandane Homes in Greater Noida. Breathtaking scenic views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality."
                 canonical="https://www.sandanehomes.com/pine-tales"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
