@@ -58,6 +58,9 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
         })
             .then(response => response.json())
             .then(data => {
+                if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+                    window.gtag('event', 'ads_conversion_Purchase_1', {});
+                }
                 alert('Thank you! We will get back to you shortly.');
                 setEmail('');
                 setPhone('');

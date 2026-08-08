@@ -12,6 +12,12 @@ const WhatsAppButton = () => {
         : encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultText}`;
 
+    const handleWhatsAppClick = () => {
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+            window.gtag('event', 'ads_conversion_Purchase_1', {});
+        }
+    };
+
     return (
         <div className="whatsapp-container">
             <div className="whatsapp-shake-wrapper">
@@ -20,6 +26,7 @@ const WhatsAppButton = () => {
                     className="whatsapp-float"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={handleWhatsAppClick}
                     aria-label="Chat with Sandane Homes on WhatsApp"
                 >
                     <svg 
