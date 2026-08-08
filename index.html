@@ -11,6 +11,24 @@
 
     gtag('config', 'G-CXZEEWNWHN');
     gtag('config', 'AW-18351401616');
+
+    // Helper function to delay opening a URL until a gtag event is sent.
+    function gtagSendEvent(url) {
+      var callback = function () {
+        if (typeof url === 'string') {
+          window.location = url;
+        }
+      };
+      if (typeof gtag === 'function') {
+        gtag('event', 'ads_conversion_Purchase_1', {
+          'event_callback': callback,
+          'event_timeout': 2000
+        });
+      } else {
+        callback();
+      }
+      return false;
+    }
   </script>
   
   <!-- Microsoft Clarity Heatmap & Session Recording -->
