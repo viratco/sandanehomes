@@ -411,6 +411,14 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'residences-by-sandane-homes-ultimate-expat-serviced-apartments-guide-greater-noida',
+  'residences-by-sandane-homes-corporate-relocation-housing-noida-expressway',
+  'residences-by-sandane-homes-korean-expat-housing-ansal-golf-links-guide',
+  'residences-by-sandane-homes-korean-long-stay-serviced-apartments-noida',
+  'residences-by-sandane-homes-japanese-expat-serviced-apartments-greater-noida',
+  'residences-by-sandane-homes-japanese-relocation-long-stay-guide-noida',
+  'residences-by-sandane-homes-chinese-expat-serviced-apartments-greater-noida',
+  'residences-by-sandane-homes-chinese-corporate-long-stay-housing-noida',
   'residences-by-sandane-homes-luxury-villas-japanese-korean-expats-greater-noida',
   'residences-by-sandane-homes-korean-luxury-villas-guide',
   'residences-by-sandane-homes-japanese-luxury-villas-guide',
