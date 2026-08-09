@@ -411,6 +411,18 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'coco-house-premier-boutique-hotel-near-india-expo-mart',
+  'amaaltash-by-sandane-homes-serene-executive-boutique-hotel',
+  'the-glam-by-sandane-homes-luxury-boutique-suites-noida-airport',
+  'coco-house-korean-boutique-hotel-expo-mart-guide',
+  'amaaltash-by-sandane-homes-korean-boutique-hotel-guide',
+  'the-glam-by-sandane-homes-korean-luxury-hotel-guide',
+  'coco-house-japanese-boutique-hotel-expo-mart-guide',
+  'amaaltash-by-sandane-homes-japanese-boutique-hotel-guide',
+  'the-glam-by-sandane-homes-japanese-luxury-suites-guide',
+  'coco-house-chinese-boutique-hotel-expo-mart-guide',
+  'amaaltash-by-sandane-homes-chinese-boutique-hotel-guide',
+  'the-glam-by-sandane-homes-chinese-luxury-hotel-guide',
   'residences-by-sandane-homes-ultimate-expat-serviced-apartments-guide-greater-noida',
   'residences-by-sandane-homes-corporate-relocation-housing-noida-expressway',
   'residences-by-sandane-homes-korean-expat-housing-ansal-golf-links-guide',
