@@ -150,8 +150,6 @@ const BlogList = () => {
                                         <h2 className="blog-card-title">{post.title}</h2>
                                         <p className="blog-card-excerpt">{post.excerpt}</p>
                                         <div className="blog-card-meta">
-                                            <span>{formatDate(post.date)}</span>
-                                            <span>&middot;</span>
                                             <span>{post.readTime}</span>
                                         </div>
                                     </div>
