@@ -12,18 +12,49 @@ import './SandaneHomes.css';
 const formatDate = (dateStr) =>
     new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
+const getPostLang = (post) => {
+    if (post.lang) {
+        if (post.lang.startsWith('ko')) return 'ko';
+        if (post.lang.startsWith('zh') || post.lang.startsWith('cn')) return 'zh';
+        if (post.lang.startsWith('ja')) return 'ja';
+        if (post.lang.startsWith('en')) return 'en';
+    }
+    if (/[\uac00-\ud7af]/.test(post.title)) return 'ko';
+    if (/[\u4e00-\u9fa5]/.test(post.title)) return 'zh';
+    if (/[\u3040-\u30ff]/.test(post.title)) return 'ja';
+    return 'en';
+};
+
+const languages = [
+    { id: 'All', label: 'All Languages', flag: '🌐' },
+    { id: 'en', label: 'English', flag: '🇬🇧' },
+    { id: 'ko', label: '한국어 (Korean)', flag: '🇰🇷' },
+    { id: 'zh', label: '中文 (Chinese)', flag: '🇨🇳' },
+    { id: 'ja', label: '日本語 (Japanese)', flag: '🇯🇵' },
+];
+
 const BlogList = () => {
+    const [selectedLang, setSelectedLang] = useState('All');
     const [activeCategory, setActiveCategory] = useState('All');
 
     const categories = useMemo(() => {
-        const unique = Array.from(new Set(blogPosts.map((p) => p.category)));
+        const filteredByLang = selectedLang === 'All'
+            ? blogPosts
+            : blogPosts.filter(p => getPostLang(p) === selectedLang);
+        const unique = Array.from(new Set(filteredByLang.map((p) => p.category)));
         return ['All', ...unique];
-    }, []);
+    }, [selectedLang]);
 
     const posts = useMemo(() => {
-        const sorted = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
-        return activeCategory === 'All' ? sorted : sorted.filter((p) => p.category === activeCategory);
-    }, [activeCategory]);
+        let list = blogPosts;
+        if (selectedLang !== 'All') {
+            list = list.filter((p) => getPostLang(p) === selectedLang);
+        }
+        if (activeCategory !== 'All') {
+            list = list.filter((p) => p.category === activeCategory);
+        }
+        return list;
+    }, [selectedLang, activeCategory]);
 
     const blogSchema = {
         '@context': 'https://schema.org',
@@ -115,11 +146,59 @@ const BlogList = () => {
             </div>
 
             {/* ── FILTER + GRID ── */}
-            <div style={{ padding: '80px 20px 100px', backgroundColor: '#f9f9f9' }}>
+            <div style={{ padding: '60px 20px 100px', backgroundColor: '#f9f9f9' }}>
                 <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
 
+                    {/* LANGUAGE SELECTOR BAR */}
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', justifyContent: 'center', marginBottom: '24px' }}>
+                        {languages.map((langObj) => {
+                            const count = langObj.id === 'All'
+                                ? blogPosts.length
+                                : blogPosts.filter(p => getPostLang(p) === langObj.id).length;
+                            const isActive = selectedLang === langObj.id;
+                            return (
+                                <button
+                                    key={langObj.id}
+                                    onClick={() => {
+                                        setSelectedLang(langObj.id);
+                                        setActiveCategory('All');
+                                    }}
+                                    style={{
+                                        padding: '10px 22px',
+                                        borderRadius: '30px',
+                                        border: isActive ? '2px solid #1A3C34' : '1px solid #e0e0e0',
+                                        backgroundColor: isActive ? '#1A3C34' : '#ffffff',
+                                        color: isActive ? '#ffffff' : '#333333',
+                                        fontWeight: isActive ? '700' : '500',
+                                        fontSize: '15px',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.2s ease',
+                                        boxShadow: isActive ? '0 4px 14px rgba(26,60,52,0.2)' : '0 2px 6px rgba(0,0,0,0.04)',
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: '8px'
+                                    }}
+                                >
+                                    <span style={{ fontSize: '16px' }}>{langObj.flag}</span>
+                                    <span>{langObj.label}</span>
+                                    <span style={{
+                                        fontSize: '12px',
+                                        padding: '2px 8px',
+                                        borderRadius: '12px',
+                                        backgroundColor: isActive ? 'rgba(255,255,255,0.22)' : '#eeeeee',
+                                        color: isActive ? '#ffffff' : '#666666',
+                                        fontWeight: '600'
+                                    }}>
+                                        {count}
+                                    </span>
+                                </button>
+                            );
+                        })}
+                    </div>
+
+                    {/* CATEGORY FILTER BAR */}
                     {categories.length > 2 && (
-                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', justifyContent: 'center', marginBottom: '50px' }}>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', marginBottom: '45px' }}>
                             {categories.map((cat) => (
                                 <button
                                     key={cat}
