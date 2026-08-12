@@ -50,6 +50,8 @@ export const blogPosts = [
         date: "August 11, 2026",
         readTime: "7분",
         author: "Sandane Homes Korean Desk",
+        coverImage: "/blog/covers/living-room.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
         lang: "ko",
         excerpt: "Residences by Sandane Homes — 대노이다 안살 골프링크-1 및 지피 그린스 내 위치한 주재원 가족 전용 프리미엄 빌라.",
         content: [
@@ -84,6 +86,8 @@ export const blogPosts = [
         date: "August 10, 2026",
         readTime: "7分钟",
         author: "Sandane Homes Chinese Desk",
+        coverImage: "/blog/covers/kitchen.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
         lang: "zh-CN",
         excerpt: "Residences by Sandane Homes 为大诺伊达中资企业中高管与工程师团队提供 2BHK 至 4BHK 豪华全装长租服务公寓。",
         content: [
@@ -118,6 +122,8 @@ export const blogPosts = [
         date: "August 9, 2026",
         readTime: "7分钟",
         author: "Sandane Homes Chinese Desk",
+        coverImage: "/blog/covers/hallway-mirror.jpg",
+        coverGradient: "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
         lang: "zh-CN",
         excerpt: "Residences by Sandane Homes 为大诺伊达外企中高管家庭提供封闭式社区全装全配服务式住宅。",
         content: [
