@@ -182,7 +182,10 @@ blogPosts.forEach((post) => {
   const ogImage = post.coverImage
     ? (post.coverImage.startsWith('http') ? post.coverImage : `${BASE_URL}${post.coverImage}`)
     : DEFAULT_OG_IMAGE;
-  const isoDate = new Date(post.date).toISOString();
+  const rawDate = new Date(post.date);
+  const now = new Date();
+  const validDate = (rawDate > now || isNaN(rawDate.getTime())) ? now : rawDate;
+  const isoDate = validDate.toISOString();
   const pageTitle = post.metaTitle || `${post.title} | Sandane Homes Journal`;
   const pageDescription = post.metaDescription || post.excerpt;
 
@@ -542,6 +545,10 @@ const highPrioritySlugs = [
   'saffron-inn-by-sandane-homes-warm-boutique-hotel-homestay-greater-noida',
   'pine-tales-by-sandane-homes-scenic-nature-boutique-hotel-retreat',
   'sandane-homes-hotel-luxury-boutique-suites-kitchenette-expo-mart',
+  'residences-by-sandane-homes-korean-expat-relocation-guide-greater-noida',
+  'residences-by-sandane-homes-korean-family-luxury-gated-villas',
+  'residences-by-sandane-homes-chinese-enterprise-corporate-housing-guide',
+  'residences-by-sandane-homes-chinese-expat-family-villas-guide',
   'residences-by-sandane-homes-expat-relocation-housing-guide-greater-noida',
   'coco-house-exhibition-booth-crew-group-hotel-stay-expo-mart',
   'amaaltash-by-sandane-homes-boutique-hotel-surajpur-industrial-corridor',
@@ -596,7 +603,10 @@ function buildSitemapXml() {
   blogPosts.forEach((post) => {
     const isHighPriority = highPrioritySlugs.includes(post.slug);
     const priority = isHighPriority ? '0.9' : '0.8';
-    const postDate = new Date(post.date).toISOString().split('T')[0];
+    const rawDate = new Date(post.date);
+    const now = new Date();
+    const validDate = (rawDate > now || isNaN(rawDate.getTime())) ? now : rawDate;
+    const postDate = validDate.toISOString().split('T')[0];
     xml += `  <url>\n    <loc>${BASE_URL}/blog/${post.slug}</loc>\n    <lastmod>${postDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   });
 
