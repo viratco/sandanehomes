@@ -40,10 +40,10 @@ const ApartmentTypes = () => {
             link: "/pine-tales"
         },
         {
-            title: "Saffron Inn by Sandane Homes",
-            image: saffronImg,
+            title: "CoCo House",
+            image: cocoFacadeImg,
             sizeClass: "card-tier-2",
-            link: "/saffron"
+            link: "/coco-house"
         },
         {
             title: "Amaaltash by Sandane Homes",
@@ -70,10 +70,10 @@ const ApartmentTypes = () => {
             link: "/amara"
         },
         {
-            title: "CoCo House",
-            image: cocoFacadeImg,
+            title: "Saffron Inn by Sandane Homes",
+            image: saffronImg,
             sizeClass: "card-tier-1",
-            link: "/coco-house"
+            link: "/saffron"
         }
     ];
 
