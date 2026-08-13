@@ -1,5 +1,593 @@
 export const blogPosts = [
     {
+            "slug": "residences-by-sandane-homes-chinese-expat-serviced-apartments-greater-noida",
+            "title": "Residences by Sandane Homes: 大诺伊达中资企业中高层员工与外派工程师精装服务式公寓完全指南",
+            "metaTitle": "大诺伊达中资企业外派服务式公寓指南 | Residences by Sandane Homes",
+            "metaDescription": "Residences by Sandane Homes — 专为Vivo、OPPO、海尔、上汽等中资企业外派工程师及团队打造的2BHK~3BHK精装服务式公寓。配备RO直饮水、300 Mbps光纤、每日打扫、FRRO备案支援及B2B GST发票。",
+            "subtitle": "大诺伊达及诺伊达高速公路沿线中资企业外派管理层与工程师的首选全精装服务式公寓。",
+            "category": "Expat Housing",
+            "date": "August 13, 2026",
+            "readTime": "7分钟",
+            "author": "Sandane Homes Chinese Desk",
+            "coverImage": "/blog/covers/living-room.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "zh",
+            "excerpt": "Residences by Sandane Homes — 专为Vivo、OPPO、海尔等中资企业外派团队打造的高品质服务式公寓指南。",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "随着 Vivo、OPPO、海尔、上汽等中资制造与科技企业在大诺伊达（Greater Noida）及诺伊达高速公路（Noida Expressway）沿线建立大型工业园区和研发中心，赴印工作的中国工程师及中高层管理团队对高品质居住环境的需求日益增长。<a href='/residences'>Residences by Sandane Homes</a> 专为中资外派团队提供全精装、高安全性的高端服务式公寓。"
+                    },
+                    {
+                            "type": "heading",
+                            "text": "为什么中资企业外派团队首选 Residences by Sandane Homes"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>Ansal Golf Links-1 封闭式高端社区:</strong> 位于大诺伊达核心绿化社区，24小时门禁系统及三重安保，保障外派人员安全无忧。",
+                                    "<strong>拎包入住全精装户型:</strong> 2BHK与3BHK宽敞户型，配齐真皮沙发、大尺寸4K液晶电视、舒适大床、整套厨房家电及洗衣机。",
+                                    "<strong>多级RO饮用水净化与空气净化:</strong> 解决印度当地水质与空气顾虑，室内配备多重过滤RO直饮水系统及高效空气净化器。",
+                                    "<strong>300 Mbps 独享光纤网络:</strong> 专为连接国内总部、远程视频会议及视频流畅播放提供稳定高速网络保障。",
+                                    "<strong>FRRO备案协助与正规GST发票:</strong> 全面支持中国员工印度FRRO居住登记备案（Form C），并为企业开具正规B2B GST进项发票。"
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | 咨询热线: +91 97117 22273 | sandanehomes.com/residences",
+                            "attribution": "— 中资企业外派团队一站式居住解决方案"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "支持中资企业印度分公司直接签约和开具GST发票吗？",
+                            "answer": "是的，我们全面支持中资企业印度本地公司直接签署租赁合同，并每月开具正规B2B GST进项税发票。"
+                    },
+                    {
+                            "question": "公寓包含每日客房清洁服务吗？",
+                            "answer": "是的，包含每日专人客房打扫、垃圾清理以及定期布草更换服务。"
+                    }
+            ],
+            "tags": [
+                    "Residences by Sandane Homes",
+                    "大诺伊达中资公寓",
+                    "Vivo OPPO外派住宿",
+                    "印度服务式公寓"
+            ]
+    },
+    {
+            "slug": "residences-by-sandane-homes-chinese-corporate-long-stay-gated-community",
+            "title": "Residences by Sandane Homes: 大诺伊达Ansal Golf Links-1中资企业长期驻点住宿与全包式托管",
+            "metaTitle": "大诺伊达中资企业长期驻点住宿与全包托管 | Residences by Sandane Homes",
+            "metaDescription": "Residences by Sandane Homes 为中资企业印度分公司提供大诺伊达 Ansal Golf Links-1 全包式长期驻点住宿解决方案。包含水电气网全包、日常保洁、中式餐饮定制协同及GST统一开票。",
+            "subtitle": "针对中资企业长期项目组与常驻代表处的一站式全包托管服务式公寓与豪宅。",
+            "category": "Expat Housing",
+            "date": "August 13, 2026",
+            "readTime": "8分钟",
+            "author": "Sandane Homes Chinese Desk",
+            "coverImage": "/blog/covers/aesthetic-13.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "zh",
+            "excerpt": "Residences by Sandane Homes — 为中资企业长期驻点团队提供全包式托管服务式公寓。",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "对于在大诺伊达及苏拉杰布尔工业区（Surajpur Industrial Area）有长期工程项目、设备安装调优或常驻办事处的中资企业，传统的酒店住宿成本高昂且缺乏居家舒适感。<a href='/residences'>Residences by Sandane Homes</a> 推出专门面向中资企业团队的“全包托管式长期居住方案”。"
+                    },
+                    {
+                            "type": "heading",
+                            "text": "全包托管式长期居住方案优势"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>水电气网一站式全包:</strong> 无需处理复杂的印度当地水电网账单，房租内已包含水电、高速网络及物业费，行政管理省心高效。",
+                                    "<strong>灵活的租期与户型选择:</strong> 提供从1个月至数年的灵活租期，涵盖2BHK、3BHK精装公寓到4BHK/5BHK独栋别墅。",
+                                    "<strong>中式生活习惯协同:</strong> 厨房配备电饭煲、中式炒锅等厨具，并可协助联系周边正宗中餐配送与中国食材采购。",
+                                    "<strong>双语客服与管家响应:</strong> 专职管家快速响应日常维修与生活需求，消除语言沟通障碍。"
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | 联系电话: +91 97117 22273 | sandanehomes.com/residences",
+                            "attribution": "— 中资长期驻点与项目团队首选"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "可以为长期居住的企业员工提供发票拆分或统一月结吗？",
+                            "answer": "可以，我们支持根据贵公司财务要求开具统一的月度企业B2B GST发票。"
+                    },
+                    {
+                            "question": "小区周边交通与配套如何？",
+                            "answer": "小区位于Ansal Golf Links-1，紧邻Pari Chowk交通枢纽，距离India Expo Mart仅5分钟车程，周边超市、医院完备。"
+                    }
+            ],
+            "tags": [
+                    "Residences by Sandane Homes",
+                    "中资企业驻点",
+                    "大诺伊达长租公寓",
+                    "印度出差宿舍"
+            ]
+    },
+    {
+            "slug": "residences-by-sandane-homes-chinese-expat-family-relocation-education",
+            "title": "Residences by Sandane Homes: 驻印中资家属与高管家庭大诺伊达宜居生活与社区完全手册",
+            "metaTitle": "驻印中资家属与高管家庭宜居生活手册 | Residences by Sandane Homes",
+            "metaDescription": "Residences by Sandane Homes 在大诺伊达Ansal Golf Links-1提供安全封闭式社区公寓与别墅。三重安保、中式饮水卫生标准、便利超市及中餐配送协同，协助外派家属顺利融入印度生活。",
+            "subtitle": "为中资企业高级管理人员及随行家属打造的高品质、高安全感住宅与宜居生活环境。",
+            "category": "Expat Housing",
+            "date": "August 13, 2026",
+            "readTime": "7分钟",
+            "author": "Sandane Homes Chinese Desk",
+            "coverImage": "/blog/covers/aesthetic-2.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "zh",
+            "excerpt": "Residences by Sandane Homes — 为驻印中资高管及家属打造的高品质封闭式社区生活手册。",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "携家属赴印度工作外派对生活品质、饮水卫生以及子女安全提出了更高要求。<a href='/residences'>Residences by Sandane Homes</a> 位于大诺伊达绿化率极高的高端封闭社区 Ansal Golf Links-1，是中资高管家庭在印居留的安心之选。"
+                    },
+                    {
+                            "type": "heading",
+                            "text": "保障中资家属安心生活的四大核心品质"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>绿化怡人的安保社区:</strong> 社区内拥有大面积绿地与休闲公园，远离主干道噪音与尘土，适合家属散步与休闲。",
+                                    "<strong>严苛的水质与卫生保障:</strong> 全屋配置高标准RO净水器，并保障24小时热水与不间断电力供应。",
+                                    "<strong>邻近国际学校与高档医院:</strong> 方便子女就读当地国际学校，邻近知名国际医疗中心（如Fortis、Yashoda）。",
+                                    "<strong>全套家电与居家厨房:</strong> 宽敞厨房配置大容量冰箱、微波炉及整套烹饪用具，满足家庭烹饪需求。"
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | 预订专线: +91 97117 22273 | sandanehomes.com/residences",
+                            "attribution": "— 中资高管家庭宜居之选"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "公寓适合有儿童或老人的家庭居住吗？",
+                            "answer": "非常适合。社区内绿化良好、安静安全，并配有电梯与平地通道，非常便利。"
+                    },
+                    {
+                            "question": "是否有24小时电力保障？",
+                            "answer": "是的，小区及住宅配有发电机备用电力系统，确保24小时不间断供电与空调运转。"
+                    }
+            ],
+            "tags": [
+                    "Residences by Sandane Homes",
+                    "中资高管家庭住宅",
+                    "大诺伊达豪华别墅",
+                    "印度外派家属生活"
+            ]
+    },
+    {
+            "slug": "residences-by-sandane-homes-chinese-frro-registration-housing-contract",
+            "title": "Residences by Sandane Homes: 印度FRRO居住备案、中资公司直接签约与GST发票合规指南",
+            "metaTitle": "印度FRRO居住备案与中资公司GST发票合规 | Residences by Sandane Homes",
+            "metaDescription": "Residences by Sandane Homes 协助赴印中资员工顺利完成FRRO居住登记备案（Form C）。支持中资印度子公司直接签署租赁合同与B2B GST进项发票开立。",
+            "subtitle": "规范合规的中资企业员工印度签证居留备案与财税发票全流程保障。",
+            "category": "Expat Housing",
+            "date": "August 13, 2026",
+            "readTime": "7分钟",
+            "author": "Sandane Homes Chinese Desk",
+            "coverImage": "/blog/covers/kitchen.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "zh",
+            "excerpt": "Residences by Sandane Homes — 协助中资员工完成印度FRRO居留备案与GST发票合规指南。",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "赴印工作的中国公民在入境后必须在规定时间内向印度外国人登记处（FRRO）提交 Form C 居住登记备案。<a href='/residences'>Residences by Sandane Homes</a> 拥有正规合规的居住资质，为每位入住的中国员工提供完整的FRRO备案证明文件。"
+                    },
+                    {
+                            "type": "heading",
+                            "text": "中资企业财税合规与居留证明优势"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>快速开具 Form C 证明:</strong> 提供符合FRRO官方要求的住宿证明文件，协助员工迅速完成签证延期与居留备案。",
+                                    "<strong>中资公司名义直接签约:</strong> 支持中资印度本地法人公司名义签署正规长租协议，符合企业内部审计规范。",
+                                    "<strong>100% 正规 B2B GST 发票:</strong> 提供包含完整GSTIN编号的增值税发票，便于企业抵扣与报销。",
+                                    "<strong>灵活的付款结算机制:</strong> 支持银行转账、支票以及公司账户对公汇款。"
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | 客服微信/电话: +91 97117 22273 | sandanehomes.com/residences",
+                            "attribution": "— 财税合规与FRRO居住备案专家"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "入住后多久可以拿到FRRO申报需要的Form C文件？",
+                            "answer": "入住登记完成后，我们将在24小时内为您生成正规的 Form C 备案文件。"
+                    },
+                    {
+                            "question": "能否开具符合印度税务局要求的GST进项税发票？",
+                            "answer": "完全可以，我们将根据您提供的公司GSTIN编号与地址开具标准的税务发票。"
+                    }
+            ],
+            "tags": [
+                    "Residences by Sandane Homes",
+                    "印度FRRO备案",
+                    "Form C居住证明",
+                    "中资企业GST发票"
+            ]
+    },
+    {
+            "slug": "coco-house-exhibition-hotel-guide-india-expo-mart-2027",
+            "title": "CoCo House: Ultimate Exhibition Hotel Stay Guide Near India Expo Mart Greater Noida",
+            "metaTitle": "CoCo House | Ultimate Exhibition Hotel Near India Expo Mart",
+            "metaDescription": "Book CoCo House in Greater Noida — chic boutique hotel 8 minutes from India Expo Mart. Twin bed options, B2B GST tax invoice, 300 Mbps WiFi & 24/7 express dining.",
+            "subtitle": "Premier boutique hotel experience for trade fair exhibitors, conference delegates, and corporate event teams near Pari Chowk.",
+            "category": "Event Stays",
+            "date": "August 13, 2026",
+            "readTime": "6 min read",
+            "author": "Sandane Homes Editorial Desk",
+            "coverImage": "/blog/covers/coco-reception.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "en",
+            "excerpt": "Book CoCo House in Greater Noida — chic boutique hotel just 8 minutes from India Expo Mart Gate 1 with 300 Mbps fiber internet & single B2B GST invoicing.",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "Attending major international trade fairs like IHGF Delhi Fair, Auto Expo, ELECRAMA, or CPHI India at the India Expo Centre & Mart requires a hotel that guarantees fast transit, high-speed connectivity, and executive comfort. <a href='/coco-house'>CoCo House</a> is Greater Noida's top-rated boutique hotel destination tailored specifically for trade fair vendors, corporate exhibitors, and event delegates."
+                    },
+                    {
+                            "type": "heading",
+                            "text": "Why Trade Fair Exhibitors Choose CoCo House"
+                    },
+                    {
+                            "type": "paragraph",
+                            "text": "Designed with corporate event teams in mind, CoCo House provides seamless convenience throughout your trade fair schedule:"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>8 Minutes Signal-Free to Gate 1:</strong> Avoid main road traffic congestion with quick, direct transit to the India Expo Mart main entrance.",
+                                    "<strong>Exhibitor Twin & King Suites:</strong> Comfortable room layouts with twin beds for colleagues or plush king beds for project leads.",
+                                    "<strong>Single Master B2B GST Invoicing:</strong> Direct company tax invoices issued on checkout for hassle-free corporate expense reimbursement.",
+                                    "<strong>300 Mbps Dedicated Fiber WiFi:</strong> Ultra-fast internet access per room for presentation uploads, virtual meetings, and heavy file transfers.",
+                                    "<strong>24/7 In-House Dining & Express Breakfast:</strong> Early-bird breakfasts served before exhibition gates open and round-the-clock room service."
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "CoCo House | Ansal Golf Links-1, Greater Noida | Contact: +91 97117 22273 | sandanehomes.com/coco-house",
+                            "attribution": "— Greater Noida's Premier Boutique Hotel for India Expo Mart"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "How far is CoCo House from India Expo Mart?",
+                            "answer": "CoCo House is located approximately 3.5 km (an 8-minute signal-free drive) from India Expo Mart Gate 1."
+                    },
+                    {
+                            "question": "Can CoCo House issue B2B GST invoices for corporate stays?",
+                            "answer": "Yes, CoCo House provides official B2B GST tax invoices with your company details for corporate accounting."
+                    }
+            ],
+            "tags": [
+                    "CoCo House",
+                    "Hotel Near India Expo Mart",
+                    "Boutique Hotel Greater Noida",
+                    "Exhibition Stay"
+            ]
+    },
+    {
+            "slug": "residences-by-sandane-homes-japanese-expat-housing-relocation-noida",
+            "title": "Residences by Sandane Homes: デノイダおよびノイダエクスプレスウェイ 日本人駐在員向け高級サービスアパートメント",
+            "metaTitle": "Residences by Sandane Homes | 日本人駐在員向け高級サービスアパートメント",
+            "metaDescription": "Residences by Sandane Homes — ホンダ、ヤマハ、デンソー等デノイダ進出日本企業向けフルセレクト2BHK〜4BHKサービスアパートメント。24時間セキュリティ、浄水器、日本TVチャンネル、日々の清掃サービス完備。",
+            "subtitle": "デノイダおよびノイダエクスプレスウェイの日本企業駐在員・ご家族向け、安心のセキュリティと日本仕様設備を備えた高級住居。",
+            "category": "Expat Housing",
+            "date": "August 13, 2026",
+            "readTime": "7分",
+            "author": "Sandane Homes Japanese Desk",
+            "coverImage": "/blog/covers/living-room.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "ja",
+            "excerpt": "Residences by Sandane Homes — デノイダの日本人駐在員およびご家族向け、日本の生活習慣に配慮した高品質なサービスドレジデンス。",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "ホンダ、ヤマハ、デンソー、丸紅などの日本企業が拠点を置くデノイダ（Greater Noida）およびノイダエクスプレスウェイ沿いへ赴任される日本人駐在員とそのご家族に、最高の住環境を提供する <a href='/residences'>Residences by Sandane Homes</a> をご紹介いたします。"
+                    },
+                    {
+                            "type": "heading",
+                            "text": "日本人駐在員に選ばれる理由と日本仕様設備"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>トリプルセキュリティ gated コミュニティ:</strong> Ansal Golf Links-1 内の静穏で安全な高級住宅街に位置し、24時間体制のゲート警備を実施。",
+                                    "<strong>お湯の湯量十分なバスタブ・風呂設備:</strong> 一部ユニットには深型のお風呂・バスタブを設置し、日本の入浴習慣に対応。",
+                                    "<strong>多段階RO高性能浄水器:</strong> 飲用および調理用に安全なRO浄水システムを標準完備。",
+                                    "<strong>300 Mbps 光ファイバーインターネット:</strong> 日本へのテレワークや動画配信サービス視聴に対応する高速回線。",
+                                    "<strong>日本語/英語バイリンガルサポート & FRROビザ書類支援:</strong> 法人契約および駐在員のビザ登録手続き書類を完備。"
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | お問い合わせ: +91 97117 22273 | sandanehomes.com/residences",
+                            "attribution": "— 日本人駐在員向けプレミアム住宅ソリューション"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "法人契約やGST領収書の発行は可能ですか？",
+                            "answer": "はい、日本企業のインド現地法人宛てに正当なGST法人領収書を毎月発行いたします。"
+                    },
+                    {
+                            "question": "毎日の清掃やリネン交換は含まれていますか？",
+                            "answer": "はい、専任のハウスキーピングが毎日お部屋の掃除および定期リネン交換を行います。"
+                    }
+            ],
+            "tags": [
+                    "Residences by Sandane Homes",
+                    "日本人駐在員 住宅",
+                    "デノイダ サービスアパートメント",
+                    "インド 駐在 アパート"
+            ]
+    },
+    {
+            "slug": "residences-by-sandane-homes-korean-corporate-relocation-greater-noida",
+            "title": "Residences by Sandane Homes: 삼성·LG·현대 주재원을 위한 대노이다 럭셔리 주상복합 및 빌라 이주 가이드",
+            "metaTitle": "Residences by Sandane Homes | 한국 주재원 럭셔리 이주 가이드",
+            "metaDescription": "Residences by Sandane Homes — 삼성전자, LG전자, 현대모비스, 효성 등 대노이다 진출 한국 기업 주재원을 위한 프리미엄 2BHK~4BHK 게이티드 빌라 및 주상복합. RO 정수기, 매일 청소, FRRO 지원 및 GST 계산서 발급.",
+            "subtitle": "대노이다 안살 골프링크-1 최고급 게이티드 단지 내 한국인 주재원 및 가족 전용 풀옵션 럭셔리 주택.",
+            "category": "Expat Housing",
+            "date": "August 13, 2026",
+            "readTime": "7분",
+            "author": "Sandane Homes Korean Desk",
+            "coverImage": "/blog/covers/korean-breakfast.png",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "ko",
+            "excerpt": "Residences by Sandane Homes — 삼성, LG 등 대노이다 한국 주재원 임직원과 가족을 위한 맞춤형 럭셔리 주거 솔루션.",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "인도 대노이다(Greater Noida) 공장 및 기술 연구소로 발령받는 한국 기업 주재원 및 주재원 가족을 위해 완벽한 주거 안락함을 제공하는 <a href='/residences'>Residences by Sandane Homes</a>를 소개합니다."
+                    },
+                    {
+                            "type": "heading",
+                            "text": "한국인 주재원을 위한 특화 프리미엄 서비스"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>철통 보안 Ansal Golf Links-1 내 위치:</strong> 24시간 게이트 보안 및 CCTV 시스템으로 가족 모두 안심할 수 있는 주거 환경.",
+                                    "<strong>완벽 입주 풀옵션 가전·가구:</strong> 킹사이즈 침대, 스마트 4K TV, 주방 가전, 세탁기, 침구류 일체 세팅.",
+                                    "<strong>위생적인 RO 수질 정화 & 정기 소독:</strong> 음용수 다단계 RO 정수기 설치 및 전문 청소팀의 일일 하우스키핑.",
+                                    "<strong>300 Mbps 초고속 인터넷 & 한국 방송 지원:</strong> 재택근무 및 본사 화상회의를 위한 끊김 없는 광인터넷.",
+                                    "<strong>법인 계약 & FRRO 거주지 등록 완벽 지원:</strong> 한국 법인 세금계산서(GST) 발행 및 주재원 비자 관련 행정 서류 완비."
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | 문의: +91 97117 22273 | sandanehomes.com/residences",
+                            "attribution": "— 한국 주재원 맞춤형 주거 솔루션"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "한국 법인 직계약 및 GST 발급이 가능한가요?",
+                            "answer": "네, 인도 법인 또는 한국 본사를 대상으로 정식 GST 세금계산서를 매월 통합 발급해 드립니다."
+                    },
+                    {
+                            "question": "주재원 가족용 3BHK/4BHK 빌라도 준비되어 있나요?",
+                            "answer": "네, 단독 게이티드 빌라부터 대형 3BHK/4BHK 레지던스까지 다양한 평형을 보유하고 있습니다."
+                    }
+            ],
+            "tags": [
+                    "Residences by Sandane Homes",
+                    "한국인 주재원 숙소",
+                    "대노이다 주상복합",
+                    "인도 주재원 이주"
+            ]
+    },
+    {
+            "slug": "amaaltash-by-sandane-homes-executive-kitchenette-suites-ansal-golf-links",
+            "title": "Amaaltash by Sandane Homes: Executive Kitchenette Suites for Extended Stays in Ansal Golf Links-1",
+            "metaTitle": "Amaaltash by Sandane Homes | Executive Kitchenette Suites Greater Noida",
+            "metaDescription": "Book executive suites at Amaaltash by Sandane Homes in Ansal Golf Links-1. Featuring private kitchenettes, 300 Mbps WiFi, daily housekeeping & corporate GST invoicing.",
+            "subtitle": "Tranquil executive boutique hotel suites equipped with private kitchenette facilities in a lush gated community.",
+            "category": "Boutique Stays",
+            "date": "August 13, 2026",
+            "readTime": "6 min read",
+            "author": "Sandane Homes Editorial Desk",
+            "coverImage": "/blog/covers/amaaltash-room.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "en",
+            "excerpt": "Book executive suites at Amaaltash by Sandane Homes in Ansal Golf Links-1 — equipped with private kitchenettes, RO water & 300 Mbps WiFi.",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "For business professionals requiring extended hotel stays near Knowledge Park II/III or India Expo Mart, <a href='/amaaltash'>Amaaltash by Sandane Homes</a> balances boutique hotel comfort with the practical utility of private in-room kitchenettes."
+                    },
+                    {
+                            "type": "heading",
+                            "text": "Executive Suite Highlights at Amaaltash by Sandane Homes"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>In-Room Kitchenette:</strong> Equipped with microwave, electric kettle, mini-refrigerator, and dedicated RO purified water tap.",
+                                    "<strong>Tranquil Green Environment:</strong> Situated inside peaceful Ansal Golf Links-1, offering restful nights away from main thoroughfare noise.",
+                                    "<strong>Dedicated Workspaces & 300 Mbps WiFi:</strong> Ergonomic desk and high-speed internet ideal for corporate remote work.",
+                                    "<strong>Corporate Accounting Ready:</strong> Direct B2B GST tax invoice issuance for corporate stay bookings."
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Amaaltash by Sandane Homes | Ansal Golf Links-1, Greater Noida | Reservations: +91 97117 22273 | sandanehomes.com/amaaltash",
+                            "attribution": "— Executive Boutique Hotel Suites"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "Do suites at Amaaltash by Sandane Homes include kitchenettes?",
+                            "answer": "Yes, executive suites feature kitchenettes equipped with microwave, mini-fridge, kettle, and RO purified water."
+                    },
+                    {
+                            "question": "Is GST invoicing available for company bookings at Amaaltash by Sandane Homes?",
+                            "answer": "Yes, we provide official corporate B2B GST tax invoices for company reimbursements."
+                    }
+            ],
+            "tags": [
+                    "Amaaltash by Sandane Homes",
+                    "Kitchenette Suite Noida",
+                    "Executive Hotel Greater Noida",
+                    "Ansal Golf Links Stay"
+            ]
+    },
+    {
+            "slug": "amara-inn-by-sandane-homes-corporate-stay-knowledge-park-expo-mart",
+            "title": "Amara Inn by Sandane Homes: Premier Corporate Hotel Near Knowledge Park & Pari Chowk",
+            "metaTitle": "Amara Inn by Sandane Homes | Corporate Hotel Knowledge Park Pari Chowk",
+            "metaDescription": "Experience deluxe hotel stays at Amara Inn by Sandane Homes in Greater Noida. Private balconies, 300 Mbps WiFi, daily breakfast, 24/7 room service & GST invoices.",
+            "subtitle": "Chic corporate accommodation offering deluxe rooms with private balconies near Pari Chowk commercial zone.",
+            "category": "Boutique Stays",
+            "date": "August 13, 2026",
+            "readTime": "6 min read",
+            "author": "Sandane Homes Editorial Desk",
+            "coverImage": "/blog/covers/amara-suite-1.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "en",
+            "excerpt": "Experience deluxe hotel stays at Amara Inn by Sandane Homes in Greater Noida — private balconies, 300 Mbps WiFi & GST invoicing.",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "Located conveniently near Pari Chowk and the Knowledge Park institutional sector, <a href='/amara'>Amara Inn by Sandane Homes</a> offers executives and travelers warm, personal hospitality combined with modern corporate amenities."
+                    },
+                    {
+                            "type": "heading",
+                            "text": "Key Amenities at Amara Inn by Sandane Homes"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>Private Balcony Suites:</strong> Spacious, sunlit rooms featuring private balconies overlooking residential greenery.",
+                                    "<strong>24/7 In-Room Dining:</strong> Multi-cuisine room service and complimentary hot breakfast options.",
+                                    "<strong>High-Speed 300 Mbps Fiber WiFi:</strong> Fast and reliable connectivity throughout the property.",
+                                    "<strong>Seamless Corporate GST Invoicing:</strong> Official GST billing for easy company expense reporting."
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "Amara Inn by Sandane Homes | Greater Noida | Contact: +91 97117 22273 | sandanehomes.com/amara",
+                            "attribution": "— Premium Corporate Boutique Stay"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "How close is Amara Inn by Sandane Homes to Pari Chowk?",
+                            "answer": "Amara Inn by Sandane Homes is situated within 5 minutes of Pari Chowk and Knowledge Park."
+                    },
+                    {
+                            "question": "Does Amara Inn by Sandane Homes provide daily breakfast?",
+                            "answer": "Yes, daily complimentary breakfast and 24/7 dining options are provided."
+                    }
+            ],
+            "tags": [
+                    "Amara Inn by Sandane Homes",
+                    "Corporate Hotel Greater Noida",
+                    "Pari Chowk Hotel",
+                    "Boutique Hotel Near Expo Mart"
+            ]
+    },
+    {
+            "slug": "the-glam-by-sandane-homes-noida-airport-transit-luxury-suites",
+            "title": "The Glam by Sandane Homes: Luxury Boutique Suites on Jewar Noida Airport Expressway Corridor",
+            "metaTitle": "The Glam by Sandane Homes | Luxury Suites Noida Airport Corridor",
+            "metaDescription": "Book luxury suites at The Glam by Sandane Homes near Jewar Noida International Airport corridor. Designer interiors, 300 Mbps WiFi, 24/7 concierge & GST invoicing.",
+            "subtitle": "Opulent boutique suites designed for business leaders, flight transit passengers, and event travelers.",
+            "category": "Boutique Stays",
+            "date": "August 13, 2026",
+            "readTime": "6 min read",
+            "author": "Sandane Homes Editorial Desk",
+            "coverImage": "/blog/covers/glam-room-1.jpg",
+            "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+            "lang": "en",
+            "excerpt": "Book luxury suites at The Glam by Sandane Homes near Jewar Noida International Airport corridor with designer interiors & 300 Mbps WiFi.",
+            "content": [
+                    {
+                            "type": "paragraph",
+                            "text": "Strategically located along the rapidly developing Jewar Noida International Airport expressway corridor, <a href='/glam'>The Glam by Sandane Homes</a> offers elevated luxury suites for travelers who demand high design and refined comfort."
+                    },
+                    {
+                            "type": "heading",
+                            "text": "Signature Experience at The Glam by Sandane Homes"
+                    },
+                    {
+                            "type": "list",
+                            "items": [
+                                    "<strong>Designer Suite Aesthetics:</strong> Custom furnishings, marble ensuite bathrooms, and premium king mattresses.",
+                                    "<strong>Transit Convenience:</strong> Fast access to Yamuna Expressway, Jewar Airport zone, and Noida Expressway.",
+                                    "<strong>High-Speed Business WiFi:</strong> 300 Mbps bandwidth for seamless remote executive work.",
+                                    "<strong>Direct Corporate GST Billing:</strong> Automated B2B tax invoice issuance for business expense filing."
+                            ]
+                    },
+                    {
+                            "type": "quote",
+                            "text": "The Glam by Sandane Homes | Greater Noida | Contact: +91 97117 22273 | sandanehomes.com/glam",
+                            "attribution": "— Luxury Suites near Noida Airport Corridor"
+                    },
+                    {
+                            "type": "cta"
+                    }
+            ],
+            "faqs": [
+                    {
+                            "question": "Is The Glam by Sandane Homes suitable for airport transit stays?",
+                            "answer": "Yes, its position along the expressway corridor offers fast access to Jewar Airport and Delhi NCR travel hubs."
+                    },
+                    {
+                            "question": "Does The Glam by Sandane Homes issue corporate GST tax invoices?",
+                            "answer": "Yes, official B2B GST tax invoices are provided for all stay reservations."
+                    }
+            ],
+            "tags": [
+                    "The Glam by Sandane Homes",
+                    "Luxury Suites Greater Noida",
+                    "Noida Airport Corridor Hotel",
+                    "Executive Hotel"
+            ]
+    },
+    {
         "slug": "residences-by-sandane-homes-korean-expat-relocation-guide-greater-noida",
         "title": "Residences by Sandane Homes: 대노이다 및 노이디 익스프레스웨이 한국인 주상복합 및 장기 주택 완벽 가이드",
         "metaTitle": "Residences by Sandane Homes | 한국인 주상복합 & 주거 이전 가이드",

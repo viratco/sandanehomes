@@ -31,18 +31,24 @@ const ApartmentTypes = () => {
         setCursorPos({ x: e.clientX, y: e.clientY });
     };
 
-    // 5 items symmetrically ordered with Sandane Homes centerpiece
+    // 7 items symmetrically ordered with Sandane Homes centerpiece
     const apartments = [
+        {
+            title: "Pine Tales by Sandane Homes",
+            image: pineTalesImg,
+            sizeClass: "card-tier-1",
+            link: "/pine-tales"
+        },
         {
             title: "Amara Inn by Sandane Homes",
             image: amaraImg,
-            sizeClass: "card-tier-1",
+            sizeClass: "card-tier-2",
             link: "/amara"
         },
         {
             title: "Amaaltash by Sandane Homes",
             image: amaaltashImg,
-            sizeClass: "card-tier-2",
+            sizeClass: "card-tier-3",
             link: "/amaaltash"
         },
         {
@@ -56,6 +62,12 @@ const ApartmentTypes = () => {
             image: glamMainImg,
             sizeClass: "card-tier-3",
             link: "/glam"
+        },
+        {
+            title: "Saffron Inn by Sandane Homes",
+            image: saffronImg,
+            sizeClass: "card-tier-2",
+            link: "/saffron"
         },
         {
             title: "CoCo House",
