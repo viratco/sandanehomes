@@ -12,7 +12,7 @@ import room4 from '../../assets/IMG_6108.jpg';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';
 
-import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle } from 'react-icons/fa';
+import { FaParking, FaCoffee, FaWifi, FaDesktop, FaConciergeBell, FaGamepad, FaBolt, FaBroom, FaStar, FaUserCircle, FaUtensils, FaShieldAlt, FaMapMarkerAlt, FaFileInvoiceDollar, FaBed, FaLeaf } from 'react-icons/fa';
 import './SandaneHomes.css';
 import { createHotelSchema } from '../../utils/schemaHelper';
 
@@ -265,6 +265,121 @@ const SandaneHomes = () => {
                     <p className="about-text">
                         In-house restaurant / Cafe at Sandane Homes , specializing in Pan-Asian cuisine with authentic Korean flavors.
                     </p>
+                </div>
+            </div>
+
+            {/* ═══════════════════════════════════════════
+                WHY CHOOSE SANDANE HOMES HOTEL — SEO Section
+            ═══════════════════════════════════════════ */}
+            <div className="sh-why-section">
+                {/* Top Label */}
+                <h4 className="section-subtitle">Why Choose Us</h4>
+                <h2 className="section-title" style={{ marginBottom: '16px' }}>
+                    Greater Noida's Premier Luxury Boutique Hotel
+                </h2>
+                <p className="sh-why-intro">
+                    Sandane Homes Hotel is a luxury boutique hotel nestled inside the exclusive gated enclave of
+                    <strong> Ansal Golf Links-1, Greater Noida</strong> — strategically located just
+                    <strong> 5 minutes from India Expo Centre &amp; Mart</strong>. We combine the intimacy of a boutique stay
+                    with five-star service standards: in-house restaurant, kitchenette suites, 300 Mbps fiber internet,
+                    and 24/7 personalized concierge — all under one roof.
+                </p>
+
+                {/* Six Pillar Feature Grid */}
+                <div className="sh-pillars-grid">
+                    <div className="sh-pillar">
+                        <div className="sh-pillar-icon"><FaUtensils /></div>
+                        <h3 className="sh-pillar-title">In-House Kitchen & Restaurant</h3>
+                        <p className="sh-pillar-desc">
+                            Sohee's Kitchen — our exclusive in-house Pan-Asian restaurant &amp; café — serves
+                            authentic Korean and Asian cuisine, freshly cooked breakfasts, and 24/7 room service.
+                            No need to step out; world-class dining is right inside your hotel.
+                        </p>
+                    </div>
+
+                    <div className="sh-pillar">
+                        <div className="sh-pillar-icon"><FaBed /></div>
+                        <h3 className="sh-pillar-title">Kitchenette Suites & Executive Rooms</h3>
+                        <p className="sh-pillar-desc">
+                            Choose from private kitchenette suites with microwave, mini-fridge &amp; RO water,
+                            or premium executive rooms with king-size memory foam beds, smart 4K TVs, and
+                            ergonomic workstations — perfect for both short and extended corporate stays.
+                        </p>
+                    </div>
+
+                    <div className="sh-pillar">
+                        <div className="sh-pillar-icon"><FaShieldAlt /></div>
+                        <h3 className="sh-pillar-title">Gated Community Safety</h3>
+                        <p className="sh-pillar-desc">
+                            Situated inside the triple-secured Ansal Golf Links-1 gated township with 24/7
+                            CCTV surveillance and manned entry gates. Consistently rated <strong>"Safe"</strong> by
+                            solo female travelers, corporate guests, and families on Booking.com &amp; Google.
+                        </p>
+                    </div>
+
+                    <div className="sh-pillar">
+                        <div className="sh-pillar-icon"><FaWifi /></div>
+                        <h3 className="sh-pillar-title">300 Mbps Dedicated Fiber Internet</h3>
+                        <p className="sh-pillar-desc">
+                            Ultra-fast dedicated fiber broadband — not shared, not throttled. Ideal for
+                            corporate work-from-hotel, HD video conferencing, and high-bandwidth data
+                            uploads for trade fair exhibitors and remote executives.
+                        </p>
+                    </div>
+
+                    <div className="sh-pillar">
+                        <div className="sh-pillar-icon"><FaFileInvoiceDollar /></div>
+                        <h3 className="sh-pillar-title">B2B GST Invoicing & Corporate Billing</h3>
+                        <p className="sh-pillar-desc">
+                            We issue official B2B GST tax invoices with your company's GSTIN for all
+                            corporate room bookings. One consolidated invoice for your entire team —
+                            hassle-free reimbursement for HR and finance departments.
+                        </p>
+                    </div>
+
+                    <div className="sh-pillar">
+                        <div className="sh-pillar-icon"><FaMapMarkerAlt /></div>
+                        <h3 className="sh-pillar-title">5 Min from India Expo Mart, Pari Chowk</h3>
+                        <p className="sh-pillar-desc">
+                            Located 3.5 km from India Expo Centre &amp; Mart Gate 1 via a signal-free internal
+                            road. Minutes from Pari Chowk metro, Knowledge Park, Sharda University, and
+                            the Yamuna Expressway industrial corridor.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Rich SEO Paragraph Block */}
+                <div className="sh-seo-block">
+                    <div className="sh-seo-text">
+                        <h3>A Boutique Hotel Experience Like No Other in Greater Noida</h3>
+                        <p>
+                            At <strong>Sandane Homes Hotel</strong>, every detail is curated for discerning travelers. Our
+                            property is rated <strong>4.9/5</strong> across Google, MakeMyTrip, Booking.com, and Agoda
+                            for cleanliness, service warmth, and premium ambience. We are consistently described by
+                            guests as <em>"brand new," "luxurious," "super clean," "home-like," and "highly recommended"</em>.
+                        </p>
+                        <p>
+                            Whether you are a <strong>trade fair exhibitor at India Expo Mart</strong>, a corporate
+                            executive on an extended project, a Japanese or Korean expatriate professional, or a
+                            family seeking safe and comfortable accommodation in Greater Noida — Sandane Homes Hotel
+                            is your ideal base.
+                        </p>
+                        <p>
+                            Our <strong>Sohee's Kitchen</strong> in-house restaurant specializes in Pan-Asian cuisine
+                            with authentic Korean flavors — a rare and beloved offering in the Greater Noida
+                            hospitality landscape. Paired with billiards, Netflix rooms, complimentary breakfast,
+                            daily housekeeping, and free parking, we redefine what a boutique hotel in Greater Noida
+                            can truly offer.
+                        </p>
+                    </div>
+                    <div className="sh-seo-highlights">
+                        <div className="sh-highlight-item"><FaLeaf /><span>Eco-conscious daily housekeeping</span></div>
+                        <div className="sh-highlight-item"><FaCoffee /><span>Complimentary breakfast daily</span></div>
+                        <div className="sh-highlight-item"><FaGamepad /><span>Recreation — Billiards lounge</span></div>
+                        <div className="sh-highlight-item"><FaParking /><span>Free secure parking</span></div>
+                        <div className="sh-highlight-item"><FaBolt /><span>24/7 uninterrupted power supply</span></div>
+                        <div className="sh-highlight-item"><FaConciergeBell /><span>Personal concierge on call</span></div>
+                    </div>
                 </div>
             </div>
 
