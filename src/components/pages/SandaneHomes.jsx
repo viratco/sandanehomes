@@ -279,71 +279,71 @@ const SandaneHomes = () => {
                 </h2>
                 <p className="sh-why-intro">
                     Sandane Homes Hotel is a luxury boutique hotel nestled inside the exclusive gated enclave of
-                    <strong> Ansal Golf Links-1, Greater Noida</strong> — strategically located just
-                    <strong> 5 minutes from India Expo Centre &amp; Mart</strong>. We combine the intimacy of a boutique stay
-                    with five-star service standards: in-house restaurant, kitchenette suites, 300 Mbps fiber internet,
-                    and 24/7 personalized concierge — all under one roof.
+                    <strong> Ansal Golf Links-1, Greater Noida</strong> — just
+                    <strong> 5 minutes from India Expo Centre &amp; Mart</strong>. We combine the warmth of a boutique stay
+                    with hotel-grade service: an in-house restaurant, premium rooms, 300 Mbps fiber WiFi,
+                    and 24/7 personalized hospitality — all under one beautiful roof.
                 </p>
 
                 {/* Six Pillar Feature Grid */}
                 <div className="sh-pillars-grid">
                     <div className="sh-pillar">
                         <div className="sh-pillar-icon"><FaUtensils /></div>
-                        <h3 className="sh-pillar-title">In-House Kitchen & Restaurant</h3>
+                        <h3 className="sh-pillar-title">In-House Restaurant & Kitchen</h3>
                         <p className="sh-pillar-desc">
-                            Sohee's Kitchen — our exclusive in-house Pan-Asian restaurant &amp; café — serves
-                            authentic Korean and Asian cuisine, freshly cooked breakfasts, and 24/7 room service.
-                            No need to step out; world-class dining is right inside your hotel.
+                            Sohee's Kitchen — our in-house restaurant &amp; café — brings authentic Pan-Asian
+                            and Korean cuisine directly to you. Freshly prepared breakfasts, hot meals, and
+                            24/7 room service mean you never have to leave the comfort of the hotel.
                         </p>
                     </div>
 
                     <div className="sh-pillar">
                         <div className="sh-pillar-icon"><FaBed /></div>
-                        <h3 className="sh-pillar-title">Kitchenette Suites & Executive Rooms</h3>
+                        <h3 className="sh-pillar-title">Premium Rooms & Kitchenette Suites</h3>
                         <p className="sh-pillar-desc">
-                            Choose from private kitchenette suites with microwave, mini-fridge &amp; RO water,
-                            or premium executive rooms with king-size memory foam beds, smart 4K TVs, and
-                            ergonomic workstations — perfect for both short and extended corporate stays.
+                            Rest in king-size memory foam beds, enjoy smart 4K TVs, and work from
+                            dedicated in-room desks. Our kitchenette suites add a mini-fridge, microwave,
+                            and RO water — every convenience of a premium hotel room.
                         </p>
                     </div>
 
                     <div className="sh-pillar">
                         <div className="sh-pillar-icon"><FaShieldAlt /></div>
-                        <h3 className="sh-pillar-title">Gated Community Safety</h3>
+                        <h3 className="sh-pillar-title">Secure & Peaceful Hotel Setting</h3>
                         <p className="sh-pillar-desc">
-                            Situated inside the triple-secured Ansal Golf Links-1 gated township with 24/7
-                            CCTV surveillance and manned entry gates. Consistently rated <strong>"Safe"</strong> by
-                            solo female travelers, corporate guests, and families on Booking.com &amp; Google.
+                            Set inside the prestigious Ansal Golf Links-1 gated enclave with 24/7 CCTV
+                            and secured entry. Rated <strong>"Safe"</strong> and <strong>"Highly Recommended"</strong> by
+                            solo travelers, couples, and business guests on Google &amp; Booking.com.
                         </p>
                     </div>
 
                     <div className="sh-pillar">
                         <div className="sh-pillar-icon"><FaWifi /></div>
-                        <h3 className="sh-pillar-title">300 Mbps Dedicated Fiber Internet</h3>
+                        <h3 className="sh-pillar-title">300 Mbps High-Speed WiFi</h3>
                         <p className="sh-pillar-desc">
-                            Ultra-fast dedicated fiber broadband — not shared, not throttled. Ideal for
-                            corporate work-from-hotel, HD video conferencing, and high-bandwidth data
-                            uploads for trade fair exhibitors and remote executives.
+                            Dedicated 300 Mbps fiber broadband — not shared, never throttled. Whether you're
+                            streaming your favourite show, on a video call, or browsing, our hotel WiFi
+                            delivers seamless connectivity in every room, all day.
                         </p>
                     </div>
 
                     <div className="sh-pillar">
                         <div className="sh-pillar-icon"><FaFileInvoiceDollar /></div>
-                        <h3 className="sh-pillar-title">B2B GST Invoicing & Corporate Billing</h3>
+                        <h3 className="sh-pillar-title">Hassle-Free GST Billing</h3>
                         <p className="sh-pillar-desc">
-                            We issue official B2B GST tax invoices with your company's GSTIN for all
-                            corporate room bookings. One consolidated invoice for your entire team —
-                            hassle-free reimbursement for HR and finance departments.
+                            Travelling for business? We issue clean, official GST tax invoices for every
+                            hotel booking — making your expense claims easy. Our front desk handles all
+                            billing so you can focus on your stay, not paperwork.
                         </p>
                     </div>
 
                     <div className="sh-pillar">
                         <div className="sh-pillar-icon"><FaMapMarkerAlt /></div>
-                        <h3 className="sh-pillar-title">5 Min from India Expo Mart, Pari Chowk</h3>
+                        <h3 className="sh-pillar-title">Prime Greater Noida Location</h3>
                         <p className="sh-pillar-desc">
-                            Located 3.5 km from India Expo Centre &amp; Mart Gate 1 via a signal-free internal
-                            road. Minutes from Pari Chowk metro, Knowledge Park, Sharda University, and
-                            the Yamuna Expressway industrial corridor.
+                            3.5 km from India Expo Centre &amp; Mart Gate 1 via a signal-free route.
+                            Minutes from Pari Chowk, Knowledge Park, Sharda University, and major
+                            expressways — ideally placed for any visit to Greater Noida.
                         </p>
                     </div>
                 </div>
@@ -351,32 +351,30 @@ const SandaneHomes = () => {
                 {/* Rich SEO Paragraph Block */}
                 <div className="sh-seo-block">
                     <div className="sh-seo-text">
-                        <h3>A Boutique Hotel Experience Like No Other in Greater Noida</h3>
+                        <h3>A Boutique Hotel Stay Like No Other in Greater Noida</h3>
                         <p>
-                            At <strong>Sandane Homes Hotel</strong>, every detail is curated for discerning travelers. Our
-                            property is rated <strong>4.9/5</strong> across Google, MakeMyTrip, Booking.com, and Agoda
-                            for cleanliness, service warmth, and premium ambience. We are consistently described by
-                            guests as <em>"brand new," "luxurious," "super clean," "home-like," and "highly recommended"</em>.
+                            At <strong>Sandane Homes Hotel</strong>, every detail is designed for guests who appreciate
+                            the finer things. Rated <strong>4.9/5</strong> on Google, MakeMyTrip, Booking.com, and Agoda,
+                            our guests describe their experience as <em>"luxurious," "super clean," "brand new feel,"
+                            and "highly recommended"</em> — the hallmarks of a truly exceptional boutique hotel.
                         </p>
                         <p>
-                            Whether you are a <strong>trade fair exhibitor at India Expo Mart</strong>, a corporate
-                            executive on an extended project, a Japanese or Korean expatriate professional, or a
-                            family seeking safe and comfortable accommodation in Greater Noida — Sandane Homes Hotel
-                            is your ideal base.
+                            From trade fair visitors at India Expo Mart and business travellers to weekend getaway
+                            guests and families — everyone is welcomed with the same attentive, warm hospitality
+                            that makes <strong>Sandane Homes Hotel</strong> stand apart from the rest of Greater Noida.
                         </p>
                         <p>
-                            Our <strong>Sohee's Kitchen</strong> in-house restaurant specializes in Pan-Asian cuisine
-                            with authentic Korean flavors — a rare and beloved offering in the Greater Noida
-                            hospitality landscape. Paired with billiards, Netflix rooms, complimentary breakfast,
-                            daily housekeeping, and free parking, we redefine what a boutique hotel in Greater Noida
-                            can truly offer.
+                            Dine at <strong>Sohee's Kitchen</strong>, our beloved in-house restaurant, enjoy
+                            the billiards lounge, wake up to a complimentary hot breakfast, and let our
+                            concierge team take care of every need. At Sandane Homes, great hospitality
+                            isn't a feature — it's the standard.
                         </p>
                     </div>
                     <div className="sh-seo-highlights">
-                        <div className="sh-highlight-item"><FaLeaf /><span>Eco-conscious daily housekeeping</span></div>
+                        <div className="sh-highlight-item"><FaLeaf /><span>Daily housekeeping & fresh linens</span></div>
                         <div className="sh-highlight-item"><FaCoffee /><span>Complimentary breakfast daily</span></div>
-                        <div className="sh-highlight-item"><FaGamepad /><span>Recreation — Billiards lounge</span></div>
-                        <div className="sh-highlight-item"><FaParking /><span>Free secure parking</span></div>
+                        <div className="sh-highlight-item"><FaGamepad /><span>Billiards lounge & recreation</span></div>
+                        <div className="sh-highlight-item"><FaParking /><span>Free secured hotel parking</span></div>
                         <div className="sh-highlight-item"><FaBolt /><span>24/7 uninterrupted power supply</span></div>
                         <div className="sh-highlight-item"><FaConciergeBell /><span>Personal concierge on call</span></div>
                     </div>
