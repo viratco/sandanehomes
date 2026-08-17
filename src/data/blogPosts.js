@@ -12649,5 +12649,439 @@ export const blogPosts = [
             "长期住宿",
             "Sandane Homes"
         ]
+    },
+    {
+        "slug": "residences-by-sandane-homes-serviced-apartments-noida-international-airport-jewar",
+        "title": "Serviced Apartments Near Noida International Airport Jewar | Residences by Sandane Homes",
+        "metaTitle": "Serviced Apartments Near Noida International Airport (Jewar) | Residences by Sandane Homes",
+        "metaDescription": "Looking for furnished serviced apartments near Noida International Airport Jewar? Residences by Sandane Homes in Ansal Golf Links-1 offers 1-5BHK expat housing on the Yamuna Expressway, 30 minutes from the terminal.",
+        "subtitle": "Fully furnished 1BHK–5BHK serviced apartments on the Yamuna Expressway corridor, positioned for easy access to Noida International Airport, Jewar.",
+        "category": "Expat Housing",
+        "date": "August 17, 2026",
+        "readTime": "6 min read",
+        "author": "Sandane Homes Editorial Desk",
+        "coverImage": "/blog/covers/residences-editorial.png",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        "lang": "en",
+        "excerpt": "Residences by Sandane Homes offers fully furnished 1BHK–5BHK serviced apartments on the Yamuna Expressway corridor, roughly 30 minutes from Noida International Airport Jewar — built for frequent flyers, airline staff, and airport-linked executives.",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "With <strong>Noida International Airport, Jewar</strong> now live and rapidly becoming the primary air gateway for Delhi NCR's eastern corridor, demand for furnished housing along the Yamuna Expressway has surged — from airline crew and ground-handling staff to executives at companies relocating logistics and cargo operations closer to the new terminal. <a href='/residences'>Residences by Sandane Homes</a> sits inside Ansal Golf Links-1, directly on the Yamuna Expressway corridor that connects Greater Noida to the airport, making it one of the most practical fully-serviced housing options for anyone whose work now revolves around Jewar."
+            },
+            {
+                "type": "heading",
+                "text": "Why Airport-Linked Professionals Choose Residences by Sandane Homes"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "<strong>Direct Yamuna Expressway Access:</strong> A clear, largely signal-free drive connecting Ansal Golf Links-1 to the Jewar airport corridor — critical for early check-ins, red-eye departures, and crew rest cycles.",
+                    "<strong>1BHK to 5BHK Inventory:</strong> Single crew members, rotating shift staff, and full families relocating for airport-linked postings can all be matched to the right unit size.",
+                    "<strong>Flexible Short & Long Stays:</strong> Nightly-adjacent short stays for layovers and training rotations, or 6–24 month leases for permanent airport-corridor postings.",
+                    "<strong>Corporate GST Billing:</strong> Airlines, cargo handlers, and aviation contractors can consolidate housing costs onto a single monthly invoice.",
+                    "<strong>Quiet Gated Township Living:</strong> Unlike transit hotels near the airport perimeter, residents get full residential privacy, daily housekeeping, and a real kitchen — ideal for staff on extended postings rather than one-night stays."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "Positioned Between Greater Noida's Business Corridor and the New Airport"
+            },
+            {
+                "type": "paragraph",
+                "text": "Because Ansal Golf Links-1 sits at the intersection of the Noida-Greater Noida Expressway and the Yamuna Expressway, residents get the best of both worlds: close proximity to established employers like Honda Cars India, LG, Samsung, and Yamaha Motor, and a direct run down the expressway to Jewar when airport access is needed. For corporate relocation teams staffing up ahead of new Jewar-linked operations, this dual access is a genuine differentiator over housing options isolated to either end of the corridor."
+            },
+            {
+                "type": "quote",
+                "text": "Residences by Sandane Homes | Ansal Golf Links-1, Yamuna Expressway Corridor | Long Stay Desk: +91 97117 22273 | sandanehomes.com/residences",
+                "attribution": "— 30 Minutes From Noida International Airport, Jewar"
+            },
+            {
+                "type": "cta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How far is Residences by Sandane Homes from Noida International Airport Jewar?",
+                "answer": "Residences by Sandane Homes in Ansal Golf Links-1 is approximately 30 minutes from Noida International Airport via the Yamuna Expressway, depending on traffic and exact terminal access point."
+            },
+            {
+                "question": "Do you offer short-term stays for airline or airport contract staff?",
+                "answer": "Yes — we accommodate both short rotational stays and long-term leases (6-24 months) for airline crew, ground staff, cargo operators, and aviation contractors working on Jewar-linked assignments."
+            },
+            {
+                "question": "Can companies staffing the new airport corridor set up corporate billing?",
+                "answer": "Yes, we provide consolidated monthly GST invoicing for airlines, logistics firms, and aviation contractors housing multiple employees at Residences by Sandane Homes."
+            }
+        ],
+        "tags": [
+            "Serviced Apartments Near Noida International Airport",
+            "Jewar Airport Housing",
+            "Residences by Sandane Homes",
+            "Yamuna Expressway Serviced Apartments",
+            "Expat Housing Greater Noida"
+        ]
+    },
+    {
+        "slug": "residences-by-sandane-homes-4bhk-5bhk-luxury-villas-executive-housing",
+        "title": "4BHK & 5BHK Luxury Villas for Executives and Large Families | Residences by Sandane Homes",
+        "metaTitle": "4BHK & 5BHK Luxury Serviced Villas Greater Noida | Residences by Sandane Homes",
+        "metaDescription": "Spacious 4BHK and 5BHK fully furnished serviced villas in Ansal Golf Links-1, Greater Noida — built for CXOs, joint families, and senior expat executives who need more room and full staff support.",
+        "subtitle": "Independent 4BHK and 5BHK serviced villas for CXOs, senior executives, and multi-generational families relocating to Greater Noida.",
+        "category": "Expat Housing",
+        "date": "August 17, 2026",
+        "readTime": "6 min read",
+        "author": "Sandane Homes Editorial Desk",
+        "coverImage": "/blog/covers/residences-editorial.png",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        "lang": "en",
+        "excerpt": "For CXOs, senior expat executives, and joint families who have outgrown a standard 2-3BHK, Residences by Sandane Homes offers fully furnished 4BHK and 5BHK independent serviced villas in Ansal Golf Links-1, Greater Noida.",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Not every relocation fits into a standard apartment. Senior executives arriving with extended family, joint families consolidating multiple generations under one roof, or companies housing a CXO with a live-in support staff requirement all need more space, more privacy, and a higher service standard than a typical 2-3BHK can offer. <a href='/residences'>Residences by Sandane Homes</a> maintains a dedicated inventory of independent <strong>4BHK and 5BHK serviced villas</strong> inside Ansal Golf Links-1, purpose-built for exactly this segment."
+            },
+            {
+                "type": "heading",
+                "text": "What Sets Our 4BHK & 5BHK Villas Apart"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "<strong>Independent Villa Privacy:</strong> Standalone structures with private entrances and dedicated parking — not shared apartment-block corridors.",
+                    "<strong>Staff Quarters & Domestic Help Support:</strong> Space and provisions to accommodate live-in domestic staff, drivers, or nannies where required.",
+                    "<strong>Multiple Living & Dining Zones:</strong> Separate formal and casual living areas suited to entertaining, corporate hosting, or multi-generational households with different routines.",
+                    "<strong>Full Concierge & Housekeeping:</strong> Daily housekeeping, maintenance response, and 24/7 concierge scaled to the larger footprint of a villa.",
+                    "<strong>Premium Corporate Package:</strong> Ideal for board-level relocations, CXO onboarding packages, and multi-year executive postings."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "Built for CXO Onboarding and Multi-Generational Families"
+            },
+            {
+                "type": "paragraph",
+                "text": "HR and mobility teams structuring a CXO relocation package increasingly look for housing that reflects seniority — not just square footage, but privacy, service depth, and an address inside a recognized premium enclave. Joint families relocating together, common among Japanese, Korean, and Chinese expat households posted to Greater Noida's manufacturing corridor, also benefit from the extra bedrooms and living zones a 4BHK or 5BHK villa provides, without sacrificing the daily housekeeping and maintenance support of a fully managed property."
+            },
+            {
+                "type": "quote",
+                "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | Executive Housing Desk: +91 97117 22273 | sandanehomes.com/residences",
+                "attribution": "— 4BHK & 5BHK Independent Villas for Senior Executives"
+            },
+            {
+                "type": "cta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Do you offer independent villas, not just apartments?",
+                "answer": "Yes — alongside our 1BHK to 3BHK serviced apartments, Residences by Sandane Homes maintains a dedicated inventory of independent 4BHK and 5BHK serviced villas in Ansal Golf Links-1."
+            },
+            {
+                "question": "Can a 4BHK or 5BHK villa accommodate live-in domestic staff?",
+                "answer": "Yes, our larger villas are laid out to comfortably support live-in domestic help, drivers, or nannies as part of the household."
+            },
+            {
+                "question": "Are these villas suitable for CXO relocation packages?",
+                "answer": "Absolutely — the independent villa format, full concierge support, and premium enclave address make these units a common choice for board-level and CXO relocation packages."
+            }
+        ],
+        "tags": [
+            "4BHK Villas Greater Noida",
+            "5BHK Luxury Villas",
+            "Executive Housing Greater Noida",
+            "Residences by Sandane Homes",
+            "CXO Relocation Housing"
+        ]
+    },
+    {
+        "slug": "residences-by-sandane-homes-pet-friendly-luxury-apartments-greater-noida",
+        "title": "Pet-Friendly Luxury Serviced Apartments in Greater Noida | Residences by Sandane Homes",
+        "metaTitle": "Pet-Friendly Serviced Apartments Greater Noida | Residences by Sandane Homes",
+        "metaDescription": "Relocating with a pet? Residences by Sandane Homes offers pet-friendly fully furnished 2BHK-5BHK serviced apartments and villas in Ansal Golf Links-1, Greater Noida, with green gated grounds for walks.",
+        "subtitle": "Pet-friendly fully furnished apartments and villas for expat and corporate professionals who aren't relocating without their pets.",
+        "category": "Expat Housing",
+        "date": "August 17, 2026",
+        "readTime": "5 min read",
+        "author": "Sandane Homes Editorial Desk",
+        "coverImage": "/blog/covers/residences-editorial.png",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        "lang": "en",
+        "excerpt": "Pets shouldn't be a relocation obstacle. Residences by Sandane Homes offers pet-friendly, fully furnished apartments and villas in a green, low-traffic gated township in Greater Noida.",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "One of the most common relocation blockers for expat and corporate professionals is housing that simply refuses pets — a dealbreaker for anyone unwilling to leave a dog or cat behind. <a href='/residences'>Residences by Sandane Homes</a> takes a pet-friendly approach across its serviced apartments and villas in Ansal Golf Links-1, letting relocating professionals bring their pets without hunting for a rare pet-tolerant landlord."
+            },
+            {
+                "type": "heading",
+                "text": "Why Pet Owners Choose Residences by Sandane Homes"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "<strong>Pet-Friendly Policy:</strong> Dogs and cats are welcome across our serviced apartment and villa inventory — no need to search separately for rare pet-tolerant landlords.",
+                    "<strong>Gated, Low-Traffic Township Grounds:</strong> Ansal Golf Links-1's internal roads and green landscaped zones are ideal for daily walks, away from Greater Noida's busier main roads.",
+                    "<strong>Ground-Floor & Villa Options:</strong> Units with direct outdoor access are available for owners of larger dogs who need easier in-and-out movement.",
+                    "<strong>Daily Housekeeping Adapted for Pet Households:</strong> Our housekeeping team accommodates pet-owning households as part of the standard service, not as an add-on hassle.",
+                    "<strong>Nearby Veterinary Access:</strong> The Greater Noida corridor has established veterinary clinics and pet supply stores within a short drive."
+                ]
+            },
+            {
+                "type": "quote",
+                "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | Pet-Friendly Housing Desk: +91 97117 22273 | sandanehomes.com/residences",
+                "attribution": "— Pet-Friendly Serviced Apartments & Villas"
+            },
+            {
+                "type": "cta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Are pets allowed at Residences by Sandane Homes?",
+                "answer": "Yes, dogs and cats are welcome across our serviced apartments and villas in Ansal Golf Links-1, Greater Noida."
+            },
+            {
+                "question": "Are there ground-floor units for larger dogs?",
+                "answer": "Yes, we can match pet owners with ground-floor apartments or independent villas offering direct outdoor access, subject to availability."
+            },
+            {
+                "question": "Is the surrounding area safe and walkable for daily pet walks?",
+                "answer": "Ansal Golf Links-1 is a gated, low-traffic township with landscaped green zones, making it a comfortable environment for regular pet walks."
+            }
+        ],
+        "tags": [
+            "Pet-Friendly Apartments Greater Noida",
+            "Pet-Friendly Serviced Apartments",
+            "Residences by Sandane Homes",
+            "Expat Housing Greater Noida",
+            "Furnished Apartments Greater Noida"
+        ]
+    },
+    {
+        "slug": "residences-by-sandane-homes-western-expat-housing-greater-noida",
+        "title": "Serviced Apartments for American & European Expats in Greater Noida | Residences by Sandane Homes",
+        "metaTitle": "American & European Expat Housing Greater Noida | Residences by Sandane Homes",
+        "metaDescription": "Fully furnished serviced apartments for American, British, and European expats and executives in Greater Noida. English-speaking concierge, corporate GST billing, and a gated premium address.",
+        "subtitle": "English-speaking concierge support and fully furnished apartments built for American, British, and European corporate professionals relocating to Greater Noida.",
+        "category": "Expat Housing",
+        "date": "August 17, 2026",
+        "readTime": "6 min read",
+        "author": "Sandane Homes Editorial Desk",
+        "coverImage": "/blog/covers/residences-editorial.png",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        "lang": "en",
+        "excerpt": "American, British, and European executives relocating to Greater Noida's corporate corridor get English-first concierge, GST-compliant corporate billing, and fully furnished apartments at Residences by Sandane Homes.",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Greater Noida's manufacturing and IT corridor isn't only home to Japanese, Korean, and Chinese expat communities — a steady stream of American, British, and European executives arrive each year for consulting engagements, plant leadership roles, and MNC subsidiary postings. <a href='/residences'>Residences by Sandane Homes</a> in Ansal Golf Links-1 is built to onboard this segment quickly, with English-first service, transparent GST-compliant billing, and a Western-familiar standard of finish and reliability."
+            },
+            {
+                "type": "heading",
+                "text": "What American & European Professionals Look For — And Get Here"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "<strong>English-Speaking Concierge:</strong> No language barrier for day-to-day requests, maintenance calls, or lease paperwork.",
+                    "<strong>Western-Standard Kitchens & Appliances:</strong> Full-size refrigerators, ovens, and modern fittings familiar to Western households, not stripped-down minimal kitchenettes.",
+                    "<strong>Transparent, Itemized GST Billing:</strong> Clean, corporate-compliant invoicing that Western finance and mobility teams can process without friction.",
+                    "<strong>High-Speed Internet & Reliable Power Backup:</strong> 300 Mbps WiFi and full power backup for remote calls across time zones with US and European head offices.",
+                    "<strong>Gated Security With Predictable Standards:</strong> 24/7 security and CCTV coverage consistent with the safety expectations Western relocating families are used to."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "A Familiar Standard Without the Guesswork"
+            },
+              {
+                "type": "paragraph",
+                "text": "For consultants, plant managers, and MNC executives on their first India posting, the biggest anxiety is usually the unknown — unreliable maintenance, opaque billing, or a landlord relationship that doesn't map to what they're used to at home. Residences by Sandane Homes removes that uncertainty with a single point of accountability: one team handling housekeeping, maintenance, documentation, and billing, so relocating executives can focus on the job they came to do."
+            },
+            {
+                "type": "quote",
+                "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | International Relocation Desk: +91 97117 22273 | sandanehomes.com/residences",
+                "attribution": "— English-First Housing for Western Expat Professionals"
+            },
+            {
+                "type": "cta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Do you support English-speaking American and European expats specifically?",
+                "answer": "Yes — our concierge, housekeeping, and leasing teams operate in English as standard, and we regularly host American, British, and other European corporate professionals."
+            },
+            {
+                "question": "Is corporate billing available for Western MNC subsidiaries?",
+                "answer": "Yes, we provide clean, itemized GST-compliant corporate invoicing that finance and mobility teams at Western multinational subsidiaries can process directly."
+            },
+            {
+                "question": "What kind of kitchen and appliance setup should Western tenants expect?",
+                "answer": "Our apartments include full-size refrigerators, ovens, and modern kitchen fittings designed to match Western household expectations rather than minimal kitchenettes."
+            }
+        ],
+        "tags": [
+            "American Expat Housing Greater Noida",
+            "European Expat Housing India",
+            "Residences by Sandane Homes",
+            "Corporate Housing Greater Noida",
+            "Expat Serviced Apartments"
+        ]
+    },
+    {
+        "slug": "residences-by-sandane-homes-ansal-golf-links-vs-jaypee-greens-vs-godrej-golf-link",
+        "title": "Ansal Golf Links vs Jaypee Greens vs Godrej Golf Link | Best Township for Expat Housing | Residences by Sandane Homes",
+        "metaTitle": "Ansal Golf Links vs Jaypee Greens vs Godrej Golf Link Greater Noida | Sandane Homes",
+        "metaDescription": "Comparing Ansal Golf Links-1, Jaypee Greens, and Godrej Golf Link for expat and corporate housing in Greater Noida. Location, security, connectivity, and why Residences by Sandane Homes chose Ansal Golf Links-1.",
+        "subtitle": "A side-by-side comparison of Greater Noida's three premium gated townships for relocating expats and corporate professionals.",
+        "category": "Expat Housing",
+        "date": "August 17, 2026",
+        "readTime": "7 min read",
+        "author": "Sandane Homes Editorial Desk",
+        "coverImage": "/blog/covers/residences-editorial.png",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        "lang": "en",
+        "excerpt": "Ansal Golf Links, Jaypee Greens, and Godrej Golf Link are Greater Noida's three leading premium gated townships. Here's how they compare for relocating expats and corporate professionals — and why Residences by Sandane Homes is based in Ansal Golf Links-1.",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Nearly every relocation search for premium housing in Greater Noida eventually narrows down to three names: <strong>Ansal Golf Links-1</strong>, <strong>Jaypee Greens</strong>, and <strong>Godrej Golf Link</strong>. All three are gated, security-managed townships along the golf course belt, and all three attract a similar mix of expat families and senior corporate tenants. The differences that matter come down to connectivity, density, and the depth of professional property management available inside each. <a href='/residences'>Residences by Sandane Homes</a> operates inside Ansal Golf Links-1 — here's how the three compare."
+            },
+            {
+                "type": "heading",
+                "text": "Location & Connectivity"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "<strong>Ansal Golf Links-1:</strong> Positioned at the junction of the Noida-Greater Noida Expressway and the Yamuna Expressway — strong access to both the established industrial corridor and the Jewar airport route.",
+                    "<strong>Jaypee Greens:</strong> Well-established with mature landscaping and an 18-hole golf course, slightly further from the Yamuna Expressway entry points.",
+                    "<strong>Godrej Golf Link:</strong> A newer, growing development with modern tower construction, positioned adjacent to Jaypee Greens."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "Security & Daily Living"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "All three townships maintain 24/7 gated security, CCTV coverage, and controlled visitor access — a baseline expat families should expect from any of them.",
+                    "Ansal Golf Links-1 combines this security standard with a lower-density, quieter residential feel compared to some of the busier tower blocks in the other two townships.",
+                    "Availability of professionally managed, fully-serviced units (rather than individually-owned unmanaged rentals) varies significantly by township — this is where Residences by Sandane Homes' presence in Ansal Golf Links-1 stands out."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "Why Residences by Sandane Homes Chose Ansal Golf Links-1"
+            },
+            {
+                "type": "paragraph",
+                "text": "The deciding factor wasn't just the township itself, but the ability to deliver hospitality-grade management — daily housekeeping, maintenance response, FRRO documentation support, and corporate GST billing — consistently across an entire portfolio of units. Ansal Golf Links-1's combination of connectivity, quieter density, and available inventory made it the right base for a fully managed serviced residence brand."
+            },
+            {
+                "type": "quote",
+                "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | Relocation Desk: +91 97117 22273 | sandanehomes.com/residences",
+                "attribution": "— Premium Township Comparison for Expat Housing"
+            },
+            {
+                "type": "cta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Which township is best for expat families in Greater Noida?",
+                "answer": "All three — Ansal Golf Links-1, Jaypee Greens, and Godrej Golf Link — offer gated, secure environments. Ansal Golf Links-1 stands out for its dual expressway access and the availability of professionally managed serviced units through Residences by Sandane Homes."
+            },
+            {
+                "question": "Are Jaypee Greens and Godrej Golf Link close to Ansal Golf Links-1?",
+                "answer": "Yes, all three townships sit along the same golf course belt in Greater Noida, generally within a 5-10 minute drive of one another."
+            },
+            {
+                "question": "Can Residences by Sandane Homes help tenants relocating near Jaypee Greens or Godrej Golf Link?",
+                "answer": "Yes — our serviced apartments in Ansal Golf Links-1 are just minutes from both Jaypee Greens and Godrej Golf Link, making us a convenient base for professionals working or socializing across all three townships."
+            }
+        ],
+        "tags": [
+            "Ansal Golf Links Greater Noida",
+            "Jaypee Greens vs Ansal Golf Links",
+            "Godrej Golf Link Housing",
+            "Residences by Sandane Homes",
+            "Expat Housing Greater Noida"
+        ]
+    },
+    {
+        "slug": "residences-by-sandane-homes-company-guest-house-cxo-corporate-housing",
+        "title": "Company Guest House & CXO Corporate Housing in Greater Noida | Residences by Sandane Homes",
+        "metaTitle": "Company Guest House Greater Noida | CXO Corporate Housing | Residences by Sandane Homes",
+        "metaDescription": "Set up a dedicated company guest house or CXO housing package in Greater Noida with Residences by Sandane Homes — retained units, single GST billing, and priority booking for visiting leadership.",
+        "subtitle": "Dedicated, retained-unit company guest house solutions for corporate leadership visits and CXO relocation packages in Greater Noida.",
+        "category": "Corporate Stays",
+        "date": "August 17, 2026",
+        "readTime": "6 min read",
+        "author": "Sandane Homes Editorial Desk",
+        "coverImage": "/blog/covers/residences-editorial.png",
+        "coverGradient": "linear-gradient(135deg, #1A3C34 0%, #112823 50%, #C5A572 100%)",
+        "lang": "en",
+        "excerpt": "Retain a dedicated company guest house at Residences by Sandane Homes in Greater Noida — priority-booked units, single consolidated GST billing, and a consistent standard for every visiting executive or CXO relocation.",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Companies with a steady stream of visiting leadership, rotating executives, or a newly appointed CXO relocating to Greater Noida often outgrow ad-hoc hotel bookings. A dedicated <strong>company guest house</strong> arrangement — a retained unit or block of units held exclusively for a single company — solves the recurring headache of last-minute availability, inconsistent room standards, and scattered billing. <a href='/residences'>Residences by Sandane Homes</a> structures exactly this kind of arrangement for corporate clients in Ansal Golf Links-1, Greater Noida."
+            },
+            {
+                "type": "heading",
+                "text": "How Our Company Guest House Program Works"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "<strong>Retained Unit Allocation:</strong> One or more apartments held exclusively for your company, ready for visiting leadership without a fresh booking cycle each time.",
+                    "<strong>Single Consolidated GST Invoice:</strong> All usage across the retained unit(s) rolled into one monthly, corporate-compliant invoice — no scattered hotel folios to reconcile.",
+                    "<strong>Priority Access:</strong> Guaranteed availability for board members, visiting HQ executives, or CXO onboarding, bypassing standard booking queues.",
+                    "<strong>Consistent Standard Every Visit:</strong> The same daily housekeeping, maintenance response, and concierge quality regardless of who is staying or when.",
+                    "<strong>Scalable to Full Relocation Support:</strong> The same retained-unit model extends naturally into a full CXO relocation package — FRRO documentation, airport pickup coordination, and long-term lease conversion when a visiting executive becomes a permanent posting."
+                ]
+            },
+            {
+                "type": "heading",
+                "text": "Built for HR, Mobility, and Facilities Teams"
+            },
+            {
+                "type": "paragraph",
+                "text": "For HR and corporate mobility teams managing frequent leadership travel to a Greater Noida plant, office, or subsidiary, a company guest house removes the recurring cost and administrative overhead of individual hotel bookings, while presenting a more senior, residential standard than a standard business hotel room. It's the same infrastructure used for long-stay expat housing, repackaged for companies that need guaranteed, repeatable access rather than a one-off long lease."
+            },
+            {
+                "type": "quote",
+                "text": "Residences by Sandane Homes | Ansal Golf Links-1, Greater Noida | Corporate Accounts Desk: +91 97117 22273 | sandanehomes.com/residences",
+                "attribution": "— Dedicated Company Guest House & CXO Housing"
+            },
+            {
+                "type": "cta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can our company retain a permanent guest house unit at Residences by Sandane Homes?",
+                "answer": "Yes — we offer retained-unit company guest house arrangements, holding one or more apartments exclusively for your company's visiting leadership and staff."
+            },
+            {
+                "question": "How does billing work for a company guest house arrangement?",
+                "answer": "All usage is consolidated into a single monthly, GST-compliant corporate invoice, simplifying reconciliation compared to scattered individual hotel bookings."
+            },
+            {
+                "question": "Can a company guest house arrangement convert into a full CXO relocation package?",
+                "answer": "Yes, the same retained-unit model scales naturally into a full relocation package — including FRRO documentation support, airport pickup coordination, and long-term lease conversion."
+            }
+        ],
+        "tags": [
+            "Company Guest House Greater Noida",
+            "CXO Corporate Housing",
+            "Residences by Sandane Homes",
+            "Corporate Housing Greater Noida",
+            "Executive Relocation Package"
+        ]
     }
 ];
