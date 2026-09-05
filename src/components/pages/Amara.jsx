@@ -192,7 +192,14 @@ const Amara = () => {
                     </button>
                     <button
                         className="btn-contact"
-                        onClick={() => document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => {
+                            const el = document.getElementById('footer-contact-section') || document.getElementById('contact-section');
+                            if (el) {
+                                el.scrollIntoView({ behavior: 'smooth' });
+                            } else {
+                                window.open('https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20would%20like%20to%20enquire%20about%20your%20properties.', '_blank');
+                            }
+                        }}
                     >
                         Contact Us
                     </button>
