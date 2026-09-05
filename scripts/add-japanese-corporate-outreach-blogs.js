@@ -9,6 +9,8 @@ const targetFile = path.join(__dirname, '../src/data/blogPosts.js');
 
 let fileContent = fs.readFileSync(targetFile, 'utf8');
 
+// We will parse, re-order so new posts are at top, and write back
+
 const newBlogs = [
   {
     slug: "sekisui-dljm-corporate-housing-greater-noida-yeida",
