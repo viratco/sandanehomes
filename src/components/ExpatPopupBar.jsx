@@ -84,7 +84,7 @@ const ExpatPopupBar = () => {
 
                 {/* Main Headline */}
                 <h4 className="expat-popup-title">
-                    {isResidencesPage ? "Relocating to Greater Noida?" : "Are you an expat relocating to Greater Noida?"}
+                    {isResidencesPage ? "Relocating to Greater Noida / Gurugram?" : "Are you an expat relocating to Greater Noida / Gurugram?"}
                 </h4>
 
                 {/* Short Info Description */}
