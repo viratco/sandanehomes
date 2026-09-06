@@ -370,15 +370,7 @@ Object.keys(SEO_MAP).forEach((route) => {
     .join('\n    ');
 
   // 5. Inject canonical, OG, and Twitter tags before </head>
-  let redirectScript = '';
-  if (route.startsWith('/blog/') && route !== '/blog') {
-    const slug = route.replace('/blog/', '');
-    const redirectUrl = PROPERTY_REDIRECTS[slug] || getBlogRedirect(slug);
-    redirectScript = `<meta http-equiv="refresh" content="0;url=${redirectUrl}" /><script>window.location.replace("${redirectUrl}");</script>`;
-  }
-
   const tagsToInject = `
-    ${redirectScript}
     <link rel="canonical" href="${canonical}" />
     ${hreflangTags}
     <meta property="og:title" content="${seo.title}" />
