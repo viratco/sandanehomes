@@ -3,8 +3,8 @@ import SEO from '../SEO';
 import Header from '../Header';
 import SubpageNav from '../SubpageNav';
 import Footer from '../Footer';
-// Use the latest refined image for the page as well
-import heroImg from '../../assets/Copy of IMG_3491.JPG';
+// Use the latest night facade image for the page hero section
+import heroImg from '../../assets/sandane-night-facade.jpg';
 import room1 from '../../assets/IMG_0586.jpg';
 import room2 from '../../assets/IMG_0609.jpg';
 import room3 from '../../assets/IMG_3547_small.jpg';

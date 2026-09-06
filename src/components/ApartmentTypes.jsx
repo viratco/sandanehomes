@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import amaaltashImg from '../assets/IMG_4015.JPG';
-import sandaneHomeImg from '../assets/sandane_home_screenshot_v2_small.jpg';
+import sandaneHomeImg from '../assets/sandane-night-facade.jpg';
 import pineTalesImg from '../assets/IMG_6598.JPG';
 import glamMainImg from '../assets/glam_main.jpg'; // New Glam image
 import amaraImg from '../assets/amara_facade.jpg';
