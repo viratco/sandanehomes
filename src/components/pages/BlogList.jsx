@@ -218,7 +218,7 @@ const BlogList = () => {
                     ) : (
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '32px' }}>
                             {posts.map((post) => (
-                                <Link key={post.slug} to={PROPERTY_REDIRECTS[post.slug] || getBlogRedirect(post.slug)} className="blog-card" style={{ textDecoration: 'none' }}>
+                                <Link key={post.slug} to={`/blog/${post.slug}`} className="blog-card" style={{ textDecoration: 'none' }}>
                                     {post.coverImage ? (
                                         <img src={post.coverImage} alt={post.title} className="blog-card-image" loading="lazy" />
                                     ) : (
