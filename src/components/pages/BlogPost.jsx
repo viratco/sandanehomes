@@ -4,10 +4,20 @@ import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import BlogContent from '../BlogContent';
-import { getBlogPost, getRelatedPosts } from '../../data/blogPosts';
+import { blogPosts } from '../../data/blogPosts';
 import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import './Blog.css';
 import './SandaneHomes.css';
+
+const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
+const getRelatedPosts = (currentSlug, count = 3) => {
+    const current = getBlogPost(currentSlug);
+    if (!current) return blogPosts.slice(0, count);
+    const related = blogPosts.filter(p => p.slug !== currentSlug && p.category === current.category);
+    if (related.length >= count) return related.slice(0, count);
+    const remaining = blogPosts.filter(p => p.slug !== currentSlug && !related.includes(p));
+    return [...related, ...remaining].slice(0, count);
+};
 
 const formatDate = (dateStr) =>
     new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
