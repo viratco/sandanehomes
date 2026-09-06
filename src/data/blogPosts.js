@@ -90,51 +90,6 @@ export const blogPosts = [
     ]
   },
   {
-    "slug": "grand-arch-ireo-gurugram-corporate-serviced-residences-expats",
-    "title": "Ireo Grand Arch Gurugram: Corporate Serviced Apartments for Expat Stays",
-    "metaTitle": "Grand Arch Gurugram Serviced Apartments for Expats | Sandane Homes",
-    "metaDescription": "Serviced corporate housing & luxury expat apartments at Grand Arch (Ireo), Golf Course Extension Road, Gurugram. Flexible terms & corporate B2B rates.",
-    "subtitle": "High-comfort executive residences near Golf Course Extension Road business districts.",
-    "category": "Corporate Housing",
-    "date": "September 06, 2026",
-    "readTime": "7 min read",
-    "author": "Sandane Homes Corporate Desk",
-    "coverImage": "/blog/covers/coco-facade.jpg",
-    "coverGradient": "linear-gradient(135deg, #064E3B 0%, #022C22 50%, #C5A572 100%)",
-    "lang": "en",
-    "excerpt": "Dedicated corporate housing solutions for MNC executives and international delegates living in Ireo Grand Arch, Sector 58, Gurugram.",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "<b>Ireo Grand Arch</b> in Sector 58, Gurugram is a landmark residential complex home to hundreds of corporate leaders working in Cyber City, Golf Course Road, and Sohna Road commercial belts. Providing visiting audit delegates and expat families with fully serviced accommodation ensures maximum productivity."
-      },
-      {
-        "type": "heading",
-        "text": "A Superior Hospitality Experience at Sandane Residences"
-      },
-      {
-        "type": "paragraph",
-        "text": "At <b><a href='/residences'>Residences by Sandane Homes</a></b>, we offer fully managed serviced apartments complete with home kitchens, daily cleaning, 300 Mbps internet, and 24-hour security."
-      },
-      {
-        "type": "heading",
-        "text": "Advantages for Corporate Procurement"
-      },
-      {
-        "type": "list",
-        "items": [
-          "<b>Zero Security Deposit Hassles:</b> Flexible stay options without long-term 11-month lease lock-ins.",
-          "<b>FRRO Registration Aid:</b> Complete documentation for foreign national address verification.",
-          "<b>Direct Corporate Rates:</b> Preferential tariffs for corporate accounts."
-        ]
-      },
-      {
-        "type": "callout",
-        "text": "<b>Book Corporate Housing:</b> Contact Sandane Homes Enterprise Desk at B2B@sandanehomes.com or visit <a href='/residences'>Residences by Sandane Homes</a>."
-      }
-    ]
-  },
-  {
     "slug": "emaar-digi-homes-gurugram-smart-serviced-apartments-expats",
     "title": "Emaar Digi Homes Gurugram: Smart Serviced Apartments for Corporate Expats",
     "metaTitle": "Emaar Digi Homes Gurugram Smart Serviced Apartments | Sandane Homes",
