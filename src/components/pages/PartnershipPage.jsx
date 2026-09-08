@@ -6,7 +6,8 @@ import {
   FaBuilding, FaHandshake, FaChartLine, FaShieldAlt, FaKey,
   FaCheckCircle, FaPercentage, FaTools, FaWhatsapp, FaArrowRight,
   FaFileContract, FaRegSmile, FaCrown, FaStar, FaQuoteLeft,
-  FaHome, FaBriefcase, FaUserCheck, FaCog, FaMoneyBillWave, FaHeadset
+  FaHome, FaBriefcase, FaUserCheck, FaCog, FaMoneyBillWave, FaHeadset,
+  FaChevronDown, FaChevronUp, FaQuestionCircle
 } from 'react-icons/fa';
 import './SandaneHomes.css';
 
@@ -25,6 +26,7 @@ const PartnershipPage = () => {
   const [locality, setLocality] = useState('');
   const [message, setMessage] = useState('');
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -41,18 +43,67 @@ const PartnershipPage = () => {
     setFormSubmitted(true);
   };
 
-  const partnerSchema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Sandane Homes Partner Program — Property Monetization & Management",
-    "provider": {
-      "@type": "Organization",
-      "name": "Sandane Homes",
-      "url": "https://www.sandanehomes.com"
+  const partnerFaqs = [
+    {
+      q: "How does the guaranteed fixed lease model work?",
+      a: "Sandane Homes signs a multi-year master lease contract with you (3 to 9 years). We deposit a guaranteed fixed monthly rent directly into your bank account on the 1st of every month without fail, regardless of whether your property is occupied or vacant."
     },
-    "description": "Monetize your apartments, luxury flats, or full residential buildings with Sandane Homes. Guaranteed fixed monthly revenue or high profit-sharing model backed by corporate expat stays in Greater Noida, Noida, and Gurugram.",
-    "areaServed": ["Greater Noida", "Noida", "Gurugram", "Delhi NCR"]
-  };
+    {
+      q: "What profile of tenants will be staying in my property?",
+      a: "Your property is leased exclusively to verified corporate professionals, Japanese & Korean expatriate managers, and visiting technical specialists on official assignments in Greater Noida, Noida, and Gurugram. All guests are company-vetted with background checks."
+    },
+    {
+      q: "Who pays for daily housekeeping, maintenance, and repairs?",
+      a: "Sandane Homes assumes 100% of operational responsibility. Our in-house hospitality team provides daily 5-star housekeeping and handles plumbing, electrical, and appliance repairs at zero additional expense to you."
+    },
+    {
+      q: "Can I partner an entire residential building or tower?",
+      a: "Yes! We specialize in acquiring full standalone residential towers and builder blocks (10 to 50+ units) across Greater Noida, Noida, Yamuna Expressway, and Gurugram, transforming the entire asset into a branded Sandane Homes serviced residence."
+    },
+    {
+      q: "How does Sandane Homes perform compared to traditional single-tenant renting?",
+      a: "Traditional renting causes 1-2 months of vacancy losses every year, late payments, tenant damage, and constant repair calls. Sandane Homes eliminates vacancy risk, guarantees payouts on the 1st of every month, provides free maintenance, and returns your property in showroom condition."
+    },
+    {
+      q: "Which locations in Delhi NCR are eligible for partnership?",
+      a: "We currently acquire properties in Greater Noida (Ansal Golf Links, Jaypee Greens, Godrej Golf Link, Knowledge Park), Noida Expressway, Yamuna Expressway (YEIDA / Noida International Airport corridor), and Gurugram (Golf Course Road, Cyber City, MG Road corridor)."
+    }
+  ];
+
+  const partnerSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Sandane Homes Partner Program — Property Monetization & Managed Leasing",
+      "provider": {
+        "@type": "Organization",
+        "name": "Sandane Homes",
+        "url": "https://www.sandanehomes.com"
+      },
+      "description": "Monetize your apartments, luxury flats, or full residential buildings with Sandane Homes. Guaranteed fixed monthly revenue or high profit-sharing model backed by corporate expat stays in Greater Noida, Noida, and Gurugram.",
+      "areaServed": ["Greater Noida", "Noida", "Gurugram", "Yamuna Expressway", "Delhi NCR"]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": partnerFaqs.map((faq) => ({
+        "@type": "Question",
+        "name": faq.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.a
+        }
+      }))
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Partner With Us", "item": "https://www.sandanehomes.com/partner-with-us" }
+      ]
+    }
+  ];
 
   return (
     <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#F4F0EB', minHeight: '100vh', overflowX: 'hidden' }}>
@@ -639,6 +690,75 @@ const PartnershipPage = () => {
                 </button>
               </form>
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FREQUENTLY ASKED QUESTIONS (SEO Rich Snippets) ── */}
+      <section style={{ padding: '90px 20px', backgroundColor: '#FAF8F5', borderTop: '1px solid #E8E2D9' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '50px' }}>
+            <span style={{ color: '#8B7355', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>PROPERTY OWNER FAQS</span>
+            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(28px, 4vw, 40px)', color: '#111111', marginTop: '8px' }}>
+              Frequently Asked Questions
+            </h2>
+            <p style={{ fontSize: '15px', color: '#666', fontFamily: 'Georgia, serif' }}>
+              Everything you need to know about partnering your property asset with Sandane Homes.
+            </p>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            {partnerFaqs.map((faq, index) => {
+              const isOpen = openFaqIndex === index;
+              return (
+                <div
+                  key={index}
+                  style={{
+                    backgroundColor: '#FFFFFF',
+                    borderRadius: '12px',
+                    border: '1px solid #E4DDD3',
+                    overflow: 'hidden',
+                    transition: 'all 0.3s ease',
+                    boxShadow: isOpen ? '0 8px 25px rgba(0,0,0,0.05)' : 'none'
+                  }}
+                >
+                  <button
+                    onClick={() => setOpenFaqIndex(isOpen ? null : index)}
+                    style={{
+                      width: '100%',
+                      padding: '22px 26px',
+                      backgroundColor: 'transparent',
+                      border: 'none',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      color: '#111111',
+                      fontFamily: 'Playfair Display, serif'
+                    }}
+                  >
+                    <span>{faq.q}</span>
+                    {isOpen ? <FaChevronUp color="#8B7355" /> : <FaChevronDown color="#8B7355" />}
+                  </button>
+
+                  {isOpen && (
+                    <div style={{
+                      padding: '0 26px 22px',
+                      fontSize: '14px',
+                      lineHeight: '1.7',
+                      color: '#555555',
+                      borderTop: '1px solid #FAF8F5',
+                      fontFamily: 'Georgia, serif'
+                    }}>
+                      {faq.a}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

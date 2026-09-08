@@ -20,7 +20,46 @@ const SEO_MAP = {
   '/partner-with-us': {
     title: 'Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes',
     description: 'Partner your apartments, flats, or entire residential buildings with Sandane Homes. High guaranteed monthly revenue, 100% property maintenance, and corporate MNC guest management in Greater Noida, Noida & Gurugram.',
-    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Sandane Homes Property Partnership & Management Program",
+        "serviceType": "Property Monetization & Corporate Master Leasing",
+        "provider": {
+          "@type": "Organization",
+          "name": "Sandane Homes",
+          "url": "https://www.sandanehomes.com"
+        },
+        "description": "Monetize standalone apartments, luxury flats, or full residential buildings across Greater Noida, Noida Expressway, Yamuna Expressway, and Gurugram with Sandane Homes.",
+        "areaServed": ["Greater Noida", "Noida", "Gurugram", "Yamuna Expressway", "Delhi NCR"]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How does the guaranteed fixed lease model work?", "acceptedAnswer": { "@type": "Answer", "text": "Sandane Homes signs a multi-year master lease contract with you (3 to 9 years). We deposit a guaranteed fixed monthly rent directly into your bank account on the 1st of every month without fail, regardless of whether your property is occupied or vacant." } },
+          { "@type": "Question", "name": "What profile of tenants will be staying in my property?", "acceptedAnswer": { "@type": "Answer", "text": "Your property is leased exclusively to verified corporate professionals, Japanese & Korean expatriate managers, and visiting technical specialists on official assignments in Greater Noida, Noida, and Gurugram." } },
+          { "@type": "Question", "name": "Who pays for daily housekeeping, maintenance, and repairs?", "acceptedAnswer": { "@type": "Answer", "text": "Sandane Homes assumes 100% of operational responsibility. Our in-house hospitality team provides daily 5-star housekeeping and handles plumbing, electrical, and appliance repairs at zero additional expense to you." } },
+          { "@type": "Question", "name": "Can I partner an entire residential building or tower?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! We specialize in acquiring full standalone residential towers and builder blocks (10 to 50+ units) across Greater Noida, Noida, Yamuna Expressway, and Gurugram." } }
+        ]
+      }
+    ]
+  },
+  '/partner': {
+    title: 'Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes',
+    description: 'Partner your apartments, flats, or entire residential buildings with Sandane Homes. High guaranteed monthly revenue, 100% property maintenance, and corporate MNC guest management in Greater Noida, Noida & Gurugram.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Sandane Homes Property Partnership & Management Program",
+        "serviceType": "Property Monetization & Corporate Master Leasing",
+        "provider": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }
+      }
+    ]
   },
   '/residences': {
     title: 'Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
@@ -612,7 +651,7 @@ function buildSitemapXml() {
   xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
   // Main Pages
-  const mainPages = ['/residences', '/residences/relocation', '/partner-with-us', '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'];
+  const mainPages = ['/residences', '/residences/relocation', '/partner-with-us', '/partner', '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'];
   mainPages.forEach((route) => {
     const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
