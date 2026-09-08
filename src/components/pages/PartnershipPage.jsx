@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -435,38 +436,80 @@ const PartnershipPage = () => {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px' }}>
             {/* Card 1 */}
-            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)' }}>
+            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' }}>
               <img src={facadeImg} alt="Full Building Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
-              <div style={{ padding: '26px' }}>
-                <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>HIGH YIELD PORTFOLIO</span>
-                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Full Residential Towers &amp; Blocks</h3>
-                <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
-                  Entire standalone apartment buildings or builder floors (10 to 50+ units). We convert the entire asset into a branded Sandane Homes serviced residence.
-                </p>
+              <div style={{ padding: '26px', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
+                <div>
+                  <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>HIGH YIELD PORTFOLIO</span>
+                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Full Residential Towers &amp; Blocks</h3>
+                  <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
+                    Entire standalone apartment buildings or builder floors (10 to 50+ units). Master lease your tower under one consolidated agreement.
+                  </p>
+                </div>
+                <Link to="/partner/gurugram-building-owners" style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  color: '#8B7355',
+                  fontWeight: '700',
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                  textDecoration: 'none'
+                }}>
+                  FOR GURUGRAM BUILDING OWNERS &rarr;
+                </Link>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)' }}>
+            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' }}>
               <img src={livingImg} alt="Society Flat Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
-              <div style={{ padding: '26px' }}>
-                <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>GATED SOCIETIES</span>
-                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>2BHK, 3BHK &amp; 4BHK Apartments</h3>
-                <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
-                  Individual or multiple flats inside high-end gated societies (Jaypee Greens, Ansal Golf Links, Godrej, ATS, Central Park, DLF).
-                </p>
+              <div style={{ padding: '26px', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
+                <div>
+                  <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>GATED SOCIETIES</span>
+                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>2BHK, 3BHK &amp; 4BHK Apartments</h3>
+                  <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
+                    Individual or multiple flats inside high-end gated societies (Jaypee Greens, Ansal Golf Links, Godrej, ATS, Central Park, DLF).
+                  </p>
+                </div>
+                <Link to="/partner/gurugram-home-owners" style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  color: '#8B7355',
+                  fontWeight: '700',
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                  textDecoration: 'none'
+                }}>
+                  FOR GURUGRAM HOME OWNERS &rarr;
+                </Link>
               </div>
             </div>
 
             {/* Card 3 */}
-            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)' }}>
+            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' }}>
               <img src={interiorImg} alt="Luxury Villa Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
-              <div style={{ padding: '26px' }}>
-                <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>PREMIUM ASSETS</span>
-                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Luxury Villas &amp; Executive Suites</h3>
-                <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
-                  High-end luxury villas and penthouses leased to CXOs, country managers, and senior Japanese / Korean expatriate directors.
-                </p>
+              <div style={{ padding: '26px', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
+                <div>
+                  <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>PREMIUM ASSETS</span>
+                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Luxury Villas &amp; Executive Suites</h3>
+                  <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
+                    High-end luxury villas and penthouses leased to CXOs, country managers, and senior Japanese / Korean expatriate directors.
+                  </p>
+                </div>
+                <a href="#partner-form" style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  color: '#8B7355',
+                  fontWeight: '700',
+                  fontSize: '13px',
+                  letterSpacing: '1px',
+                  textDecoration: 'none'
+                }}>
+                  GET VILLA EVALUATION &rarr;
+                </a>
               </div>
             </div>
           </div>

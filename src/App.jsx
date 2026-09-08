@@ -19,6 +19,8 @@ import BlogPost from './components/pages/BlogPost';
 import LandingPage from './components/pages/LandingPage';
 import Relocation from './components/pages/Relocation';
 import PartnershipPage from './components/pages/PartnershipPage';
+import GurugramHomeOwnersPartner from './components/pages/GurugramHomeOwnersPartner';
+import GurugramBuildingOwnersPartner from './components/pages/GurugramBuildingOwnersPartner';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -38,6 +40,10 @@ function App() {
           <Route path="/residences/relocation" element={<Relocation />} />
           <Route path="/partner-with-us" element={<PartnershipPage />} />
           <Route path="/partner" element={<PartnershipPage />} />
+          <Route path="/partner/gurugram-home-owners" element={<GurugramHomeOwnersPartner />} />
+          <Route path="/partner-with-us/gurugram-home-owners" element={<GurugramHomeOwnersPartner />} />
+          <Route path="/partner/gurugram-building-owners" element={<GurugramBuildingOwnersPartner />} />
+          <Route path="/partner-with-us/gurugram-building-owners" element={<GurugramBuildingOwnersPartner />} />
           <Route path="/sandane-homes" element={<SandaneHomes />} />
           <Route path="/amara" element={<Amara />} />
           <Route path="/amaaltash" element={<Amaaltash />} />

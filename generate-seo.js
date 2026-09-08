@@ -61,6 +61,26 @@ const SEO_MAP = {
       }
     ]
   },
+  '/partner/gurugram-home-owners': {
+    title: 'Gurugram Home Owners Partnership | Monetize Your Apartment — Sandane Homes',
+    description: 'Gurugram apartment & flat owners: earn guaranteed monthly rent or high profit-sharing with zero hassle. Sandane Homes manages your flat as a premium corporate expat residence.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner-with-us/gurugram-home-owners': {
+    title: 'Gurugram Home Owners Partnership | Monetize Your Apartment — Sandane Homes',
+    description: 'Gurugram apartment & flat owners: earn guaranteed monthly rent or high profit-sharing with zero hassle. Sandane Homes manages your flat as a premium corporate expat residence.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner/gurugram-building-owners': {
+    title: 'Gurugram Building & Tower Master Lease | Sandane Homes Partnership',
+    description: 'Master-lease your residential building or builder block in Gurugram to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk, full corporate hotel conversion.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner-with-us/gurugram-building-owners': {
+    title: 'Gurugram Building & Tower Master Lease | Sandane Homes Partnership',
+    description: 'Master-lease your residential building or builder block in Gurugram to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk, full corporate hotel conversion.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
   '/residences': {
     title: 'Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
     description: 'Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.',
@@ -650,8 +670,13 @@ function buildSitemapXml() {
   // Homepage
   xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
-  // Main Pages
-  const mainPages = ['/residences', '/residences/relocation', '/partner-with-us', '/partner', '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'];
+  const mainPages = [
+    '/residences', '/residences/relocation',
+    '/partner-with-us', '/partner',
+    '/partner/gurugram-home-owners', '/partner-with-us/gurugram-home-owners',
+    '/partner/gurugram-building-owners', '/partner-with-us/gurugram-building-owners',
+    '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'
+  ];
   mainPages.forEach((route) => {
     const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
