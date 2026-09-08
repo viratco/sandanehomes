@@ -7,12 +7,12 @@ import {
   FaCheckCircle, FaPercentage, FaTools, FaWhatsapp, FaArrowRight,
   FaFileContract, FaRegSmile, FaCrown, FaStar, FaQuoteLeft,
   FaHome, FaBriefcase, FaUserCheck, FaCog, FaMoneyBillWave, FaHeadset,
-  FaChevronDown, FaChevronUp, FaCity
-} from 'react-icons/fa';
+  FaChevronDown, FaChevronUp, FaCity, FaBuildingUser, FaSliders, FaLocationDot,
+  FaCircleCheck, FaXmark
+} from 'react-icons/fa6';
 import './SandaneHomes.css';
 
 import buildingHeroImg from '../../assets/building-partner-hero.jpg';
-import facadeImg from '../../assets/building-partner-hero.jpg';
 import interiorImg from '../../assets/abstract_luxury_interior.png';
 
 const GurugramBuildingOwnersPartner = () => {
@@ -21,14 +21,14 @@ const GurugramBuildingOwnersPartner = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [locality, setLocality] = useState('Cyber City Corridor');
+  const [locality, setLocality] = useState('Golf Course Road / Cyber City');
   const [message, setMessage] = useState('');
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hi Sandane Homes Master Lease Team! I am a Gurugram Building/Tower Owner interested in a master lease.\n\n` +
+    const text = `Hi Sandane Homes Corporate Master Lease Desk! I am a Gurugram Building Owner proposing an asset for master lease.\n\n` +
       `*Name:* ${name}\n` +
       `*Phone:* ${phone}\n` +
       `*Email:* ${email}\n` +
@@ -43,20 +43,20 @@ const GurugramBuildingOwnersPartner = () => {
 
   const faqs = [
     {
-      q: "How does a full building master lease work with Sandane Homes in Gurugram?",
-      a: "Sandane Homes signs a long-term master lease agreement for your entire residential tower or builder block (3 to 9 years). We pay a single consolidated master lease payment directly to your account every month, eliminating multi-tenant collection hassle and individual unit vacancies."
+      q: "How does a full building master lease work with Sandane Homes?",
+      a: "Sandane Homes executes a 3 to 9 year institutional master lease contract for your entire building or tower. We issue one single consolidated monthly payment directly to your account on the 1st of every month, taking over 100% of building operations and tenant management."
     },
     {
-      q: "Will Sandane Homes convert the entire building into a branded serviced residence?",
-      a: "Yes. We take full operational control, furnish/upgrade units to 5-star executive standards, set up 24/7 reception and housekeeping, and position the building as a premier Sandane Homes corporate residence for Japanese & Korean expats."
+      q: "Will Sandane Homes convert the building into a corporate hotel residence?",
+      a: "Yes. We take full operational control, furnish/upgrade units to 5-star executive standards, setup 24/7 reception and housekeeping, and position the building as a premier Sandane Homes corporate residence for Japanese & Korean expats."
     },
     {
-      q: "Who assumes building operations, security, and maintenance?",
-      a: "Sandane Homes manages 100% of property operations, facility maintenance, daily housekeeping, security supervision, and utility management at zero cost to the building owner."
+      q: "Who assumes building security, maintenance, and facility repairs?",
+      a: "Sandane Homes manages 100% of property operations, facility upkeep, daily housekeeping, security staff, lift maintenance, and utility administration at zero cost to the building owner."
     },
     {
       q: "What building sizes and locations do you master-lease in Gurugram?",
-      a: "We actively lease standalone residential buildings, builder floor blocks, and executive towers with 10 to 50+ units near Cyber City, Golf Course Road, MG Road, Sohna Road, and Golf Course Extension."
+      a: "We actively lease standalone residential towers, builder floor blocks, and commercial guest houses with 10 to 50+ units near Cyber City, Golf Course Road, MG Road, Sohna Road, and Golf Course Extension."
     }
   ];
 
@@ -66,7 +66,7 @@ const GurugramBuildingOwnersPartner = () => {
       "@type": "Service",
       "name": "Gurugram Building & Tower Master Lease Program — Sandane Homes",
       "provider": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" },
-      "description": "Master-lease your entire residential tower or builder floor block in Gurugram to Sandane Homes. Long-term guaranteed payouts, turnkey corporate hotel management.",
+      "description": "Master-lease your entire residential tower or builder floor block in Gurugram to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk, full corporate hotel conversion.",
       "areaServed": "Gurugram, Haryana, India"
     },
     {
@@ -81,9 +81,9 @@ const GurugramBuildingOwnersPartner = () => {
   ];
 
   return (
-    <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#F4F0EB', minHeight: '100vh', overflowX: 'hidden' }}>
+    <div style={{ backgroundColor: '#0F172A', color: '#F8FAFC', minHeight: '100vh', fontFamily: "'Inter', system-ui, sans-serif" }}>
       <SEO
-        title="Gurugram Building & Tower Master Lease | Sandane Homes Partnership"
+        title="Gurugram Building & Tower Master Lease | Sandane Homes Institutional Partnership"
         description="Master-lease your residential building or builder block in Gurugram to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk, full corporate hotel conversion."
         canonical="https://www.sandanehomes.com/partner/gurugram-building-owners"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
@@ -92,218 +92,300 @@ const GurugramBuildingOwnersPartner = () => {
 
       <Header showTopBar={false} />
 
-      {/* Hero Section */}
-      <div className="editorial-container" style={{ paddingTop: '100px', paddingBottom: '60px' }}>
-        <div className="editorial-title-bg">
-          <h1>Building</h1>
-          <h1>MasterLease</h1>
-        </div>
+      {/* ── B2B CORPORATE EXECUTIVE HERO BANNER ── */}
+      <section style={{
+        background: 'linear-gradient(135deg, #0F172A 0%, #1C2D42 50%, #0F172A 100%)',
+        padding: '130px 20px 90px',
+        borderBottom: '1px solid rgba(197,165,114,0.2)',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Subtle Background Radial Glow */}
+        <div style={{
+          position: 'absolute',
+          top: '10%',
+          right: '5%',
+          width: '600px',
+          height: '600px',
+          background: 'radial-gradient(circle, rgba(197, 165, 114, 0.08) 0%, rgba(0,0,0,0) 70%)',
+          pointerEvents: 'none'
+        }} />
 
-        <div className="editorial-left-col">
-          <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}>
-            <img src={facadeImg} alt="Gurugram Building Master Lease" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
-            <div style={{
-              position: 'absolute',
-              top: '20px',
-              left: '20px',
-              background: 'rgba(28, 45, 66, 0.85)',
-              backdropFilter: 'blur(8px)',
-              padding: '8px 18px',
-              borderRadius: '20px',
+        <div style={{ maxWidth: '1280px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '50px', alignItems: 'center' }}>
+          
+          {/* Left Hero Text Column */}
+          <div>
+            <span style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              background: 'rgba(197, 165, 114, 0.12)',
+              border: '1px solid #C5A572',
               color: '#C5A572',
+              padding: '6px 18px',
+              borderRadius: '20px',
               fontSize: '12px',
               fontWeight: '700',
-              border: '1px solid rgba(197,165,114,0.3)'
+              letterSpacing: '1.5px',
+              textTransform: 'uppercase',
+              marginBottom: '24px'
             }}>
-              <FaCity /> FULL BUILDING MASTER LEASE
+              <FaBuildingUser /> INSTITUTIONAL BUILDING MASTER LEASE
+            </span>
+
+            <h1 style={{
+              fontFamily: "'Playfair Display', serif",
+              fontSize: 'clamp(34px, 4vw, 54px)',
+              lineHeight: '1.15',
+              color: '#FFFFFF',
+              marginBottom: '24px',
+              fontWeight: '600',
+              letterSpacing: '-0.5px'
+            }}>
+              Master-Lease Your Entire Building in Gurugram
+            </h1>
+
+            <p style={{
+              fontSize: '17px',
+              lineHeight: '1.7',
+              color: '#94A3B8',
+              marginBottom: '32px',
+              fontWeight: '400'
+            }}>
+              Stop managing dozens of individual renters. <strong>Sandane Homes</strong> master-leases your entire residential tower or builder block (10 to 50+ units) under a single master lease contract — delivering guaranteed 1st-of-month payouts for 3 to 9 years with zero vacancy risk.
+            </p>
+
+            {/* Quick Corporate Value Bullet Grid */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginBottom: '40px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
+                <FaCircleCheck color="#C5A572" size={18} /> 1 Master Contract (No Multi-Tenant Hassle)
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
+                <FaCircleCheck color="#C5A572" size={18} /> 3 to 9 Year Guaranteed Payouts
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
+                <FaCircleCheck color="#C5A572" size={18} /> Turnkey Corporate Hotel Conversion
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
+                <FaCircleCheck color="#C5A572" size={18} /> 0% Vacancy &amp; Collection Loss
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '18px', flexWrap: 'wrap' }}>
+              <a
+                href="#corporate-building-form"
+                style={{
+                  backgroundColor: '#C5A572',
+                  color: '#0F172A',
+                  padding: '16px 36px',
+                  borderRadius: '30px',
+                  fontSize: '14px',
+                  fontWeight: '700',
+                  letterSpacing: '1px',
+                  textDecoration: 'none',
+                  boxShadow: '0 8px 25px rgba(197, 165, 114, 0.3)',
+                  transition: 'all 0.3s ease',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px'
+                }}
+              >
+                PROPOSE YOUR BUILDING <FaArrowRight size={13} />
+              </a>
+
+              <a
+                href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20a%20Gurugram%20building%20owner%20interested%20in%20a%20master%20lease."
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  backgroundColor: '#25D366',
+                  color: '#FFFFFF',
+                  padding: '16px 30px',
+                  borderRadius: '30px',
+                  fontSize: '14px',
+                  fontWeight: '700',
+                  letterSpacing: '1px',
+                  textDecoration: 'none',
+                  boxShadow: '0 8px 25px rgba(37,211,102,0.25)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '10px'
+                }}
+              >
+                <FaWhatsapp size={18} /> WHATSAPP MASTER LEASE DESK
+              </a>
             </div>
           </div>
 
-          <div className="editorial-left-text" style={{ marginTop: '-60px', position: 'relative', zIndex: 3 }}>
-            <div className="editorial-glass-card" style={{ background: 'rgba(255, 255, 255, 0.95)', border: '1px solid #E5DFD5' }}>
-              <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', margin: 0 }}>
-                Convert your entire residential tower into a <i>branded Sandane Homes corporate residence</i> with a single master tenant and guaranteed monthly revenue.
-              </p>
+          {/* Right Hero Image Card Frame */}
+          <div style={{ position: 'relative' }}>
+            <div style={{
+              background: 'rgba(255, 255, 255, 0.03)',
+              border: '1px solid rgba(197, 165, 114, 0.3)',
+              borderRadius: '20px',
+              padding: '16px',
+              boxShadow: '0 25px 50px rgba(0,0,0,0.5)',
+              position: 'relative'
+            }}>
+              <img
+                src={buildingHeroImg}
+                alt="Gurugram Residential Building Master Lease"
+                style={{ width: '100%', height: '520px', objectFit: 'cover', borderRadius: '14px' }}
+              />
+
+              {/* Floating Executive Badge */}
+              <div style={{
+                position: 'absolute',
+                bottom: '30px',
+                left: '30px',
+                right: '30px',
+                background: 'rgba(15, 23, 42, 0.92)',
+                backdropFilter: 'blur(12px)',
+                border: '1px solid rgba(197, 165, 114, 0.4)',
+                borderRadius: '14px',
+                padding: '20px 24px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                  <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase' }}>INSTITUTIONAL MASTER LEASE</span>
+                  <span style={{ background: '#C5A572', color: '#0F172A', padding: '3px 10px', borderRadius: '10px', fontSize: '11px', fontWeight: '800' }}>GUARANTEED</span>
+                </div>
+                <h4 style={{ color: '#FFFFFF', margin: '0 0 4px 0', fontSize: '16px', fontWeight: '600' }}>Full Residential Building Acquisition</h4>
+                <p style={{ color: '#94A3B8', margin: 0, fontSize: '13px' }}>Gurugram • Cyber City • Golf Course Road • DLF Corridor</p>
+              </div>
             </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── METRICS BAR (Institutional Financial Highlights) ── */}
+      <section style={{ backgroundColor: '#1E293B', borderBottom: '1px solid rgba(255,255,255,0.08)', padding: '45px 20px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '30px', textAlign: 'center' }}>
+          <div>
+            <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#C5A572', margin: '0 0 4px 0' }}>1 Master Check</h3>
+            <p style={{ color: '#94A3B8', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', margin: 0 }}>Consolidated Monthly Payout</p>
+          </div>
+          <div>
+            <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#C5A572', margin: '0 0 4px 0' }}>3 – 9 Years</h3>
+            <p style={{ color: '#94A3B8', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', margin: 0 }}>Guaranteed Master Lease Term</p>
+          </div>
+          <div>
+            <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#C5A572', margin: '0 0 4px 0' }}>100% Zero</h3>
+            <p style={{ color: '#94A3B8', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', margin: 0 }}>Building Vacancy Risk</p>
+          </div>
+          <div>
+            <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#C5A572', margin: '0 0 4px 0' }}>Japanese &amp; MNC</h3>
+            <p style={{ color: '#94A3B8', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', margin: 0 }}>Corporate Expat Stays</p>
           </div>
         </div>
+      </section>
 
-        <div className="editorial-right-col" style={{ paddingLeft: '20px' }}>
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '8px',
-            background: 'rgba(139, 115, 85, 0.1)',
-            border: '1px solid #8B7355',
-            color: '#8B7355',
-            padding: '6px 18px',
-            borderRadius: '20px',
-            fontSize: '12px',
-            fontWeight: '700',
-            letterSpacing: '1.5px',
-            textTransform: 'uppercase',
-            marginBottom: '20px'
-          }}>
-            <FaBuilding /> FOR GURUGRAM BUILDING OWNERS &amp; DEVELOPERS
+      {/* ── B2B COMPARISON MATRIX: TRADITIONAL VS MASTER LEASE ── */}
+      <section style={{ padding: '90px 20px', backgroundColor: '#0F172A' }}>
+        <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: '750px', margin: '0 auto 60px' }}>
+            <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>FINANCIAL COMPARISON</span>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(28px, 4vw, 42px)', color: '#FFFFFF', marginTop: '10px', marginBottom: '16px' }}>
+              Multi-Tenant Leasing vs. Sandane Master Lease
+            </h2>
+            <p style={{ color: '#94A3B8', fontSize: '15px', lineHeight: '1.7' }}>
+              Comparing the operational burden and financial performance of managing individual renters versus a single institutional master lease.
+            </p>
           </div>
 
-          <h1 style={{
-            fontFamily: 'Playfair Display, serif',
-            fontSize: 'clamp(32px, 4.5vw, 50px)',
-            lineHeight: '1.15',
-            color: '#111111',
-            marginBottom: '24px',
-            fontWeight: '600'
-          }}>
-            Master-Lease Your Entire Gurugram Building to Sandane Homes
-          </h1>
-
-          <p style={{
-            fontSize: '16px',
-            lineHeight: '1.8',
-            color: '#555555',
-            marginBottom: '32px',
-            fontFamily: 'Georgia, serif'
-          }}>
-            Stop managing dozens of individual renters. <strong>Sandane Homes</strong> master-leases your entire residential tower or builder block (10 to 50+ units) in Gurugram, issuing one single guaranteed master payment on the 1st of every month under a long-term 3 to 9 year agreement.
-          </p>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '14px', marginBottom: '36px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> Single Master Tenant Contract
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> 3 to 9 Year Guaranteed Terms
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> Turnkey Hotel Conversion
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> 0% Vacancy &amp; Collection Risk
-            </div>
-          </div>
-
-          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-            <a
-              href="#building-valuation-form"
-              style={{
-                backgroundColor: '#1C2D42',
-                color: '#FFFFFF',
-                padding: '16px 36px',
-                borderRadius: '30px',
-                fontSize: '14px',
-                fontWeight: '700',
-                letterSpacing: '1px',
-                textDecoration: 'none',
-                boxShadow: '0 8px 25px rgba(28,45,66,0.25)'
-              }}
-            >
-              PROPOSE YOUR BUILDING &rarr;
-            </a>
-
-            <a
-              href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20a%20Gurugram%20building%20owner%20interested%20in%20a%20master%20lease."
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                backgroundColor: '#25D366',
-                color: '#FFFFFF',
-                padding: '16px 30px',
-                borderRadius: '30px',
-                fontSize: '14px',
-                fontWeight: '700',
-                letterSpacing: '1px',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '10px'
-              }}
-            >
-              <FaWhatsapp size={18} /> WHATSAPP MASTER LEASE DESK
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Building Owner Benefits */}
-      <section style={{ backgroundColor: '#1C2D42', color: '#FFFFFF', padding: '80px 20px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', textAlign: 'center' }}>
-          <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>WHY BUILDING OWNERS CHOOSE US</span>
-          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '36px', color: '#FFF', marginTop: '10px', marginBottom: '50px' }}>
-            The Institutional Master Lease Advantage
-          </h2>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px', textAlign: 'left' }}>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '30px', borderRadius: '14px', border: '1px solid rgba(197,165,114,0.2)' }}>
-              <FaFileContract size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '20px', margin: '0 0 10px 0', color: '#FFF' }}>1 Contract Instead of 30+</h4>
-              <p style={{ fontSize: '14px', color: '#C3D0DF', lineHeight: '1.6', margin: 0 }}>Replace 30 individual tenant agreements, background checks, and rent collection calls with one master institutional lease.</p>
+          {/* Comparison Table */}
+          <div style={{ backgroundColor: '#1E293B', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.08)', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '20px 24px', backgroundColor: '#162032', borderBottom: '1px solid rgba(255,255,255,0.1)', fontWeight: '700', fontSize: '14px', letterSpacing: '1px' }}>
+              <div style={{ color: '#94A3B8' }}>FEATURE / METRIC</div>
+              <div style={{ color: '#EF4444' }}>TRADITIONAL RENTING</div>
+              <div style={{ color: '#C5A572' }}>SANDANE MASTER LEASE</div>
             </div>
 
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '30px', borderRadius: '14px', border: '1px solid rgba(197,165,114,0.2)' }}>
-              <FaCrown size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '20px', margin: '0 0 10px 0', color: '#FFF' }}>Brand Capital Appreciation</h4>
-              <p style={{ fontSize: '14px', color: '#C3D0DF', lineHeight: '1.6', margin: 0 }}>We elevate your building into a high-end Japanese &amp; MNC expat hotel residence, significantly boosting your asset value.</p>
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
+              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Tenant Contracts</div>
+              <div style={{ color: '#94A3B8' }}>30+ individual renters to manage</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> 1 Master Lease Contract</div>
             </div>
 
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '30px', borderRadius: '14px', border: '1px solid rgba(197,165,114,0.2)' }}>
-              <FaTools size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '20px', margin: '0 0 10px 0', color: '#FFF' }}>Complete Property Facility Care</h4>
-              <p style={{ fontSize: '14px', color: '#C3D0DF', lineHeight: '1.6', margin: 0 }}>From lift maintenance to lobby reception, security supervision, and daily housekeeping, Sandane Homes runs everything.</p>
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
+              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Monthly Rent Payout</div>
+              <div style={{ color: '#94A3B8' }}>Multiple payment delays &amp; follow-ups</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> Guaranteed on the 1st</div>
+            </div>
+
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
+              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Vacancy Risk</div>
+              <div style={{ color: '#94A3B8' }}>High (1-2 months per unit/yr)</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> 0% Vacancy Loss</div>
+            </div>
+
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
+              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Building Operations</div>
+              <div style={{ color: '#94A3B8' }}>Owner handles repairs &amp; complaints</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> 100% Sandane Management</div>
+            </div>
+
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', fontSize: '14px' }}>
+              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Building Asset Valuation</div>
+              <div style={{ color: '#94A3B8' }}>Standard residential wear &amp; tear</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> 5-Star Hotel Conversion</div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Building Propose Form */}
-      <section id="building-valuation-form" style={{ padding: '90px 20px', backgroundColor: '#F4F0EB' }}>
+      {/* ── INSTITUTIONAL PROPOSAL FORM SECTION ── */}
+      <section id="corporate-building-form" style={{ padding: '90px 20px', backgroundColor: '#1E293B', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
         <div style={{ maxWidth: '850px', margin: '0 auto' }}>
           <div style={{
-            backgroundColor: '#FFFFFF',
+            backgroundColor: '#0F172A',
             borderRadius: '20px',
             padding: 'clamp(30px, 5vw, 60px)',
-            boxShadow: '0 15px 45px rgba(0,0,0,0.06)',
-            border: '1px solid #E4DDD3'
+            border: '1px solid rgba(197, 165, 114, 0.3)',
+            boxShadow: '0 25px 50px rgba(0,0,0,0.4)'
           }}>
             <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-              <span style={{ color: '#8B7355', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>GURUGRAM BUILDING MASTER LEASE EVALUATION</span>
-              <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#111111', marginTop: '8px' }}>
-                Propose Your Building For Master Lease
+              <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>B2B MASTER LEASE INQUIRY</span>
+              <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#FFFFFF', marginTop: '8px', marginBottom: '12px' }}>
+                Propose Your Gurugram Building
               </h2>
+              <p style={{ color: '#94A3B8', fontSize: '14px' }}>
+                Submit your building details below. Our corporate acquisition desk will evaluate your property and issue a formal master lease term sheet within 24 hours.
+              </p>
             </div>
 
             {formSubmitted ? (
-              <div style={{ textAlign: 'center', padding: '40px', background: 'rgba(37, 211, 102, 0.08)', borderRadius: '14px' }}>
-                <FaCheckCircle size={48} color="#25D366" />
-                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', margin: '16px 0 8px 0' }}>Building Proposal Received!</h3>
-                <p style={{ fontSize: '14px', color: '#555' }}>Our commercial acquisition team will evaluate your Gurugram building and connect with you shortly.</p>
+              <div style={{ textAlign: 'center', padding: '40px', background: 'rgba(37, 211, 102, 0.08)', border: '1px solid #25D366', borderRadius: '14px' }}>
+                <FaCircleCheck size={48} color="#25D366" />
+                <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '24px', margin: '16px 0 8px 0', color: '#FFF' }}>Building Proposal Submitted!</h3>
+                <p style={{ fontSize: '14px', color: '#94A3B8' }}>Our corporate master lease team will review your asset and reach out via WhatsApp / Email shortly.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit}>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
                   <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Owner / Developer Name *</label>
-                    <input type="text" required placeholder="e.g. Sameer Kapoor" value={name} onChange={(e) => setName(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #DDD', backgroundColor: '#FAF8F5' }} />
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', marginBottom: '8px' }}>Owner / Developer Name *</label>
+                    <input type="text" required placeholder="e.g. Sameer Kapoor" value={name} onChange={(e) => setName(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #334155', backgroundColor: '#1E293B', color: '#FFF', outline: 'none' }} />
                   </div>
                   <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Phone / WhatsApp *</label>
-                    <input type="tel" required placeholder="e.g. +91 98765 43210" value={phone} onChange={(e) => setPhone(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #DDD', backgroundColor: '#FAF8F5' }} />
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', marginBottom: '8px' }}>Phone / WhatsApp *</label>
+                    <input type="tel" required placeholder="e.g. +91 98765 43210" value={phone} onChange={(e) => setPhone(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #334155', backgroundColor: '#1E293B', color: '#FFF', outline: 'none' }} />
                   </div>
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
                   <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Asset Category *</label>
-                    <select value={buildingType} onChange={(e) => setBuildingType(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #DDD', backgroundColor: '#FAF8F5' }}>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', marginBottom: '8px' }}>Asset Category *</label>
+                    <select value={buildingType} onChange={(e) => setBuildingType(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #334155', backgroundColor: '#1E293B', color: '#FFF', outline: 'none' }}>
                       <option value="Full Apartment Tower">Full Residential Apartment Tower</option>
                       <option value="Builder Floor Block">Entire Builder Floor Block (4-8 Floors)</option>
                       <option value="Commercial Guest House">Commercial Guest House / Hotel Property</option>
-                      <option value="Co-living Tower">Co-living / Student Housing Tower</option>
+                      <option value="Co-living Tower">Co-living / Extended Stay Tower</option>
                     </select>
                   </div>
                   <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Total Units Count *</label>
-                    <select value={totalUnits} onChange={(e) => setTotalUnits(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #DDD', backgroundColor: '#FAF8F5' }}>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', marginBottom: '8px' }}>Total Units Count *</label>
+                    <select value={totalUnits} onChange={(e) => setTotalUnits(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #334155', backgroundColor: '#1E293B', color: '#FFF', outline: 'none' }}>
                       <option value="10-20 Units">10 – 20 Units</option>
                       <option value="21-40 Units">21 – 40 Units</option>
                       <option value="41-80 Units">41 – 80 Units</option>
@@ -313,17 +395,33 @@ const GurugramBuildingOwnersPartner = () => {
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
-                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Building Address / Gurugram Locality</label>
-                  <input type="text" placeholder="e.g. Sector 54 Golf Course Road / DLF Phase 3 / MG Road" value={locality} onChange={(e) => setLocality(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #DDD', backgroundColor: '#FAF8F5' }} />
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', marginBottom: '8px' }}>Building Location / Sector in Gurugram</label>
+                  <input type="text" placeholder="e.g. Golf Course Road / DLF Cyber City / MG Road / Sohna Road" value={locality} onChange={(e) => setLocality(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #334155', backgroundColor: '#1E293B', color: '#FFF', outline: 'none' }} />
                 </div>
 
                 <div style={{ marginBottom: '30px' }}>
-                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Building Details / Completion Status</label>
-                  <textarea rows={3} placeholder="Current occupancy, completion state, parking availability..." value={message} onChange={(e) => setMessage(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #DDD', backgroundColor: '#FAF8F5' }} />
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', marginBottom: '8px' }}>Additional Building Details</label>
+                  <textarea rows={3} placeholder="Current occupancy, elevator status, parking capacity, readiness date..." value={message} onChange={(e) => setMessage(e.target.value)} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: '1px solid #334155', backgroundColor: '#1E293B', color: '#FFF', outline: 'none' }} />
                 </div>
 
-                <button type="submit" style={{ width: '100%', backgroundColor: '#1C2D42', color: '#FFF', padding: '18px', borderRadius: '30px', fontWeight: '700', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
-                  <FaWhatsapp size={20} color="#25D366" /> SUBMIT BUILDING PROPOSAL VIA WHATSAPP
+                <button type="submit" style={{
+                  width: '100%',
+                  backgroundColor: '#C5A572',
+                  color: '#0F172A',
+                  padding: '18px',
+                  borderRadius: '30px',
+                  fontSize: '15px',
+                  fontWeight: '800',
+                  letterSpacing: '1.5px',
+                  border: 'none',
+                  cursor: 'pointer',
+                  boxShadow: '0 10px 30px rgba(197, 165, 114, 0.3)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '10px'
+                }}>
+                  <FaWhatsapp size={20} color="#0F172A" /> SUBMIT BUILDING PROPOSAL VIA WHATSAPP
                 </button>
               </form>
             )}
@@ -331,20 +429,20 @@ const GurugramBuildingOwnersPartner = () => {
         </div>
       </section>
 
-      {/* Building FAQs */}
-      <section style={{ padding: '80px 20px', backgroundColor: '#FAF8F5', borderTop: '1px solid #E8E2D9' }}>
+      {/* FAQs */}
+      <section style={{ padding: '80px 20px', backgroundColor: '#0F172A', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '32px', textAlign: 'center', marginBottom: '40px' }}>Building Master Lease FAQs</h2>
+          <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: '32px', textAlign: 'center', marginBottom: '40px', color: '#FFF' }}>Building Master Lease FAQs</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             {faqs.map((faq, idx) => {
               const isOpen = openFaqIndex === idx;
               return (
-                <div key={idx} style={{ backgroundColor: '#FFF', borderRadius: '12px', border: '1px solid #E4DDD3', overflow: 'hidden' }}>
-                  <button onClick={() => setOpenFaqIndex(isOpen ? null : idx)} style={{ width: '100%', padding: '20px 24px', backgroundColor: 'transparent', border: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontFamily: 'Playfair Display, serif', fontSize: '16px', fontWeight: '600', cursor: 'pointer' }}>
+                <div key={idx} style={{ backgroundColor: '#1E293B', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)', overflow: 'hidden' }}>
+                  <button onClick={() => setOpenFaqIndex(isOpen ? null : idx)} style={{ width: '100%', padding: '20px 24px', backgroundColor: 'transparent', border: 'none', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontFamily: "'Playfair Display', serif", fontSize: '16px', fontWeight: '600', color: '#FFF', cursor: 'pointer' }}>
                     <span>{faq.q}</span>
-                    {isOpen ? <FaChevronUp color="#8B7355" /> : <FaChevronDown color="#8B7355" />}
+                    {isOpen ? <FaChevronUp color="#C5A572" /> : <FaChevronDown color="#C5A572" />}
                   </button>
-                  {isOpen && <div style={{ padding: '0 24px 20px', fontSize: '14px', color: '#555', fontFamily: 'Georgia, serif' }}>{faq.a}</div>}
+                  {isOpen && <div style={{ padding: '0 24px 20px', fontSize: '14px', color: '#94A3B8', lineHeight: '1.7' }}>{faq.a}</div>}
                 </div>
               );
             })}
