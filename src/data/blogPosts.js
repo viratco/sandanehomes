@@ -1,5 +1,203 @@
 export const blogPosts = [
   {
+    "slug": "serviced-apartments-greater-noida-japanese-expats",
+    "title": "Best Serviced Apartments in Greater Noida for Japanese Expats — Near Yamaha, Honda, Denso & Sekisui",
+    "metaTitle": "Serviced Apartments Greater Noida for Japanese Expats | Sandane Homes",
+    "metaDescription": "Serviced apartments in Greater Noida for Japanese employees at Yamaha, Honda, Denso, Sekisui & more. Japanese-friendly staff, near-authentic breakfast options, quiet gated communities.",
+    "subtitle": "Definitive accommodation guide for Japanese assignees at Yamaha Motor, Honda, Denso, Sekisui & YEIDA Japan City.",
+    "category": "Expat Housing",
+    "date": "September 08, 2026",
+    "readTime": "8 min read",
+    "author": "Residences by Sandane Homes",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for serviced apartments for Japanese expats in Delhi NCR? Discover why Residences by Sandane Homes in Greater Noida is the best choice for employees at Yamaha, Honda, Denso & Sekisui.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "If you've been searching for <b>serviced apartments for Japanese expats in Delhi NCR</b>, most of what you'll find is built around Gurgaon. That makes sense for many Japanese professionals — but it doesn't help if your assignment is with Yamaha Motor India, Honda Motorcycle & Scooter India, Denso India, Sekisui DLJM, or one of the dozens of other Japanese manufacturing operations actually based in Greater Noida, not Gurgaon."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide is specifically for that situation."
+      },
+      {
+        "type": "heading",
+        "text": "Why Greater Noida is Different from Gurgaon for Japanese Assignees"
+      },
+      {
+        "type": "paragraph",
+        "text": "Greater Noida is home to one of India's most concentrated Japanese manufacturing corridors — <b>Yamaha Motor India</b> and <b>Honda Motorcycle & Scooter India</b> both operate large facilities here. <b>Denso India</b> sits on the Noida-Dadri Road. <b>Sekisui DLJM</b>, <b>Seiko Advance India</b>, <b>Daiwa Kasei</b>, <b>PPAP Tokai</b>, and <b>Anest Iwata Motherson</b> all have Japanese-linked operations in this same corridor. With the recently announced <b>Japan City</b> development near Noida International Airport (YEIDA corridor), this concentration is only going to deepen over the coming years."
+      },
+      {
+        "type": "paragraph",
+        "text": "If your assignment is here, commuting from Gurgaon-based accommodation (like Lime Tree or The Perch in Gurugram) adds a genuinely difficult daily drive of 2+ hours each way. Living in Greater Noida, close to your actual workplace, matters immensely."
+      },
+      {
+        "type": "heading",
+        "text": "What Actually Makes Housing Work for a Japanese Assignee"
+      },
+      {
+        "type": "paragraph",
+        "text": "The practical questions that come up repeatedly, based on conversations with Japanese guests and corporate mobility teams in this corridor:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Is the kitchen actually usable for Japanese cooking?</b> A listed 'kitchen' often means a single burner and a small fridge. Rice cookers, proper cooktops for stir-frying, and adequate counter space matter for anyone cooking regularly rather than eating out every night.",
+          "<b>Is the environment quiet and orderly?</b> Japanese residential norms tend toward quiet, well-maintained, low-density living. Gated societies with genuine upkeep — not just a security gate — matter more to Japanese guests than they might to guests from other backgrounds.",
+          "<b>Can basic requests be communicated without friction?</b> Not every interaction needs to happen in Japanese, but having a WhatsApp line where staff can understand simple Japanese requests removes a layer of daily friction that compounds over a multi-year posting.",
+          "<b>Is breakfast familiar, or does it require constant adaptation?</b> A small detail, but with a disproportionate impact on how 'settled' a stay feels in the first few weeks."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "What Sandane Homes Offers Specifically"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our residences across Greater Noida — in <a href='/serviced-apartments-ansal-golf-links'>Ansal Golf Links</a>, <a href='/serviced-apartments-jaypee-greens'>Jaypee Greens</a>, and surrounding premium societies — are positioned within genuine reach of the Japanese manufacturing corridor: Yamaha, Honda, Denso, and the broader Ecotech/Kasna industrial belt."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Fully furnished 2BHK to 4BHK apartments and luxury villas:</b> Designed for single executives or relocating families.",
+          "<b>Fully equipped kitchens:</b> Suited to real home cooking, not just reheating.",
+          "<b>Daily housekeeping & maintenance:</b> Complete hassle-free living.",
+          "<b>Quiet, gated premium communities:</b> Peaceful surroundings with 24/7 high-level security.",
+          "<b>Japanese-language WhatsApp support:</b> Easy, friction-free day-to-day communication.",
+          "<b>Flexible tenancy:</b> Suited to assignments ranging from a few months to several years."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "We're also a short distance from <b>Sohee's Kitchen</b>, an authentic Korean/Asian restaurant partnered with Sandane Homes — useful for anyone who wants a familiar Asian dining option beyond home cooking."
+      },
+      {
+        "type": "paragraph",
+        "text": "<i>Also serving Korean expats in this corridor → Check out our <a href='/blog/serviced-apartments-greater-noida-korean-expats'>Serviced Apartments for Korean Expats in Greater Noida</a>.</i>"
+      },
+      {
+        "type": "heading",
+        "text": "A Note on the Adjustment Period"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most Japanese assignees we've spoken with describe the first six to eight weeks in India as the hardest, regardless of how good the housing is. This is normal, not a sign anything is wrong. What genuinely helps: a comfortable, quiet home base to return to each evening, and a kitchen where cooking a familiar meal is straightforward rather than a project."
+      },
+      {
+        "type": "heading",
+        "text": "For Companies Arranging Accommodation for Japanese Staff"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you're an HR or administration team at a Japanese company in the Greater Noida corridor arranging housing for incoming employees, we'd be glad to discuss your specific requirements — single executives, families, or multiple staff arriving together."
+      },
+      {
+        "type": "callout",
+        "text": "<b>Residences by Sandane Homes</b><br/>Ansal Golf Links-1 & Jaypee Greens, Greater Noida<br/>📞 <b>+91 97117 22273</b> (日本語対応 WhatsApp)<br/>✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a><br/>🌐 Explore <a href='/residences'>Residences by Sandane Homes</a>"
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-greater-noida-korean-expats",
+    "title": "Best Serviced Apartments in Greater Noida for Korean Expats — Near Samsung, LG, Hyundai Supply Chain",
+    "metaTitle": "Serviced Apartments Greater Noida for Korean Expats | Sandane Homes",
+    "metaDescription": "Serviced apartments in Greater Noida for Korean employees at Samsung, LG, Mobase, and the Hyundai supply chain. Korean-language support, real kitchens, Korean restaurant nearby.",
+    "subtitle": "Definitive accommodation guide for Korean assignees at Samsung, LG, Mobase, GMC & YEIDA Korean City.",
+    "category": "Expat Housing",
+    "date": "September 08, 2026",
+    "readTime": "8 min read",
+    "author": "Residences by Sandane Homes",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Most content for Korean expats in Delhi NCR assumes Gurgaon. If your assignment is with Samsung, LG, Mobase, or Hyundai suppliers in Greater Noida, here is your definitive guide.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Most content aimed at Korean expats relocating to Delhi NCR assumes you're headed to Gurgaon. If your posting is instead with a company in Greater Noida — <b>Mobase India</b>, <b>GMC</b>, <b>Korindia</b>, <b>ILJIN</b>, <b>Elentec</b>, or one of the many Korean-linked manufacturers in this corridor, or you're supporting <b>Samsung</b>'s Noida operations — this guide is built for your actual situation."
+      },
+      {
+        "type": "heading",
+        "text": "Why Greater Noida Matters as Its Own Market"
+      },
+      {
+        "type": "paragraph",
+        "text": "Greater Noida and the broader YEIDA corridor host a significant and growing concentration of Korean manufacturing operations, largely feeding into the Samsung and Hyundai supply chains. With a 900-acre <b>Korean City</b> now planned in YEIDA's Sector 4A — one of the largest dedicated Korean industrial developments announced in India — this corridor is set to become a primary destination for Korean professionals over the next several years, not a secondary one."
+      },
+      {
+        "type": "paragraph",
+        "text": "Treating Greater Noida as an afterthought to Gurgaon housing searches doesn't reflect where the actual jobs and Korean company presence increasingly are."
+      },
+      {
+        "type": "heading",
+        "text": "What Matters Practically for Korean Assignees"
+      },
+      {
+        "type": "paragraph",
+        "text": "Based on recurring themes from Korean guests and companies in this corridor:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>A kitchen that actually supports Korean cooking:</b> This means more than a stovetop — proper ventilation, adequate burner heat for stir-frying, and enough counter space and storage for the range of banchan and staple ingredients Korean home cooking typically involves.",
+          "<b>Access to Korean food beyond home cooking:</b> For anyone not cooking every single meal, having a genuine Korean restaurant nearby — not a generic 'Asian fusion' menu — makes a meaningful difference to how sustainable daily life feels.",
+          "<b>Korean-language communication for daily requests:</b> Maintenance requests, general questions, and day-to-day coordination are considerably easier without a language barrier compounding an already unfamiliar environment.",
+          "<b>A quiet, secure, well-maintained residential environment:</b> Consistent with the apartment-complex living most Korean professionals are used to at home."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "What Sandane Homes Offers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our residences across Greater Noida — in <a href='/serviced-apartments-ansal-golf-links'>Ansal Golf Links</a>, <a href='/serviced-apartments-jaypee-greens'>Jaypee Greens</a>, and surrounding premium societies — sit within genuine reach of the Korean manufacturing corridor and the broader Samsung/Hyundai supply chain ecosystem."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Fully furnished 2BHK to 4BHK apartments and luxury villas:</b> Ideal for individual executives and family relocations.",
+          "<b>Kitchens equipped for real home cooking:</b> Full burners, extraction hoods, and large refrigerators.",
+          "<b>Daily housekeeping & maintenance:</b> Complete peace of mind.",
+          "<b>Quiet, gated premium communities:</b> Strict 24/7 security.",
+          "<b>Korean-language WhatsApp support (한국어 상담 가능):</b> Seamless, prompt communication.",
+          "<b>Flexible tenancy:</b> From a few months to multi-year corporate assignments."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "We are directly connected to <b>Sohee's Kitchen</b>, an authentic Korean restaurant partnered with Sandane Homes — not a fusion menu, but genuine Korean cooking, minutes from our residences. This is a real, standing asset most housing providers in this corridor simply don't have."
+      },
+      {
+        "type": "paragraph",
+        "text": "<i>Also serving Japanese expats in this corridor → Check out our <a href='/blog/serviced-apartments-greater-noida-japanese-expats'>Serviced Apartments for Japanese Expats in Greater Noida</a>.</i>"
+      },
+      {
+        "type": "heading",
+        "text": "On the Adjustment Period"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first six to eight weeks tend to be the hardest part of any relocation, regardless of housing quality — this is normal and not specific to any individual situation. What genuinely helps: a quiet home base that actually feels comfortable, a kitchen that makes cooking easy rather than effortful, and access to familiar food when cooking isn't an option."
+      },
+      {
+        "type": "heading",
+        "text": "For Companies Arranging Housing for Korean Employees"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you're an HR, administration, or global mobility team at a company with Korean staff relocating to the Greater Noida or YEIDA corridor, we'd welcome a conversation about your team's specific requirements."
+      },
+      {
+        "type": "callout",
+        "text": "<b>Residences by Sandane Homes</b><br/>Ansal Golf Links-1 & Jaypee Greens, Greater Noida<br/>📞 <b>+91 97117 22273</b> (한국어 WhatsApp 가능)<br/>✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a><br/>🌐 Explore <a href='/residences'>Residences by Sandane Homes</a>"
+      }
+    ]
+  },
+  {
     "slug": "japanese-service-apartments-gurgaon-golf-course-road-dlf-phase-5",
     "title": "Japanese Service Apartments Gurgaon: Luxury Corporate Housing on Golf Course Road",
     "metaTitle": "Japanese Service Apartments Gurgaon | Residences by Sandane Homes",

@@ -411,6 +411,8 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  'serviced-apartments-greater-noida-japanese-expats',
+  'serviced-apartments-greater-noida-korean-expats',
   'up-japan-city-noida-international-airport-yeida-expat-housing',
   'japan-city-yamuna-expressway-corporate-accommodation-japanese-engineers',
   'up-japan-township-noida-airport-expat-villas-serviced-residences',
