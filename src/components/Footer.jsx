@@ -340,6 +340,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                     fontSize: '13px', letterSpacing: '0.5px'
                 }}>
                     {[
+                        ['Partner With Us (Monetize Property)', '/partner-with-us'],
                         ['Serviced Apartments Greater Noida', '/serviced-apartments-greater-noida'],
                         ['Korean Expat Housing Delhi NCR', '/korean-expat-housing-delhi-ncr'],
                         ['Japanese Expat Housing Greater Noida', '/japanese-expat-housing-delhi-ncr'],

@@ -176,6 +176,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                         <ul className="dropdown-list">
                                             <li><Link to="/residences" onClick={() => setIsMobileMenuOpen(false)}>RESIDENCES BY SANDANE</Link></li>
                                             <li><Link to="/residences/relocation" onClick={() => setIsMobileMenuOpen(false)}>RELOCATION SERVICES</Link></li>
+                                            <li><Link to="/partner-with-us" onClick={() => setIsMobileMenuOpen(false)}>PARTNER WITH US (MONETIZE)</Link></li>
                                         </ul>
                                     </div>
                                 )}

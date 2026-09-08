@@ -18,6 +18,7 @@ import BlogList from './components/pages/BlogList';
 import BlogPost from './components/pages/BlogPost';
 import LandingPage from './components/pages/LandingPage';
 import Relocation from './components/pages/Relocation';
+import PartnershipPage from './components/pages/PartnershipPage';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -35,6 +36,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/residences" element={<Residences />} />
           <Route path="/residences/relocation" element={<Relocation />} />
+          <Route path="/partner-with-us" element={<PartnershipPage />} />
+          <Route path="/partner" element={<PartnershipPage />} />
           <Route path="/sandane-homes" element={<SandaneHomes />} />
           <Route path="/amara" element={<Amara />} />
           <Route path="/amaaltash" element={<Amaaltash />} />

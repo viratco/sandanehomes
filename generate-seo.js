@@ -17,6 +17,11 @@ const SEO_MAP = {
     description: 'Discover luxury boutique hotels and premium residences by Sandane Homes in Greater Noida. Luxury stays, executive suites, and corporate residences with top-notch amenities, professional hospitality, and comfort.',
     schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" } }]
   },
+  '/partner-with-us': {
+    title: 'Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes',
+    description: 'Partner your apartments, flats, or entire residential buildings with Sandane Homes. High guaranteed monthly revenue, 100% property maintenance, and corporate MNC guest management in Greater Noida, Noida & Gurugram.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
   '/residences': {
     title: 'Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
     description: 'Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.',
@@ -603,7 +608,7 @@ function buildSitemapXml() {
   xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
   // Main Pages
-  const mainPages = ['/residences', '/residences/relocation', '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'];
+  const mainPages = ['/residences', '/residences/relocation', '/partner-with-us', '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'];
   mainPages.forEach((route) => {
     const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
