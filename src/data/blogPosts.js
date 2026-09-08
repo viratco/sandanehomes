@@ -1,5 +1,155 @@
 export const blogPosts = [
   {
+    "slug": "gurugram-property-owners-managed-leasing",
+    "title": "Why Gurugram Property Owners Are Switching From Traditional Renting to Managed Leasing",
+    "metaTitle": "Gurugram Property Management for Owners | Sandane Homes",
+    "metaDescription": "Gurugram property owners: earn more with zero hassle. Sandane Homes manages your apartment as a premium serviced residence — tenant sourcing, maintenance, and guaranteed rent.",
+    "subtitle": "A complete operational guide for property owners with vacant or underperforming apartments in Gurugram.",
+    "category": "Property Management",
+    "date": "September 08, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Supply Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "If you own a residential apartment in Gurugram sitting vacant or underperforming, discover why switching to managed leasing yields higher returns with zero operational hassle.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "If you own a residential apartment in Gurugram — whether it's sitting vacant, rented out below market rate, or simply generating more stress than income — this is worth ten minutes of your time."
+      },
+      {
+        "type": "heading",
+        "text": "The Traditional Renting Problem, Honestly Stated"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most property owners in Gurugram know this pattern well: a tenant who pays late or stops paying entirely. Months of vacancy between tenants while you keep paying maintenance fees. Property damage discovered only at move-out, with no deposit that actually covers it. Endless calls about a leaking tap or broken AC that you, personally, now have to arrange a repair for. And the actual rental yield, after all of this, is often lower than what a well-run apartment could realistically earn."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this is a flaw in your property. It's a flaw in the traditional single-tenant, self-managed rental model."
+      },
+      {
+        "type": "heading",
+        "text": "What Managed Leasing Actually Means"
+      },
+      {
+        "type": "paragraph",
+        "text": "<a href='/residences'>Residences by Sandane Homes</a> takes over full operational responsibility for your apartment — sourcing tenants (corporate professionals and expat clients, not walk-in strangers), handling maintenance and housekeeping, managing the tenancy relationship, and paying you a consistent, predictable amount, whether the unit is occupied every single day or not."
+      },
+      {
+        "type": "paragraph",
+        "text": "You are no longer the person who gets the 11pm call about a broken geyser. You are no longer the person negotiating rent with a tenant threatening to leave. You simply receive your payment."
+      },
+      {
+        "type": "heading",
+        "text": "Who Your Tenants Actually Become"
+      },
+      {
+        "type": "paragraph",
+        "text": "Under managed leasing, your apartment is positioned for corporate professionals and expat clients — engineers, executives, and specialists on assignment in the NCR region, often through their employer. This tenant profile behaves differently from an open-market renter: shorter negotiation, cleaner move-outs, and a genuine incentive to maintain the property well since it reflects on their own professional situation."
+      },
+      {
+        "type": "heading",
+        "text": "The Honest Trade-Off"
+      },
+      {
+        "type": "paragraph",
+        "text": "Managed leasing typically means a share of the rental income goes to the management company in exchange for removing the operational burden entirely. For owners who value their time and want predictable income without becoming a part-time property manager, this trade is usually a clear net positive. For owners who enjoy hands-on management and have the time for it, the traditional model may still suit them better."
+      },
+      {
+        "type": "heading",
+        "text": "What We Look for in a Property"
+      },
+      {
+        "type": "paragraph",
+        "text": "2BHK to 4BHK apartments in premium Gurugram societies with genuine gated security, reasonable proximity to business districts (Cyber City, Golf Course Road, MG Road corridor), and a baseline standard of maintenance we can bring up to our operating requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "If your property has been sitting vacant, underperforming, or simply causing more hassle than it's worth, we'd welcome a conversation."
+      },
+      {
+        "type": "callout",
+        "text": "<b>Partner With Sandane Homes</b><br/>📞 <b>+91 97117 22273</b><br/>✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a><br/>🌐 Submit your property details at <a href='/partner-with-us'>sandanehomes.com/partner-with-us</a>"
+      }
+    ]
+  },
+  {
+    "slug": "gurugram-apartment-rental-income-comparison",
+    "title": "How Much Can You Actually Earn From Your Gurugram Apartment? A Realistic Comparison",
+    "metaTitle": "Gurugram Apartment Rental Income Comparison | Sandane Homes",
+    "metaDescription": "Traditional rental vs managed leasing in Gurugram — a realistic look at income, vacancy risk, and hassle for property owners deciding how to rent their apartment.",
+    "subtitle": "Comparing real annual returns, vacancy losses, and maintenance hassle between traditional renting and managed corporate leasing.",
+    "category": "Property Management",
+    "date": "September 08, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Supply Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Evaluating how to rent out your Gurugram flat? Compare real net annual yield, vacancy risk, and tenant management effort before deciding.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Property owners in Gurugram evaluating how to rent out an apartment usually compare two things: the headline monthly rent, and not much else. That comparison misses most of what actually determines your real return over a year."
+      },
+      {
+        "type": "heading",
+        "text": "What the Traditional Model Actually Costs, Beyond the Obvious"
+      },
+      {
+        "type": "paragraph",
+        "text": "The headline rent looks straightforward, but the real annual return depends on factors rarely factored into the initial calculation: vacancy periods between tenants (often one to two months per tenant turnover, during which you earn nothing but still pay maintenance), the time cost of finding and vetting new tenants yourself, unpaid or late rent that has to be chased, and property damage that erodes your deposit protection more often than owners expect."
+      },
+      {
+        "type": "paragraph",
+        "text": "Add these up honestly, and the effective annual yield on a self-managed rental is frequently lower than the advertised monthly rent times twelve would suggest."
+      },
+      {
+        "type": "heading",
+        "text": "What Managed Leasing Changes in This Calculation"
+      },
+      {
+        "type": "paragraph",
+        "text": "A managed leasing arrangement with <a href='/residences'>Residences by Sandane Homes</a> typically offers a lower headline monthly figure than the best-case traditional rent — but removes vacancy risk, removes tenant-sourcing time, removes the maintenance burden, and removes the collections problem entirely. The comparison that actually matters is not 'highest possible rent' versus 'managed rent' — it's realistic annual net return, accounting for vacancy and hassle, versus predictable managed income."
+      },
+      {
+        "type": "heading",
+        "text": "A Framework for Deciding Which Suits You"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you have the time, local presence, and temperament to actively manage tenant relationships, handle maintenance calls, and tolerate occasional vacancy or payment issues in exchange for potentially higher peak rent — traditional renting may serve you well."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want predictable monthly income without becoming a part-time property manager, particularly if you live elsewhere or simply don't want the operational involvement, managed leasing is built for exactly this."
+      },
+      {
+        "type": "heading",
+        "text": "What Tenant Profile Changes Under Managed Leasing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate and expat tenants — professionals on company-arranged assignments — tend to have shorter negotiation cycles, more consistent payment behavior (often backed by a corporate arrangement), and stronger incentive to maintain the property well. This tenant profile is simply not accessible to most individual owners managing their own rental listing."
+      },
+      {
+        "type": "heading",
+        "text": "Properties We're Currently Evaluating in Gurugram"
+      },
+      {
+        "type": "paragraph",
+        "text": "2BHK to 4BHK apartments in established, well-maintained societies with reasonable proximity to Cyber City, Golf Course Road, or the MG Road corridor. If your property fits this profile and you're weighing your options, we'd be glad to walk through the specifics with you directly — no obligation, just an honest conversation about what managed leasing would look like for your particular apartment."
+      },
+      {
+        "type": "callout",
+        "text": "<b>Residences by Sandane Homes</b><br/>📞 <b>+91 97117 22273</b><br/>✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a><br/>🌐 Monetize your property at <a href='/partner-with-us'>sandanehomes.com/partner-with-us</a>"
+      }
+    ]
+  },
+  {
     "slug": "serviced-apartments-greater-noida-japanese-expats",
     "title": "Best Serviced Apartments in Greater Noida for Japanese Expats — Near Yamaha, Honda, Denso & Sekisui",
     "metaTitle": "Serviced Apartments Greater Noida for Japanese Expats | Sandane Homes",
