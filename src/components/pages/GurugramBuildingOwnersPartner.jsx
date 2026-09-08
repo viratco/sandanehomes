@@ -11,8 +11,8 @@ import {
 } from 'react-icons/fa';
 import './SandaneHomes.css';
 
-import heroImg from '../../assets/sandane-night-facade.jpg';
-import facadeImg from '../../assets/sandane-night-facade.jpg';
+import buildingHeroImg from '../../assets/building-partner-hero.jpg';
+import facadeImg from '../../assets/building-partner-hero.jpg';
 import interiorImg from '../../assets/abstract_luxury_interior.png';
 
 const GurugramBuildingOwnersPartner = () => {
