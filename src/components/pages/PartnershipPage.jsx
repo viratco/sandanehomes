@@ -5,9 +5,15 @@ import Footer from '../Footer';
 import {
   FaBuilding, FaHandshake, FaChartLine, FaShieldAlt, FaKey,
   FaCheckCircle, FaPercentage, FaTools, FaWhatsapp, FaArrowRight,
-  FaFileContract, FaRegSmile, FaCrown
+  FaFileContract, FaRegSmile, FaCrown, FaStar, FaQuoteLeft,
+  FaHome, FaBriefcase, FaUserCheck, FaCog, FaMoneyBillWave, FaHeadset
 } from 'react-icons/fa';
 import './SandaneHomes.css';
+
+import heroImg from '../../assets/residences_living_editorial.png';
+import facadeImg from '../../assets/sandane-night-facade.jpg';
+import interiorImg from '../../assets/abstract_luxury_interior.png';
+import livingImg from '../../assets/livingroom.jpeg';
 
 const PartnershipPage = () => {
   const [propertyType, setPropertyType] = useState('Full Building');
@@ -22,7 +28,7 @@ const PartnershipPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hi Sandane Homes Partner Team! I am interested in partnering with you to monetize my property.\n\n` +
+    const text = `Hi Sandane Homes Partner Team! I am interested in partnering to monetize my property.\n\n` +
       `*Name:* ${name}\n` +
       `*Phone:* ${phone}\n` +
       `*Email:* ${email}\n` +
@@ -49,7 +55,7 @@ const PartnershipPage = () => {
   };
 
   return (
-    <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#FAF8F5', minHeight: '100vh' }}>
+    <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#F4F0EB', minHeight: '100vh', overflowX: 'hidden' }}>
       <SEO
         title="Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes"
         description="Partner your apartments, flats, or entire residential buildings with Sandane Homes. High guaranteed monthly revenue, 100% property maintenance, and corporate MNC guest management in Greater Noida, Noida & Gurugram."
@@ -60,84 +66,129 @@ const PartnershipPage = () => {
 
       <Header showTopBar={false} />
 
-      {/* ── HERO BANNER ── */}
-      <section style={{
-        background: 'linear-gradient(135deg, #1C2D42 0%, #0F172A 60%, #1A3C34 100%)',
-        color: '#FFFFFF',
-        padding: '120px 20px 100px',
-        position: 'relative',
-        overflow: 'hidden',
-        textAlign: 'center'
-      }}>
-        {/* Subtle Decorative Backdrop Elements */}
-        <div style={{
-          position: 'absolute',
-          top: '-20%',
-          right: '-10%',
-          width: '500px',
-          height: '500px',
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(197,165,114,0.15) 0%, rgba(0,0,0,0) 70%)',
-          pointerEvents: 'none'
-        }} />
+      {/* ── EDITORIAL HERO SECTION ("Bel Sognatore" Sandane Signature Style) ── */}
+      <div className="editorial-container" style={{ paddingTop: '100px', paddingBottom: '60px' }}>
+        {/* Large Typography Background Watermark */}
+        <div className="editorial-title-bg">
+          <h1>Partner</h1>
+          <h1>Monetize</h1>
+        </div>
 
-        <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <span style={{
+        {/* Left Column (Hero Image + Overlapping Glass Card) */}
+        <div className="editorial-left-col">
+          <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}>
+            <img src={heroImg} alt="Luxury Managed Residence" className="residences-clickable-photo" style={{ width: '100%', height: '520px', objectFit: 'cover' }} />
+            <div style={{
+              position: 'absolute',
+              top: '20px',
+              left: '20px',
+              background: 'rgba(28, 45, 66, 0.85)',
+              backdropFilter: 'blur(8px)',
+              padding: '8px 18px',
+              borderRadius: '20px',
+              color: '#C5A572',
+              fontSize: '12px',
+              fontWeight: '700',
+              letterSpacing: '1px',
+              border: '1px solid rgba(197,165,114,0.3)',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}>
+              <FaCrown /> PROPERTY MONETIZATION PROGRAM
+            </div>
+          </div>
+          
+          <div className="editorial-left-text" style={{ marginTop: '-60px', position: 'relative', zIndex: 3 }}>
+            <div className="editorial-glass-card" style={{ background: 'rgba(255, 255, 255, 0.95)', border: '1px solid #E5DFD5', boxShadow: '0 15px 35px rgba(0,0,0,0.06)' }}>
+              <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', margin: 0 }}>
+                Transform your vacant or underperforming apartments into <i>high-yield corporate residences</i> leased exclusively to Japanese, Korean &amp; MNC executives.
+              </p>
+            </div>
+            
+            <p className="editorial-subtext" style={{ color: '#8B7355', fontWeight: '600', letterSpacing: '1px' }}>
+              \\ GUARANTEED LEASE • REVENUE SHARE • 100% MAINTENANCE
+            </p>
+          </div>
+        </div>
+
+        {/* Right Column (Hero Headings & Direct CTAs) */}
+        <div className="editorial-right-col" style={{ paddingLeft: '20px' }}>
+          <div style={{
             display: 'inline-flex',
             alignItems: 'center',
             gap: '8px',
-            background: 'rgba(197, 165, 114, 0.15)',
-            border: '1px solid #C5A572',
-            color: '#C5A572',
-            padding: '8px 20px',
-            borderRadius: '30px',
-            fontSize: '13px',
+            background: 'rgba(139, 115, 85, 0.1)',
+            border: '1px solid #8B7355',
+            color: '#8B7355',
+            padding: '6px 18px',
+            borderRadius: '20px',
+            fontSize: '12px',
             fontWeight: '700',
-            letterSpacing: '2px',
+            letterSpacing: '1.5px',
             textTransform: 'uppercase',
-            marginBottom: '24px'
+            marginBottom: '20px'
           }}>
-            <FaHandshake /> PROPERTY PARTNERSHIP PROGRAM
-          </span>
+            <FaHandshake /> FOR PROPERTY OWNERS &amp; BUILDING DEVELOPERS
+          </div>
 
-          <h1 style={{
+          <h2 style={{
             fontFamily: 'Playfair Display, serif',
-            fontSize: 'clamp(36px, 5vw, 56px)',
+            fontSize: 'clamp(34px, 4.5vw, 54px)',
             lineHeight: '1.15',
-            color: '#FFFFFF',
+            color: '#111111',
             marginBottom: '24px',
             fontWeight: '600'
           }}>
-            Unlock High Guaranteed Revenue for Your Apartments &amp; Buildings
-          </h1>
+            Unlock Maximum Yield for Your Apartments &amp; Buildings
+          </h2>
 
           <p style={{
-            fontSize: 'clamp(16px, 2vw, 20px)',
-            color: '#E0E6ED',
-            lineHeight: '1.7',
-            maxWidth: '750px',
-            margin: '0 auto 40px',
-            fontWeight: '300'
+            fontSize: '16px',
+            lineHeight: '1.8',
+            color: '#555555',
+            marginBottom: '32px',
+            fontFamily: 'Georgia, serif'
           }}>
-            Partner your standalone flats, gated apartments, or entire residential towers with <strong>Sandane Homes</strong>. We transform your asset into high-yield luxury corporate serviced residences leased by Japanese, Korean &amp; MNC executives across Greater Noida, Noida &amp; Gurugram.
+            Whether you own a single luxury flat, multiple society apartments, or an entire standalone residential building in <strong>Greater Noida, Noida, or Gurugram</strong> — Sandane Homes manages your asset with 5-star hospitality standards, paying you guaranteed predictable income without the hassle of traditional renting.
           </p>
 
-          <div style={{ display: 'flex', gap: '18px', justifyContent: 'center', flexWrap: 'wrap' }}>
+          {/* Quick Features List */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '14px', marginBottom: '36px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
+              <FaCheckCircle color="#8B7355" size={18} /> Guaranteed 1st-of-month Payouts
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
+              <FaCheckCircle color="#8B7355" size={18} /> Verified Japanese &amp; MNC Guests
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
+              <FaCheckCircle color="#8B7355" size={18} /> 100% Free Maintenance &amp; Care
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
+              <FaCheckCircle color="#8B7355" size={18} /> Zero Vacancy &amp; Default Risk
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <a
               href="#partner-form"
               style={{
-                backgroundColor: '#C5A572',
-                color: '#0F172A',
+                backgroundColor: '#1C2D42',
+                color: '#FFFFFF',
                 padding: '16px 36px',
                 borderRadius: '30px',
-                fontSize: '16px',
+                fontSize: '14px',
                 fontWeight: '700',
+                letterSpacing: '1px',
                 textDecoration: 'none',
-                boxShadow: '0 6px 25px rgba(197, 165, 114, 0.4)',
-                transition: 'all 0.3s ease'
+                boxShadow: '0 8px 25px rgba(28,45,66,0.25)',
+                transition: 'all 0.3s ease',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px'
               }}
             >
-              List Your Property Now &rarr;
+              MONETIZE PROPERTY <FaArrowRight size={13} />
             </a>
 
             <a
@@ -145,370 +196,450 @@ const PartnershipPage = () => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                backgroundColor: 'rgba(255,255,255,0.1)',
-                border: '1px solid rgba(255,255,255,0.3)',
+                backgroundColor: '#25D366',
                 color: '#FFFFFF',
-                padding: '16px 36px',
+                padding: '16px 30px',
                 borderRadius: '30px',
-                fontSize: '16px',
-                fontWeight: '600',
+                fontSize: '14px',
+                fontWeight: '700',
+                letterSpacing: '1px',
                 textDecoration: 'none',
-                backdropFilter: 'blur(10px)',
+                boxShadow: '0 8px 25px rgba(37,211,102,0.3)',
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: '10px'
               }}
             >
-              <FaWhatsapp color="#25D366" size={20} /> Speak with Partner Desk
+              <FaWhatsapp size={18} /> WHATSAPP PARTNER DESK
             </a>
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* ── KEY METRICS / STATS BAR ── */}
-      <section style={{
-        backgroundColor: '#FFFFFF',
-        borderBottom: '1px solid #EAE5DF',
-        padding: '30px 20px',
-        boxShadow: '0 4px 20px rgba(0,0,0,0.03)'
-      }}>
-        <div style={{
-          maxWidth: '1100px',
-          margin: '0 auto',
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-          gap: '24px',
-          textAlign: 'center'
-        }}>
-          <div>
-            <h3 style={{ fontSize: '32px', fontFamily: 'Playfair Display, serif', color: '#1A3C34', margin: 0 }}>100%</h3>
-            <p style={{ fontSize: '13px', color: '#666', textTransform: 'uppercase', letterSpacing: '1px', marginTop: '6px' }}>Guaranteed Rent &amp; Zero Default</p>
+      {/* ── KEY PERFORMANCE METRICS BAR ── */}
+      <section style={{ backgroundColor: '#FAF8F5', borderTop: '1px solid #E8E2D9', borderBottom: '1px solid #E8E2D9', padding: '50px 20px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '30px', textAlign: 'center' }}>
+          <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>100%</h3>
+            <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Guaranteed Lease &amp; Zero Default</p>
+            <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>Rent paid on the 1st of every month</span>
           </div>
-          <div>
-            <h3 style={{ fontSize: '32px', fontFamily: 'Playfair Display, serif', color: '#1A3C34', margin: 0 }}>30% – 50%</h3>
-            <p style={{ fontSize: '13px', color: '#666', textTransform: 'uppercase', letterSpacing: '1px', marginTop: '6px' }}>Higher Yield Than Regular Lease</p>
+
+          <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>30% – 50%</h3>
+            <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Higher Annual Yield</p>
+            <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>Compared to conventional long leases</span>
           </div>
-          <div>
-            <h3 style={{ fontSize: '32px', fontFamily: 'Playfair Display, serif', color: '#1A3C34', margin: 0 }}>Zero</h3>
-            <p style={{ fontSize: '13px', color: '#666', textTransform: 'uppercase', letterSpacing: '1px', marginTop: '6px' }}>Maintenance &amp; Tenant Hassles</p>
+
+          <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>ZERO</h3>
+            <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Maintenance &amp; Tenant Hassle</p>
+            <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>Free repairs, deep cleaning &amp; upkeep</span>
           </div>
-          <div>
-            <h3 style={{ fontSize: '32px', fontFamily: 'Playfair Display, serif', color: '#1A3C34', margin: 0 }}>Corporate</h3>
-            <p style={{ fontSize: '13px', color: '#666', textTransform: 'uppercase', letterSpacing: '1px', marginTop: '6px' }}>Japanese &amp; MNC Expat Guests</p>
+
+          <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>MNC</h3>
+            <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Japanese &amp; Korean Expats</p>
+            <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>High-grade executive corporate clients</span>
           </div>
         </div>
       </section>
 
-      {/* ── WHY PARTNER WITH US (PROPOSITION) ── */}
-      <section style={{ padding: '90px 20px', maxWidth: '1200px', margin: '0 auto' }}>
-        <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-          <span style={{ fontSize: '12px', color: '#C5A572', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: '700' }}>
-            Why Property Owners Choose Sandane
-          </span>
-          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#1C2D42', margin: '12px 0 16px' }}>
-            Turn Your Property Into a High-Yield Luxury Asset
-          </h2>
-          <p style={{ color: '#666', fontSize: '17px', maxWidth: '700px', margin: '0 auto', lineHeight: '1.7' }}>
-            Whether you own individual luxury apartments, multiple units in a society, or an entire standalone residential building, we handle design, furnishing, operations, and corporate tenanting.
-          </p>
-        </div>
-
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-          gap: '30px'
-        }}>
-          {/* Card 1 */}
-          <div style={{
-            backgroundColor: '#FFFFFF',
-            borderRadius: '16px',
-            padding: '40px 30px',
-            border: '1px solid #EAE5DF',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.04)',
-            transition: 'transform 0.3s ease'
-          }}>
-            <div style={{
-              width: '60px', height: '60px', borderRadius: '14px',
-              backgroundColor: 'rgba(26,60,52,0.08)', color: '#1A3C34',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: '26px', marginBottom: '24px'
-            }}>
-              <FaChartLine />
-            </div>
-            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#1C2D42', marginBottom: '14px' }}>
-              Guaranteed High Fixed Revenue or Revenue-Share
-            </h3>
-            <p style={{ color: '#555', fontSize: '15px', lineHeight: '1.7' }}>
-              Enjoy predictable, premium monthly income with guaranteed fixed rents or opt for our high-upside corporate revenue share model backed by long-stay Japanese expat contracts.
-            </p>
-          </div>
-
-          {/* Card 2 */}
-          <div style={{
-            backgroundColor: '#FFFFFF',
-            borderRadius: '16px',
-            padding: '40px 30px',
-            border: '1px solid #EAE5DF',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.04)',
-            transition: 'transform 0.3s ease'
-          }}>
-            <div style={{
-              width: '60px', height: '60px', borderRadius: '14px',
-              backgroundColor: 'rgba(197,165,114,0.15)', color: '#C5A572',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: '26px', marginBottom: '24px'
-            }}>
-              <FaCrown />
-            </div>
-            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#1C2D42', marginBottom: '14px' }}>
-              5-Star Upkeep &amp; Interior Transformation
-            </h3>
-            <p style={{ color: '#555', fontSize: '15px', lineHeight: '1.7' }}>
-              We upgrade and maintain your property to Japanese expat luxury standards. Daily professional housekeeping, preventive plumbing/electrical maintenance, and pristine care.
-            </p>
-          </div>
-
-          {/* Card 3 */}
-          <div style={{
-            backgroundColor: '#FFFFFF',
-            borderRadius: '16px',
-            padding: '40px 30px',
-            border: '1px solid #EAE5DF',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.04)',
-            transition: 'transform 0.3s ease'
-          }}>
-            <div style={{
-              width: '60px', height: '60px', borderRadius: '14px',
-              backgroundColor: 'rgba(26,60,52,0.08)', color: '#1A3C34',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: '26px', marginBottom: '24px'
-            }}>
-              <FaShieldAlt />
-            </div>
-            <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#1C2D42', marginBottom: '14px' }}>
-              Verified MNC Corporate Tenants Only
-            </h3>
-            <p style={{ color: '#555', fontSize: '15px', lineHeight: '1.7' }}>
-              No tenant dispute risks or wear-and-tear damage. Your property will host verified Japanese, Korean, and multinational enterprise directors, country heads, and auditors.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ── PROPERTY TYPES WE PARTNER WITH ── */}
-      <section style={{ backgroundColor: '#1C2D42', color: '#FFFFFF', padding: '90px 20px' }}>
-        <div style={{ maxWidth: '1100px', margin: '0 auto', textAlign: 'center' }}>
-          <span style={{ fontSize: '12px', color: '#C5A572', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: '700' }}>
-            Asset Portfolio
-          </span>
-          <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#FFFFFF', margin: '14px 0 20px' }}>
-            Properties We Are Looking For
-          </h2>
-          <p style={{ color: '#CBD5E1', fontSize: '16px', maxWidth: '650px', margin: '0 auto 50px', lineHeight: '1.7' }}>
-            We are actively expanding our portfolio across Greater Noida, Noida, Yamuna Expressway corridor, and Gurugram.
-          </p>
-
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-            gap: '24px',
-            textAlign: 'left'
-          }}>
-            <div style={{ backgroundColor: 'rgba(255,255,255,0.05)', padding: '32px 28px', borderRadius: '14px', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <FaBuilding size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h3 style={{ fontSize: '20px', color: '#FFF', fontFamily: 'Playfair Display, serif', marginBottom: '10px' }}>Entire Buildings &amp; Towers</h3>
-              <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.6' }}>
-                Standalone residential buildings, boutique guest house structures, or residential blocks (10 to 50+ flats). Master long-term leases with fixed returns.
-              </p>
-            </div>
-
-            <div style={{ backgroundColor: 'rgba(255,255,255,0.05)', padding: '32px 28px', borderRadius: '14px', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <FaKey size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h3 style={{ fontSize: '20px', color: '#FFF', fontFamily: 'Playfair Display, serif', marginBottom: '10px' }}>Gated Society Apartments</h3>
-              <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.6' }}>
-                Fully furnished or unfurnished 2BHK, 3BHK &amp; 4BHK apartments in premium societies (Ansal Golf Links, Jaypee Greens, DLF, Emaar, M3M, etc.).
-              </p>
-            </div>
-
-            <div style={{ backgroundColor: 'rgba(255,255,255,0.05)', padding: '32px 28px', borderRadius: '14px', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <FaCrown size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h3 style={{ fontSize: '20px', color: '#FFF', fontFamily: 'Playfair Display, serif', marginBottom: '10px' }}>Luxury Villas &amp; Penthouses</h3>
-              <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.6' }}>
-                High-end independent villas, duplexes, and penthouses suitable for CXOs, country heads, and foreign corporate delegations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── PARTNERSHIP FORM SECTION ── */}
-      <section id="partner-form" style={{ padding: '90px 20px', maxWidth: '850px', margin: '0 auto' }}>
-        <div style={{
-          backgroundColor: '#FFFFFF',
-          borderRadius: '20px',
-          padding: '50px 40px',
-          boxShadow: '0 15px 40px rgba(0,0,0,0.06)',
-          border: '1px solid #EAE5DF'
-        }}>
-          <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-            <span style={{ fontSize: '12px', color: '#C5A572', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: '800' }}>
-              Instant Property Evaluation
-            </span>
-            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '32px', color: '#1C2D42', margin: '10px 0 12px' }}>
-              Partner Your Property With Sandane Homes
+      {/* ── PARTNERSHIP MODELS SECTION (Dark Navy Contrast Luxury Section) ── */}
+      <section style={{ backgroundColor: '#1C2D42', color: '#FFFFFF', padding: '90px 20px', position: 'relative' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: '750px', margin: '0 auto 60px' }}>
+            <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>FLEXIBLE ENGAGEMENT MODELS</span>
+            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(28px, 4vw, 42px)', color: '#FFFFFF', marginTop: '10px', marginBottom: '16px' }}>
+              Choose How You Want to Monetize
             </h2>
-            <p style={{ color: '#666', fontSize: '15px' }}>
-              Fill in your property details below and our asset acquisition team will reach out within 2 hours with an estimated revenue proposal.
+            <p style={{ fontSize: '15px', color: '#C3D0DF', lineHeight: '1.7', fontFamily: 'Georgia, serif' }}>
+              We tailor our agreement to match your financial goals — whether you prefer steady guaranteed fixed income or shared revenue upside.
             </p>
           </div>
 
-          {formSubmitted ? (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px' }}>
+            {/* Model 1 */}
             <div style={{
-              textAlign: 'center',
-              padding: '40px 20px',
-              backgroundColor: '#F0FDF4',
-              border: '1px solid #BBF7D0',
-              borderRadius: '14px',
-              color: '#166534'
+              background: 'rgba(255, 255, 255, 0.05)',
+              border: '1px solid rgba(197, 165, 114, 0.3)',
+              borderRadius: '16px',
+              padding: '40px 30px',
+              backdropFilter: 'blur(10px)',
+              position: 'relative'
             }}>
-              <FaCheckCircle size={48} color="#22C55E" style={{ marginBottom: '16px' }} />
-              <h3 style={{ fontSize: '24px', fontFamily: 'Playfair Display, serif', marginBottom: '10px' }}>Thank You for Your Submission!</h3>
-              <p style={{ fontSize: '15px', color: '#15803D' }}>
-                We have opened WhatsApp to connect you directly with our Partner Acquisition Director.
+              <span style={{
+                position: 'absolute',
+                top: '-15px',
+                right: '30px',
+                background: '#C5A572',
+                color: '#0F172A',
+                padding: '4px 14px',
+                borderRadius: '12px',
+                fontSize: '11px',
+                fontWeight: '700',
+                letterSpacing: '1px'
+              }}>MOST POPULAR</span>
+
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <FaFileContract size={28} color="#C5A572" />
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#FFFFFF', margin: 0 }}>Guaranteed Fixed Lease</h3>
+              </div>
+
+              <p style={{ color: '#E0E6ED', fontSize: '14px', lineHeight: '1.7', marginBottom: '24px' }}>
+                Receive a <strong>fixed monthly lease payout</strong> deposited to your bank account every 1st of the month, regardless of occupancy status.
+              </p>
+
+              <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 30px 0' }}>
+                <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> 100% Fixed monthly income guaranteed
+                </li>
+                <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> Multi-year contract options (3 to 9 years)
+                </li>
+                <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> Sandane Homes bears 100% vacancy risk
+                </li>
+                <li style={{ padding: '8px 0', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> Complete operational &amp; repair coverage
+                </li>
+              </ul>
+
+              <a href="#partner-form" style={{
+                display: 'block',
+                textAlign: 'center',
+                backgroundColor: '#C5A572',
+                color: '#0F172A',
+                padding: '14px',
+                borderRadius: '30px',
+                fontWeight: '700',
+                fontSize: '13px',
+                letterSpacing: '1px',
+                textDecoration: 'none'
+              }}>SELECT FIXED LEASE MODEL</a>
+            </div>
+
+            {/* Model 2 */}
+            <div style={{
+              background: 'rgba(255, 255, 255, 0.05)',
+              border: '1px solid rgba(255, 255, 255, 0.15)',
+              borderRadius: '16px',
+              padding: '40px 30px',
+              backdropFilter: 'blur(10px)'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                <FaChartLine size={28} color="#C5A572" />
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#FFFFFF', margin: 0 }}>Revenue Sharing Partner</h3>
+              </div>
+
+              <p style={{ color: '#E0E6ED', fontSize: '14px', lineHeight: '1.7', marginBottom: '24px' }}>
+                Earn a high percentage share of monthly gross revenue generated from corporate expat stays, maximizing peak market yields.
+              </p>
+
+              <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 30px 0' }}>
+                <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> Higher upside earnings (30% to 50% extra yield)
+                </li>
+                <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> Monthly transparent financial statement
+                </li>
+                <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> Full hospitality management &amp; corporate booking desk
+                </li>
+                <li style={{ padding: '8px 0', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                  <FaCheckCircle color="#C5A572" /> 5-Star housekeeping &amp; maintenance included
+                </li>
+              </ul>
+
+              <a href="#partner-form" style={{
+                display: 'block',
+                textAlign: 'center',
+                backgroundColor: 'rgba(255,255,255,0.1)',
+                border: '1px solid rgba(255,255,255,0.3)',
+                color: '#FFFFFF',
+                padding: '14px',
+                borderRadius: '30px',
+                fontWeight: '700',
+                fontSize: '13px',
+                letterSpacing: '1px',
+                textDecoration: 'none'
+              }}>SELECT REVENUE SHARE MODEL</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── ASSETS PORTFOLIO WE MONETIZE ── */}
+      <section style={{ padding: '90px 20px', backgroundColor: '#F4F0EB' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: '750px', margin: '0 auto 50px' }}>
+            <span style={{ color: '#8B7355', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>TARGET PROPERTIES</span>
+            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(28px, 4vw, 42px)', color: '#111111', marginTop: '10px' }}>
+              Properties We Are Currently Acquiring
+            </h2>
+            <p style={{ fontSize: '15px', color: '#555555', fontFamily: 'Georgia, serif' }}>
+              We partner across key commercial hubs in Greater Noida (Ansal Golf Links, Jaypee Greens, Godrej Golf Link), Noida Expressway &amp; Gurugram.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px' }}>
+            {/* Card 1 */}
+            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)' }}>
+              <img src={facadeImg} alt="Full Building Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
+              <div style={{ padding: '26px' }}>
+                <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>HIGH YIELD PORTFOLIO</span>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Full Residential Towers &amp; Blocks</h3>
+                <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
+                  Entire standalone apartment buildings or builder floors (10 to 50+ units). We convert the entire asset into a branded Sandane Homes serviced residence.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)' }}>
+              <img src={livingImg} alt="Society Flat Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
+              <div style={{ padding: '26px' }}>
+                <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>GATED SOCIETIES</span>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>2BHK, 3BHK &amp; 4BHK Apartments</h3>
+                <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
+                  Individual or multiple flats inside high-end gated societies (Jaypee Greens, Ansal Golf Links, Godrej, ATS, Central Park, DLF).
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)' }}>
+              <img src={interiorImg} alt="Luxury Villa Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
+              <div style={{ padding: '26px' }}>
+                <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>PREMIUM ASSETS</span>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Luxury Villas &amp; Executive Suites</h3>
+                <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6' }}>
+                  High-end luxury villas and penthouses leased to CXOs, country managers, and senior Japanese / Korean expatriate directors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── OWNER BENEFITS GRID ── */}
+      <section style={{ backgroundColor: '#FAF8F5', borderTop: '1px solid #E8E2D9', borderBottom: '1px solid #E8E2D9', padding: '90px 20px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 50px' }}>
+            <span style={{ color: '#8B7355', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>WHY PARTNER WITH US</span>
+            <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(28px, 4vw, 42px)', color: '#111111', marginTop: '10px' }}>
+              Total Peace of Mind for Property Owners
+            </h2>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px' }}>
+            <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
+              <FaHome size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Daily Professional Housekeeping</h4>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Your property is deep cleaned daily with 5-star linen care, keeping it in showroom condition at all times.</p>
+            </div>
+
+            <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
+              <FaUserCheck size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Verified Corporate MNC Tenants</h4>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>No unvetted walk-in guests. Stays are arranged directly for Japanese &amp; Korean engineers and MNC executives.</p>
+            </div>
+
+            <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
+              <FaCog size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>100% Free Maintenance &amp; Repairs</h4>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Plumbing, electrical, appliance servicing, and minor repairs are handled entirely by Sandane Homes at no cost to you.</p>
+            </div>
+
+            <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
+              <FaMoneyBillWave size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Guaranteed Monthly Payouts</h4>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Never chase rent again. Direct bank transfers delivered on the 1st of every month without fail.</p>
+            </div>
+
+            <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
+              <FaShieldAlt size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Zero Wear &amp; Tear Protection</h4>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>We maintain your asset to the highest luxury hospitality standard, returning your property in immaculate condition.</p>
+            </div>
+
+            <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
+              <FaHeadset size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Dedicated Account Manager</h4>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>You get a direct dedicated relationship manager for instant updates, agreement renewals, and financial reports.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── INTERACTIVE EVALUATION & INQUIRY FORM ── */}
+      <section id="partner-form" style={{ padding: '90px 20px', backgroundColor: '#F4F0EB' }}>
+        <div style={{ maxWidth: '850px', margin: '0 auto' }}>
+          <div style={{
+            backgroundColor: '#FFFFFF',
+            borderRadius: '20px',
+            padding: ' clamp(30px, 5vw, 60px)',
+            boxShadow: '0 15px 45px rgba(0,0,0,0.06)',
+            border: '1px solid #E4DDD3'
+          }}>
+            <div style={{ textAlign: 'center', marginBottom: '36px' }}>
+              <span style={{ color: '#8B7355', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>GET A FREE PROPERTY EVALUATION</span>
+              <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#111111', marginTop: '8px', marginBottom: '12px' }}>
+                Monetize Your Property With Sandane Homes
+              </h2>
+              <p style={{ fontSize: '14px', color: '#666', fontFamily: 'Georgia, serif' }}>
+                Fill in your property details below. Our partner acquisition desk will analyze your asset and present a guaranteed revenue proposal within 24 hours.
               </p>
             </div>
-          ) : (
-            <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '20px' }}>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
-                <div>
-                  <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Your Name *</label>
+
+            {formSubmitted ? (
+              <div style={{
+                textAlign: 'center',
+                padding: '40px 20px',
+                background: 'rgba(37, 211, 102, 0.08)',
+                border: '1px solid #25D366',
+                borderRadius: '14px'
+              }}>
+                <FaCheckCircle size={48} color="#25D366" style={{ marginBottom: '16px' }} />
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#111', margin: '0 0 10px 0' }}>Thank You! Request Sent</h3>
+                <p style={{ fontSize: '14px', color: '#555', margin: 0 }}>
+                  We have forwarded your property details to our WhatsApp partner desk. We will reach out to you shortly!
+                </p>
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
+                  <div>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Your Name *</label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="e.g. Rajesh Sharma"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Phone / WhatsApp *</label>
+                    <input
+                      type="tel"
+                      required
+                      placeholder="e.g. +91 98765 43210"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
+                    />
+                  </div>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
+                  <div>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Email Address</label>
+                    <input
+                      type="email"
+                      placeholder="e.g. rajesh@example.com"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>City Location *</label>
+                    <select
+                      value={city}
+                      onChange={(e) => setCity(e.target.value)}
+                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
+                    >
+                      <option value="Greater Noida">Greater Noida</option>
+                      <option value="Noida">Noida / Noida Expressway</option>
+                      <option value="Gurugram">Gurugram (Golf Course / Cyber City)</option>
+                      <option value="Yamuna Expressway">Yamuna Expressway / YEIDA</option>
+                      <option value="Delhi NCR">Other Delhi NCR</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
+                  <div>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Property Category *</label>
+                    <select
+                      value={propertyType}
+                      onChange={(e) => setPropertyType(e.target.value)}
+                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
+                    >
+                      <option value="Full Building">Entire Residential Building / Tower</option>
+                      <option value="Gated Society Flat">Gated Society Apartment (2/3/4 BHK)</option>
+                      <option value="Luxury Villa">Luxury Villa / Independent House</option>
+                      <option value="Multiple Units">Multiple Flats (3+ Units)</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Units Count / Config</label>
+                    <select
+                      value={unitsCount}
+                      onChange={(e) => setUnitsCount(e.target.value)}
+                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
+                    >
+                      <option value="1 Unit (2BHK/3BHK)">1 Apartment (2BHK / 3BHK)</option>
+                      <option value="2-5 Units">2 – 5 Apartments</option>
+                      <option value="6-15 Units">6 – 15 Apartments</option>
+                      <option value="Full Building (15+ Units)">Full Tower / Building (15+ Units)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div style={{ marginBottom: '20px' }}>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Society Name / Specific Locality</label>
                   <input
                     type="text"
-                    required
-                    placeholder="John Doe"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    style={{
-                      width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none'
-                    }}
-                  />
-                </div>
-
-                <div>
-                  <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Mobile / WhatsApp Number *</label>
-                  <input
-                    type="tel"
-                    required
-                    placeholder="+91 98765 43210"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    style={{
-                      width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none'
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
-                <div>
-                  <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Email Address</label>
-                  <input
-                    type="email"
-                    placeholder="john@example.com"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    style={{
-                      width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none'
-                    }}
-                  />
-                </div>
-
-                <div>
-                  <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Property Location (City) *</label>
-                  <select
-                    value={city}
-                    onChange={(e) => setCity(e.target.value)}
-                    style={{
-                      width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none', backgroundColor: '#FFF'
-                    }}
-                  >
-                    <option value="Greater Noida">Greater Noida</option>
-                    <option value="Noida">Noida</option>
-                    <option value="Yamuna Expressway / YEIDA">Yamuna Expressway / YEIDA</option>
-                    <option value="Gurugram">Gurugram</option>
-                    <option value="Delhi NCR">Delhi NCR</option>
-                  </select>
-                </div>
-              </div>
-
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
-                <div>
-                  <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Property Type *</label>
-                  <select
-                    value={propertyType}
-                    onChange={(e) => setPropertyType(e.target.value)}
-                    style={{
-                      width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none', backgroundColor: '#FFF'
-                    }}
-                  >
-                    <option value="Full Building / Tower">Full Standalone Building / Tower</option>
-                    <option value="Multiple Flats in Society">Multiple Flats in Gated Society</option>
-                    <option value="Single Luxury Apartment">Single Luxury Apartment (2/3/4 BHK)</option>
-                    <option value="Independent Villa">Independent Villa / Penthouse</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Locality / Society Name *</label>
-                  <input
-                    type="text"
-                    required
-                    placeholder="e.g. Ansal Golf Links, Jaypee Greens, DLF Phase 5"
+                    placeholder="e.g. Jaypee Greens / Ansal Golf Link-1 / Golf Course Road Sector 54"
                     value={locality}
                     onChange={(e) => setLocality(e.target.value)}
-                    style={{
-                      width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none'
-                    }}
+                    style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
                   />
                 </div>
-              </div>
 
-              <div>
-                <label style={{ fontSize: '13px', fontWeight: '600', color: '#334155', display: 'block', marginBottom: '8px' }}>Additional Property Details</label>
-                <textarea
-                  rows="3"
-                  placeholder="Tell us about total area, furnishing status, floor number, expected rent, etc."
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                <div style={{ marginBottom: '30px' }}>
+                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Additional Details / Notes</label>
+                  <textarea
+                    rows={3}
+                    placeholder="Furnishing state, current rental status, or preferred payout structure..."
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5', resize: 'vertical' }}
+                  />
+                </div>
+
+                <button
+                  type="submit"
                   style={{
-                    width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #CBD5E1', fontSize: '15px', outline: 'none', resize: 'vertical'
+                    width: '100%',
+                    backgroundColor: '#1C2D42',
+                    color: '#FFFFFF',
+                    padding: '18px',
+                    borderRadius: '30px',
+                    fontSize: '15px',
+                    fontWeight: '700',
+                    letterSpacing: '1.5px',
+                    border: 'none',
+                    cursor: 'pointer',
+                    boxShadow: '0 10px 30px rgba(28,45,66,0.3)',
+                    transition: 'all 0.3s ease',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '10px'
                   }}
-                />
-              </div>
-
-              <button
-                type="submit"
-                style={{
-                  width: '100%',
-                  padding: '18px',
-                  backgroundColor: '#1A3C34',
-                  color: '#FFFFFF',
-                  border: 'none',
-                  borderRadius: '10px',
-                  fontSize: '16px',
-                  fontWeight: '700',
-                  cursor: 'pointer',
-                  boxShadow: '0 6px 20px rgba(26,60,52,0.2)',
-                  transition: 'all 0.3s ease',
-                  marginTop: '10px'
-                }}
-                onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#C5A572'}
-                onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#1A3C34'}
-              >
-                Submit Property for Partner Evaluation &rarr;
-              </button>
-            </form>
-          )}
+                >
+                  <FaWhatsapp size={20} color="#25D366" /> SUBMIT &amp; CONNECT VIA WHATSAPP
+                </button>
+              </form>
+            )}
+          </div>
         </div>
       </section>
 
