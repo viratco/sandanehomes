@@ -152,7 +152,7 @@ const GurugramBuildingOwnersPartner = () => {
               marginBottom: '32px',
               fontWeight: '400'
             }}>
-              Stop managing dozens of individual renters. <strong>Sandane Homes</strong> master-leases your entire residential tower or builder block (10 to 50+ units) under a single master lease contract — delivering guaranteed 1st-of-month payouts for 3 to 9 years with zero vacancy risk.
+              Stop dealing with unvetted individual occupants. <strong>Sandane Homes</strong> master-leases your entire residential tower or builder block (10 to 50+ units) under a single master lease contract — delivering guaranteed 1st-of-month revenue payouts for 3 to 9 years with zero vacancy risk.
             </p>
 
             {/* Quick Corporate Value Bullet Grid */}
@@ -297,20 +297,20 @@ const GurugramBuildingOwnersPartner = () => {
           <div style={{ backgroundColor: '#1E293B', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.08)', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}>
             <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '20px 24px', backgroundColor: '#162032', borderBottom: '1px solid rgba(255,255,255,0.1)', fontWeight: '700', fontSize: '14px', letterSpacing: '1px' }}>
               <div style={{ color: '#94A3B8' }}>FEATURE / METRIC</div>
-              <div style={{ color: '#EF4444' }}>TRADITIONAL RENTING</div>
+              <div style={{ color: '#EF4444' }}>TRADITIONAL LEASING</div>
               <div style={{ color: '#C5A572' }}>SANDANE MASTER LEASE</div>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
               <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Tenant Contracts</div>
-              <div style={{ color: '#94A3B8' }}>30+ individual renters to manage</div>
+              <div style={{ color: '#94A3B8' }}>30+ individual occupants to manage</div>
               <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> 1 Master Lease Contract</div>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
-              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Monthly Rent Payout</div>
+              <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Monthly Revenue Payout</div>
               <div style={{ color: '#94A3B8' }}>Multiple payment delays &amp; follow-ups</div>
-              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> Guaranteed on the 1st</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> Guaranteed Revenue on the 1st</div>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>

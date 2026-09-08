@@ -274,7 +274,7 @@ const PartnershipPage = () => {
           <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
             <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>100%</h3>
             <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Guaranteed Lease &amp; Zero Default</p>
-            <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>Rent paid on the 1st of every month</span>
+            <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>Revenue paid on the 1st of every month</span>
           </div>
 
           <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
@@ -548,7 +548,7 @@ const PartnershipPage = () => {
             <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
               <FaMoneyBillWave size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
               <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Guaranteed Monthly Payouts</h4>
-              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Never chase rent again. Direct bank transfers delivered on the 1st of every month without fail.</p>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Never chase revenue again. Direct bank transfers delivered on the 1st of every month without fail.</p>
             </div>
 
             <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>

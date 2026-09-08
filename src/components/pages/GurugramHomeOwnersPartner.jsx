@@ -42,8 +42,8 @@ const GurugramHomeOwnersPartner = () => {
 
   const faqs = [
     {
-      q: "Why should Gurugram apartment owners choose managed leasing over traditional renting?",
-      a: "Traditional renting in Gurugram carries 1-2 months of annual vacancy losses, late payments, tenant damage, and constant repair calls. Sandane Homes pays guaranteed rent on the 1st of every month, handles 100% of maintenance and housekeeping, and leases exclusively to MNC expat executives."
+      q: "Why should Gurugram apartment owners choose managed leasing over traditional models?",
+      a: "Traditional leasing in Gurugram carries 1-2 months of annual vacancy losses, late payments, tenant damage, and constant repair calls. Sandane Homes pays guaranteed revenue on the 1st of every month, handles 100% of maintenance and housekeeping, and leases exclusively to MNC expat executives."
     },
     {
       q: "Which Gurugram societies and sectors do you acquire apartments in?",
@@ -65,7 +65,7 @@ const GurugramHomeOwnersPartner = () => {
       "@type": "Service",
       "name": "Gurugram Home Owner Property Management & Monetization — Sandane Homes",
       "provider": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" },
-      "description": "Monetize your Gurugram apartment or flat with Sandane Homes. Guaranteed fixed monthly rent, 100% free maintenance, and verified corporate MNC expat tenants.",
+      "description": "Monetize your Gurugram apartment or flat with Sandane Homes. Guaranteed fixed monthly revenue, 100% free maintenance, and verified corporate MNC expat tenants.",
       "areaServed": "Gurugram, Haryana, India"
     },
     {
@@ -83,7 +83,7 @@ const GurugramHomeOwnersPartner = () => {
     <div style={{ backgroundColor: '#0F172A', color: '#F8FAFC', minHeight: '100vh', fontFamily: "'Inter', system-ui, sans-serif" }}>
       <SEO
         title="Gurugram Home Owners Partnership | Monetize Your Apartment — Sandane Homes"
-        description="Gurugram apartment & flat owners: earn guaranteed monthly rent or high profit-sharing with zero hassle. Sandane Homes manages your flat as a premium corporate expat residence."
+        description="Gurugram apartment & flat owners: earn guaranteed monthly revenue or high profit-sharing with zero hassle. Sandane Homes manages your flat as a premium corporate expat residence."
         canonical="https://www.sandanehomes.com/partner/gurugram-home-owners"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={pageSchema}
@@ -127,16 +127,16 @@ const GurugramHomeOwnersPartner = () => {
               marginBottom: '24px',
               fontWeight: '600'
             }}>
-              Earn Guaranteed Monthly Rent From Your Gurugram Apartment
+              Earn Guaranteed Monthly Revenue From Your Gurugram Apartment
             </h1>
 
             <p style={{ fontSize: '17px', lineHeight: '1.7', color: '#94A3B8', marginBottom: '32px' }}>
-              No more late payments, tenant damage, or vacancy gaps. <strong>Sandane Homes</strong> master-leases your 2BHK, 3BHK, or 4BHK apartment in Golf Course Road, Cyber City, or DLF phases — paying guaranteed 1st-of-month rent with 100% free housekeeping and maintenance.
+              No more late payments, tenant damage, or vacancy gaps. <strong>Sandane Homes</strong> master-leases your 2BHK, 3BHK, or 4BHK apartment in Golf Course Road, Cyber City, or DLF phases — paying guaranteed 1st-of-month revenue with 100% free housekeeping and maintenance.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginBottom: '40px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
-                <FaCheckCircle color="#C5A572" size={18} /> Guaranteed Rent Paid on the 1st
+                <FaCheckCircle color="#C5A572" size={18} /> Guaranteed Revenue Paid on the 1st
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
                 <FaCheckCircle color="#C5A572" size={18} /> Verified Japanese &amp; MNC Expats
