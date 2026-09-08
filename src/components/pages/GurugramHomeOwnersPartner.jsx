@@ -172,26 +172,42 @@ const GurugramHomeOwnersPartner = () => {
         </div>
       </section>
 
-      {/* Target Sectors */}
-      <section style={{ backgroundColor: '#1E293B', padding: '70px 20px', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', textAlign: 'center' }}>
-          <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>PRIME LOCATIONS</span>
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: '32px', color: '#FFF', marginTop: '10px', marginBottom: '35px' }}>
-            Gurugram Sectors We Are Currently Acquiring Flats In
-          </h2>
+      {/* ── ABOUT SANDANE HOMES SECTION ── */}
+      <section style={{ padding: '90px 20px', backgroundColor: '#0F172A', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 60px' }}>
+            <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>ABOUT SANDANE HOMES</span>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(28px, 4vw, 42px)', color: '#FFFFFF', marginTop: '10px', marginBottom: '16px' }}>
+              The Premier Corporate Expat Hospitality Group
+            </h2>
+            <p style={{ color: '#94A3B8', fontSize: '16px', lineHeight: '1.8' }}>
+              Sandane Homes is a premier corporate housing and boutique hotel hospitality brand operating across Delhi NCR. We bridge the gap between high-value residential property owners and multinational corporate tenants seeking luxury, turnkey accommodation.
+            </p>
+          </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px', textAlign: 'left' }}>
-            <div style={{ background: '#0F172A', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '18px', color: '#C5A572', margin: '0 0 8px 0' }}>Golf Course Road</h4>
-              <p style={{ fontSize: '13px', color: '#94A3B8', margin: 0 }}>DLF Phase 5, Aralias, Magnolias, Pinnacle, Horizon Center corridor.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px' }}>
+            <div style={{ background: '#1E293B', padding: '32px', borderRadius: '16px', border: '1px solid rgba(197,165,114,0.2)' }}>
+              <FaCrown size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
+              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>Boutique Hotel Portfolio</h3>
+              <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.7', margin: 0 }}>
+                We own and operate flagship luxury boutique hotels including <strong>CoCo House</strong>, <strong>Amaaltash by Sandane Homes</strong>, <strong>The Glam by Sandane Homes</strong>, and <strong>Amara Inn by Sandane Homes</strong>, giving us deep operational hospitality expertise.
+              </p>
             </div>
-            <div style={{ background: '#0F172A', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '18px', color: '#C5A572', margin: '0 0 8px 0' }}>Cyber City &amp; DLF Phase 1-3</h4>
-              <p style={{ fontSize: '13px', color: '#94A3B8', margin: 0 }}>Cyber Hub proximity, Sushant Lok, MG Road executive apartments.</p>
+
+            <div style={{ background: '#1E293B', padding: '32px', borderRadius: '16px', border: '1px solid rgba(197,165,114,0.2)' }}>
+              <FaBriefcase size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
+              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>100+ MNC Expat Network</h3>
+              <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.7', margin: 0 }}>
+                Our corporate housing desk manages housing deployments for Japanese, Korean &amp; Western executives from global giants including Yamaha, Honda, Denso, Sekisui, Samsung, LG, Mobase, and the Hyundai supply chain.
+              </p>
             </div>
-            <div style={{ background: '#0F172A', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '18px', color: '#C5A572', margin: '0 0 8px 0' }}>Golf Course Extension &amp; Sohna Rd</h4>
-              <p style={{ fontSize: '13px', color: '#94A3B8', margin: 0 }}>Sectors 56, 57, 65, 66 gated societies &amp; luxury penthouses.</p>
+
+            <div style={{ background: '#1E293B', padding: '32px', borderRadius: '16px', border: '1px solid rgba(197,165,114,0.2)' }}>
+              <FaShieldAlt size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
+              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>5-Star Asset Preservation</h3>
+              <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.7', margin: 0 }}>
+                We treat every managed flat like a 5-star hotel unit. Daily housekeeping, 24/7 maintenance teams, and strict corporate background checks ensure zero wear-and-tear and continuous capital appreciation for your property.
+              </p>
             </div>
           </div>
         </div>
