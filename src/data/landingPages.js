@@ -1010,7 +1010,7 @@ export const landingPages = [
         "location": "Golf Course Road, Sector 54, Gurgaon",
         "access": "10 mins walk to Sector 53-54 Metro Station",
         "buildingAge": "15 Years",
-        "clubhouse": "₹38,000 / Year",
+        "clubhouse": "available on corporate request (B2B tariff) / Year",
         "servicesIncluded": "Maintenance, Reserved Parking, Daily Housekeeping, Periodic Preventive Maintenance, 24/7 Security",
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
@@ -1020,8 +1020,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹245,000",
-                "maintenance": "₹32,000 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Ready to Move"
             },
             {
@@ -1030,8 +1030,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹245,000",
-                "maintenance": "₹32,000 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Ready to Move"
             },
             {
@@ -1040,8 +1040,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹245,000",
-                "maintenance": "₹32,000 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Ready to Move"
             },
             {
@@ -1050,8 +1050,8 @@ export const landingPages = [
                 "bhk": "4BHK",
                 "area": "2,700 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹290,000",
-                "maintenance": "₹32,000 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1060,8 +1060,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹245,000",
-                "maintenance": "₹32,000 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Ready to Move"
             }
         ],
@@ -1167,8 +1167,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,595 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹285,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Ready to Move"
             },
             {
@@ -1177,8 +1177,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,595 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹250,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Ready to Move"
             },
             {
@@ -1187,8 +1187,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,295 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹250,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1197,8 +1197,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹250,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1207,8 +1207,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹250,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1217,8 +1217,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹250,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1227,8 +1227,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹250,000",
-                "maintenance": "₹22,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -1323,7 +1323,7 @@ export const landingPages = [
         "location": "Sector 58, Gurgaon (Close to Golf Course Ext Road)",
         "access": "Direct access to Golf Course Extension Road & Sector 55-56 Metro",
         "buildingAge": "Established Luxury Society",
-        "clubhouse": "₹2,600 / Monthly",
+        "clubhouse": "available on corporate request (B2B tariff) / Monthly",
         "servicesIncluded": "Maintenance, Reserved Parking, Daily Housekeeping, Periodic Maintenance, 24/7 Security",
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
@@ -1333,8 +1333,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,561 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹180,000",
-                "maintenance": "₹14,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Ready to Move"
             }
         ],
@@ -1382,7 +1382,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rental for Sandane Homes at Grand Arch?",
-                "answer": "Our fully furnished 2BHK unit at The Grand Arch is available at ₹180,000/month with full hotel-grade services."
+                "answer": "Our fully furnished 2BHK unit at The Grand Arch is available at available on corporate request (B2B tariff) with full hotel-grade services."
             },
             {
                 "question": "Is housekeeping included at The Grand Arch?",
@@ -1426,8 +1426,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹195,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1436,8 +1436,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹195,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Ready to Move"
             },
             {
@@ -1446,8 +1446,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹195,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1456,8 +1456,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹195,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1466,8 +1466,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,588 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹235,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1476,8 +1476,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,588 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹235,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1486,8 +1486,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹195,000",
-                "maintenance": "₹20,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -1539,7 +1539,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What are the rental rates for Emaar Digi Homes through Sandane Homes?",
-                "answer": "2BHK smart homes start at ₹195,000/month, and expansive 3BHK residences start at ₹235,000/month."
+                "answer": "2BHK smart homes start at available on corporate request (B2B tariff), and expansive 3BHK residences start at available on corporate request (B2B tariff)."
             },
             {
                 "question": "Are the homes at Emaar Digi Homes voice-enabled?",
@@ -1583,8 +1583,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,561 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹190,000",
-                "maintenance": "₹16,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1593,8 +1593,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,040 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹215,000",
-                "maintenance": "₹16,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1603,8 +1603,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,358 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹190,000",
-                "maintenance": "₹16,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1613,8 +1613,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,040 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹215,000",
-                "maintenance": "₹16,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1623,8 +1623,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "2,040 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹215,000",
-                "maintenance": "₹16,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             },
             {
@@ -1633,8 +1633,8 @@ export const landingPages = [
                 "bhk": "2BHK",
                 "area": "1,261 sq.ft.",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹190,000",
-                "maintenance": "₹16,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -1686,7 +1686,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the starting rent for M3M Heights through Sandane Homes?",
-                "answer": "2BHK units start at ₹190,000/month and 3BHK units start at ₹215,000/month."
+                "answer": "2BHK units start at available on corporate request (B2B tariff) and 3BHK units start at available on corporate request (B2B tariff)."
             },
             {
                 "question": "Is M3M Heights connected to retail stores?",
@@ -1720,7 +1720,7 @@ export const landingPages = [
         "location": "Sector 65, Gurgaon (5 mins to Golf Course Ext Road)",
         "access": "5 mins to Golf Course Ext Road corridor",
         "buildingAge": "8 Years / Flagship Luxury Resort",
-        "clubhouse": "₹57,000 Quarterly Resort Clubhouse Access",
+        "clubhouse": "available on corporate request (B2B tariff) Quarterly Resort Clubhouse Access",
         "servicesIncluded": "Maintenance, Reserved Parking, Daily Housekeeping, Periodic Maintenance, Golf Concierge",
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
@@ -1730,8 +1730,8 @@ export const landingPages = [
                 "bhk": "3BHK + Study",
                 "area": "3,235 sq.ft.",
                 "furnishing": "Fully Furnished Luxury Decor",
-                "monthlyRent": "₹270,000",
-                "maintenance": "₹60,000 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Ready to Move"
             }
         ],
@@ -1788,7 +1788,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the floor area and rent for M3M Golfestate with Sandane Homes?",
-                "answer": "Our unit (T9-906b) offers 3,235 sq.ft. of ultra-luxury 3BHK+Study living at ₹270,000/month."
+                "answer": "Our unit (T9-906b) offers 3,235 sq.ft. of ultra-luxury 3BHK+Study living at available on corporate request (B2B tariff)."
             },
             {
                 "question": "Does this apartment overlook the golf course?",
@@ -1832,8 +1832,8 @@ export const landingPages = [
                 "bhk": "4BHK",
                 "area": "2,230 sq.ft.",
                 "furnishing": "Fully Furnished",
-                "monthlyRent": "₹245,000",
-                "maintenance": "₹6,500 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Ready to Move"
             }
         ],
@@ -1929,8 +1929,8 @@ export const landingPages = [
                 "bhk": "4BHK",
                 "area": "300 sq.yd. (~2,700 sq.ft.)",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹245,000",
-                "maintenance": "₹6,500 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -1978,7 +1978,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for Sushant Lok Block A through Sandane Homes?",
-                "answer": "Our 4BHK (300 sq.yd.) residence is available at ₹245,000/month including housekeeping and management."
+                "answer": "Our 4BHK (300 sq.yd.) residence is available at available on corporate request (B2B tariff) including housekeeping and management."
             }
         ],
         "related": [
@@ -2018,8 +2018,8 @@ export const landingPages = [
                 "bhk": "4BHK",
                 "area": "300 sq.yd. (~2,700 sq.ft.)",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹260,000",
-                "maintenance": "₹6,500 Quarterly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Quarterly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -2067,7 +2067,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for Sushant Lok Block B through Sandane Homes?",
-                "answer": "Our 4BHK unit at Sushant Lok Block B is available at ₹260,000/month."
+                "answer": "Our 4BHK unit at Sushant Lok Block B is available at available on corporate request (B2B tariff)."
             }
         ],
         "related": [
@@ -2107,8 +2107,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "360 sq.yd. (~3,200 sq.ft.)",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹260,000",
-                "maintenance": "₹7,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -2156,7 +2156,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for DLF Phase 4 through Sandane Homes?",
-                "answer": "Our 360 sq.yd. 3BHK floor (Unit 5107) is available at ₹260,000/month."
+                "answer": "Our 360 sq.yd. 3BHK floor (Unit 5107) is available at available on corporate request (B2B tariff)."
             }
         ],
         "related": [
@@ -2196,8 +2196,8 @@ export const landingPages = [
                 "bhk": "3BHK",
                 "area": "270 sq.yd. (~2,400 sq.ft.)",
                 "furnishing": "Turnkey Furnished by Sandane",
-                "monthlyRent": "₹230,000",
-                "maintenance": "₹7,000 Monthly",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "available on corporate request (B2B tariff) Monthly",
                 "status": "Furnished by Sandane"
             }
         ],
@@ -2245,7 +2245,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for Green Avenue through Sandane Homes?",
-                "answer": "Our 3BHK residence at Green Avenue is available at ₹230,000/month."
+                "answer": "Our 3BHK residence at Green Avenue is available at available on corporate request (B2B tariff)."
             }
         ],
         "related": [
