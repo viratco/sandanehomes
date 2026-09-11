@@ -1015,7 +1015,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Tower A-83",
+                "tower": "Tower A",
                 "floor": "8th Floor",
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
@@ -1025,7 +1025,7 @@ export const landingPages = [
                 "status": "Ready to Move"
             },
             {
-                "tower": "Tower D-43",
+                "tower": "Tower D",
                 "floor": "4th Floor",
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
@@ -1035,7 +1035,7 @@ export const landingPages = [
                 "status": "Ready to Move"
             },
             {
-                "tower": "Tower C-21",
+                "tower": "Tower C",
                 "floor": "2nd Floor",
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
@@ -1045,7 +1045,7 @@ export const landingPages = [
                 "status": "Ready to Move"
             },
             {
-                "tower": "Tower N-73",
+                "tower": "Tower N",
                 "floor": "7th Floor",
                 "bhk": "4BHK",
                 "area": "2,700 sq.ft.",
@@ -1055,7 +1055,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower G-144",
+                "tower": "Tower G",
                 "floor": "14th Floor",
                 "bhk": "3BHK",
                 "area": "1,983 sq.ft.",
@@ -1162,7 +1162,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Tower A-3003",
+                "tower": "Tower A",
                 "floor": "30th Floor",
                 "bhk": "3BHK",
                 "area": "2,595 sq.ft.",
@@ -1172,7 +1172,7 @@ export const landingPages = [
                 "status": "Ready to Move"
             },
             {
-                "tower": "Tower E-302",
+                "tower": "Tower E",
                 "floor": "3rd Floor",
                 "bhk": "3BHK",
                 "area": "2,595 sq.ft.",
@@ -1182,7 +1182,7 @@ export const landingPages = [
                 "status": "Ready to Move"
             },
             {
-                "tower": "Tower X-2701",
+                "tower": "Tower X",
                 "floor": "27th Floor",
                 "bhk": "3BHK",
                 "area": "2,295 sq.ft.",
@@ -1192,7 +1192,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower B-701",
+                "tower": "Tower B",
                 "floor": "7th Floor",
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
@@ -1202,7 +1202,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower E-1401",
+                "tower": "Tower E",
                 "floor": "14th Floor",
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
@@ -1212,7 +1212,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower D-3204",
+                "tower": "Tower D",
                 "floor": "32nd Floor",
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
@@ -1222,7 +1222,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower B-301",
+                "tower": "Tower B",
                 "floor": "3rd Floor",
                 "bhk": "3BHK",
                 "area": "2,095 sq.ft.",
@@ -1328,7 +1328,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Tower XX",
+                "tower": "Luxury Tower",
                 "floor": "2nd Floor",
                 "bhk": "2BHK",
                 "area": "1,561 sq.ft.",
@@ -1421,7 +1421,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Tower C-1901",
+                "tower": "Tower C",
                 "floor": "19th Floor",
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
@@ -1431,7 +1431,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower C-1902",
+                "tower": "Tower C",
                 "floor": "19th Floor",
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
@@ -1441,7 +1441,7 @@ export const landingPages = [
                 "status": "Ready to Move"
             },
             {
-                "tower": "Tower C-1002",
+                "tower": "Tower C",
                 "floor": "10th Floor",
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
@@ -1451,7 +1451,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower C-2903",
+                "tower": "Tower C",
                 "floor": "29th Floor",
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
@@ -1461,7 +1461,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower A-1502",
+                "tower": "Tower A",
                 "floor": "15th Floor",
                 "bhk": "3BHK",
                 "area": "2,588 sq.ft.",
@@ -1471,7 +1471,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower A-1201",
+                "tower": "Tower A",
                 "floor": "12th Floor",
                 "bhk": "3BHK",
                 "area": "2,588 sq.ft.",
@@ -1481,7 +1481,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower B-1703",
+                "tower": "Tower B",
                 "floor": "17th Floor",
                 "bhk": "2BHK",
                 "area": "1,508 sq.ft.",
@@ -1578,7 +1578,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Tower T-6",
+                "tower": "Tower T",
                 "floor": "6th Floor",
                 "bhk": "2BHK",
                 "area": "1,561 sq.ft.",
@@ -1588,7 +1588,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower T5-1704",
+                "tower": "Tower T5",
                 "floor": "17th Floor",
                 "bhk": "3BHK",
                 "area": "2,040 sq.ft.",
@@ -1598,7 +1598,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower T5-602",
+                "tower": "Tower T5",
                 "floor": "6th Floor",
                 "bhk": "2BHK",
                 "area": "1,358 sq.ft.",
@@ -1608,7 +1608,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower T4-4203",
+                "tower": "Tower T4",
                 "floor": "42nd Floor (Penthouse Level)",
                 "bhk": "3BHK",
                 "area": "2,040 sq.ft.",
@@ -1618,7 +1618,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower T3-704",
+                "tower": "Tower T3",
                 "floor": "7th Floor",
                 "bhk": "3BHK",
                 "area": "2,040 sq.ft.",
@@ -1628,7 +1628,7 @@ export const landingPages = [
                 "status": "Furnished by Sandane"
             },
             {
-                "tower": "Tower T1-1008",
+                "tower": "Tower T1",
                 "floor": "10th Floor",
                 "bhk": "2BHK",
                 "area": "1,261 sq.ft.",
@@ -1725,7 +1725,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Tower T9-906b",
+                "tower": "Tower T9",
                 "floor": "9th Floor",
                 "bhk": "3BHK + Study",
                 "area": "3,235 sq.ft.",
@@ -1827,7 +1827,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Floor Unit 6822",
+                "tower": "Independent Builder Floor",
                 "floor": "2nd Floor",
                 "bhk": "4BHK",
                 "area": "2,230 sq.ft.",
@@ -1924,7 +1924,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Floor Unit A-877B",
+                "tower": "Independent Builder Floor",
                 "floor": "1st Floor",
                 "bhk": "4BHK",
                 "area": "300 sq.yd. (~2,700 sq.ft.)",
@@ -2013,7 +2013,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Floor Unit B-782",
+                "tower": "Independent Builder Floor",
                 "floor": "1st Floor",
                 "bhk": "4BHK",
                 "area": "300 sq.yd. (~2,700 sq.ft.)",
@@ -2102,7 +2102,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Floor Unit 5107",
+                "tower": "Independent Builder Floor",
                 "floor": "4th Floor",
                 "bhk": "3BHK",
                 "area": "360 sq.yd. (~3,200 sq.ft.)",
@@ -2191,7 +2191,7 @@ export const landingPages = [
         "depositTerms": "2 Months Security Deposit | 1 Month Advance",
         "availableUnits": [
             {
-                "tower": "Floor Unit 5917",
+                "tower": "Independent Builder Floor",
                 "floor": "1st Floor",
                 "bhk": "3BHK",
                 "area": "270 sq.yd. (~2,400 sq.ft.)",

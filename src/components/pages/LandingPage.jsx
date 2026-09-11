@@ -241,9 +241,12 @@ const LandingPage = ({ slug: propSlug }) => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {page.availableUnits.map((u, i) => (
+                                    {page.availableUnits.map((u, i) => {
+                                        // Strip exact unit numbers (e.g., 'Tower A-83' -> 'Tower A', 'Floor Unit 6822' -> 'Floor Unit')
+                                        const cleanTower = u.tower ? u.tower.replace(/-\d+[A-Za-z]?|\s+\d+[A-Za-z]?/g, '') : 'Luxury Suite';
+                                        return (
                                         <tr key={i} style={{ backgroundColor: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
-                                            <td style={{ padding: '16px 20px', fontWeight: '600', color: '#FFFFFF' }}>{u.tower}</td>
+                                            <td style={{ padding: '16px 20px', fontWeight: '600', color: '#FFFFFF' }}>{cleanTower}</td>
                                             <td style={{ padding: '16px 20px', color: '#94A3B8' }}>{u.floor}</td>
                                             <td style={{ padding: '16px 20px', color: '#C5A572', fontWeight: '700' }}>{u.bhk}</td>
                                             <td style={{ padding: '16px 20px', color: '#CBD5E1' }}>{u.area}</td>
@@ -251,7 +254,7 @@ const LandingPage = ({ slug: propSlug }) => {
                                             <td style={{ padding: '16px 20px', fontWeight: '700', color: '#22C55E' }}>{u.monthlyRent}</td>
                                             <td style={{ padding: '16px 20px' }}>
                                                 <a
-                                                    href={`https://wa.me/919711722273?text=Hi%20Sandane%20Homes%2C%20I%20am%20interested%20in%20${encodeURIComponent(page.h1)}%20-%20${encodeURIComponent(u.tower)}%20(${encodeURIComponent(u.bhk)})`}
+                                                    href={`https://wa.me/919711722273?text=Hi%20Sandane%20Homes%2C%20I%20am%20interested%20in%20${encodeURIComponent(page.h1)}%20-%20${encodeURIComponent(cleanTower)}%20(${encodeURIComponent(u.bhk)})`}
                                                     target="_blank" rel="noopener noreferrer"
                                                     style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', backgroundColor: '#C5A572', color: '#0F172A', padding: '8px 16px', borderRadius: '20px', textDecoration: 'none', fontWeight: '700', fontSize: '12px' }}
                                                 >
@@ -259,7 +262,8 @@ const LandingPage = ({ slug: propSlug }) => {
                                                 </a>
                                             </td>
                                         </tr>
-                                    ))}
+                                    );
+                                    })}
                                 </tbody>
                             </table>
                         </div>
