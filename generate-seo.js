@@ -342,6 +342,7 @@ blogPosts.forEach((post) => {
 landingPages.forEach((page) => {
   const schemas = [];
   
+  const isGurgaon = page.location && (page.location.includes('Gurgaon') || page.location.includes('Gurugram'));
   // Standard Apartment Complex Schema
   schemas.push({
     "@context": "https://schema.org",
@@ -352,8 +353,8 @@ landingPages.forEach((page) => {
     "telephone": "+919711722273",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Greater Noida",
-      "addressRegion": "Uttar Pradesh",
+      "addressLocality": isGurgaon ? "Gurugram" : "Greater Noida",
+      "addressRegion": isGurgaon ? "Haryana" : "Uttar Pradesh",
       "addressCountry": "IN"
     }
   });

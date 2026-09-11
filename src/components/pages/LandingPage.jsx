@@ -21,9 +21,29 @@ import imgCorporateAcc from '../../assets/IMG_4019.JPG';
 import imgRelocation from '../../assets/IMG_6108.jpg';
 import imgEngineers from '../../assets/IMG_6234.jpg';
 import imgVilla from '../../assets/glam_main.jpg';
+import imgBuildingHero from '../../assets/building-partner-hero.jpg';
+import imgLivingRoom from '../../assets/livingroom.jpeg';
 
 const getHeroImage = (slug) => {
     switch (slug) {
+        case 'dlf-park-place-sector-54-gurgaon':
+            return imgLivingRoom;
+        case 'elevate-hines-sector-58-gurgaon':
+            return imgBuildingHero;
+        case 'the-grand-arch-sector-58-gurgaon':
+            return imgVilla;
+        case 'emaar-digi-homes-sector-62-gurgaon':
+            return imgBuildingHero;
+        case 'm3m-heights-sector-65-gurgaon':
+            return imgLivingRoom;
+        case 'm3m-golfestate-sector-65-gurgaon':
+            return imgJaypee;
+        case 'green-meadows-sector-27-gurgaon':
+        case 'sushant-lok-block-a-sector-27-gurgaon':
+        case 'sushant-lok-block-b-sector-27-gurgaon':
+        case 'dlf-phase-4-sector-27-gurgaon':
+        case 'green-avenue-sector-27-gurgaon':
+            return imgFurnished;
         case 'serviced-apartments-ansal-golf-links':
             return imgAnsal;
         case 'serviced-apartments-godrej-golf-link':
@@ -158,14 +178,101 @@ const LandingPage = ({ slug: propSlug }) => {
                 </div>
             </div>
 
+            {/* Property Overview & Specifications Badge */}
+            {page.propertyType && (
+                <div style={{ backgroundColor: '#FAF8F5', padding: '30px 10%', borderTop: '1px solid #eee', borderBottom: '1px solid #eee' }}>
+                    <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '20px', textAlign: 'center' }}>
+                        <div style={{ padding: '15px', backgroundColor: 'white', borderRadius: '10px', boxShadow: '0 2px 10px rgba(0,0,0,0.02)' }}>
+                            <span style={{ fontSize: '12px', textTransform: 'uppercase', color: '#8B7355', fontWeight: 'bold', display: 'block' }}>Property Type</span>
+                            <strong style={{ fontSize: '15px', color: '#1A3C34', marginTop: '4px', display: 'block' }}>{page.propertyType}</strong>
+                        </div>
+                        <div style={{ padding: '15px', backgroundColor: 'white', borderRadius: '10px', boxShadow: '0 2px 10px rgba(0,0,0,0.02)' }}>
+                            <span style={{ fontSize: '12px', textTransform: 'uppercase', color: '#8B7355', fontWeight: 'bold', display: 'block' }}>Location</span>
+                            <strong style={{ fontSize: '15px', color: '#1A3C34', marginTop: '4px', display: 'block' }}>{page.location}</strong>
+                        </div>
+                        <div style={{ padding: '15px', backgroundColor: 'white', borderRadius: '10px', boxShadow: '0 2px 10px rgba(0,0,0,0.02)' }}>
+                            <span style={{ fontSize: '12px', textTransform: 'uppercase', color: '#8B7355', fontWeight: 'bold', display: 'block' }}>Transit Access</span>
+                            <strong style={{ fontSize: '15px', color: '#1A3C34', marginTop: '4px', display: 'block' }}>{page.access}</strong>
+                        </div>
+                        <div style={{ padding: '15px', backgroundColor: 'white', borderRadius: '10px', boxShadow: '0 2px 10px rgba(0,0,0,0.02)' }}>
+                            <span style={{ fontSize: '12px', textTransform: 'uppercase', color: '#8B7355', fontWeight: 'bold', display: 'block' }}>Managed By</span>
+                            <strong style={{ fontSize: '15px', color: '#C5A572', marginTop: '4px', display: 'block' }}>Sandane Homes</strong>
+                        </div>
+                    </div>
+                </div>
+            )}
+
             {/* Introduction Section */}
-            <div style={{ padding: '80px 10%', backgroundColor: '#ffffff', borderTop: '1px solid #eee' }}>
+            <div style={{ padding: '70px 10%', backgroundColor: '#ffffff', borderTop: '1px solid #eee' }}>
                 <div style={{ maxWidth: '900px', margin: '0 auto' }}>
                     <p style={{ fontSize: '17px', lineHeight: '1.85', color: '#444', fontFamily: 'Montserrat, sans-serif' }}>
                         {page.intro}
                     </p>
                 </div>
             </div>
+
+            {/* Verified Units & Pricing Inventory Table */}
+            {page.availableUnits && page.availableUnits.length > 0 && (
+                <div style={{ padding: '70px 8%', backgroundColor: '#0F172A', color: 'white' }}>
+                    <div style={{ maxWidth: '1150px', margin: '0 auto' }}>
+                        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+                            <span style={{ color: '#C5A572', fontSize: '13px', letterSpacing: '2px', fontWeight: 'bold', textTransform: 'uppercase' }}>
+                                Verified Real Estate Portfolio
+                            </span>
+                            <h2 style={{ fontSize: '32px', fontFamily: 'Playfair Display, serif', color: '#FFFFFF', marginTop: '10px', marginBottom: '10px' }}>
+                                Available Serviced Units & Specifications
+                            </h2>
+                            <p style={{ color: '#94A3B8', fontSize: '15px', maxWidth: '680px', margin: '0 auto' }}>
+                                Fully managed by Sandane Homes. All units include periodic maintenance, housekeeping, parking, and corporate mobility support.
+                            </p>
+                        </div>
+
+                        <div style={{ overflowX: 'auto', borderRadius: '12px', border: '1px solid rgba(197,165,114,0.25)', boxShadow: '0 10px 30px rgba(0,0,0,0.4)' }}>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontFamily: 'Montserrat, sans-serif', fontSize: '14px' }}>
+                                <thead>
+                                    <tr style={{ backgroundColor: '#1E293B', color: '#C5A572', borderBottom: '2px solid rgba(197,165,114,0.3)' }}>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Tower / Unit</th>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Floor</th>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Config</th>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Area</th>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Furnishing</th>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Monthly Rent</th>
+                                        <th style={{ padding: '16px 20px', fontWeight: '700' }}>Inquiry</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {page.availableUnits.map((u, i) => (
+                                        <tr key={i} style={{ backgroundColor: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+                                            <td style={{ padding: '16px 20px', fontWeight: '600', color: '#FFFFFF' }}>{u.tower}</td>
+                                            <td style={{ padding: '16px 20px', color: '#94A3B8' }}>{u.floor}</td>
+                                            <td style={{ padding: '16px 20px', color: '#C5A572', fontWeight: '700' }}>{u.bhk}</td>
+                                            <td style={{ padding: '16px 20px', color: '#CBD5E1' }}>{u.area}</td>
+                                            <td style={{ padding: '16px 20px', color: '#94A3B8' }}>{u.furnishing}</td>
+                                            <td style={{ padding: '16px 20px', fontWeight: '700', color: '#22C55E' }}>{u.monthlyRent}</td>
+                                            <td style={{ padding: '16px 20px' }}>
+                                                <a
+                                                    href={`https://wa.me/919711722273?text=Hi%20Sandane%20Homes%2C%20I%20am%20interested%20in%20${encodeURIComponent(page.h1)}%20-%20${encodeURIComponent(u.tower)}%20(${encodeURIComponent(u.bhk)})`}
+                                                    target="_blank" rel="noopener noreferrer"
+                                                    style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', backgroundColor: '#C5A572', color: '#0F172A', padding: '8px 16px', borderRadius: '20px', textDecoration: 'none', fontWeight: '700', fontSize: '12px' }}
+                                                >
+                                                    <FaWhatsapp size={14} /> Book
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        {page.servicesIncluded && (
+                            <div style={{ marginTop: '25px', padding: '18px 24px', backgroundColor: '#1E293B', borderRadius: '10px', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: '15px', fontSize: '13px', color: '#94A3B8' }}>
+                                <div><strong style={{ color: '#C5A572' }}>Services Included:</strong> {page.servicesIncluded}</div>
+                                <div><strong style={{ color: '#C5A572' }}>Security Deposit:</strong> {page.depositTerms || "2 Months Security + 1 Month Advance"}</div>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
 
             {/* Why Choose Section */}
             {page.whyChooseItems && (

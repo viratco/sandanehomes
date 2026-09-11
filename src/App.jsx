@@ -73,6 +73,19 @@ function App() {
           <Route path="/accommodation-visiting-engineers-noida" element={<LandingPage slug="accommodation-visiting-engineers-noida" />} />
           <Route path="/luxury-villa-rental-greater-noida" element={<LandingPage slug="luxury-villa-rental-greater-noida" />} />
           <Route path="/serviced-apartments-jaypee-greens" element={<LandingPage slug="serviced-apartments-jaypee-greens" />} />
+
+          {/* Gurugram Verified Portfolio Property Pages */}
+          <Route path="/dlf-park-place-sector-54-gurgaon" element={<LandingPage slug="dlf-park-place-sector-54-gurgaon" />} />
+          <Route path="/elevate-hines-sector-58-gurgaon" element={<LandingPage slug="elevate-hines-sector-58-gurgaon" />} />
+          <Route path="/the-grand-arch-sector-58-gurgaon" element={<LandingPage slug="the-grand-arch-sector-58-gurgaon" />} />
+          <Route path="/emaar-digi-homes-sector-62-gurgaon" element={<LandingPage slug="emaar-digi-homes-sector-62-gurgaon" />} />
+          <Route path="/m3m-heights-sector-65-gurgaon" element={<LandingPage slug="m3m-heights-sector-65-gurgaon" />} />
+          <Route path="/m3m-golfestate-sector-65-gurgaon" element={<LandingPage slug="m3m-golfestate-sector-65-gurgaon" />} />
+          <Route path="/green-meadows-sector-27-gurgaon" element={<LandingPage slug="green-meadows-sector-27-gurgaon" />} />
+          <Route path="/sushant-lok-block-a-sector-27-gurgaon" element={<LandingPage slug="sushant-lok-block-a-sector-27-gurgaon" />} />
+          <Route path="/sushant-lok-block-b-sector-27-gurgaon" element={<LandingPage slug="sushant-lok-block-b-sector-27-gurgaon" />} />
+          <Route path="/dlf-phase-4-sector-27-gurgaon" element={<LandingPage slug="dlf-phase-4-sector-27-gurgaon" />} />
+          <Route path="/green-avenue-sector-27-gurgaon" element={<LandingPage slug="green-avenue-sector-27-gurgaon" />} />
         </Routes>
         <WhatsAppButton />
       </div>
