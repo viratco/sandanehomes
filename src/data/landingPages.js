@@ -1382,7 +1382,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rental for Sandane Homes at Grand Arch?",
-                "answer": "Our fully furnished 2BHK unit at The Grand Arch is available at available on corporate request (B2B tariff) with full hotel-grade services."
+                "answer": "Our fully furnished 2BHK unit at The Grand Arch is available on corporate request (B2B tariff) with full hotel-grade services."
             },
             {
                 "question": "Is housekeeping included at The Grand Arch?",
@@ -1817,7 +1817,7 @@ export const landingPages = [
         "canonical": "https://www.sandanehomes.com/green-meadows-sector-27-gurgaon",
         "h1": "Green Meadows, Sector 27, Gurgaon",
         "subtitle": "Expansive 4BHK Luxury Serviced Builder Floor (2,230 sq.ft.) Near HUDA City Centre Metro",
-        "intro": "Green Meadows in Sector 27 is an exclusive, tranquil residential enclave in the heart of Gurugram. Located walking distance to HUDA City Centre (Millennium City Centre) Metro Station, Sector 27 provides quick transit to DLF Cyber City, MG Road, and Fortis Memorial Research Institute. Residences by Sandane Homes operates a fully furnished, standalone 4BHK luxury builder floor (Unit 6822, 2nd Floor, 2,230 sq.ft.) featuring private lift access, spacious living salons, daily housekeeping, and full corporate servicing.",
+        "intro": "Green Meadows in Sector 27 is an exclusive, tranquil residential enclave in the heart of Gurugram. Located walking distance to HUDA City Centre (Millennium City Centre) Metro Station, Sector 27 provides quick transit to DLF Cyber City, MG Road, and Fortis Memorial Research Institute. Residences by Sandane Homes operates a fully furnished, standalone 4BHK luxury builder floor (2nd Floor, 2,230 sq.ft.) featuring private lift access, spacious living salons, daily housekeeping, and full corporate servicing.",
         "propertyType": "Independent Luxury Builder Floor",
         "location": "Sector 27, Gurgaon (Close to Huda City Centre Metro)",
         "access": "Walking distance to Huda City Centre (Millennium City Centre) Metro",
@@ -1978,7 +1978,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for Sushant Lok Block A through Sandane Homes?",
-                "answer": "Our 4BHK (300 sq.yd.) residence is available at available on corporate request (B2B tariff) including housekeeping and management."
+                "answer": "Our 4BHK (300 sq.yd.) residence is available on corporate request (B2B tariff) including housekeeping and management."
             }
         ],
         "related": [
@@ -2067,7 +2067,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for Sushant Lok Block B through Sandane Homes?",
-                "answer": "Our 4BHK unit at Sushant Lok Block B is available at available on corporate request (B2B tariff)."
+                "answer": "Our 4BHK unit at Sushant Lok Block B is available on corporate request (B2B tariff)."
             }
         ],
         "related": [
@@ -2092,7 +2092,7 @@ export const landingPages = [
         "canonical": "https://www.sandanehomes.com/dlf-phase-4-sector-27-gurgaon",
         "h1": "DLF Phase 4, Sector 27, Gurgaon",
         "subtitle": "Expansive 3BHK Luxury Serviced Builder Floor (360 sq.yd.) by Sandane Homes",
-        "intro": "DLF Phase 4 in Sector 27 is universally recognized as one of the most elite, high-demand residential sectors in Gurugram. Home to the iconic Galleria Market, Supermart, and top international schools, DLF Phase 4 combines tree-canopied avenues with world-class retail and metro connectivity. Residences by Sandane Homes operates a sprawling 3BHK luxury serviced builder floor (Unit 5107, 4th Floor, 360 sq.yd.) featuring soaring views, high ceilings, custom furnishings, daily housekeeping, and 24/7 concierge support.",
+        "intro": "DLF Phase 4 in Sector 27 is universally recognized as one of the most elite, high-demand residential sectors in Gurugram. Home to the iconic Galleria Market, Supermart, and top international schools, DLF Phase 4 combines tree-canopied avenues with world-class retail and metro connectivity. Residences by Sandane Homes operates a sprawling 3BHK luxury serviced builder floor (4th Floor, 360 sq.yd.) featuring soaring views, high ceilings, custom furnishings, daily housekeeping, and 24/7 concierge support.",
         "propertyType": "Luxury Independent Builder Floor",
         "location": "Sector 27 / DLF Phase 4, Gurgaon",
         "access": "Close to Huda City Centre Metro Station & Galleria Market",
@@ -2156,7 +2156,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for DLF Phase 4 through Sandane Homes?",
-                "answer": "Our 360 sq.yd. 3BHK floor (Unit 5107) is available at available on corporate request (B2B tariff)."
+                "answer": "Our 360 sq.yd. 3BHK floor is available on corporate request (B2B tariff)."
             }
         ],
         "related": [
@@ -2181,7 +2181,7 @@ export const landingPages = [
         "canonical": "https://www.sandanehomes.com/green-avenue-sector-27-gurgaon",
         "h1": "Green Avenue, Sector 27, Gurgaon",
         "subtitle": "Charming 3BHK Serviced Builder Floor (270 sq.yd.) by Sandane Homes — Near Metro",
-        "intro": "Green Avenue in Sector 27 is a peaceful, gated enclave located moments from HUDA City Centre Metro Station and DLF Phase 4. Ideal for corporate assignees and expat professionals looking for an independent floor with dedicated service and zero community congestion. Residences by Sandane Homes manages a premium 3BHK serviced builder floor (Unit 5917, 1st Floor, 270 sq.yd.) featuring bright interiors, full kitchen amenities, daily housekeeping, and seamless corporate leasing.",
+        "intro": "Green Avenue in Sector 27 is a peaceful, gated enclave located moments from HUDA City Centre Metro Station and DLF Phase 4. Ideal for corporate assignees and expat professionals looking for an independent floor with dedicated service and zero community congestion. Residences by Sandane Homes manages a premium 3BHK serviced builder floor (1st Floor, 270 sq.yd.) featuring bright interiors, full kitchen amenities, daily housekeeping, and seamless corporate leasing.",
         "propertyType": "Luxury Independent Builder Floor",
         "location": "Sector 27, Gurgaon (Close to Huda City Centre Metro)",
         "access": "Close to Huda City Centre Metro Station",
@@ -2245,7 +2245,7 @@ export const landingPages = [
         "faqs": [
             {
                 "question": "What is the monthly rent for Green Avenue through Sandane Homes?",
-                "answer": "Our 3BHK residence at Green Avenue is available at available on corporate request (B2B tariff)."
+                "answer": "Our 3BHK residence at Green Avenue is available on corporate request (B2B tariff)."
             }
         ],
         "related": [
