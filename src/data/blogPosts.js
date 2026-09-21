@@ -1,5 +1,342 @@
 export const blogPosts = [
   {
+    "slug": "cost-of-managing-gurgaon-rental-yourself",
+    "title": "What It Actually Costs to Manage Your Gurgaon Rental Yourself",
+    "metaTitle": "What It Really Costs to Manage a Gurgaon Rental Yourself",
+    "metaDescription": "Vacancy, chasing rent, repairs, tenant damage. The real annual cost of self-managing a Gurgaon flat is higher than most owners calculate. Here's the honest maths.",
+    "subtitle": "The hidden costs of vacancy, chasing rent, tenant damage, and lost time for Gurgaon flat owners.",
+    "category": "Gurgaon Landlord Guide",
+    "date": "September 20, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Advisory Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Vacancy, chasing rent, repairs, and tenant damage. The real annual cost of self-managing a Gurgaon flat is higher than most owners calculate. Here is the honest breakdown.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Most Gurgaon owners calculate rental income the same way: monthly rent multiplied by twelve. That's the number they quote when someone asks how the flat is doing. It's almost never what they actually earn when figuring out <a href='/partner/gurugram-home-owners'>how to rent out my flat in Gurgaon</a>."
+      },
+      {
+        "type": "heading",
+        "text": "The Four Costs Nobody Puts in the Spreadsheet"
+      },
+      {
+        "type": "subheading",
+        "text": "1. Vacancy Between Tenants"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a tenant leaves, the average Gurgaon flat sits empty while you find the next one. Listing, showing, negotiating, waiting for them to give notice at their current place. One month is optimistic. Two is common. During that time you're still paying society maintenance, still paying for the flat to exist, and earning nothing. If that happens once a year, you've lost roughly 8 to 16 percent of your annual income before anything else goes wrong."
+      },
+      {
+        "type": "subheading",
+        "text": "2. Your Own Time"
+      },
+      {
+        "type": "paragraph",
+        "text": "Fielding calls from brokers. Showing the flat on a Sunday. Verifying whether a prospective tenant is who they say they are. Drafting the agreement. Following up on the registration. Then, through the tenancy, the calls about the geyser, the RO, the society NOC, the parking sticker. None of this appears as a cost on a spreadsheet, but all of it is one."
+      },
+      {
+        "type": "subheading",
+        "text": "3. Damage That Outlasts the Deposit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two months' deposit covers minor wear. It does not cover a damaged modular kitchen, a ruined wooden floor, or a bathroom that needs redoing. Owners frequently discover the real condition of their flat only at move-out, when the tenant is already gone and negotiating leverage is zero."
+      },
+      {
+        "type": "subheading",
+        "text": "4. Rent That Arrives Late, or Doesn't"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chasing payment is the part owners hate most. It also has a second cost: by the time you decide a tenant is genuinely a problem, you've usually absorbed two or three months of unpaid rent and face a slow, expensive process to do anything about it."
+      },
+      {
+        "type": "heading",
+        "text": "Why This Hits Gurgaon Owners Harder Than Most"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gurgaon's rental market moves fast in the premium segment and slowly in the wrong micro-market. A well-positioned flat in DLF Phase 3 or on Golf Course Road can rent quickly. The same size flat slightly off the main corridor, or in a society with weaker maintenance, can sit for months. Owners who don't live in Gurgaon, or who bought as an investment rather than to live in, usually find out which category their flat falls into the hard way."
+      },
+      {
+        "type": "heading",
+        "text": "The Honest Alternative, and Its Honest Trade-Off"
+      },
+      {
+        "type": "paragraph",
+        "text": "Managed leasing means a company takes the property over entirely. They source the tenant, handle every maintenance issue, manage the relationship, and pay the owner a set monthly amount."
+      },
+      {
+        "type": "paragraph",
+        "text": "The trade-off is real and worth stating plainly: the headline monthly figure under management is usually lower than the best rent you could theoretically achieve on the open market. What you get in exchange is the removal of everything above: no vacancy gap, no tenant sourcing, no 11pm calls, no chasing, and no discovering damage at move-out because someone is inspecting the property continuously rather than once every eleven months."
+      },
+      {
+        "type": "paragraph",
+        "text": "For owners who value the absence of hassle, or who simply aren't in a position to manage actively, that trade usually works out better across a full year than the theoretical maximum rent does. For owners who enjoy hands-on management, live nearby, and have the time, traditional renting may still suit them better. That's a genuine answer, not a sales one."
+      },
+      {
+        "type": "heading",
+        "text": "Who We Are"
+      },
+      {
+        "type": "paragraph",
+        "text": "<b><a href='/residences'>Residences by Sandane Homes</a></b> operates fully managed residences across Gurugram, Greater Noida and Noida. We hold 490+ verified guest reviews at a 4.9 rating across our group, and our tenant base is corporate and expat professionals on company assignments, including clients such as Daikin and UK-based relocation agencies. We're not a broker. We don't introduce you to a tenant and disappear. We operate the property."
+      },
+      {
+        "type": "callout",
+        "text": "Thinking about your options for a Gurgaon flat? If your property is vacant, underperforming, or taking more attention than you'd like, explore our <a href='/blog/nri-property-management-gurgaon'>NRI property management Gurgaon guide</a> and <a href='/blog/questions-property-management-company-gurgaon'>what to ask a property management company</a>, or reach out to us directly:<br/><br/>📞 +91 97117 22273 &nbsp;|&nbsp; ✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a> &nbsp;|&nbsp; 🌐 <a href='/residences'>Explore Residences by Sandane Homes</a>"
+      }
+    ]
+  },
+  {
+    "slug": "nri-property-management-gurgaon",
+    "title": "Managing a Gurgaon Property From Abroad: A Practical Guide for NRI Owners",
+    "metaTitle": "NRI Guide: Managing Your Gurgaon Property From Abroad",
+    "metaDescription": "Owning a Gurgaon flat from overseas is difficult and easy to get wrong. A practical guide to managing Indian property remotely without relying on people you can't verify.",
+    "subtitle": "How overseas flat owners solve remote maintenance, tenant selection, and payment delays in Gurgaon.",
+    "category": "NRI Landlord Guide",
+    "date": "September 20, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes NRI Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Owning a Gurgaon flat from overseas is difficult and easy to get wrong. A practical guide to managing Indian property remotely for NRI property management in Gurgaon.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "You bought the flat in Gurgaon for good reasons. The market was strong, the rupee made it sensible, and owning property in India mattered to you. Then you went back to Dubai, or London, or New Jersey. And the flat became a problem you manage over WhatsApp at inconvenient hours when seeking <a href='/partner/gurugram-home-owners'>NRI property management in Gurgaon</a>."
+      },
+      {
+        "type": "heading",
+        "text": "What Actually Goes Wrong for Remote Owners"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>You cannot verify anything yourself:</b> A broker tells you the flat needs painting. Does it? A tenant says the AC is broken. Is it? A society claims dues are outstanding. Are they? Every piece of information reaches you through someone whose interests may not match yours, and you have no way to check.",
+          "<b>Distance turns small problems into large ones:</b> A leak reported on Tuesday gets looked at next week because nobody is pushing. By the time it's fixed, it has damaged more than it needed to.",
+          "<b>Tenant selection happens without you:</b> Someone else decides who lives in your property, usually optimising for speed of closing rather than quality of tenant.",
+          "<b>Vacancy is invisible until you check the bank account:</b> Nobody proactively tells an overseas owner the flat has been empty for six weeks."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This is not a small segment of the market. NRI buyers accounted for a very substantial share of Gurgaon's premium property purchases in recent years, and a large proportion of those flats are held as investments by people who are not in the country."
+      },
+      {
+        "type": "heading",
+        "text": "The Three Options, Honestly Assessed"
+      },
+      {
+        "type": "paragraph",
+        "text": "<b>Option 1: A family member manages it.</b> Works when it works. Creates strain when it doesn't. Family members are unpaid, untrained, and reasonably resentful of being your property manager. They also can't be held to a professional standard."
+      },
+      {
+        "type": "paragraph",
+        "text": "<b>Option 2: A broker manages it informally.</b> Brokers are paid on transactions, not on tenancy quality. Their incentive is to close a tenant fast and move on. Ongoing management is not what they do, and expecting it usually ends badly."
+      },
+      {
+        "type": "paragraph",
+        "text": "<b>Option 3: Professional management.</b> A company takes operational responsibility, is contractually accountable, and is reachable on a schedule that works across time zones."
+      },
+      {
+        "type": "heading",
+        "text": "What to Demand If You Go the Professional Route"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Ask for photographic documentation on a fixed schedule, not on request. If you have to ask for updates, you'll eventually stop asking and lose visibility.",
+          "Ask who the tenant will actually be. A company with an established corporate tenant base is a different proposition from one that will advertise your flat on a portal and take whoever answers.",
+          "Ask what happens when something breaks. Specifically: who pays, who arranges it, and how quickly. Vague answers here predict vague performance later.",
+          "Ask to speak with an existing owner. Any operator confident in their service will arrange it.",
+          "Ask how you get paid, when, and what happens if the property is vacant."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Our Position on This"
+      },
+      {
+        "type": "paragraph",
+        "text": "<b><a href='/residences'>Residences by Sandane Homes</a></b> operates managed residences across Gurugram, Greater Noida and Noida. Our tenants are corporate and expat professionals placed through company assignments, including clients such as Daikin and UK relocation agencies, rather than open-market individuals responding to a portal listing."
+      },
+      {
+        "type": "paragraph",
+        "text": "We hold 490+ verified guest reviews at a 4.9 rating across our operating properties. That's a public record any owner can check independently, which matters more for a remote owner than anything we could tell you about ourselves."
+      },
+      {
+        "type": "paragraph",
+        "text": "The trade-off, stated plainly: managed leasing pays a set monthly amount that is typically below the theoretical peak open-market rent. In exchange, you stop managing a property from six thousand kilometres away."
+      },
+      {
+        "type": "callout",
+        "text": "Own a Gurgaon flat while living abroad? Learn more in our <a href='/blog/cost-of-managing-gurgaon-rental-yourself'>cost of self-managing guide</a> and <a href='/blog/questions-property-management-company-gurgaon'>what to ask a property management company</a>, or contact us directly:<br/><br/>📞 +91 97117 22273 (WhatsApp) &nbsp;|&nbsp; ✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a> &nbsp;|&nbsp; 🌐 <a href='/residences'>Explore Residences by Sandane Homes</a>"
+      }
+    ]
+  },
+  {
+    "slug": "questions-property-management-company-gurgaon",
+    "title": "Nine Questions to Ask Before Handing Over Your Gurgaon Property",
+    "metaTitle": "9 Questions to Ask a Gurgaon Property Management Company",
+    "metaDescription": "Before you hand over your Gurgaon flat, ask these nine questions. The answers tell you whether you're dealing with an operator or a broker in disguise.",
+    "subtitle": "How to evaluate a property management company in Gurgaon and spot brokers in disguise.",
+    "category": "Property Management Guide",
+    "date": "September 20, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Quality Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Before you hand over your Gurgaon flat, ask these nine questions. The answers tell you whether you are dealing with a real property management company in Gurgaon or a broker in disguise.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Property management in Gurgaon is an unregulated space. Anyone can print a card and call themselves a management company, and plenty of people have when owners search for a reliable <a href='/partner/gurugram-home-owners'>property management company in Gurgaon</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference between a genuine operator and a broker using the label shows up quickly if you ask the right questions. Here are the nine that matter."
+      },
+      {
+        "type": "heading",
+        "text": "The Nine Questions That Matter"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>1. Do you operate properties yourself, or do you introduce tenants and step back?</b><br/>This is the single most revealing question. Operators run properties continuously. Brokers close a transaction and move on. Both may use the word 'management.'",
+          "<b>2. Who will my tenant actually be?</b><br/>There's a large difference between a tenant sourced from a public portal listing and a corporate professional placed through a company assignment. Ask specifically what their existing tenant base looks like. If the answer is vague, it's because there isn't one.",
+          "<b>3. How often will someone physically visit my property?</b><br/>A property that's inspected once a year reveals its condition once a year, usually at move-out when it's too late. Ask for a specific frequency.",
+          "<b>4. What is your maintenance response time, in hours?</b><br/>Not 'quickly.' A number. Operators who track this will tell you. Those who don't will change the subject.",
+          "<b>5. Can I speak to an owner who already works with you?</b><br/>The most useful question on this list, and the most commonly skipped. Hesitation here tells you a great deal.",
+          "<b>6. What happens if the property is vacant?</b><br/>Under some arrangements the owner absorbs vacancy. Under others the operator does. This materially changes your annual income and needs to be explicit in writing before you sign anything.",
+          "<b>7. What do you not cover?</b><br/>Every arrangement has exclusions. Structural repairs, major appliance replacement, society transfer charges. Get the list upfront rather than discovering it mid-tenancy.",
+          "<b>8. What's the exit process?</b><br/>How much notice, what condition the property is returned in, and what documentation you receive. Good operators have a clear answer because they've done it before.",
+          "<b>9. What's your public track record?</b><br/>Reviews, ratings, an operating history that can be verified without taking their word for it. Ask for something checkable."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Why We Publish This List"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because we can answer all nine, and most of our competitors in Gurgaon cannot."
+      },
+      {
+        "type": "paragraph",
+        "text": "<b><a href='/residences'>Residences by Sandane Homes</a></b> operates six properties with 490+ verified guest reviews at a 4.9 rating. Our tenants are corporate and expat professionals, including placements connected to Daikin and UK relocation agencies. We operate across Gurugram, Greater Noida and Noida, and we're reachable by phone rather than through a form."
+      },
+      {
+        "type": "paragraph",
+        "text": "We'd rather an owner arrive having already asked hard questions than sign something they don't understand."
+      },
+      {
+        "type": "paragraph",
+        "text": "The honest trade-off, since question six matters: managed leasing pays a set monthly amount that is typically below peak achievable open-market rent, in exchange for removing vacancy risk and operational burden entirely."
+      },
+      {
+        "type": "callout",
+        "text": "Evaluating property management options in Gurgaon? Read our <a href='/blog/cost-of-managing-gurgaon-rental-yourself'>cost of self-managing guide</a> and <a href='/blog/corporate-tenants-gurgaon-apartment'>corporate tenants guide</a>, or ask us all nine questions directly:<br/><br/>📞 +91 97117 22273 &nbsp;|&nbsp; ✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a> &nbsp;|&nbsp; 🌐 <a href='/residences'>Explore Residences by Sandane Homes</a>"
+      }
+    ]
+  },
+  {
+    "slug": "corporate-tenants-gurgaon-apartment",
+    "title": "What Changes When Your Gurgaon Flat Has Corporate Tenants",
+    "metaTitle": "Why Corporate Tenants Are Different for Gurgaon Landlords",
+    "metaDescription": "Corporate and expat tenants behave differently from open-market renters in Gurgaon. Here's what actually changes for the property owner.",
+    "subtitle": "Why corporate assignees and expat professionals offer superior stability, predictability, and care for Gurgaon apartments.",
+    "category": "Corporate Housing Guide",
+    "date": "September 20, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Corporate Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Corporate and expat tenants behave differently from open-market renters in Gurgaon. Learn what actually changes for flat owners seeking corporate tenants for my Gurgaon apartment.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Owners talk about 'good tenants' as though it's luck. Sometimes it is. More often it's a function of where the tenant came from when sourcing <a href='/partner/gurugram-home-owners'>corporate tenants for my Gurgaon apartment</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "A tenant who found your flat on a property portal and a tenant placed by their employer's mobility team are different propositions, and the difference shows up in ways that matter to you."
+      },
+      {
+        "type": "heading",
+        "text": "1. They're Accountable to Someone Other Than You"
+      },
+      {
+        "type": "paragraph",
+        "text": "An open-market tenant answers to you alone. If the relationship deteriorates, your only leverage is the deposit and a slow legal process."
+      },
+      {
+        "type": "paragraph",
+        "text": "A corporate assignee answers to their employer, and their housing reflects on their professional situation. That changes behaviour in small, consistent ways. Payment is usually handled through or backed by the company. Damage is rarer. Disputes are rarer still, because escalating a housing complaint has a professional cost."
+      },
+      {
+        "type": "heading",
+        "text": "2. Their Tenancy Length Is Set by Something Other Than Preference"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate assignments run on fixed terms. Two years. Eighteen months. Six months for a project. That length is decided before they arrive and rarely changes arbitrarily."
+      },
+      {
+        "type": "paragraph",
+        "text": "Open-market tenants leave when circumstances change, which is unpredictable by definition. For an owner, predictable tenancy length is worth real money because it's the thing that determines how often you face a vacancy gap."
+      },
+      {
+        "type": "heading",
+        "text": "3. They Occupy the Property Differently"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate and expat tenants on assignment are frequently professionals living alone or as a couple, out of the flat during working hours, and often travelling. Wear on the property tends to be lower than a comparable open-market tenancy."
+      },
+      {
+        "type": "heading",
+        "text": "Why This Is Difficult to Access as an Individual Owner"
+      },
+      {
+        "type": "paragraph",
+        "text": "Corporate housing placements don't come through property portals. They come through global mobility teams, relocation agencies, and companies with established relationships and a track record they can point to. An individual owner listing a flat on a portal is not in that conversation. That's not a criticism, it's just how the channel works."
+      },
+      {
+        "type": "heading",
+        "text": "Where We Sit in This"
+      },
+      {
+        "type": "paragraph",
+        "text": "<b><a href='/residences'>Residences by Sandane Homes</a></b> places corporate and expat professionals across Gurugram, Greater Noida and Noida. Our tenant base includes assignees connected to companies such as Daikin, and requirements routed through UK-based relocation agencies."
+      },
+      {
+        "type": "paragraph",
+        "text": "We support Japanese, Korean, Mandarin and English speaking guests, which matters because a substantial share of corporate assignees in the NCR corridor come from exactly those markets. We operate six properties and hold 490+ verified guest reviews at a 4.9 rating."
+      },
+      {
+        "type": "paragraph",
+        "text": "When we take on an owner's apartment in Gurgaon, that property joins the inventory we place corporate tenants into. The owner gets access to a tenant channel they cannot reach individually."
+      },
+      {
+        "type": "paragraph",
+        "text": "The trade-off remains what it is: a set monthly amount, typically below peak open-market rent, in exchange for the tenant profile, the tenancy length, and the removal of vacancy and management burden."
+      },
+      {
+        "type": "callout",
+        "text": "Want your Gurgaon flat in front of corporate tenants? Read our <a href='/blog/cost-of-managing-gurgaon-rental-yourself'>cost of self-managing guide</a> and <a href='/blog/nri-property-management-gurgaon'>NRI guide</a>, or reach out to us directly:<br/><br/>📞 +91 97117 22273 &nbsp;|&nbsp; ✉️ <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a> &nbsp;|&nbsp; 🌐 <a href='/residences'>Explore Residences by Sandane Homes</a>"
+      }
+    ]
+  },
+  {
     "slug": "nri-guide-to-property-monetization-and-revenue-leasing-in-gurgaon",
     "title": "NRI Guide to Property Monetization & Revenue Leasing in Gurgaon: Partner With Us",
     "metaTitle": "NRI Property Management Gurgaon | Partner With Us | Sandane Homes",
