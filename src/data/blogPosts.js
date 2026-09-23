@@ -1,5 +1,377 @@
 export const blogPosts = [
   {
+    "slug": "luxury-serviced-apartments-gurgaon-extended-stay",
+    "title": "Luxury Serviced Apartments in Gurgaon for Extended Corporate Stays",
+    "metaTitle": "Luxury Serviced Apartments Gurgaon | Extended Corporate Stays",
+    "metaDescription": "Luxury serviced apartments in Gurgaon for 1 to 12 month corporate stays. Turnkey 2BHK, 3BHK & 4BHK apartments with 5-star housekeeping & B2B GST billing.",
+    "subtitle": "Turnkey long-stay corporate residences for multinational executives and expat assignees in Gurgaon.",
+    "category": "Extended Stay Gurgaon",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Corporate Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Planning an extended stay in Gurgaon? Discover luxury serviced apartments with full kitchens, daily housekeeping, 300 Mbps Wi-Fi, and consolidated B2B GST billing.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For corporate professionals spending 1 to 12 months in Delhi NCR, booking <b>luxury serviced apartments in Gurgaon</b> provides superior space, privacy, and cost efficiency compared to hotels. <b><a href='/residences'>Residences by Sandane Homes</a></b> offers fully furnished 2BHK, 3BHK, and 4BHK executive apartments situated along prime corridors like Golf Course Road and DLF Cyber City."
+      },
+      {
+        "type": "heading",
+        "text": "Why Extended Stay Travelers Prefer Serviced Apartments"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Residential Comfort & Space:</b> Full living rooms, private balconies, and dedicated work desks.",
+          "<b>Fully Equipped Modular Kitchens:</b> Induction/gas stovetops, microwaves, refrigerators, and rice cookers.",
+          "<b>Daily Hospitality Support:</b> 5-star daily housekeeping, fresh linen replacement, and on-call maintenance.",
+          "<b>B2B Master Billing:</b> Itemized GST invoices tailored for corporate travel desks and MNC mobility managers."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Inquire about long-stay corporate packages at <a href='/residences'>Residences by Sandane Homes</a> or contact our mobility desk at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-in-gurugram-near-fortis-medanta-hospitals",
+    "title": "Serviced Apartments in Gurugram Near Medanta & Fortis Hospitals",
+    "metaTitle": "Serviced Apartments in Gurugram Near Medanta & Fortis Hospitals",
+    "metaDescription": "Spacious serviced apartments in Gurugram near Medanta The Medicity & Fortis Memorial Research Institute. Fully furnished kitchens & daily housekeeping.",
+    "subtitle": "Peaceful, hygienic, and fully serviced residences for medical tourists and healthcare professionals.",
+    "category": "Medical Stays Gurugram",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Healthcare Accommodations Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Seeking comfortable, hygienic accommodations near Medanta or Fortis in Gurugram? Stay at fully furnished serviced apartments with private kitchens and daily housekeeping.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Medical travelers, visiting doctors, and families attending Medanta The Medicity or Fortis Memorial Research Institute require quiet, hygienic, and spacious lodging. Sandane Homes manages <b>serviced apartments in Gurugram</b> situated within minutes of major healthcare centers."
+      },
+      {
+        "type": "heading",
+        "text": "Medical Travel Amenities"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Private Modular Kitchens:</b> Prepare doctor-recommended diets and home-cooked meals.",
+          "<b>Elevator & Ramp Access:</b> Wheelchair-accessible buildings with 24/7 DG power backup.",
+          "<b>Strict Sanitization Protocols:</b> Daily deep cleaning and medical-grade hygiene standards."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book medical stay serviced apartments at <a href='/residences'>Residences by Sandane Homes</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "gurgaon-corporate-guest-house-vs-serviced-apartments",
+    "title": "Company Guest House vs Serviced Apartments in Gurgaon: MNC Comparison",
+    "metaTitle": "Company Guest House vs Serviced Apartments in Gurgaon | Sandane",
+    "metaDescription": "Comparing dedicated company guest houses with luxury serviced apartments in Gurgaon for MNC corporate travel desks & HR mobility teams.",
+    "subtitle": "Why top multinationals are shifting from fixed guest house leases to flexible master-managed serviced apartments.",
+    "category": "Corporate HR Strategy",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Corporate Advisory Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Operating an internal company guest house in Gurgaon creates high fixed costs and administrative headaches. Learn why MNCs switch to Sandane Homes serviced apartments.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For multinational enterprises operating in Gurgaon, maintaining a standalone company guest house involves heavy fixed overheads: lease rent during low occupancy, cook salaries, and administrative hassle. Partnering with <b><a href='/residences'>Residences by Sandane Homes</a></b> provides flexible B2B corporate housing on-demand."
+      },
+      {
+        "type": "heading",
+        "text": "Comparison Breakdown"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Cost Predictability:</b> Pay only for actual employee assignment durations without fixed annual guest house overheads.",
+          "<b>5-Star Service Quality:</b> Professional housekeeping, chef services, and technical engineering support.",
+          "<b>Scalable Inventory:</b> Scale from 1 apartment to 20+ units instantly across Gurgaon and Gurugram."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Optimize your company's corporate housing strategy at <a href='/residences'>Residences by Sandane Homes</a> or contact 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "monetize-dlf-phase-5-apartment-gurgaon",
+    "title": "How DLF Phase 5 Apartment Owners Monetize Vacant Flats in Gurgaon",
+    "metaTitle": "Monetize DLF Phase 5 Apartment Gurgaon | Landlord Partnership",
+    "metaDescription": "Guide for DLF Phase 5 flat owners in Gurgaon. Monetize vacant 3BHK & 4BHK luxury apartments with Sandane Homes guaranteed monthly payouts & zero maintenance.",
+    "subtitle": "Unlocking high guaranteed passive income for multi-crore real estate in DLF Phase 5.",
+    "category": "Gurgaon Landlord Guide",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Asset Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Own a 3BHK or 4BHK apartment in DLF Phase 5 Gurgaon? Discover how master leasing eliminates vacancy risk and yields guaranteed monthly revenue payouts.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "DLF Phase 5 represents the luxury residential epicenter of Gurugram. However, holding empty luxury flats incurs high monthly society maintenance fees and asset wear. Partnering with Sandane Homes transforms vacant DLF Phase 5 apartments into corporate expat inventory."
+      },
+      {
+        "type": "heading",
+        "text": "Master Lease Benefits for DLF Phase 5 Owners"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Guaranteed Fixed Payouts:</b> Monthly revenue deposited on the 1st of every month without fail.",
+          "<b>Corporate Expat Guests:</b> Exclusively leased to verified MNC managers and foreign directors.",
+          "<b>Zero Upkeep Expenses:</b> 100% of housekeeping, painting, and appliance maintenance covered by Sandane Homes."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Monetize your DLF Phase 5 apartment today via <a href='/partner/gurugram-home-owners'>Gurugram Home Owners Partnership</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-golf-course-extension-road-gurgaon",
+    "title": "Serviced Apartments on Golf Course Extension Road Gurgaon & Sector 65",
+    "metaTitle": "Serviced Apartments Golf Course Extension Road Gurgaon | Sandane",
+    "metaDescription": "Luxury serviced apartments on Golf Course Extension Road & Sector 65 Gurgaon. Turnkey 2BHK & 3BHK residences near M3M Golfestate & WorldMark.",
+    "subtitle": "Modern corporate residences located in Gurgaon's fastest growing luxury residential corridor.",
+    "category": "Extension Road Stays",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Extension Road Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Looking for luxury serviced apartments along Golf Course Extension Road in Sector 65 or Sector 66? Enjoy high-rise luxury near WorldMark and M3M Financial Center.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Golf Course Extension Road (Sectors 62, 65, 66) has emerged as a premier corporate hub in Gurugram, hosting commercial landmarks like WorldMark and M3M Financial Center. Sandane Homes manages luxury serviced apartments along Golf Course Extension Road."
+      },
+      {
+        "type": "heading",
+        "text": "Location Advantages"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Immediate Access to Commercial Hubs:</b> Minutes from WorldMark Sector 65 and M3M Financial Center.",
+          "<b>High-Rise Resort Lifestyle:</b> Swimming pools, tennis courts, and landscaped green gardens.",
+          "<b>Full Corporate Servicing:</b> Daily housekeeping, 300 Mbps Wi-Fi, and B2B GST billing."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Reserve Golf Course Extension Road apartments at <a href='/residences'>Residences by Sandane Homes</a> or contact 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "gurugram-relocation-housing-expat-families",
+    "title": "Gurugram Relocation Housing Guide for International Expat Families",
+    "metaTitle": "Gurugram Relocation Housing | International Expat Family Stays",
+    "metaDescription": "Complete relocation housing guide in Gurugram for Japanese, Korean & Western expat families. Near international schools, gated security & green parks.",
+    "subtitle": "Ensuring smooth transition and 5-star living for expat families moving to Gurugram.",
+    "category": "Expat Relocation Guide",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Relocation Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Relocating your family to Gurugram? Discover luxury serviced apartments near top international schools with high security, green parks, and FRRO support.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Relocating an expat family to Gurugram requires finding safe, comfortable housing near international schools like Pathways and Lancers. Sandane Homes provides spacious 3BHK and 4BHK serviced residences inside top gated communities."
+      },
+      {
+        "type": "heading",
+        "text": "Family Relocation Highlights"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Top Gated Security:</b> 24/7 Security guards, intercom access, and CCTV surveillance.",
+          "<b>Proximity to Schools & Marts:</b> Close to international schools and Asian grocery markets.",
+          "<b>Full Administrative Assistance:</b> On-demand support for FRRO address verification and police registration."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Explore expat family relocation housing at <a href='/residences'>Residences by Sandane Homes</a> or reach out to 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "short-stay-serviced-apartments-in-gurgaon",
+    "title": "Short Stay Serviced Apartments in Gurgaon for Business Travelers",
+    "metaTitle": "Short Stay Serviced Apartments in Gurgaon | Business Travelers",
+    "metaDescription": "Book short stay serviced apartments in Gurgaon for 1-week to 1-month business trips. High-speed Wi-Fi, daily breakfast, 24/7 room service & metro access.",
+    "subtitle": "Flexible short-term luxury apartment stays for visiting corporate project teams in Gurgaon.",
+    "category": "Short Stay Gurgaon",
+    "date": "September 23, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Hospitality Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Visiting Gurgaon for a 1-week to 1-month business trip? Book short stay serviced apartments with full hotel amenities and home privacy.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For short business trips ranging from 7 to 30 days, booking <b>short stay serviced apartments in Gurgaon</b> combines hotel convenience with residential comfort. Sandane Homes provides turnkey 1BHK & 2BHK apartments near Cyber City and Golf Course Road."
+      },
+      {
+        "type": "heading",
+        "text": "Included Amenities"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Daily Breakfast & Housekeeping:</b> In-apartment dining options and daily room cleaning.",
+          "<b>High-Speed Wi-Fi & Workstation:</b> 300 Mbps fiber internet and comfortable work desk setups.",
+          "<b>Express Check-In:</b> Seamless digital check-in and 24/7 reception support."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book short-stay serviced apartments at <a href='/residences'>Residences by Sandane Homes</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "monetize-penthouse-luxury-villa-gurgaon",
+    "title": "How Owners Monetize Vacant Penthouses & Luxury Villas in Gurgaon",
+    "metaTitle": "Monetize Penthouses & Luxury Villas Gurgaon | Sandane Homes",
+    "metaDescription": "Monetize vacant luxury penthouses & villas in Gurgaon. Multi-year master lease contracts with Sandane Homes catering to C-suite directors & foreign delegates.",
+    "subtitle": "Converting ultra-high-net-worth real estate assets into guaranteed corporate revenue streams.",
+    "category": "Luxury Asset Monetization",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Ultra-Luxury Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Own an ultra-luxury penthouse or villa in Gurgaon? Learn how master leasing generates high guaranteed monthly revenue while maintaining 5-star physical condition.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Penthouses and luxury villas in Gurgaon's premium gated complexes represent major investments. Leaving these assets vacant leads to dust accumulation, AC degradation, and zero income. Master leasing with Sandane Homes converts penthouses into C-suite corporate residences."
+      },
+      {
+        "type": "heading",
+        "text": "Ultra-Luxury Master Lease Highlights"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Guaranteed Monthly Revenue:</b> Multi-year master lease agreements with fixed monthly transfers on the 1st.",
+          "<b>White-Glove Hospitality Upkeep:</b> Dedicated butler, daily housekeeping, and preventative engineering maintenance.",
+          "<b>Exclusive C-Suite Guest Profile:</b> Leased to corporate vice-presidents, country heads, and foreign diplomats."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Monetize your Gurgaon penthouse or villa via <a href='/partner/gurugram-home-owners'>Gurugram Home Owners Partnership</a> or contact 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-near-dlf-phase-1-2-3-gurgaon",
+    "title": "Serviced Apartments Near DLF Phase 1, Phase 2 & Phase 3 Gurgaon",
+    "metaTitle": "Serviced Apartments Near DLF Phase 1, 2 & 3 Gurgaon | Sandane",
+    "metaDescription": "Luxury serviced apartments near DLF Phase 1, Phase 2 & Phase 3 Gurgaon. Quick access to Cyber Hub, MG Road metro stations & Galleria Market.",
+    "subtitle": "Prime residential stays moments from MG Road, Cyber City, and Golf Course Road.",
+    "category": "DLF Corridor Stays",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane DLF Corridor Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Need luxury serviced apartments near DLF Phase 1, 2, or 3 in Gurgaon? Enjoy rapid transit to Cyber Hub and MG Road metro stations with full home privacy.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "DLF Phase 1, DLF Phase 2, and DLF Phase 3 form the established heart of Gurugram real estate. Sandane Homes manages luxury serviced apartments across these sectors, offering business travelers and relocating families quick access to Cyber City and MG Road."
+      },
+      {
+        "type": "heading",
+        "text": "Location Advantages"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Immediate Cyber Hub Proximity:</b> 5-minute commute to DLF Cyber City and Rapid Metro stations.",
+          "<b>Walking Distance to Malls & Metro:</b> Near MG Road metro station and Galleria Market shopping.",
+          "<b>Fully Serviced Living:</b> Daily housekeeping, 300 Mbps Wi-Fi, and B2B corporate GST invoicing."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book DLF Phase 1-3 serviced apartments at <a href='/residences'>Residences by Sandane Homes</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "b2b-corporate-leasing-agreement-gurgaon-landlords",
+    "title": "B2B Corporate Leasing Agreements: How Gurgaon Landlords Secure Fixed Rent",
+    "metaTitle": "B2B Corporate Leasing Agreement Gurgaon | Landlord Master Lease",
+    "metaDescription": "Understanding B2B master lease agreements for Gurgaon landlords. Multi-year contracts, direct bank payouts on the 1st, 100% tax compliance & asset care.",
+    "subtitle": "A complete legal and operational breakdown of B2B master lease contracts for property owners.",
+    "category": "Landlord Legal Guide",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Legal & Advisory Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Evaluating a B2B corporate master lease for your Gurgaon flat? Learn how legal multi-year contracts guarantee monthly rent payouts with zero landlord friction.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For Gurgaon property owners, executing a formal B2B master lease contract with an operator like <b><a href='/residences'>Residences by Sandane Homes</a></b> provides complete legal and financial security. Unlike informal broker agreements, B2B master leases carry binding corporate commitments."
+      },
+      {
+        "type": "heading",
+        "text": "Key Contract Clauses"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Guaranteed Payout Terms:</b> Bank transfers deposited on the 1st of every month regardless of property occupancy.",
+          "<b>Multi-Year Duration:</b> 3 to 9-year lease terms protecting the owner from annual market volatility.",
+          "<b>Complete Maintenance Indemnity:</b> Operator assumes 100% responsibility for routine repairs and upkeep.",
+          "<b>Full Tax & GST Compliance:</b> Transparent GST invoicing and legal contract registration."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Learn more about B2B corporate leasing via <a href='/partner/gurugram-home-owners'>Gurugram Home Owners Partnership</a> or speak to our legal desk at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
     "slug": "best-serviced-apartments-in-gurgaon-top-picks",
     "title": "Best Serviced Apartments in Gurgaon: Top 10 Luxury Stays for Long Stay & Corporate Expats",
     "metaTitle": "Best Serviced Apartments in Gurgaon | Top Luxury Corporate Stays",
