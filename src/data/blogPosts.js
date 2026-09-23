@@ -1,5 +1,376 @@
 export const blogPosts = [
   {
+    "slug": "best-serviced-apartments-in-gurgaon-top-picks",
+    "title": "Best Serviced Apartments in Gurgaon: Top 10 Luxury Stays for Long Stay & Corporate Expats",
+    "metaTitle": "Best Serviced Apartments in Gurgaon | Top Luxury Corporate Stays",
+    "metaDescription": "Discover the best serviced apartments in Gurgaon for long-stay corporate executives & expat families. Fully furnished 2BHK & 3BHK residences near Golf Course Road.",
+    "subtitle": "The ultimate guide to ranking and selecting the best serviced apartments in Gurgaon for business executives.",
+    "category": "Best Serviced Apartments",
+    "date": "September 23, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Expat Housing Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for the best serviced apartments in Gurgaon? Explore top-rated 2BHK, 3BHK, and 4BHK executive residences with 5-star hotel amenities, daily housekeeping, and 300 Mbps Wi-Fi.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Finding the <b>best serviced apartments in Gurgaon</b> requires evaluating key location advantages, security standards, international culinary amenities, and administrative corporate billing flexibility. Whether you are an expat relocating for a 6-month assignment or a corporate mobility desk sourcing housing, <b><a href='/residences'>Residences by Sandane Homes</a></b> offers top-rated executive residences across Gurugram's prime corridors."
+      },
+      {
+        "type": "heading",
+        "text": "What Defines the Best Serviced Apartments in Gurgaon?"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Prime Corporate Locations:</b> Positioned along Golf Course Road, DLF Cyber City, Sector 54, and Golf Course Extension.",
+          "<b>Full Turnkey Kitchens:</b> Complete burner setups, microwave ovens, large refrigerators, and Japanese rice cookers.",
+          "<b>Daily 5-Star Housekeeping:</b> In-house hospitality staff providing daily cleaning, linen changes, and technical upkeep.",
+          "<b>Expat-Grade Security:</b> Located inside elite gated communities like DLF Park Place, Conscient Hines Elevate, and M3M Golfestate."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book the best serviced apartments in Gurgaon today at <a href='/residences'>Residences by Sandane Homes</a> or contact our corporate mobility team at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "best-serviced-apartments-in-gurugram-golf-course-road",
+    "title": "Best Serviced Apartments in Gurugram on Golf Course Road & DLF Phase 5",
+    "metaTitle": "Best Serviced Apartments in Gurugram | Golf Course Road Luxury Stays",
+    "metaDescription": "Looking for the best serviced apartments in Gurugram on Golf Course Road? Premium 2, 3 & 4BHK executive apartments with daily housekeeping & 300 Mbps Wi-Fi.",
+    "subtitle": "Discover luxury executive serviced residences along Gurugram's most prestigious commercial and residential strip.",
+    "category": "Gurugram Serviced Apartments",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Golf Course Road Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Golf Course Road is Gurugram's ultimate luxury address. Discover why corporate leaders choose the best serviced apartments in Gurugram near One Horizon Center.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Golf Course Road and DLF Phase 5 host Northern India's highest concentration of multinational headquarters, high-end dining, and luxury residential towers. For senior executives and C-suite directors, booking the <b>best serviced apartments in Gurugram</b> along Golf Course Road guarantees a 3-minute commute to One Horizon Center and Horizon Plaza."
+      },
+      {
+        "type": "heading",
+        "text": "Amenities Featured in Golf Course Road Serviced Apartments"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Panoramic Golf Course Skyline Views:</b> High-floor luxury 3BHK and 4BHK apartments with soaring ceiling heights and private balconies.",
+          "<b>Executive Workstations:</b> Ergonomic desks, dual-band 300 Mbps fiber Wi-Fi, and low-latency connections for global video conferences.",
+          "<b>B2B GST Invoicing:</b> Seamless corporate invoicing for mobility desks, MNC travel teams, and foreign relocation desks."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Explore Golf Course Road residences at <a href='/residences'>Residences by Sandane Homes</a> or inquire about corporate landlord partnerships via <a href='/partner/gurugram-home-owners'>Gurugram Home Owners Partnership</a>."
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-in-gurgaon-near-dlf-cyber-city",
+    "title": "Luxury Serviced Apartments in Gurgaon near DLF Cyber City & Cyber Hub",
+    "metaTitle": "Serviced Apartments in Gurgaon Near DLF Cyber City | Sandane Homes",
+    "metaDescription": "Premium serviced apartments in Gurgaon near DLF Cyber City. 5-minute commute to office towers, fully furnished kitchens, B2B corporate billing & concierge.",
+    "subtitle": "Strategic corporate housing situated minutes from Cyber Hub, MG Road, and major Gurgaon commercial towers.",
+    "category": "Cyber City Accommodations",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Cyber City Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Need luxury serviced apartments in Gurgaon near DLF Cyber City? Residences by Sandane Homes provides turnkey 2BHK & 3BHK apartments within a 5-minute drive to Cyber Hub.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Corporate travel managers and visiting executives prioritize staying close to Cyber City to minimize commute times. Sandane Homes operates <b>serviced apartments near DLF Cyber City in Gurgaon</b> with a quick 5-minute drive to main office towers, Cyber Hub dining, and MG Road metro stations."
+      },
+      {
+        "type": "heading",
+        "text": "Why Business Travelers Choose Cyber City Serviced Apartments"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Zero Commute Stress:</b> 5-minute access to Building 10, Ericsson, Google, and Samsung Cyber City towers.",
+          "<b>Full Residential Comfort:</b> Spacious living rooms, fully equipped kitchens, and private washing machines.",
+          "<b>24/7 Concierge Support:</b> On-demand airport transfers, FRRO registration support, and daily room service."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book your stay near DLF Cyber City at <a href='/residences'>Residences by Sandane Homes</a> or reach our desk at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "monthly-serviced-apartments-in-gurgaon-long-stay",
+    "title": "Monthly Serviced Apartments in Gurgaon: Flexible Long Stay Corporate Tariffs",
+    "metaTitle": "Monthly Serviced Apartments in Gurgaon | Long Stay Corporate Rentals",
+    "metaDescription": "Book monthly serviced apartments in Gurgaon for extended corporate assignments. Fully furnished kitchens, daily housekeeping, 100% DG backup & corporate billing.",
+    "subtitle": "Cost-effective, fully managed monthly serviced apartment packages for corporate assignees in Gurgaon.",
+    "category": "Monthly Rentals Gurgaon",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Corporate Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Planning a 1 to 12 month corporate assignment in Gurgaon? Monthly serviced apartments provide massive cost savings over hotels with 5-star residential comfort.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For extended corporate assignments in Delhi NCR, booking <b>monthly serviced apartments in Gurgaon</b> provides total budget predictability. Unlike hotels that charge fluctuating daily rates, Sandane Homes offers customized monthly B2B corporate tariffs including housekeeping, Wi-Fi, and utilities."
+      },
+      {
+        "type": "heading",
+        "text": "Benefits of Monthly Serviced Apartment Rentals"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Fixed Monthly Corporate Billing:</b> Single consolidated B2B GST bill with zero unexpected maintenance surcharges.",
+          "<b>Full Kitchen & Laundry:</b> In-apartment washing machines, microwave, stovetop, and cookware.",
+          "<b>Flexible Tenancy Duration:</b> Extend or modify assignment dates smoothly without penalty fees."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Inquire about monthly corporate tariffs at <a href='/residences'>Residences by Sandane Homes</a> or contact our corporate mobility team at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "1bhk-2bhk-3bhk-4bhk-serviced-apartments-gurgaon",
+    "title": "1BHK, 2BHK, 3BHK & 4BHK Serviced Apartments in Gurgaon: Complete Guide",
+    "metaTitle": "1BHK, 2BHK, 3BHK & 4BHK Serviced Apartments in Gurgaon | Sandane",
+    "metaDescription": "Compare 1BHK, 2BHK, 3BHK & 4BHK serviced apartments in Gurgaon. Ideal for solo business travelers, expat families, and corporate leadership teams.",
+    "subtitle": "Selecting the perfect apartment layout for solo executives, expat families, and corporate groups in Gurgaon.",
+    "category": "Apartment Layout Guide",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Advisory Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Need a 1BHK, 2BHK, 3BHK, or 4BHK serviced apartment in Gurgaon? Compare room configurations, square footage, and amenities tailored for expat housing.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Depending on party size and assignment duration, corporate clients search for specific floor plans: compact 1BHK & 2BHK suites for solo consultants, or expansive 3BHK & 4BHK residences for expat families relocating to Gurgaon."
+      },
+      {
+        "type": "heading",
+        "text": "Layout Breakdown"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>2BHK Executive Apartments:</b> Perfect for solo project managers wanting a dedicated home office and guest room.",
+          "<b>3BHK Family Residences:</b> Spacious 1,800+ sq.ft. layouts with attached baths, living room, dining salon, and full kitchen.",
+          "<b>4BHK Luxury Penthouses:</b> Expansive 3,000+ sq.ft. luxury apartments for senior directors and CXO families in DLF Phase 5."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "View available floor plans at <a href='/residences'>Residences by Sandane Homes</a> or speak to our reservation team at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-with-kitchen-in-gurgaon",
+    "title": "Fully Furnished Serviced Apartments with Kitchen in Gurgaon & Gurugram",
+    "metaTitle": "Serviced Apartments with Kitchen in Gurgaon | Fully Furnished Stays",
+    "metaDescription": "Luxury serviced apartments with fully equipped kitchen in Gurgaon. Stovetops, microwave, Japanese rice cookers, large refrigerators & daily housekeeping.",
+    "subtitle": "Enjoy wholesome home-cooked meals while on corporate assignment in Gurugram.",
+    "category": "Kitchen Serviced Apartments",
+    "date": "September 23, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Culinary Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Tired of eating out every night? Book luxury serviced apartments with fully equipped kitchens in Gurgaon for health, comfort, and authenticity.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For long-stay corporate assignees, having a <b>serviced apartment with a kitchen in Gurgaon</b> is essential for dietary preferences and health. Sandane Homes equips every kitchen with modular induction/gas stovetops, exhaust hoods, microwave ovens, refrigerators, water purifiers, and rice cookers."
+      },
+      {
+        "type": "heading",
+        "text": "Kitchen Features Included"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Full Cookware & Cutlery Sets:</b> Pots, pans, knives, cutting boards, and imported dinnerware.",
+          "<b>RO Water Purification:</b> Multi-stage RO water systems providing 100% clean drinking water.",
+          "<b>Asian Appliance Provisioning:</b> Japanese rice cookers and tea kettles provided for Japanese and Korean expats."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book a serviced apartment with kitchen at <a href='/residences'>Residences by Sandane Homes</a> or contact 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "corporate-serviced-apartments-in-gurugram-expats",
+    "title": "Corporate Serviced Apartments in Gurugram for Japanese & Korean Expats",
+    "metaTitle": "Corporate Serviced Apartments in Gurugram | Japanese & Korean Expats",
+    "metaDescription": "Dedicated corporate serviced apartments in Gurugram for Japanese, Korean & MNC expats. Multilingual concierge, FRRO support, Japanese rice cookers & safety.",
+    "subtitle": "Tailored international expat housing in Gurugram with specialized cultural and administrative support.",
+    "category": "Expat Serviced Apartments",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Multilingual Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Japanese and Korean expats require specialized cultural housing standards in Gurugram. Discover how Sandane Homes delivers top-tier expat serviced apartments.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "With major Japanese and Korean multinationals operating R&D, manufacturing, and commercial headquarters in Gurugram, foreign assignees need dedicated <b>corporate serviced apartments in Gurugram</b> equipped with FRRO assistance, Japanese channels, and Asian grocery access."
+      },
+      {
+        "type": "heading",
+        "text": "Expat Services Provided"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>FRRO Registration Guidance:</b> Complete assistance with Indian police verification and mandatory visa paperwork.",
+          "<b>Multilingual Guest Concierge:</b> English, Japanese, Korean, and Mandarin support.",
+          "<b>High-Security Gated Societies:</b> 24/7 Guarded entry, CCTV monitoring, and intercom verification."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Explore Japanese & Korean expat stays at <a href='/residences'>Residences by Sandane Homes</a> or reach our expat desk at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "pet-friendly-serviced-apartments-in-gurgaon",
+    "title": "Pet-Friendly Luxury Serviced Apartments in Gurgaon & Gurugram",
+    "metaTitle": "Pet-Friendly Serviced Apartments in Gurgaon | Sandane Homes",
+    "metaDescription": "Luxury pet-friendly serviced apartments in Gurgaon. Gated societies, green parks, spacious 3BHK & 4BHK layouts with daily housekeeping & high security.",
+    "subtitle": "Relocating to Gurugram with your family pet? Discover luxury pet-welcoming executive residences.",
+    "category": "Pet Friendly Apartments",
+    "date": "September 23, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Pet Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Relocating to Gurgaon with pets? Sandane Homes provides pet-friendly luxury serviced apartments with walking parks and spacious balconies.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Finding <b>pet-friendly serviced apartments in Gurgaon</b> can be difficult, as many hotels enforce strict pet bans. Residences by Sandane Homes offers pet-welcoming 2BHK, 3BHK, and 4BHK apartments inside green gated societies featuring walking trails and dedicated pet zones."
+      },
+      {
+        "type": "heading",
+        "text": "Pet Amenities Featured"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Spacious Open Balconies:</b> Safe, enclosed balconies providing fresh air and outdoor space.",
+          "<b>Lush Gated Society Parks:</b> Access to walking lawns in societies like Jaypee Greens and Sushant Lok.",
+          "<b>Dedicated Pet Housekeeping Protocols:</b> Deep cleaning and pet-safe sanitization routines."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book a pet-friendly serviced apartment in Gurgaon at <a href='/residences'>Residences by Sandane Homes</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "serviced-apartments-near-mg-road-metro-station-gurgaon",
+    "title": "Serviced Apartments Near MG Road & Huda City Centre Metro Station Gurgaon",
+    "metaTitle": "Serviced Apartments Near MG Road Metro Station Gurgaon | Sandane",
+    "metaDescription": "Luxury serviced apartments near MG Road Metro Station & Huda City Centre Gurgaon. Rapid transit to Cyber City, Galleria Market, and Fortis Hospital.",
+    "subtitle": "Seamless metro connectivity for corporate assignees and medical tourists in Gurugram.",
+    "category": "Metro Connectivity Stays",
+    "date": "September 23, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Transit Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Prioritizing fast metro transit? Stay at luxury serviced apartments near MG Road Metro Station and Huda City Centre in Gurgaon.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Staying near MG Road Metro Station or Huda City Centre (Millennium City Centre) provides instant connectivity to DLF Cyber City, Delhi IGI Airport, and major medical institutes like Fortis and Max. Sandane Homes manages luxury serviced apartments situated within walking or 3-minute drive distance to yellow-line metro stations."
+      },
+      {
+        "type": "heading",
+        "text": "Location Highlights"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Direct Yellow Line Metro Access:</b> Seamless commute to Central Delhi and Cyber City Rapid Metro.",
+          "<b>Walk to Malls & Dining:</b> Minutes to MGF Metropolitan Mall, Galleria Market, and Sector 29 food hub.",
+          "<b>Medical & Corporate Proximity:</b> Convenient for medical travelers visiting Fortis Research Institute."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Reserve metro-connected serviced apartments at <a href='/residences'>Residences by Sandane Homes</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "top-10-serviced-apartments-in-gurugram-comparison",
+    "title": "Top 10 Serviced Apartments in Gurugram: Corporate Expat Rating & Review",
+    "metaTitle": "Top 10 Serviced Apartments in Gurugram | Expat Reviews & Ratings",
+    "metaDescription": "Reviewing the top 10 serviced apartments in Gurugram for corporate relocations. Why Residences by Sandane Homes holds 4.9⭐ verified guest ratings.",
+    "subtitle": "Comprehensive industry review evaluating hospitality, safety, location, and guest ratings in Gurugram.",
+    "category": "Serviced Apartment Reviews",
+    "date": "September 23, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Quality Rating Desk",
+    "coverImage": "/blog/covers/amaaltash-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Evaluating the top 10 serviced apartments in Gurugram? Learn why corporate assignees rate Residences by Sandane Homes 4.9⭐ across 490+ verified reviews.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Selecting among the <b>top 10 serviced apartments in Gurugram</b> requires looking beyond glossy photos to verified guest reviews, housekeeping frequency, and administrative corporate invoicing. Residences by Sandane Homes holds 490+ verified guest reviews with an overall 4.9⭐ rating across operating properties."
+      },
+      {
+        "type": "heading",
+        "text": "Criteria for Top Serviced Apartments"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>4.9 Star Verified Guest Feedback:</b> Consistently top-rated for cleanliness, Wi-Fi speed, and hospitality responsiveness.",
+          "<b>Corporate Mobility Track Record:</b> Trusted housing partner for international companies like Daikin and global relocation desks.",
+          "<b>Transparent Master Leasing:</b> Direct partnerships with flat owners delivering reliable quality and 24/7 service."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Experience Gurugram's top-rated serviced residences at <a href='/residences'>Residences by Sandane Homes</a> or partner your property via <a href='/partner/gurugram-home-owners'>Gurugram Home Owners Partnership</a>."
+      }
+    ]
+  },
+  {
     "slug": "gurgaon-property-management-company-gurugram-flat-owners",
     "title": "Top Gurgaon Property Management Company for Gurugram Flat & Builder Floor Owners",
     "metaTitle": "Gurgaon Property Management Company | Gurugram Flat Owners | Sandane",
