@@ -2262,6 +2262,406 @@ export const landingPages = [
                 "link": "/sushant-lok-block-b-sector-27-gurgaon"
             }
         ]
+    },
+    {
+        "slug": "serviced-apartments-dlf-cyber-city-gurgaon",
+        "metaTitle": "Serviced Apartments Near DLF Cyber City Gurgaon | Sandane Homes",
+        "metaDescription": "Luxury serviced apartments near DLF Cyber City & Cyber Hub Gurgaon. Fully furnished 2BHK & 3BHK suites with 5-minute commute to office towers & corporate billing.",
+        "canonical": "https://www.sandanehomes.com/serviced-apartments-dlf-cyber-city-gurgaon",
+        "h1": "Serviced Apartments Near DLF Cyber City, Gurgaon",
+        "subtitle": "Turnkey Executive Residences (5-Min Drive to Cyber Hub & Office Towers)",
+        "intro": "DLF Cyber City is the commercial heartbeat of Gurugram, housing global technology giants, consulting firms, and Fortune 500 regional headquarters. Residences by Sandane Homes provides fully furnished 2BHK and 3BHK luxury serviced apartments situated within a 5-minute drive of Cyber Hub. Featuring high-speed 300 Mbps Wi-Fi, daily 5-star housekeeping, fully loaded kitchens, and direct corporate B2B GST master billing.",
+        "propertyType": "Luxury Corporate Serviced Residences",
+        "location": "DLF Cyber City / MG Road Corridor, Gurugram",
+        "access": "5-Min drive to Cyber Hub, Building 10, Ericsson & Google Towers",
+        "buildingAge": "Modern Luxury High-Rise Gated Societies",
+        "clubhouse": "Swimming Pool, Gymnasium & Executive Lounge Access",
+        "servicesIncluded": "Daily Housekeeping, 300 Mbps Fiber Wi-Fi, 100% DG Power Backup, 24/7 Security & Maintenance",
+        "depositTerms": "Corporate B2B Terms Available",
+        "availableUnits": [
+            {
+                "tower": "Executive Corporate Tower",
+                "floor": "High Floor Skyline View",
+                "bhk": "2BHK / 3BHK",
+                "area": "1,450 to 2,200 sq.ft.",
+                "furnishing": "Turnkey Furnished by Sandane",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "Included in Corporate Tariff",
+                "status": "Available for Corporate Assignment"
+            }
+        ],
+        "whyChooseTitle": "Why Choose Serviced Apartments Near Cyber City with Sandane",
+        "whyChooseItems": [
+            {
+                "title": "5-Minute Commute to Work",
+                "text": "Eliminate traffic delays with immediate access to Cyber Hub and Cyber City office blocks."
+            },
+            {
+                "title": "Full Kitchen & Home Privacy",
+                "text": "Equipped with modular stovetops, microwaves, refrigerators, and RO water purification."
+            },
+            {
+                "title": "Consolidated Corporate Billing",
+                "text": "Direct GST invoicing tailored for corporate travel desks and MNC mobility managers."
+            }
+        ],
+        "commuteTable": [
+            {
+                "destination": "DLF Cyber Hub & Building 10",
+                "time": "5 minutes drive"
+            },
+            {
+                "destination": "MG Road Metro Station",
+                "time": "4 minutes drive"
+            },
+            {
+                "destination": "Delhi IGI Airport (T3)",
+                "time": "18 minutes drive via NH-48"
+            }
+        ],
+        "inclusions": [
+            "Fully furnished 2BHK & 3BHK luxury layouts",
+            "Daily professional housekeeping and fresh linen service",
+            "300 Mbps low-latency fiber internet for global video calls",
+            "Full kitchen with cookware, microwave, and refrigerator",
+            "24/7 Gated security, CCTV monitoring, and DG power backup"
+        ],
+        "faqs": [
+            {
+                "question": "How far are the apartments from DLF Cyber Hub?",
+                "answer": "Our serviced apartments are situated within a 5-minute drive of Cyber Hub and Cyber City office towers."
+            }
+        ],
+        "related": [
+            {
+                "text": "Serviced Apartments Golf Course Road",
+                "link": "/serviced-apartments-golf-course-road-gurgaon"
+            },
+            {
+                "text": "Serviced Apartments DLF Phase 5",
+                "link": "/serviced-apartments-dlf-phase-5-gurgaon"
+            }
+        ]
+    },
+    {
+        "slug": "serviced-apartments-golf-course-road-gurgaon",
+        "metaTitle": "Serviced Apartments Golf Course Road Gurgaon | Sandane Homes",
+        "metaDescription": "Luxury executive serviced apartments on Golf Course Road Gurgaon near One Horizon Center. Fully furnished 2BHK, 3BHK & 4BHK residences for corporate expats.",
+        "canonical": "https://www.sandanehomes.com/serviced-apartments-golf-course-road-gurgaon",
+        "h1": "Serviced Apartments on Golf Course Road, Gurgaon",
+        "subtitle": "Ultra-Luxury Corporate Residences (Near One Horizon Center & Horizon Plaza)",
+        "intro": "Golf Course Road is Gurugram's premier residential and corporate boulevard. Residences by Sandane Homes manages luxury 2BHK, 3BHK, and 4BHK serviced apartments overlooking Golf Course Road, situated moments from One Horizon Center. Designed for senior directors, C-suite executives, and foreign expat families seeking 5-star hospitality, high privacy, and seamless corporate billing.",
+        "propertyType": "Ultra-Luxury Serviced Residences",
+        "location": "Golf Course Road / Sector 54 & 55, Gurugram",
+        "access": "3-Min drive to One Horizon Center & Rapid Metro Stations",
+        "buildingAge": "Ultra-Luxury Gated High-Rise Societies",
+        "clubhouse": "Resort Swimming Pool, Fitness Center & Tennis Courts",
+        "servicesIncluded": "Daily Housekeeping, 300 Mbps Fiber Wi-Fi, 100% DG Power Backup, 24/7 Concierge",
+        "depositTerms": "Corporate B2B Terms Available",
+        "availableUnits": [
+            {
+                "tower": "Golf View Executive Tower",
+                "floor": "High Floor Skyline Residence",
+                "bhk": "3BHK / 4BHK",
+                "area": "2,200 to 3,500 sq.ft.",
+                "furnishing": "Turnkey Luxury Furnishing by Sandane",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "Included in Corporate Tariff",
+                "status": "Available for Executive Stay"
+            }
+        ],
+        "whyChooseTitle": "Why Stay on Golf Course Road with Sandane Homes",
+        "whyChooseItems": [
+            {
+                "title": "Prime Horizon Center Proximity",
+                "text": "3 minutes to Horizon Plaza's financial institutions, fine dining, and corporate hubs."
+            },
+            {
+                "title": "5-Star Expat Amenities",
+                "text": "Japanese rice cookers, water purifiers, daily linen service, and multilingual concierge."
+            },
+            {
+                "title": "Unrivalled Security & Power Backup",
+                "text": "100% uninterrupted DG power backup and multi-tier gated security."
+            }
+        ],
+        "commuteTable": [
+            {
+                "destination": "One Horizon Center & Horizon Plaza",
+                "time": "3 minutes drive"
+            },
+            {
+                "destination": "Sector 54 Rapid Metro Station",
+                "time": "2 minutes walk"
+            },
+            {
+                "destination": "DLF Cyber City",
+                "time": "10 minutes drive"
+            }
+        ],
+        "inclusions": [
+            "Expansive 3BHK & 4BHK luxury floor plans with balconies",
+            "Full turnkey furnishings and continuous housekeeping",
+            "300 Mbps Wi-Fi and dedicated executive work desks",
+            "Full kitchen loaded with appliances and cookware",
+            "B2B corporate invoicing and FRRO paperwork support"
+        ],
+        "faqs": [
+            {
+                "question": "What is the commute time to One Horizon Center?",
+                "answer": "Our Golf Course Road serviced apartments are located 3 minutes by car or walking distance to Sector 54 Rapid Metro."
+            }
+        ],
+        "related": [
+            {
+                "text": "Serviced Apartments Cyber City",
+                "link": "/serviced-apartments-dlf-cyber-city-gurgaon"
+            },
+            {
+                "text": "Serviced Apartments One Horizon Center",
+                "link": "/serviced-apartments-one-horizon-center-gurgaon"
+            }
+        ]
+    },
+    {
+        "slug": "serviced-apartments-dlf-phase-5-gurgaon",
+        "metaTitle": "Serviced Apartments DLF Phase 5 Gurgaon | Sandane Homes",
+        "metaDescription": "Spacious luxury serviced apartments in DLF Phase 5 Gurgaon near Galleria Market & Horizon Plaza. Daily housekeeping, high security & corporate billing.",
+        "canonical": "https://www.sandanehomes.com/serviced-apartments-dlf-phase-5-gurgaon",
+        "h1": "Serviced Apartments in DLF Phase 5, Gurgaon",
+        "subtitle": "Exclusive Serviced Residences Near Galleria Market & Golf Course Road",
+        "intro": "DLF Phase 5 represents the peak of residential luxury in Gurugram, surrounded by tree-lined avenues, top international schools, and premier shopping districts. Residences by Sandane Homes operates luxury 2BHK and 3BHK serviced apartments in DLF Phase 5, offering corporate assignees a quiet residential sanctuary equipped with daily housekeeping, high-speed Wi-Fi, and complete home privacy.",
+        "propertyType": "Luxury Serviced Apartments",
+        "location": "DLF Phase 5, Sector 53/54, Gurugram",
+        "access": "Close to Galleria Market, Supermart & Golf Course Road",
+        "buildingAge": "Modern Premium Gated Complex",
+        "clubhouse": "Private Clubhouse, Gym & Swimming Pool",
+        "servicesIncluded": "Daily Housekeeping, Maintenance, 300 Mbps Wi-Fi, 24/7 Security",
+        "depositTerms": "Corporate B2B Terms Available",
+        "availableUnits": [
+            {
+                "tower": "Phase 5 Executive Tower",
+                "floor": "Mid to High Floor",
+                "bhk": "2BHK / 3BHK",
+                "area": "1,650 to 2,400 sq.ft.",
+                "furnishing": "Turnkey Furnished by Sandane",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "Included in Corporate Tariff",
+                "status": "Available for Corporate Assignment"
+            }
+        ],
+        "whyChooseTitle": "Why Choose DLF Phase 5 with Sandane Homes",
+        "whyChooseItems": [
+            {
+                "title": "Galleria & Horizon Plaza Proximity",
+                "text": "Minutes from Gurugram's finest dining, bakeries, and organic grocery markets."
+            },
+            {
+                "title": "Spacious Floor Plans",
+                "text": "Generous room dimensions, modular kitchens, and private balconies."
+            },
+            {
+                "title": "Expat Community Environment",
+                "text": "Located in high-demand, secure gated societies popular with international assignees."
+            }
+        ],
+        "commuteTable": [
+            {
+                "destination": "Galleria Market",
+                "time": "4 minutes drive"
+            },
+            {
+                "destination": "Golf Course Road Corridor",
+                "time": "3 minutes drive"
+            },
+            {
+                "destination": "Cyber City",
+                "time": "12 minutes drive"
+            }
+        ],
+        "inclusions": [
+            "Fully furnished luxury apartment with attached bathrooms",
+            "Daily professional housekeeping and regular linen change",
+            "300 Mbps fiber Wi-Fi and 100% DG power backup",
+            "Full modular kitchen with refrigerator, microwave, and utensils",
+            "Corporate B2B invoicing and dedicated guest concierge"
+        ],
+        "faqs": [
+            {
+                "question": "Is DLF Phase 5 suitable for long-term expat stays?",
+                "answer": "Yes, DLF Phase 5 is widely considered one of the safest and most expat-friendly residential sectors in Gurugram."
+            }
+        ],
+        "related": [
+            {
+                "text": "Serviced Apartments Golf Course Road",
+                "link": "/serviced-apartments-golf-course-road-gurgaon"
+            },
+            {
+                "text": "Serviced Apartments Cyber City",
+                "link": "/serviced-apartments-dlf-cyber-city-gurgaon"
+            }
+        ]
+    },
+    {
+        "slug": "serviced-apartments-one-horizon-center-gurgaon",
+        "metaTitle": "Serviced Apartments Near One Horizon Center Gurgaon | Sandane Homes",
+        "metaDescription": "Luxury serviced apartments within 3 minutes of One Horizon Center & Horizon Plaza Gurgaon. Ideal for executive long stays, expat directors & consulting teams.",
+        "canonical": "https://www.sandanehomes.com/serviced-apartments-one-horizon-center-gurgaon",
+        "h1": "Serviced Apartments Near One Horizon Center, Gurgaon",
+        "subtitle": "Executive Housing Adjacent to Horizon Plaza Financial & Corporate Hub",
+        "intro": "One Horizon Center is Gurugram's premier corporate address, hosting global investment banks, management consultancies, and MNC regional headquarters. Residences by Sandane Homes provides fully serviced 2BHK and 3BHK executive residences located within 3 minutes of One Horizon Center. Featuring daily 5-star housekeeping, executive workstations, low-latency 300 Mbps Wi-Fi, and consolidated corporate billing.",
+        "propertyType": "Executive Serviced Residence",
+        "location": "Golf Course Road / Adjacent to One Horizon Center, Gurugram",
+        "access": "3-Min drive or short walk to One Horizon Center",
+        "buildingAge": "Modern Ultra-Luxury High-Rise",
+        "clubhouse": "Swimming Pool, Gymnasium & Lounge",
+        "servicesIncluded": "Daily Housekeeping, 300 Mbps Wi-Fi, 100% DG Power Backup, 24/7 Security",
+        "depositTerms": "Corporate B2B Terms Available",
+        "availableUnits": [
+            {
+                "tower": "Horizon Executive Residence",
+                "floor": "High Floor",
+                "bhk": "2BHK / 3BHK",
+                "area": "1,500 to 2,500 sq.ft.",
+                "furnishing": "Turnkey Furnished by Sandane",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "Included in Corporate Tariff",
+                "status": "Available for Executive Assignment"
+            }
+        ],
+        "whyChooseTitle": "Why Stay Near One Horizon Center with Sandane Homes",
+        "whyChooseItems": [
+            {
+                "title": "Walk or 3-Min Drive to Work",
+                "text": "Avoid traffic entirely with immediate access to One Horizon Center and Horizon Plaza."
+            },
+            {
+                "title": "Fine Dining & Networking at Your Doorstep",
+                "text": "Steps away from Horizon Plaza's world-class restaurants, cafes, and executive lounges."
+            },
+            {
+                "title": "Turnkey Corporate Servicing",
+                "text": "Daily housekeeping, fresh linens, executive desk setup, and B2B GST invoicing."
+            }
+        ],
+        "commuteTable": [
+            {
+                "destination": "One Horizon Center & Two Horizon Center",
+                "time": "3 minutes drive"
+            },
+            {
+                "destination": "DLF Cyber Hub",
+                "time": "10 minutes drive"
+            },
+            {
+                "destination": "Delhi IGI Airport (T3)",
+                "time": "22 minutes drive"
+            }
+        ],
+        "inclusions": [
+            "Luxury 2BHK & 3BHK layouts with private balconies",
+            "Daily professional housekeeping and laundry service",
+            "300 Mbps low-latency fiber Wi-Fi and executive workstations",
+            "Full kitchen loaded with microwave, stovetop, refrigerator, and RO water",
+            "Corporate GST billing and 24/7 on-call maintenance engineers"
+        ],
+        "faqs": [
+            {
+                "question": "Can corporate mobility teams book directly for employees?",
+                "answer": "Yes, we specialize in corporate account master billing for MNC mobility desks and relocation consultants."
+            }
+        ],
+        "related": [
+            {
+                "text": "Serviced Apartments Golf Course Road",
+                "link": "/serviced-apartments-golf-course-road-gurgaon"
+            },
+            {
+                "text": "Serviced Apartments Cyber City",
+                "link": "/serviced-apartments-dlf-cyber-city-gurgaon"
+            }
+        ]
+    },
+    {
+        "slug": "serviced-apartments-sohna-road-gurgaon",
+        "metaTitle": "Serviced Apartments Sohna Road Gurgaon | Sandane Homes",
+        "metaDescription": "Serviced apartments near Sohna Road & Sector 48/49 Gurgaon. Fully furnished 2BHK & 3BHK suites close to tech parks, manufacturing hubs & hospitals.",
+        "canonical": "https://www.sandanehomes.com/serviced-apartments-sohna-road-gurgaon",
+        "h1": "Serviced Apartments on Sohna Road, Gurgaon",
+        "subtitle": "Spacious Serviced Residences Near Sector 48, 49 & Tech Parks",
+        "intro": "Sohna Road (Sectors 48, 49, and 50) is a major commercial corridor in Gurugram hosting technology parks, corporate offices, and healthcare centers. Residences by Sandane Homes provides fully furnished 2BHK and 3BHK serviced apartments on Sohna Road, offering business travelers and engineering delegates spacious accommodations with daily housekeeping, high-speed Wi-Fi, and corporate billing.",
+        "propertyType": "Serviced Corporate Apartments",
+        "location": "Sohna Road / Sector 48 & 49, Gurugram",
+        "access": "Close to Vatika Business Park, Spaze ITech Park & Medanta Hospital",
+        "buildingAge": "Modern Gated Community",
+        "clubhouse": "Gymnasium, Swimming Pool & Park Access",
+        "servicesIncluded": "Daily Housekeeping, 300 Mbps Wi-Fi, 100% DG Power Backup, 24/7 Security",
+        "depositTerms": "Corporate B2B Terms Available",
+        "availableUnits": [
+            {
+                "tower": "Sohna Road Executive Tower",
+                "floor": "Mid Floor",
+                "bhk": "2BHK / 3BHK",
+                "area": "1,400 to 2,100 sq.ft.",
+                "furnishing": "Turnkey Furnished by Sandane",
+                "monthlyRent": "available on corporate request (B2B tariff)",
+                "maintenance": "Included in Corporate Tariff",
+                "status": "Available for Extended Stay"
+            }
+        ],
+        "whyChooseTitle": "Why Choose Sohna Road with Sandane Homes",
+        "whyChooseItems": [
+            {
+                "title": "Close to Tech Parks & Business Hubs",
+                "text": "Minutes from Vatika Business Park, Bestech Business Tower, and Spaze iTech Park."
+            },
+            {
+                "title": "Spacious Residential Layouts",
+                "text": "Full-sized 2BHK and 3BHK apartments with living rooms and fully equipped kitchens."
+            },
+            {
+                "title": "Hospital & Airport Access",
+                "text": "Direct connectivity to Medanta The Medicity and Southern Peripheral Road."
+            }
+        ],
+        "commuteTable": [
+            {
+                "destination": "Vatika Business Park & Spaze ITech Park",
+                "time": "4 minutes drive"
+            },
+            {
+                "destination": "Medanta The Medicity",
+                "time": "8 minutes drive"
+            },
+            {
+                "destination": "Golf Course Extension Road",
+                "time": "5 minutes drive"
+            }
+        ],
+        "inclusions": [
+            "Fully furnished 2BHK & 3BHK apartments with attached baths",
+            "Daily professional housekeeping and fresh linen service",
+            "300 Mbps fiber Wi-Fi and 100% DG power backup",
+            "Full kitchen loaded with cooktop, microwave, refrigerator, and crockery",
+            "Corporate B2B invoicing and 24/7 guest support"
+        ],
+        "faqs": [
+            {
+                "question": "Are these apartments suitable for engineering teams on long stays?",
+                "answer": "Yes, our Sohna Road serviced apartments are frequently booked for corporate project teams and visiting technical specialists."
+            }
+        ],
+        "related": [
+            {
+                "text": "Serviced Apartments Golf Course Road",
+                "link": "/serviced-apartments-golf-course-road-gurgaon"
+            },
+            {
+                "text": "Serviced Apartments Cyber City",
+                "link": "/serviced-apartments-dlf-cyber-city-gurgaon"
+            }
+        ]
     }
 ];
 
