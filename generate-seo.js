@@ -218,6 +218,184 @@ const SEO_MAP = {
   }
 };
 
+// ── Gurugram Neighbourhood Hub Pages ──
+SEO_MAP['/gurugram-corporate-housing'] = {
+  title: 'Gurugram Corporate Housing & Serviced Apartments | Sandane Homes',
+  description: 'Premium fully furnished serviced apartments in Gurugram (Gurgaon) — DLF Phase 4, Golf Course Road & Sushant Lok. B2B corporate leasing, Japanese & Korean expat housing, daily housekeeping & 300 Mbps WiFi.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Sandane Homes — Gurugram Corporate Housing",
+      "url": "https://www.sandanehomes.com/gurugram-corporate-housing",
+      "telephone": "+919711722273",
+      "address": { "@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" },
+      "areaServed": ["Gurugram", "Gurgaon", "DLF Phase 4", "Golf Course Road", "Sushant Lok", "Cyber City", "DLF Cyber City"],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Modular Kitchen", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Billing", "value": true }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Gurugram Corporate Housing", "item": "https://www.sandanehomes.com/gurugram-corporate-housing" }
+      ]
+    }
+  ]
+};
+
+SEO_MAP['/gurugram/dlf-phase-4'] = {
+  title: 'Serviced Apartments in DLF Phase 4 Gurgaon | Sector 27 Corporate Stays | Sandane Homes',
+  description: 'Luxury serviced apartments in DLF Phase 4, Sector 27 Gurgaon. Fully furnished 2BHK & 3BHK with daily housekeeping, 300 Mbps WiFi & direct B2B corporate billing. Near DLF Cyber City & Golf Course Road.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "ApartmentComplex",
+      "name": "Sandane Homes — DLF Phase 4 Gurgaon Serviced Apartments",
+      "description": "Fully furnished luxury serviced apartments in DLF Phase 4 (Sector 27-28) Gurgaon.",
+      "url": "https://www.sandanehomes.com/gurugram/dlf-phase-4",
+      "telephone": "+919711722273",
+      "address": { "@type": "PostalAddress", "streetAddress": "DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Gurugram Corporate Housing", "item": "https://www.sandanehomes.com/gurugram-corporate-housing" },
+        { "@type": "ListItem", "position": 3, "name": "DLF Phase 4 Gurgaon", "item": "https://www.sandanehomes.com/gurugram/dlf-phase-4" }
+      ]
+    }
+  ]
+};
+
+SEO_MAP['/gurugram/golf-course-road'] = {
+  title: 'Luxury Serviced Apartments on Golf Course Road Gurgaon | Near Horizon Center | Sandane',
+  description: 'Elite serviced apartments on Golf Course Road, DLF Phase 5 Gurgaon — steps from One Horizon Center, Apple, AMEX & Goldman Sachs. Fully furnished 2BHK/3BHK with 5-star housekeeping, 300 Mbps WiFi & B2B GST billing.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "ApartmentComplex",
+      "name": "Sandane Homes — Golf Course Road Gurgaon Serviced Apartments",
+      "description": "Luxury serviced apartments on Golf Course Road, DLF Phase 5 Gurgaon. Near One Horizon Center, Two Horizon Center & top corporate offices.",
+      "url": "https://www.sandanehomes.com/gurugram/golf-course-road",
+      "telephone": "+919711722273",
+      "address": { "@type": "PostalAddress", "streetAddress": "Golf Course Road, Sector 42-54", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Gurugram Corporate Housing", "item": "https://www.sandanehomes.com/gurugram-corporate-housing" },
+        { "@type": "ListItem", "position": 3, "name": "Golf Course Road Gurgaon", "item": "https://www.sandanehomes.com/gurugram/golf-course-road" }
+      ]
+    }
+  ]
+};
+
+SEO_MAP['/gurugram/sushant-lok'] = {
+  title: 'Serviced Apartments in Sushant Lok Gurgaon | Sector 27-28 Expat Housing | Sandane',
+  description: 'Premium serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon. Safe, quiet residential enclave steps from Galleria Market & MG Road Metro. Fully furnished 2BHK/3BHK with daily housekeeping & B2B billing.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "ApartmentComplex",
+      "name": "Sandane Homes — Sushant Lok Gurgaon Serviced Apartments",
+      "description": "Luxury serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon.",
+      "url": "https://www.sandanehomes.com/gurugram/sushant-lok",
+      "telephone": "+919711722273",
+      "address": { "@type": "PostalAddress", "streetAddress": "Sushant Lok 1, Sector 27-28", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Gurugram Corporate Housing", "item": "https://www.sandanehomes.com/gurugram-corporate-housing" },
+        { "@type": "ListItem", "position": 3, "name": "Sushant Lok Gurgaon", "item": "https://www.sandanehomes.com/gurugram/sushant-lok" }
+      ]
+    }
+  ]
+};
+
+SEO_MAP['/gurugram/japanese-expat-housing'] = {
+  title: 'Japanese Expat Housing in Gurugram (Gurgaon) | 日本人向けサービスアパートメント | Sandane',
+  description: 'Premium serviced apartments for Japanese expats in Gurugram (Gurgaon). Near Honda, Toyota, NTT Data & DLF Cyber City. FRRO Form C support, Japanese amenities, B2B corporate billing. 日本人駐在員向け高級住宅.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  lang: 'ja',
+  hreflang: ['en', 'ja', 'x-default'],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "ApartmentComplex",
+      "name": "Sandane Homes — Japanese Expat Housing Gurugram (Gurgaon)",
+      "description": "Premium fully furnished serviced apartments for Japanese expats in Gurugram. Near Honda, Toyota, NTT Data & DLF Cyber City.",
+      "url": "https://www.sandanehomes.com/gurugram/japanese-expat-housing",
+      "telephone": "+919711722273",
+      "address": { "@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "FRRO Form C Registration", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Japanese Breakfast Options", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Billing", "value": true }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Gurugram Corporate Housing", "item": "https://www.sandanehomes.com/gurugram-corporate-housing" },
+        { "@type": "ListItem", "position": 3, "name": "Japanese Expat Housing Gurugram", "item": "https://www.sandanehomes.com/gurugram/japanese-expat-housing" }
+      ]
+    }
+  ]
+};
+
+SEO_MAP['/gurugram/korean-expat-housing'] = {
+  title: 'Korean Expat Housing in Gurugram (Gurgaon) | 한국인 주재원 아파트 | Sandane Homes',
+  description: 'Premium serviced apartments for Korean expats in Gurugram (Gurgaon). Near Samsung R&D, Hyundai & LG. Korean amenities, FRRO Form C, B2B corporate billing. 삼성, 현대 주재원을 위한 고급 서비스 아파트.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  lang: 'ko',
+  hreflang: ['en', 'ko', 'x-default'],
+  schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "ApartmentComplex",
+      "name": "Sandane Homes — Korean Expat Housing Gurugram (Gurgaon)",
+      "description": "Premium fully furnished serviced apartments for Korean expats in Gurugram. Near Samsung R&D, Hyundai & LG offices.",
+      "url": "https://www.sandanehomes.com/gurugram/korean-expat-housing",
+      "telephone": "+919711722273",
+      "address": { "@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "FRRO Form C Registration", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Korean Amenities", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Billing", "value": true }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Gurugram Corporate Housing", "item": "https://www.sandanehomes.com/gurugram-corporate-housing" },
+        { "@type": "ListItem", "position": 3, "name": "Korean Expat Housing Gurugram", "item": "https://www.sandanehomes.com/gurugram/korean-expat-housing" }
+      ]
+    }
+  ]
+};
+
 // ── Blog: SEO_MAP entries are generated from src/content/blogPosts.js ──
 // Adding a post there automatically produces a static, crawlable page here
 // plus a sitemap.xml entry below — no manual edits needed per post.
@@ -686,7 +864,14 @@ function buildSitemapXml() {
     '/partner-with-us', '/partner',
     '/partner/gurugram-home-owners', '/partner-with-us/gurugram-home-owners',
     '/partner/gurugram-building-owners', '/partner-with-us/gurugram-building-owners',
-    '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs'
+    '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
+    // Gurugram neighbourhood hub pages
+    '/gurugram-corporate-housing',
+    '/gurugram/dlf-phase-4',
+    '/gurugram/golf-course-road',
+    '/gurugram/sushant-lok',
+    '/gurugram/japanese-expat-housing',
+    '/gurugram/korean-expat-housing',
   ];
   mainPages.forEach((route) => {
     const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';

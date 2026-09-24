@@ -21,6 +21,12 @@ import Relocation from './components/pages/Relocation';
 import PartnershipPage from './components/pages/PartnershipPage';
 import GurugramHomeOwnersPartner from './components/pages/GurugramHomeOwnersPartner';
 import GurugramBuildingOwnersPartner from './components/pages/GurugramBuildingOwnersPartner';
+import GurgaonCorporateHousing from './components/pages/GurgaonCorporateHousing';
+import GurugramDLFPhase4 from './components/pages/GurugramDLFPhase4';
+import GurugramGolfCourseRoad from './components/pages/GurugramGolfCourseRoad';
+import GurugramSushantLok from './components/pages/GurugramSushantLok';
+import GurugramJapaneseExpatHousing from './components/pages/GurugramJapaneseExpatHousing';
+import GurugramKoreanExpatHousing from './components/pages/GurugramKoreanExpatHousing';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -86,6 +92,14 @@ function App() {
           <Route path="/sushant-lok-block-b-sector-27-gurgaon" element={<LandingPage slug="sushant-lok-block-b-sector-27-gurgaon" />} />
           <Route path="/dlf-phase-4-sector-27-gurgaon" element={<LandingPage slug="dlf-phase-4-sector-27-gurgaon" />} />
           <Route path="/green-avenue-sector-27-gurgaon" element={<LandingPage slug="green-avenue-sector-27-gurgaon" />} />
+
+          {/* Gurugram Neighbourhood Hub Pages */}
+          <Route path="/gurugram-corporate-housing" element={<GurgaonCorporateHousing />} />
+          <Route path="/gurugram/dlf-phase-4" element={<GurugramDLFPhase4 />} />
+          <Route path="/gurugram/golf-course-road" element={<GurugramGolfCourseRoad />} />
+          <Route path="/gurugram/sushant-lok" element={<GurugramSushantLok />} />
+          <Route path="/gurugram/japanese-expat-housing" element={<GurugramJapaneseExpatHousing />} />
+          <Route path="/gurugram/korean-expat-housing" element={<GurugramKoreanExpatHousing />} />
         </Routes>
         <WhatsAppButton />
       </div>
