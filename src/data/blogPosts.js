@@ -1,5 +1,329 @@
 export const blogPosts = [
   {
+    "slug": "earn-revenue-from-your-house-floor-building",
+    "title": "Earn Revenue from Your House, Floor, or Building: The Definitive Owner's Guide",
+    "metaTitle": "Earn Revenue from Your House, Floor or Building | Sandane Homes",
+    "metaDescription": "Learn how to earn guaranteed monthly revenue from your house, floor, or building in Gurgaon, Noida & Greater Noida. Partner with Sandane Homes with zero maintenance hassle.",
+    "subtitle": "How smart property owners are unlocking 25%–40% higher rental yields by converting residential real estate into corporate serviced suites.",
+    "category": "Property Monetization",
+    "date": "September 25, 2026",
+    "readTime": "10 min read",
+    "author": "Sandane Asset Partnership Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Discover how to earn revenue from your house, floor, or building without tenant hassles, brokerage commissions, or maintenance expenses by partnering with Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "If you own a standalone house, an independent floor, or an entire residential building in Delhi NCR (Gurgaon, Noida, or Greater Noida), you are sitting on high-value real estate. Yet, most landlords face the same frustrating cycle: chasing tenants for delayed rent, paying recurring brokerage fees every 11 months, dealing with vacant months, and bearing unexpected plumbing, painting, and appliance repair bills. Today, property owners are embracing a far smarter strategy: <b>earn revenue from your house / floor / building</b> by partnering with a premium corporate hospitality operator like <b>Sandane Homes</b>."
+      },
+      {
+        "type": "heading",
+        "text": "Why Traditional Renting Fails Property Owners"
+      },
+      {
+        "type": "paragraph",
+        "text": "Traditional residential letting might feel familiar, but a simple audit reveals that landlords lose 20% to 35% of their potential income to hidden costs:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Vacancy Gaps (1-3 Months):</b> Every month your house or floor stands vacant while finding a replacement tenant immediately wipes out 8.3% of your annual return.",
+          "<b>Brokerage Commissions:</b> Paying 15 to 30 days of rental revenue to local agents on every lease renewal eats into your net yield.",
+          "<b>Property Wear-and-Tear:</b> Unvetted residential tenants rarely maintain a home with pride. You end up spending lakhs renovating walls, woodwork, and bathrooms after they leave.",
+          "<b>Payment Friction & Disputes:</b> Awkward monthly reminders, partial payments, and disagreements over security deposit deductions create unnecessary stress."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "The Sandane Homes Solution: Earn with Your Property on Autopilot"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you <b>partner with Sandane Homes</b>, you transition from being an exhausted landlord into an asset owner receiving institutional-grade passive income. We manage corporate serviced residences and boutique hotels for verified Japanese, Korean, and Western expatriates working at Fortune 500 corporations like Honda, Yamaha, Daikin, Toyota, and NTT Data."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Guaranteed Fixed Rent on the 1st:</b> Direct bank transfer on the first day of every month, guaranteed for 3 to 9 years, completely unaffected by occupancy.",
+          "<b>100% Maintenance at Our Expense:</b> Sandane Homes assumes complete operational responsibility for AC servicing, deep cleaning, electrical repairs, and plumbing upkeep.",
+          "<b>Zero Brokerage Fees:</b> You deal directly with our corporate asset management desk — eliminating intermediary costs entirely.",
+          "<b>Pristine Property Upkeep:</b> Daily 5-star housekeeping protocols ensure your marble floors, woodwork, and luxury fittings stay in showroom condition."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Property Types Eligible for Partnership"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Independent Floors:</b> 2BHK, 3BHK, and 4BHK builder floors in DLF Phase 1–5, Golf Course Road, Sushant Lok, and South City Gurgaon.",
+          "<b>Standalone Buildings & Builder Blocks:</b> G+3, G+4, or multi-unit towers across Gurgaon, Noida Expressway, and Greater Noida.",
+          "<b>Luxury Villas & Homestays:</b> Gated community residences in Jaypee Greens, Ansal Golf Links-1, Godrej Golf Link, and Nirvana Country."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Ready to earn revenue from your house, floor, or building? Submit your property details at <a href='/partner-with-us'>Partner With Sandane Homes</a> or contact our acquisition team at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "partner-with-sandane-homes-property-monetization-guide",
+    "title": "Partner with Sandane Homes: How Property Owners Maximize Rental Yields with Zero Hassle",
+    "metaTitle": "Partner with Sandane Homes | Guaranteed Monthly Rental Returns",
+    "metaDescription": "Partner with Sandane Homes to monetize your flat, builder floor, or entire building. Enjoy guaranteed rent on the 1st, 100% property maintenance, and corporate MNC guests.",
+    "subtitle": "The complete roadmap to hands-off real estate passive income across Gurugram, Noida, and Greater Noida.",
+    "category": "Property Partnership",
+    "date": "September 25, 2026",
+    "readTime": "11 min read",
+    "author": "Sandane Real Estate Advisory",
+    "coverImage": "/blog/covers/hotel-suite-6094.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Everything you need to know about how to partner with Sandane Homes — master lease contracts, guaranteed monthly payouts on the 1st, full asset maintenance, and Japanese/Korean MNC corporate tenant profiles.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "When you choose to <b>partner with Sandane Homes</b>, you entrust your valuable property to North India’s leading corporate housing operator. Whether you own a modern luxury flat in Gurugram, an independent builder floor, or a multi-unit residential property in Greater Noida, <b>partner with Sandane</b> to experience predictable wealth creation without the operational headaches of traditional landlording."
+      },
+      {
+        "type": "heading",
+        "text": "How the Sandane Homes Partnership Works"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our corporate master lease model is designed for absolute transparency and financial security. Here is the step-by-step process:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Step 1: Property Assessment:</b> Our hospitality property experts inspect your floor, house, or building to evaluate location, layout, and monetization potential.",
+          "<b>Step 2: Formal Master Lease Proposal:</b> We present you with a competitive fixed-rent contract (or revenue-sharing model) offering 3 to 9 years of guaranteed stability with contractual escalations.",
+          "<b>Step 3: Hotelification & Setup:</b> Sandane Homes handles professional staging, aesthetic enhancements, high-speed fiber installation, and Japanese-friendly amenities.",
+          "<b>Step 4: Consistent 1st-of-the-Month Payments:</b> Your rent is credited directly into your bank account on the 1st of every month without follow-ups or delays.",
+          "<b>Step 5: Professional Asset Management:</b> Our in-house housekeeping, engineering, and concierge staff maintain your asset in pristine condition 365 days a year."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Who Stays in Your Property?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unlike standard rentals where tenant background checks are minimal, Sandane Homes caters exclusively to vetted corporate MNC expatriates. Our guests include senior Japanese engineers from Honda, Yamaha, Daikin, and Denso, Korean executives from Samsung and LG, and global leadership teams attending trade conferences at India Expo Mart."
+      },
+      {
+        "type": "heading",
+        "text": "Comparison: Sandane Homes vs. Traditional Renting"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Rent Predictability:</b> Traditional renting brings vacancy risks and delayed transfers. Sandane Homes guarantees 100% on-time payment on the 1st of every month.",
+          "<b>Repairs & Upkeep:</b> Traditional renting leaves landlords paying for repairs. Sandane Homes covers 100% of routine maintenance, AC servicing, and touch-ups.",
+          "<b>Legal Security:</b> Traditional 11-month leases expose you to tenant overstay risks. Sandane Homes signs a corporate master lease backed by verified company credentials.",
+          "<b>Exit Condition:</b> Traditional tenants leave behind scuffed walls and damaged fittings. Sandane Homes returns your property in equal or better condition than when handed over."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Take the first step to financial freedom. <b><a href='/partner'>Partner with Sandane</a></b> today by visiting our dedicated <a href='/partner-with-us'>Property Partnership Page</a> or writing to B2B@sandanehomes.com."
+      }
+    ]
+  },
+  {
+    "slug": "homestay-club-with-sandane-homes",
+    "title": "Homestay Club with Sandane Homes: Premium Hospitality & Revenue Sharing for Property Owners",
+    "metaTitle": "Homestay Club with Sandane Homes | Premium Property Partnership",
+    "metaDescription": "Join the Homestay Club with Sandane Homes. Transform your luxury house, villa, or boutique floor into a high-earning hospitality asset with 5-star management and verified guests.",
+    "subtitle": "How elite property owners earn superior hospitality yields while preserving complete property pride and asset longevity.",
+    "category": "Homestay Club",
+    "date": "September 25, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Hospitality Desk",
+    "coverImage": "/blog/covers/luxury-suite-7257.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Introducing the Homestay Club with Sandane Homes: a curated network of luxury residences offering property owners profit-sharing, professional hotelification, and premium corporate occupancies.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The travel and corporate mobility landscape in Delhi NCR has transformed. High-net-worth business travelers, international expat families, and visiting C-suite executives are increasingly rejecting soulless corporate hotel rooms in favor of character-rich, ultra-private luxury homes. Enter the <b>Homestay Club with Sandane Homes</b>: an exclusive membership and management tier for property owners who want to monetize their luxury houses, boutique floors, and signature villas."
+      },
+      {
+        "type": "heading",
+        "text": "What is the Homestay Club with Sandane Homes?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The <b>Homestay Club with Sandane Homes</b> bridges the gap between private luxury real estate and five-star hospitality operations. As a member of the club, your property is onboarded into our curated portfolio, receiving professional interior optimization, professional photography, omnichannel corporate distribution, and round-the-clock on-ground hospitality management."
+      },
+      {
+        "type": "heading",
+        "text": "Key Advantages for Property Owners"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Higher Revenue Potential (Up to 40% Premium):</b> By leveraging flexible short-to-medium stay corporate occupancies, members of the Homestay Club earn substantially higher net income than standard 11-month leases.",
+          "<b>Turnkey Hotelification:</b> Our design and hospitality team equips your home with 300-thread-count Egyptian cotton linens, branded organic toiletries, modern aesthetic accents, and Japanese/Korean kitchen amenities.",
+          "<b>Complete Owner Flexibility:</b> Unlike locked annual leases where owners cannot access their own home, our Homestay Club allows owners to block off personal dates for family stays.",
+          "<b>Vetted Expat & Executive Guests:</b> Every booking is pre-screened. We maintain a zero-tolerance policy for loud parties or unauthorized visitors, preserving society harmony.",
+          "<b>Transparent Performance Dashboard:</b> Track occupancy rates, guest feedback, and revenue payouts with complete clarity."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Locations We Are Enrolling in the Homestay Club"
+      },
+      {
+        "type": "paragraph",
+        "text": "We are currently accepting selective applications for the <b>Homestay Club with Sandane Homes</b> across:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Gurugram:</b> Golf Course Road, DLF Phase 1, 2, 4 & 5, Sushant Lok, and Nirvana Country.",
+          "<b>Greater Noida:</b> Jaypee Greens (Golf Villas, Jade Heights), Ansal Golf Links-1, and Godrej Golf Link.",
+          "<b>Noida:</b> Premium builder floors and penthouses along the Noida-Greater Noida Expressway."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Elevate your property into a high-yielding luxury sanctuary. Apply for the <b>Homestay Club with Sandane Homes</b> at <a href='/partner-with-us'>Sandane Homes Partnership</a> or call +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "earn-with-your-floor-building-master-lease",
+    "title": "Earn with Your Floor or Building: Why Landlords Are Choosing Corporate Master Leases",
+    "metaTitle": "Earn with Your Floor or Building | Master Lease Sandane Homes",
+    "metaDescription": "Earn high, predictable returns from your independent floor or residential building. Single master check, zero vacancies, 100% maintenance, and long-term 3-9 year corporate leases.",
+    "subtitle": "Say goodbye to fragmented tenants, late rents, and maintenance headaches across multi-unit properties.",
+    "category": "Building Master Lease",
+    "date": "September 25, 2026",
+    "readTime": "10 min read",
+    "author": "Sandane Corporate Master Lease Desk",
+    "coverImage": "/blog/covers/aesthetic-25.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Own a full builder floor, 3-floor building, or residential block in NCR? Discover how to earn with your floor or building through a single corporate master lease with Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Managing a multi-unit residential property—such as a 3-story builder floor block, a cluster of residential flats, or a full building—is practically a full-time job. You have multiple electricity meters, different tenant renewal dates, recurring brokerage commissions, and endless maintenance complaints. If you want to <b>earn with your floor / building</b> without the chaos, a corporate master lease with <b>Sandane Homes</b> is the gold standard."
+      },
+      {
+        "type": "heading",
+        "text": "The Challenge of Multi-Tenant Floor Management"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you lease 4 or 8 units to individual families or bachelors:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Fragmented Cashflows:</b> One tenant pays on the 5th, another on the 18th, and one defaults entirely. Managing multiple rents wastes hours every month.",
+          "<b>Staggered Vacancies:</b> At any given time, at least one floor is vacant, meaning your building never operates at 100% rental efficiency.",
+          "<b>Common Area Deterioration:</b> Staircases, elevators, facade lighting, and parking slots degrade rapidly because individual tenants have no incentive to care for common spaces.",
+          "<b>Security & Administrative Hassles:</b> Managing individual police verifications, local authority checks, and resident disputes drains your peace of mind."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "How Sandane Homes Transforms Full Floors and Buildings"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you partner with Sandane Homes under a building master lease, we sign a single comprehensive master contract for all units. Here is what changes immediately:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>One Check, Zero Vacancy Risk:</b> You receive a single, guaranteed master rent transfer on the 1st of every month. Whether one unit or all units are occupied, your income remains 100% unaffected.",
+          "<b>Hotel-Standard Maintenance:</b> We place dedicated caretakers, security guards, and daily housekeeping staff on-site. Lift maintenance, facade cleaning, and generator upkeep are handled by our team.",
+          "<b>3 to 9-Year Long-Term Stability:</b> Enjoy locked-in, inflation-hedged yields with institutional legal documentation and structured rent escalations.",
+          "<b>Asset Value Appreciation:</b> By maintaining your building to the standards of an executive boutique hotel, your property value appreciates significantly faster than neglected rental blocks."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Building owners across Gurgaon, Noida, and Greater Noida: discover your building's earning potential at <a href='/partner/gurugram-building-owners'>Gurugram Building Owners Master Lease</a> or call 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
+    "slug": "earn-with-your-property-sandane-homes",
+    "title": "Earn with Your Property: Turn Vacant Flats & Villas into High-Yield Corporate Assets",
+    "metaTitle": "Earn with Your Property | Sandane Homes Partnership",
+    "metaDescription": "Earn with your property by partnering with Sandane Homes. Guaranteed monthly income, verified Japanese and MNC corporate executives, and zero wear-and-tear.",
+    "subtitle": "A practical comparison of traditional residential renting vs partnering with Sandane Homes for executive expat housing.",
+    "category": "Property Monetization",
+    "date": "September 25, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Asset Partnership Desk",
+    "coverImage": "/blog/covers/luxury-suite-7254.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Looking to earn with your property? Learn why smart landlords across Gurgaon and Noida are moving away from traditional tenant agreements to partner with Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Your residential property represents one of the largest capital investments of your life. Whether it is an apartment in a high-rise condominium, a builder floor in a prime sector, or a villa in a golf resort, it should deliver consistent, stress-free financial returns. If you want to genuinely <b>earn with your property</b>, traditional 11-month residential leases are no longer the most profitable or secure vehicle. Discover why leading owners <b>partner with Sandane</b>."
+      },
+      {
+        "type": "heading",
+        "text": "The Real Cost of Being an Independent Landlord"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask any property owner who has managed tenants for more than 5 years about their experience, and you will hear consistent grievances:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Tenant Turnover:</b> Finding new tenants every year means paying brokerage, re-painting walls, and losing 1–2 months of rent.",
+          "<b>Wear and Tear:</b> Typical residential tenants treat rental properties casually. Broken tiles, stained countertops, and clogged plumbing eat into security deposits.",
+          "<b>Late Payments:</b> The uncomfortable ritual of following up for rent transfers every month.",
+          "<b>Time Sink:</b> Spending your precious weekends coordinating plumber visits, AC technicians, and carpentry fixes."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "How You Earn More by Partnering with Sandane Homes"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you <b>partner with Sandane Homes</b>, we convert your vacant or underperforming property into an executive serviced residence catering to international expatriates and corporate leadership teams."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Fixed, Guaranteed Monthly Income:</b> Timely, predictable payouts credited on the 1st of every month without follow-ups.",
+          "<b>Zero Wear-and-Tear:</b> Because our properties are serviced daily by professional housekeeping staff, dirt and grime never accumulate. Your property stays in showroom condition.",
+          "<b>Complete Legal Peace of Mind:</b> Transparent corporate contracts registered with clear operational parameters and corporate indemnification.",
+          "<b>Expat Guest Quality:</b> Occupants are corporate assignees from Fortune 500 Japanese and Korean corporations whose accommodation is sponsored by their employers."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Get Started Today"
+      },
+      {
+        "type": "paragraph",
+        "text": "Whether you have a 2BHK flat in DLF Phase 4, a 3BHK in Jaypee Greens, or a luxury floor in Sushant Lok, our team is ready to evaluate your asset and provide a guaranteed master lease offer within 48 hours."
+      },
+      {
+        "type": "callout",
+        "text": "Ready to <b>earn with your property</b>? Visit <a href='/partner/gurugram-home-owners'>Gurugram Home Owners Partnership</a> or contact our partnership team directly at 📞 +91 97117 22273."
+      }
+    ]
+  },
+  {
     "slug": "monetize-commercial-builder-floors-serviced-apartments-gurgaon",
     "title": "Monetize Independent Floors & Builder Blocks in Gurgaon with Corporate Master Leases",
     "metaTitle": "Monetize Builder Floors & Blocks Gurgaon | Sandane Homes",
