@@ -27,6 +27,8 @@ import GurugramGolfCourseRoad from './components/pages/GurugramGolfCourseRoad';
 import GurugramSushantLok from './components/pages/GurugramSushantLok';
 import GurugramJapaneseExpatHousing from './components/pages/GurugramJapaneseExpatHousing';
 import GurugramKoreanExpatHousing from './components/pages/GurugramKoreanExpatHousing';
+import JapaneseCompanyHousing from './components/pages/JapaneseCompanyHousing';
+import { japaneseCompanies } from './data/japaneseCompanies';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -100,6 +102,11 @@ function App() {
           <Route path="/gurugram/sushant-lok" element={<GurugramSushantLok />} />
           <Route path="/gurugram/japanese-expat-housing" element={<GurugramJapaneseExpatHousing />} />
           <Route path="/gurugram/korean-expat-housing" element={<GurugramKoreanExpatHousing />} />
+
+          {/* Dedicated Japanese MNC Expat Housing Pages (Gurugram & Noida) */}
+          {japaneseCompanies.map((c) => (
+            <Route key={c.slug} path={`/${c.slug}`} element={<JapaneseCompanyHousing slug={c.slug} />} />
+          ))}
         </Routes>
         <WhatsAppButton />
       </div>

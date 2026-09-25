@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { blogPosts } from './src/data/blogPosts.js';
 import { landingPages } from './src/data/landingPages.js';
+import { japaneseCompanies } from './src/data/japaneseCompanies.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -571,6 +572,71 @@ landingPages.forEach((page) => {
   };
 });
 
+// ── Dedicated Japanese MNC Company Expat Housing Pages ──
+japaneseCompanies.forEach((comp) => {
+  const isGurgaon = comp.city.toLowerCase().includes('gurugram') || comp.city.toLowerCase().includes('gurgaon');
+  const parentUrl = isGurgaon ? `${BASE_URL}/gurugram/japanese-expat-housing` : `${BASE_URL}/japanese-expat-housing-delhi-ncr`;
+  const parentName = isGurgaon ? 'Gurugram Japanese Expat Housing' : 'Japanese Expat Housing Delhi NCR';
+  const canonicalUrl = `${BASE_URL}/${comp.slug}`;
+
+  const schemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ApartmentComplex",
+      "name": `Sandane Homes — Serviced Housing for ${comp.companyName}`,
+      "description": comp.metaDescription,
+      "url": canonicalUrl,
+      "telephone": "+919711722273",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": comp.city,
+        "addressRegion": isGurgaon ? "Haryana" : "Uttar Pradesh",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Japanese Breakfast Options", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "FRRO Form C Registration", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Invoicing", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Private Chauffeur Fleet", "value": true }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
+        { "@type": "ListItem", "position": 2, "name": parentName, "item": parentUrl },
+        { "@type": "ListItem", "position": 3, "name": `${comp.shortName} Expat Housing`, "item": canonicalUrl }
+      ]
+    }
+  ];
+
+  if (comp.faqs && comp.faqs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": comp.faqs.map((faq) => ({
+        "@type": "Question",
+        "name": faq.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.a
+        }
+      }))
+    });
+  }
+
+  SEO_MAP[`/${comp.slug}`] = {
+    title: comp.metaTitle,
+    description: comp.metaDescription,
+    ogImage: `${BASE_URL}/residences-og.jpg`,
+    lang: 'ja',
+    hreflang: ['en', 'ja', 'x-default'],
+    schemas
+  };
+});
+
 const distPath = path.join(__dirname, 'dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 
@@ -896,6 +962,11 @@ function buildSitemapXml() {
     xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   });
 
+  // Japanese MNC Company Housing Pages
+  japaneseCompanies.forEach((comp) => {
+    xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.85</priority>\n  </url>\n`;
+  });
+
   xml += `</urlset>\n`;
   return xml;
 }
@@ -907,6 +978,6 @@ const publicSitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
 if (fs.existsSync(path.dirname(publicSitemapPath))) {
   fs.writeFileSync(publicSitemapPath, finalSitemapXml, 'utf8');
 }
-console.log(`Generated high-priority sitemap.xml with ${blogPosts.length} blog posts and ${landingPages.length} landing pages!`);
+console.log(`Generated high-priority sitemap.xml with ${blogPosts.length} blog posts, ${landingPages.length} landing pages, and ${japaneseCompanies.length} Japanese company pages!`);
 
 console.log('Post-build SEO generation complete!');
