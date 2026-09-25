@@ -845,6 +845,78 @@ export const japaneseCompanies = [
         a: 'The Kasna plant is approximately 8 km away, taking only 12 to 15 minutes by car via the wide expressway network.'
       }
     ]
+  },
+  {
+    slug: 'housing-for-daikin-employees-noida',
+    companyName: 'Daikin Airconditioning India (Noida & Greater Noida)',
+    shortName: 'Daikin Noida',
+    japaneseName: 'ダイキン工業（Daikin India ノイダ）',
+    city: 'Noida / Greater Noida',
+    area: 'Sector 62/63 Commercial & Technical Hub',
+    commuteTime: '15–20 minutes via Noida Expressway',
+    recommendedSocieties: 'Jaypee Greens & Ansal Golf Links-1',
+    heroTag: '🇯🇵 Daikin Noida Expat Housing · ダイキン・ノイダ駐在員住宅',
+    h1: 'Executive Serviced Housing for Daikin India in Noida',
+    japaneseH1: 'ダイキン工業（Daikin）日本人駐在員・技術者向けサービスアパートメント',
+    leadText: 'Luxury furnished serviced apartments in Jaypee Greens and Ansal Golf Links for Daikin Airconditioning India engineers, branch leadership, and HVAC technical trainers in Noida.',
+    metaTitle: 'Housing for Daikin Employees in Noida | ダイキン日本人住宅 | Sandane',
+    metaDescription: 'Serviced apartments for Daikin Airconditioning India expats in Noida & Greater Noida. Near Sector 62/63. Housekeeping, FRRO Form C, B2B corporate billing.',
+    whyChooseTitle: 'Why Daikin Professionals Select Residences by Sandane Homes in Noida',
+    officeLocation: 'Daikin Regional Hub & Solution Plaza, Sector 63 / Sector 62, Noida',
+    japaneseIntro: 'ダイキン工業（Daikin Airconditioning India）ノイダ拠点および周辺プロジェクトに携わる日本人駐在員・技術者の皆様へ。ノイダ高速道路直結のJaypee GreensおよびAnsal Golf Links-1にて、安全で静かな日本仕様の住空間をご案内します。',
+    highlights: [
+      'Fast connectivity to Sector 62 & 63 via the uninterrupted Noida Expressway',
+      'Peaceful gated golf societies with 24/7 security and zero street noise',
+      'Direct GST corporate billing to Daikin Airconditioning India Pvt. Ltd.',
+      'Prompt FRRO Form C registration processing within 24 hours of arrival',
+      'Japanese rice cookers, filtered RO water, and high-speed fiber internet'
+    ],
+    faqs: [
+      {
+        q: 'How long is the commute to Daikin\'s Noida offices from Jaypee Greens?',
+        a: 'The commute to Sector 62/63 takes approximately 18 to 22 minutes via the direct 6-lane Noida-Greater Noida Expressway.'
+      },
+      {
+        q: 'Can Daikin corporate accounting be billed directly for long-stay assignees?',
+        a: 'Yes, we provide itemized, GST-compliant corporate invoices directly to Daikin Airconditioning India Pvt. Ltd., eliminating employee reimbursement friction.'
+      }
+    ]
+  },
+  {
+    slug: 'housing-for-daikin-employees',
+    companyName: 'Daikin Airconditioning India (Delhi NCR)',
+    shortName: 'Daikin India',
+    japaneseName: 'ダイキン工業（Daikin Airconditioning India）',
+    city: 'Gurugram & Noida NCR',
+    area: 'DLF Cyber City, Sector 32 & Noida Corridor',
+    commuteTime: '10–20 minutes to Gurugram & Noida facilities',
+    recommendedSocieties: 'DLF Phase 4, Golf Course Road & Jaypee Greens',
+    heroTag: '🇯🇵 Daikin Expat Housing · ダイキン駐在員向け住宅',
+    h1: 'Corporate Serviced Housing for Daikin India Expats in NCR',
+    japaneseH1: 'ダイキン工業（Daikin）日本人駐在員・出張者向けサービスアパートメント',
+    leadText: 'Premium furnished serviced residences for Daikin Airconditioning India leadership, project managers, and technical specialists stationed in Gurugram, Noida, and the NCR corridor.',
+    metaTitle: 'Housing for Daikin Employees in Delhi NCR | ダイキン日本人駐在員住宅 | Sandane',
+    metaDescription: 'Luxury serviced apartments for Daikin Airconditioning India expats in Gurugram & Noida. Direct access to Cyber City & Neemrana. Daily housekeeping, FRRO Form C, B2B billing.',
+    whyChooseTitle: 'Why Daikin Expats Choose Sandane Homes Across Delhi NCR',
+    officeLocation: 'DLF Cyber City Gurugram, Sector 32 & Sector 63 Noida Corridor',
+    japaneseIntro: 'ダイキン工業（Daikin Airconditioning India）の日本人駐在員・長期出張者の皆様へ。グルガオン（DLF Phase 4、ゴルフコースロード）およびノイダ（Jaypee Greens）にて、日系企業基準の最高品質サービスアパートメントをご提供いたします。',
+    highlights: [
+      'Strategic locations across both Gurugram (Cyber City / Neemrana route) and Noida corridors',
+      'Advanced climate control, Japanese rice cookers, and 100% power backup',
+      'Direct B2B corporate billing to Daikin Airconditioning India Pvt. Ltd.',
+      'Complete FRRO Form C registration handling by our dedicated Japan desk',
+      'Daily housekeeping, linen sanitization, and flexible 1-month to multi-year corporate leases'
+    ],
+    faqs: [
+      {
+        q: 'Does Sandane Homes have properties near both Daikin Gurugram and Daikin Noida locations?',
+        a: 'Yes. In Gurugram, our DLF Phase 4 and Golf Course Road properties are 10 minutes from DLF Cyber City. In Greater Noida/Noida, our Jaypee Greens and Ansal Golf Links properties provide fast expressway access to Sector 62/63.'
+      },
+      {
+        q: 'How does Sandane Homes accommodate Daikin engineers traveling to the Neemrana factory?',
+        a: 'Our Gurugram apartments offer direct, fast highway access onto NH-48, saving 30+ minutes compared to central Delhi, making them ideal for managers splitting time between NCR offices and Neemrana.'
+      }
+    ]
   }
 ];
 

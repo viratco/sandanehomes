@@ -306,17 +306,14 @@ const JapaneseExpatHousing = () => {
                 padding: '90px 20px', color: 'white'
             }}>
                 <div style={{ maxWidth: '860px', margin: '0 auto', textAlign: 'center' }}>
-                    <p style={{
-                        fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase',
-                        color: '#C5A572', fontWeight: '700', marginBottom: '16px'
-                    }}>
+                    <p style={{ fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '700', marginBottom: '16px' }}>
                         日本語でのご案内
                     </p>
                     <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '36px', marginBottom: '40px', lineHeight: '1.25' }}>
                         日本人駐在員向け プレミアム・サービスアパートメント
                     </h2>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
-                        ホンダ（Honda Motorcycle and Scooter India）、ヤマハ（Yamaha Motor India）、および関連企業でご勤務される日本人駐在員の皆様へ。Sandane Homesは、グレーター・ノイダにおいて最高水準の安全性、清潔さ、そして快適さを備えた高級サービスアパートメントをご提供しております。
+                        ホンダ（Honda）、ヤマハ（Yamaha）、ダイキン（Daikin）、デンソー（Denso）、積水化学（Sekisui）および日系企業各社でご勤務される日本人駐在員の皆様へ。Sandane Homesは、グレーター・ノイダおよびノイダにおいて最高水準の安全性、清潔さ、そして快適さを備えた高級サービスアパートメントをご提供しております。
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
                         当施設は、Jaypee GreensやAnsal Golf Linksといった厳重なセキュリティ管理がなされた高級住宅街の中に位置しており、日本のご家族でも安心して暮らすことができます。すべてのアパートメントには、モダンな家具、自炊に便利なフル設備のキッチン、高速Wi-Fi、そして日本人のお客様に高く評価されている徹底した毎日のハウスキーピングサービスが完備されています。面倒な光熱費の手続きや家具の購入は一切不要で、ご到着初日から快適な生活をスタートできます。
@@ -324,6 +321,25 @@ const JapaneseExpatHousing = () => {
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
                         工場への通勤も至便であり、デリー市内やグルガオンからの渋滞に悩まされることなく、毎日の通勤時間を大幅に短縮できます。また、法人契約、企業様への直接請求、外国人登録（FRRO）のサポートなど、人事ご担当者様および駐在員様の負担を軽減する包括的なサービスをご用意しております。詳細につきましては、WhatsAppにてお気軽にお問い合わせください。
                     </p>
+                    
+                    {/* Dedicated Company Links */}
+                    <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '36px' }}>
+                        {[
+                            { name: 'Daikin (ダイキン)', to: '/housing-for-daikin-employees-noida' },
+                            { name: 'Honda (ホンダ)', to: '/housing-for-honda-employees-noida' },
+                            { name: 'Yamaha (ヤマハ)', to: '/housing-for-yamaha-employees-greater-noida' },
+                            { name: 'Denso (デンソー)', to: '/housing-for-denso-employees-noida' },
+                            { name: 'Sekisui (積水化学)', to: '/housing-for-sekisui-employees-greater-noida' },
+                            { name: 'Brother (ブラザー)', to: '/housing-for-brother-industries-employees-noida' },
+                            { name: 'Kubota (クボタ)', to: '/housing-for-kubota-employees-greater-noida' },
+                            { name: 'Epson (エプソン)', to: '/housing-for-epson-employees-noida' },
+                        ].map((c, i) => (
+                            <Link key={i} to={c.to} style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(197,165,114,0.4)', color: '#C5A572', padding: '6px 16px', borderRadius: '20px', textDecoration: 'none', fontSize: '13px', fontWeight: '600' }}>
+                                🇯🇵 {c.name}
+                            </Link>
+                        ))}
+                    </div>
+
                     <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <Link
                             to="/residences"

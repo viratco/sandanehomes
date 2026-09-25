@@ -104,6 +104,10 @@ function App() {
           <Route path="/gurugram/korean-expat-housing" element={<GurugramKoreanExpatHousing />} />
 
           {/* Dedicated Japanese MNC Expat Housing Pages (Gurugram & Noida) */}
+          <Route path="/housing-for-daikin-employees-gurgaon" element={<JapaneseCompanyHousing slug="housing-for-daikin-employees-gurgaon" />} />
+          <Route path="/housing-for-daikin-employees-noida" element={<JapaneseCompanyHousing slug="housing-for-daikin-employees-noida" />} />
+          <Route path="/housing-for-daikin-employees" element={<JapaneseCompanyHousing slug="housing-for-daikin-employees" />} />
+
           {japaneseCompanies.map((c) => (
             <Route key={c.slug} path={`/${c.slug}`} element={<JapaneseCompanyHousing slug={c.slug} />} />
           ))}
