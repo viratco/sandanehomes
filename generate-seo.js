@@ -216,6 +216,42 @@ const SEO_MAP = {
         ]
       }
     ]
+  },
+  '/chinese-expat-housing-greater-noida': {
+    title: 'Chinese Expat Housing Greater Noida | Serviced Apartments Near India Expo Mart | 大诺伊达中国外籍人士住房',
+    description: 'Premium serviced apartments in Greater Noida for Chinese expats and business delegations. Near India Expo Mart. FRRO support, WeChat assistance, wok kitchen, air purifiers. 大诺伊达中国外籍人士高级服务公寓。',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+    lang: 'zh',
+    hreflang: ['en', 'zh', 'zh-CN', 'x-default'],
+    schemas: [
+      {
+        "@context": "https://schema.org",
+        "@type": "ApartmentComplex",
+        "name": "Sandane Homes — Chinese Expat Housing Greater Noida",
+        "description": "Premium fully furnished serviced apartments for Chinese expats in Greater Noida. Near India Expo Mart, Yamuna Expressway industrial zones, and Greater Noida business hubs.",
+        "url": "https://www.sandanehomes.com/chinese-expat-housing-greater-noida",
+        "telephone": "+919711722273",
+        "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" },
+        "amenityFeature": [
+          { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen with Gas Stove", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "24/7 Security", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Power Backup", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "Air Purifiers", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "FRRO Documentation Support", "value": true },
+          { "@type": "LocationFeatureSpecification", "name": "WeChat Support", "value": true }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Chinese Expat Housing Greater Noida", "item": "https://www.sandanehomes.com/chinese-expat-housing-greater-noida" }
+        ]
+      }
+    ]
   }
 };
 
@@ -913,6 +949,21 @@ const highPrioritySlugs = [
   'serviced-apartments-greater-noida',
   'korean-expat-housing-delhi-ncr',
   'japanese-expat-housing-delhi-ncr',
+  'chinese-expat-housing-greater-noida',
+  'gurugram-corporate-housing',
+  'gurugram/dlf-phase-4',
+  'gurugram/golf-course-road',
+  'gurugram/sushant-lok',
+  'gurugram/japanese-expat-housing',
+  'gurugram/korean-expat-housing',
+  'earn-revenue-from-your-house-floor-building',
+  'partner-with-sandane-homes-property-monetization-guide',
+  'homestay-club-with-sandane-homes',
+  'earn-with-your-floor-building-master-lease',
+  'earn-with-your-property-sandane-homes',
+  'housing-for-daikin-employees',
+  'housing-for-daikin-employees-noida',
+  'housing-for-daikin-employees-gurgaon',
   'residences'
 ];
 
@@ -931,6 +982,11 @@ function buildSitemapXml() {
     '/partner/gurugram-home-owners', '/partner-with-us/gurugram-home-owners',
     '/partner/gurugram-building-owners', '/partner-with-us/gurugram-building-owners',
     '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
+    // Core Serviced Apartments & Expat Hubs
+    '/serviced-apartments-greater-noida',
+    '/korean-expat-housing-delhi-ncr',
+    '/japanese-expat-housing-delhi-ncr',
+    '/chinese-expat-housing-greater-noida',
     // Gurugram neighbourhood hub pages
     '/gurugram-corporate-housing',
     '/gurugram/dlf-phase-4',
@@ -938,6 +994,10 @@ function buildSitemapXml() {
     '/gurugram/sushant-lok',
     '/gurugram/japanese-expat-housing',
     '/gurugram/korean-expat-housing',
+    // Daikin Hub Aliases
+    '/housing-for-daikin-employees',
+    '/housing-for-daikin-employees-gurgaon',
+    '/housing-for-daikin-employees-noida'
   ];
   mainPages.forEach((route) => {
     const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';

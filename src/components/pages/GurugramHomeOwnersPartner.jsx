@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -301,6 +302,77 @@ const GurugramHomeOwnersPartner = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Property Owner Guides & Resources */}
+      <section style={{ padding: '70px 20px', backgroundColor: '#0B1120', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+        <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>KNOWLEDGE BASE</span>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: '28px', color: '#FFF', marginTop: '8px' }}>
+              Guides for Gurugram Property Owners
+            </h2>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
+            {[
+              {
+                title: 'Earn Revenue from Your House, Floor, or Building',
+                desc: 'How landlords in Gurgaon unlock 25%-40% higher yields with zero maintenance hassle.',
+                url: '/blog/earn-revenue-from-your-house-floor-building'
+              },
+              {
+                title: 'Partner with Sandane Homes: Complete Roadmap',
+                desc: 'Step-by-step onboarding, guaranteed fixed rent on the 1st, and expat tenant profiles.',
+                url: '/blog/partner-with-sandane-homes-property-monetization-guide'
+              },
+              {
+                title: 'Homestay Club with Sandane Homes',
+                desc: 'Transform luxury villas and boutique floors into high-yielding hospitality assets.',
+                url: '/blog/homestay-club-with-sandane-homes'
+              },
+              {
+                title: 'Earn with Your Floor or Building Master Lease',
+                desc: 'Why owners of multi-unit buildings choose a single master lease over local tenants.',
+                url: '/blog/earn-with-your-floor-building-master-lease'
+              },
+              {
+                title: 'Earn with Your Property: Expat Serviced Suites',
+                desc: 'Comparing traditional residential renting vs partnering with Sandane Homes.',
+                url: '/blog/earn-with-your-property-sandane-homes'
+              },
+              {
+                title: 'Building Owners Master Lease Program',
+                desc: 'Single master check for entire 4-10 floor residential blocks across Gurgaon.',
+                url: '/partner/gurugram-building-owners'
+              }
+            ].map((g, i) => (
+              <Link
+                key={i}
+                to={g.url}
+                style={{
+                  display: 'block',
+                  padding: '24px',
+                  backgroundColor: '#1E293B',
+                  borderRadius: '14px',
+                  border: '1px solid rgba(197,165,114,0.2)',
+                  textDecoration: 'none',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                <h3 style={{ fontSize: '16px', color: '#FFF', margin: '0 0 10px', fontWeight: '600', lineHeight: '1.4' }}>
+                  {g.title}
+                </h3>
+                <p style={{ fontSize: '13px', color: '#94A3B8', margin: '0 0 16px', lineHeight: '1.6' }}>
+                  {g.desc}
+                </p>
+                <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+                  Read Guide <FaArrowRight size={10} />
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

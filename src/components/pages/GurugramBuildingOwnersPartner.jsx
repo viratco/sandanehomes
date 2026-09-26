@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -487,6 +488,77 @@ const GurugramBuildingOwnersPartner = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Building Master Lease & Owner Guides */}
+      <section style={{ padding: '70px 20px', backgroundColor: '#0B1120', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+        <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>KNOWLEDGE BASE</span>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: '28px', color: '#FFF', marginTop: '8px' }}>
+              Guides for Building & Multi-Floor Owners
+            </h2>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px' }}>
+            {[
+              {
+                title: 'Earn with Your Floor or Building Master Lease',
+                desc: 'How landlords in Gurgaon, Noida & NCR replace fragmented tenants with one master check.',
+                url: '/blog/earn-with-your-floor-building-master-lease'
+              },
+              {
+                title: 'Earn Revenue from Your House, Floor, or Building',
+                desc: 'Comprehensive financial comparison of master lease yields vs traditional 11-month rentals.',
+                url: '/blog/earn-revenue-from-your-house-floor-building'
+              },
+              {
+                title: 'Partner with Sandane Homes: Complete Master Lease Guide',
+                desc: '3 to 9-year institutional leases, maintenance coverage, and Fortune 500 expat tenants.',
+                url: '/blog/partner-with-sandane-homes-property-monetization-guide'
+              },
+              {
+                title: 'Homestay Club with Sandane Homes',
+                desc: 'Turn luxury builder blocks and villas into managed boutique homestays with up to 40% higher returns.',
+                url: '/blog/homestay-club-with-sandane-homes'
+              },
+              {
+                title: 'Earn with Your Property: Expat Serviced Suites',
+                desc: 'Guaranteed 1st-of-the-month wire transfers and zero day-to-day property management stress.',
+                url: '/blog/earn-with-your-property-sandane-homes'
+              },
+              {
+                title: 'Gurugram Home Owners Partnership',
+                desc: 'Monetize individual 2BHK, 3BHK, or 4BHK apartments in DLF, Golf Course Road & Sushant Lok.',
+                url: '/partner/gurugram-home-owners'
+              }
+            ].map((g, i) => (
+              <Link
+                key={i}
+                to={g.url}
+                style={{
+                  display: 'block',
+                  padding: '24px',
+                  backgroundColor: '#1E293B',
+                  borderRadius: '14px',
+                  border: '1px solid rgba(197,165,114,0.2)',
+                  textDecoration: 'none',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                <h3 style={{ fontSize: '16px', color: '#FFF', margin: '0 0 10px', fontWeight: '600', lineHeight: '1.4' }}>
+                  {g.title}
+                </h3>
+                <p style={{ fontSize: '13px', color: '#94A3B8', margin: '0 0 16px', lineHeight: '1.6' }}>
+                  {g.desc}
+                </p>
+                <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
+                  Read Guide <FaArrowRight size={10} />
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

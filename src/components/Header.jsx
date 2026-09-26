@@ -175,6 +175,9 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                     <div className="dropdown-container">
                                         <ul className="dropdown-list">
                                             <li><Link to="/residences" onClick={() => setIsMobileMenuOpen(false)}>RESIDENCES BY SANDANE</Link></li>
+                                            <li><Link to="/gurugram-corporate-housing" onClick={() => setIsMobileMenuOpen(false)}>GURUGRAM CORPORATE HOUSING</Link></li>
+                                            <li><Link to="/gurugram/japanese-expat-housing" onClick={() => setIsMobileMenuOpen(false)}>JAPANESE EXPAT HOUSING</Link></li>
+                                            <li><Link to="/serviced-apartments-greater-noida" onClick={() => setIsMobileMenuOpen(false)}>GREATER NOIDA APARTMENTS</Link></li>
                                             <li><Link to="/residences/relocation" onClick={() => setIsMobileMenuOpen(false)}>RELOCATION SERVICES</Link></li>
                                             <li><Link to="/partner-with-us" onClick={() => setIsMobileMenuOpen(false)}>PARTNER WITH US (MONETIZE)</Link></li>
                                         </ul>

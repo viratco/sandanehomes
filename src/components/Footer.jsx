@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isResidences = false }) => {
@@ -332,33 +333,90 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
             </div>
             )}
 
-            {/* Sitewide links to key landing pages */}
-            <div style={{ borderTop: '1px solid #e8e8e8', padding: '28px 20px', textAlign: 'center' }}>
-                <nav style={{
-                    display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
-                    gap: '12px 28px', maxWidth: '1000px', margin: '0 auto',
-                    fontSize: '13px', letterSpacing: '0.5px'
-                }}>
-                    {[
-                        ['Partner With Us (Monetize Property)', '/partner-with-us'],
-                        ['Serviced Apartments Greater Noida', '/serviced-apartments-greater-noida'],
-                        ['Korean Expat Housing Delhi NCR', '/korean-expat-housing-delhi-ncr'],
-                        ['Japanese Expat Housing Greater Noida', '/japanese-expat-housing-delhi-ncr'],
-                        ['Blog', '/blog'],
-                        ['Residences', '/residences'],
-                        ['FAQs', '/faqs'],
-                    ].map(([label, href]) => (
-                        <a
-                            key={href}
-                            href={href}
-                            style={{ color: '#888', textDecoration: 'none', transition: 'color 0.3s' }}
-                            onMouseOver={(e) => e.currentTarget.style.color = '#C5A572'}
-                            onMouseOut={(e) => e.currentTarget.style.color = '#888'}
-                        >
-                            {label}
-                        </a>
-                    ))}
-                </nav>
+            {/* Sitewide Comprehensive SEO & Navigation Directory */}
+            <div style={{ backgroundColor: '#14201C', color: '#fff', borderTop: '1px solid rgba(197,165,114,0.3)', padding: '60px 20px 40px' }}>
+                <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '40px', textAlign: 'left', marginBottom: '45px' }}>
+                    
+                    {/* Column 1: Boutique Hotels & Flagship Stays */}
+                    <div>
+                        <h4 style={{ color: '#C5A572', fontSize: '13px', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: '700', marginBottom: '18px' }}>
+                            Boutique Hotels & Stays
+                        </h4>
+                        <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+                            <li><Link to="/sandane-homes" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Sandane Homes Flagship</Link></li>
+                            <li><Link to="/residences" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Residences by Sandane Homes</Link></li>
+                            <li><Link to="/amara" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Amara Inn by Sandane Homes</Link></li>
+                            <li><Link to="/amaaltash" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Amaaltash by Sandane Homes</Link></li>
+                            <li><Link to="/glam" style={{ color: '#D0C5B0', textDecoration: 'none' }}>The Glam by Sandane Homes</Link></li>
+                            <li><Link to="/coco-house" style={{ color: '#D0C5B0', textDecoration: 'none' }}>CoCo House</Link></li>
+                            <li><Link to="/residences/relocation" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Corporate Relocation Services</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Column 2: Corporate & Expat Housing */}
+                    <div>
+                        <h4 style={{ color: '#C5A572', fontSize: '13px', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: '700', marginBottom: '18px' }}>
+                            Corporate & Expat Housing
+                        </h4>
+                        <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+                            <li><Link to="/gurugram-corporate-housing" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Corporate Housing</Link></li>
+                            <li><Link to="/gurugram/dlf-phase-4" style={{ color: '#D0C5B0', textDecoration: 'none' }}>DLF Phase 4 Serviced Apartments</Link></li>
+                            <li><Link to="/gurugram/golf-course-road" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Golf Course Road Luxury Suites</Link></li>
+                            <li><Link to="/gurugram/sushant-lok" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Sushant Lok Corporate Stays</Link></li>
+                            <li><Link to="/gurugram/japanese-expat-housing" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Japanese Expat Housing</Link></li>
+                            <li><Link to="/gurugram/korean-expat-housing" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Korean Expat Housing</Link></li>
+                            <li><Link to="/serviced-apartments-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Greater Noida Serviced Apartments</Link></li>
+                            <li><Link to="/japanese-expat-housing-delhi-ncr" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Japanese Expat Housing NCR</Link></li>
+                            <li><Link to="/korean-expat-housing-delhi-ncr" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Korean Expat Housing NCR</Link></li>
+                            <li><Link to="/chinese-expat-housing-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Chinese Expat Housing Greater Noida</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Column 3: Japanese & MNC Company Housing */}
+                    <div>
+                        <h4 style={{ color: '#C5A572', fontSize: '13px', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: '700', marginBottom: '18px' }}>
+                            Dedicated MNC Housing
+                        </h4>
+                        <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+                            <li><Link to="/housing-for-honda-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Honda Employees Housing (Gurgaon)</Link></li>
+                            <li><Link to="/housing-for-honda-employees-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Honda Cars Housing (Noida)</Link></li>
+                            <li><Link to="/housing-for-daikin-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Daikin Expats Housing (Gurgaon)</Link></li>
+                            <li><Link to="/housing-for-daikin-employees-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Daikin Expats Housing (Noida)</Link></li>
+                            <li><Link to="/housing-for-toyota-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Toyota Expats Housing (Gurugram)</Link></li>
+                            <li><Link to="/housing-for-yamaha-employees-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Yamaha Motor Housing (Gr Noida)</Link></li>
+                            <li><Link to="/housing-for-ntt-data-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>NTT Data Housing (Cyber City)</Link></li>
+                            <li><Link to="/housing-for-maruti-suzuki-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Maruti Suzuki Housing (Gurgaon)</Link></li>
+                            <li><Link to="/housing-for-denso-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Denso Expat Housing (Gurugram)</Link></li>
+                            <li><Link to="/housing-for-mitsubishi-electric-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Mitsubishi Electric Housing</Link></li>
+                        </ul>
+                    </div>
+
+                    {/* Column 4: Property Owners & Monetization */}
+                    <div>
+                        <h4 style={{ color: '#C5A572', fontSize: '13px', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: '700', marginBottom: '18px' }}>
+                            Property Owners (Monetize)
+                        </h4>
+                        <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+                            <li><Link to="/partner-with-us" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Partner With Sandane Homes</Link></li>
+                            <li><Link to="/partner/gurugram-home-owners" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Home Owners Program</Link></li>
+                            <li><Link to="/partner/gurugram-building-owners" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Building Master Lease</Link></li>
+                            <li><Link to="/blog/earn-revenue-from-your-house-floor-building" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Earn Revenue from House / Floor</Link></li>
+                            <li><Link to="/blog/homestay-club-with-sandane-homes" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Homestay Club with Sandane Homes</Link></li>
+                            <li><Link to="/blog/earn-with-your-floor-building-master-lease" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Earn with Your Floor or Building</Link></li>
+                            <li><Link to="/blog/earn-with-your-property-sandane-homes" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Earn with Your Property Guide</Link></li>
+                            <li><Link to="/blog" style={{ color: '#D0C5B0', textDecoration: 'none' }}>The Sandane Journal (Blog)</Link></li>
+                            <li><Link to="/faqs" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Frequently Asked Questions</Link></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                {/* Subfooter Row */}
+                <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '24px', textAlign: 'center', fontSize: '13px', color: 'rgba(255,255,255,0.6)' }}>
+                    <p style={{ margin: 0 }}>
+                        © {new Date().getFullYear()} Sandane Homes. All rights reserved. Premium Serviced Residences & Boutique Hotels across Gurugram, Greater Noida & Delhi NCR.
+                    </p>
+                </div>
             </div>
         </footer>
     );
