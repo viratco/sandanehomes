@@ -863,43 +863,44 @@ const Residences = () => {
 
                         <div style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
                             gap: '24px',
-                            maxWidth: '800px',
+                            maxWidth: '860px',
                             margin: '0 auto'
                         }}>
                             {/* Phone / WhatsApp Card */}
                             <a href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes." target="_blank" rel="noopener noreferrer" style={{
                                 textDecoration: 'none',
                                 backgroundColor: '#fff',
-                                padding: '28px 24px',
+                                padding: '24px 22px',
                                 borderRadius: '16px',
                                 boxShadow: '0 8px 30px rgba(0,0,0,0.05)',
                                 border: '1px solid #EFEAE4',
                                 display: 'flex',
                                 alignItems: 'center',
-                                gap: '18px',
+                                gap: '16px',
+                                minWidth: 0,
                                 transition: 'all 0.3s ease'
                             }}
                             onMouseOver={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 35px rgba(26,60,52,0.12)'; }}
                             onMouseOut={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,0,0,0.05)'; }}
                             >
                                 <div style={{
-                                    width: '52px',
-                                    height: '52px',
+                                    width: '48px',
+                                    height: '48px',
                                     borderRadius: '50%',
                                     backgroundColor: 'rgba(26,60,52,0.08)',
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    fontSize: '22px',
+                                    fontSize: '20px',
                                     flexShrink: 0
                                 }}>
                                     📞
                                 </div>
-                                <div style={{ textAlign: 'left' }}>
+                                <div style={{ textAlign: 'left', minWidth: 0, flex: 1 }}>
                                     <p style={{ margin: 0, fontSize: '12px', textTransform: 'uppercase', color: '#888', fontWeight: '700', letterSpacing: '1px' }}>Call / WhatsApp / KakaoTalk</p>
-                                    <p style={{ margin: '3px 0 2px', fontSize: '18px', fontWeight: '700', color: '#1A3C34' }}>+91 88262 69690</p>
+                                    <p style={{ margin: '3px 0 2px', fontSize: '17px', fontWeight: '700', color: '#1A3C34' }}>+91 88262 69690</p>
                                     <span style={{ fontSize: '11px', color: '#C5A572', fontWeight: '600', letterSpacing: '0.5px' }}>💬 KakaoTalk &bull; WhatsApp &bull; WeChat</span>
                                 </div>
                             </a>
@@ -908,34 +909,44 @@ const Residences = () => {
                             <a href="mailto:residencesbysandanehomes@gmail.com" style={{
                                 textDecoration: 'none',
                                 backgroundColor: '#fff',
-                                padding: '28px 24px',
+                                padding: '24px 22px',
                                 borderRadius: '16px',
                                 boxShadow: '0 8px 30px rgba(0,0,0,0.05)',
                                 border: '1px solid #EFEAE4',
                                 display: 'flex',
                                 alignItems: 'center',
-                                gap: '18px',
+                                gap: '16px',
+                                minWidth: 0,
                                 transition: 'all 0.3s ease'
                             }}
                             onMouseOver={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 35px rgba(26,60,52,0.12)'; }}
                             onMouseOut={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,0,0,0.05)'; }}
                             >
                                 <div style={{
-                                    width: '52px',
-                                    height: '52px',
+                                    width: '48px',
+                                    height: '48px',
                                     borderRadius: '50%',
                                     backgroundColor: 'rgba(197,165,114,0.15)',
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    fontSize: '22px',
+                                    fontSize: '20px',
                                     flexShrink: 0
                                 }}>
                                     ✉️
                                 </div>
-                                <div style={{ textAlign: 'left' }}>
-                                    <p style={{ margin: 0, fontSize: '13px', textTransform: 'uppercase', color: '#888', fontWeight: '600', letterSpacing: '1px' }}>Email Us</p>
-                                    <p style={{ margin: '4px 0 0', fontSize: '17px', fontWeight: '700', color: '#1A3C34' }}>residencesbysandanehomes@gmail.com</p>
+                                <div style={{ textAlign: 'left', minWidth: 0, flex: 1 }}>
+                                    <p style={{ margin: 0, fontSize: '12px', textTransform: 'uppercase', color: '#888', fontWeight: '600', letterSpacing: '1px' }}>Email Us</p>
+                                    <p style={{ 
+                                        margin: '4px 0 0', 
+                                        fontSize: '14.5px', 
+                                        fontWeight: '700', 
+                                        color: '#1A3C34',
+                                        wordBreak: 'break-word',
+                                        overflowWrap: 'anywhere'
+                                    }}>
+                                        residencesbysandanehomes<wbr />@gmail.com
+                                    </p>
                                 </div>
                             </a>
                         </div>

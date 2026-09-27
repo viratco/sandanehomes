@@ -122,7 +122,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             <p style={{ margin: '0 0 10px 0' }}>
                                 <strong style={{ color: '#111' }}>Phone:</strong> {customPhone}
                             </p>
-                            <p style={{ margin: 0 }}>
+                            <p style={{ margin: 0, wordBreak: 'break-word' }}>
                                 <strong style={{ color: '#111' }}>Email:</strong> {isResidences ? 'residencesbysandanehomes@gmail.com' : 'sandanehomes@gmail.com'}
                             </p>
                         </div>
