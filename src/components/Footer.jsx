@@ -41,7 +41,8 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
         }
 
         // FormSubmit.co AJAX Endpoint
-        fetch("https://formsubmit.co/ajax/sandanehomes@gmail.com", {
+        const targetEmail = isResidences ? "residencesbysandanehomes@gmail.com" : "sandanehomes@gmail.com";
+        fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
@@ -122,7 +123,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                                 <strong style={{ color: '#111' }}>Phone:</strong> {customPhone}
                             </p>
                             <p style={{ margin: 0 }}>
-                                <strong style={{ color: '#111' }}>Email:</strong> sandanehomes@gmail.com
+                                <strong style={{ color: '#111' }}>Email:</strong> {isResidences ? 'residencesbysandanehomes@gmail.com' : 'sandanehomes@gmail.com'}
                             </p>
                         </div>
                     </div>

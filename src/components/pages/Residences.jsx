@@ -52,7 +52,7 @@ const Residences = () => {
             "description": "Premium fully-furnished serviced apartments in Greater Noida for corporate expats and international professionals. Minutes from Honda Cars India, LG Electronics, Samsung, and Yamaha Motor. Flexible monthly stays with full amenities.",
             "url": "https://www.sandanehomes.com/residences",
             "telephone": "+919711722273",
-            "email": "sandanehomes@gmail.com",
+            "email": "residencesbysandanehomes@gmail.com",
             "parentOrganization": {
                 "@type": "Organization",
                 "name": "Sandane Homes",
@@ -905,7 +905,7 @@ const Residences = () => {
                             </a>
 
                             {/* Email Card */}
-                            <a href="mailto:sandanehomes@gmail.com" style={{
+                            <a href="mailto:residencesbysandanehomes@gmail.com" style={{
                                 textDecoration: 'none',
                                 backgroundColor: '#fff',
                                 padding: '28px 24px',
@@ -935,7 +935,7 @@ const Residences = () => {
                                 </div>
                                 <div style={{ textAlign: 'left' }}>
                                     <p style={{ margin: 0, fontSize: '13px', textTransform: 'uppercase', color: '#888', fontWeight: '600', letterSpacing: '1px' }}>Email Us</p>
-                                    <p style={{ margin: '4px 0 0', fontSize: '17px', fontWeight: '700', color: '#1A3C34' }}>sandanehomes@gmail.com</p>
+                                    <p style={{ margin: '4px 0 0', fontSize: '17px', fontWeight: '700', color: '#1A3C34' }}>residencesbysandanehomes@gmail.com</p>
                                 </div>
                             </a>
                         </div>

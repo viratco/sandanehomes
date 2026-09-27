@@ -375,7 +375,7 @@ const Relocation = () => {
               <FaWhatsapp /> Chat on WhatsApp (+91 97117 22273)
             </a>
             <a
-              href="mailto:sandanehomes@gmail.com?subject=Corporate%20Relocation%20Inquiry"
+              href="mailto:residencesbysandanehomes@gmail.com?subject=Corporate%20Relocation%20Inquiry"
               className="reloc-btn-outline"
             >
               <FaEnvelope /> Email Corporate HR
