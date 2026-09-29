@@ -200,7 +200,7 @@ const BlogPost = () => {
                             onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
                             onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         >
-                            {isZh ? '探索大诺伊达精选高级公寓 \u2192' : 'Explore Luxury Residences \u2192'}
+                            {isZh ? '探索 Residences by Sandane Homes 精选高级公寓 \u2192' : 'Explore Residences by Sandane Homes \u2192'}
                         </Link>
                     </div>
                 </div>

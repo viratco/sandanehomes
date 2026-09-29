@@ -41,8 +41,8 @@ const Residences = () => {
     }, []);
 
     const seoProps = {
-        title: "Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida",
-        description: "Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.",
+        title: "Residences by Sandane Homes | Official Site | Luxury Serviced Apartments",
+        description: "Official portal for Residences by Sandane Homes. Fully furnished 2 & 3 BHK luxury serviced apartments in Greater Noida, Noida & Gurgaon for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: {
@@ -124,8 +124,10 @@ const Residences = () => {
                 
                 {/* Large Typography Background */}
                 <div className="editorial-title-bg">
-                    <h1>Residences</h1>
-                    <h1>Sandane Homes</h1>
+                    <h1>
+                        <span className="editorial-line-1">Residences by</span>
+                        <span className="editorial-line-2">Sandane Homes</span>
+                    </h1>
                 </div>
 
                 {/* Left Column (Image + Text) */}

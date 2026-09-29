@@ -27,13 +27,13 @@ const Hero = () => {
                 </h4>
 
                 <h1 className="hero-title-large">
-                    PREMIUM SERVICED<br />RESIDENCES
+                    LUXURY BOUTIQUE HOTELS<br />& RESIDENCES
                 </h1>
 
                 {/* Dual Hero CTA Buttons */}
                 <div className="hero-cta-container">
-                    <Link to="/residences" className="hero-cta-btn">
-                        VIEW RESIDENCES
+                    <Link to="/residences" className="hero-cta-btn" title="Residences by Sandane Homes">
+                        RESIDENCES BY SANDANE
                     </Link>
                     <button
                         onClick={scrollToHotels}

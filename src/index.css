@@ -187,7 +187,8 @@ body {
   pointer-events: none;
 }
 
-.editorial-title-bg h1 {
+.editorial-title-bg h1,
+.editorial-title-bg .editorial-line-1 {
   font-family: 'Bigilla', serif;
   font-size: 110px;
   font-weight: bold;
@@ -195,12 +196,16 @@ body {
   margin: 0;
   line-height: 1;
   font-feature-settings: "aalt" 1;
+  display: block;
 }
 
-.editorial-title-bg h1:last-child {
+.editorial-title-bg h1:last-child,
+.editorial-title-bg .editorial-line-2 {
+  font-family: 'Bigilla', serif;
   font-size: 120px;
   margin-top: 10px;
   letter-spacing: -1px;
+  display: block;
 }
 
 .editorial-left-col {
@@ -321,10 +326,12 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .editorial-title-bg h1 {
+  .editorial-title-bg h1,
+  .editorial-title-bg .editorial-line-1 {
     font-size: 80px;
   }
-  .editorial-title-bg h1:last-child {
+  .editorial-title-bg h1:last-child,
+  .editorial-title-bg .editorial-line-2 {
     font-size: 90px;
   }
   .editorial-left-col {
@@ -362,10 +369,12 @@ body {
     margin-bottom: 10px;
     pointer-events: auto;
   }
-  .editorial-title-bg h1 {
+  .editorial-title-bg h1,
+  .editorial-title-bg .editorial-line-1 {
     font-size: 48px !important;
   }
-  .editorial-title-bg h1:last-child {
+  .editorial-title-bg h1:last-child,
+  .editorial-title-bg .editorial-line-2 {
     font-size: 54px !important;
   }
   .editorial-left-col,

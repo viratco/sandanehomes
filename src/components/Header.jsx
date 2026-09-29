@@ -168,13 +168,13 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                     if (window.innerWidth <= 1024) setIsServiceDropdownOpen(!isServiceDropdownOpen);
                                 }}
                             >
-                                <Link to="/residences" className="nav-item-label" style={{ textDecoration: 'none' }} onClick={() => setIsMobileMenuOpen(false)}>
+                                <Link to="/residences" className="nav-item-label" title="Residences by Sandane Homes" style={{ textDecoration: 'none' }} onClick={() => setIsMobileMenuOpen(false)}>
                                     RESIDENCES
                                 </Link>
                                 {isServiceDropdownOpen && (
                                     <div className="dropdown-container">
                                         <ul className="dropdown-list">
-                                            <li><Link to="/residences" onClick={() => setIsMobileMenuOpen(false)}>RESIDENCES BY SANDANE</Link></li>
+                                            <li><Link to="/residences" title="Residences by Sandane Homes" onClick={() => setIsMobileMenuOpen(false)}>RESIDENCES BY SANDANE HOMES</Link></li>
                                             <li><Link to="/gurugram-corporate-housing" onClick={() => setIsMobileMenuOpen(false)}>GURUGRAM CORPORATE HOUSING</Link></li>
                                             <li><Link to="/gurugram/japanese-expat-housing" onClick={() => setIsMobileMenuOpen(false)}>JAPANESE EXPAT HOUSING</Link></li>
                                             <li><Link to="/serviced-apartments-greater-noida" onClick={() => setIsMobileMenuOpen(false)}>GREATER NOIDA APARTMENTS</Link></li>

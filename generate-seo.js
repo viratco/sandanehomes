@@ -14,8 +14,8 @@ const BASE_URL = 'https://www.sandanehomes.com';
 
 const SEO_MAP = {
   '/': {
-    title: 'Sandane Homes | Luxury Boutique Hotels & Premium Stays in Greater Noida',
-    description: 'Discover luxury boutique hotels and premium residences by Sandane Homes in Greater Noida. Luxury stays, executive suites, and corporate residences with top-notch amenities, professional hospitality, and comfort.',
+    title: 'Sandane Homes | Luxury Boutique Hotels & Stays in Greater Noida & NCR',
+    description: 'Discover luxury boutique hotels and premium stays by Sandane Homes in Greater Noida. Executive suites, designer rooms, and curated corporate hospitality.',
     schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" } }]
   },
   '/partner-with-us': {
@@ -83,9 +83,9 @@ const SEO_MAP = {
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
   '/residences': {
-    title: 'Residences by Sandane Homes | Luxury Serviced Apartments for Expats in Greater Noida',
-    description: 'Fully furnished luxury 2 & 3 BHK apartments in Greater Noida for expats and corporate professionals. Housekeeping, maintenance & all essentials included. Just arrive.',
-    schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }] }]
+    title: 'Residences by Sandane Homes — Official Site | Luxury Serviced Apartments',
+    description: 'Official portal for Residences by Sandane Homes. Fully furnished 2 & 3 BHK luxury serviced apartments in Greater Noida, Noida & Gurgaon for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.',
+    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residencesbysandanehomes@gmail.com", "address": { "@type": "PostalAddress", "streetAddress": "BB-28, Block B, Ansal Golf Link-1", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "postalCode": "201315", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }] }]
   },
   '/amara': {
     title: 'Amara Inn by Sandane Homes | Luxury Boutique Hotel in Greater Noida',
@@ -976,8 +976,11 @@ function buildSitemapXml() {
   // Homepage
   xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
 
+  // Residences by Sandane Homes — Official Flagship Priority
+  xml += `  <url>\n    <loc>${BASE_URL}/residences</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
+
   const mainPages = [
-    '/residences', '/residences/relocation',
+    '/residences/relocation',
     '/partner-with-us', '/partner',
     '/partner/gurugram-home-owners', '/partner-with-us/gurugram-home-owners',
     '/partner/gurugram-building-owners', '/partner-with-us/gurugram-building-owners',
