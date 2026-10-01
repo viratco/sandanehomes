@@ -445,12 +445,16 @@ SEO_MAP['/blog'] = {
       "@type": "Blog",
       "name": "Sandane Homes Journal",
       "url": `${BASE_URL}/blog`,
-      "blogPost": blogPosts.map((p) => ({
-        "@type": "BlogPosting",
-        "headline": p.title,
-        "url": `${BASE_URL}/blog/${p.slug}`,
-        "datePublished": new Date(p.date).toISOString(),
-      })),
+      "blogPost": blogPosts.map((p) => {
+        const rawDate = new Date(p.publishDate || p.date);
+        const validDate = isNaN(rawDate.getTime()) ? new Date() : rawDate;
+        return {
+          "@type": "BlogPosting",
+          "headline": p.title,
+          "url": `${BASE_URL}/blog/${p.slug}`,
+          "datePublished": validDate.toISOString(),
+        };
+      }),
     },
   ],
 };
@@ -461,7 +465,7 @@ blogPosts.forEach((post) => {
   const ogImage = post.coverImage
     ? (post.coverImage.startsWith('http') ? post.coverImage : `${BASE_URL}${post.coverImage}`)
     : DEFAULT_OG_IMAGE;
-  const rawDate = new Date(post.date);
+  const rawDate = new Date(post.publishDate || post.date);
   const now = new Date();
   const validDate = (rawDate > now || isNaN(rawDate.getTime())) ? now : rawDate;
   const isoDate = validDate.toISOString();
