@@ -231,6 +231,20 @@
     color: #fff;
 }
 
+/* Toggle for the long tail of categories — reads as an action, not a filter. */
+.blog-filter-pill-more {
+    background-color: transparent;
+    border-style: dashed;
+    border-color: #C5A572;
+    color: #8a6d3b;
+}
+
+.blog-filter-pill-more:hover {
+    background-color: #C5A572;
+    border-color: #C5A572;
+    color: #1A3C34;
+}
+
 @media (max-width: 640px) {
     .blog-prose-heading {
         font-size: 25px;

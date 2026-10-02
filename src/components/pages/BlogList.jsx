@@ -39,17 +39,35 @@ const languages = [
     { id: 'ja', label: '日本語 (Japanese)', flag: '🇯🇵' },
 ];
 
+// There are 100+ categories, most with a single post. Show the busiest ones and
+// keep the long tail behind a toggle so the filter bar stays a bar.
+const VISIBLE_CATEGORIES = 11;
+
 const BlogList = () => {
     const [selectedLang, setSelectedLang] = useState('All');
     const [activeCategory, setActiveCategory] = useState('All');
+    const [showAllCategories, setShowAllCategories] = useState(false);
 
     const categories = useMemo(() => {
         const filteredByLang = selectedLang === 'All'
             ? blogPosts
             : blogPosts.filter(p => getPostLang(p) === selectedLang);
-        const unique = Array.from(new Set(filteredByLang.map((p) => p.category)));
-        return ['All', ...unique];
+        const counts = filteredByLang.reduce((acc, p) => {
+            acc[p.category] = (acc[p.category] || 0) + 1;
+            return acc;
+        }, {});
+        const ranked = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+        return ['All', ...ranked];
     }, [selectedLang]);
+
+    // Never hide the filter the reader is currently on.
+    const visibleCategories = useMemo(() => {
+        if (showAllCategories) return categories;
+        const shown = categories.slice(0, VISIBLE_CATEGORIES);
+        return shown.includes(activeCategory) ? shown : [...shown, activeCategory];
+    }, [categories, showAllCategories, activeCategory]);
+
+    const hiddenCount = categories.length - Math.min(categories.length, VISIBLE_CATEGORIES);
 
     const posts = useMemo(() => {
         let list = blogPosts;
@@ -168,6 +186,7 @@ const BlogList = () => {
                                     onClick={() => {
                                         setSelectedLang(langObj.id);
                                         setActiveCategory('All');
+                                        setShowAllCategories(false);
                                     }}
                                     style={{
                                         padding: '10px 22px',
@@ -205,7 +224,7 @@ const BlogList = () => {
                     {/* CATEGORY FILTER BAR */}
                     {categories.length > 2 && (
                         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', marginBottom: '45px' }}>
-                            {categories.map((cat) => (
+                            {visibleCategories.map((cat) => (
                                 <button
                                     key={cat}
                                     className={`blog-filter-pill ${activeCategory === cat ? 'active' : ''}`}
@@ -214,6 +233,14 @@ const BlogList = () => {
                                     {cat}
                                 </button>
                             ))}
+                            {hiddenCount > 0 && (
+                                <button
+                                    className="blog-filter-pill blog-filter-pill-more"
+                                    onClick={() => setShowAllCategories((v) => !v)}
+                                >
+                                    {showAllCategories ? 'Show fewer topics' : `+${hiddenCount} more topics`}
+                                </button>
+                            )}
                         </div>
                     )}
 
