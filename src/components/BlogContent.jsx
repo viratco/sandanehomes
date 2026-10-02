@@ -1,10 +1,18 @@
 import React from 'react';
 
-/* Renders the block-based content array used in src/data/blogPosts.js */
+/* Renders the block-based content array used in src/data/blogPosts.js.
+   A few older posts store `content` as a single pre-authored HTML string, so
+   accept that shape too instead of crashing on blocks.map. */
 const BlogContent = ({ blocks = [] }) => {
+    if (typeof blocks === 'string') {
+        return <div className="blog-prose" dangerouslySetInnerHTML={{ __html: blocks }} />;
+    }
+
+    const blockList = Array.isArray(blocks) ? blocks : [];
+
     return (
         <div className="blog-prose">
-            {blocks.map((block, i) => {
+            {blockList.map((block, i) => {
                 switch (block.type) {
                     case 'heading':
                         return (

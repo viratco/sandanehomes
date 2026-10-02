@@ -9,6 +9,8 @@ import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt, FaChevronDown } 
 import './Blog.css';
 import './SandaneHomes.css';
 
+const DEFAULT_OG_IMAGE = 'https://www.sandanehomes.com/residences-og.jpg';
+
 const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
 const getRelatedPosts = (currentSlug, count = 3) => {
     const current = getBlogPost(currentSlug);
@@ -21,6 +23,14 @@ const getRelatedPosts = (currentSlug, count = 3) => {
 
 const formatDate = (dateStr) =>
     new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Mirrors generate-seo.js: never throw on a missing/unparseable date, and never
+// emit a publish date in the future.
+const toIsoDate = (dateStr) => {
+    const parsed = new Date(dateStr);
+    const now = new Date();
+    return (isNaN(parsed.getTime()) || parsed > now ? now : parsed).toISOString();
+};
 
 const BlogPost = () => {
     const { slug } = useParams();
@@ -75,8 +85,8 @@ const BlogPost = () => {
         headline: post.title,
         description: post.metaDescription || post.excerpt,
         image: ogImage,
-        datePublished: new Date(post.date).toISOString(),
-        dateModified: new Date(post.date).toISOString(),
+        datePublished: toIsoDate(post.date),
+        dateModified: toIsoDate(post.date),
         author: { '@type': 'Organization', name: post.author || 'Sandane Homes' },
         publisher: {
             '@type': 'Organization',

@@ -12,6 +12,12 @@ import './SandaneHomes.css';
 const formatDate = (dateStr) =>
     new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
+// Never let a missing/unparseable post date throw while building schema markup.
+const toIsoDate = (dateStr) => {
+    const parsed = new Date(dateStr);
+    return (isNaN(parsed.getTime()) ? new Date() : parsed).toISOString();
+};
+
 const getPostLang = (post) => {
     if (post.lang) {
         if (post.lang.startsWith('ko')) return 'ko';
@@ -67,7 +73,7 @@ const BlogList = () => {
             '@type': 'BlogPosting',
             headline: p.title,
             url: `https://www.sandanehomes.com/blog/${p.slug}`,
-            datePublished: new Date(p.date).toISOString(),
+            datePublished: toIsoDate(p.date),
         })),
     };
 

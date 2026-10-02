@@ -28,7 +28,7 @@ const SEO = ({ title, description, canonical, ogImage, ogType = 'website', schem
 
       {/* hreflang alternates */}
       {hreflang.map((alt) => (
-        <link key={alt.lang} rel="alternate" hreflang={alt.lang} href={alt.href} />
+        <link key={alt.lang} rel="alternate" hrefLang={alt.lang} href={alt.href} />
       ))}
 
       {/* Open Graph */}
