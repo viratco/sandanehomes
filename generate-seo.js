@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import { blogPosts } from './src/data/blogPosts.js';
 import { landingPages } from './src/data/landingPages.js';
 import { japaneseCompanies } from './src/data/japaneseCompanies.js';
+import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -85,7 +86,7 @@ const SEO_MAP = {
   '/residences': {
     title: 'Residences by Sandane Homes — Official Site | Luxury Serviced Apartments',
     description: 'Official portal for Residences by Sandane Homes. Fully furnished 2 & 3 BHK luxury serviced apartments in Greater Noida, Noida & Gurgaon for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.',
-    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residencesbysandanehomes@gmail.com", "address": { "@type": "PostalAddress", "streetAddress": "BB-28, Block B, Ansal Golf Link-1", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "postalCode": "201315", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }] }]
+    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residencesbysandanehomes@gmail.com", "address": { "@type": "PostalAddress", "streetAddress": "BB-28, Block B, Ansal Golf Link-1", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "postalCode": "201315", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }] }, gurugramItemListSchema(BASE_URL)]
   },
   '/amara': {
     title: 'Amara Inn by Sandane Homes | Luxury Boutique Hotel in Greater Noida',
@@ -436,6 +437,29 @@ SEO_MAP['/gurugram/korean-expat-housing'] = {
 // ── Blog: SEO_MAP entries are generated from src/content/blogPosts.js ──
 // Adding a post there automatically produces a static, crawlable page here
 // plus a sitemap.xml entry below — no manual edits needed per post.
+SEO_MAP[GURUGRAM_HUB_PATH] = {
+  title: 'Serviced Apartments in Gurgaon | Residences by Sandane Homes (Gurugram)',
+  description: 'Residences by Sandane Homes in Gurgaon: fully furnished 3BHK & 4BHK serviced apartments at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27). Daily housekeeping, GST invoicing, expat support.',
+  ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+  schemas: [
+    gurugramItemListSchema(BASE_URL),
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": gurugramHubFaqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
+        { "@type": "ListItem", "position": 2, "name": "Residences by Sandane Homes", "item": `${BASE_URL}/residences` },
+        { "@type": "ListItem", "position": 3, "name": "Gurgaon", "item": `${BASE_URL}${GURUGRAM_HUB_PATH}` }
+      ]
+    }
+  ]
+};
+
 SEO_MAP['/blog'] = {
   title: 'The Sandane Journal | Relocation Guides & Living in Greater Noida',
   description: 'Practical guides on expat relocation, neighbourhood life, and corporate housing in Greater Noida & Delhi NCR — from the team at Sandane Homes.',
@@ -560,6 +584,7 @@ blogPosts.forEach((post) => {
 // ── Landing Pages: Generate dynamic SEO_MAP entries from src/data/landingPages.js ──
 landingPages.forEach((page) => {
   const schemas = [];
+  const operatedResidence = gurugramResidences.find((r) => r.slug === page.slug);
   
   const isGurgaon = page.location && (page.location.includes('Gurgaon') || page.location.includes('Gurugram'));
   // Standard Apartment Complex Schema with Rich Snippet Ratings & Geo Coordinates
@@ -572,6 +597,7 @@ landingPages.forEach((page) => {
     "telephone": "+919711722273",
     "address": {
       "@type": "PostalAddress",
+      ...(operatedResidence && { "streetAddress": operatedResidence.streetAddress }),
       "addressLocality": isGurgaon ? "Gurugram" : "Greater Noida",
       "addressRegion": isGurgaon ? "Haryana" : "Uttar Pradesh",
       "addressCountry": "IN"
@@ -601,6 +627,19 @@ landingPages.forEach((page) => {
           "text": faq.answer
         }
       }))
+    });
+  }
+
+  if (operatedResidence) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
+        { "@type": "ListItem", "position": 2, "name": "Residences by Sandane Homes", "item": `${BASE_URL}/residences` },
+        { "@type": "ListItem", "position": 3, "name": "Gurgaon", "item": `${BASE_URL}${GURUGRAM_HUB_PATH}` },
+        { "@type": "ListItem", "position": 4, "name": page.h1, "item": `${BASE_URL}/${page.slug}` }
+      ]
     });
   }
 
@@ -765,6 +804,9 @@ Object.keys(SEO_MAP).forEach((route) => {
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [
+  // Gurugram residences we operate + their hub
+  GURUGRAM_HUB_PATH.substring(1),
+  ...gurugramResidences.map((r) => r.slug),
   'gurugram-property-owners-managed-leasing',
   'gurugram-apartment-rental-income-comparison',
   'serviced-apartments-greater-noida-japanese-expats',
@@ -985,6 +1027,7 @@ function buildSitemapXml() {
 
   const mainPages = [
     '/residences/relocation',
+    GURUGRAM_HUB_PATH,
     '/partner-with-us', '/partner',
     '/partner/gurugram-home-owners', '/partner-with-us/gurugram-home-owners',
     '/partner/gurugram-building-owners', '/partner-with-us/gurugram-building-owners',

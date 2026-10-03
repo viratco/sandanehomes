@@ -4,6 +4,8 @@ import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
 import ExpatPopupBar from '../ExpatPopupBar';
+import GurugramResidencesSection from '../GurugramResidencesSection';
+import { gurugramItemListSchema } from '../../data/gurugramResidences';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
 import imgRecreation from '../../assets/services_recreation.jpeg';
 import imgLivingRoom from '../../assets/IMG_7272.jpg';
@@ -45,7 +47,7 @@ const Residences = () => {
         description: "Official portal for Residences by Sandane Homes. Fully furnished 2 & 3 BHK luxury serviced apartments in Greater Noida, Noida & Gurgaon for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
-        schema: {
+        schema: [{
             "@context": "https://schema.org",
             "@type": "ApartmentComplex",
             "name": "Residences by Sandane Homes",
@@ -89,7 +91,7 @@ const Residences = () => {
                 "Greater Noida", "Noida", "Gurgaon", "NCR"
             ],
             "sameAs": "https://www.sandanehomes.com"
-        }
+        }, gurugramItemListSchema()]
     };
 
     // Facility Data with Icons
@@ -321,6 +323,8 @@ const Residences = () => {
                     </ul>
                 </div>
             </div>
+
+            <GurugramResidencesSection />
 
             {/* Image Gallery (Mimicking flyer grid) */}
             <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>

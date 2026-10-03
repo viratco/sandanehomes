@@ -28,6 +28,7 @@ import GurugramSushantLok from './components/pages/GurugramSushantLok';
 import GurugramJapaneseExpatHousing from './components/pages/GurugramJapaneseExpatHousing';
 import GurugramKoreanExpatHousing from './components/pages/GurugramKoreanExpatHousing';
 import JapaneseCompanyHousing from './components/pages/JapaneseCompanyHousing';
+import GurugramResidences from './components/pages/GurugramResidences';
 import { japaneseCompanies } from './data/japaneseCompanies';
 import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -46,6 +47,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/residences" element={<Residences />} />
           <Route path="/residences/relocation" element={<Relocation />} />
+          <Route path="/residences/gurgaon" element={<GurugramResidences />} />
           <Route path="/partner-with-us" element={<PartnershipPage />} />
           <Route path="/partner" element={<PartnershipPage />} />
           <Route path="/partner/gurugram-home-owners" element={<GurugramHomeOwnersPartner />} />

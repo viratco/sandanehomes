@@ -360,6 +360,10 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             Corporate & Expat Housing
                         </h4>
                         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
+                            <li><Link to="/residences/gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Serviced Apartments in Gurgaon</Link></li>
+                            <li><Link to="/elevate-hines-sector-58-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Conscient Hines Elevate, Sector 58</Link></li>
+                            <li><Link to="/green-meadows-sector-27-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Green Meadows, Sector 27</Link></li>
+                            <li><Link to="/sushant-lok-block-b-sector-27-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Sushant Lok Block B, Sector 27</Link></li>
                             <li><Link to="/gurugram-corporate-housing" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Corporate Housing</Link></li>
                             <li><Link to="/gurugram/dlf-phase-4" style={{ color: '#D0C5B0', textDecoration: 'none' }}>DLF Phase 4 Serviced Apartments</Link></li>
                             <li><Link to="/gurugram/golf-course-road" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Golf Course Road Luxury Suites</Link></li>

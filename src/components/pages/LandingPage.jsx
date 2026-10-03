@@ -6,6 +6,8 @@ import Footer from '../Footer';
 import { getLandingPage } from '../../data/landingPages';
 import { FaWhatsapp, FaArrowRight, FaCalendarAlt, FaEnvelope } from 'react-icons/fa';
 import './SandaneHomes.css'; // Leverage existing premium styles
+import { isGurugramResidence, gurugramResidences, GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
+import { GurugramResidenceCard } from '../GurugramResidencesSection';
 
 // Import high-quality property images for split hero
 import imgAnsal from '../../assets/IMG_7257.jpg';
@@ -96,6 +98,8 @@ const LandingPage = ({ slug: propSlug }) => {
     const PHONE = "919711722273";
 
     // Setup SEO schemas dynamically based on content
+    const isGurgaon = /gurgaon|gurugram/.test(page.slug);
+    const isOperatedGurugramResidence = isGurugramResidence(page.slug);
     const organizationSchema = {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
@@ -105,8 +109,8 @@ const LandingPage = ({ slug: propSlug }) => {
         "telephone": `+${PHONE}`,
         "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Greater Noida",
-            "addressRegion": "Uttar Pradesh",
+            "addressLocality": isGurgaon ? "Gurugram" : "Greater Noida",
+            "addressRegion": isGurgaon ? "Haryana" : "Uttar Pradesh",
             "addressCountry": "IN"
         }
     };
@@ -124,7 +128,18 @@ const LandingPage = ({ slug: propSlug }) => {
         }))
     } : null;
 
-    const schemas = faqSchema ? [organizationSchema, faqSchema] : [organizationSchema];
+    const breadcrumbSchema = isOperatedGurugramResidence ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sandanehomes.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Residences by Sandane Homes", "item": "https://www.sandanehomes.com/residences" },
+            { "@type": "ListItem", "position": 3, "name": "Gurgaon", "item": `https://www.sandanehomes.com${GURUGRAM_HUB_PATH}` },
+            { "@type": "ListItem", "position": 4, "name": page.h1, "item": page.canonical }
+        ]
+    } : null;
+
+    const schemas = [organizationSchema, faqSchema, breadcrumbSchema].filter(Boolean);
 
     return (
         <div className="sandane-homes-page">
@@ -140,6 +155,15 @@ const LandingPage = ({ slug: propSlug }) => {
             {/* Split Hero Section */}
             <div className="sandane-hero-split">
                 <div className="sandane-hero-text" style={{ padding: '80px 8%' }}>
+                    {isOperatedGurugramResidence && (
+                        <nav aria-label="Breadcrumb" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', fontSize: '13px', marginBottom: '18px' }}>
+                            <Link to="/residences" style={{ color: '#8B7355', textDecoration: 'none' }}>Residences</Link>
+                            <span style={{ color: '#bbb' }}>›</span>
+                            <Link to={GURUGRAM_HUB_PATH} style={{ color: '#8B7355', textDecoration: 'none' }}>Gurgaon</Link>
+                            <span style={{ color: '#bbb' }}>›</span>
+                            <span style={{ color: '#1A3C34', fontWeight: '600' }}>{gurugramResidences.find(r => r.slug === page.slug).name}</span>
+                        </nav>
+                    )}
                     <span style={{ color: '#C5A572', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '13px', fontWeight: 'bold', display: 'block', marginBottom: '15px' }}>
                         Premium Serviced Residences
                     </span>
@@ -396,6 +420,20 @@ const LandingPage = ({ slug: propSlug }) => {
                     </a>
                 </div>
             </div>
+
+            {isOperatedGurugramResidence && (
+                <section style={{ padding: '80px 20px', backgroundColor: '#F7F4EF' }}>
+                    <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
+                        <h2 style={{ fontSize: '30px', color: '#1A3C34', fontFamily: 'Playfair Display, serif', marginBottom: '40px' }}>More Sandane Residences in Gurgaon</h2>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '28px' }}>
+                            {gurugramResidences.filter(r => r.slug !== page.slug).map(r => <GurugramResidenceCard key={r.slug} r={r} />)}
+                        </div>
+                        <Link to={GURUGRAM_HUB_PATH} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginTop: '40px', color: '#1A3C34', fontWeight: '700', fontSize: '14px', letterSpacing: '1px', textTransform: 'uppercase' }}>
+                            All serviced apartments in Gurgaon <FaArrowRight size={12} />
+                        </Link>
+                    </div>
+                </section>
+            )}
 
             {/* Related Pages Links */}
             {page.related && (
