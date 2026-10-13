@@ -9,13 +9,27 @@ import { PROPERTY_REDIRECTS, getBlogRedirect } from '../../data/blogRedirects';
 import './Blog.css';
 import './SandaneHomes.css';
 
-const formatDate = (dateStr) =>
-    new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const formatDate = (dateStr) => {
+    try {
+        if (!dateStr) return '';
+        const parsed = new Date(dateStr);
+        if (isNaN(parsed.getTime())) return String(dateStr);
+        return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    } catch {
+        return String(dateStr || '');
+    }
+};
 
 // Never let a missing/unparseable post date throw while building schema markup.
 const toIsoDate = (dateStr) => {
-    const parsed = new Date(dateStr);
-    return (isNaN(parsed.getTime()) ? new Date() : parsed).toISOString();
+    try {
+        if (!dateStr) return new Date().toISOString();
+        const parsed = new Date(dateStr);
+        const now = new Date();
+        return (isNaN(parsed.getTime()) || parsed > now ? now : parsed).toISOString();
+    } catch {
+        return new Date().toISOString();
+    }
 };
 
 const getPostLang = (post) => {
@@ -91,7 +105,7 @@ const BlogList = () => {
             '@type': 'BlogPosting',
             headline: p.title,
             url: `https://www.sandanehomes.com/blog/${p.slug}`,
-            datePublished: toIsoDate(p.date),
+            datePublished: toIsoDate(p.date || p.publishDate),
         })),
     };
 

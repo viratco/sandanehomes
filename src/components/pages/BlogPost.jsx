@@ -21,15 +21,28 @@ const getRelatedPosts = (currentSlug, count = 3) => {
     return [...related, ...remaining].slice(0, count);
 };
 
-const formatDate = (dateStr) =>
-    new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const formatDate = (dateStr) => {
+    try {
+        if (!dateStr) return '';
+        const parsed = new Date(dateStr);
+        if (isNaN(parsed.getTime())) return String(dateStr);
+        return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    } catch {
+        return String(dateStr || '');
+    }
+};
 
 // Mirrors generate-seo.js: never throw on a missing/unparseable date, and never
 // emit a publish date in the future.
 const toIsoDate = (dateStr) => {
-    const parsed = new Date(dateStr);
-    const now = new Date();
-    return (isNaN(parsed.getTime()) || parsed > now ? now : parsed).toISOString();
+    try {
+        if (!dateStr) return new Date().toISOString();
+        const parsed = new Date(dateStr);
+        const now = new Date();
+        return (isNaN(parsed.getTime()) || parsed > now ? now : parsed).toISOString();
+    } catch {
+        return new Date().toISOString();
+    }
 };
 
 const BlogPost = () => {
@@ -85,8 +98,8 @@ const BlogPost = () => {
         headline: post.title,
         description: post.metaDescription || post.excerpt,
         image: ogImage,
-        datePublished: toIsoDate(post.date),
-        dateModified: toIsoDate(post.date),
+        datePublished: toIsoDate(post.date || post.publishDate),
+        dateModified: toIsoDate(post.date || post.publishDate),
         author: { '@type': 'Organization', name: post.author || 'Sandane Homes' },
         publisher: {
             '@type': 'Organization',
@@ -190,7 +203,7 @@ const BlogPost = () => {
                     )}
                     <div style={{ display: 'flex', gap: '22px', justifyContent: 'center', marginTop: '24px', color: '#eee', fontSize: '14px' }}>
                         <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <FaRegCalendarAlt /> {post.date}
+                            <FaRegCalendarAlt /> {post.date || post.publishDate}
                         </span>
                         <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                             <FaRegClock /> {post.readTime}
