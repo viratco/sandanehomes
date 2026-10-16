@@ -382,8 +382,9 @@ body {
   .editorial-right-col {
     position: static;
     width: 100%;
-    max-width: 480px;
+    max-width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
   }
   .editorial-left-text {
     margin-top: 20px;

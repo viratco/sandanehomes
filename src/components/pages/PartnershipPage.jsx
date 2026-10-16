@@ -118,159 +118,241 @@ const PartnershipPage = () => {
 
       <Header showTopBar={false} />
 
-      {/* ── EDITORIAL HERO SECTION ("Bel Sognatore" Sandane Signature Style) ── */}
-      <div className="editorial-container" style={{ paddingTop: '100px', paddingBottom: '60px' }}>
-        {/* Large Typography Background Watermark */}
-        <div className="editorial-title-bg">
-          <h1>Partner</h1>
-          <h1>Monetize</h1>
+      {/* ── EDITORIAL HERO SECTION ── */}
+      <section style={{
+        position: 'relative',
+        width: '100%',
+        backgroundColor: '#FFFFFF',
+        paddingTop: '110px',
+        paddingBottom: '60px',
+        overflow: 'hidden'
+      }}>
+        {/* Large Typography Background Watermark (Clipped inside section) */}
+        <div style={{
+          position: 'absolute',
+          top: '40px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '100%',
+          maxWidth: '1200px',
+          textAlign: 'center',
+          pointerEvents: 'none',
+          zIndex: 0,
+          opacity: 0.04,
+          userSelect: 'none',
+          lineHeight: '0.9'
+        }}>
+          <span style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(50px, 10vw, 130px)', fontWeight: 'bold', color: '#111', display: 'block' }}>
+            PARTNER
+          </span>
+          <span style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(50px, 10vw, 130px)', fontWeight: 'bold', color: '#111', display: 'block' }}>
+            MONETIZE
+          </span>
         </div>
 
-        {/* Left Column (Hero Image + Overlapping Glass Card) */}
-        <div className="editorial-left-col">
-          <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}>
-            <img src={heroImg} alt="Luxury Managed Residence" className="residences-clickable-photo" style={{ width: '100%', height: '520px', objectFit: 'cover' }} />
-            <div style={{
-              position: 'absolute',
-              top: '20px',
-              left: '20px',
-              background: 'rgba(28, 45, 66, 0.85)',
-              backdropFilter: 'blur(8px)',
-              padding: '8px 18px',
-              borderRadius: '20px',
-              color: '#C5A572',
-              fontSize: '12px',
-              fontWeight: '700',
-              letterSpacing: '1px',
-              border: '1px solid rgba(197,165,114,0.3)',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px'
-            }}>
-              <FaCrown /> PROPERTY MONETIZATION PROGRAM
-            </div>
-          </div>
-          
-          <div className="editorial-left-text" style={{ marginTop: '-60px', position: 'relative', zIndex: 3 }}>
-            <div className="editorial-glass-card" style={{ background: 'rgba(255, 255, 255, 0.95)', border: '1px solid #E5DFD5', boxShadow: '0 15px 35px rgba(0,0,0,0.06)' }}>
-              <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', margin: 0 }}>
-                Transform your vacant or underperforming apartments into <i>high-yield corporate residences</i> leased exclusively to Japanese, Korean &amp; MNC executives.
-              </p>
-            </div>
-            
-            <p className="editorial-subtext" style={{ color: '#8B7355', fontWeight: '600', letterSpacing: '1px' }}>
-              \\ GUARANTEED LEASE • REVENUE SHARE • 100% MAINTENANCE
-            </p>
-          </div>
-        </div>
-
-        {/* Right Column (Hero Headings & Direct CTAs) */}
-        <div className="editorial-right-col" style={{ paddingLeft: '20px' }}>
+        <div style={{
+          position: 'relative',
+          zIndex: 1,
+          maxWidth: '1240px',
+          margin: '0 auto',
+          padding: '0 20px',
+          boxSizing: 'border-box'
+        }}>
           <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '8px',
-            background: 'rgba(139, 115, 85, 0.1)',
-            border: '1px solid #8B7355',
-            color: '#8B7355',
-            padding: '6px 18px',
-            borderRadius: '20px',
-            fontSize: '12px',
-            fontWeight: '700',
-            letterSpacing: '1.5px',
-            textTransform: 'uppercase',
-            marginBottom: '20px'
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 460px), 1fr))',
+            gap: '40px',
+            alignItems: 'center'
           }}>
-            <FaHandshake /> FOR PROPERTY OWNERS &amp; BUILDING DEVELOPERS
-          </div>
+            {/* Left Column (Hero Image + Overlapping Glass Card) */}
+            <div style={{ width: '100%', maxWidth: '520px', margin: '0 auto', boxSizing: 'border-box' }}>
+              <div style={{
+                position: 'relative',
+                borderRadius: '16px',
+                overflow: 'hidden',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.12)'
+              }}>
+                <img
+                  src={heroImg}
+                  alt="Luxury Managed Residence"
+                  className="residences-clickable-photo"
+                  style={{
+                    width: '100%',
+                    height: '440px',
+                    objectFit: 'cover',
+                    display: 'block'
+                  }}
+                />
+                <div style={{
+                  position: 'absolute',
+                  top: '16px',
+                  left: '16px',
+                  background: 'rgba(28, 45, 66, 0.9)',
+                  backdropFilter: 'blur(8px)',
+                  padding: '7px 16px',
+                  borderRadius: '20px',
+                  color: '#C5A572',
+                  fontSize: '11px',
+                  fontWeight: '700',
+                  letterSpacing: '1px',
+                  border: '1px solid rgba(197,165,114,0.3)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}>
+                  <FaCrown /> PROPERTY MONETIZATION PROGRAM
+                </div>
+              </div>
 
-          <h2 style={{
-            fontFamily: 'Playfair Display, serif',
-            fontSize: 'clamp(34px, 4.5vw, 54px)',
-            lineHeight: '1.15',
-            color: '#111111',
-            marginBottom: '24px',
-            fontWeight: '600'
-          }}>
-            Unlock Maximum Yield for Your Apartments &amp; Buildings
-          </h2>
+              <div style={{ marginTop: '-40px', position: 'relative', zIndex: 3, padding: '0 10px', boxSizing: 'border-box' }}>
+                <div style={{
+                  background: 'rgba(255, 255, 255, 0.96)',
+                  border: '1px solid #E5DFD5',
+                  boxShadow: '0 15px 35px rgba(0,0,0,0.06)',
+                  borderRadius: '12px',
+                  padding: '20px 22px'
+                }}>
+                  <p style={{ fontSize: '14.5px', lineHeight: '1.75', color: '#4A463F', fontFamily: 'Georgia, serif', margin: 0 }}>
+                    Transform your vacant or underperforming apartments into <i>high-yield corporate residences</i> leased exclusively to Japanese, Korean &amp; MNC executives.
+                  </p>
+                </div>
 
-          <p style={{
-            fontSize: '16px',
-            lineHeight: '1.8',
-            color: '#555555',
-            marginBottom: '32px',
-            fontFamily: 'Georgia, serif'
-          }}>
-            Whether you own a single luxury flat, multiple society apartments, or an entire standalone residential building in <strong>Greater Noida, Noida, or Gurugram</strong> — Sandane Homes manages your asset with 5-star hospitality standards, paying you guaranteed predictable income without the hassle of traditional renting.
-          </p>
+                <p style={{
+                  color: '#8B7355',
+                  fontWeight: '700',
+                  letterSpacing: '1px',
+                  fontSize: '12px',
+                  marginTop: '12px',
+                  textAlign: 'center'
+                }}>
+                  \\ GUARANTEED LEASE • REVENUE SHARE • 100% MAINTENANCE
+                </p>
+              </div>
+            </div>
 
-          {/* Quick Features List */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '14px', marginBottom: '36px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> Guaranteed 1st-of-month Payouts
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> Verified Japanese &amp; MNC Guests
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> 100% Free Maintenance &amp; Care
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '14px' }}>
-              <FaCheckCircle color="#8B7355" size={18} /> Zero Vacancy &amp; Default Risk
-            </div>
-          </div>
-
-          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-            <a
-              href="#partner-form"
-              style={{
-                backgroundColor: '#1C2D42',
-                color: '#FFFFFF',
-                padding: '16px 36px',
-                borderRadius: '30px',
-                fontSize: '14px',
-                fontWeight: '700',
-                letterSpacing: '1px',
-                textDecoration: 'none',
-                boxShadow: '0 8px 25px rgba(28,45,66,0.25)',
-                transition: 'all 0.3s ease',
+            {/* Right Column (Hero Headings & Direct CTAs) */}
+            <div style={{ width: '100%', boxSizing: 'border-box' }}>
+              <div style={{
                 display: 'inline-flex',
                 alignItems: 'center',
-                gap: '10px'
-              }}
-            >
-              MONETIZE PROPERTY <FaArrowRight size={13} />
-            </a>
-
-            <a
-              href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20want%20to%20discuss%20a%20property%20partnership%20for%20my%20apartments/building."
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                backgroundColor: '#25D366',
-                color: '#FFFFFF',
-                padding: '16px 30px',
-                borderRadius: '30px',
-                fontSize: '14px',
+                gap: '8px',
+                background: 'rgba(139, 115, 85, 0.1)',
+                border: '1px solid #8B7355',
+                color: '#8B7355',
+                padding: '6px 14px',
+                borderRadius: '20px',
+                fontSize: '11px',
                 fontWeight: '700',
                 letterSpacing: '1px',
-                textDecoration: 'none',
-                boxShadow: '0 8px 25px rgba(37,211,102,0.3)',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '10px'
-              }}
-            >
-              <FaWhatsapp size={18} /> WHATSAPP PARTNER DESK
-            </a>
+                textTransform: 'uppercase',
+                marginBottom: '18px',
+                maxWidth: '100%',
+                boxSizing: 'border-box',
+                flexWrap: 'wrap'
+              }}>
+                <FaHandshake /> FOR PROPERTY OWNERS &amp; BUILDING DEVELOPERS
+              </div>
+
+              <h2 style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: 'clamp(28px, 4vw, 48px)',
+                lineHeight: '1.18',
+                color: '#111111',
+                marginBottom: '20px',
+                fontWeight: '600',
+                wordBreak: 'break-word',
+                overflowWrap: 'break-word'
+              }}>
+                Unlock Maximum Yield for Your Apartments &amp; Buildings
+              </h2>
+
+              <p style={{
+                fontSize: '15.5px',
+                lineHeight: '1.75',
+                color: '#555555',
+                marginBottom: '28px',
+                fontFamily: 'Georgia, serif',
+                wordBreak: 'break-word',
+                overflowWrap: 'break-word'
+              }}>
+                Whether you own a single luxury flat, multiple society apartments, or an entire standalone residential building in <strong>Greater Noida, Noida, or Gurugram</strong> — Sandane Homes manages your asset with 5-star hospitality standards, paying you guaranteed predictable income without the hassle of traditional renting.
+              </p>
+
+              {/* Quick Features List */}
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))',
+                gap: '12px',
+                marginBottom: '32px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '13.5px' }}>
+                  <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> Guaranteed 1st-of-month Payouts
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '13.5px' }}>
+                  <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> Verified Japanese &amp; MNC Guests
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '13.5px' }}>
+                  <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> 100% Free Maintenance &amp; Care
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '13.5px' }}>
+                  <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> Zero Vacancy &amp; Default Risk
+                </div>
+              </div>
+
+              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+                <a
+                  href="#partner-form"
+                  style={{
+                    backgroundColor: '#1C2D42',
+                    color: '#FFFFFF',
+                    padding: '14px 28px',
+                    borderRadius: '30px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    letterSpacing: '1px',
+                    textDecoration: 'none',
+                    boxShadow: '0 8px 25px rgba(28,45,66,0.25)',
+                    transition: 'all 0.3s ease',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '10px'
+                  }}
+                >
+                  MONETIZE PROPERTY <FaArrowRight size={13} />
+                </a>
+
+                <a
+                  href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20want%20to%20discuss%20a%20property%20partnership%20for%20my%20apartments/building."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    backgroundColor: '#25D366',
+                    color: '#FFFFFF',
+                    padding: '14px 24px',
+                    borderRadius: '30px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    letterSpacing: '1px',
+                    textDecoration: 'none',
+                    boxShadow: '0 8px 25px rgba(37,211,102,0.3)',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '10px'
+                  }}
+                >
+                  <FaWhatsapp size={17} /> WHATSAPP PARTNER DESK
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* ── KEY PERFORMANCE METRICS BAR ── */}
       <section style={{ backgroundColor: '#FAF8F5', borderTop: '1px solid #E8E2D9', borderBottom: '1px solid #E8E2D9', padding: '50px 20px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '30px', textAlign: 'center' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 220px), 1fr))', gap: '30px', textAlign: 'center' }}>
           <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
             <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>100%</h3>
             <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Guaranteed Lease &amp; Zero Default</p>
@@ -310,7 +392,7 @@ const PartnershipPage = () => {
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '30px' }}>
             {/* Model 1 */}
             <div style={{
               background: 'rgba(255, 255, 255, 0.05)',
@@ -434,7 +516,7 @@ const PartnershipPage = () => {
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '30px' }}>
             {/* Card 1 */}
             <div style={{ backgroundColor: '#FFFFFF', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E6E0D6', boxShadow: '0 10px 25px rgba(0,0,0,0.04)', display: 'flex', flexDirection: 'column' }}>
               <img src={facadeImg} alt="Full Building Partnership" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
