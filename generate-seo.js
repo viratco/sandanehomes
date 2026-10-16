@@ -15,9 +15,9 @@ const BASE_URL = 'https://www.sandanehomes.com';
 
 const SEO_MAP = {
   '/': {
-    title: 'Sandane Homes | Luxury Boutique Hotels & Stays in Greater Noida & NCR',
-    description: 'Discover luxury boutique hotels and premium stays by Sandane Homes in Greater Noida. Executive suites, designer rooms, and curated corporate hospitality.',
-    schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" } }]
+    title: 'Sandane Homes | Luxury Serviced Apartments & Stays in Gurugram & Delhi NCR',
+    description: 'Discover luxury serviced apartments, corporate residences and premium boutique stays by Sandane Homes in Gurugram, DLF Cyber City, and Delhi NCR.',
+    schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "streetAddress": "Sector 27 / DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122002", "addressCountry": "IN" }, "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"], "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" } }]
   },
   '/partner-with-us': {
     title: 'Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes',
@@ -84,9 +84,9 @@ const SEO_MAP = {
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
   '/residences': {
-    title: 'Residences by Sandane Homes — Official Site | Luxury Serviced Apartments',
-    description: 'Official portal for Residences by Sandane Homes. Fully furnished 2 & 3 BHK luxury serviced apartments in Greater Noida, Noida & Gurgaon for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.',
-    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residencesbysandanehomes@gmail.com", "address": { "@type": "PostalAddress", "streetAddress": "BB-28, Block B, Ansal Golf Link-1", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "postalCode": "201315", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }] }, gurugramItemListSchema(BASE_URL)]
+    title: 'Residences by Sandane Homes | Luxury Serviced Apartments in Gurugram & Delhi NCR',
+    description: 'Official portal for Residences by Sandane Homes. Fully furnished 2, 3 & 4 BHK luxury serviced apartments in Gurugram (Sector 27, DLF Phase 4, Golf Course Extension) & Delhi NCR for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.',
+    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residencesbysandanehomes@gmail.com", "address": { "@type": "PostalAddress", "streetAddress": "Sector 27 / DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122002", "addressCountry": "IN" }, "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"], "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }, { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Invoicing", "value": true }] }, gurugramItemListSchema(BASE_URL)]
   },
   '/amara': {
     title: 'Amara Inn by Sandane Homes | Luxury Boutique Hotel in Greater Noida',
@@ -525,12 +525,14 @@ blogPosts.forEach((post) => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "Hotel",
+      "@type": "LodgingBusiness",
       "name": "Sandane Homes",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Greater Noida",
-        "addressRegion": "Uttar Pradesh",
+        "streetAddress": "Sector 27 / DLF Phase 4",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122002",
         "addressCountry": "IN"
       },
       "telephone": "+91 97117 22273",
@@ -543,15 +545,17 @@ blogPosts.forEach((post) => {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "489"
+        "reviewCount": "490"
       },
       "areaServed": [
-        "India Expo Mart",
-        "Knowledge Park Greater Noida",
-        "Pari Chowk",
-        "Alpha Commercial Belt",
-        "Surajpur",
-        "Yamuna Expressway"
+        "Gurugram",
+        "Gurgaon",
+        "DLF Cyber City",
+        "Golf Course Road",
+        "Sushant Lok",
+        "Delhi NCR",
+        "Noida",
+        "Greater Noida"
       ]
     }
   ];
@@ -1019,45 +1023,83 @@ function buildSitemapXml() {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
-  // Homepage
+  // 1. Homepage & Flagship Portals (Priority 1.0)
   xml += `  <url>\n    <loc>${BASE_URL}/</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
-
-  // Residences by Sandane Homes — Official Flagship Priority
   xml += `  <url>\n    <loc>${BASE_URL}/residences</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${BASE_URL}${GURUGRAM_HUB_PATH}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>${BASE_URL}/gurugram-corporate-housing</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
 
-  const mainPages = [
-    '/residences/relocation',
-    GURUGRAM_HUB_PATH,
-    '/partner-with-us', '/partner',
-    '/partner/gurugram-home-owners', '/partner-with-us/gurugram-home-owners',
-    '/partner/gurugram-building-owners', '/partner-with-us/gurugram-building-owners',
-    '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
-    // Core Serviced Apartments & Expat Hubs
-    '/serviced-apartments-greater-noida',
-    '/korean-expat-housing-delhi-ncr',
-    '/japanese-expat-housing-delhi-ncr',
-    '/chinese-expat-housing-greater-noida',
-    // Gurugram neighbourhood hub pages
-    '/gurugram-corporate-housing',
+  // 2. Gurugram Portfolio Property Landing Pages (High Priority 0.95 - 0.9)
+  landingPages.forEach((page) => {
+    const isGurgaon = /gurgaon|gurugram/.test(page.slug);
+    if (isGurgaon) {
+      xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
+    }
+  });
+
+  // 3. Gurugram Neighbourhood Hubs & Partner Pages (Priority 0.9)
+  const gurugramHubs = [
     '/gurugram/dlf-phase-4',
     '/gurugram/golf-course-road',
     '/gurugram/sushant-lok',
     '/gurugram/japanese-expat-housing',
     '/gurugram/korean-expat-housing',
-    // Daikin Hub Aliases
-    '/housing-for-daikin-employees',
+    '/partner/gurugram-home-owners',
+    '/partner-with-us/gurugram-home-owners',
+    '/partner/gurugram-building-owners',
+    '/partner-with-us/gurugram-building-owners',
+    '/residences/relocation',
     '/housing-for-daikin-employees-gurgaon',
-    '/housing-for-daikin-employees-noida'
+    '/housing-for-daikin-employees'
   ];
-  mainPages.forEach((route) => {
-    const priority = highPrioritySlugs.includes(route.substring(1)) ? '0.9' : '0.8';
-    xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  gurugramHubs.forEach((route) => {
+    xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
   });
 
-  // Blog Posts
+  // 4. Japanese MNC Company Housing Pages for Gurugram (Priority 0.9)
+  japaneseCompanies.forEach((comp) => {
+    const isGurgaonOrNcr = /gurgaon|ncr/.test(comp.slug) || comp.slug === 'housing-for-daikin-employees';
+    if (isGurgaonOrNcr) {
+      xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+    }
+  });
+
+  // 5. Remaining Landing Pages (Greater Noida & Noida Serviced Residences)
+  landingPages.forEach((page) => {
+    const isGurgaon = /gurgaon|gurugram/.test(page.slug);
+    if (!isGurgaon) {
+      const isHighPriority = highPrioritySlugs.includes(page.slug);
+      const priority = isHighPriority ? '0.85' : '0.8';
+      xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+    }
+  });
+
+  // 6. Remaining Japanese Company Pages
+  japaneseCompanies.forEach((comp) => {
+    const isGurgaonOrNcr = /gurgaon|ncr/.test(comp.slug) || comp.slug === 'housing-for-daikin-employees';
+    if (!isGurgaonOrNcr) {
+      xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+    }
+  });
+
+  // 7. General Main Pages
+  const otherMainPages = [
+    '/partner-with-us', '/partner',
+    '/korean-expat-housing-delhi-ncr',
+    '/japanese-expat-housing-delhi-ncr',
+    '/chinese-expat-housing-greater-noida',
+    '/serviced-apartments-greater-noida',
+    '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
+    '/housing-for-daikin-employees-noida'
+  ];
+  otherMainPages.forEach((route) => {
+    xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  });
+
+  // 8. Blog Posts
   blogPosts.forEach((post) => {
-    const isHighPriority = highPrioritySlugs.includes(post.slug);
-    const priority = isHighPriority ? '0.9' : '0.8';
+    const isHighPriority = highPrioritySlugs.includes(post.slug) || /gurgaon|gurugram|daikin/.test(post.slug);
+    const priority = isHighPriority ? '0.85' : '0.75';
     const rawDate = new Date(post.date);
     const now = new Date();
     const validDate = (rawDate > now || isNaN(rawDate.getTime())) ? now : rawDate;
@@ -1065,22 +1107,83 @@ function buildSitemapXml() {
     xml += `  <url>\n    <loc>${BASE_URL}/blog/${post.slug}</loc>\n    <lastmod>${postDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
   });
 
-  // Landing Pages
-  landingPages.forEach((page) => {
-    const isHighPriority = highPrioritySlugs.includes(page.slug);
-    const priority = isHighPriority ? '0.9' : '0.7';
-    xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  xml += `</urlset>\n`;
+  return xml;
+}
+
+// ── Dedicated Sitemap for Google Search Console: Residences by Sandane Homes ──
+function buildResidencesSitemapXml() {
+  const currentDate = new Date().toISOString().split('T')[0];
+
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+
+  // Core Flagship Portals
+  const corePages = [
+    { url: '/residences', priority: '1.0', freq: 'daily' },
+    { url: GURUGRAM_HUB_PATH, priority: '1.0', freq: 'daily' },
+    { url: '/gurugram-corporate-housing', priority: '0.95', freq: 'daily' },
+    { url: '/residences/relocation', priority: '0.9', freq: 'weekly' },
+    { url: '/gurugram/dlf-phase-4', priority: '0.9', freq: 'weekly' },
+    { url: '/gurugram/golf-course-road', priority: '0.9', freq: 'weekly' },
+    { url: '/gurugram/sushant-lok', priority: '0.9', freq: 'weekly' },
+    { url: '/gurugram/japanese-expat-housing', priority: '0.9', freq: 'weekly' },
+    { url: '/gurugram/korean-expat-housing', priority: '0.9', freq: 'weekly' },
+    { url: '/partner/gurugram-home-owners', priority: '0.9', freq: 'weekly' },
+    { url: '/partner-with-us/gurugram-home-owners', priority: '0.9', freq: 'weekly' },
+    { url: '/partner/gurugram-building-owners', priority: '0.9', freq: 'weekly' },
+    { url: '/partner-with-us/gurugram-building-owners', priority: '0.9', freq: 'weekly' }
+  ];
+
+  corePages.forEach((p) => {
+    xml += `  <url>\n    <loc>${BASE_URL}${p.url}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>${p.freq}</changefreq>\n    <priority>${p.priority}</priority>\n  </url>\n`;
   });
 
-  // Japanese MNC Company Housing Pages
+  // All Gurugram Serviced Apartment Landing Pages
+  landingPages.forEach((page) => {
+    const isGurgaon = /gurgaon|gurugram/.test(page.slug);
+    if (isGurgaon) {
+      xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
+    }
+  });
+
+  // Japanese & MNC Corporate Expat Housing Pages in Gurugram & NCR
   japaneseCompanies.forEach((comp) => {
-    xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.85</priority>\n  </url>\n`;
+    const isGurgaonOrNcr = /gurgaon|ncr/.test(comp.slug) || comp.slug === 'housing-for-daikin-employees';
+    if (isGurgaonOrNcr) {
+      xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
+    }
+  });
+
+  // Premier Gated Golf Residences & Expat Communities
+  const otherResidencesPages = [
+    '/serviced-apartments-ansal-golf-links',
+    '/serviced-apartments-jaypee-greens',
+    '/serviced-apartments-godrej-golf-link',
+    '/japanese-expat-housing-delhi-ncr',
+    '/korean-expat-housing-delhi-ncr'
+  ];
+  otherResidencesPages.forEach((route) => {
+    xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.85</priority>\n  </url>\n`;
+  });
+
+  // Gurugram & Expat Corporate Housing Blogs
+  blogPosts.forEach((post) => {
+    const isGurgaonOrCorporate = /gurgaon|gurugram|daikin|expat|corporate-housing|serviced-apartment|cyber-city/.test(post.slug);
+    if (isGurgaonOrCorporate) {
+      const rawDate = new Date(post.date);
+      const now = new Date();
+      const validDate = (rawDate > now || isNaN(rawDate.getTime())) ? now : rawDate;
+      const postDate = validDate.toISOString().split('T')[0];
+      xml += `  <url>\n    <loc>${BASE_URL}/blog/${post.slug}</loc>\n    <lastmod>${postDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.85</priority>\n  </url>\n`;
+    }
   });
 
   xml += `</urlset>\n`;
   return xml;
 }
 
+// Generate Main Sitemap
 const finalSitemapXml = buildSitemapXml();
 fs.writeFileSync(path.join(distPath, 'sitemap.xml'), finalSitemapXml, 'utf8');
 
@@ -1088,6 +1191,15 @@ const publicSitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
 if (fs.existsSync(path.dirname(publicSitemapPath))) {
   fs.writeFileSync(publicSitemapPath, finalSitemapXml, 'utf8');
 }
-console.log(`Generated high-priority sitemap.xml with ${blogPosts.length} blog posts, ${landingPages.length} landing pages, and ${japaneseCompanies.length} Japanese company pages!`);
 
+// Generate Dedicated Residences Sitemap
+const finalResidencesSitemapXml = buildResidencesSitemapXml();
+fs.writeFileSync(path.join(distPath, 'sitemap-residences.xml'), finalResidencesSitemapXml, 'utf8');
+
+const publicResidencesSitemapPath = path.join(__dirname, 'public', 'sitemap-residences.xml');
+if (fs.existsSync(path.dirname(publicResidencesSitemapPath))) {
+  fs.writeFileSync(publicResidencesSitemapPath, finalResidencesSitemapXml, 'utf8');
+}
+
+console.log(`Generated high-priority sitemap.xml and dedicated sitemap-residences.xml!`);
 console.log('Post-build SEO generation complete!');

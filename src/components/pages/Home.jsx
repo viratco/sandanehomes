@@ -18,15 +18,15 @@ import { createLodgingSchema } from '../../utils/schemaHelper';
 const homeSchema = createLodgingSchema({
     name: "Sandane Homes",
     url: "https://www.sandanehomes.com/",
-    description: "Discover luxury boutique hotels and premium residences by Sandane Homes in Greater Noida. Luxury stays, executive suites, and corporate residences with top-notch amenities, professional hospitality, and comfort."
+    description: "Discover luxury serviced apartments, corporate residences and premium stays by Sandane Homes in Gurugram, DLF Cyber City, and Delhi NCR. 5-star amenities, professional hospitality, and turnkey comfort."
 });
 
 const Home = () => {
     return (
         <div className="home">
             <SEO
-                title="Sandane Homes | Luxury Boutique Hotels & Premium Stays in Greater Noida"
-                description="Discover luxury boutique hotels and premium residences by Sandane Homes in Greater Noida. Luxury stays, executive suites, and corporate residences with top-notch amenities, professional hospitality, and comfort."
+                title="Sandane Homes | Luxury Serviced Apartments & Stays in Gurugram & Delhi NCR"
+                description="Discover luxury serviced apartments, corporate residences and premium stays by Sandane Homes in Gurugram, DLF Cyber City, and Delhi NCR. 5-star amenities, professional hospitality, and turnkey comfort."
                 canonical="https://www.sandanehomes.com/"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 schema={homeSchema}

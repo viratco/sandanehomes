@@ -13,16 +13,424 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.sandanehomes.com/residences/gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/gurugram-corporate-housing</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/dlf-park-place-sector-54-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/elevate-hines-sector-58-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/the-grand-arch-sector-58-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/emaar-digi-homes-sector-62-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/m3m-heights-sector-65-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/m3m-golfestate-sector-65-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/green-meadows-sector-27-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/sushant-lok-block-a-sector-27-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/sushant-lok-block-b-sector-27-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/dlf-phase-4-sector-27-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/green-avenue-sector-27-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-dlf-cyber-city-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-golf-course-road-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-dlf-phase-5-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-one-horizon-center-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-sohna-road-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/gurugram/dlf-phase-4</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/gurugram/golf-course-road</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/gurugram/sushant-lok</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/gurugram/japanese-expat-housing</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/gurugram/korean-expat-housing</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/partner/gurugram-home-owners</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/partner-with-us/gurugram-home-owners</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/partner/gurugram-building-owners</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/partner-with-us/gurugram-building-owners</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.sandanehomes.com/residences/relocation</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-daikin-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-daikin-employees</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-honda-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-maruti-suzuki-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-toyota-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-ntt-data-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-fujitsu-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-mitsubishi-electric-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-panasonic-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-hitachi-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-toshiba-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-canon-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-sony-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-daikin-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-denso-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-mitsui-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-sumitomo-employees-gurgaon</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-daikin-employees</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-ansal-golf-links</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sandanehomes.com/residences/gurgaon</loc>
+    <loc>https://www.sandanehomes.com/serviced-apartments-godrej-golf-link</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/furnished-apartments-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/corporate-housing-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/long-stay-apartments-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/apartments-near-india-expo-centre</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/japanese-expat-housing-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/expat-housing-delhi-ncr</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/corporate-accommodation-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/relocation-housing-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/accommodation-visiting-engineers-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/luxury-villa-rental-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/serviced-apartments-jaypee-greens</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-honda-employees-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-yamaha-employees-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-denso-employees-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-sekisui-employees-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-brother-industries-employees-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-seiko-advance-employees-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-kubota-employees-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-epson-employees-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-kyocera-employees-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-anest-iwata-employees-greater-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sandanehomes.com/housing-for-daikin-employees-noida</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/partner-with-us</loc>
@@ -37,25 +445,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sandanehomes.com/partner/gurugram-home-owners</loc>
+    <loc>https://www.sandanehomes.com/korean-expat-housing-delhi-ncr</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sandanehomes.com/partner-with-us/gurugram-home-owners</loc>
+    <loc>https://www.sandanehomes.com/japanese-expat-housing-delhi-ncr</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sandanehomes.com/partner/gurugram-building-owners</loc>
+    <loc>https://www.sandanehomes.com/chinese-expat-housing-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sandanehomes.com/partner-with-us/gurugram-building-owners</loc>
+    <loc>https://www.sandanehomes.com/serviced-apartments-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -103,3411 +511,3003 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/korean-expat-housing-delhi-ncr</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/japanese-expat-housing-delhi-ncr</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/chinese-expat-housing-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/gurugram-corporate-housing</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/gurugram/dlf-phase-4</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/gurugram/golf-course-road</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/gurugram/sushant-lok</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/gurugram/japanese-expat-housing</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/gurugram/korean-expat-housing</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-daikin-employees</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-daikin-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://www.sandanehomes.com/housing-for-daikin-employees-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-sandane-rent-co-serviced-apartments-daikin</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-serviced-apartments-near-max-healthcare-sector-43-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/furnished-apartments-near-paras-hospitals-sector-53-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-solutions-dlf-cyber-park-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/executive-apartments-near-candor-techspace-sector-48-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-spaze-itech-park-sohna-road-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/expat-housing-near-american-excelsior-and-heritage-school-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/turnkey-2-bhk-serviced-apartments-dlf-phase-1-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monthly-serviced-apartments-near-sikanderpur-metro-interchange-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/vip-diplomatic-delegation-housing-residences-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-guide-leasing-property-corporate-housing-operators-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-relocation-checklist-moving-employees-to-gurgaon</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-neighborhoods-to-live-in-gurgaon-for-foreign-expats</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/studio-apartments-rent-cyber-city-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/1-bhk-serviced-apartments-golf-course-road-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/pet-friendly-serviced-apartments-gurgaon-expats</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-property-management-services-gurgaon-dlf-golf-course-road</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-housing-agents-relocation-consultants-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-fortis-hospital-sector-44-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/short-stay-apartments-near-horizon-center-golf-course-road</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monthly-furnished-rentals-sector-53-54-rapid-metro-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-guest-house-vs-serviced-apartments-gurgaon-comparison</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/3-bhk-luxury-serviced-penthouse-residences-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-property-owners-lease-to-sandane-homes-guaranteed-rent</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-residences-by-sandane-homes-is-gurgaons-top-choice-for-expats</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-school-gurgaon-expat-family-housing-guide</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-corporate-expat-housing-gurgaon-sector-53-54</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/german-european-expat-housing-gurgaon-dlf-phase-5</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-serviced-apartments-near-medanta-the-medicity-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-artemis-hospital-sector-51-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/medical-relocation-extended-stay-apartments-fortis-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-the-crest-serviced-apartments-executive-housing-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/emaar-palm-drive-golf-course-extension-corporate-apartments</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/short-term-corporate-rentals-dlf-phase-5-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/30-day-extended-stay-apartments-golf-course-road-gurgaon</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/cyber-city-corporate-housing-solutions-sandane-homes</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/consulting-executive-housing-gurgaon-mckinsey-bcg-bain</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-gurgaon-luxury-serviced-apartments-guide</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-expats-choose-residences-by-sandane-homes-gurgaon</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-golf-course-road-and-dlf-phase-5</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/top-housing-agency-in-gurgaon-sandane-homes-expat-relocation</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-housing-agents-in-gurgaon-for-dlf-and-golf-course-road-apartments</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/ranking-the-best-housing-agents-in-gurgaon-for-corporate-stays</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-serviced-apartments-in-gurgaon-monthly-rentals-corporate-suites</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-serviced-apartments-in-gurgaon-dlf-cyber-city-and-golf-course-road</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-in-gurgaon-sandane-homes-vs-traditional-rentals</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/give-flat-on-corporate-lease-in-gurgaon-dlf-park-place-and-the-crest</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/partner-with-sandane-homes-in-gurgaon-guaranteed-monthly-revenue-for-landlords</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-builder-floor-owners-partner-with-sandane-homes-master-lease</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-international-airport-jewar-new-era-expat-corporate-living</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/new-luxury-corridors-of-gurgaon-elevate-emaar-m3m-guide</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/housing-new-semiconductor-electronics-hubs-yamuna-expressway</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/new-clean-air-living-sandane-homes-pureair-suites-gurgaon-greater-noida</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/ev-ready-sustainable-serviced-residences-sandane-homes</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/upcoming-trade-fairs-india-expo-mart-2026-2027-accommodation-guide</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/new-executive-work-and-stay-suites-dlf-cyber-city-gurgaon</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/new-era-property-monetization-ncr-sandane-asset-partner</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-housing-agents-in-gurgaon-corporate-expat-guide</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/top-corporate-housing-agency-in-gurgaon-for-multinational-companies</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-expat-housing-agents-in-gurgaon-japanese-korean-western-professionals</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-sandane-homes-is-the-best-housing-agency-in-gurgaon</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-real-estate-agents-for-expats-in-gurgaon-dlf-golf-course-road</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-agents-vs-local-property-brokers-in-gurgaon</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-housing-agency-in-gurgaon-for-property-owners-and-landlords</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-relocation-housing-agents-in-gurgaon-turnkey-move-in-guide</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/give-flat-on-corporate-lease-in-gurgaon-landlord-guide</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/give-building-on-lease-to-company-in-gurgaon-master-lease</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/partner-with-serviced-apartment-company-in-gurgaon</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-flat-owners-gurgaon-guaranteed-revenue-property-management</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-phase-5-flat-owners-corporate-lease-partnership</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/golf-course-extension-road-property-owners-corporate-leasing-partner</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/airbnb-vs-corporate-master-lease-gurgaon-property-owners</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sushant-lok-and-dlf-builder-floor-owners-corporate-lease-partner</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/earn-with-your-floor-building-gurgaon-noida-guide</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/how-to-partner-with-sandane-homes-step-by-step-guide</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/homestay-club-with-sandane-homes-luxury-villas-and-apartments</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/earn-revenue-from-your-house-floor-building-nri-investors</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/earn-with-your-property-master-lease-vs-traditional-brokers</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/homestay-club-with-sandane-homes-5-star-maintenance-and-care</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/earn-revenue-from-your-house-floor-building</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/partner-with-sandane-homes-property-monetization-guide</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/homestay-club-with-sandane-homes</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/earn-with-your-floor-building-master-lease</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/earn-with-your-property-sandane-homes</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monetize-commercial-builder-floors-serviced-apartments-gurgaon</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-long-stay-discounts-serviced-apartments-gurgaon</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurgaon-with-private-balcony-and-park-view</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-ireo-grand-hyatt-sector-58-gurgaon</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-worldmark-gurgaon-sector-65</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monetize-dlf-phase-1-and-sushant-lok-flat-gurgaon</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-igi-airport-delhi-in-gurgaon</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/rent-serviced-apartment-vs-unfurnished-flat-in-gurgaon-brokerage-calculator</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurgaon-with-private-cook-chef-services</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-on-sohna-road-gurgaon-near-spaze-itech-vatika</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/studio-serviced-apartments-in-gurgaon-for-single-business-travellers</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-imt-manesar-gurgaon-nh8</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-sector-29-gurgaon-near-huda-city-centre-metro</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurgaon-for-consultants-deloitte-ey-pwc-kpmg</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-one-horizon-center-golf-course-road-gurgaon</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurgaon-near-udyog-vihar</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-serviced-apartments-gurgaon-extended-stay</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurugram-near-fortis-medanta-hospitals</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-corporate-guest-house-vs-serviced-apartments</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monetize-dlf-phase-5-apartment-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-golf-course-extension-road-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-relocation-housing-expat-families</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/short-stay-serviced-apartments-in-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monetize-penthouse-luxury-villa-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-dlf-phase-1-2-3-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/b2b-corporate-leasing-agreement-gurgaon-landlords</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-serviced-apartments-in-gurgaon-top-picks</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-serviced-apartments-in-gurugram-golf-course-road</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurgaon-near-dlf-cyber-city</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monthly-serviced-apartments-in-gurgaon-long-stay</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/1bhk-2bhk-3bhk-4bhk-serviced-apartments-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-with-kitchen-in-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-serviced-apartments-in-gurugram-expats</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/pet-friendly-serviced-apartments-in-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-mg-road-metro-station-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/top-10-serviced-apartments-in-gurugram-comparison</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-property-management-company-gurugram-flat-owners</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/how-to-rent-out-apartment-in-gurugram-golf-course-road</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-building-owners-master-lease-guide</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-gurgaon-property-management-remote-leasing-gurugram</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-in-gurgaon-gurugram-mats-mats-expats</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurugram-vs-hotels-gurgaon</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-flat-rental-yield-maximization-gurugram</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-builder-floor-master-lease-dlf-phase-3</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monetize-builder-floor-gurgaon-dlf-sushant-lok</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/master-lease-vs-broker-leasing-gurgaon-flat-owners</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/convert-standalone-building-corporate-housing-gurgaon</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-property-monetization-noida-expressway-greater-noida</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-japanese-korean-corporates-prefer-sandane-managed-properties</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/preventing-property-degradation-long-term-rentals-gurgaon</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/cost-of-managing-gurgaon-rental-yourself</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-property-management-gurgaon</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/questions-property-management-company-gurgaon</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-tenants-gurgaon-apartment</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-guide-to-property-monetization-and-revenue-leasing-in-gurgaon</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/how-to-monetize-vacant-luxury-apartments-in-gurgaon-dlf-societies</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-building-owners-guide-how-to-partner-entire-residential-towers</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-gurgaon-flat-owners-are-partnering-with-sandane-homes-for-guaranteed-revenue</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-dlf-cyber-city-in-gurgaon-5-minute-commute</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-serviced-penthouses-in-gurgaon-golf-course-road-m3m-golfestate</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/foreigner-friendly-serviced-apartments-in-gurgaon-dlf-phase-1-2-3-4-5</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/extended-stay-corporate-rentals-in-gurgaon-sector-58-62-golf-course-ext</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/short-term-serviced-apartments-in-gurgaon-for-business-travelers</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/chinese-corporate-housing-in-gurgaon-sohna-road-sector-48-49</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-serviced-apartments-in-gurgaon-sector-53-54-golf-course-road</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-expat-housing-in-gurgaon-near-yamaha-honda-denso-offices</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-corporate-housing-in-gurgaon-dlf-phase-5-golf-course-road</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-serviced-apartments-in-gurgaon-for-corporate-expats-2026-guide</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugaon-nihonjin-muke-saabisu-apaato-fudousan-chuuzai-guido</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/short-term-executive-rentals-gurgaon-golf-course-ext-road</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/chinese-serviced-apartments-gurgaon-sohna-road-sector-48-49</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-serviced-apartments-gurgaon-golf-course-road-sector-54</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-serviced-apartments-gurgaon-dlf-phase-2-cyber-city-guide</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/apartments-near-cyber-city-gurgaon-golf-course-road-corporate-housing</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-apartments-downtown-gurgaon-serviced-penthouses-gated-societies</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/expat-apartments-gurgaon-foreigner-friendly-relocation-housing</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monthly-apartment-rentals-gurgaon-extended-stay-short-term-rentals</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-gurgaon-serviced-apartments-executive-rentals-golf-course-road</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/apartments-near-one-horizon-center-gurugram-corporate-housing-near-me</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-penthouses-gurugram-luxury-condos-golf-course-road</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/foreigner-friendly-apartments-gurugram-corporate-relocation-guide</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/extended-stay-apartments-gurugram-6-month-lease-monthly-rentals</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-gurugram-golf-course-extension-road-executive-rentals</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/guergang-huaren-fuwushi-gongyu-zhongguo-yuangong-zhusu-zhinan</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/chinese-japanese-expat-housing-gurugram-sohna-road-sector-48-49</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-serviced-apartments-gurgaon-mg-road-cyber-city-corridor</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/chinese-expat-apartments-gurugram-dlf-phase-5-serviced-residences</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-corporate-housing-gurugram-golf-course-extension-road</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/apartments-near-dlf-cyber-city-gurugram-corporate-housing-near-me</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-apartments-downtown-gurugram-serviced-penthouses-gated-communities</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/relocation-housing-gurugram-expat-apartments-foreigner-friendly-guide</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/monthly-apartment-rentals-gurugram-short-term-extended-stay-3-month-lease</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-housing-gurugram-serviced-apartments-executive-rentals-guide</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nri-property-owners-guide-to-passive-revenue-leasing-in-gurugram</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/how-to-monetize-vacant-luxury-flats-in-gurugram-golf-course-road</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-building-owners-guide-master-leasing-vs-individual-unit-renting</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-gurugram-property-owners-are-switching-from-traditional-renting-to-managed-leasing</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-serviced-apartments-gurgaon-sohna-road-sector-48-49</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-service-apartments-gurgaon-dlf-phase-1-2-3-cyber-city</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-serviced-apartments-gurgaon-sector-53-54-golf-course-road</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-service-apartments-gurgaon-sector-42-43-golf-course-road</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-service-apartments-gurgaon-golf-course-road-dlf-phase-5</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-serviced-apartments-gurgaon-ja-guide</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-expat-housing-gurgaon-vs-lime-tree-serviced-apartments</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-property-owners-managed-leasing</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-apartment-rental-income-comparison</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-greater-noida-japanese-expats</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-greater-noida-korean-expats</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/denso-india-greater-noida-japanese-automotive-engineers-housing</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/daikin-india-greater-noida-hvac-engineers-expat-serviced-apartments</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sector-5a-yeida-japan-city-500-acre-industrial-township-expat-housing</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/toyota-tsusho-nidec-japan-expats-serviced-apartments-greater-noida</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sector-5a-japan-city-yeida-noida-airport-expat-housing-ja</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-camellias-gurugram-luxury-serviced-apartments-cxo-expats</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-magnolias-gurugram-golf-course-road-expat-serviced-residences</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/central-park-2-residences-sohna-road-gurugram-serviced-apartments</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-aralias-gurugram-golf-course-road-cxo-serviced-apartments</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-park-place-gurugram-corporate-serviced-apartments-expats</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hines-elevate-gurugram-golf-course-extension-corporate-housing</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/emaar-digi-homes-gurugram-smart-serviced-apartments-expats</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/m3m-golfestate-gurugram-golf-course-extension-luxury-serviced-apartments</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/dlf-phase-4-gurugram-serviced-apartments-corporate-expats</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/kubota-corporation-japan-escorts-kubota-greater-noida-expat-housing</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/kubota-japan-engineers-visiting-delegates-serviced-apartments-greater-noida</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/kubota-corporation-japan-expat-housing-greater-noida-ja</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/up-japan-city-noida-international-airport-yeida-expat-housing</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japan-city-yamuna-expressway-corporate-accommodation-japanese-engineers</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/up-japan-township-noida-airport-expat-villas-serviced-residences</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japan-city-noida-international-airport-japanese-expat-housing-ja</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-corporate-relocation-housing-greater-noida-yeida-guide</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/automotive-supply-chain-japanese-engineers-housing-greater-noida</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/yamuna-expressway-industrial-park-expat-housing-sandane-homes</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-speaking-support-expat-serviced-apartments-noida-gurgaon</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sekisui-dljm-corporate-housing-greater-noida-yeida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/seiko-advance-industrial-coating-expats-noida-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/mobase-india-corporate-serviced-apartments-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/iljin-electronics-ascent-k-corporate-residences-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/india-steel-summit-sumitomo-corporate-housing-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hitachi-high-tech-corporate-housing-noida-greater-noida-yeida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/lg-electronics-techzone-corporate-serviced-apartments-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/spark-minda-automotive-joint-venture-corporate-housing-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/escorts-kubota-japanese-expats-corporate-housing-greater-noida-yeida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-city-noida-international-airport-yeida-corporate-housing</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-expat-serviced-apartments-gurgaon-delhi-ncr-housing-guide</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-expat-housing-japanese-serviced-apartments-delhi-ncr</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-in-gurugram-corporate-housing-greater-noida-japanese-expats</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-food-serviced-apartment-gurgaon-japanese-speaking-condo-delhi</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-expat-luxury-residences-dlf-cyber-city-gurgaon-nhk-premium</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-corporate-serviced-apartments-golf-course-extension-gurugram</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-expat-long-stay-housing-samsung-noida-sector-81</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-korean-corporate-housing-long-stay-delhi-ncr-residences</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-corporate-housing-monthly-rental-gst-invoice-chinese-enterprise</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-long-stay-apartment-for-chinese-business-travelers-manufacturing-hubs</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japan-corporate-long-stay-serviced-apartments-gurgaon-dlf-cyber-city</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-speaking-hospitality-serviced-apartment-cyber-hub-gurgaon</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-executive-housing-samsung-noida-serviced-apartments</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-korean-corporate-housing-long-stay-serviced-apartments-gurugram</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-corporate-housing-monthly-rental-gst-invoice-chinese-staff</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-long-stay-apartment-for-chinese-business-travelers-gst-invoicing</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-guest-house-gurgaon-cyber-city-nhk-premium</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-corporate-housing-gurugram-golf-course-road</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-expat-housing-delhi-ncr-samsung-noida-serviced-apartments</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-korean-serviced-apartment-long-stay-housing</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/chinese-enterprise-employee-lodging-greater-noida-monthly-rental-gst</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-serviced-apartment-chinese-business-travelers-long-stay</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-expat-accommodation-gurgaon-serviced-apartment-cyber-city</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-style-serviced-apartments-gurgaon-dlf-cyber-hub</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/samsung-noida-nearby-serviced-apartment-for-koreans-greater-noida</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-korean-corporate-housing-long-stay-delhi-ncr-apartments</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-corporate-housing-monthly-rental-gst-invoice-long-term-apartment</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-long-stay-apartment-for-chinese-business-travelers-cyber-city</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-serviced-apartment-japanese-speaking-staff-cyber-city</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nhk-premium-gurugram-hotel-japanese-accommodation</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-serviced-apartment-korean-breakfast-food-residence</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-long-stay-apartment-for-chinese-business-travelers-monthly-rental</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-long-term-apartment-chinese-enterprise-lodging</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-corporate-accommodation-gurgaon-cyber-city-nhk-premium</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-style-service-apartment-dlf-cyber-city-gurugram</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/delhi-ncr-korean-apartment-gurgaon-korean-expat-residence</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-korean-corporate-housing-long-stay-greater-noida-serviced-apartment</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/delhi-ncr-chinese-enterprise-employee-lodging-greater-noida-long-term-apartment</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-corporate-housing-monthly-rental-gst-invoice-chinese-travelers</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japan-expat-housing-guruagron-serviced-apartments-cyber-city</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/cyber-city-japanese-speaking-residence-gurugram-nhk-premium</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-serviced-apartment-korean-expat-residence-samsung-noida</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/samsung-noida-nearby-serviced-apartment-for-koreans-gurgaon-korean-breakfast</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-corporate-housing-monthly-rental-gst-invoice-chinese-lodging</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-long-stay-apartment-for-chinese-business-travelers-delhi-ncr-lodging</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japan-corporate-expat-serviced-apartments-gurugram-cyber-city-guide</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-corporate-residence-gurgaon-korean-food-long-stay</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-chinese-corporate-housing-monthly-rental-gst-invoice-guide</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-corporate-housing-gurgaon-dlf-cyber-city-golf-course-road</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-korean-corporate-housing-long-stay-samsung-noida-serviced-apartments</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/delhi-ncr-chinese-enterprise-employee-lodging-greater-noida-monthly-rental-gst-invoice</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/nhk-premium-hotel-gurgaon-japanese-speaking-residence-dlf-cyber-city</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-korean-serviced-apartment-samsung-noida-housing</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-korean-expat-residence-serviced-apartment-korean-food</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/greater-noida-long-term-apartment-chinese-corporate-housing-gurugram</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/gurgaon-long-stay-apartment-chinese-business-travelers-gst-invoice</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-ev-india-expo-2026-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-itme-2026-india-international-textile-machinery-exhibition-greater-noida</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-printpack-india-2027-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/safe-hotels-for-solo-female-travelers-greater-noida-sandane-homes</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/luxury-boutique-hotel-ansal-golf-links-1-greater-noida-sandane-homes</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-in-greater-noida-with-swiggy-blinkit-delivery-sandane-homes</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-godrej-golf-links-greater-noida-sandane-homes-residences</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-tent-decor-asia-horeca-asia-2026-india-expo-mart</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-expat-serviced-apartments-greater-noida</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-corporate-long-stay-gated-community</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-expat-family-relocation-education</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-frro-registration-housing-contract</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-exhibition-hotel-guide-india-expo-mart-2027</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-expat-housing-relocation-noida</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-corporate-relocation-greater-noida</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-executive-kitchenette-suites-ansal-golf-links</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-by-sandane-homes-corporate-stay-knowledge-park-expo-mart</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-noida-airport-transit-luxury-suites</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-expat-relocation-guide-greater-noida</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-family-luxury-gated-villas</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-enterprise-corporate-housing-guide</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-expat-family-villas-guide</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-expat-relocation-housing-guide-greater-noida</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-exhibition-booth-crew-group-hotel-stay-expo-mart</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-boutique-hotel-surajpur-industrial-corridor</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-korean-expat-family-villas</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-luxury-boutique-hotel-suites-pari-chowk</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-by-sandane-homes-corporate-hotel-visiting-engineers-noida</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sandane-homes-hotel-flagship-luxury-boutique-hotel-suites</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-premier-boutique-hotel-near-india-expo-mart</loc>
     <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-serene-executive-boutique-hotel</loc>
     <lastmod>2026-02-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-luxury-boutique-suites-noida-airport</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-korean-boutique-hotel-expo-mart-guide</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-korean-boutique-hotel-guide</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-korean-luxury-hotel-guide</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-japanese-boutique-hotel-expo-mart-guide</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-japanese-boutique-hotel-guide</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-japanese-luxury-suites-guide</loc>
     <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-chinese-boutique-hotel-expo-mart-guide</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-chinese-boutique-hotel-guide</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-chinese-luxury-hotel-guide</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-ultimate-expat-serviced-apartments-guide-greater-noida</loc>
     <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-corporate-relocation-housing-noida-expressway</loc>
     <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-expat-housing-ansal-golf-links-guide</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-long-stay-serviced-apartments-noida</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-expat-serviced-apartments-greater-noida</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-relocation-long-stay-guide-noida</loc>
     <lastmod>2026-02-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-oppo-vivo-chinese-executive-serviced-apartments-greater-noida</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-corporate-long-stay-housing-noida</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-premier-boutique-hotel-homestay-near-india-expo-mart</loc>
     <lastmod>2026-02-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-luxury-boutique-hotel-homestay-ansal-golf-links</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-contemporary-boutique-hotel-noida-airport-corridor</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-by-sandane-homes-executive-boutique-hotel-near-expo-mart</loc>
     <lastmod>2026-02-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sandane-homes-hotel-luxury-boutique-suites-kitchenette-expo-mart</loc>
     <lastmod>2026-02-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-luxury-villas-japanese-korean-expats-greater-noida</loc>
     <lastmod>2026-01-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-luxury-villas-guide</loc>
     <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-luxury-villas-guide</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-luxury-villas-guide</loc>
     <lastmod>2026-01-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-3bhk-luxury-serviced-apartments-japanese-korean-expats</loc>
     <lastmod>2026-01-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-3bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-3bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-3bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-2bhk-luxury-serviced-apartments-japanese-korean-expats</loc>
     <lastmod>2026-01-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-2bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-2bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-2bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-1bhk-luxury-serviced-apartments-japanese-korean-expats</loc>
     <lastmod>2026-01-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-1bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-1bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-1bhk-serviced-apartments-guide</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-auto-guide-749892</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-auto-guide-749892</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-auto-guide-749892</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-auto-guide-749892</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-auto-guide-798702</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-auto-guide-798702</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-auto-guide-798702</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-auto-guide-798702</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-expat-housing-guide-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-japanese-business-trip-hotel-india-expo-mart</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-expat-housing-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-korean-executive-hotel-rooms</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-chinese-expat-serviced-apartments</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-chinese-executive-boutique-stay</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-auto-guide-128805</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-auto-guide-128805</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-auto-guide-128805</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-auto-guide-128805</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-auto-guide-091160</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-auto-guide-091160</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-auto-guide-091160</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-auto-guide-091160</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-auto-guide-119507</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-auto-guide-119507</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-auto-guide-119507</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-auto-guide-119507</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-by-sandane-homes-luxury-boutique-stay-ansal-golf-links</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-by-sandane-homes-corporate-extended-stay-hotel-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/saffron-inn-by-sandane-homes-peaceful-hotel-near-india-expo-mart</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/pine-tales-by-sandane-homes-cozy-boutique-stay-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sandane-homes-complete-hotel-portfolio-guide-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-hotel-near-auto-expo-2026-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-corporate-hotel-stay-knowledge-park-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-vs-5-star-hotels-india-expo-mart-stay</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-early-check-in-late-check-out-expo-mart-exhibitors</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-long-stay-hotel-rooms-surajpur-industrial-area</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-luxury-3bhk-family-serviced-apartments-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-relocation-guide-corporate-expats-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-boutique-stay-creative-agencies-media-crews-expo-mart</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-group-booking-discounted-rates-trade-fairs-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-ihe-2026-exhibitor-hotel-booking-guide</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-group-stay-hospitality-delegates-ihe-expo-mart</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-executive-hotel-rooms-kitchenette-ihe-2026</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-vs-5-star-hotels-ihe-2026-expo-mart</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-by-sandane-homes-early-check-in-gst-billing-ihe-2026</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-korean-expat-housing-greater-noida-guide</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-japanese-expat-housing-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-serviced-apartments-near-india-expo-mart</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-luxury-villas-ansal-golf-links-greater-noida</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-long-stay-extended-stay-apartments-noida-expressway</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-vs-5-star-hotels-corporate-stays-greater-noida</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-sandane-homes-boutique-hotel-ansal-golf-links-greater-noida</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-luxury-serviced-apartments-greater-noida</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-expat-housing-ansal-golf-links-greater-noida</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-corporate-serviced-apartments-long-stay</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-furnished-2bhk-3bhk-apartments-near-pari-chowk</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-relocation-housing-surajpur-yamuna-expressway</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-sandane-homes-boutique-hotel-near-india-expo-mart</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-sandane-homes-group-accommodation-for-trade-exhibitors</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-sandane-homes-hotel-near-pari-chowk-greater-noida</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-sandane-homes-budget-luxury-hotel-knowledge-park</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-sandane-homes-long-stay-corporate-guest-house</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sandane-homes-luxury-suites-greater-noida-ansal-golf-links</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-hotel-near-surajpur-industrial-area-greater-noida</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-luxury-stay-near-noida-international-airport-corridor</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-hotel-near-yamuna-expressway-industrial-hub</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-corporate-team-housing-greater-noida</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-auto-expo-2026-india-expo-mart-greater-noida</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-noida-expo-centre-sector-62-greater-noida-corridor</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-boutique-hotels-in-greater-noida-with-kitchenette-wifi</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-vs-hotels-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-galgotias-university-sharda-university-knowledge-park</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sandane-homes-luxury-hotel-near-india-expo-mart-gate-1</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-hotel-near-knowledge-park-2-expo-mart-greater-noida</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-boutique-hotel-near-pari-chowk-expo-mart</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-corporate-hotel-extended-stay-expo-mart</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-group-booking-hotel-single-gst-expo-mart</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-ihgf-delhi-fair-2026-india-expo-mart</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-elecrama-2026-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-renewable-energy-india-expo-rei-2026</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-cphi-pmec-india-2026-greater-noida</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-5-minutes-from-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/sandane-homes-luxury-hotel-near-ihe-2026-greater-noida</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-hotel-near-ihe-2026-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-boutique-hotel-near-ihe-2026-greater-noida</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-hotel-near-ihe-2026-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-hotel-near-ihe-2026-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-ihe-2026-india-international-hospitality-expo</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/extended-stay-hotel-greater-noida-amara-inn</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/boutique-hotel-greater-noida-the-glam</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/group-booking-hotel-near-india-expo-mart</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-luxury-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/the-glam-boutique-hotel-near-pari-chowk-greater-noida</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-corporate-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-hotel-near-pari-chowk-metro-station-greater-noida</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-boutique-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-hotel-near-pari-chowk-greater-noida</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amaaltash-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/saffron-inn-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/coco-house-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/pine-tales-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/glam-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/amara-inn-hotel-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/business-hotels-greater-noida-for-trade-fair-teams</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-corporate-hotels-greater-noida</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-knowledge-park-greater-noida</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-pari-chowk-greater-noida</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/surajpur-industrial-area-corporate-housing-greater-noida</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/frro-address-verification-noida-greater-noida-guide</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-with-kitchen-greater-noida</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/safe-places-to-stay-greater-noida-female-travellers</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-near-yamuna-expressway-industrial-hubs</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/noida-international-airport-greater-noida-corporate-stay</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/corporate-guest-house-vs-serviced-apartments-greater-noida</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-serviced-apartments-near-india-expo-mart-greater-noida</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-korean-expat-housing-greater-noida</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/best-gated-communities-expats-greater-noida</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/why-greater-noida-is-best-for-expats</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/furnished-vs-unfurnished-apartments-expats</loc>
     <lastmod>2025-06-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/frro-registration-guide-expats-india</loc>
     <lastmod>2025-05-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/hotels-near-india-expo-centre-greater-noida</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/serviced-apartments-greater-noida-for-corporate-and-expats</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-and-japanese-friendly-serviced-apartments-in-greater-noida</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/where-to-stay-in-greater-noida-complete-travel-guide</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/da-nuoyida-fuwushi-gongyu-zhinan</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/weiwo-oppo-yuangong-zhusu-zhinan</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/yindu-frro-dengji-zhongguo-gongmin-zhinan</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/yindu-shenghuo-zhongguo-yuangong</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/da-nuoyida-changzhu-gongyu-vs-jiudian</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-serviced-apartments-noida-international-airport-jewar</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-4bhk-5bhk-luxury-villas-executive-housing</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-pet-friendly-luxury-apartments-greater-noida</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-western-expat-housing-greater-noida</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-ansal-golf-links-vs-jaypee-greens-vs-godrej-golf-link</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-company-guest-house-cxo-corporate-housing</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-best-serviced-apartments-greater-noida-chinese</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-best-serviced-apartments-greater-noida-japanese</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/residences-by-sandane-homes-best-serviced-apartments-greater-noida-korean</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/japanese-business-hotel-expat-housing-keywords-greater-noida</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/korean-guest-house-corporate-housing-keywords-greater-noida</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.sandanehomes.com/blog/chinese-serviced-apartments-kitchen-direct-billing-keywords-greater-noida</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-ansal-golf-links</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-godrej-golf-link</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/furnished-apartments-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/corporate-housing-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/long-stay-apartments-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/apartments-near-india-expo-centre</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/japanese-expat-housing-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/expat-housing-delhi-ncr</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/corporate-accommodation-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/relocation-housing-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/accommodation-visiting-engineers-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/luxury-villa-rental-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-jaypee-greens</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/dlf-park-place-sector-54-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/elevate-hines-sector-58-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/the-grand-arch-sector-58-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/emaar-digi-homes-sector-62-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/m3m-heights-sector-65-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/m3m-golfestate-sector-65-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/green-meadows-sector-27-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/sushant-lok-block-a-sector-27-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/sushant-lok-block-b-sector-27-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/dlf-phase-4-sector-27-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/green-avenue-sector-27-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-dlf-cyber-city-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-golf-course-road-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-dlf-phase-5-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-one-horizon-center-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/serviced-apartments-sohna-road-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-honda-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-maruti-suzuki-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-toyota-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-ntt-data-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-fujitsu-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-mitsubishi-electric-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-panasonic-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-hitachi-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-toshiba-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-canon-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-sony-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-daikin-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-denso-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-mitsui-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-sumitomo-employees-gurgaon</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-honda-employees-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-yamaha-employees-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-denso-employees-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-sekisui-employees-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-brother-industries-employees-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-seiko-advance-employees-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-kubota-employees-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-epson-employees-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-kyocera-employees-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-anest-iwata-employees-greater-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-daikin-employees-noida</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.sandanehomes.com/housing-for-daikin-employees</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.75</priority>
   </url>
 </urlset>

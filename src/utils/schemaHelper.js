@@ -27,12 +27,13 @@ export const createHotelSchema = ({
   "image": image,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Greater Noida",
-    "addressLocality": "Greater Noida",
-    "addressRegion": "Uttar Pradesh",
-    "postalCode": "201310",
+    "streetAddress": "Sector 27 / DLF Phase 4",
+    "addressLocality": "Gurugram",
+    "addressRegion": "Haryana",
+    "postalCode": "122002",
     "addressCountry": "IN"
   },
+  "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"],
   "parentOrganization": SANDANE_PARENT_ORGANIZATION,
   "starRating": {
     "@type": "Rating",
@@ -63,12 +64,13 @@ export const createLodgingSchema = ({
   "image": image,
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Greater Noida",
-    "addressLocality": "Greater Noida",
-    "addressRegion": "Uttar Pradesh",
-    "postalCode": "201310",
+    "streetAddress": "Sector 27 / DLF Phase 4",
+    "addressLocality": "Gurugram",
+    "addressRegion": "Haryana",
+    "postalCode": "122002",
     "addressCountry": "IN"
   },
+  "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"],
   "parentOrganization": SANDANE_PARENT_ORGANIZATION,
   "amenityFeature": amenities.map((amenity) => ({
     "@type": "LocationFeatureSpecification",

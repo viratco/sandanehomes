@@ -43,15 +43,15 @@ const Residences = () => {
     }, []);
 
     const seoProps = {
-        title: "Residences by Sandane Homes | Official Site | Luxury Serviced Apartments",
-        description: "Official portal for Residences by Sandane Homes. Fully furnished 2 & 3 BHK luxury serviced apartments in Greater Noida, Noida & Gurgaon for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.",
+        title: "Residences by Sandane Homes | Luxury Serviced Apartments in Gurugram & Delhi NCR",
+        description: "Official portal for Residences by Sandane Homes. Fully furnished 2, 3 & 4 BHK luxury serviced apartments in Gurugram (Sector 27, DLF Phase 4, Golf Course Extension) & Delhi NCR for expats and corporate professionals. Daily housekeeping & B2B GST billing.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: [{
             "@context": "https://schema.org",
             "@type": "ApartmentComplex",
             "name": "Residences by Sandane Homes",
-            "description": "Premium fully-furnished serviced apartments in Greater Noida for corporate expats and international professionals. Minutes from Honda Cars India, LG Electronics, Samsung, and Yamaha Motor. Flexible monthly stays with full amenities.",
+            "description": "Premium fully-furnished serviced apartments in Gurugram and Delhi NCR for corporate expats and international professionals. Near DLF Cyber City, Golf Course Road, and MNC industrial corridors. Flexible monthly stays with full amenities.",
             "url": "https://www.sandanehomes.com/residences",
             "telephone": "+919711722273",
             "email": "residencesbysandanehomes@gmail.com",
@@ -62,17 +62,13 @@ const Residences = () => {
             },
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "BB-28, Block B, Ansal Golf Link-1",
-                "addressLocality": "Greater Noida",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "201315",
+                "streetAddress": "Sector 27 / DLF Phase 4",
+                "addressLocality": "Gurugram",
+                "addressRegion": "Haryana",
+                "postalCode": "122002",
                 "addressCountry": "IN"
             },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 28.4558093,
-                "longitude": 77.5036021
-            },
+            "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"],
             "amenityFeature": [
                 { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi (300 Mbps)", "value": true },
                 { "@type": "LocationFeatureSpecification", "name": "100% Power Backup", "value": true },
