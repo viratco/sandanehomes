@@ -77,6 +77,25 @@ const getHeroImage = (slug) => {
     }
 };
 
+const FAQItem = ({ question, answer }) => {
+    const [isOpen, setIsOpen] = React.useState(false);
+    return (
+        <div style={{ borderBottom: '1px solid #e0e0e0', padding: '22px 0', cursor: 'pointer' }} onClick={() => setIsOpen(!isOpen)}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <h3 style={{ fontSize: '17px', color: '#1A3C34', margin: 0, fontWeight: '600', paddingRight: '20px', fontFamily: 'Playfair Display, serif', lineHeight: 1.4 }}>
+                    {question}
+                </h3>
+                <span style={{ color: '#1A3C34', fontSize: '18px' }}>{isOpen ? '−' : '+'}</span>
+            </div>
+            {isOpen && (
+                <div style={{ marginTop: '14px', color: '#555', fontSize: '15px', lineHeight: '1.8', fontFamily: 'Montserrat, sans-serif' }}>
+                    {answer}
+                </div>
+            )}
+        </div>
+    );
+};
+
 const LandingPage = ({ slug: propSlug }) => {
     // Can support either prop injection or URL params
     const { slug: paramSlug } = useParams();
@@ -161,7 +180,7 @@ const LandingPage = ({ slug: propSlug }) => {
                             <span style={{ color: '#bbb' }}>›</span>
                             <Link to={GURUGRAM_HUB_PATH} style={{ color: '#8B7355', textDecoration: 'none' }}>Gurgaon</Link>
                             <span style={{ color: '#bbb' }}>›</span>
-                            <span style={{ color: '#1A3C34', fontWeight: '600' }}>{gurugramResidences.find(r => r.slug === page.slug).name}</span>
+                            <span style={{ color: '#1A3C34', fontWeight: '600' }}>{gurugramResidences.find(r => r.slug === page.slug)?.name || page.h1}</span>
                         </nav>
                     )}
                     <span style={{ color: '#C5A572', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '13px', fontWeight: 'bold', display: 'block', marginBottom: '15px' }}>
@@ -355,48 +374,35 @@ const LandingPage = ({ slug: propSlug }) => {
             )}
 
             {/* Inclusions / What's Included */}
-            <div style={{ padding: '80px 10%', backgroundColor: '#FAF8F5', borderTop: '1px solid #eee' }}>
-                <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-                    <h2 style={{ fontSize: '30px', color: '#1A3C34', fontFamily: 'Playfair Display, serif', marginBottom: '40px', textAlign: 'center' }}>
-                        What's Included
-                    </h2>
-                    <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', listStyle: 'none', padding: 0 }}>
-                        {page.inclusions.map((inc, i) => (
-                            <li key={i} style={{ display: 'flex', gap: '12px', fontSize: '15px', color: '#444', lineHeight: '1.5', fontFamily: 'Montserrat, sans-serif' }}>
-                                <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span>
-                                <span>{inc}</span>
-                            </li>
-                        ))}
-                    </ul>
+            {page.inclusions && page.inclusions.length > 0 && (
+                <div style={{ padding: '80px 10%', backgroundColor: '#FAF8F5', borderTop: '1px solid #eee' }}>
+                    <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+                        <h2 style={{ fontSize: '30px', color: '#1A3C34', fontFamily: 'Playfair Display, serif', marginBottom: '40px', textAlign: 'center' }}>
+                            What's Included
+                        </h2>
+                        <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', listStyle: 'none', padding: 0 }}>
+                            {page.inclusions.map((inc, i) => (
+                                <li key={i} style={{ display: 'flex', gap: '12px', fontSize: '15px', color: '#444', lineHeight: '1.5', fontFamily: 'Montserrat, sans-serif' }}>
+                                    <span style={{ color: '#C5A572', fontWeight: 'bold' }}>✓</span>
+                                    <span>{inc}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            )}
 
             {/* FAQs Accordion */}
-            {page.faqs && (
+            {page.faqs && page.faqs.length > 0 && (
                 <div style={{ padding: '80px 10%', backgroundColor: '#ffffff', borderTop: '1px solid #eee' }}>
                     <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                         <h2 style={{ fontSize: '30px', color: '#1A3C34', fontFamily: 'Playfair Display, serif', marginBottom: '40px', textAlign: 'center' }}>
                             Frequently Asked Questions
                         </h2>
                         <div style={{ display: 'flex', flexDirection: 'column' }}>
-                            {page.faqs.map((faq, i) => {
-                                const [isOpen, setIsOpen] = React.useState(false);
-                                return (
-                                    <div key={i} style={{ borderBottom: '1px solid #e0e0e0', padding: '22px 0', cursor: 'pointer' }} onClick={() => setIsOpen(!isOpen)}>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <h3 style={{ fontSize: '17px', color: '#1A3C34', margin: 0, fontWeight: '600', paddingRight: '20px', fontFamily: 'Playfair Display, serif', lineHeight: 1.4 }}>
-                                                {faq.question}
-                                            </h3>
-                                            <span style={{ color: '#1A3C34', fontSize: '18px' }}>{isOpen ? '−' : '+'}</span>
-                                        </div>
-                                        {isOpen && (
-                                            <div style={{ marginTop: '14px', color: '#555', fontSize: '15px', lineHeight: '1.8', fontFamily: 'Montserrat, sans-serif' }}>
-                                                {faq.answer}
-                                            </div>
-                                        )}
-                                    </div>
-                                );
-                            })}
+                            {page.faqs.map((faq, i) => (
+                                <FAQItem key={i} question={faq.question} answer={faq.answer} />
+                            ))}
                         </div>
                     </div>
                 </div>
