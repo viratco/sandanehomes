@@ -100,7 +100,7 @@ const BlogList = () => {
         name: 'Sandane Homes Journal',
         url: 'https://www.sandanehomes.com/blog',
         description:
-            'Relocation guides, neighbourhood insights, and practical advice for expats and corporate professionals moving to Greater Noida and Delhi NCR.',
+            'Relocation guides, neighbourhood insights, and practical advice for expats, executives, and corporate professionals.',
         blogPost: blogPosts.map((p) => ({
             '@type': 'BlogPosting',
             headline: p.title,
@@ -121,8 +121,8 @@ const BlogList = () => {
     return (
         <div className="catarina-services sandane-homes-page">
             <SEO
-                title="The Sandane Journal | Relocation Guides & Living in Greater Noida"
-                description="Practical guides on expat relocation, neighbourhood life, and corporate housing in Greater Noida & Delhi NCR — from the team at Sandane Homes."
+                title="The Sandane Journal | Relocation Guides & Corporate Living"
+                description="Practical guides on expat relocation, neighbourhood life, and premium serviced residences — from the team at Sandane Homes."
                 canonical="https://www.sandanehomes.com/blog"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 schema={[blogSchema, breadcrumbSchema]}
@@ -159,10 +159,10 @@ const BlogList = () => {
                     The Sandane Journal
                 </p>
                 <h1 className="catarina-title" style={{ position: 'relative', zIndex: 2, maxWidth: '820px', margin: '0 auto', fontSize: '48px', lineHeight: '1.2' }}>
-                    Guides &amp; Stories for Life in Greater Noida
+                    Guides &amp; Stories for Living &amp; Relocation
                 </h1>
                 <p style={{ position: 'relative', zIndex: 2, fontSize: '18px', color: '#eee', maxWidth: '650px', margin: '20px auto 30px', lineHeight: '1.7' }}>
-                    Relocation advice, neighbourhood insights, and practical tips for expats and professionals settling into Delhi NCR.
+                    Relocation advice, neighbourhood insights, and practical tips for expats, executives, and corporate professionals.
                 </p>
                 <div style={{ position: 'relative', zIndex: 2 }}>
                     <Link
@@ -294,7 +294,7 @@ const BlogList = () => {
                             Sandane Homes Portfolio
                         </span>
                         <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: '32px', color: '#fff', margin: '14px 0 16px' }}>
-                            Find Your Ideal Serviced Suite in Greater Noida
+                            Find Your Ideal Serviced Suite &amp; Corporate Residence
                         </h2>
                         <p style={{ fontSize: '16px', color: '#E0E0E0', maxWidth: '600px', margin: '0 auto 28px', lineHeight: '1.7' }}>
                             Explore fully furnished 1BHK, 2BHK, and studio residences in gated communities with 24/7 security, daily housekeeping, and full corporate amenities.

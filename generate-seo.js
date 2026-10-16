@@ -461,8 +461,8 @@ SEO_MAP[GURUGRAM_HUB_PATH] = {
 };
 
 SEO_MAP['/blog'] = {
-  title: 'The Sandane Journal | Relocation Guides & Living in Greater Noida',
-  description: 'Practical guides on expat relocation, neighbourhood life, and corporate housing in Greater Noida & Delhi NCR — from the team at Sandane Homes.',
+  title: 'The Sandane Journal | Relocation Guides & Corporate Living',
+  description: 'Practical guides on expat relocation, neighbourhood life, and premium serviced residences — from the team at Sandane Homes.',
   schemas: [
     {
       "@context": "https://schema.org",
