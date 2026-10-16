@@ -542,11 +542,6 @@ blogPosts.forEach((post) => {
         "name": "Sandane Homes",
         "url": `${BASE_URL}`
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "490"
-      },
       "areaServed": [
         "Gurugram",
         "Gurgaon",
@@ -610,11 +605,6 @@ landingPages.forEach((page) => {
       "@type": "GeoCoordinates",
       "latitude": isGurgaon ? "28.4595" : "28.4744",
       "longitude": isGurgaon ? "77.0266" : "77.5040"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "490"
     }
   });
 
