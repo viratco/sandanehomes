@@ -1,16 +1,312 @@
 export const blogPosts = [
   {
-    id: "residences-by-sandane-homes-sandane-rent-co-serviced-apartments-daikin",
-    title: "Residences by Sandane Homes & Sandane Rent Co: Providing Premium Serviced Apartments to Daikin",
-    slug: "residences-by-sandane-homes-sandane-rent-co-serviced-apartments-daikin",
-    excerpt: "Discover how Residences by Sandane Homes and corporate leasing division Sandane Rent Co deliver luxury turnkey serviced apartments, Japanese-grade amenities, and seamless B2B master leasing for Daikin Airconditioning India executives and engineers across Gurugram, Noida, and NCR.",
-    category: "Corporate Housing",
-    readTime: "8 min read",
-    date: "October 16, 2026",
-    publishDate: "2026-10-16",
-    author: "Sandane Corporate & Japan Mobility Desk",
-    coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
-    tags: [
+    "id": "serviced-apartments-for-consultants-deloitte-kpmg-pwc-ey-gurgaon",
+    "slug": "serviced-apartments-for-consultants-deloitte-kpmg-pwc-ey-gurgaon",
+    "title": "Serviced Apartments in Gurgaon for Big 4 Consultants: Deloitte, KPMG, PwC & EY",
+    "metaTitle": "Serviced Apartments in Gurgaon for Big 4 Consultants | Deloitte, KPMG, PwC, EY",
+    "metaDescription": "Executive serviced apartments in Gurgaon for management consultants and audit teams from Deloitte, KPMG, PwC and EY. High-speed WiFi, quiet workspaces & B2B GST billing.",
+    "excerpt": "Traveling to Gurgaon for client engagements with Deloitte, KPMG, PwC, or EY? Discover executive serviced suites with 300 Mbps WiFi, private kitchens, and flexible corporate billing by Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "8 min read",
+    "date": "October 12, 2026",
+    "publishDate": "2026-10-12",
+    "author": "Sandane Corporate Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Consultant Housing Gurgaon",
+      "Big 4 Accommodations Gurgaon",
+      "Deloitte Cyber City",
+      "KPMG Golf Course Road",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>High-Performance Serviced Stays for Advisory & Audit Professionals</h2>\n<p>Management consultants, audit teams, and forensic specialists from the Big 4 firms—<strong>Deloitte, KPMG, PwC, and EY</strong>—frequently travel to Gurugram for intensive 30-day to 6-month client projects across DLF Cyber City, Cyber Park, Ambience Corporate Tower, and Golf Course Road. For teams logging long hours, tiny hotel rooms without cooking facilities or proper desk setups quickly hinder productivity.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> delivers turnkey corporate serviced suites designed specifically for the rigorous demands of consulting engagements.</p>\n\n<h2>Designed for Consulting Workflows</h2>\n<ul>\n  <li><strong>Uninterrupted 300 Mbps Dual-Band Broadband:</strong> Redundant optical fiber connections with zero packet drop for secure VPN tunnels, cloud spreadsheets, and international partner calls.</li>\n  <li><strong>Ergonomic Workspace in Every Room:</strong> Dedicated work desks, comfortable chairs, and ample power sockets for multiple laptops, monitors, and devices.</li>\n  <li><strong>Healthy Home Meals:</strong> Full modular kitchens with microwaves, refrigerators, and RO water let consultants cook clean, healthy food according to their schedules.</li>\n  <li><strong>Corporate Travel Desk Invoicing:</strong> Fully compliant GST billing with itemized corporate reporting, simplified expense reimbursement, and zero lock-in contracts.</li>\n</ul>\n\n<p>Book your team's consulting project stay today. Contact our corporate reservations desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp <strong>+91 97117 22273</strong>. Explore our suites at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+  },
+  {
+    "id": "complete-guide-to-living-in-sector-27-and-sushant-lok-1-gurgaon",
+    "slug": "complete-guide-to-living-in-sector-27-and-sushant-lok-1-gurgaon",
+    "title": "The Complete Guide to Living in Sector 27 & Sushant Lok 1 Gurgaon: Lifestyle, Metro & Housing",
+    "metaTitle": "Living in Sector 27 & Sushant Lok 1 Gurgaon | Complete Guide",
+    "metaDescription": "Comprehensive lifestyle guide to Sector 27 and Sushant Lok 1 Gurgaon. Galleria Market, Millennium City Centre Metro, parks, top schools & luxury serviced apartments.",
+    "excerpt": "Everything you need to know about living in Sector 27 and Sushant Lok 1 Gurgaon. Explore Galleria Market, Metro connectivity, healthcare, and premium serviced living with Sandane Homes.",
+    "category": "Neighborhood Guide",
+    "readTime": "8 min read",
+    "date": "October 12, 2026",
+    "publishDate": "2026-10-12",
+    "author": "Sandane Local Living Team",
+    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Sector 27 Gurgaon",
+      "Sushant Lok 1",
+      "Galleria Market",
+      "Gurugram Living Guide",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Sector 27 & Sushant Lok 1: The Beating Heart of Modern Gurugram</h2>\n<p>Nestled strategically between Golf Course Road, MG Road, and Hamilton Court Road, <strong>Sector 27 and Sushant Lok 1</strong> offer arguably the most balanced, pedestrian-friendly, and vibrant residential lifestyle in all of Gurugram. From the bustling open-air charm of Galleria Market to the tranquil, tree-lined residential avenues of Block A and Block B, this neighborhood is universally favored by corporate executives and expat families.</p>\n\n<h2>1. World-Class Metro & Road Transit</h2>\n<p>Residents enjoy effortless connectivity: the <strong>Millennium City Centre (Huda City Centre) Metro Station</strong> on the Yellow Line provides direct transit to central New Delhi, while the Sector 27/28 Rapid Metro stations connect seamlessly into DLF Cyber City. The IGI Airport is reachable in just 20 minutes via NH-48.</p>\n\n<h2>2. Dining, Shopping & Lifestyle</h2>\n<p>Home to the iconic <strong>Galleria Market</strong>, residents can stroll to gourmet bakeries, specialty coffee shops, pharmacies, banks, and bookstores. Cross Point Mall and Peach Tree Complex are also within comfortable walking distance.</p>\n\n<h2>3. Healthcare & Education</h2>\n<p>World-class healthcare centers like <strong>Max Healthcare</strong> (Sector 43) and <strong>Fortis Memorial Research Institute</strong> (Sector 44) are only 3 to 5 minutes away. Premier schools like The Shri Ram School, Heritage Xperiential, and DPS Sushant Lok are located nearby.</p>\n\n<h2>Luxury Serviced Living in Sector 27</h2>\n<p>Experience the finest hospitality-serviced stays at our signature properties: the <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sushant Lok Block B 4BHK Serviced Floor</a> and <a href=\"/green-meadows-sector-27-gurgaon\">Green Meadows Sector 27</a>. Inquire at <strong>+91 97117 22273</strong>.</p>"
+  },
+  {
+    "id": "monetize-dlf-phase-2-and-phase-4-builder-floors-gurgaon-corporate-lease",
+    "slug": "monetize-dlf-phase-2-and-phase-4-builder-floors-gurgaon-corporate-lease",
+    "title": "How Landlords in DLF Phase 2 & Phase 4 Gurgaon Can Monetize Builder Floors via Corporate Master Leases",
+    "metaTitle": "Monetize DLF Phase 2 & Phase 4 Builder Floors Gurgaon | Landlord Guide",
+    "metaDescription": "Learn how property owners in DLF Phase 2 and DLF Phase 4 Gurgaon earn guaranteed monthly income through Sandane Homes corporate master leases with zero vacancy risk.",
+    "excerpt": "Own a builder floor in DLF Phase 2 or Phase 4 Gurgaon? Discover how Sandane Homes master leases your property for 3 to 9 years, paying guaranteed rent on the 1st of every month with zero maintenance hassle.",
+    "category": "Property Monetization",
+    "readTime": "9 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Asset Monetization Desk",
+    "coverImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "DLF Phase 2 Landlords",
+      "DLF Phase 4 Builder Floors",
+      "Corporate Master Lease Gurgaon",
+      "Guaranteed Rental Income",
+      "Sandane Homes Partnership"
+    ],
+    "faqs": [
+      {
+        "question": "How does a corporate master lease with Sandane Homes work?",
+        "answer": "Sandane Homes leases your entire builder floor or flat directly for a 3 to 9-year term. We deposit guaranteed fixed rent to your bank account on the 1st of every month, manage all housekeeping and guest operations, and bear 100% of vacancy risks."
+      },
+      {
+        "question": "Who pays for property repairs and regular maintenance?",
+        "answer": "Sandane Homes covers 100% of routine maintenance, repairs, deep cleaning, and appliance upkeep at our own expense, preserving your asset in pristine condition."
+      }
+    ],
+    "content": "<h2>Unlocking Maximum Rental Yield in DLF Phase 2 & DLF Phase 4</h2>\n<p>DLF Phase 2 and DLF Phase 4 in Gurugram boast some of the highest capital property valuations in North India. Yet, many owners of 3BHK and 4BHK builder floors in these prime neighborhoods find traditional residential leasing exhausting. Dealing with unvetted tenants, rent collection delays, frequent vacancies, costly brokerage commissions every 11 months, and property wear-and-tear easily cuts annual rental yields by 25% to 35%.</p>\n\n<p>Through the <strong><a href=\"/partner/gurugram-home-owners\">Sandane Homes Property Partnership Program</a></strong>, landlords in DLF Phase 2 and Phase 4 can transition from stressful traditional renting to effortless, guaranteed corporate income.</p>\n\n<h2>The Sandane Homes Master Lease Advantage</h2>\n<ul>\n  <li><strong>Guaranteed 1st-of-Month Payouts:</strong> Rent is wired directly into your bank account on the 1st of every month, regardless of whether the property is occupied.</li>\n  <li><strong>Verified Fortune 500 Guests Only:</strong> We host only vetted foreign expatriates, Japanese and Korean corporate directors, and senior MNC leadership teams.</li>\n  <li><strong>Zero Maintenance Expenses:</strong> Sandane Homes covers all regular maintenance, plumbing, electrical servicing, painting, and appliance repairs free of charge.</li>\n  <li><strong>Long-Term Multi-Year Agreements:</strong> Secure 3, 5, or 9-year master lease contracts with structured escalation clauses.</li>\n</ul>\n\n<p>Partner with Sandane Homes today. Learn more at <a href=\"/partner/gurugram-home-owners\">Partner with Sandane Homes — Gurugram Home Owners</a> or call our corporate leasing team at <strong>+91 97117 22273</strong>.</p>"
+  },
+  {
+    "id": "korean-expat-housing-near-south-point-mall-and-one-horizon-gurgaon",
+    "slug": "korean-expat-housing-near-south-point-mall-and-one-horizon-gurgaon",
+    "title": "Korean Expat Serviced Apartments near Golf Course Road & South Point Mall Gurgaon",
+    "metaTitle": "Korean Expat Serviced Apartments Golf Course Road Gurgaon",
+    "metaDescription": "Serviced apartments near South Point Mall & Golf Course Road Gurgaon for Korean expats from Samsung, Hyundai, LG & Korean trading firms. Turnkey serviced residences.",
+    "excerpt": "Searching for Korean-friendly corporate housing near South Point Mall and Golf Course Road Gurgaon? Experience hotel-serviced apartments close to Korean markets and restaurants.",
+    "category": "Expat Housing",
+    "readTime": "8 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Korea Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Korean Expat Housing",
+      "South Point Mall Gurgaon",
+      "Golf Course Road",
+      "Korean Serviced Apartments",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Living in Gurugram's Vibrant Korean Expat Corridor</h2>\n<p>Golf Course Road in Gurugram—especially the stretch surrounding <strong>South Point Mall</strong>, Sector 53, and Sector 54—is the cultural and culinary center of the Korean expat community in North India. Home to authentic Korean supermarkets, bakeries, hair salons, and acclaimed Korean restaurants like Gung The Palace and Hahn’s Kitchen, this enclave provides familiar comforts for professionals from Samsung, Hyundai, LG, and Korean construction and trading firms.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offers fully serviced executive suites within this corridor, delivering seamless living with zero leasing hurdles.</p>\n\n<h2>Why Korean Executives Choose Sandane Residences</h2>\n<ul>\n  <li><strong>Moments from South Point Mall:</strong> Walk or take a 3-minute drive to South Point Mall for fresh Korean produce, kimchis, and home goods.</li>\n  <li><strong>Rapid Metro Access:</strong> Steps from the Sector 53-54 and Sector 54 Chowk Rapid Metro stations, connecting straight into DLF Cyber City.</li>\n  <li><strong>Turnkey Luxury Living:</strong> Daily housekeeping, fresh bedding rotations, fiber broadband, and complete in-suite kitchens.</li>\n  <li><strong>Hassle-Free Master Lease:</strong> No broker negotiations, no rigid 11-month locks, and clean GST corporate invoicing.</li>\n</ul>\n\n<p>Explore our serviced residences at <a href=\"/residences\">Residences by Sandane Homes</a> or contact our Korea Desk on WhatsApp at <strong>+91 97117 22273</strong>.</p>"
+  },
+  {
+    "id": "japanese-expat-corporate-housing-golf-course-extension-road-gurgaon",
+    "slug": "japanese-expat-corporate-housing-golf-course-extension-road-gurgaon",
+    "title": "Japanese Expat Housing on Golf Course Extension Road Gurgaon | Conscient Hines Elevate & Sector 58-65",
+    "metaTitle": "Japanese Expat Housing Golf Course Extension Road Gurgaon | Sandane",
+    "metaDescription": "Tailored serviced housing for Japanese corporate executives and engineers on Golf Course Extension Road Gurgaon. Conscient Hines Elevate, Japanese bidets, FRRO help & safety.",
+    "excerpt": "Discover premium corporate serviced apartments on Golf Course Extension Road Gurgaon tailored for Japanese expats. Japanese-standard cleanliness, modern bidet washrooms, and FRRO registration support.",
+    "category": "Expat Housing",
+    "readTime": "8 min read",
+    "date": "October 14, 2026",
+    "publishDate": "2026-10-14",
+    "author": "Sandane Japan Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Japanese Expat Housing",
+      "Golf Course Extension Road",
+      "Conscient Hines Elevate",
+      "Japanese Serviced Apartments",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Japanese-Standard Comfort on Golf Course Extension Road</h2>\n<p>Japanese multinational corporations—including Daikin, Maruti Suzuki, Honda, Mitsui, Denso, and Panasonic—maintain extensive manufacturing plants and technical design headquarters in Gurugram, Manesar, and Neemrana. For Japanese engineers and senior directors on short- or multi-year assignments, living along <strong>Golf Course Extension Road</strong> (Sectors 58 to 65) provides rapid transit to both DLF Cyber City offices and the Delhi-Mumbai Expressway corridor.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides specialized Japanese-tailored corporate serviced apartments at <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate Sector 58</a>, meeting the rigorous standards of Japanese corporate mobility desks.</p>\n\n<h2>Amenities Specifically Crafted for Japanese Assignees</h2>\n<ul>\n  <li><strong>Japanese-Style Electronic Bidet Washrooms:</strong> Sanitary, modern washrooms equipped with warm-water spray bidet attachments, matching Japanese residential expectations.</li>\n  <li><strong>Acoustic & Thermal Insulation:</strong> Double-glazed acoustic windows and whisper-quiet inverter air conditioning ensure quiet rest after intensive factory commissioning days.</li>\n  <li><strong>Full Kitchens with Rice Cookers:</strong> In-suite kitchens equipped with induction stoves, microwaves, large refrigerators, and Japanese rice cookers for authentic home cooking.</li>\n  <li><strong>Form C & FRRO Compliance:</strong> Complete administrative support for Foreigners Regional Registration Office (FRRO) registration and Form C issuance.</li>\n  <li><strong>Proximity to Japanese Dining:</strong> Short 10-minute drive to authentic Japanese restaurants, izakayas, and Japanese grocery markets along Golf Course Road.</li>\n</ul>\n\n<p>For bespoke corporate master lease agreements or Japanese relocation arrangements, email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>.</p>"
+  },
+  {
+    "id": "luxury-builder-floors-vs-high-rise-apartments-gurgaon-corporate-expats",
+    "slug": "luxury-builder-floors-vs-high-rise-apartments-gurgaon-corporate-expats",
+    "title": "Luxury Builder Floors vs. Gated High-Rise Apartments in Gurgaon: Which is Better for Corporate Expats?",
+    "metaTitle": "Builder Floors vs High Rise Apartments Gurgaon for Expats | Sandane",
+    "metaDescription": "Comparing luxury builder floors in Sushant Lok & DLF against gated high-rise towers in Golf Course Extension Road for foreign corporate expats in Gurgaon.",
+    "excerpt": "Unsure whether to choose an independent builder floor in Sushant Lok or a high-rise condominium on Golf Course Extension Road? Here is a complete comparison guide for expat executives.",
+    "category": "Expat Living Guide",
+    "readTime": "9 min read",
+    "date": "October 14, 2026",
+    "publishDate": "2026-10-14",
+    "author": "Sandane Expat Advisory Desk",
+    "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Builder Floors vs Apartments",
+      "Expat Housing Gurgaon",
+      "Sushant Lok Gurgaon",
+      "Golf Course Extension Road",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>The Housing Dilemma for Foreign Corporate Expats in Gurugram</h2>\n<p>When international executives from Japan, South Korea, Europe, and the United States relocate to Gurugram, they encounter two primary residential formats: <strong>independent luxury builder floors</strong> (common in DLF Phase 1–4 and Sushant Lok) and <strong>gated high-rise condominium towers</strong> (prevalent along Golf Course Road and Golf Course Extension Road). Both options offer distinct lifestyle advantages.</p>\n\n<p>As the leading corporate housing and master-leasing operator in NCR, <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates flagship properties in both formats—such as our <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sushant Lok Block B 4BHK builder floor</a> and our luxury suites at <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate Sector 58</a>.</p>\n\n<h2>1. Space, Privacy & Density</h2>\n<ul>\n  <li><strong>Builder Floors:</strong> Only 1 family per floor with private elevator access, zero shared elevator waits, and generous 300 to 500 sq.yd. floorplates. Unmatched privacy for executives who value quiet living.</li>\n  <li><strong>High-Rise Condominiums:</strong> Modern vertical living with panoramic skyline views, extensive resort grounds, and international community atmospheres.</li>\n</ul>\n\n<h2>2. Amenities & Recreation</h2>\n<ul>\n  <li><strong>High-Rise Condominiums:</strong> Clear winners for active residents wanting in-house Olympic-size pools, tennis courts, modern gyms, squash courts, and children's play parks without leaving the society gates.</li>\n  <li><strong>Builder Floors:</strong> Situated in mature, walkable neighborhoods like Sushant Lok and DLF, moments from open municipal parks, Galleria Market, and neighborhood sports clubs.</li>\n</ul>\n\n<h2>3. Power Backup & Security Handled by Sandane Homes</h2>\n<p>Traditionally, standalone builder floors required owners to manage generator fuel and individual security guards. Sandane Homes eliminates this barrier by providing automated generator power backup, 24/7 digital security, daily housekeeping, and professional maintenance across all our properties, regardless of format.</p>\n\n<p>Need personalized guidance on the best neighborhood for your team? Contact our expat housing consultants at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong>.</p>"
+  },
+  {
+    "id": "4bhk-serviced-builder-floor-sushant-lok-block-b-sector-27-gurgaon",
+    "slug": "4bhk-serviced-builder-floor-sushant-lok-block-b-sector-27-gurgaon",
+    "title": "4BHK Luxury Serviced Builder Floor in Sushant Lok Block B Sector 27 Gurgaon | Sandane Homes",
+    "metaTitle": "4BHK Serviced Builder Floor Sushant Lok Block B Sector 27 Gurgaon",
+    "metaDescription": "Tour our luxury 4BHK independent serviced builder floor (300 sq.yd.) in Sushant Lok Block B, Sector 27 Gurgaon near Galleria Market. Private elevator, modular kitchen & full housekeeping.",
+    "excerpt": "Step inside Sandane Homes' prestigious 4BHK serviced builder floor in Sushant Lok Block B, Sector 27 Gurgaon. 300 sq.yd. of refined luxury, private elevator access, and walking distance to Galleria Market.",
+    "category": "Residences Showcase",
+    "readTime": "8 min read",
+    "date": "October 15, 2026",
+    "publishDate": "2026-10-15",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Sushant Lok Block B",
+      "Sector 27 Gurgaon",
+      "4BHK Serviced Floor",
+      "Galleria Market Gurgaon",
+      "Residences by Sandane Homes"
+    ],
+    "faqs": [
+      {
+        "question": "Where is Sushant Lok Block B located in Sector 27?",
+        "answer": "Sushant Lok Block B is situated in prime Sector 27 Gurugram, just 3 minutes from Galleria Market, Cross Point Mall, and the Millennium City Centre (Huda City Centre) Metro station."
+      },
+      {
+        "question": "What is included with this 4BHK serviced floor?",
+        "answer": "The residence includes 4 large bedrooms with ensuite bathrooms, a massive drawing/dining salon, private elevator landing, fully outfitted modern kitchen, daily housekeeping, 100% generator power backup, and dedicated covered car parking."
+      }
+    ],
+    "content": "<h2>Bespoke Independent Luxury in Central Gurugram</h2>\n<p>While high-rise apartments have their appeal, many senior executives, diplomatic families, and visiting corporate leadership groups prefer the privacy, spaciousness, and exclusivity of an independent builder floor. In central Gurugram’s most coveted residential pocket, <strong>Sushant Lok Block B (Sector 27)</strong>, Sandane Homes operates a signature <strong>300 sq.yd. 4BHK luxury serviced floor</strong>.</p>\n\n<p>Located just moments from Galleria Market and Golf Course Road, this residence delivers an unmatched blend of residential exclusivity and five-star hospitality.</p>\n\n<h2>Property Architecture & Interior Features</h2>\n<ul>\n  <li><strong>Private Elevator Landing:</strong> Direct private elevator access opening into an expansive marble-clad foyer for maximum security and privacy.</li>\n  <li><strong>Four Expansive Ensuite Bedrooms:</strong> Each bedroom is furnished with king-size plush beds, bespoke wardrobes, smart TVs, and attached modern bathrooms with premium Grohe fixtures.</li>\n  <li><strong>Chef-Grade Modular Kitchen:</strong> Features built-in chimney, multi-burner gas stove, microwave, convection oven, double-door refrigerator, and RO water purification.</li>\n  <li><strong>Balcony Views:</strong> Wide, tree-lined street views from front and rear private balconies, offering a tranquil sanctuary in the heart of the city.</li>\n</ul>\n\n<p>Experience the ultimate in private executive living at <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sushant Lok Block B Sector 27 Gurgaon</a> or explore our neighboring suites at <a href=\"/green-meadows-sector-27-gurgaon\">Green Meadows Sector 27</a>.</p>"
+  },
+  {
+    "id": "stay-at-conscient-hines-elevate-sector-58-gurgaon-serviced-suites",
+    "slug": "stay-at-conscient-hines-elevate-sector-58-gurgaon-serviced-suites",
+    "title": "Stay at Conscient Hines Elevate Sector 58 Gurgaon: Luxury Serviced Suites on Golf Course Extension Road",
+    "metaTitle": "Stay at Conscient Hines Elevate Sector 58 Gurgaon | Sandane",
+    "metaDescription": "Experience 3BHK luxury serviced apartments at Conscient Hines Elevate Sector 58 Gurgaon. Developed by Hines USA & Conscient. World-class clubhouse, pool & expat housing.",
+    "excerpt": "Discover Sandane Homes' flagship serviced residences at Conscient Hines Elevate, Sector 58 Gurgaon. Architectural excellence, 3BHK expansive suites, resort amenities, and 5-star hospitality on Golf Course Extension Road.",
+    "category": "Residences Showcase",
+    "readTime": "9 min read",
+    "date": "October 15, 2026",
+    "publishDate": "2026-10-15",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Conscient Hines Elevate",
+      "Sector 58 Gurgaon",
+      "Golf Course Extension Road",
+      "Luxury Serviced Apartments",
+      "Residences by Sandane Homes"
+    ],
+    "faqs": [
+      {
+        "question": "What unit configurations are available at Conscient Hines Elevate through Sandane Homes?",
+        "answer": "We offer expansive, fully furnished 3BHK serviced apartments ranging from 2,095 to 2,595 sq.ft., featuring 3 private ensuite bedrooms, luxury modular kitchens, expansive balconies, and dedicated utility quarters."
+      },
+      {
+        "question": "Who is the ideal resident for Conscient Hines Elevate?",
+        "answer": "It is designed for multinational corporate executives, CXOs, expat families from Japan, Korea, and Western nations, and corporate project teams seeking tranquil resort-style living with world-class clubhouse amenities."
+      }
+    ],
+    "content": "<h2>Architectural Splendor on Golf Course Extension Road</h2>\n<p>Developed jointly by global real estate leader <strong>Hines (USA)</strong> and India’s premier luxury developer <strong>Conscient</strong>, <strong>Conscient Hines Elevate</strong> in Sector 58, Gurugram, stands out as one of the most thoughtfully designed residential communities in Delhi NCR. With architecture by world-renowned architect Ricardo Bofill and lush landscaping inspired by European stone arcades, Elevate offers an extraordinary standard of living.</p>\n\n<p>At <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong>, we are proud to offer fully managed, hotel-serviced 3BHK residences at <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate Sector 58</a>, delivering turnkey luxury for senior corporate assignees and discerning expatriates.</p>\n\n<h2>World-Class Property Highlights</h2>\n<ul>\n  <li><strong>Vehicular-Free Ground Surface:</strong> An exclusive drop-off zone leads directly into tranquil underground transit, leaving ground-level pathways purely for walking, jogging, and European-style landscaped gardens.</li>\n  <li><strong>The Elevate Clubhouse:</strong> Includes a temperature-controlled swimming pool, state-of-the-art gymnasium, banquet hall, squash and tennis courts, and private lounge areas.</li>\n  <li><strong>Expansive 3BHK Layouts:</strong> Generous 2,095 to 2,595 sq.ft. footprints featuring imported stone flooring, acoustic insulation, VRV air conditioning, and panoramic views of the Aravalli hills.</li>\n  <li><strong>Hotel-Grade Sandane Services:</strong> Daily housekeeping, fresh linen rotation, fully stocked modular kitchen with dishwasher, high-speed WiFi, and 24/7 on-call concierge.</li>\n</ul>\n\n<p>Learn more and explore availability at <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate Sector 58 Gurgaon</a> or connect with our corporate reservations team on WhatsApp at <strong>+91 97117 22273</strong>.</p>"
+  },
+  {
+    "id": "serviced-apartments-near-cyber-hub-and-dlf-phase-2-gurgaon",
+    "slug": "serviced-apartments-near-cyber-hub-and-dlf-phase-2-gurgaon",
+    "title": "Best Serviced Apartments near DLF Cyber Hub & DLF Phase 2 Gurgaon for Business Travelers",
+    "metaTitle": "Serviced Apartments near DLF Cyber Hub & Cyber City Gurgaon",
+    "metaDescription": "Turnkey luxury serviced apartments near DLF Cyber Hub and DLF Phase 2 Gurgaon. Fully furnished suites, high-speed fiber internet, modular kitchens & corporate GST invoices.",
+    "excerpt": "Looking for top serviced apartments near DLF Cyber Hub and DLF Phase 2 Gurgaon? Enjoy hotel-grade housekeeping, private chef kitchens, and rapid airport connectivity with Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "8 min read",
+    "date": "October 16, 2026",
+    "publishDate": "2026-10-16",
+    "author": "Sandane Corporate Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "DLF Cyber Hub",
+      "DLF Phase 2 Gurgaon",
+      "Cyber City Corporate Housing",
+      "Serviced Apartments Gurgaon",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Prime Corporate Living Moments from DLF Cyber Hub</h2>\n<p><strong>DLF Cyber Hub</strong> and the adjacent <strong>DLF Cyber City</strong> commercial ecosystem constitute India’s foremost corporate tech hub, home to Google, Microsoft, Deloitte, IBM, American Express, and hundreds of top enterprise employers. For consultants, technical trainers, and visiting regional heads, booking extended hotel rooms in DLF Phase 2 can become prohibitively expensive during peak business quarters.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides an elegant, spacious alternative with bespoke serviced apartments situated just 6 to 10 minutes from Cyber Hub.</p>\n\n<h2>Why Corporate Travelers Choose Our Serviced Suites</h2>\n<ul>\n  <li><strong>Expansive Living Spaces:</strong> 2BHK and 3BHK floorplans offering separate living rooms, dining zones, and private balconies—far more functional than a single 300 sq.ft. hotel room.</li>\n  <li><strong>Walkable Dining & Entertainment:</strong> Easy evening access to world-class dining, craft cafes, and networking hubs inside DLF Cyber Hub.</li>\n  <li><strong>Dedicated Home Office Setup:</strong> High-bandwidth WiFi, ergonomic work chairs, and multi-pin power hubs for global conference calls.</li>\n  <li><strong>Comprehensive B2B Invoicing:</strong> Direct master-leasing contracts, transparent company invoicing, and zero broker commissions.</li>\n</ul>\n\n<p>Check out our nearby residences in <a href=\"/dlf-phase-4-sector-27-gurgaon\">DLF Phase 4</a> and <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sector 27 Gurgaon</a>, or speak directly to our enterprise booking desk at <strong><a href=\"tel:+919711722273\">+91 97117 22273</a></strong>.</p>"
+  },
+  {
+    "id": "executive-housing-near-horizon-center-golf-course-road-gurgaon",
+    "slug": "executive-housing-near-horizon-center-golf-course-road-gurgaon",
+    "title": "Executive Corporate Housing near One & Two Horizon Center Golf Course Road Gurgaon",
+    "metaTitle": "Executive Housing near Horizon Center Golf Course Road Gurgaon",
+    "metaDescription": "Luxury corporate serviced apartments near One & Two Horizon Center Golf Course Road Gurgaon. Turnkey 2BHK/3BHK suites, ergonomic desks, fiber WiFi & B2B GST billing.",
+    "excerpt": "Working out of One or Two Horizon Center on Golf Course Road Gurgaon? Experience bespoke executive corporate housing with high-speed WiFi, dedicated workspaces, and hotel-grade housekeeping by Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "8 min read",
+    "date": "October 16, 2026",
+    "publishDate": "2026-10-16",
+    "author": "Sandane Corporate Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "One Horizon Center",
+      "Two Horizon Center",
+      "Golf Course Road Gurgaon",
+      "Corporate Housing Gurgaon",
+      "Residences by Sandane Homes"
+    ],
+    "faqs": [
+      {
+        "question": "How far are the apartments from One Horizon Center?",
+        "answer": "Our serviced apartments in Sushant Lok Block B (Sector 27) and along Golf Course Road are just 4 to 8 minutes away, offering effortless commutes to One & Two Horizon Center."
+      },
+      {
+        "question": "Do you offer official corporate GST billing?",
+        "answer": "Yes, we provide itemized corporate B2B tax invoices with full 12% / 18% GST pass-through for enterprise accounting and input tax credit (ITC) claims."
+      }
+    ],
+    "content": "<h2>Prime Executive Living near One & Two Horizon Center</h2>\n<p><strong>One Horizon Center</strong> and <strong>Two Horizon Center</strong> along Golf Course Road represent the pinnacle of corporate prestige in Gurugram, hosting Fortune 500 multinationals including Apple, McKinsey & Company, Carlyle Group, Samsung, and Vistara. For senior leadership, visiting management consultants, and expatriate directors, staying in standard business hotels often feels impersonal and restrictive.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides high-end corporate serviced apartments located minutes from Horizon Center, combining five-star hospitality services with the privacy, space, and functionality of an executive home.</p>\n\n<h2>Crafted for High-Performance Executives</h2>\n<ul>\n  <li><strong>Ergonomic Private Workstations:</strong> Spacious desks, comfortable executive seating, high-speed fiber internet (up to 300 Mbps), and multiple international power sockets for seamless hybrid work.</li>\n  <li><strong>Chef-Ready Modular Kitchens:</strong> Gas and induction stoves, microwave ovens, large double-door refrigerators, and premium tableware for preparing healthy meals or hosting private executive dinners.</li>\n  <li><strong>Luxury Linen & Housekeeping:</strong> Five-star daily housekeeping with scheduled linen rotations and professional laundry handling.</li>\n  <li><strong>Rapid Metro & Airport Transit:</strong> Direct access to Sector 42-43 and Sector 53-54 Rapid Metro stations and signal-free connectivity to IGI Airport via the Golf Course Road underpass network.</li>\n</ul>\n\n<p>Explore our premium units at <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sushant Lok Block B Sector 27</a> and <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate Sector 58</a>, or contact our corporate leasing team at <strong>+91 97117 22273</strong>.</p>"
+  },
+  {
+    "id": "luxury-serviced-apartments-near-medanta-the-medicity-sector-38-gurgaon",
+    "slug": "luxury-serviced-apartments-near-medanta-the-medicity-sector-38-gurgaon",
+    "title": "Luxury Serviced Apartments near Medanta The Medicity Sector 38 Gurgaon for Patient Families",
+    "metaTitle": "Serviced Apartments near Medanta The Medicity Gurgaon | Sandane",
+    "metaDescription": "Sanitized, peaceful serviced apartments near Medanta The Medicity Sector 38 Gurgaon for patient families. In-suite kitchens, elevator access, 24/7 power backup & daily housekeeping.",
+    "excerpt": "Comfortable, sanitized serviced apartments located minutes from Medanta The Medicity Sector 38 Gurgaon. Private modular kitchens, elevator access, and compassionate guest support by Residences by Sandane Homes.",
+    "category": "Medical Relocation",
+    "readTime": "8 min read",
+    "date": "October 17, 2026",
+    "publishDate": "2026-10-17",
+    "author": "Sandane Healthcare Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Medanta The Medicity",
+      "Sector 38 Gurgaon",
+      "Medical Stays Gurgaon",
+      "Residences by Sandane Homes",
+      "Patient Recovery Suites Gurgaon"
+    ],
+    "faqs": [
+      {
+        "question": "How far are the serviced apartments from Medanta The Medicity in Sector 38?",
+        "answer": "Our residences in Sushant Lok, Sector 27, and nearby central Gurugram enclaves are located within a 7 to 10-minute drive from Medanta The Medicity via Rajiv Chowk and Subhash Chowk, ensuring quick hospital access while offering a quiet, restful home environment."
+      },
+      {
+        "question": "Can patient families cook customized meals in the apartment?",
+        "answer": "Yes. Every apartment includes a fully equipped private kitchen featuring an induction/gas stove, microwave, large refrigerator, RO water purifier, electric kettle, and complete cookware and cutlery for special therapeutic diets."
+      },
+      {
+        "question": "Are elevators and wheelchair-friendly access available?",
+        "answer": "Yes, our properties feature modern high-speed elevators, wide doorways, and barrier-free ground-level access designed to accommodate wheelchairs and post-operative patients comfortably."
+      }
+    ],
+    "content": "<h2>Restful, Hygienic Accommodations near Medanta The Medicity Gurgaon</h2>\n<p><strong>Medanta — The Medicity</strong> in Sector 38, Gurugram, is one of India's premier multi-super-specialty medical institutes, drawing tens of thousands of domestic and international patients every year for complex cardiac surgeries, organ transplants, oncology treatments, and orthopedic care. For families accompanying patients during extended medical treatments spanning several weeks or months, staying in cramped hotel rooms is not only costly but also lacks the hygiene, privacy, and kitchen facilities necessary for patient care.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> bridges this critical gap by providing immaculate, fully furnished 1BHK, 2BHK, and 4BHK serviced apartments situated within tranquil residential sectors just minutes from Medanta.</p>\n\n<h2>Purpose-Built Features for Medical Extended Stays</h2>\n<ul>\n  <li><strong>Doctor-Approved Kitchen Independence:</strong> Each suite features a private modular kitchen equipped with RO water purifiers, induction cooktops, microwave ovens, large refrigerators, and sanitized cookware, empowering families to prepare fresh, doctor-prescribed therapeutic meals on schedule.</li>\n  <li><strong>Elevator & Step-Free Accessibility:</strong> High-speed passenger elevators and step-free transitions ensure seamless mobility for elderly individuals and recovering surgical patients traveling to and from OPD appointments.</li>\n  <li><strong>Hospital-Grade Sanitization:</strong> Our dedicated housekeeping staff follows strict hospital-standard disinfection protocols, hypoallergenic linen rotations, and deep sanitization procedures.</li>\n  <li><strong>100% Power Backup & Fiber WiFi:</strong> Uninterrupted 24/7 generator backup and high-speed broadband ensure family members can consult with treating doctors, attend telemedicine sessions, and manage remote work without disruption.</li>\n</ul>\n\n<h2>Compassionate, Round-the-Clock Family Concierge</h2>\n<p>Our empathetic hospitality team assists families with local pharmacy deliveries, 24/7 emergency transport, wheelchair coordination, and airport pick-up services from New Delhi’s IGI Airport. We offer compassionate, non-rigid weekly and monthly medical tariffs with zero brokerage fees.</p>\n\n<p>To reserve a medical extended stay suite, reach our patient concierge at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call/WhatsApp <strong>+91 97117 22273</strong>. Explore our suites at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+  },
+  {
+    "id": "residences-by-sandane-homes-sandane-rent-co-serviced-apartments-daikin",
+    "title": "Residences by Sandane Homes & Sandane Rent Co: Providing Premium Serviced Apartments to Daikin",
+    "slug": "residences-by-sandane-homes-sandane-rent-co-serviced-apartments-daikin",
+    "excerpt": "Discover how Residences by Sandane Homes and corporate leasing division Sandane Rent Co deliver luxury turnkey serviced apartments, Japanese-grade amenities, and seamless B2B master leasing for Daikin Airconditioning India executives and engineers across Gurugram, Noida, and NCR.",
+    "category": "Corporate Housing",
+    "readTime": "8 min read",
+    "date": "October 16, 2026",
+    "publishDate": "2026-10-16",
+    "author": "Sandane Corporate & Japan Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
       "Residences by Sandane Homes",
       "Sandane Rent Co",
       "Daikin Serviced Apartments",
@@ -19,357 +315,476 @@ export const blogPosts = [
       "Serviced Apartments Noida",
       "Japanese Expat Housing"
     ],
-    content: "<h2>Strategic Corporate Housing for Daikin Airconditioning India</h2>\n<p>As the undisputed global pioneer in energy-efficient HVAC, VRV systems, and smart inverter climate technologies, <strong>Daikin Airconditioning India Pvt. Ltd.</strong> (a subsidiary of Osaka-headquartered Daikin Industries, Ltd.) continues to expand its manufacturing footprint, R&D centers, and corporate presence across Northern India. With corporate headquarters in Gurugram near DLF Cyber City, key regional hubs in Noida Sector 62/63, and expansive manufacturing operations in Neemrana, Daikin maintains an active exchange of Japanese expatriates, HVAC technical directors, plant commissioning specialists, and senior management teams.</p>\n\n<p>For international corporate assignees, staying in generic hotels for weeks or months quickly leads to travel fatigue, lack of privacy, and culinary restrictions. Conventional long-term residential leases, on the other hand, require tedious 11-month commitments, hefty security deposits, furnishing lead times, and endless landlord disputes. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong>—working in tandem with its specialized corporate master-leasing division, <strong>Sandane Rent Co</strong>—solves this challenge by providing turnkey, Japanese-standard serviced apartments and corporate housing tailored specifically for Daikin professionals.</p>\n\n<h2>How Sandane Rent Co & Residences by Sandane Homes Support Daikin Expats</h2>\n<p>Through <strong>Sandane Rent Co</strong>, we partner directly with corporate mobility desks, human resources, and travel management teams at Daikin to deliver an institutional-grade accommodation experience:</p>\n<ul>\n  <li><strong>Precision Living & HVAC Quality:</strong> As climate control specialists, Daikin engineers have an exacting eye for room acoustics, air filtration, and thermal efficiency. Our residences feature top-tier inverter air conditioning, whisper-quiet air purifiers, and thermal-insulated luxury interiors that meet the highest Japanese standards.</li>\n  <li><strong>Japanese-Grade Hygiene & Sanitization:</strong> Immaculate daily housekeeping, periodic deep sanitization, fresh linen rotations, and modern Japanese-style bidet washrooms ensure assignees enjoy home-level peace of mind.</li>\n  <li><strong>Turnkey Modular Kitchens:</strong> Every residence features a fully functional kitchen equipped with high-grade induction/gas cooktops, microwave ovens, large refrigerators, RO water purifiers, electric kettles, and authentic Japanese rice cookers and cookware—enabling guests to prepare traditional meals comfortably.</li>\n  <li><strong>High-Speed Connectivity & 100% Power Backup:</strong> Redundant optical fiber broadband delivering up to 300 Mbps, ergonomic executive workstations for seamless hybrid work with Osaka HQ, and 24/7 dedicated generator power backup.</li>\n  <li><strong>FRRO & Form C Full Compliance:</strong> Our on-ground hospitality team provides comprehensive administrative documentation, address proof verification, and Form C assistance for smooth Foreigners Regional Registration Office (FRRO) compliance.</li>\n</ul>\n\n<h2>Prime Locations Across Gurugram, Noida & Greater Noida</h2>\n<p>Daikin executives and engineering consultants are deployed across distinct hubs in the National Capital Region. <strong>Residences by Sandane Homes</strong> offers strategically located properties to ensure brief, stress-free daily commutes:</p>\n<ul>\n  <li><strong>Gurugram / DLF Cyber City Corridor:</strong> Located in prime enclaves including <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sushant Lok Block B (Sector 27)</a>, <a href=\"/green-meadows-sector-27-gurgaon\">Green Meadows</a>, and <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate (Sector 58)</a>. Just 8 to 12 minutes from DLF Cyber City, DLF Cyber Park, and Golf Course Road, offering immediate access to the Millennium City Centre Metro and rapid highway connectivity to the Neemrana industrial corridor.</li>\n  <li><strong>Noida Sector 62 & 63 Hubs:</strong> Effortless connectivity to Daikin’s regional corporate offices and Solution Plazas, avoiding notorious traffic bottlenecks.</li>\n  <li><strong>Greater Noida Golf Communities:</strong> Luxurious, serene residences in premier gated communities such as Jaypee Greens and Ansal Golf Links-1, offering 18-hole championship golf views, lush greenery, and 24/7 multi-tier security.</li>\n</ul>\n\n<h2>Direct B2B Invoicing & Corporate Master Leasing via Sandane Rent Co</h2>\n<p>Unlike traditional real estate brokers who collect commissions and disappear, <strong>Sandane Rent Co</strong> operates as an institutional hospitality partner. We offer:</p>\n<ul>\n  <li><strong>Zero Brokerage Commissions:</strong> Transparent corporate pricing with direct-to-enterprise master lease agreements.</li>\n  <li><strong>Consolidated Monthly GST Invoicing:</strong> Clean, automated, itemized B2B billing covering rent, utilities, housekeeping, maintenance, and high-speed internet, ensuring complete Input Tax Credit (ITC) pass-through for Daikin accounting departments.</li>\n  <li><strong>Flexible Duration & Terms:</strong> From 30-day technical commissioning stints to multi-year corporate retainers with zero rigid lock-in penalties.</li>\n  <li><strong>Dedicated Corporate Concierge:</strong> English and Japanese-language support, private airport pickups from IGI Airport New Delhi, local grocery sourcing, and 24/7 emergency assistance.</li>\n</ul>\n\n<h2>Trusted Track Record Across Fortune 500 Enterprises</h2>\n<p>Holding over 490+ verified guest reviews with an exceptional 4.9 rating across our properties, <strong>Residences by Sandane Homes</strong> and <strong>Sandane Rent Co</strong> are the trusted accommodation providers for Japanese expatriates and corporate mobility managers across NCR. Whether supporting visiting Japanese HVAC technical trainers, executive directors, or project relocation teams, we ensure every Daikin assignee feels immediately welcomed and thoroughly supported.</p>\n\n<h2>Reserve Your Corporate Apartment Today</h2>\n<p>To arrange tailored corporate serviced apartment viewings, request master lease tariffs, or discuss bespoke accommodation packages for Daikin employees in Gurugram, Noida, or Greater Noida, contact our corporate relations desk:</p>\n<p><strong>Corporate Mobility Desk:</strong> <a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a><br/>\n<strong>Phone / WhatsApp:</strong> <strong><a href=\"https://wa.me/919711722273\">+91 97117 22273</a></strong><br/>\n<strong>Explore Properties:</strong> <a href=\"/residences\">Residences by Sandane Homes</a> | <a href=\"/housing-for-daikin-employees-gurgaon\">Daikin Housing Gurugram</a> | <a href=\"/housing-for-daikin-employees-noida\">Daikin Housing Noida</a></p>"
+    "content": "<h2>Strategic Corporate Housing for Daikin Airconditioning India</h2>\n<p>As the undisputed global pioneer in energy-efficient HVAC, VRV systems, and smart inverter climate technologies, <strong>Daikin Airconditioning India Pvt. Ltd.</strong> (a subsidiary of Osaka-headquartered Daikin Industries, Ltd.) continues to expand its manufacturing footprint, R&D centers, and corporate presence across Northern India. With corporate headquarters in Gurugram near DLF Cyber City, key regional hubs in Noida Sector 62/63, and expansive manufacturing operations in Neemrana, Daikin maintains an active exchange of Japanese expatriates, HVAC technical directors, plant commissioning specialists, and senior management teams.</p>\n\n<p>For international corporate assignees, staying in generic hotels for weeks or months quickly leads to travel fatigue, lack of privacy, and culinary restrictions. Conventional long-term residential leases, on the other hand, require tedious 11-month commitments, hefty security deposits, furnishing lead times, and endless landlord disputes. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong>—working in tandem with its specialized corporate master-leasing division, <strong>Sandane Rent Co</strong>—solves this challenge by providing turnkey, Japanese-standard serviced apartments and corporate housing tailored specifically for Daikin professionals.</p>\n\n<h2>How Sandane Rent Co & Residences by Sandane Homes Support Daikin Expats</h2>\n<p>Through <strong>Sandane Rent Co</strong>, we partner directly with corporate mobility desks, human resources, and travel management teams at Daikin to deliver an institutional-grade accommodation experience:</p>\n<ul>\n  <li><strong>Precision Living & HVAC Quality:</strong> As climate control specialists, Daikin engineers have an exacting eye for room acoustics, air filtration, and thermal efficiency. Our residences feature top-tier inverter air conditioning, whisper-quiet air purifiers, and thermal-insulated luxury interiors that meet the highest Japanese standards.</li>\n  <li><strong>Japanese-Grade Hygiene & Sanitization:</strong> Immaculate daily housekeeping, periodic deep sanitization, fresh linen rotations, and modern Japanese-style bidet washrooms ensure assignees enjoy home-level peace of mind.</li>\n  <li><strong>Turnkey Modular Kitchens:</strong> Every residence features a fully functional kitchen equipped with high-grade induction/gas cooktops, microwave ovens, large refrigerators, RO water purifiers, electric kettles, and authentic Japanese rice cookers and cookware—enabling guests to prepare traditional meals comfortably.</li>\n  <li><strong>High-Speed Connectivity & 100% Power Backup:</strong> Redundant optical fiber broadband delivering up to 300 Mbps, ergonomic executive workstations for seamless hybrid work with Osaka HQ, and 24/7 dedicated generator power backup.</li>\n  <li><strong>FRRO & Form C Full Compliance:</strong> Our on-ground hospitality team provides comprehensive administrative documentation, address proof verification, and Form C assistance for smooth Foreigners Regional Registration Office (FRRO) compliance.</li>\n</ul>\n\n<h2>Prime Locations Across Gurugram, Noida & Greater Noida</h2>\n<p>Daikin executives and engineering consultants are deployed across distinct hubs in the National Capital Region. <strong>Residences by Sandane Homes</strong> offers strategically located properties to ensure brief, stress-free daily commutes:</p>\n<ul>\n  <li><strong>Gurugram / DLF Cyber City Corridor:</strong> Located in prime enclaves including <a href=\"/sushant-lok-block-b-sector-27-gurgaon\">Sushant Lok Block B (Sector 27)</a>, <a href=\"/green-meadows-sector-27-gurgaon\">Green Meadows</a>, and <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate (Sector 58)</a>. Just 8 to 12 minutes from DLF Cyber City, DLF Cyber Park, and Golf Course Road, offering immediate access to the Millennium City Centre Metro and rapid highway connectivity to the Neemrana industrial corridor.</li>\n  <li><strong>Noida Sector 62 & 63 Hubs:</strong> Effortless connectivity to Daikin’s regional corporate offices and Solution Plazas, avoiding notorious traffic bottlenecks.</li>\n  <li><strong>Greater Noida Golf Communities:</strong> Luxurious, serene residences in premier gated communities such as Jaypee Greens and Ansal Golf Links-1, offering 18-hole championship golf views, lush greenery, and 24/7 multi-tier security.</li>\n</ul>\n\n<h2>Direct B2B Invoicing & Corporate Master Leasing via Sandane Rent Co</h2>\n<p>Unlike traditional real estate brokers who collect commissions and disappear, <strong>Sandane Rent Co</strong> operates as an institutional hospitality partner. We offer:</p>\n<ul>\n  <li><strong>Zero Brokerage Commissions:</strong> Transparent corporate pricing with direct-to-enterprise master lease agreements.</li>\n  <li><strong>Consolidated Monthly GST Invoicing:</strong> Clean, automated, itemized B2B billing covering rent, utilities, housekeeping, maintenance, and high-speed internet, ensuring complete Input Tax Credit (ITC) pass-through for Daikin accounting departments.</li>\n  <li><strong>Flexible Duration & Terms:</strong> From 30-day technical commissioning stints to multi-year corporate retainers with zero rigid lock-in penalties.</li>\n  <li><strong>Dedicated Corporate Concierge:</strong> English and Japanese-language support, private airport pickups from IGI Airport New Delhi, local grocery sourcing, and 24/7 emergency assistance.</li>\n</ul>\n\n<h2>Trusted Track Record Across Fortune 500 Enterprises</h2>\n<p>Holding over 490+ verified guest reviews with an exceptional 4.9 rating across our properties, <strong>Residences by Sandane Homes</strong> and <strong>Sandane Rent Co</strong> are the trusted accommodation providers for Japanese expatriates and corporate mobility managers across NCR. Whether supporting visiting Japanese HVAC technical trainers, executive directors, or project relocation teams, we ensure every Daikin assignee feels immediately welcomed and thoroughly supported.</p>\n\n<h2>Reserve Your Corporate Apartment Today</h2>\n<p>To arrange tailored corporate serviced apartment viewings, request master lease tariffs, or discuss bespoke accommodation packages for Daikin employees in Gurugram, Noida, or Greater Noida, contact our corporate relations desk:</p>\n<p><strong>Corporate Mobility Desk:</strong> <a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a><br/>\n<strong>Phone / WhatsApp:</strong> <strong><a href=\"https://wa.me/919711722273\">+91 97117 22273</a></strong><br/>\n<strong>Explore Properties:</strong> <a href=\"/residences\">Residences by Sandane Homes</a> | <a href=\"/housing-for-daikin-employees-gurgaon\">Daikin Housing Gurugram</a> | <a href=\"/housing-for-daikin-employees-noida\">Daikin Housing Noida</a></p>"
   },
-
   {
-    id: "luxury-serviced-apartments-near-max-healthcare-sector-43-gurgaon",
-    title: "Luxury Serviced Apartments near Max Healthcare Sector 43 Gurgaon for Patient Families",
-    slug: "luxury-serviced-apartments-near-max-healthcare-sector-43-gurgaon",
-    excerpt: "Looking for peaceful, sanitized accommodations near Max Hospital Sushant Lok Sector 43 Gurgaon? Explore fully equipped serviced suites with private kitchens and elevator access by Residences by Sandane Homes.",
-    category: "Medical Relocation",
-    readTime: "7 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Healthcare Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Max Healthcare Gurgaon","Medical Stays Sector 43","Sushant Lok Serviced Apartments","Residences by Sandane Homes","Patient Recovery Suites"],
-    content: "<h2>Comfortable, Sanitized Extended Stays near Max Hospital Gurgaon</h2>\n      <p>Max Healthcare located in Sushant Lok 1, Sector 43 Gurgaon, is a premier multi-specialty medical destination renowned for advanced oncology, cardiology, orthopedics, and surgical specialties. For outstation patients and international families accompanying their loved ones, staying in commercial hotels or clinical hospital environments for weeks on end can be deeply fatiguing and economically burdensome.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides peaceful, meticulously sanitized luxury serviced apartments located just 3 to 5 minutes from Max Hospital Sector 43, situated within upscale, tranquil residential surroundings of Sushant Lok and Golf Course Road.</p>\n\n      <h2>Designed Specifically for Medical Care & Patient Comfort</h2>\n      <ul>\n        <li><strong>Doctor-Approved Dietary Independence:</strong> Fully equipped private kitchens with induction stoves, microwaves, refrigerators, electric kettles, and purified RO water filtration allow family members to cook customized, hygienic therapeutic meals.</li>\n        <li><strong>Step-Free Elevator Accessibility:</strong> Barrier-free ground floors and high-speed elevators ensure elderly and recovering surgical patients can transition effortlessly from medical checkups to home.</li>\n        <li><strong>Medical-Grade Sanitization:</strong> Rigorous hospital-standard cleaning protocols, hypoallergenic linen rotations, and whisper-quiet air purification options.</li>\n        <li><strong>High-Speed Connectivity & 100% Power Backup:</strong> Uninterrupted generator backup and fiber WiFi keep remote-working family members and telemedicine consultations running seamlessly.</li>\n      </ul>\n\n      <h2>Supportive Guest Care for Families</h2>\n      <p>Our empathetic on-site hospitality desk assists families with pharmacy deliveries, wheelchair coordination, ambulance access, and local taxi arrangements. For priority reservations or customized medical extended stay packages, please email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call/WhatsApp <strong>+91 97117 22273</strong>. Explore our suites at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "luxury-serviced-apartments-near-max-healthcare-sector-43-gurgaon",
+    "title": "Luxury Serviced Apartments near Max Healthcare Sector 43 Gurgaon for Patient Families",
+    "slug": "luxury-serviced-apartments-near-max-healthcare-sector-43-gurgaon",
+    "excerpt": "Looking for peaceful, sanitized accommodations near Max Hospital Sushant Lok Sector 43 Gurgaon? Explore fully equipped serviced suites with private kitchens and elevator access by Residences by Sandane Homes.",
+    "category": "Medical Relocation",
+    "readTime": "7 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Healthcare Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Max Healthcare Gurgaon",
+      "Medical Stays Sector 43",
+      "Sushant Lok Serviced Apartments",
+      "Residences by Sandane Homes",
+      "Patient Recovery Suites"
+    ],
+    "content": "<h2>Comfortable, Sanitized Extended Stays near Max Hospital Gurgaon</h2>\n      <p>Max Healthcare located in Sushant Lok 1, Sector 43 Gurgaon, is a premier multi-specialty medical destination renowned for advanced oncology, cardiology, orthopedics, and surgical specialties. For outstation patients and international families accompanying their loved ones, staying in commercial hotels or clinical hospital environments for weeks on end can be deeply fatiguing and economically burdensome.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides peaceful, meticulously sanitized luxury serviced apartments located just 3 to 5 minutes from Max Hospital Sector 43, situated within upscale, tranquil residential surroundings of Sushant Lok and Golf Course Road.</p>\n\n      <h2>Designed Specifically for Medical Care & Patient Comfort</h2>\n      <ul>\n        <li><strong>Doctor-Approved Dietary Independence:</strong> Fully equipped private kitchens with induction stoves, microwaves, refrigerators, electric kettles, and purified RO water filtration allow family members to cook customized, hygienic therapeutic meals.</li>\n        <li><strong>Step-Free Elevator Accessibility:</strong> Barrier-free ground floors and high-speed elevators ensure elderly and recovering surgical patients can transition effortlessly from medical checkups to home.</li>\n        <li><strong>Medical-Grade Sanitization:</strong> Rigorous hospital-standard cleaning protocols, hypoallergenic linen rotations, and whisper-quiet air purification options.</li>\n        <li><strong>High-Speed Connectivity & 100% Power Backup:</strong> Uninterrupted generator backup and fiber WiFi keep remote-working family members and telemedicine consultations running seamlessly.</li>\n      </ul>\n\n      <h2>Supportive Guest Care for Families</h2>\n      <p>Our empathetic on-site hospitality desk assists families with pharmacy deliveries, wheelchair coordination, ambulance access, and local taxi arrangements. For priority reservations or customized medical extended stay packages, please email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call/WhatsApp <strong>+91 97117 22273</strong>. Explore our suites at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "furnished-apartments-near-paras-hospitals-sector-53-gurgaon",
-    title: "Furnished Serviced Apartments near Paras Hospitals Sector 53 Gurgaon",
-    slug: "furnished-apartments-near-paras-hospitals-sector-53-gurgaon",
-    excerpt: "Quiet, premium serviced apartments located moments from Paras Hospitals Sector 53 Gurgaon. Enjoy private kitchens, 24/7 power backup, and empathetic hospitality with Residences by Sandane Homes.",
-    category: "Medical Relocation",
-    readTime: "6 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Healthcare Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Paras Hospitals Gurgaon","Sector 53 Serviced Apartments","Medical Housing Gurgaon","Golf Course Road Stays","Residences by Sandane Homes"],
-    content: "<h2>Calm Healing Environments near Paras Hospitals Sector 53</h2>\n      <p>Paras Hospitals in Sector 53 Gurgaon is a major tertiary healthcare center specializing in neurosciences, cardiac care, joint replacement, and pediatric surgeries. Patients traveling from across Haryana, Rajasthan, Punjab, and international locations frequently need peaceful recuperative housing close to the hospital for pre-op testing and post-op rehabilitation.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offers private, hygienic 1 BHK and 2 BHK serviced residences located just 400 meters to 1.5 kilometers from Paras Hospitals along Golf Course Road.</p>\n\n      <h2>Key Features for Patient Well-being</h2>\n      <ul>\n        <li><strong>Serene Gated Community Living:</strong> Insulated from highway traffic noise, our residences offer calm, green surroundings that facilitate deep rest and physical recuperation.</li>\n        <li><strong>Homestyle Cooking Facilities:</strong> In-suite modular kitchens complete with cookware, cutlery, microwave, and refrigerator allow accompanying caretakers to prepare fresh, nutritious food without relying on expensive restaurant fare.</li>\n        <li><strong>In-Unit Laundry & Sanitization:</strong> Fully automatic washing machines and daily housekeeping ensure continuous hygiene and fresh clothing throughout extended treatments.</li>\n        <li><strong>Rapid Metro & Pharmacy Proximity:</strong> Quick access to Sector 53-54 Rapid Metro station and 24/7 chemist stores ensure immediate access to medications and city transport.</li>\n      </ul>\n\n      <h2>Personalized Medical Stay Rates</h2>\n      <p>We provide flexible weekly and monthly medical tariffs with zero lock-in periods and compassionate terms. Inquire with our patient care liaison at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Discover peaceful healing spaces on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "furnished-apartments-near-paras-hospitals-sector-53-gurgaon",
+    "title": "Furnished Serviced Apartments near Paras Hospitals Sector 53 Gurgaon",
+    "slug": "furnished-apartments-near-paras-hospitals-sector-53-gurgaon",
+    "excerpt": "Quiet, premium serviced apartments located moments from Paras Hospitals Sector 53 Gurgaon. Enjoy private kitchens, 24/7 power backup, and empathetic hospitality with Residences by Sandane Homes.",
+    "category": "Medical Relocation",
+    "readTime": "6 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Healthcare Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Paras Hospitals Gurgaon",
+      "Sector 53 Serviced Apartments",
+      "Medical Housing Gurgaon",
+      "Golf Course Road Stays",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Calm Healing Environments near Paras Hospitals Sector 53</h2>\n      <p>Paras Hospitals in Sector 53 Gurgaon is a major tertiary healthcare center specializing in neurosciences, cardiac care, joint replacement, and pediatric surgeries. Patients traveling from across Haryana, Rajasthan, Punjab, and international locations frequently need peaceful recuperative housing close to the hospital for pre-op testing and post-op rehabilitation.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offers private, hygienic 1 BHK and 2 BHK serviced residences located just 400 meters to 1.5 kilometers from Paras Hospitals along Golf Course Road.</p>\n\n      <h2>Key Features for Patient Well-being</h2>\n      <ul>\n        <li><strong>Serene Gated Community Living:</strong> Insulated from highway traffic noise, our residences offer calm, green surroundings that facilitate deep rest and physical recuperation.</li>\n        <li><strong>Homestyle Cooking Facilities:</strong> In-suite modular kitchens complete with cookware, cutlery, microwave, and refrigerator allow accompanying caretakers to prepare fresh, nutritious food without relying on expensive restaurant fare.</li>\n        <li><strong>In-Unit Laundry & Sanitization:</strong> Fully automatic washing machines and daily housekeeping ensure continuous hygiene and fresh clothing throughout extended treatments.</li>\n        <li><strong>Rapid Metro & Pharmacy Proximity:</strong> Quick access to Sector 53-54 Rapid Metro station and 24/7 chemist stores ensure immediate access to medications and city transport.</li>\n      </ul>\n\n      <h2>Personalized Medical Stay Rates</h2>\n      <p>We provide flexible weekly and monthly medical tariffs with zero lock-in periods and compassionate terms. Inquire with our patient care liaison at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Discover peaceful healing spaces on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "corporate-housing-solutions-dlf-cyber-park-gurgaon",
-    title: "Corporate Housing Solutions near DLF Cyber Park Gurgaon for Tech & Executive Teams",
-    slug: "corporate-housing-solutions-dlf-cyber-park-gurgaon",
-    excerpt: "Operating out of DLF Cyber Park Gurgaon? Discover bespoke corporate housing with high-speed WiFi, executive desks, and seamless commute links by Residences by Sandane Homes.",
-    category: "Corporate Housing",
-    readTime: "8 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Corporate Strategy",
-    coverImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
-    tags: ["DLF Cyber Park Gurgaon","Corporate Housing Gurgaon","Tech Company Rentals","Residences by Sandane Homes","Executive Serviced Apartments"],
-    content: "<h2>The Rise of DLF Cyber Park as Gurgaon’s Premium Tech Hub</h2>\n      <p>DLF Cyber Park, situated strategically on NH-8 adjacent to DLF Phase 2 and Cyber City, is an architectural marvel housing some of the globe's foremost technology innovators, global capability centers (GCCs), and fintech unicorns. For engineering leads, visiting consultants, and executive teams deployed for multi-week sprint cycles or system implementations, staying in nearby executive housing is paramount.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> curates premium turnkey corporate apartments tailored specifically for tech leaders and corporate task forces working out of DLF Cyber Park.</p>\n\n      <h2>Engineered for High-Output Remote & Hybrid Professionals</h2>\n      <ul>\n        <li><strong>Reliable Enterprise Infrastructure:</strong> Ultra-fast redundant optical fiber broadband (up to 300 Mbps), dedicated ergonomic workstations, and silent acoustic spaces for Zoom and Teams meetings.</li>\n        <li><strong>Rapid Commute:</strong> Located within a 5 to 8-minute drive or direct metro connection to DLF Cyber Park, eliminating the stress of morning Delhi-Gurgaon highway jams.</li>\n        <li><strong>Hotel-Grade Housekeeping:</strong> Spotless daily cleaning, professional linen service, and maintenance on autopilot so your focus remains squarely on business outcomes.</li>\n        <li><strong>Simplified Corporate Procurement:</strong> Unified monthly GST-compliant billing with clear tax credits and zero personal liability for traveling employees.</li>\n      </ul>\n\n      <h2>Corporate Master Accounts & Group Deployments</h2>\n      <p>Establish corporate master rates for your traveling engineering and leadership staff. Contact our corporate relations division at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Review our corporate apartment floor plans at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "corporate-housing-solutions-dlf-cyber-park-gurgaon",
+    "title": "Corporate Housing Solutions near DLF Cyber Park Gurgaon for Tech & Executive Teams",
+    "slug": "corporate-housing-solutions-dlf-cyber-park-gurgaon",
+    "excerpt": "Operating out of DLF Cyber Park Gurgaon? Discover bespoke corporate housing with high-speed WiFi, executive desks, and seamless commute links by Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "8 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Corporate Strategy",
+    "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "DLF Cyber Park Gurgaon",
+      "Corporate Housing Gurgaon",
+      "Tech Company Rentals",
+      "Residences by Sandane Homes",
+      "Executive Serviced Apartments"
+    ],
+    "content": "<h2>The Rise of DLF Cyber Park as Gurgaon’s Premium Tech Hub</h2>\n      <p>DLF Cyber Park, situated strategically on NH-8 adjacent to DLF Phase 2 and Cyber City, is an architectural marvel housing some of the globe's foremost technology innovators, global capability centers (GCCs), and fintech unicorns. For engineering leads, visiting consultants, and executive teams deployed for multi-week sprint cycles or system implementations, staying in nearby executive housing is paramount.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> curates premium turnkey corporate apartments tailored specifically for tech leaders and corporate task forces working out of DLF Cyber Park.</p>\n\n      <h2>Engineered for High-Output Remote & Hybrid Professionals</h2>\n      <ul>\n        <li><strong>Reliable Enterprise Infrastructure:</strong> Ultra-fast redundant optical fiber broadband (up to 300 Mbps), dedicated ergonomic workstations, and silent acoustic spaces for Zoom and Teams meetings.</li>\n        <li><strong>Rapid Commute:</strong> Located within a 5 to 8-minute drive or direct metro connection to DLF Cyber Park, eliminating the stress of morning Delhi-Gurgaon highway jams.</li>\n        <li><strong>Hotel-Grade Housekeeping:</strong> Spotless daily cleaning, professional linen service, and maintenance on autopilot so your focus remains squarely on business outcomes.</li>\n        <li><strong>Simplified Corporate Procurement:</strong> Unified monthly GST-compliant billing with clear tax credits and zero personal liability for traveling employees.</li>\n      </ul>\n\n      <h2>Corporate Master Accounts & Group Deployments</h2>\n      <p>Establish corporate master rates for your traveling engineering and leadership staff. Contact our corporate relations division at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Review our corporate apartment floor plans at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "executive-apartments-near-candor-techspace-sector-48-gurgaon",
-    title: "Executive Serviced Apartments near Candor TechSpace Sector 48 Gurgaon",
-    slug: "executive-apartments-near-candor-techspace-sector-48-gurgaon",
-    excerpt: "Working at Candor TechSpace Sector 48 or Sohna Road? Discover spacious, fully furnished 1, 2 & 3 BHK serviced apartments with housekeeping, gym access, and corporate billing by Residences by Sandane Homes.",
-    category: "Corporate Housing",
-    readTime: "7 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Corporate Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Candor TechSpace Sector 48","Sohna Road Corporate Housing","Serviced Apartments Gurgaon","Residences by Sandane Homes","IT Park Accommodations"],
-    content: "<h2>Executive Living along the Sohna Road Commercial Hub</h2>\n      <p>Candor TechSpace in Sector 48 stands as one of the largest IT/ITeS SEZ campuses in Gurgaon, hosting thousands of software engineers, analysts, and project managers from global leaders like Capgemini, Cognizant, Wipro, and Accenture. When senior managers and project specialists arrive on 1 to 6-month assignments, conventional hotels on Sohna Road quickly become monotonous and impersonal.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides fully furnished, designer serviced residences in gated luxury developments minutes from Candor TechSpace Sector 48.</p>\n\n      <h2>Why Candor TechSpace Professionals Choose Sandane Homes</h2>\n      <ul>\n        <li><strong>Spacious Living Salons:</strong> Over 700 to 1,500 square feet of private living space—far exceeding cramped hotel rooms and fostering superior relaxation after demanding workdays.</li>\n        <li><strong>Turnkey Modular Kitchens:</strong> Fitted with chimney, gas/induction cooking, microwave, refrigerator, RO filter, and comprehensive crockery.</li>\n        <li><strong>Clubhouse & Wellness Access:</strong> Enjoy manicured gardens, swimming pools, tennis courts, and fully equipped fitness centers within gated societies.</li>\n        <li><strong>Zero Brokerage, Zero Lock-In:</strong> Transparent monthly corporate leases without broker fees, hefty security deposits, or complicated tenancy agreements.</li>\n      </ul>\n\n      <h2>Book Your Sohna Road Corporate Apartment</h2>\n      <p>Contact our corporate leasing team today at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp us directly at <strong>+91 97117 22273</strong>. Discover hassle-free business living on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "executive-apartments-near-candor-techspace-sector-48-gurgaon",
+    "title": "Executive Serviced Apartments near Candor TechSpace Sector 48 Gurgaon",
+    "slug": "executive-apartments-near-candor-techspace-sector-48-gurgaon",
+    "excerpt": "Working at Candor TechSpace Sector 48 or Sohna Road? Discover spacious, fully furnished 1, 2 & 3 BHK serviced apartments with housekeeping, gym access, and corporate billing by Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "7 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Corporate Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Candor TechSpace Sector 48",
+      "Sohna Road Corporate Housing",
+      "Serviced Apartments Gurgaon",
+      "Residences by Sandane Homes",
+      "IT Park Accommodations"
+    ],
+    "content": "<h2>Executive Living along the Sohna Road Commercial Hub</h2>\n      <p>Candor TechSpace in Sector 48 stands as one of the largest IT/ITeS SEZ campuses in Gurgaon, hosting thousands of software engineers, analysts, and project managers from global leaders like Capgemini, Cognizant, Wipro, and Accenture. When senior managers and project specialists arrive on 1 to 6-month assignments, conventional hotels on Sohna Road quickly become monotonous and impersonal.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides fully furnished, designer serviced residences in gated luxury developments minutes from Candor TechSpace Sector 48.</p>\n\n      <h2>Why Candor TechSpace Professionals Choose Sandane Homes</h2>\n      <ul>\n        <li><strong>Spacious Living Salons:</strong> Over 700 to 1,500 square feet of private living space—far exceeding cramped hotel rooms and fostering superior relaxation after demanding workdays.</li>\n        <li><strong>Turnkey Modular Kitchens:</strong> Fitted with chimney, gas/induction cooking, microwave, refrigerator, RO filter, and comprehensive crockery.</li>\n        <li><strong>Clubhouse & Wellness Access:</strong> Enjoy manicured gardens, swimming pools, tennis courts, and fully equipped fitness centers within gated societies.</li>\n        <li><strong>Zero Brokerage, Zero Lock-In:</strong> Transparent monthly corporate leases without broker fees, hefty security deposits, or complicated tenancy agreements.</li>\n      </ul>\n\n      <h2>Book Your Sohna Road Corporate Apartment</h2>\n      <p>Contact our corporate leasing team today at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp us directly at <strong>+91 97117 22273</strong>. Discover hassle-free business living on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "serviced-apartments-near-spaze-itech-park-sohna-road-gurgaon",
-    title: "Serviced Apartments near Spaze iTech Park Sohna Road Gurgaon for Business Travelers",
-    slug: "serviced-apartments-near-spaze-itech-park-sohna-road-gurgaon",
-    excerpt: "Premium, fully serviced apartments near Spaze iTech Park Sector 49 Gurgaon. Private kitchens, daily housekeeping, 100% power backup, and corporate billing by Residences by Sandane Homes.",
-    category: "Serviced Apartments",
-    readTime: "6 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Corporate Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1502005229762-ee152d3a5e88?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Spaze iTech Park","Sohna Road Serviced Apartments","Residences by Sandane Homes","Sector 49 Gurgaon","Business Travel"],
-    content: "<h2>The Strategic Advantage of Sector 49 & Sohna Road</h2>\n      <p>Spaze iTech Park on Sohna Road Sector 49 is a buzzing commercial powerhouse anchoring prominent technology firms, telecom providers, logistics conglomerates, and financial consultancies. For traveling executives, regional sales directors, and auditors, staying close to Spaze iTech Park guarantees zero traffic delays and seamless meetings.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates luxury 1 BHK, 2 BHK, and executive studio apartments in prime gated residential towers surrounding Sohna Road and Sector 49.</p>\n\n      <h2>Modern Corporate Amenities</h2>\n      <ul>\n        <li><strong>Dedicated Workspace:</strong> Ergonomic executive chair, clutter-free desk, and high-speed multi-gigabit fiber WiFi.</li>\n        <li><strong>Daily Professional Housekeeping:</strong> Comprehensive sanitization, bed linen renewal, and kitchen cleaning conducted by trained hotel staff.</li>\n        <li><strong>In-House Dining Flexibility:</strong> Prepare your own organic meals in the modular kitchen or order from hundreds of top-rated nearby restaurants with seamless doorstep delivery.</li>\n        <li><strong>Round-the-Clock Security:</strong> Multi-tier security, electronic access, and 100% uninterrupted generator power backup.</li>\n      </ul>\n\n      <h2>Corporate Rates & Booking</h2>\n      <p>Experience the perfect balance of home comfort and hotel luxury. Reserve your stay by writing to <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or calling <strong>+91 97117 22273</strong>. Visit <a href=\"/residences\">Residences by Sandane Homes</a> for real-time availability.</p>"
+    "id": "serviced-apartments-near-spaze-itech-park-sohna-road-gurgaon",
+    "title": "Serviced Apartments near Spaze iTech Park Sohna Road Gurgaon for Business Travelers",
+    "slug": "serviced-apartments-near-spaze-itech-park-sohna-road-gurgaon",
+    "excerpt": "Premium, fully serviced apartments near Spaze iTech Park Sector 49 Gurgaon. Private kitchens, daily housekeeping, 100% power backup, and corporate billing by Residences by Sandane Homes.",
+    "category": "Serviced Apartments",
+    "readTime": "6 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Corporate Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1502005229762-ee152d3a5e88?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Spaze iTech Park",
+      "Sohna Road Serviced Apartments",
+      "Residences by Sandane Homes",
+      "Sector 49 Gurgaon",
+      "Business Travel"
+    ],
+    "content": "<h2>The Strategic Advantage of Sector 49 & Sohna Road</h2>\n      <p>Spaze iTech Park on Sohna Road Sector 49 is a buzzing commercial powerhouse anchoring prominent technology firms, telecom providers, logistics conglomerates, and financial consultancies. For traveling executives, regional sales directors, and auditors, staying close to Spaze iTech Park guarantees zero traffic delays and seamless meetings.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates luxury 1 BHK, 2 BHK, and executive studio apartments in prime gated residential towers surrounding Sohna Road and Sector 49.</p>\n\n      <h2>Modern Corporate Amenities</h2>\n      <ul>\n        <li><strong>Dedicated Workspace:</strong> Ergonomic executive chair, clutter-free desk, and high-speed multi-gigabit fiber WiFi.</li>\n        <li><strong>Daily Professional Housekeeping:</strong> Comprehensive sanitization, bed linen renewal, and kitchen cleaning conducted by trained hotel staff.</li>\n        <li><strong>In-House Dining Flexibility:</strong> Prepare your own organic meals in the modular kitchen or order from hundreds of top-rated nearby restaurants with seamless doorstep delivery.</li>\n        <li><strong>Round-the-Clock Security:</strong> Multi-tier security, electronic access, and 100% uninterrupted generator power backup.</li>\n      </ul>\n\n      <h2>Corporate Rates & Booking</h2>\n      <p>Experience the perfect balance of home comfort and hotel luxury. Reserve your stay by writing to <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or calling <strong>+91 97117 22273</strong>. Visit <a href=\"/residences\">Residences by Sandane Homes</a> for real-time availability.</p>"
   },
-
   {
-    id: "expat-housing-near-american-excelsior-and-heritage-school-gurgaon",
-    title: "Expat Family Housing near Top International Schools in Gurgaon (Heritage, Excelsior & Pathways)",
-    slug: "expat-housing-near-american-excelsior-and-heritage-school-gurgaon",
-    excerpt: "Relocating to Gurgaon with school-aged children? Discover safe, premium gated communities near Heritage Xperiential, Excelsior American, and Pathways School by Residences by Sandane Homes.",
-    category: "Expat Living",
-    readTime: "9 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Global Mobility Desk",
-    coverImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Expat Family Housing","International Schools Gurgaon","Heritage Xperiential School","Residences by Sandane Homes","Gated Communities Gurgaon"],
-    content: "<h2>Prioritizing Education in Expat Relocation to Gurgaon</h2>\n      <p>For multinational executives and foreign diplomats relocating with their families to Gurgaon, selecting the right school is almost always the number one decision that dictates where the family will live. Renowned institutions such as Heritage Xperiential Learning School (Sector 62 & 58), Excelsior American School (Sector 43), Pathways World School, and The British School have earned global acclaim for their IB and Cambridge curricula.</p>\n\n      <p>However, Delhi NCR morning traffic makes living far from campus a major ordeal for young children. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> curates family-centric 2 BHK, 3 BHK, and 4 BHK luxury residences situated within safe 5 to 10-minute school bus perimeters across Golf Course Road, DLF Phase 5, and Golf Course Extension Road.</p>\n\n      <h2>Family-Focused Lifestyle Amenities</h2>\n      <ul>\n        <li><strong>Gated Security & Green Parks:</strong> Multi-tier 24/7 security, pedestrianized internal paths, children's playgrounds, and sprawling green spaces where kids can cycle and play safely.</li>\n        <li><strong>Comprehensive Clubhouse Facilities:</strong> Olympic swimming pools, indoor badminton courts, tennis academies, and fitness centers right inside the residential society.</li>\n        <li><strong>Health & Clean Air Infrastructure:</strong> Advanced RO water purification systems and integrated air filtration options to ensure the highest health standards for your family.</li>\n        <li><strong>Dedicated Expat Family Support:</strong> Assistance with school transport coordination, local domestic staff vetting (nannies/cooks), and verified pediatric clinic referrals.</li>\n      </ul>\n\n      <h2>Consult with our Expat Education & Housing Advisory</h2>\n      <p>Ensure your family enjoys an effortless, joyful transition into Gurgaon. Reach our relocation counselors at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore our family residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "expat-housing-near-american-excelsior-and-heritage-school-gurgaon",
+    "title": "Expat Family Housing near Top International Schools in Gurgaon (Heritage, Excelsior & Pathways)",
+    "slug": "expat-housing-near-american-excelsior-and-heritage-school-gurgaon",
+    "excerpt": "Relocating to Gurgaon with school-aged children? Discover safe, premium gated communities near Heritage Xperiential, Excelsior American, and Pathways School by Residences by Sandane Homes.",
+    "category": "Expat Living",
+    "readTime": "9 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Global Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Expat Family Housing",
+      "International Schools Gurgaon",
+      "Heritage Xperiential School",
+      "Residences by Sandane Homes",
+      "Gated Communities Gurgaon"
+    ],
+    "content": "<h2>Prioritizing Education in Expat Relocation to Gurgaon</h2>\n      <p>For multinational executives and foreign diplomats relocating with their families to Gurgaon, selecting the right school is almost always the number one decision that dictates where the family will live. Renowned institutions such as Heritage Xperiential Learning School (Sector 62 & 58), Excelsior American School (Sector 43), Pathways World School, and The British School have earned global acclaim for their IB and Cambridge curricula.</p>\n\n      <p>However, Delhi NCR morning traffic makes living far from campus a major ordeal for young children. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> curates family-centric 2 BHK, 3 BHK, and 4 BHK luxury residences situated within safe 5 to 10-minute school bus perimeters across Golf Course Road, DLF Phase 5, and Golf Course Extension Road.</p>\n\n      <h2>Family-Focused Lifestyle Amenities</h2>\n      <ul>\n        <li><strong>Gated Security & Green Parks:</strong> Multi-tier 24/7 security, pedestrianized internal paths, children's playgrounds, and sprawling green spaces where kids can cycle and play safely.</li>\n        <li><strong>Comprehensive Clubhouse Facilities:</strong> Olympic swimming pools, indoor badminton courts, tennis academies, and fitness centers right inside the residential society.</li>\n        <li><strong>Health & Clean Air Infrastructure:</strong> Advanced RO water purification systems and integrated air filtration options to ensure the highest health standards for your family.</li>\n        <li><strong>Dedicated Expat Family Support:</strong> Assistance with school transport coordination, local domestic staff vetting (nannies/cooks), and verified pediatric clinic referrals.</li>\n      </ul>\n\n      <h2>Consult with our Expat Education & Housing Advisory</h2>\n      <p>Ensure your family enjoys an effortless, joyful transition into Gurgaon. Reach our relocation counselors at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore our family residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "turnkey-2-bhk-serviced-apartments-dlf-phase-1-gurgaon",
-    title: "Turnkey 2 BHK Serviced Apartments in DLF Phase 1 Gurgaon for Relocating Families",
-    slug: "turnkey-2-bhk-serviced-apartments-dlf-phase-1-gurgaon",
-    excerpt: "Looking for a turnkey 2 BHK serviced apartment in DLF Phase 1 Gurgaon? Walking distance to Mega Mall and Golf Course Road with luxury furnishings and housekeeping by Residences by Sandane Homes.",
-    category: "Serviced Apartments",
-    readTime: "7 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Editorial Team",
-    coverImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&auto=format&fit=crop&q=80",
-    tags: ["DLF Phase 1 Gurgaon","2 BHK Serviced Apartment","Residences by Sandane Homes","Golf Course Road Living","Furnished Rentals"],
-    content: "<h2>The Timeless Charm of DLF Phase 1 Gurgaon</h2>\n      <p>DLF Phase 1 is celebrated as one of Gurgaon’s most prestigious, verdant, and established residential neighborhoods. With immediate access to Golf Course Road, DLF Mega Mall, Sikanderpur Metro, and upscale cafes, it provides the rare combination of peaceful leafy avenues and urban executive convenience.</p>\n\n      <p>For corporate assignees, relocating dyads, and small families, <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides exquisitely appointed 2 BHK serviced apartments in DLF Phase 1 that combine the warmth of a private luxury home with the turnkey services of a 5-star hotel.</p>\n\n      <h2>Property Highlights</h2>\n      <ul>\n        <li><strong>Two Private En-Suite Bedrooms:</strong> King and queen beds with orthopedic memory-foam mattresses, generous custom wardrobes, and modern attached bathrooms.</li>\n        <li><strong>Expansive Living & Dining Hall:</strong> Styled with Scandinavian and contemporary designer furniture, 55-inch 4K Smart TVs, and ambient mood lighting.</li>\n        <li><strong>Gourmet Kitchen:</strong> Fully loaded with gas/induction hob, chimney, large frost-free refrigerator, microwave oven, electric toaster, and water purifier.</li>\n        <li><strong>Private Balconies:</strong> Enjoy morning coffee overlooking tree-lined neighborhood lanes in complete privacy.</li>\n      </ul>\n\n      <h2>Short-Term and Long-Term Corporate Rates</h2>\n      <p>Avoid 11-month rigid lease contracts and broker commissions. Connect with our reservations desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Explore our DLF Phase 1 homes on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "turnkey-2-bhk-serviced-apartments-dlf-phase-1-gurgaon",
+    "title": "Turnkey 2 BHK Serviced Apartments in DLF Phase 1 Gurgaon for Relocating Families",
+    "slug": "turnkey-2-bhk-serviced-apartments-dlf-phase-1-gurgaon",
+    "excerpt": "Looking for a turnkey 2 BHK serviced apartment in DLF Phase 1 Gurgaon? Walking distance to Mega Mall and Golf Course Road with luxury furnishings and housekeeping by Residences by Sandane Homes.",
+    "category": "Serviced Apartments",
+    "readTime": "7 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "DLF Phase 1 Gurgaon",
+      "2 BHK Serviced Apartment",
+      "Residences by Sandane Homes",
+      "Golf Course Road Living",
+      "Furnished Rentals"
+    ],
+    "content": "<h2>The Timeless Charm of DLF Phase 1 Gurgaon</h2>\n      <p>DLF Phase 1 is celebrated as one of Gurgaon’s most prestigious, verdant, and established residential neighborhoods. With immediate access to Golf Course Road, DLF Mega Mall, Sikanderpur Metro, and upscale cafes, it provides the rare combination of peaceful leafy avenues and urban executive convenience.</p>\n\n      <p>For corporate assignees, relocating dyads, and small families, <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides exquisitely appointed 2 BHK serviced apartments in DLF Phase 1 that combine the warmth of a private luxury home with the turnkey services of a 5-star hotel.</p>\n\n      <h2>Property Highlights</h2>\n      <ul>\n        <li><strong>Two Private En-Suite Bedrooms:</strong> King and queen beds with orthopedic memory-foam mattresses, generous custom wardrobes, and modern attached bathrooms.</li>\n        <li><strong>Expansive Living & Dining Hall:</strong> Styled with Scandinavian and contemporary designer furniture, 55-inch 4K Smart TVs, and ambient mood lighting.</li>\n        <li><strong>Gourmet Kitchen:</strong> Fully loaded with gas/induction hob, chimney, large frost-free refrigerator, microwave oven, electric toaster, and water purifier.</li>\n        <li><strong>Private Balconies:</strong> Enjoy morning coffee overlooking tree-lined neighborhood lanes in complete privacy.</li>\n      </ul>\n\n      <h2>Short-Term and Long-Term Corporate Rates</h2>\n      <p>Avoid 11-month rigid lease contracts and broker commissions. Connect with our reservations desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Explore our DLF Phase 1 homes on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "monthly-serviced-apartments-near-sikanderpur-metro-interchange-gurgaon",
-    title: "Monthly Serviced Apartments near Sikanderpur Metro Interchange Gurgaon",
-    slug: "monthly-serviced-apartments-near-sikanderpur-metro-interchange-gurgaon",
-    excerpt: "The ultimate transit hub of Delhi NCR. Stay in monthly serviced residences near Sikanderpur Metro Station (Yellow Line & Rapid Metro interchange) by Residences by Sandane Homes.",
-    category: "Corporate Housing",
-    readTime: "7 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Corporate Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Sikanderpur Metro Station","Monthly Serviced Apartments","Residences by Sandane Homes","Yellow Line Gurgaon","Corporate Commute"],
-    content: "<h2>Why Sikanderpur Metro Interchange is the Strategic Sweet Spot</h2>\n      <p>Sikanderpur represents the most critical transportation interchange in Millennium City Gurgaon. It seamlessly connects the Delhi Metro Yellow Line (giving 25-minute direct access to Connaught Place, Chanakyapuri, and Central Delhi) with the Gurgaon Rapid Metro (connecting Golf Course Road, Horizon Center, and DLF Cyber City).</p>\n\n      <p>Professionals who divide their workweek between Delhi embassies/ministries and Gurgaon corporate offices find staying near Sikanderpur to be an unbeatable logistics advantage. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates luxury serviced residences within 3 to 6 minutes of the station.</p>\n\n      <h2>Turnkey All-Inclusive Monthly Living</h2>\n      <ul>\n        <li><strong>Consolidated Single Invoice:</strong> Rent, high-speed fiber internet, electricity, water, daily housekeeping, and property maintenance are bundled together with full GST input credits.</li>\n        <li><strong>Full Home Amenities:</strong> Complete private kitchen, automatic washing machine, iron/ironing board, microwave, and split air conditioning in all rooms.</li>\n        <li><strong>Top-Tier Security:</strong> Secure gated entrances, CCTV monitoring, and 24/7 on-call concierge.</li>\n        <li><strong>Zero Middlemen:</strong> Deal directly with Sandane Homes as your hospitality and property management operator.</li>\n      </ul>\n\n      <h2>Check Availability for Monthly Stays</h2>\n      <p>Reserve your transit-accessible serviced suite today. Email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Discover turnkey living at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "monthly-serviced-apartments-near-sikanderpur-metro-interchange-gurgaon",
+    "title": "Monthly Serviced Apartments near Sikanderpur Metro Interchange Gurgaon",
+    "slug": "monthly-serviced-apartments-near-sikanderpur-metro-interchange-gurgaon",
+    "excerpt": "The ultimate transit hub of Delhi NCR. Stay in monthly serviced residences near Sikanderpur Metro Station (Yellow Line & Rapid Metro interchange) by Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "7 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Corporate Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Sikanderpur Metro Station",
+      "Monthly Serviced Apartments",
+      "Residences by Sandane Homes",
+      "Yellow Line Gurgaon",
+      "Corporate Commute"
+    ],
+    "content": "<h2>Why Sikanderpur Metro Interchange is the Strategic Sweet Spot</h2>\n      <p>Sikanderpur represents the most critical transportation interchange in Millennium City Gurgaon. It seamlessly connects the Delhi Metro Yellow Line (giving 25-minute direct access to Connaught Place, Chanakyapuri, and Central Delhi) with the Gurgaon Rapid Metro (connecting Golf Course Road, Horizon Center, and DLF Cyber City).</p>\n\n      <p>Professionals who divide their workweek between Delhi embassies/ministries and Gurgaon corporate offices find staying near Sikanderpur to be an unbeatable logistics advantage. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates luxury serviced residences within 3 to 6 minutes of the station.</p>\n\n      <h2>Turnkey All-Inclusive Monthly Living</h2>\n      <ul>\n        <li><strong>Consolidated Single Invoice:</strong> Rent, high-speed fiber internet, electricity, water, daily housekeeping, and property maintenance are bundled together with full GST input credits.</li>\n        <li><strong>Full Home Amenities:</strong> Complete private kitchen, automatic washing machine, iron/ironing board, microwave, and split air conditioning in all rooms.</li>\n        <li><strong>Top-Tier Security:</strong> Secure gated entrances, CCTV monitoring, and 24/7 on-call concierge.</li>\n        <li><strong>Zero Middlemen:</strong> Deal directly with Sandane Homes as your hospitality and property management operator.</li>\n      </ul>\n\n      <h2>Check Availability for Monthly Stays</h2>\n      <p>Reserve your transit-accessible serviced suite today. Email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Discover turnkey living at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "vip-diplomatic-delegation-housing-residences-gurgaon",
-    title: "VIP & Diplomatic Delegation Serviced Residences in Gurgaon: Discretion, Luxury & High Security",
-    slug: "vip-diplomatic-delegation-housing-residences-gurgaon",
-    excerpt: "High-security, confidential luxury residences in Gurgaon for diplomatic envoys, ministerial delegations, and high-net-worth VIPs by Residences by Sandane Homes.",
-    category: "Luxury Living",
-    readTime: "8 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Executive Protocol Desk",
-    coverImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Diplomatic Housing Gurgaon","VIP Serviced Residences","High Security Accommodations","Residences by Sandane Homes","Executive Penthouses"],
-    content: "<h2>Discreet, High-Security Living for Global Leaders</h2>\n      <p>International diplomatic delegations, bilateral trade missions, and multinational board directors require accommodations that prioritize absolute privacy, physical security, and impeccable protocol standards. Standard commercial hotels frequently lack confidentiality, exposing dignitaries to crowded public lobbies and constant media presence.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> manages exclusive penthouses and private executive floors across the most secure gated developments along Golf Course Road and DLF Phase 5, providing a discreet sanctuary for distinguished guests.</p>\n\n      <h2>Protocol-Ready Residential Features</h2>\n      <ul>\n        <li><strong>Multi-Tier Security & Controlled Access:</strong> Dedicated private elevator access, biometric security, CCTV perimeter monitoring, and secure staging areas for close-protection security details.</li>\n        <li><strong>Diplomatic Dining & Boardroom Salons:</strong> Expansive 8 to 12-seater dining rooms and private lounges ideal for high-level briefings, bilateral negotiations, and private entertainment.</li>\n        <li><strong>Private Butler & Culinary Services:</strong> Dedicated on-demand executive chefs and bilingual butler personnel trained in diplomatic etiquette and confidentiality agreements.</li>\n        <li><strong>Chauffeur & Airport Logistics:</strong> Seamless private transfers coordinated via IGI Airport and VIP terminal connections.</li>\n      </ul>\n\n      <h2>Confidential Portfolio Inquiries</h2>\n      <p>All diplomatic and VIP bookings are coordinated exclusively through our executive management office under non-disclosure agreements. Reach our protocol liaison at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore our flagship residences on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "vip-diplomatic-delegation-housing-residences-gurgaon",
+    "title": "VIP & Diplomatic Delegation Serviced Residences in Gurgaon: Discretion, Luxury & High Security",
+    "slug": "vip-diplomatic-delegation-housing-residences-gurgaon",
+    "excerpt": "High-security, confidential luxury residences in Gurgaon for diplomatic envoys, ministerial delegations, and high-net-worth VIPs by Residences by Sandane Homes.",
+    "category": "Luxury Living",
+    "readTime": "8 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Executive Protocol Desk",
+    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Diplomatic Housing Gurgaon",
+      "VIP Serviced Residences",
+      "High Security Accommodations",
+      "Residences by Sandane Homes",
+      "Executive Penthouses"
+    ],
+    "content": "<h2>Discreet, High-Security Living for Global Leaders</h2>\n      <p>International diplomatic delegations, bilateral trade missions, and multinational board directors require accommodations that prioritize absolute privacy, physical security, and impeccable protocol standards. Standard commercial hotels frequently lack confidentiality, exposing dignitaries to crowded public lobbies and constant media presence.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> manages exclusive penthouses and private executive floors across the most secure gated developments along Golf Course Road and DLF Phase 5, providing a discreet sanctuary for distinguished guests.</p>\n\n      <h2>Protocol-Ready Residential Features</h2>\n      <ul>\n        <li><strong>Multi-Tier Security & Controlled Access:</strong> Dedicated private elevator access, biometric security, CCTV perimeter monitoring, and secure staging areas for close-protection security details.</li>\n        <li><strong>Diplomatic Dining & Boardroom Salons:</strong> Expansive 8 to 12-seater dining rooms and private lounges ideal for high-level briefings, bilateral negotiations, and private entertainment.</li>\n        <li><strong>Private Butler & Culinary Services:</strong> Dedicated on-demand executive chefs and bilingual butler personnel trained in diplomatic etiquette and confidentiality agreements.</li>\n        <li><strong>Chauffeur & Airport Logistics:</strong> Seamless private transfers coordinated via IGI Airport and VIP terminal connections.</li>\n      </ul>\n\n      <h2>Confidential Portfolio Inquiries</h2>\n      <p>All diplomatic and VIP bookings are coordinated exclusively through our executive management office under non-disclosure agreements. Reach our protocol liaison at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore our flagship residences on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "nri-guide-leasing-property-corporate-housing-operators-gurgaon",
-    title: "The NRI Guide: Why Leasing Your Gurgaon Property to Sandane Homes Beats Traditional Renting",
-    slug: "nri-guide-leasing-property-corporate-housing-operators-gurgaon",
-    excerpt: "Own an apartment in DLF Phase 5 or Golf Course Road? A complete financial and operational guide for NRIs on why master leasing to Sandane Homes delivers higher yields and zero tenant stress.",
-    category: "Property Management",
-    readTime: "10 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Asset Management",
-    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
-    tags: ["NRI Property Guide","Gurgaon Real Estate Leasing","Sandane Homes Master Lease","DLF Phase 5 Rentals","Property Management NRI"],
-    content: "<h2>The Hidden Financial Drain of Traditional NRI Tenancies</h2>\n      <p>For Non-Resident Indians living in the US, UK, Canada, UAE, or Singapore, owning luxury real estate in Gurgaon’s top sectors (such as The Crest, Magnolias, Park Place, Palm Springs, or Emaar Palm Drive) represents a prestigious asset. However, managing tenancies from thousands of miles away often turns into a financial and emotional headache:</p>\n      <ul>\n        <li><strong>Vacancy Losses:</strong> Finding a new tenant often takes 2 to 3 months every year, eliminating 15% to 25% of annual rental yields.</li>\n        <li><strong>Recurring Brokerage Fees:</strong> Local agents charge 1 month's rent for every new tenant and 15 days' rent for renewals.</li>\n        <li><strong>Asset Neglect:</strong> Unmonitored tenants cause deep wear-and-tear to modular kitchens, woodwork, and designer fittings.</li>\n        <li><strong>Delayed Rent & Tax Complexities:</strong> Constant chasing for bank transfers and navigating complex TDS certificates for NRI accounts.</li>\n      </ul>\n\n      <h2>The Sandane Homes Master Lease Advantage</h2>\n      <p>When you partner with <strong>Sandane Homes</strong>, we enter into a multi-year corporate master lease where Sandane Homes acts as your single, institutional corporate tenant.</p>\n\n      <h2>Financial Comparison: Traditional vs. Sandane Homes Master Lease</h2>\n      <table style=\"width:100%; border-collapse:collapse; margin:20px 0;\">\n        <thead>\n          <tr style=\"background:#f4f4f4; text-align:left;\">\n            <th style=\"padding:10px; border:1px solid #ddd;\">Metric</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Traditional Broker Rental</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Sandane Homes Master Lease</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Vacancy Risk</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Landlord bears 100% of vacancy downtime</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Zero. Landlord receives guaranteed rent on the 1st every month</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Annual Brokerage</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">1 month's rent paid out every 11-12 months</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">₹0 forever. No broker commissions or renewal fees</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Property Maintenance</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Reactive, costly repairs billed back to owner</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Institutional daily maintenance by in-house technicians</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Tenant Profile</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Unverified, varied individual tenants</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Verified Fortune 500 executives & expat families</td>\n          </tr>\n        </tbody>\n      </table>\n\n      <h2>Start Earning Predictable Returns Today</h2>\n      <p>Transform your prime Gurgaon real estate into a passive, hands-off income generator. Contact our asset acquisition desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp <strong>+91 97117 22273</strong>. Visit our <a href=\"/residences\">landlord portal</a> to request a complimentary rental valuation.</p>"
+    "id": "nri-guide-leasing-property-corporate-housing-operators-gurgaon",
+    "title": "The NRI Guide: Why Leasing Your Gurgaon Property to Sandane Homes Beats Traditional Renting",
+    "slug": "nri-guide-leasing-property-corporate-housing-operators-gurgaon",
+    "excerpt": "Own an apartment in DLF Phase 5 or Golf Course Road? A complete financial and operational guide for NRIs on why master leasing to Sandane Homes delivers higher yields and zero tenant stress.",
+    "category": "Property Management",
+    "readTime": "10 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Asset Management",
+    "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "NRI Property Guide",
+      "Gurgaon Real Estate Leasing",
+      "Sandane Homes Master Lease",
+      "DLF Phase 5 Rentals",
+      "Property Management NRI"
+    ],
+    "content": "<h2>The Hidden Financial Drain of Traditional NRI Tenancies</h2>\n      <p>For Non-Resident Indians living in the US, UK, Canada, UAE, or Singapore, owning luxury real estate in Gurgaon’s top sectors (such as The Crest, Magnolias, Park Place, Palm Springs, or Emaar Palm Drive) represents a prestigious asset. However, managing tenancies from thousands of miles away often turns into a financial and emotional headache:</p>\n      <ul>\n        <li><strong>Vacancy Losses:</strong> Finding a new tenant often takes 2 to 3 months every year, eliminating 15% to 25% of annual rental yields.</li>\n        <li><strong>Recurring Brokerage Fees:</strong> Local agents charge 1 month's rent for every new tenant and 15 days' rent for renewals.</li>\n        <li><strong>Asset Neglect:</strong> Unmonitored tenants cause deep wear-and-tear to modular kitchens, woodwork, and designer fittings.</li>\n        <li><strong>Delayed Rent & Tax Complexities:</strong> Constant chasing for bank transfers and navigating complex TDS certificates for NRI accounts.</li>\n      </ul>\n\n      <h2>The Sandane Homes Master Lease Advantage</h2>\n      <p>When you partner with <strong>Sandane Homes</strong>, we enter into a multi-year corporate master lease where Sandane Homes acts as your single, institutional corporate tenant.</p>\n\n      <h2>Financial Comparison: Traditional vs. Sandane Homes Master Lease</h2>\n      <table style=\"width:100%; border-collapse:collapse; margin:20px 0;\">\n        <thead>\n          <tr style=\"background:#f4f4f4; text-align:left;\">\n            <th style=\"padding:10px; border:1px solid #ddd;\">Metric</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Traditional Broker Rental</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Sandane Homes Master Lease</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Vacancy Risk</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Landlord bears 100% of vacancy downtime</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Zero. Landlord receives guaranteed rent on the 1st every month</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Annual Brokerage</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">1 month's rent paid out every 11-12 months</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">₹0 forever. No broker commissions or renewal fees</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Property Maintenance</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Reactive, costly repairs billed back to owner</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Institutional daily maintenance by in-house technicians</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Tenant Profile</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Unverified, varied individual tenants</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Verified Fortune 500 executives & expat families</td>\n          </tr>\n        </tbody>\n      </table>\n\n      <h2>Start Earning Predictable Returns Today</h2>\n      <p>Transform your prime Gurgaon real estate into a passive, hands-off income generator. Contact our asset acquisition desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp <strong>+91 97117 22273</strong>. Visit our <a href=\"/residences\">landlord portal</a> to request a complimentary rental valuation.</p>"
   },
-
   {
-    id: "corporate-relocation-checklist-moving-employees-to-gurgaon",
-    title: "The Ultimate Corporate Relocation Checklist: Moving Employees to Gurgaon Seamlessly",
-    slug: "corporate-relocation-checklist-moving-employees-to-gurgaon",
-    excerpt: "An essential guide for HR leaders and Global Mobility managers relocating team members to Gurgaon. Housing selection, lease agreements, FRRO compliance, and onboarding tips.",
-    category: "Corporate Housing",
-    readTime: "9 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Global Mobility Desk",
-    coverImage: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Corporate Relocation Checklist","Global Mobility Gurgaon","Expat Relocation Guide","Residences by Sandane Homes","HR Housing Solutions"],
-    content: "<h2>Simplifying Employee Deployment to Millennium City</h2>\n      <p>Relocating key executives and international talent to Gurgaon can be an operational minefield for corporate HR and global mobility professionals. From navigating fragmented rental markets and broker commissions to resolving utilities and FRRO police verification, an unorganized relocation directly damages employee morale and productivity.</p>\n\n      <p>To assist talent mobility leaders, <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has developed this definitive relocation roadmap for placing employees in Gurgaon.</p>\n\n      <h2>Key Relocation Milestones & Checklist</h2>\n      <ol>\n        <li><strong>Phase 1: Transit Housing Selection (Day 1–30)</strong>\n          <br>Avoid putting employees in small hotel rooms. Secure a fully serviced 1 or 2 BHK apartment with a private kitchenette, fiber WiFi, and daily housekeeping close to their office (e.g. Golf Course Road or DLF Phase 5).\n        </li>\n        <li><strong>Phase 2: Foreigners Regional Registration Office (FRRO) Compliance</strong>\n          <br>For expat employees holding employment visas, online FRRO registration and Form C submission must occur within 14 days of arrival. Residences by Sandane Homes automatically issues verified Form C compliance documentation.\n        </li>\n        <li><strong>Phase 3: Commute Optimization & Metro Access</strong>\n          <br>Ensure the selected residence provides rapid access to the Gurgaon Rapid Metro or NH-8 to minimize commute stress during peak hours.\n        </li>\n        <li><strong>Phase 4: Health, Water & Air Safeguards</strong>\n          <br>Confirm the residence features multi-stage RO water filtration and modern air purification systems to ensure optimal health and comfort.\n        </li>\n      </ol>\n\n      <h2>Partner with Gurgaon’s Trusted Corporate Housing Operator</h2>\n      <p>Discover how Sandane Homes streamlines corporate employee housing with zero brokerage and seamless corporate invoicing. Reach our enterprise desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Explore our solutions at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "corporate-relocation-checklist-moving-employees-to-gurgaon",
+    "title": "The Ultimate Corporate Relocation Checklist: Moving Employees to Gurgaon Seamlessly",
+    "slug": "corporate-relocation-checklist-moving-employees-to-gurgaon",
+    "excerpt": "An essential guide for HR leaders and Global Mobility managers relocating team members to Gurgaon. Housing selection, lease agreements, FRRO compliance, and onboarding tips.",
+    "category": "Corporate Housing",
+    "readTime": "9 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Global Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Corporate Relocation Checklist",
+      "Global Mobility Gurgaon",
+      "Expat Relocation Guide",
+      "Residences by Sandane Homes",
+      "HR Housing Solutions"
+    ],
+    "content": "<h2>Simplifying Employee Deployment to Millennium City</h2>\n      <p>Relocating key executives and international talent to Gurgaon can be an operational minefield for corporate HR and global mobility professionals. From navigating fragmented rental markets and broker commissions to resolving utilities and FRRO police verification, an unorganized relocation directly damages employee morale and productivity.</p>\n\n      <p>To assist talent mobility leaders, <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has developed this definitive relocation roadmap for placing employees in Gurgaon.</p>\n\n      <h2>Key Relocation Milestones & Checklist</h2>\n      <ol>\n        <li><strong>Phase 1: Transit Housing Selection (Day 1–30)</strong>\n          <br>Avoid putting employees in small hotel rooms. Secure a fully serviced 1 or 2 BHK apartment with a private kitchenette, fiber WiFi, and daily housekeeping close to their office (e.g. Golf Course Road or DLF Phase 5).\n        </li>\n        <li><strong>Phase 2: Foreigners Regional Registration Office (FRRO) Compliance</strong>\n          <br>For expat employees holding employment visas, online FRRO registration and Form C submission must occur within 14 days of arrival. Residences by Sandane Homes automatically issues verified Form C compliance documentation.\n        </li>\n        <li><strong>Phase 3: Commute Optimization & Metro Access</strong>\n          <br>Ensure the selected residence provides rapid access to the Gurgaon Rapid Metro or NH-8 to minimize commute stress during peak hours.\n        </li>\n        <li><strong>Phase 4: Health, Water & Air Safeguards</strong>\n          <br>Confirm the residence features multi-stage RO water filtration and modern air purification systems to ensure optimal health and comfort.\n        </li>\n      </ol>\n\n      <h2>Partner with Gurgaon’s Trusted Corporate Housing Operator</h2>\n      <p>Discover how Sandane Homes streamlines corporate employee housing with zero brokerage and seamless corporate invoicing. Reach our enterprise desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Explore our solutions at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "best-neighborhoods-to-live-in-gurgaon-for-foreign-expats",
-    title: "The Best Neighborhoods to Live in Gurgaon for Foreign Expats: Complete 2026 Guide",
-    slug: "best-neighborhoods-to-live-in-gurgaon-for-foreign-expats",
-    excerpt: "Comparing DLF Phase 5, Golf Course Road, Sushant Lok 1, and Golf Course Extension Road. A definitive neighborhood guide for international expatriates relocating to Gurgaon.",
-    category: "Expat Living",
-    readTime: "10 min read",
-    date: "October 13, 2026",
-    publishDate: "2026-10-13",
-    author: "Sandane Editorial Team",
-    coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Best Neighborhoods Gurgaon","Expat Guide Gurgaon","DLF Phase 5 Expat Living","Golf Course Road Apartments","Residences by Sandane Homes"],
-    content: "<h2>Where Should International Expats Live in Gurgaon?</h2>\n      <p>Gurgaon has evolved into India's most cosmopolitan business hub, hosting thousands of expatriates from Japan, South Korea, Europe, North America, and Australia. Choosing the right neighborhood is the single most critical factor determining an expat's quality of life, safety, and daily happiness.</p>\n\n      <p>Here is an in-depth breakdown of the top residential enclaves curated by <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong>.</p>\n\n      <h2>1. Golf Course Road & DLF Phase 5: The Gold Standard</h2>\n      <p>Home to flagship societies like DLF The Crest, DLF Park Place, The Camellias, and The Aralias, this area offers unmatched infrastructure: 16-lane signal-free expressway, Rapid Metro stations, lush golf courses, and upscale dining complexes like One Horizon Center.</p>\n      <ul>\n        <li><strong>Vibe:</strong> Ultra-luxury, secure, green, and vibrant.</li>\n        <li><strong>Ideal For:</strong> C-suite leaders, senior directors, expat families with children attending international schools.</li>\n      </ul>\n\n      <h2>2. Sushant Lok 1 & DLF Phase 4: Established Leafy Charm</h2>\n      <p>Located right next to Golf Course Road, Sushant Lok 1 and DLF Phase 4 offer serene, tree-lined residential avenues with immediate proximity to Galleria Market, Max Healthcare, and Fortis Hospital.</p>\n      <ul>\n        <li><strong>Vibe:</strong> Quiet, community-oriented, walkable, and convenient.</li>\n        <li><strong>Ideal For:</strong> Independent consultants, healthcare assignees, and small expat families seeking tranquility.</li>\n      </ul>\n\n      <h2>3. Golf Course Extension Road: Contemporary Luxury</h2>\n      <p>Featuring modern architectural landmarks like Emaar Palm Drive, Pioneer Araya, and M3M Golfestate, the Extension corridor delivers expansive resort-style clubhouses and rapid access to Sohna Road and Cyber City.</p>\n      <ul>\n        <li><strong>Vibe:</strong> High-rise resort living, state-of-the-art sports facilities.</li>\n        <li><strong>Ideal For:</strong> Tech leaders, corporate couples, and executives seeking modern architecture.</li>\n      </ul>\n\n      <h2>Discover Your Ideal Gurgaon Home with Sandane Homes</h2>\n      <p>We provide verified, fully furnished serviced residences across all top expat enclaves with zero broker fees. Connect with our expat concierge team at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore all neighborhoods at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "best-neighborhoods-to-live-in-gurgaon-for-foreign-expats",
+    "title": "The Best Neighborhoods to Live in Gurgaon for Foreign Expats: Complete 2026 Guide",
+    "slug": "best-neighborhoods-to-live-in-gurgaon-for-foreign-expats",
+    "excerpt": "Comparing DLF Phase 5, Golf Course Road, Sushant Lok 1, and Golf Course Extension Road. A definitive neighborhood guide for international expatriates relocating to Gurgaon.",
+    "category": "Expat Living",
+    "readTime": "10 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Best Neighborhoods Gurgaon",
+      "Expat Guide Gurgaon",
+      "DLF Phase 5 Expat Living",
+      "Golf Course Road Apartments",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Where Should International Expats Live in Gurgaon?</h2>\n      <p>Gurgaon has evolved into India's most cosmopolitan business hub, hosting thousands of expatriates from Japan, South Korea, Europe, North America, and Australia. Choosing the right neighborhood is the single most critical factor determining an expat's quality of life, safety, and daily happiness.</p>\n\n      <p>Here is an in-depth breakdown of the top residential enclaves curated by <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong>.</p>\n\n      <h2>1. Golf Course Road & DLF Phase 5: The Gold Standard</h2>\n      <p>Home to flagship societies like DLF The Crest, DLF Park Place, The Camellias, and The Aralias, this area offers unmatched infrastructure: 16-lane signal-free expressway, Rapid Metro stations, lush golf courses, and upscale dining complexes like One Horizon Center.</p>\n      <ul>\n        <li><strong>Vibe:</strong> Ultra-luxury, secure, green, and vibrant.</li>\n        <li><strong>Ideal For:</strong> C-suite leaders, senior directors, expat families with children attending international schools.</li>\n      </ul>\n\n      <h2>2. Sushant Lok 1 & DLF Phase 4: Established Leafy Charm</h2>\n      <p>Located right next to Golf Course Road, Sushant Lok 1 and DLF Phase 4 offer serene, tree-lined residential avenues with immediate proximity to Galleria Market, Max Healthcare, and Fortis Hospital.</p>\n      <ul>\n        <li><strong>Vibe:</strong> Quiet, community-oriented, walkable, and convenient.</li>\n        <li><strong>Ideal For:</strong> Independent consultants, healthcare assignees, and small expat families seeking tranquility.</li>\n      </ul>\n\n      <h2>3. Golf Course Extension Road: Contemporary Luxury</h2>\n      <p>Featuring modern architectural landmarks like Emaar Palm Drive, Pioneer Araya, and M3M Golfestate, the Extension corridor delivers expansive resort-style clubhouses and rapid access to Sohna Road and Cyber City.</p>\n      <ul>\n        <li><strong>Vibe:</strong> High-rise resort living, state-of-the-art sports facilities.</li>\n        <li><strong>Ideal For:</strong> Tech leaders, corporate couples, and executives seeking modern architecture.</li>\n      </ul>\n\n      <h2>Discover Your Ideal Gurgaon Home with Sandane Homes</h2>\n      <p>We provide verified, fully furnished serviced residences across all top expat enclaves with zero broker fees. Connect with our expat concierge team at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore all neighborhoods at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "studio-apartments-rent-cyber-city-gurgaon",
-    title: "Studio Apartments for Rent in Cyber City Gurgaon with Kitchen & Housekeeping",
-    slug: "studio-apartments-rent-cyber-city-gurgaon",
-    excerpt: "Looking for turnkey studio apartments near DLF Cyber City Gurgaon? Discover fully equipped kitchens, fiber WiFi, daily housekeeping, and zero broker lock-in with Residences by Sandane Homes.",
-    category: "Corporate Housing",
-    readTime: "7 min read",
-    date: "October 1, 2026",
-    author: "Sandane Editorial Team",
-    coverImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Cyber City Gurgaon","Studio Apartments","Serviced Apartments Gurgaon","Residences by Sandane Homes","Furnished Rentals"],
-    content: "<h2>The Search for Turnkey Studio Apartments near DLF Cyber City Gurgaon</h2>\n      <p>DLF Cyber City represents the economic nerve center of Northern India, hosting hundreds of multinational technology enterprises, financial giants, and management consultancies. For traveling executives, independent software consultants, and relocation project leaders, finding a comfortable, high-spec studio apartment within 5 to 10 minutes of Cyber Hub is an absolute necessity.</p>\n      \n      <p>Standard hotel rooms quickly become suffocating during stays longer than a few days, lacking functional kitchenettes, ergonomic desk setups, and laundry provisions. On the other hand, conventional residential leases in DLF Phase 2 or Phase 3 demand rigid 11-month commitments, hefty security deposits, and lengthy furnishing lead times. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> solves this dilemma by offering fully furnished, designer studio and 1 BHK serviced apartments tailored specifically for corporate professionals.</p>\n\n      <h2>Key Features of Turnkey Studios by Residences by Sandane Homes</h2>\n      <ul>\n        <li><strong>Full Modular Kitchenettes:</strong> Equipped with induction hobs, microwaves, refrigerators, electric kettles, cookware, and premium dinnerware for complete dietary independence.</li>\n        <li><strong>Enterprise Workstations:</strong> Dual-band high-speed optical fiber WiFi (up to 300 Mbps), dedicated ergonomic chairs, and clutter-free desk configurations for video conferencing.</li>\n        <li><strong>Daily Professional Housekeeping:</strong> Spotless daily cleaning, linen rotations, and waste sanitization to hotel standards.</li>\n        <li><strong>Flexible Billing:</strong> GST-compliant single invoices covering rent, electricity, maintenance, cleaning, and utilities with transparent pricing.</li>\n      </ul>\n\n      <h2>Strategic Proximity to Key Corporate Hubs</h2>\n      <p>Our properties are positioned along Golf Course Road, DLF Phase 1, Phase 2, and Sector 42/43, offering seamless connectivity via the Gurgaon Rapid Metro and Delhi Metro Yellow Line. Residents reach DLF Cyber City, Cyber Hub, Horizon Center, and Udyog Vihar within minutes, avoiding tedious rush-hour traffic snarls.</p>\n\n      <h2>Direct Booking & Inquiries</h2>\n      <p>Whether you require a 14-day project base or a 6-month corporate deployment, connect with our dedicated reservations team at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Explore detailed floor plans and current corporate pricing directly on our <a href=\"/residences\">Residences portal</a>.</p>"
+    "id": "studio-apartments-rent-cyber-city-gurgaon",
+    "title": "Studio Apartments for Rent in Cyber City Gurgaon with Kitchen & Housekeeping",
+    "slug": "studio-apartments-rent-cyber-city-gurgaon",
+    "excerpt": "Looking for turnkey studio apartments near DLF Cyber City Gurgaon? Discover fully equipped kitchens, fiber WiFi, daily housekeeping, and zero broker lock-in with Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "7 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Cyber City Gurgaon",
+      "Studio Apartments",
+      "Serviced Apartments Gurgaon",
+      "Residences by Sandane Homes",
+      "Furnished Rentals"
+    ],
+    "content": "<h2>The Search for Turnkey Studio Apartments near DLF Cyber City Gurgaon</h2>\n      <p>DLF Cyber City represents the economic nerve center of Northern India, hosting hundreds of multinational technology enterprises, financial giants, and management consultancies. For traveling executives, independent software consultants, and relocation project leaders, finding a comfortable, high-spec studio apartment within 5 to 10 minutes of Cyber Hub is an absolute necessity.</p>\n      \n      <p>Standard hotel rooms quickly become suffocating during stays longer than a few days, lacking functional kitchenettes, ergonomic desk setups, and laundry provisions. On the other hand, conventional residential leases in DLF Phase 2 or Phase 3 demand rigid 11-month commitments, hefty security deposits, and lengthy furnishing lead times. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> solves this dilemma by offering fully furnished, designer studio and 1 BHK serviced apartments tailored specifically for corporate professionals.</p>\n\n      <h2>Key Features of Turnkey Studios by Residences by Sandane Homes</h2>\n      <ul>\n        <li><strong>Full Modular Kitchenettes:</strong> Equipped with induction hobs, microwaves, refrigerators, electric kettles, cookware, and premium dinnerware for complete dietary independence.</li>\n        <li><strong>Enterprise Workstations:</strong> Dual-band high-speed optical fiber WiFi (up to 300 Mbps), dedicated ergonomic chairs, and clutter-free desk configurations for video conferencing.</li>\n        <li><strong>Daily Professional Housekeeping:</strong> Spotless daily cleaning, linen rotations, and waste sanitization to hotel standards.</li>\n        <li><strong>Flexible Billing:</strong> GST-compliant single invoices covering rent, electricity, maintenance, cleaning, and utilities with transparent pricing.</li>\n      </ul>\n\n      <h2>Strategic Proximity to Key Corporate Hubs</h2>\n      <p>Our properties are positioned along Golf Course Road, DLF Phase 1, Phase 2, and Sector 42/43, offering seamless connectivity via the Gurgaon Rapid Metro and Delhi Metro Yellow Line. Residents reach DLF Cyber City, Cyber Hub, Horizon Center, and Udyog Vihar within minutes, avoiding tedious rush-hour traffic snarls.</p>\n\n      <h2>Direct Booking & Inquiries</h2>\n      <p>Whether you require a 14-day project base or a 6-month corporate deployment, connect with our dedicated reservations team at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Explore detailed floor plans and current corporate pricing directly on our <a href=\"/residences\">Residences portal</a>.</p>"
   },
-
   {
-    id: "1-bhk-serviced-apartments-golf-course-road-gurgaon",
-    title: "1 BHK Serviced Apartments on Golf Course Road Gurgaon for Business Travelers",
-    slug: "1-bhk-serviced-apartments-golf-course-road-gurgaon",
-    excerpt: "Experience luxury and privacy with 1 BHK serviced apartments on Golf Course Road Gurgaon. Explore private living rooms, gourmet kitchenettes, and concierge services by Residences by Sandane Homes.",
-    category: "Serviced Apartments",
-    readTime: "6 min read",
-    date: "October 1, 2026",
-    author: "Sandane Corporate Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Golf Course Road","1 BHK Serviced Apartment","Residences by Sandane Homes","Executive Housing Gurgaon","Business Travel"],
-    content: "<h2>Why Choose a 1 BHK Serviced Apartment over a Hotel Room?</h2>\n      <p>Golf Course Road stands as the quintessential luxury corridor of Millennium City Gurgaon. Flanked by architectural icons like One Horizon Center, DLF The Camellias, and American Express Campus, the corridor attracts top-tier corporate talent and international visitors. However, staying in standard 5-star hotel rooms for weeks on end presents significant friction: cramped quarters, lack of private dining, exorbitant laundry fees, and zero separation between sleep and work zones.</p>\n\n      <p>A designer 1 BHK serviced apartment provided by <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> delivers over 650–850 square feet of impeccably curated living space. You enjoy a distinct private bedroom, an expansive living salon with plush seating, an ergonomic work console, and a gourmet modular kitchen.</p>\n\n      <h2>Amenities Engineered for Discerning Corporate Executives</h2>\n      <ul>\n        <li><strong>Complete Separation of Spaces:</strong> Host visitors or colleagues in your living lounge without compromising personal bedroom privacy.</li>\n        <li><strong>Chef-Ready Kitchen:</strong> Cook wholesome, tailored meals with modern induction cooktops, microwave ovens, high-capacity refrigerators, and full utensil sets.</li>\n        <li><strong>Comprehensive Housekeeping & Laundry:</strong> Regular professional sanitization, scheduled linen changes, and in-apartment automatic washing machines.</li>\n        <li><strong>Rapid Metro Access:</strong> Walking distance or quick drives to Sector 42-43 and Sector 53-54 Rapid Metro stations for effortless commutes across Gurgaon.</li>\n      </ul>\n\n      <h2>Corporate Rates & Flexible Agreements</h2>\n      <p>Residences by Sandane Homes offers transparent per-diem and monthly corporate pricing structures with complete GST invoicing. Contact our corporate reservations desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong> to arrange a private walkthrough or reserve your Golf Course Road residence today.</p>"
+    "id": "1-bhk-serviced-apartments-golf-course-road-gurgaon",
+    "title": "1 BHK Serviced Apartments on Golf Course Road Gurgaon for Business Travelers",
+    "slug": "1-bhk-serviced-apartments-golf-course-road-gurgaon",
+    "excerpt": "Experience luxury and privacy with 1 BHK serviced apartments on Golf Course Road Gurgaon. Explore private living rooms, gourmet kitchenettes, and concierge services by Residences by Sandane Homes.",
+    "category": "Serviced Apartments",
+    "readTime": "6 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Corporate Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Golf Course Road",
+      "1 BHK Serviced Apartment",
+      "Residences by Sandane Homes",
+      "Executive Housing Gurgaon",
+      "Business Travel"
+    ],
+    "content": "<h2>Why Choose a 1 BHK Serviced Apartment over a Hotel Room?</h2>\n      <p>Golf Course Road stands as the quintessential luxury corridor of Millennium City Gurgaon. Flanked by architectural icons like One Horizon Center, DLF The Camellias, and American Express Campus, the corridor attracts top-tier corporate talent and international visitors. However, staying in standard 5-star hotel rooms for weeks on end presents significant friction: cramped quarters, lack of private dining, exorbitant laundry fees, and zero separation between sleep and work zones.</p>\n\n      <p>A designer 1 BHK serviced apartment provided by <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> delivers over 650–850 square feet of impeccably curated living space. You enjoy a distinct private bedroom, an expansive living salon with plush seating, an ergonomic work console, and a gourmet modular kitchen.</p>\n\n      <h2>Amenities Engineered for Discerning Corporate Executives</h2>\n      <ul>\n        <li><strong>Complete Separation of Spaces:</strong> Host visitors or colleagues in your living lounge without compromising personal bedroom privacy.</li>\n        <li><strong>Chef-Ready Kitchen:</strong> Cook wholesome, tailored meals with modern induction cooktops, microwave ovens, high-capacity refrigerators, and full utensil sets.</li>\n        <li><strong>Comprehensive Housekeeping & Laundry:</strong> Regular professional sanitization, scheduled linen changes, and in-apartment automatic washing machines.</li>\n        <li><strong>Rapid Metro Access:</strong> Walking distance or quick drives to Sector 42-43 and Sector 53-54 Rapid Metro stations for effortless commutes across Gurgaon.</li>\n      </ul>\n\n      <h2>Corporate Rates & Flexible Agreements</h2>\n      <p>Residences by Sandane Homes offers transparent per-diem and monthly corporate pricing structures with complete GST invoicing. Contact our corporate reservations desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong> to arrange a private walkthrough or reserve your Golf Course Road residence today.</p>"
   },
-
   {
-    id: "pet-friendly-serviced-apartments-gurgaon-expats",
-    title: "Pet-Friendly Serviced Apartments in Gurgaon for Expats & Long-Term Guests",
-    slug: "pet-friendly-serviced-apartments-gurgaon-expats",
-    excerpt: "Relocating to Gurgaon with your beloved pet? Discover pet-friendly serviced residences with secure balconies, green walking parks, and dedicated pet care facilities at Residences by Sandane Homes.",
-    category: "Expat Living",
-    readTime: "8 min read",
-    date: "October 1, 2026",
-    author: "Sandane Editorial Team",
-    coverImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Pet Friendly Serviced Apartments","Expats Gurgaon","Residences by Sandane Homes","DLF Phase 5","Pet Relocation"],
-    content: "<h2>Moving to Gurgaon with Pets: Overcoming the Housing Hurdle</h2>\n      <p>For expatriates, corporate assignees, and relocating families, pets are cherished family members. Unfortunately, the majority of premium hotels and standard serviced apartments in Delhi NCR enforce strict \"No Pets Allowed\" policies. Furthermore, many residential apartment associations mandate complex pet permissions and hefty non-refundable deposits that complicate an already stressful international relocation.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> understands the emotional importance of keeping your four-legged companions by your side. We provide verified, pet-friendly serviced residences across premier gated communities and private residences along Golf Course Road, DLF Phase 5, and Golf Course Extension Road.</p>\n\n      <h2>What Makes Our Pet-Friendly Residences Exceptional?</h2>\n      <ul>\n        <li><strong>Spacious Layouts with Safe Balconies:</strong> Generous 1 BHK, 2 BHK, and 3 BHK configurations featuring pet-safe railings and abundant natural ventilation.</li>\n        <li><strong>Proximity to Green Parks:</strong> Located adjacent to lush community walking tracks, dog parks, and landscaped gardens in DLF Phase 5 and Sector 54.</li>\n        <li><strong>Pet-Friendly Flooring & Hygiene:</strong> Scratch-resistant vitrified flooring and hypoallergenic daily housekeeping using pet-safe, non-toxic sanitizing solutions.</li>\n        <li><strong>Veterinary & Grooming Access:</strong> Quick access to premier 24/7 veterinary hospitals (such as DCC Animal Hospital and Cessna Lifeline) and professional grooming salons.</li>\n      </ul>\n\n      <h2>Plan Your Smooth Relocation Today</h2>\n      <p>Ensure a comfortable, stress-free transition for your entire family, pets included. Reach out to our relocation specialists at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp us directly at <strong>+91 97117 22273</strong>. Discover welcoming luxury accommodations at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "pet-friendly-serviced-apartments-gurgaon-expats",
+    "title": "Pet-Friendly Serviced Apartments in Gurgaon for Expats & Long-Term Guests",
+    "slug": "pet-friendly-serviced-apartments-gurgaon-expats",
+    "excerpt": "Relocating to Gurgaon with your beloved pet? Discover pet-friendly serviced residences with secure balconies, green walking parks, and dedicated pet care facilities at Residences by Sandane Homes.",
+    "category": "Expat Living",
+    "readTime": "8 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Pet Friendly Serviced Apartments",
+      "Expats Gurgaon",
+      "Residences by Sandane Homes",
+      "DLF Phase 5",
+      "Pet Relocation"
+    ],
+    "content": "<h2>Moving to Gurgaon with Pets: Overcoming the Housing Hurdle</h2>\n      <p>For expatriates, corporate assignees, and relocating families, pets are cherished family members. Unfortunately, the majority of premium hotels and standard serviced apartments in Delhi NCR enforce strict \"No Pets Allowed\" policies. Furthermore, many residential apartment associations mandate complex pet permissions and hefty non-refundable deposits that complicate an already stressful international relocation.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> understands the emotional importance of keeping your four-legged companions by your side. We provide verified, pet-friendly serviced residences across premier gated communities and private residences along Golf Course Road, DLF Phase 5, and Golf Course Extension Road.</p>\n\n      <h2>What Makes Our Pet-Friendly Residences Exceptional?</h2>\n      <ul>\n        <li><strong>Spacious Layouts with Safe Balconies:</strong> Generous 1 BHK, 2 BHK, and 3 BHK configurations featuring pet-safe railings and abundant natural ventilation.</li>\n        <li><strong>Proximity to Green Parks:</strong> Located adjacent to lush community walking tracks, dog parks, and landscaped gardens in DLF Phase 5 and Sector 54.</li>\n        <li><strong>Pet-Friendly Flooring & Hygiene:</strong> Scratch-resistant vitrified flooring and hypoallergenic daily housekeeping using pet-safe, non-toxic sanitizing solutions.</li>\n        <li><strong>Veterinary & Grooming Access:</strong> Quick access to premier 24/7 veterinary hospitals (such as DCC Animal Hospital and Cessna Lifeline) and professional grooming salons.</li>\n      </ul>\n\n      <h2>Plan Your Smooth Relocation Today</h2>\n      <p>Ensure a comfortable, stress-free transition for your entire family, pets included. Reach out to our relocation specialists at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp us directly at <strong>+91 97117 22273</strong>. Discover welcoming luxury accommodations at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "nri-property-management-services-gurgaon-dlf-golf-course-road",
-    title: "NRI Property Management Services in Gurgaon: Maximize Rental Yields with Sandane Homes",
-    slug: "nri-property-management-services-gurgaon-dlf-golf-course-road",
-    excerpt: "Own luxury real estate in DLF Phase 5, Golf Course Road, or Nirvana Country? Learn how Sandane Homes provides hassle-free corporate master leasing, timely rent, and meticulous asset maintenance.",
-    category: "Property Management",
-    readTime: "9 min read",
-    date: "October 1, 2026",
-    author: "Sandane Asset Management",
-    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
-    tags: ["NRI Property Management Gurgaon","Sandane Homes","DLF Phase 5","Golf Course Road Rentals","Corporate Master Lease"],
-    content: "<h2>The NRI Real Estate Dilemma in Gurgaon</h2>\n      <p>Non-Resident Indians (NRIs) and overseas investors hold some of the most coveted real estate assets in Gurgaon—ranging from penthouses in DLF The Crest, The Magnolias, and The Aralias to luxury apartments in Emaar Palm Drive and Nirvana Country. However, managing premium real estate remotely from London, Dubai, New York, or Singapore is fraught with operational challenges:</p>\n      <ul>\n        <li>Frequent tenant turnover and extended vacancy periods that erode annual yields.</li>\n        <li>Unreliable local brokers demanding recurring brokerage fees for every lease renewal.</li>\n        <li>Property deterioration caused by inadequate maintenance and absent supervision.</li>\n        <li>Tax complications, TDS compliance hurdles, and delayed rental remittances.</li>\n      </ul>\n\n      <h2>The Sandane Homes Asset Management Solution</h2>\n      <p><strong>Sandane Homes</strong> operates an institutional corporate leasing and boutique hospitality model that transforms vacant residential inventory into high-yielding, premium corporate residences. When you partner with us, we become your single, creditworthy long-term tenant.</p>\n\n      <h2>Key Benefits for NRI Property Owners</h2>\n      <ul>\n        <li><strong>Guaranteed Monthly Rental Inflows:</strong> Timely wire transfers deposited directly into your NRE/NRO bank account on the 1st of every month, completely insulated from vacancy risks.</li>\n        <li><strong>Turnkey Interior Upgrades:</strong> Our architectural interior team elevates your property with premium furnishings, smart home tech, and hotel-grade linens to command elite corporate clientele.</li>\n        <li><strong>Institutional Maintenance:</strong> In-house plumbing, electrical, HVAC, and carpentry technicians conduct bi-weekly preventative audits to preserve your capital asset in mint condition.</li>\n        <li><strong>Rigorous Expat Vetting:</strong> We cater exclusively to verified Fortune 500 executives, diplomatic assignees, and multinational consulting partners.</li>\n      </ul>\n\n      <h2>Partner with Gurgaon’s Leading Housing Operator</h2>\n      <p>Discover how your vacant luxury property can generate superior, worry-free rental returns. Email our property management desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or connect via WhatsApp at <strong>+91 97117 22273</strong>. Visit our <a href=\"/residences\">partner portal</a> to request a complimentary asset evaluation.</p>"
+    "id": "nri-property-management-services-gurgaon-dlf-golf-course-road",
+    "title": "NRI Property Management Services in Gurgaon: Maximize Rental Yields with Sandane Homes",
+    "slug": "nri-property-management-services-gurgaon-dlf-golf-course-road",
+    "excerpt": "Own luxury real estate in DLF Phase 5, Golf Course Road, or Nirvana Country? Learn how Sandane Homes provides hassle-free corporate master leasing, timely rent, and meticulous asset maintenance.",
+    "category": "Property Management",
+    "readTime": "9 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Asset Management",
+    "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "NRI Property Management Gurgaon",
+      "Sandane Homes",
+      "DLF Phase 5",
+      "Golf Course Road Rentals",
+      "Corporate Master Lease"
+    ],
+    "content": "<h2>The NRI Real Estate Dilemma in Gurgaon</h2>\n      <p>Non-Resident Indians (NRIs) and overseas investors hold some of the most coveted real estate assets in Gurgaon—ranging from penthouses in DLF The Crest, The Magnolias, and The Aralias to luxury apartments in Emaar Palm Drive and Nirvana Country. However, managing premium real estate remotely from London, Dubai, New York, or Singapore is fraught with operational challenges:</p>\n      <ul>\n        <li>Frequent tenant turnover and extended vacancy periods that erode annual yields.</li>\n        <li>Unreliable local brokers demanding recurring brokerage fees for every lease renewal.</li>\n        <li>Property deterioration caused by inadequate maintenance and absent supervision.</li>\n        <li>Tax complications, TDS compliance hurdles, and delayed rental remittances.</li>\n      </ul>\n\n      <h2>The Sandane Homes Asset Management Solution</h2>\n      <p><strong>Sandane Homes</strong> operates an institutional corporate leasing and boutique hospitality model that transforms vacant residential inventory into high-yielding, premium corporate residences. When you partner with us, we become your single, creditworthy long-term tenant.</p>\n\n      <h2>Key Benefits for NRI Property Owners</h2>\n      <ul>\n        <li><strong>Guaranteed Monthly Rental Inflows:</strong> Timely wire transfers deposited directly into your NRE/NRO bank account on the 1st of every month, completely insulated from vacancy risks.</li>\n        <li><strong>Turnkey Interior Upgrades:</strong> Our architectural interior team elevates your property with premium furnishings, smart home tech, and hotel-grade linens to command elite corporate clientele.</li>\n        <li><strong>Institutional Maintenance:</strong> In-house plumbing, electrical, HVAC, and carpentry technicians conduct bi-weekly preventative audits to preserve your capital asset in mint condition.</li>\n        <li><strong>Rigorous Expat Vetting:</strong> We cater exclusively to verified Fortune 500 executives, diplomatic assignees, and multinational consulting partners.</li>\n      </ul>\n\n      <h2>Partner with Gurgaon’s Leading Housing Operator</h2>\n      <p>Discover how your vacant luxury property can generate superior, worry-free rental returns. Email our property management desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or connect via WhatsApp at <strong>+91 97117 22273</strong>. Visit our <a href=\"/residences\">partner portal</a> to request a complimentary asset evaluation.</p>"
   },
-
   {
-    id: "best-housing-agents-relocation-consultants-gurgaon",
-    title: "Why Sandane Homes Ranks as the Best Housing Partner & Relocation Operator in Gurgaon",
-    slug: "best-housing-agents-relocation-consultants-gurgaon",
-    excerpt: "Discover why corporate HR heads and global mobility firms rate Sandane Homes as Gurgaon’s top housing agency. Zero brokerage, vetted luxury inventory, and end-to-end relocation management.",
-    category: "Corporate Housing",
-    readTime: "8 min read",
-    date: "October 1, 2026",
-    author: "Sandane Relocation Desk",
-    coverImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Best Housing Agents in Gurgaon","Relocation Consultants Gurgaon","Residences by Sandane Homes","Expat Relocation","Corporate Housing"],
-    content: "<h2>The Evolution of Housing & Relocation in Millennium City</h2>\n      <p>Navigating the real estate landscape of Gurgaon can be notoriously challenging for newly arriving corporate leaders and expatriates. Traditional real estate brokers often present non-verified listings, push for exorbitant brokerage commissions, and disappear the moment the tenancy agreement is signed, leaving tenants to deal with faulty plumbing, non-responsive landlords, and power back-up disputes on their own.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has reimagined the corporate housing agency model. Rather than acting as conventional middlemen, we operate as professional property managers and hospitality hosts, delivering an end-to-end living experience with zero brokerage fees.</p>\n\n      <h2>What Sets Sandane Homes Apart from Traditional Agents?</h2>\n      <ul>\n        <li><strong>Curated Exclusive Inventory:</strong> Every residence in our portfolio is physically inspected, standardized, and professionally managed—guaranteeing 100% genuine photos and accurate amenities.</li>\n        <li><strong>Dedicated On-Call Concierge:</strong> From local SIM card assistance and metro navigation to private chef sourcing and medical appointments, our hospitality desk supports assignees 24/7.</li>\n        <li><strong>Transparent Corporate Contracts:</strong> Flexible lease durations ranging from 30 days to multi-year corporate arrangements with clear exit clauses and no hidden maintenance charges.</li>\n        <li><strong>GST-Compliant Single Invoicing:</strong> Simplifies corporate accounting and expat reimbursement protocols through automated, itemized billing.</li>\n      </ul>\n\n      <h2>Trusted by Multinationals Across Cyber City & Golf Course Road</h2>\n      <p>Whether you are relocating an executive team from Tokyo, Frankfurt, or San Francisco, Sandane Homes provides a welcoming sanctuary that feels like home from day one. Contact our corporate housing division at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong> to arrange tailored corporate viewings.</p>"
+    "id": "best-housing-agents-relocation-consultants-gurgaon",
+    "title": "Why Sandane Homes Ranks as the Best Housing Partner & Relocation Operator in Gurgaon",
+    "slug": "best-housing-agents-relocation-consultants-gurgaon",
+    "excerpt": "Discover why corporate HR heads and global mobility firms rate Sandane Homes as Gurgaon’s top housing agency. Zero brokerage, vetted luxury inventory, and end-to-end relocation management.",
+    "category": "Corporate Housing",
+    "readTime": "8 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Relocation Desk",
+    "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Best Housing Agents in Gurgaon",
+      "Relocation Consultants Gurgaon",
+      "Residences by Sandane Homes",
+      "Expat Relocation",
+      "Corporate Housing"
+    ],
+    "content": "<h2>The Evolution of Housing & Relocation in Millennium City</h2>\n      <p>Navigating the real estate landscape of Gurgaon can be notoriously challenging for newly arriving corporate leaders and expatriates. Traditional real estate brokers often present non-verified listings, push for exorbitant brokerage commissions, and disappear the moment the tenancy agreement is signed, leaving tenants to deal with faulty plumbing, non-responsive landlords, and power back-up disputes on their own.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has reimagined the corporate housing agency model. Rather than acting as conventional middlemen, we operate as professional property managers and hospitality hosts, delivering an end-to-end living experience with zero brokerage fees.</p>\n\n      <h2>What Sets Sandane Homes Apart from Traditional Agents?</h2>\n      <ul>\n        <li><strong>Curated Exclusive Inventory:</strong> Every residence in our portfolio is physically inspected, standardized, and professionally managed—guaranteeing 100% genuine photos and accurate amenities.</li>\n        <li><strong>Dedicated On-Call Concierge:</strong> From local SIM card assistance and metro navigation to private chef sourcing and medical appointments, our hospitality desk supports assignees 24/7.</li>\n        <li><strong>Transparent Corporate Contracts:</strong> Flexible lease durations ranging from 30 days to multi-year corporate arrangements with clear exit clauses and no hidden maintenance charges.</li>\n        <li><strong>GST-Compliant Single Invoicing:</strong> Simplifies corporate accounting and expat reimbursement protocols through automated, itemized billing.</li>\n      </ul>\n\n      <h2>Trusted by Multinationals Across Cyber City & Golf Course Road</h2>\n      <p>Whether you are relocating an executive team from Tokyo, Frankfurt, or San Francisco, Sandane Homes provides a welcoming sanctuary that feels like home from day one. Contact our corporate housing division at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong> to arrange tailored corporate viewings.</p>"
   },
-
   {
-    id: "serviced-apartments-near-fortis-hospital-sector-44-gurgaon",
-    title: "Serviced Apartments near Fortis Memorial Research Institute (FMRI) Sector 44 Gurgaon",
-    slug: "serviced-apartments-near-fortis-hospital-sector-44-gurgaon",
-    excerpt: "Hygienic, comfortable serviced apartments near Fortis Memorial Research Institute Sector 44 Gurgaon. Complete kitchens, lift access, and calm recovery environments for patients and families.",
-    category: "Medical Relocation",
-    readTime: "7 min read",
-    date: "October 1, 2026",
-    author: "Sandane Healthcare Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Fortis Hospital Gurgaon","Medical Tourism Gurgaon","Serviced Apartments Sector 44","Residences by Sandane Homes","Patient Accommodations"],
-    content: "<h2>Peaceful, Sanitized Living near Fortis Hospital Sector 44 Gurgaon</h2>\n      <p>Fortis Memorial Research Institute (FMRI) in Sector 44 Gurgaon is recognized globally for advanced oncology, cardiology, neurosciences, and organ transplant procedures. International and outstation patients traveling to Fortis require extended stays for pre-operative consultations and post-operative recuperation. Prolonged stays in clinical hospital rooms can become emotionally exhausting and financially prohibitive for accompanying family members.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides compassionate, hygienic, and fully equipped serviced apartments located just 5 to 7 minutes from Fortis FMRI and the HUDA City Centre (Millennium City Centre) Metro Station.</p>\n\n      <h2>Accommodations Designed for Medical Recovery</h2>\n      <ul>\n        <li><strong>Strict Sanitization Protocols:</strong> Hospital-grade disinfectant routines, allergen-free bedding, and HEPA air purification options to safeguard post-op recovery.</li>\n        <li><strong>Private Kitchens for Custom Diets:</strong> Prepare doctor-recommended organic meals, broths, and therapeutic foods with modern induction appliances and pure RO water filtration.</li>\n        <li><strong>Barrier-Free Accessibility:</strong> Elevator access, step-free entrances, and spacious walk-in bathrooms with grab bars suitable for senior citizens and recovering patients.</li>\n        <li><strong>Proximity to Key Pharmacies & Diagnostic Labs:</strong> Rapid access to 24/7 medicine deliveries, pathology clinics, and specialist consultation suites.</li>\n      </ul>\n\n      <h2>Supportive Extended Stay Arrangements</h2>\n      <p>Our empathetic guest relations desk assists families with ambulance bookings, medical visa documentation, and multilingual communication support. For urgent reservations or tailored medical stay quotes, email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Discover compassionate medical hospitality at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "serviced-apartments-near-fortis-hospital-sector-44-gurgaon",
+    "title": "Serviced Apartments near Fortis Memorial Research Institute (FMRI) Sector 44 Gurgaon",
+    "slug": "serviced-apartments-near-fortis-hospital-sector-44-gurgaon",
+    "excerpt": "Hygienic, comfortable serviced apartments near Fortis Memorial Research Institute Sector 44 Gurgaon. Complete kitchens, lift access, and calm recovery environments for patients and families.",
+    "category": "Medical Relocation",
+    "readTime": "7 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Healthcare Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Fortis Hospital Gurgaon",
+      "Medical Tourism Gurgaon",
+      "Serviced Apartments Sector 44",
+      "Residences by Sandane Homes",
+      "Patient Accommodations"
+    ],
+    "content": "<h2>Peaceful, Sanitized Living near Fortis Hospital Sector 44 Gurgaon</h2>\n      <p>Fortis Memorial Research Institute (FMRI) in Sector 44 Gurgaon is recognized globally for advanced oncology, cardiology, neurosciences, and organ transplant procedures. International and outstation patients traveling to Fortis require extended stays for pre-operative consultations and post-operative recuperation. Prolonged stays in clinical hospital rooms can become emotionally exhausting and financially prohibitive for accompanying family members.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides compassionate, hygienic, and fully equipped serviced apartments located just 5 to 7 minutes from Fortis FMRI and the HUDA City Centre (Millennium City Centre) Metro Station.</p>\n\n      <h2>Accommodations Designed for Medical Recovery</h2>\n      <ul>\n        <li><strong>Strict Sanitization Protocols:</strong> Hospital-grade disinfectant routines, allergen-free bedding, and HEPA air purification options to safeguard post-op recovery.</li>\n        <li><strong>Private Kitchens for Custom Diets:</strong> Prepare doctor-recommended organic meals, broths, and therapeutic foods with modern induction appliances and pure RO water filtration.</li>\n        <li><strong>Barrier-Free Accessibility:</strong> Elevator access, step-free entrances, and spacious walk-in bathrooms with grab bars suitable for senior citizens and recovering patients.</li>\n        <li><strong>Proximity to Key Pharmacies & Diagnostic Labs:</strong> Rapid access to 24/7 medicine deliveries, pathology clinics, and specialist consultation suites.</li>\n      </ul>\n\n      <h2>Supportive Extended Stay Arrangements</h2>\n      <p>Our empathetic guest relations desk assists families with ambulance bookings, medical visa documentation, and multilingual communication support. For urgent reservations or tailored medical stay quotes, email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>. Discover compassionate medical hospitality at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "short-stay-apartments-near-horizon-center-golf-course-road",
-    title: "Short Stay Luxury Apartments near One Horizon Center Golf Course Road Gurgaon",
-    slug: "short-stay-apartments-near-horizon-center-golf-course-road",
-    excerpt: "Step out directly onto Golf Course Road. Discover short stay luxury residences near One Horizon Center, Two Horizon Center, and American Express Campus by Residences by Sandane Homes.",
-    category: "Corporate Housing",
-    readTime: "6 min read",
-    date: "October 1, 2026",
-    author: "Sandane Editorial Team",
-    coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Horizon Center Gurgaon","Golf Course Road","Residences by Sandane Homes","Corporate Short Stay","Serviced Apartments Gurgaon"],
-    content: "<h2>The Epicenter of Executive Life: One Horizon Center</h2>\n      <p>One Horizon Center and Two Horizon Center on Golf Course Road form the corporate crown jewel of Gurgaon, anchoring regional headquarters for premier international banking houses, private equity firms, and global tech innovators. Executives flying in for strategy board meetings, high-stakes mergers, or project turnarounds need refined accommodations within arm's reach of their offices.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates luxury serviced apartments and private residences within 3 to 7 minutes of the Horizon complex, combining residential tranquility with executive luxury.</p>\n\n      <h2>Refined Living Tailored for High-Performing Professionals</h2>\n      <ul>\n        <li><strong>Zero Commute Hassles:</strong> Walk to work or take a rapid 3-minute ride along Golf Course Road, bypassing traffic congestion entirely.</li>\n        <li><strong>Designer Interiors:</strong> Custom hardwood furnishing, plush Italian leather seating, memory-foam mattresses, and soundproof double-glazed acoustic windows.</li>\n        <li><strong>Business Center Connectivity:</strong> High-bandwidth enterprise optical fiber, uninterrupted power backup (100%), and comfortable ergonomic workstations.</li>\n        <li><strong>Fine Dining at Your Doorstep:</strong> Located minutes away from upscale Horizon dining establishments including Town Hall, Whiskey Samba, Hahn’s Kitchen, and artisan bakeries.</li>\n      </ul>\n\n      <h2>Reserve Your Executive Residence</h2>\n      <p>Experience unmatched convenience on your next Gurgaon business trip. Contact our corporate reservations team at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Review floor plans and corporate packages on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "short-stay-apartments-near-horizon-center-golf-course-road",
+    "title": "Short Stay Luxury Apartments near One Horizon Center Golf Course Road Gurgaon",
+    "slug": "short-stay-apartments-near-horizon-center-golf-course-road",
+    "excerpt": "Step out directly onto Golf Course Road. Discover short stay luxury residences near One Horizon Center, Two Horizon Center, and American Express Campus by Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "6 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Editorial Team",
+    "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Horizon Center Gurgaon",
+      "Golf Course Road",
+      "Residences by Sandane Homes",
+      "Corporate Short Stay",
+      "Serviced Apartments Gurgaon"
+    ],
+    "content": "<h2>The Epicenter of Executive Life: One Horizon Center</h2>\n      <p>One Horizon Center and Two Horizon Center on Golf Course Road form the corporate crown jewel of Gurgaon, anchoring regional headquarters for premier international banking houses, private equity firms, and global tech innovators. Executives flying in for strategy board meetings, high-stakes mergers, or project turnarounds need refined accommodations within arm's reach of their offices.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> operates luxury serviced apartments and private residences within 3 to 7 minutes of the Horizon complex, combining residential tranquility with executive luxury.</p>\n\n      <h2>Refined Living Tailored for High-Performing Professionals</h2>\n      <ul>\n        <li><strong>Zero Commute Hassles:</strong> Walk to work or take a rapid 3-minute ride along Golf Course Road, bypassing traffic congestion entirely.</li>\n        <li><strong>Designer Interiors:</strong> Custom hardwood furnishing, plush Italian leather seating, memory-foam mattresses, and soundproof double-glazed acoustic windows.</li>\n        <li><strong>Business Center Connectivity:</strong> High-bandwidth enterprise optical fiber, uninterrupted power backup (100%), and comfortable ergonomic workstations.</li>\n        <li><strong>Fine Dining at Your Doorstep:</strong> Located minutes away from upscale Horizon dining establishments including Town Hall, Whiskey Samba, Hahn’s Kitchen, and artisan bakeries.</li>\n      </ul>\n\n      <h2>Reserve Your Executive Residence</h2>\n      <p>Experience unmatched convenience on your next Gurgaon business trip. Contact our corporate reservations team at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Review floor plans and corporate packages on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "monthly-furnished-rentals-sector-53-54-rapid-metro-gurgaon",
-    title: "Monthly Furnished Rentals near Sector 53-54 Rapid Metro Station Gurgaon",
-    slug: "monthly-furnished-rentals-sector-53-54-rapid-metro-gurgaon",
-    excerpt: "Looking for 30 to 90-day furnished rentals near Sector 53-54 Rapid Metro Gurgaon? Enjoy fully furnished 1, 2, and 3 BHK residences with all inclusive utility billing and zero broker fees.",
-    category: "Serviced Apartments",
-    readTime: "7 min read",
-    date: "October 1, 2026",
-    author: "Sandane Corporate Accommodations",
-    coverImage: "https://images.unsplash.com/photo-1502005229762-ee152d3a5e88?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Sector 53 54 Rapid Metro","Monthly Rentals Gurgaon","Residences by Sandane Homes","Golf Course Road","Furnished Apartments"],
-    content: "<h2>Convenient Transit-Oriented Living along Golf Course Road</h2>\n      <p>Proximity to the Gurgaon Rapid Metro is one of the most decisive factors for corporate professionals, expat consultants, and IT leaders relocating to Gurgaon. The Sector 53-54 Rapid Metro Station provides lightning-fast connectivity linking Golf Course Road directly with DLF Cyber City, Sikanderpur (Yellow Line connection to Delhi), and key commercial hubs along the central corridor.</p>\n\n      <p>Finding high-quality, monthly furnished rentals in this coveted pocket without locking into 11-month residential agreements used to be nearly impossible. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> bridges this market gap by offering premium 1, 2, and 3 BHK residences on flexible monthly arrangements.</p>\n\n      <h2>Everything Included in One Transparent Monthly Fee</h2>\n      <ul>\n        <li><strong>No Hidden Costs:</strong> Rent, high-speed WiFi, electricity, water, municipal maintenance, and daily housekeeping are consolidated into one straightforward corporate invoice.</li>\n        <li><strong>Fully Loaded Living:</strong> Smart LED TVs, split air conditioners in all rooms, automatic washing machines, microwave ovens, and full kitchen cookware sets.</li>\n        <li><strong>24/7 Security & Power Backup:</strong> Gated access, CCTV surveillance, professional security personnel, and 100% generator power backup.</li>\n        <li><strong>Zero Brokerage:</strong> Deal directly with Sandane Homes as your trusted professional property operator.</li>\n      </ul>\n\n      <h2>Inquire About Monthly Availability</h2>\n      <p>Secure your monthly furnished residence near Sector 53-54 Rapid Metro today. Contact our leasing desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or message us on WhatsApp at <strong>+91 97117 22273</strong>. Explore our current inventory on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "monthly-furnished-rentals-sector-53-54-rapid-metro-gurgaon",
+    "title": "Monthly Furnished Rentals near Sector 53-54 Rapid Metro Station Gurgaon",
+    "slug": "monthly-furnished-rentals-sector-53-54-rapid-metro-gurgaon",
+    "excerpt": "Looking for 30 to 90-day furnished rentals near Sector 53-54 Rapid Metro Gurgaon? Enjoy fully furnished 1, 2, and 3 BHK residences with all inclusive utility billing and zero broker fees.",
+    "category": "Serviced Apartments",
+    "readTime": "7 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Corporate Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1502005229762-ee152d3a5e88?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Sector 53 54 Rapid Metro",
+      "Monthly Rentals Gurgaon",
+      "Residences by Sandane Homes",
+      "Golf Course Road",
+      "Furnished Apartments"
+    ],
+    "content": "<h2>Convenient Transit-Oriented Living along Golf Course Road</h2>\n      <p>Proximity to the Gurgaon Rapid Metro is one of the most decisive factors for corporate professionals, expat consultants, and IT leaders relocating to Gurgaon. The Sector 53-54 Rapid Metro Station provides lightning-fast connectivity linking Golf Course Road directly with DLF Cyber City, Sikanderpur (Yellow Line connection to Delhi), and key commercial hubs along the central corridor.</p>\n\n      <p>Finding high-quality, monthly furnished rentals in this coveted pocket without locking into 11-month residential agreements used to be nearly impossible. <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> bridges this market gap by offering premium 1, 2, and 3 BHK residences on flexible monthly arrangements.</p>\n\n      <h2>Everything Included in One Transparent Monthly Fee</h2>\n      <ul>\n        <li><strong>No Hidden Costs:</strong> Rent, high-speed WiFi, electricity, water, municipal maintenance, and daily housekeeping are consolidated into one straightforward corporate invoice.</li>\n        <li><strong>Fully Loaded Living:</strong> Smart LED TVs, split air conditioners in all rooms, automatic washing machines, microwave ovens, and full kitchen cookware sets.</li>\n        <li><strong>24/7 Security & Power Backup:</strong> Gated access, CCTV surveillance, professional security personnel, and 100% generator power backup.</li>\n        <li><strong>Zero Brokerage:</strong> Deal directly with Sandane Homes as your trusted professional property operator.</li>\n      </ul>\n\n      <h2>Inquire About Monthly Availability</h2>\n      <p>Secure your monthly furnished residence near Sector 53-54 Rapid Metro today. Contact our leasing desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or message us on WhatsApp at <strong>+91 97117 22273</strong>. Explore our current inventory on <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "corporate-guest-house-vs-serviced-apartments-gurgaon-comparison",
-    title: "Corporate Guest House vs. Serviced Apartments in Gurgaon: Cost & Quality Comparison",
-    slug: "corporate-guest-house-vs-serviced-apartments-gurgaon-comparison",
-    excerpt: "Comparing corporate guest houses against managed serviced apartments in Gurgaon? Discover how enterprise HR teams achieve 30% savings and superior guest satisfaction with Residences by Sandane Homes.",
-    category: "Corporate Housing",
-    readTime: "9 min read",
-    date: "October 1, 2026",
-    author: "Sandane Corporate Strategy",
-    coverImage: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Corporate Guest House","Serviced Apartments Gurgaon","Residences by Sandane Homes","Enterprise Travel Cost Optimization","Corporate Housing"],
-    content: "<h2>The Dilemma for Corporate HR and Facility Managers</h2>\n      <p>Enterprises running continuous operations in Gurgaon often deliberate between leasing dedicated company guest houses or booking corporate serviced apartments. While maintaining an exclusive company guest house seems appealing on paper, in reality it incurs hefty fixed overheads: multi-year lease commitments, unpredictable cook and cleaning staff salaries, utility management headaches, and high vacancy loss during holiday quarters.</p>\n\n      <p>Managed corporate serviced apartments provided by <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offer a significantly more agile, cost-effective, and professional alternative for modern organizations.</p>\n\n      <h2>Comparative Analysis: Guest House vs. Managed Residences</h2>\n      <table style=\"width:100%; border-collapse:collapse; margin-top:20px; margin-bottom:20px;\">\n        <thead>\n          <tr style=\"background:#f4f4f4; text-align:left;\">\n            <th style=\"padding:10px; border:1px solid #ddd;\">Feature</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Company Guest House</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Residences by Sandane Homes</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Financial Commitment</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Fixed multi-year lease, high upfront deposits</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Flexible on-demand billing, pay only for active nights/months</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Staff Management</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Direct hiring, cook absenteeism, supervisor friction</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Professional hotel-standard housekeeping & concierge included</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Compliance & Billing</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Multiple utility vendors, fragmented receipts</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Single GST-compliant B2B invoice with complete tax input credit</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Guest Privacy</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Shared common zones with random colleagues</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Independent private suites and dedicated apartments</td>\n          </tr>\n        </tbody>\n      </table>\n\n      <h2>Achieve Up to 32% In Annual Travel Budget Reductions</h2>\n      <p>By transitioning corporate travelers from legacy company guest houses to managed serviced apartments by Sandane Homes, corporate procurement teams eliminate capital expenditure, protect employee wellbeing, and ensure flawless hospitality standards.</p>\n\n      <h2>Set Up Your Enterprise Corporate Account</h2>\n      <p>Schedule a corporate consultation or request an enterprise rate contract by emailing <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or calling <strong>+91 97117 22273</strong>. Explore our executive solutions at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "corporate-guest-house-vs-serviced-apartments-gurgaon-comparison",
+    "title": "Corporate Guest House vs. Serviced Apartments in Gurgaon: Cost & Quality Comparison",
+    "slug": "corporate-guest-house-vs-serviced-apartments-gurgaon-comparison",
+    "excerpt": "Comparing corporate guest houses against managed serviced apartments in Gurgaon? Discover how enterprise HR teams achieve 30% savings and superior guest satisfaction with Residences by Sandane Homes.",
+    "category": "Corporate Housing",
+    "readTime": "9 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Corporate Strategy",
+    "coverImage": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Corporate Guest House",
+      "Serviced Apartments Gurgaon",
+      "Residences by Sandane Homes",
+      "Enterprise Travel Cost Optimization",
+      "Corporate Housing"
+    ],
+    "content": "<h2>The Dilemma for Corporate HR and Facility Managers</h2>\n      <p>Enterprises running continuous operations in Gurgaon often deliberate between leasing dedicated company guest houses or booking corporate serviced apartments. While maintaining an exclusive company guest house seems appealing on paper, in reality it incurs hefty fixed overheads: multi-year lease commitments, unpredictable cook and cleaning staff salaries, utility management headaches, and high vacancy loss during holiday quarters.</p>\n\n      <p>Managed corporate serviced apartments provided by <strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offer a significantly more agile, cost-effective, and professional alternative for modern organizations.</p>\n\n      <h2>Comparative Analysis: Guest House vs. Managed Residences</h2>\n      <table style=\"width:100%; border-collapse:collapse; margin-top:20px; margin-bottom:20px;\">\n        <thead>\n          <tr style=\"background:#f4f4f4; text-align:left;\">\n            <th style=\"padding:10px; border:1px solid #ddd;\">Feature</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Company Guest House</th>\n            <th style=\"padding:10px; border:1px solid #ddd;\">Residences by Sandane Homes</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Financial Commitment</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Fixed multi-year lease, high upfront deposits</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Flexible on-demand billing, pay only for active nights/months</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Staff Management</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Direct hiring, cook absenteeism, supervisor friction</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Professional hotel-standard housekeeping & concierge included</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Compliance & Billing</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Multiple utility vendors, fragmented receipts</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Single GST-compliant B2B invoice with complete tax input credit</td>\n          </tr>\n          <tr>\n            <td style=\"padding:10px; border:1px solid #ddd;\"><strong>Guest Privacy</strong></td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Shared common zones with random colleagues</td>\n            <td style=\"padding:10px; border:1px solid #ddd;\">Independent private suites and dedicated apartments</td>\n          </tr>\n        </tbody>\n      </table>\n\n      <h2>Achieve Up to 32% In Annual Travel Budget Reductions</h2>\n      <p>By transitioning corporate travelers from legacy company guest houses to managed serviced apartments by Sandane Homes, corporate procurement teams eliminate capital expenditure, protect employee wellbeing, and ensure flawless hospitality standards.</p>\n\n      <h2>Set Up Your Enterprise Corporate Account</h2>\n      <p>Schedule a corporate consultation or request an enterprise rate contract by emailing <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or calling <strong>+91 97117 22273</strong>. Explore our executive solutions at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "3-bhk-luxury-serviced-penthouse-residences-gurgaon",
-    title: "3 BHK Luxury Serviced Residences & Penthouses in Gurgaon for C-Suite Executives",
-    slug: "3-bhk-luxury-serviced-penthouse-residences-gurgaon",
-    excerpt: "Ultra-luxury 3 BHK serviced apartments and penthouses in Gurgaon for C-suite executives and diplomatic delegations. Enjoy private balconies, designer lounges, and personalized butler support.",
-    category: "Luxury Living",
-    readTime: "8 min read",
-    date: "October 1, 2026",
-    author: "Sandane Luxury Living Desk",
-    coverImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Luxury Serviced Apartments","3 BHK Penthouse Gurgaon","Residences by Sandane Homes","C-Suite Relocation","Golf Course Road Luxury"],
-    content: "<h2>Uncompromising Grandeur for Global Corporate Leadership</h2>\n      <p>When Managing Directors, Country Heads, and C-Suite executives relocate with their families to Gurgaon, standard serviced accommodations fall short of their expectations. They demand generous architectural proportions, elite residential security, expansive entertaining areas, and an ambiance that reflects their executive stature.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> curates premier 3 BHK luxury residences and penthouses spanning 2,200 to 3,500 square feet across landmark developments along Golf Course Road and DLF Phase 5.</p>\n\n      <h2>Distinctive Highlights of Our 3 BHK Executive Residences</h2>\n      <ul>\n        <li><strong>Expansive Master Suites:</strong> King-size plush beds, walk-in dressing wardrobes, Italian marble en-suite bathrooms with rain showers and jacuzzi fittings.</li>\n        <li><strong>Grand Dining & Living Salons:</strong> Elegant 8-seater dining tables, custom Italian sofas, and dedicated acoustic media lounges ideal for hosting executive dinners.</li>\n        <li><strong>Gourmet Kitchens:</strong> Dual refrigerators, convection ovens, dishwashers, wine chillers, and imported marble counter islands.</li>\n        <li><strong>Bespoke Hospitality:</strong> Dedicated on-demand concierge, private chauffeur coordination, personal chef options, and discreet daily housekeeping.</li>\n      </ul>\n\n      <h2>A Pristine Sanctuary for Executive Families</h2>\n      <p>Surrounded by manicured landscaped gardens, private clubhouse privileges, Olympic-length swimming pools, and tennis courts, these residences provide the ultimate lifestyle foundation while you spearhead enterprise growth in Gurgaon.</p>\n\n      <h2>Private Portfolio Viewings</h2>\n      <p>Due to the exclusive nature of our luxury penthouse portfolio, bookings and viewings are arranged strictly via private appointment. Contact our executive concierge desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore our premier residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "3-bhk-luxury-serviced-penthouse-residences-gurgaon",
+    "title": "3 BHK Luxury Serviced Residences & Penthouses in Gurgaon for C-Suite Executives",
+    "slug": "3-bhk-luxury-serviced-penthouse-residences-gurgaon",
+    "excerpt": "Ultra-luxury 3 BHK serviced apartments and penthouses in Gurgaon for C-suite executives and diplomatic delegations. Enjoy private balconies, designer lounges, and personalized butler support.",
+    "category": "Luxury Living",
+    "readTime": "8 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Luxury Living Desk",
+    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Luxury Serviced Apartments",
+      "3 BHK Penthouse Gurgaon",
+      "Residences by Sandane Homes",
+      "C-Suite Relocation",
+      "Golf Course Road Luxury"
+    ],
+    "content": "<h2>Uncompromising Grandeur for Global Corporate Leadership</h2>\n      <p>When Managing Directors, Country Heads, and C-Suite executives relocate with their families to Gurgaon, standard serviced accommodations fall short of their expectations. They demand generous architectural proportions, elite residential security, expansive entertaining areas, and an ambiance that reflects their executive stature.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> curates premier 3 BHK luxury residences and penthouses spanning 2,200 to 3,500 square feet across landmark developments along Golf Course Road and DLF Phase 5.</p>\n\n      <h2>Distinctive Highlights of Our 3 BHK Executive Residences</h2>\n      <ul>\n        <li><strong>Expansive Master Suites:</strong> King-size plush beds, walk-in dressing wardrobes, Italian marble en-suite bathrooms with rain showers and jacuzzi fittings.</li>\n        <li><strong>Grand Dining & Living Salons:</strong> Elegant 8-seater dining tables, custom Italian sofas, and dedicated acoustic media lounges ideal for hosting executive dinners.</li>\n        <li><strong>Gourmet Kitchens:</strong> Dual refrigerators, convection ovens, dishwashers, wine chillers, and imported marble counter islands.</li>\n        <li><strong>Bespoke Hospitality:</strong> Dedicated on-demand concierge, private chauffeur coordination, personal chef options, and discreet daily housekeeping.</li>\n      </ul>\n\n      <h2>A Pristine Sanctuary for Executive Families</h2>\n      <p>Surrounded by manicured landscaped gardens, private clubhouse privileges, Olympic-length swimming pools, and tennis courts, these residences provide the ultimate lifestyle foundation while you spearhead enterprise growth in Gurgaon.</p>\n\n      <h2>Private Portfolio Viewings</h2>\n      <p>Due to the exclusive nature of our luxury penthouse portfolio, bookings and viewings are arranged strictly via private appointment. Contact our executive concierge desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Explore our premier residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
-    id: "gurgaon-property-owners-lease-to-sandane-homes-guaranteed-rent",
-    title: "How Gurgaon Property Owners Can Earn Guaranteed Rent by Leasing to Sandane Homes",
-    slug: "gurgaon-property-owners-lease-to-sandane-homes-guaranteed-rent",
-    excerpt: "Own an apartment in Gurgaon? Discover how Sandane Homes master lease model guarantees fixed monthly rent, zero tenant headaches, and institutional upkeep for high-end residential owners.",
-    category: "Property Management",
-    readTime: "8 min read",
-    date: "October 1, 2026",
-    author: "Sandane Property Acquisitions",
-    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Guaranteed Rent Gurgaon","Lease to Sandane Homes","Gurgaon Landlords","Property Management","Residences by Sandane Homes"],
-    content: "<h2>The True Cost of Traditional Tenancy for Gurgaon Landlords</h2>\n      <p>Renting out residential property in prime Gurgaon sectors often proves to be an exhausting administrative ordeal. Landlords face irregular rent payments, prolonged vacancies between tenants, continuous brokerage drains of one month's rent every 11 months, and significant wear-and-tear inflicted by careless tenants.</p>\n\n      <p><strong>Sandane Homes</strong> introduces a proven institutional master leasing framework that completely eliminates landlord stress while ensuring dependable, long-term asset appreciation.</p>\n\n      <h2>How the Sandane Homes Master Lease Model Works</h2>\n      <ol>\n        <li><strong>Property Assessment:</strong> Our hospitality and interior valuation team conducts a detailed assessment of your property’s layout, location, and potential rental yield.</li>\n        <li><strong>Guaranteed Master Lease Agreement:</strong> We execute a long-term corporate master lease (typically 3 to 9 years) with guaranteed rent payments deposited on the 1st of every month without fail.</li>\n        <li><strong>Turnkey Standardization:</strong> We furnish and style the property to luxury serviced apartment standards, outfitting it with hotel-grade linens, smart tech, and designer accents at our operational expense.</li>\n        <li><strong>Exclusive Corporate Placement:</strong> We host verified corporate assignees, multinational consultants, and expatriate families under strict house rules and 24/7 supervision.</li>\n        <li><strong>Continuous Asset Care:</strong> Our professional housekeeping and maintenance crews inspect and maintain the property on a daily basis, returning it to you in immaculate condition.</li>\n      </ol>\n\n      <h2>Why Discerning Property Owners Choose Sandane Homes</h2>\n      <ul>\n        <li><strong>100% Occupancy Peace of Mind:</strong> Even during market dips or seasonal vacancies, your guaranteed rental income remains completely unaffected.</li>\n        <li><strong>Zero Brokerage Recurring Costs:</strong> Never pay annual agent commissions or renewal fees again.</li>\n        <li><strong>Flawless Maintenance:</strong> Preventative maintenance protects your electrical, plumbing, and HVAC systems from expensive degradation.</li>\n      </ul>\n\n      <h2>Transform Your Property Today</h2>\n      <p>Join hundreds of satisfied property owners across DLF Phase 1-5, Golf Course Road, and Sohna Road who trust Sandane Homes. Email your property details to <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call our asset acquisition desk at <strong>+91 97117 22273</strong>. Visit our <a href=\"/residences\">landlord partnerships portal</a> to get started.</p>"
+    "id": "gurgaon-property-owners-lease-to-sandane-homes-guaranteed-rent",
+    "title": "How Gurgaon Property Owners Can Earn Guaranteed Rent by Leasing to Sandane Homes",
+    "slug": "gurgaon-property-owners-lease-to-sandane-homes-guaranteed-rent",
+    "excerpt": "Own an apartment in Gurgaon? Discover how Sandane Homes master lease model guarantees fixed monthly rent, zero tenant headaches, and institutional upkeep for high-end residential owners.",
+    "category": "Property Management",
+    "readTime": "8 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Property Acquisitions",
+    "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Guaranteed Rent Gurgaon",
+      "Lease to Sandane Homes",
+      "Gurgaon Landlords",
+      "Property Management",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>The True Cost of Traditional Tenancy for Gurgaon Landlords</h2>\n      <p>Renting out residential property in prime Gurgaon sectors often proves to be an exhausting administrative ordeal. Landlords face irregular rent payments, prolonged vacancies between tenants, continuous brokerage drains of one month's rent every 11 months, and significant wear-and-tear inflicted by careless tenants.</p>\n\n      <p><strong>Sandane Homes</strong> introduces a proven institutional master leasing framework that completely eliminates landlord stress while ensuring dependable, long-term asset appreciation.</p>\n\n      <h2>How the Sandane Homes Master Lease Model Works</h2>\n      <ol>\n        <li><strong>Property Assessment:</strong> Our hospitality and interior valuation team conducts a detailed assessment of your property’s layout, location, and potential rental yield.</li>\n        <li><strong>Guaranteed Master Lease Agreement:</strong> We execute a long-term corporate master lease (typically 3 to 9 years) with guaranteed rent payments deposited on the 1st of every month without fail.</li>\n        <li><strong>Turnkey Standardization:</strong> We furnish and style the property to luxury serviced apartment standards, outfitting it with hotel-grade linens, smart tech, and designer accents at our operational expense.</li>\n        <li><strong>Exclusive Corporate Placement:</strong> We host verified corporate assignees, multinational consultants, and expatriate families under strict house rules and 24/7 supervision.</li>\n        <li><strong>Continuous Asset Care:</strong> Our professional housekeeping and maintenance crews inspect and maintain the property on a daily basis, returning it to you in immaculate condition.</li>\n      </ol>\n\n      <h2>Why Discerning Property Owners Choose Sandane Homes</h2>\n      <ul>\n        <li><strong>100% Occupancy Peace of Mind:</strong> Even during market dips or seasonal vacancies, your guaranteed rental income remains completely unaffected.</li>\n        <li><strong>Zero Brokerage Recurring Costs:</strong> Never pay annual agent commissions or renewal fees again.</li>\n        <li><strong>Flawless Maintenance:</strong> Preventative maintenance protects your electrical, plumbing, and HVAC systems from expensive degradation.</li>\n      </ul>\n\n      <h2>Transform Your Property Today</h2>\n      <p>Join hundreds of satisfied property owners across DLF Phase 1-5, Golf Course Road, and Sohna Road who trust Sandane Homes. Email your property details to <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call our asset acquisition desk at <strong>+91 97117 22273</strong>. Visit our <a href=\"/residences\">landlord partnerships portal</a> to get started.</p>"
   },
-
   {
-    id: "why-residences-by-sandane-homes-is-gurgaons-top-choice-for-expats",
-    title: "Why Residences by Sandane Homes is Gurgaon’s #1 Choice for Expat Families & Corporate Relocations",
-    slug: "why-residences-by-sandane-homes-is-gurgaons-top-choice-for-expats",
-    excerpt: "Relocating to Gurgaon? Discover why Japanese, Korean, European, and American expatriate families consistently choose Residences by Sandane Homes for their long-term housing needs.",
-    category: "Expat Living",
-    readTime: "8 min read",
-    date: "October 1, 2026",
-    author: "Sandane Global Mobility Desk",
-    coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
-    tags: ["Residences by Sandane Homes","Expat Relocation Gurgaon","Japanese Expats Gurgaon","Korean Expats Gurgaon","Serviced Apartments Gurgaon"],
-    content: "<h2>The Global Expatriate Community in Gurgaon</h2>\n      <p>As the international commercial capital of Northern India, Gurgaon hosts thriving expatriate communities from Japan, South Korea, Germany, the United Kingdom, France, and North America. Moving to a new country involves adapting to diverse cultural, linguistic, and climatic nuances. Finding a home that offers uncompromising safety, international sanitation standards, and authentic warmth is essential for a rewarding relocation.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has earned an enviable reputation as the premier housing partner for global mobility managers, relocation consultants, and diplomatic missions across the National Capital Region.</p>\n\n      <h2>The Sandane Homes Expat Advantage</h2>\n      <ul>\n        <li><strong>Tailored Cultural Comforts:</strong> From high-speed Toto-style washlet fittings, Japanese TV channel routing, and water softeners to multilingual guest assistance, our properties are designed with deep cultural sensitivity.</li>\n        <li><strong>Prime Expat Enclaves:</strong> Located in gated, green residential communities in DLF Phase 5 and Golf Course Road, within minutes of international schools, expat grocers, and culinary favorites.</li>\n        <li><strong>Uncompromising Health & Water Safety:</strong> Multi-stage RO filtration systems providing drinking-grade water directly at the kitchen tap, accompanied by advanced air purification options.</li>\n        <li><strong>Personalized Family Concierge:</strong> Assistance with domestic staff sourcing, school transportation logistics, local grocery delivery setup, and verified medical clinic appointments.</li>\n      </ul>\n\n      <h2>Experience True Hospitality in Millennium City</h2>\n      <p>At Residences by Sandane Homes, we do not merely provide four walls and a roof; we curate a safe, comfortable, and vibrant home where families flourish. Contact our expat relocation specialists at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Discover why we are Gurgaon's top-rated serviced residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+    "id": "why-residences-by-sandane-homes-is-gurgaons-top-choice-for-expats",
+    "title": "Why Residences by Sandane Homes is Gurgaon’s #1 Choice for Expat Families & Corporate Relocations",
+    "slug": "why-residences-by-sandane-homes-is-gurgaons-top-choice-for-expats",
+    "excerpt": "Relocating to Gurgaon? Discover why Japanese, Korean, European, and American expatriate families consistently choose Residences by Sandane Homes for their long-term housing needs.",
+    "category": "Expat Living",
+    "readTime": "8 min read",
+    "date": "October 1, 2026",
+    "author": "Sandane Global Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Residences by Sandane Homes",
+      "Expat Relocation Gurgaon",
+      "Japanese Expats Gurgaon",
+      "Korean Expats Gurgaon",
+      "Serviced Apartments Gurgaon"
+    ],
+    "content": "<h2>The Global Expatriate Community in Gurgaon</h2>\n      <p>As the international commercial capital of Northern India, Gurgaon hosts thriving expatriate communities from Japan, South Korea, Germany, the United Kingdom, France, and North America. Moving to a new country involves adapting to diverse cultural, linguistic, and climatic nuances. Finding a home that offers uncompromising safety, international sanitation standards, and authentic warmth is essential for a rewarding relocation.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has earned an enviable reputation as the premier housing partner for global mobility managers, relocation consultants, and diplomatic missions across the National Capital Region.</p>\n\n      <h2>The Sandane Homes Expat Advantage</h2>\n      <ul>\n        <li><strong>Tailored Cultural Comforts:</strong> From high-speed Toto-style washlet fittings, Japanese TV channel routing, and water softeners to multilingual guest assistance, our properties are designed with deep cultural sensitivity.</li>\n        <li><strong>Prime Expat Enclaves:</strong> Located in gated, green residential communities in DLF Phase 5 and Golf Course Road, within minutes of international schools, expat grocers, and culinary favorites.</li>\n        <li><strong>Uncompromising Health & Water Safety:</strong> Multi-stage RO filtration systems providing drinking-grade water directly at the kitchen tap, accompanied by advanced air purification options.</li>\n        <li><strong>Personalized Family Concierge:</strong> Assistance with domestic staff sourcing, school transportation logistics, local grocery delivery setup, and verified medical clinic appointments.</li>\n      </ul>\n\n      <h2>Experience True Hospitality in Millennium City</h2>\n      <p>At Residences by Sandane Homes, we do not merely provide four walls and a roof; we curate a safe, comfortable, and vibrant home where families flourish. Contact our expat relocation specialists at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Discover why we are Gurgaon's top-rated serviced residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
-
   {
     "slug": "japanese-school-gurgaon-expat-family-housing-guide",
     "title": "Japanese School of Gurgaon: Expat Family Housing Guide for DLF Phase 5 & Golf Course Extension",
@@ -531,42 +946,36 @@ export const blogPosts = [
     ]
   },
   {
+    "id": "serviced-apartments-near-artemis-hospital-sector-51-gurgaon",
     "slug": "serviced-apartments-near-artemis-hospital-sector-51-gurgaon",
-    "title": "Serviced Apartments Near Artemis Hospital Sector 51 Gurgaon: Peaceful Extended Stay Suites",
-    "metaTitle": "Serviced Apartments Near Artemis Hospital Sector 51 Gurgaon | Sandane",
-    "metaDescription": "Book luxury serviced apartments near Artemis Hospital in Sector 51, Gurgaon. Hygienic suites with kitchens, daily cleaning & high-speed WiFi for medical guests & expats.",
-    "subtitle": "Situated minutes from Artemis Hospital, Golf Course Extension Road, and Sector 51/52 transit corridors.",
-    "category": "Medical Stay Suites",
-    "date": "October 1, 2026",
-    "readTime": "8 min read",
-    "author": "Sandane Healthcare Stays Desk",
-    "coverImage": "/blog/covers/aesthetic-5.jpg",
-    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
-    "lang": "en",
-    "excerpt": "Comfortable, sanitised, and quiet serviced apartments located minutes from Artemis Hospital in Sector 51, Gurgaon for extended medical stays and patient companions.",
-    "content": [
+    "title": "Serviced Apartments near Artemis Hospital Sector 51 Gurgaon | Post-Op Recovery & Patient Housing",
+    "metaTitle": "Serviced Apartments near Artemis Hospital Sector 51 Gurgaon",
+    "metaDescription": "Peaceful, hygienic serviced apartments near Artemis Hospital Sector 51 Gurgaon for recuperating patients and their families. Private kitchen, lift access & daily housekeeping.",
+    "excerpt": "Discover quiet, sanitized serviced apartments located moments from Artemis Hospital Sector 51 Gurgaon. Featuring private kitchens, elevator access, and compassionate support by Residences by Sandane Homes.",
+    "category": "Medical Relocation",
+    "readTime": "7 min read",
+    "date": "October 17, 2026",
+    "publishDate": "2026-10-17",
+    "author": "Sandane Healthcare Accommodations",
+    "coverImage": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Artemis Hospital Gurgaon",
+      "Sector 51 Gurgaon Stays",
+      "Medical Extended Stays Gurgaon",
+      "Residences by Sandane Homes",
+      "Post-Op Recovery Housing"
+    ],
+    "faqs": [
       {
-        "type": "paragraph",
-        "text": "Artemis Hospital in Sector 51 is a premier healthcare destination in Gurgaon. Families visiting patients or undergoing extended treatments often find local budget guest houses lacking in cleanliness and comfort. <b>Sandane Homes</b> offers fully furnished 1BHK, 2BHK, and 3BHK serviced apartments directly adjacent to Sector 51, providing a sanctuary of calm, hygiene, and full residential convenience."
+        "question": "How close are your residences to Artemis Hospital Sector 51?",
+        "answer": "Our serviced suites are located just a 5 to 8-minute drive from Artemis Hospital Sector 51, providing fast access along Vikas Marg and Golf Course Extension Road."
       },
       {
-        "type": "heading",
-        "text": "Why Families Choose Sandane Homes Near Artemis"
-      },
-      {
-        "type": "list",
-        "items": [
-          "<b>5-Minute Transit to Artemis:</b> Quick, hassle-free commute to the hospital campus day or night.",
-          "<b>Full Self-Catering Kitchens:</b> Essential for preparing prescribed dietary meals without relying on oily outside food.",
-          "<b>Daily Sanitization & Linen Service:</b> Fresh towels, clean sheets, and thorough disinfection performed daily.",
-          "<b>24-Hour Power & Climate Control:</b> Uninterrupted cooling and heating to maintain ideal recovery temperatures."
-        ]
-      },
-      {
-        "type": "callout",
-        "text": "Book your extended medical stay near Artemis Hospital. Inquire at <a href='/residences'>Residences by Sandane Homes</a> or email residencesbysandanehomes@gmail.com."
+        "question": "What amenities are provided for long-stay medical patients?",
+        "answer": "Accommodations include complete modular kitchens with induction/gas cooking, purified RO drinking water, automatic washing machines, 24/7 power backup, high-speed WiFi, and daily housekeeping."
       }
-    ]
+    ],
+    "content": "<h2>Peaceful Healing Environments near Artemis Hospital Sector 51</h2>\n<p><strong>Artemis Hospital</strong> in Sector 51 Gurugram is a JCI- and NABH-accredited tertiary care facility renowned for excellence in cardiovascular sciences, oncology, neurosciences, and pediatric surgery. Many families traveling from other states across India and international destinations require quiet, supportive accommodations near the hospital for pre-procedure evaluations and post-surgical rehabilitation.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offers tranquil, sanitized 1BHK, 2BHK, and 3BHK serviced apartments nearby, allowing patients and their caregivers to recuperate in a peaceful residential setting away from commercial hotel chaos.</p>\n\n<h2>Key Amenities for Recovering Patients & Families</h2>\n<ul>\n  <li><strong>In-Suite Dietary Control:</strong> Full private kitchens equipped with microwaves, refrigerators, RO filtration, and induction cooktops allow caretakers to prepare hygienic home-cooked meals tailored to medical dietary guidelines.</li>\n  <li><strong>Quiet Gated Enclaves:</strong> Insulated from traffic noise, our properties feature lush landscaped surroundings that promote restorative sleep and natural healing.</li>\n  <li><strong>In-Unit Laundry:</strong> Fully automatic washing machines allow family members to maintain sterile clothing and linen hygiene throughout multi-week stays.</li>\n  <li><strong>Close Proximity to Pharmacies:</strong> Rapid access to 24-hour medical stores, diagnostic laboratories, and Sector 51/52 commercial markets.</li>\n</ul>\n\n<h2>Personalized Healthcare Stays with Zero Brokerage</h2>\n<p>We work directly with medical travelers, offering flexible weekly and monthly rates with no lock-ins. Contact our healthcare hospitality desk at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or WhatsApp <strong>+91 97117 22273</strong>. Discover peaceful living at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
   },
   {
     "slug": "medical-relocation-extended-stay-apartments-fortis-gurgaon",
