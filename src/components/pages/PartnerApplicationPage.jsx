@@ -34,9 +34,9 @@ const furnishingOptions = [
 ];
 
 const modelPreferences = [
-  { id: 'company_decides', label: 'Open to Company Evaluation (Recommended)', desc: 'Let Sandane Homes analyze the property and propose the optimal structure' },
-  { id: 'subleasing', label: 'Preference: Corporate Subleasing (Fixed Rent)', desc: 'Guaranteed 1st-of-month fixed bank transfer with zero vacancy risk' },
-  { id: 'partner', label: 'Preference: Revenue Partnership (Dynamic Yield)', desc: 'Shared performance upside targeting 30%–50% higher annual returns' }
+  { id: 'company_decides', label: 'Open to Company Evaluation (Recommended)', desc: 'Let Sandane Homes review the property and propose the most suitable structure' },
+  { id: 'subleasing', label: 'Preference: Corporate Subleasing (Fixed Rent)', desc: 'Fixed monthly rental payout under a signed lease agreement' },
+  { id: 'partner', label: 'Preference: Revenue Partnership (Shared Model)', desc: 'Shared monthly revenue linked to actual property performance' }
 ];
 
 const PartnerApplicationPage = () => {
@@ -78,23 +78,23 @@ const PartnerApplicationPage = () => {
   const partnerFaqs = [
     {
       q: "How does Sandane Homes decide between the Partner (Revenue Share) and Leasing (Subleasing) model?",
-      a: "Our property evaluation desk analyzes your property's micro-location, building and society profile, interior furnishing grade, and immediate multinational corporate demand. We then determine whether the asset is best suited for our guaranteed corporate master lease or our performance-driven revenue partnership to ensure maximum financial yield and operational stability."
+      a: "Our team reviews your property's micro-location, building condition, furnishing level, and corporate demand. We then determine whether the property is best suited for a fixed corporate sublease or a performance-linked revenue partnership."
     },
     {
       q: "When do I receive rent or revenue payouts?",
-      a: "For Corporate Subleasing agreements, fixed monthly rent is transferred directly to your registered bank account on the 1st of every month without fail. For Revenue Partnership properties, performance payouts along with itemized occupancy statements are settled by the 5th of each calendar month."
+      a: "For Corporate Subleasing agreements, monthly rent is transferred to your bank account as per the agreed schedule in the lease. For Revenue Partnership properties, revenue payouts along with monthly statements are settled on an agreed monthly date."
     },
     {
       q: "Who takes care of property repairs, maintenance, and daily cleaning?",
-      a: "Sandane Homes covers 100% of routine maintenance, plumbing, electrical servicing, air conditioning upkeep, and daily five-star housekeeping at zero additional cost to you. Your property is maintained in continuous showroom condition."
+      a: "Sandane Homes manages routine housekeeping, linen care, and coordinates regular minor upkeep (basic plumbing, electrical checks, AC servicing) to keep the apartment in good, well-maintained condition for guests."
     },
     {
       q: "Who will stay in my apartment or building?",
-      a: "Our residences exclusively host verified corporate professionals, Japanese and Korean expatriates, technical directors, and Fortune 500 business delegations. We do not accept unvetted walk-ins, and all foreign guests undergo complete Form C and FRRO verification."
+      a: "Our residences cater to corporate executives, business travelers, and expatriates. All guest check-ins follow identity verification, and foreign guests undergo standard Form C / FRRO documentation."
     },
     {
       q: "Can I partner if my apartment is unfurnished or semi-furnished?",
-      a: "Yes. For high-potential locations in Gurugram, Noida, and Greater Noida, Sandane Homes can evaluate properties in semi-furnished or bare-shell condition and provide turnkey furnishing assistance or master-lease packages tailored to corporate expat specifications."
+      a: "Yes. Sandane Homes can evaluate properties in semi-furnished or bare-shell condition and discuss furnishing assistance or leasing options depending on location and layout."
     }
   ];
 
@@ -102,7 +102,7 @@ const PartnerApplicationPage = () => {
     <div style={{ backgroundColor: '#FAF8F5', minHeight: '100vh' }}>
       <SEO
         title="Property Partner & Master Lease Application | Sandane Homes"
-        description="Apply to partner with Sandane Homes or lease your 1BHK, 2BHK, 3BHK, 4BHK apartment or building. Compare Partner vs Corporate Leasing models and receive a guaranteed evaluation within 24 hours."
+        description="Apply to partner with Sandane Homes or lease your 1BHK, 2BHK, 3BHK, 4BHK apartment or building. Compare Partner vs Corporate Subleasing models and submit your property for evaluation."
         canonical="https://www.sandanehomes.com/partner/apply"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
       />
@@ -173,7 +173,7 @@ const PartnerApplicationPage = () => {
             margin: '0 auto 30px',
             fontFamily: 'Georgia, serif'
           }}>
-            Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK, luxury floor, or full building. We transform premium residential assets into 5-star corporate serviced residences for Japanese, Korean, and MNC expat executives across Gurugram, Noida, and Greater Noida.
+            Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK, builder floor, or full building. We manage quality residential assets as corporate serviced residences for corporate professionals and expatriates across Gurugram, Noida, and Greater Noida.
           </p>
 
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -299,29 +299,29 @@ const PartnerApplicationPage = () => {
                 marginBottom: '20px',
                 borderLeft: '3px solid #C5A572'
               }}>
-                <span style={{ fontSize: '12px', color: '#777', textTransform: 'uppercase', fontWeight: '700' }}>Target Earning:</span>
+                <span style={{ fontSize: '12px', color: '#777', textTransform: 'uppercase', fontWeight: '700' }}>Revenue Model:</span>
                 <p style={{ fontSize: '18px', fontWeight: '800', color: '#111', margin: '4px 0 0' }}>
-                  30% – 50% Higher Annual Return
+                  Shared Revenue Model
                 </p>
-                <span style={{ fontSize: '12px', color: '#555' }}>Compared to conventional 11-month lock-in leases</span>
+                <span style={{ fontSize: '12px', color: '#555' }}>Monthly payouts linked to property performance</span>
               </div>
 
               <p style={{ fontSize: '14px', color: '#555', lineHeight: '1.65', marginBottom: '22px' }}>
-                You share in the high-yield upside of corporate expat bookings. Sandane Homes manages daily hotel operations, corporate marketing, and guest hospitality, distributing monthly profits directly to your bank account.
+                A collaborative hosting model where monthly earnings are based on actual guest occupancy. Sandane Homes manages guest bookings, daily housekeeping, and property care while sharing the proceeds transparently.
               </p>
 
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 24px 0' }}>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid #F0ECE4', fontSize: '13.5px', color: '#333', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Premium tariff monetization with zero operational involvement
+                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Professional corporate and expat guest hosting
                 </li>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid #F0ECE4', fontSize: '13.5px', color: '#333', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Daily 5-star housekeeping and deep linen care
+                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Regular housekeeping and linen maintenance
                 </li>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid #F0ECE4', fontSize: '13.5px', color: '#333', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Transparent monthly revenue & occupancy audit reports
+                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Clear monthly revenue &amp; occupancy statements
                 </li>
                 <li style={{ padding: '8px 0', fontSize: '13.5px', color: '#333', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> 100% free minor maintenance and repairs coverage
+                  <FaCheckCircle color="#8B7355" size={15} style={{ flexShrink: 0 }} /> Routine maintenance and minor repairs coordination
                 </li>
               </ul>
             </div>
@@ -335,7 +335,7 @@ const PartnerApplicationPage = () => {
               background: 'rgba(197, 165, 114, 0.1)',
               borderRadius: '8px'
             }}>
-              ✓ Best for high-demand luxury apartments & society suites
+              Suitable for luxury apartments &amp; society suites
             </div>
           </div>
 
@@ -398,29 +398,29 @@ const PartnerApplicationPage = () => {
                 marginBottom: '20px',
                 borderLeft: '3px solid #25D366'
               }}>
-                <span style={{ fontSize: '12px', color: '#B3C3D4', textTransform: 'uppercase', fontWeight: '700' }}>Guaranteed Payout:</span>
+                <span style={{ fontSize: '12px', color: '#B3C3D4', textTransform: 'uppercase', fontWeight: '700' }}>Rental Model:</span>
                 <p style={{ fontSize: '18px', fontWeight: '800', color: '#FFF', margin: '4px 0 0' }}>
-                  100% Fixed 1st-of-Month Wire Transfer
+                  Fixed Monthly Rent
                 </p>
-                <span style={{ fontSize: '12px', color: '#C3D0DF' }}>Zero vacancy risk • Sandane Homes acts as master tenant</span>
+                <span style={{ fontSize: '12px', color: '#C3D0DF' }}>Predictable monthly rent under signed lease terms</span>
               </div>
 
               <p style={{ fontSize: '14px', color: '#D1DCE5', lineHeight: '1.65', marginBottom: '22px' }}>
-                Sandane Homes executes an institutional corporate master lease contract directly with you. You receive guaranteed fixed monthly rent every single month, regardless of whether the property is occupied or vacant.
+                Sandane Homes signs a corporate lease agreement directly with the property owner. You receive steady monthly rent as agreed in the contract, while our team handles subleasing, guest management, and day-to-day operations.
               </p>
 
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 24px 0' }}>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '13.5px', color: '#E0E6ED', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Long-term stability: 3 to 9-year institutional master lease
+                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Multi-year lease agreements (terms mutually agreed)
                 </li>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '13.5px', color: '#E0E6ED', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Sandane Homes assumes 100% of vacancy & default risk
+                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Sandane Homes manages guest tenancies &amp; operations
                 </li>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '13.5px', color: '#E0E6ED', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Zero tenant negotiation, zero annual brokerage fees
+                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Direct bank transfer of agreed monthly rent
                 </li>
                 <li style={{ padding: '8px 0', fontSize: '13.5px', color: '#E0E6ED', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Complete property upkeep & return in immaculate condition
+                  <FaCheckCircle color="#25D366" size={15} style={{ flexShrink: 0 }} /> Regular upkeep &amp; property returned in agreed condition
                 </li>
               </ul>
             </div>
@@ -434,7 +434,7 @@ const PartnerApplicationPage = () => {
               background: 'rgba(255, 255, 255, 0.05)',
               borderRadius: '8px'
             }}>
-              ✓ Best for entire floors, standalone towers & passive income seekers
+              Suitable for entire floors, standalone buildings &amp; stable rent seekers
             </div>
           </div>
         </div>
