@@ -19,6 +19,7 @@ import BlogPost from './components/pages/BlogPost';
 import LandingPage from './components/pages/LandingPage';
 import Relocation from './components/pages/Relocation';
 import PartnershipPage from './components/pages/PartnershipPage';
+import PartnerApplicationPage from './components/pages/PartnerApplicationPage';
 import GurugramHomeOwnersPartner from './components/pages/GurugramHomeOwnersPartner';
 import GurugramBuildingOwnersPartner from './components/pages/GurugramBuildingOwnersPartner';
 import GurgaonCorporateHousing from './components/pages/GurgaonCorporateHousing';
@@ -50,6 +51,9 @@ function App() {
           <Route path="/residences/gurgaon" element={<GurugramResidences />} />
           <Route path="/partner-with-us" element={<PartnershipPage />} />
           <Route path="/partner" element={<PartnershipPage />} />
+          <Route path="/partner/apply" element={<PartnerApplicationPage />} />
+          <Route path="/partner-form" element={<PartnerApplicationPage />} />
+          <Route path="/property-partner" element={<PartnerApplicationPage />} />
           <Route path="/partner/gurugram-home-owners" element={<GurugramHomeOwnersPartner />} />
           <Route path="/partner-with-us/gurugram-home-owners" element={<GurugramHomeOwnersPartner />} />
           <Route path="/partner/gurugram-building-owners" element={<GurugramBuildingOwnersPartner />} />

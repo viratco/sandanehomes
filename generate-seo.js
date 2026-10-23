@@ -83,6 +83,21 @@ const SEO_MAP = {
     description: 'Master-lease your residential building or builder block in Gurugram to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk, full corporate hotel conversion.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
+  '/partner/apply': {
+    title: 'Property Partner Application Form | Revenue Share & Corporate Subleasing — Sandane Homes',
+    description: 'Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK flat, floor or building with Sandane Homes. Compare Revenue Partnership vs Corporate Subleasing. Submit your property details today.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner-form': {
+    title: 'Property Partner Application Form | Sandane Homes',
+    description: 'Submit your apartment or property details for Sandane Homes Revenue Partnership or Corporate Subleasing.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/property-partner': {
+    title: 'Property Partner Application Form | Sandane Homes',
+    description: 'Submit your apartment or property details for Sandane Homes Revenue Partnership or Corporate Subleasing.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
   '/residences': {
     title: 'Residences by Sandane Homes | Luxury Serviced Apartments in Gurugram & Delhi NCR',
     description: 'Official portal for Residences by Sandane Homes. Fully furnished 2, 3 & 4 BHK luxury serviced apartments in Gurugram (Sector 27, DLF Phase 4, Golf Course Extension) & Delhi NCR for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.',
@@ -1074,7 +1089,7 @@ function buildSitemapXml() {
 
   // 7. General Main Pages
   const otherMainPages = [
-    '/partner-with-us', '/partner',
+    '/partner-with-us', '/partner', '/partner/apply', '/partner-form',
     '/korean-expat-housing-delhi-ncr',
     '/japanese-expat-housing-delhi-ncr',
     '/chinese-expat-housing-greater-noida',

@@ -180,6 +180,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                                             <li><Link to="/serviced-apartments-greater-noida" onClick={() => setIsMobileMenuOpen(false)}>GREATER NOIDA APARTMENTS</Link></li>
                                             <li><Link to="/residences/relocation" onClick={() => setIsMobileMenuOpen(false)}>RELOCATION SERVICES</Link></li>
                                             <li><Link to="/partner-with-us" onClick={() => setIsMobileMenuOpen(false)}>PARTNER WITH US (MONETIZE)</Link></li>
+                                            <li><Link to="/partner/apply" onClick={() => setIsMobileMenuOpen(false)}>PARTNER ONBOARDING FORM</Link></li>
                                         </ul>
                                     </div>
                                 )}
