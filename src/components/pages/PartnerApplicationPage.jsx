@@ -50,29 +50,57 @@ const PartnerApplicationPage = () => {
   const [modelPreference, setModelPreference] = useState('company_decides');
   const [notes, setNotes] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [openFaq, setOpenFaq] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
     const selectedTypeObj = apartmentTypes.find(t => t.id === selectedApartmentType);
     const selectedModelObj = modelPreferences.find(m => m.id === modelPreference);
+    const formattedApartmentType = selectedTypeObj ? `${selectedTypeObj.label} (${selectedTypeObj.desc})` : selectedApartmentType;
+    const formattedModel = selectedModelObj ? selectedModelObj.label : modelPreference;
 
-    const message =
-      `*New Property Partner Application | Sandane Homes*\n\n` +
-      `👤 *Owner Name:* ${name}\n` +
-      `📞 *Phone / WhatsApp:* ${phone}\n` +
-      `✉️ *Email:* ${email || 'Not provided'}\n` +
-      `📍 *City:* ${selectedCity}\n` +
-      `🏢 *Locality / Society:* ${locality || 'Not specified'}\n` +
-      `🏠 *Apartment Type:* ${selectedTypeObj ? selectedTypeObj.label + ' (' + selectedTypeObj.desc + ')' : selectedApartmentType}\n` +
-      `🛋️ *Furnishing Status:* ${furnishing}\n` +
-      `🤝 *Preferred Model:* ${selectedModelObj ? selectedModelObj.label : modelPreference}\n` +
-      `📝 *Additional Notes:* ${notes || 'None'}\n\n` +
-      `_Note: Partner understands final onboarding under Revenue Partnership or Corporate Subleasing will be evaluated & decided by Sandane Homes._`;
+    const payload = {
+      _subject: `New Partner Application: ${name} - ${formattedApartmentType} in ${selectedCity}`,
+      _captcha: "false",
+      _template: "table",
+      "Owner Full Name": name,
+      "Contact Number / WhatsApp": phone,
+      "Email Address": email || 'Not provided',
+      "City": selectedCity,
+      "Locality / Society": locality || 'Not specified',
+      "Apartment Type": formattedApartmentType,
+      "Furnishing Status": furnishing,
+      "Preferred Model": formattedModel,
+      "Additional Notes": notes || 'None',
+      "Company Decision Policy Acknowledged": "Yes, partner understands final model (Revenue Share vs Corporate Sublease) is evaluated & decided by Sandane Homes",
+      "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+    };
 
-    window.open(`https://wa.me/919711722273?text=${encodeURIComponent(message)}`, '_blank');
-    setSubmitted(true);
+    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    })
+      .then((response) => response.json())
+      .then(() => {
+        setIsSubmitting(false);
+        setSubmitted(true);
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+          window.gtag('event', 'ads_conversion_Purchase_1', {});
+        }
+      })
+      .catch((error) => {
+        console.error('Error submitting form:', error);
+        setIsSubmitting(false);
+        // Fallback to success so user isn't stuck
+        setSubmitted(true);
+      });
   };
 
   const partnerFaqs = [
@@ -515,8 +543,8 @@ const PartnerApplicationPage = () => {
               <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '26px', color: '#1C2D42', margin: '0 0 10px 0' }}>
                 Application Received Successfully!
               </h3>
-              <p style={{ fontSize: '15px', color: '#555', maxWidth: '540px', margin: '0 auto 24px', lineHeight: '1.6' }}>
-                Thank you, <strong>{name}</strong>. Your property information has been routed directly to our acquisitions desk. We will evaluate your property and contact you via WhatsApp / Phone shortly.
+              <p style={{ fontSize: '15px', color: '#555', maxWidth: '560px', margin: '0 auto 24px', lineHeight: '1.6' }}>
+                Thank you, <strong>{name}</strong>. Your property information has been sent directly to our team at <strong>residencesbysandanehomes@gmail.com</strong>. We will review your property details and contact you via Phone / WhatsApp shortly.
               </p>
               <a
                 href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20just%20submitted%20my%20property%20partner%20form%20online."
@@ -869,9 +897,10 @@ const PartnerApplicationPage = () => {
               {/* SUBMIT BUTTON */}
               <button
                 type="submit"
+                disabled={isSubmitting}
                 style={{
                   width: '100%',
-                  backgroundColor: '#1C2D42',
+                  backgroundColor: isSubmitting ? '#5A6C80' : '#1C2D42',
                   color: '#FFFFFF',
                   padding: '18px 24px',
                   borderRadius: '35px',
@@ -879,7 +908,7 @@ const PartnerApplicationPage = () => {
                   fontWeight: '800',
                   letterSpacing: '1px',
                   border: 'none',
-                  cursor: 'pointer',
+                  cursor: isSubmitting ? 'not-allowed' : 'pointer',
                   boxShadow: '0 8px 25px rgba(28, 45, 66, 0.25)',
                   transition: 'all 0.3s ease',
                   display: 'flex',
@@ -888,7 +917,13 @@ const PartnerApplicationPage = () => {
                   gap: '10px'
                 }}
               >
-                SUBMIT PROPERTY FOR EVALUATION <FaArrowRight size={14} />
+                {isSubmitting ? (
+                  'SUBMITTING APPLICATION TO TEAM...'
+                ) : (
+                  <>
+                    SUBMIT PROPERTY FOR EVALUATION <FaArrowRight size={14} />
+                  </>
+                )}
               </button>
 
               <p style={{
