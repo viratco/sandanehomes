@@ -14,10 +14,8 @@ const apartmentTypes = [
   { id: '2bhk', label: '2 BHK', desc: 'Serviced Apartment' },
   { id: '3bhk', label: '3 BHK', desc: 'Luxury Family Suite' },
   { id: '4bhk', label: '4 BHK', desc: 'Expansive Builder Floor' },
-  { id: 'studio', label: 'Studio / 1 RK', desc: 'Compact Executive Unit' },
-  { id: 'villa', label: 'Villa / Penthouse', desc: 'Ultra-Luxury Independent' },
-  { id: 'multiple', label: 'Multiple Units (2-5)', desc: 'Societal Portfolio' },
-  { id: 'tower', label: 'Entire Floor / Building', desc: 'Master Lease Block' }
+  { id: '5bhk', label: '5 BHK', desc: 'Luxury Penthouse / Floor' },
+  { id: '5bhk_plus', label: '5 BHK +', desc: 'Villas, Multi-Units & Buildings' }
 ];
 
 const cities = [
@@ -130,7 +128,7 @@ const PartnerApplicationPage = () => {
     <div style={{ backgroundColor: '#FAF8F5', minHeight: '100vh' }}>
       <SEO
         title="Property Partner & Master Lease Application | Sandane Homes"
-        description="Apply to partner with Sandane Homes or lease your 1BHK, 2BHK, 3BHK, 4BHK apartment or building. Compare Partner vs Corporate Subleasing models and submit your property for evaluation."
+        description="Apply to partner with Sandane Homes or lease your 1 BHK, 2 BHK, 3 BHK, 4 BHK, 5 BHK, or 5 BHK+ property. Compare Partner vs Corporate Subleasing models and submit your property for evaluation."
         canonical="https://www.sandanehomes.com/partner/apply"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
       />
@@ -201,7 +199,7 @@ const PartnerApplicationPage = () => {
             margin: '0 auto 30px',
             fontFamily: 'Georgia, serif'
           }}>
-            Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK, builder floor, or full building. We manage quality residential assets as corporate serviced residences for corporate professionals and expatriates across Gurugram, Noida, and Greater Noida.
+            Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK, 5 BHK, or 5 BHK+ property. We manage quality residential assets as corporate serviced residences for corporate professionals and expatriates across Gurugram, Noida, and Greater Noida.
           </p>
 
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>

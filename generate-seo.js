@@ -85,7 +85,7 @@ const SEO_MAP = {
   },
   '/partner/apply': {
     title: 'Property Partner Application Form | Revenue Share & Corporate Subleasing — Sandane Homes',
-    description: 'Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK flat, floor or building with Sandane Homes. Compare Revenue Partnership vs Corporate Subleasing. Submit your property details today.',
+    description: 'Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK, 5 BHK, or 5 BHK+ flat, floor or building with Sandane Homes. Compare Revenue Partnership vs Corporate Subleasing. Submit your property details today.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
   '/partner-form': {
