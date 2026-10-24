@@ -875,6 +875,7 @@ const highPrioritySlugs = [
   'japanese-corporate-relocation-housing-greater-noida-yeida-guide',
   'automotive-supply-chain-japanese-engineers-housing-greater-noida',
   'yamuna-expressway-industrial-park-expat-housing-sandane-homes',
+  'japanese-speaking-support-expat-serviced-apartments-noida-gurgaon',
   'sekisui-dljm-corporate-housing-greater-noida-yeida',
   'seiko-advance-industrial-coating-expats-noida-greater-noida',
   'mobase-india-corporate-serviced-apartments-greater-noida',

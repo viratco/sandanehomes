@@ -364,6 +364,50 @@ export const blogPosts = [
     "content": "<h2>Unlocking Maximum Rental Yield in DLF Phase 2 & DLF Phase 4</h2>\n<p>DLF Phase 2 and DLF Phase 4 in Gurugram boast some of the highest capital property valuations in North India. Yet, many owners of 3BHK and 4BHK builder floors in these prime neighborhoods find traditional residential leasing exhausting. Dealing with unvetted tenants, rent collection delays, frequent vacancies, costly brokerage commissions every 11 months, and property wear-and-tear easily cuts annual rental yields by 25% to 35%.</p>\n\n<p>Through the <strong><a href=\"/partner/gurugram-home-owners\">Sandane Homes Property Partnership Program</a></strong>, landlords in DLF Phase 2 and Phase 4 can transition from stressful traditional renting to effortless, guaranteed corporate income.</p>\n\n<h2>The Sandane Homes Master Lease Advantage</h2>\n<ul>\n  <li><strong>Guaranteed 1st-of-Month Payouts:</strong> Rent is wired directly into your bank account on the 1st of every month, regardless of whether the property is occupied.</li>\n  <li><strong>Verified Fortune 500 Guests Only:</strong> We host only vetted foreign expatriates, Japanese and Korean corporate directors, and senior MNC leadership teams.</li>\n  <li><strong>Zero Maintenance Expenses:</strong> Sandane Homes covers all regular maintenance, plumbing, electrical servicing, painting, and appliance repairs free of charge.</li>\n  <li><strong>Long-Term Multi-Year Agreements:</strong> Secure 3, 5, or 9-year master lease contracts with structured escalation clauses.</li>\n</ul>\n\n<p>Partner with Sandane Homes today. Learn more at <a href=\"/partner/gurugram-home-owners\">Partner with Sandane Homes — Gurugram Home Owners</a> or call our corporate leasing team at <strong>+91 97117 22273</strong>.</p>"
   },
   {
+    "id": "korean-expat-housing-near-south-point-mall-and-one-horizon-gurgaon",
+    "slug": "korean-expat-housing-near-south-point-mall-and-one-horizon-gurgaon",
+    "title": "Korean Expat Serviced Apartments near Golf Course Road & South Point Mall Gurgaon",
+    "metaTitle": "Korean Expat Serviced Apartments Golf Course Road Gurgaon",
+    "metaDescription": "Serviced apartments near South Point Mall & Golf Course Road Gurgaon for Korean expats from Samsung, Hyundai, LG & Korean trading firms. Turnkey serviced residences.",
+    "excerpt": "Searching for Korean-friendly corporate housing near South Point Mall and Golf Course Road Gurgaon? Experience hotel-serviced apartments close to Korean markets and restaurants.",
+    "category": "Expat Housing",
+    "readTime": "8 min read",
+    "date": "October 13, 2026",
+    "publishDate": "2026-10-13",
+    "author": "Sandane Korea Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Korean Expat Housing",
+      "South Point Mall Gurgaon",
+      "Golf Course Road",
+      "Korean Serviced Apartments",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Living in Gurugram's Vibrant Korean Expat Corridor</h2>\n<p>Golf Course Road in Gurugram—especially the stretch surrounding <strong>South Point Mall</strong>, Sector 53, and Sector 54—is the cultural and culinary center of the Korean expat community in North India. Home to authentic Korean supermarkets, bakeries, hair salons, and acclaimed Korean restaurants like Gung The Palace and Hahn’s Kitchen, this enclave provides familiar comforts for professionals from Samsung, Hyundai, LG, and Korean construction and trading firms.</p>\n\n<p>Relocating Korean staff to Gurugram? Our <a href=\"/gurugram/korean-expat-housing\">Korean expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> offers fully serviced executive suites within this corridor, delivering seamless living with zero leasing hurdles.</p>\n\n<h2>Why Korean Executives Choose Sandane Residences</h2>\n<ul>\n  <li><strong>Moments from South Point Mall:</strong> Walk or take a 3-minute drive to South Point Mall for fresh Korean produce, kimchis, and home goods.</li>\n  <li><strong>Rapid Metro Access:</strong> Steps from the Sector 53-54 and Sector 54 Chowk Rapid Metro stations, connecting straight into DLF Cyber City.</li>\n  <li><strong>Turnkey Luxury Living:</strong> Daily housekeeping, fresh bedding rotations, fiber broadband, and complete in-suite kitchens.</li>\n  <li><strong>Hassle-Free Master Lease:</strong> No broker negotiations, no rigid 11-month locks, and clean GST corporate invoicing.</li>\n</ul>\n\n<p>Explore our serviced residences at <a href=\"/residences\">Residences by Sandane Homes</a> or contact our Korea Desk on WhatsApp at <strong>+91 97117 22273</strong>.</p>\n\n<p>For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>.</p>"
+  },
+  {
+    "id": "japanese-expat-corporate-housing-golf-course-extension-road-gurgaon",
+    "slug": "japanese-expat-corporate-housing-golf-course-extension-road-gurgaon",
+    "title": "Japanese Expat Housing on Golf Course Extension Road Gurgaon | Conscient Hines Elevate & Sector 58-65",
+    "metaTitle": "Japanese Expat Housing Golf Course Extension Road Gurgaon | Sandane",
+    "metaDescription": "Tailored serviced housing for Japanese corporate executives and engineers on Golf Course Extension Road Gurgaon. Conscient Hines Elevate, Japanese bidets, FRRO help & safety.",
+    "excerpt": "Discover premium corporate serviced apartments on Golf Course Extension Road Gurgaon tailored for Japanese expats. Japanese-standard cleanliness, modern bidet washrooms, and FRRO registration support.",
+    "category": "Expat Housing",
+    "readTime": "8 min read",
+    "date": "October 14, 2026",
+    "publishDate": "2026-10-14",
+    "author": "Sandane Japan Mobility Desk",
+    "coverImage": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=1200&auto=format&fit=crop&q=80",
+    "tags": [
+      "Japanese Expat Housing",
+      "Golf Course Extension Road",
+      "Conscient Hines Elevate",
+      "Japanese Serviced Apartments",
+      "Residences by Sandane Homes"
+    ],
+    "content": "<h2>Japanese-Standard Comfort on Golf Course Extension Road</h2>\n<p>Japanese multinational corporations—including Daikin, Maruti Suzuki, Honda, Mitsui, Denso, and Panasonic—maintain extensive manufacturing plants and technical design headquarters in Gurugram, Manesar, and Neemrana. For Japanese engineers and senior directors on short- or multi-year assignments, living along <strong>Golf Course Extension Road</strong> (Sectors 58 to 65) provides rapid transit to both DLF Cyber City offices and the Delhi-Mumbai Expressway corridor.</p>\n\n<p>Moving a Japanese team to Gurugram? Our <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place.</p>\n\n<p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> provides specialized Japanese-tailored corporate serviced apartments at <a href=\"/elevate-hines-sector-58-gurgaon\">Conscient Hines Elevate Sector 58</a>, meeting the rigorous standards of Japanese corporate mobility desks.</p>\n\n<h2>Amenities Specifically Crafted for Japanese Assignees</h2>\n<ul>\n  <li><strong>Japanese-Style Electronic Bidet Washrooms:</strong> Sanitary, modern washrooms equipped with warm-water spray bidet attachments, matching Japanese residential expectations.</li>\n  <li><strong>Acoustic & Thermal Insulation:</strong> Double-glazed acoustic windows and whisper-quiet inverter air conditioning ensure quiet rest after intensive factory commissioning days.</li>\n  <li><strong>Full Kitchens with Rice Cookers:</strong> In-suite kitchens equipped with induction stoves, microwaves, large refrigerators, and Japanese rice cookers for authentic home cooking.</li>\n  <li><strong>Form C & FRRO Compliance:</strong> Complete administrative support for Foreigners Regional Registration Office (FRRO) registration and Form C issuance.</li>\n  <li><strong>Proximity to Japanese Dining:</strong> Short 10-minute drive to authentic Japanese restaurants, izakayas, and Japanese grocery markets along Golf Course Road.</li>\n</ul>\n\n<p>For bespoke corporate master lease agreements or Japanese relocation arrangements, email <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or call <strong>+91 97117 22273</strong>.</p>\n\n<p>For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>.</p>"
+  },
+  {
     "id": "luxury-builder-floors-vs-high-rise-apartments-gurgaon-corporate-expats",
     "slug": "luxury-builder-floors-vs-high-rise-apartments-gurgaon-corporate-expats",
     "title": "Luxury Builder Floors vs. Gated High-Rise Apartments in Gurgaon: Which is Better for Corporate Expats?",
@@ -1028,6 +1072,106 @@ export const blogPosts = [
       "Serviced Apartments Gurgaon"
     ],
     "content": "<h2>The Global Expatriate Community in Gurgaon</h2>\n      <p>As the international commercial capital of Northern India, Gurgaon hosts thriving expatriate communities from Japan, South Korea, Germany, the United Kingdom, France, and North America. Moving to a new country involves adapting to diverse cultural, linguistic, and climatic nuances. Finding a home that offers uncompromising safety, international sanitation standards, and authentic warmth is essential for a rewarding relocation.</p>\n\n<p>Relocating Japanese or Korean staff? See our dedicated guides to <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing in Gurugram</a> and <a href=\"/gurugram/korean-expat-housing\">Korean expat housing in Gurugram</a>, covering the residences we operate, FRRO support and corporate billing.</p>\n\n      <p><strong><a href=\"/residences\">Residences by Sandane Homes</a></strong> has earned an enviable reputation as the premier housing partner for global mobility managers, relocation consultants, and diplomatic missions across the National Capital Region.</p>\n\n      <h2>The Sandane Homes Expat Advantage</h2>\n      <ul>\n        <li><strong>Tailored Cultural Comforts:</strong> From high-speed Toto-style washlet fittings, Japanese TV channel routing, and water softeners to multilingual guest assistance, our properties are designed with deep cultural sensitivity.</li>\n        <li><strong>Prime Expat Enclaves:</strong> Located in gated, green residential communities in DLF Phase 5 and Golf Course Road, within minutes of international schools, expat grocers, and culinary favorites.</li>\n        <li><strong>Uncompromising Health & Water Safety:</strong> Multi-stage RO filtration systems providing drinking-grade water directly at the kitchen tap, accompanied by advanced air purification options.</li>\n        <li><strong>Personalized Family Concierge:</strong> Assistance with domestic staff sourcing, school transportation logistics, local grocery delivery setup, and verified medical clinic appointments.</li>\n      </ul>\n\n      <h2>Experience True Hospitality in Millennium City</h2>\n      <p>At Residences by Sandane Homes, we do not merely provide four walls and a roof; we curate a safe, comfortable, and vibrant home where families flourish. Contact our expat relocation specialists at <strong><a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a></strong> or telephone <strong>+91 97117 22273</strong>. Discover why we are Gurgaon's top-rated serviced residences at <a href=\"/residences\">Residences by Sandane Homes</a>.</p>"
+  },
+  {
+    "slug": "japanese-school-gurgaon-expat-family-housing-guide",
+    "title": "Japanese School of Gurgaon: Expat Family Housing Guide for DLF Phase 5 & Golf Course Extension",
+    "metaTitle": "Japanese School Gurgaon Expat Family Housing Guide | Sandane",
+    "metaDescription": "Relocating with family? Complete expat housing guide near the Japanese School of Gurgaon (Sector 57). Secure, child-friendly luxury apartments by Sandane Homes.",
+    "subtitle": "School bus routes, secure gated communities, green play areas, and Japanese-friendly amenities in Millennium City.",
+    "category": "Expat Family Housing",
+    "date": "October 1, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Expat Relocation Desk",
+    "coverImage": "/blog/covers/aesthetic-1.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "For Japanese corporate families relocating to Gurgaon, living on the official Japanese School bus route is vital. Discover verified family residences managed by Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Relocating a corporate family to India involves delicate lifestyle considerations, especially when children attend school. The <b>Japanese School of Gurgaon</b> (located in Sector 57) is the educational hub for hundreds of Japanese corporate children. Parents prioritize housing located within secure gated communities directly on the school bus route, near Japanese-friendly pediatric clinics, and minutes from Asian grocery markets. <b>Residences by Sandane Homes</b> curates premium family apartments specifically aligned with these requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Top Gated Societies for Japanese Expat Families"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>DLF Park Place (DLF Phase 5):</b> The premier Japanese family hub featuring dedicated school bus stops, children’s play parks, indoor playzones, and a large active Japanese parent community.",
+          "<b>The Crest (DLF Phase 5):</b> Ultra-luxury living with soundproofed windows, large green central podiums, and multi-tier biometric security.",
+          "<b>Hines Elevate (Sector 59):</b> 100% vehicle-free ground levels ensuring complete pedestrian and child safety within the society.",
+          "<b>Emaar Palm Drive (Sector 66):</b> Close proximity to Sector 57 with wide open lawns, swimming pools, and dedicated security guards."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Child-Safe & Family-Ready Amenities in Every Residence"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our family suites feature deep soaking bathtubs, child-safe balcony railings, certified RO water purifiers, True HEPA air purifiers in every bedroom, and pre-activated Japanese TV channels."
+      },
+      {
+        "type": "callout",
+        "text": "Planning a family relocation to Gurgaon? Explore child-friendly expat suites at <a href='/residences'>Residences by Sandane Homes</a> or contact our Japanese concierge on WhatsApp at <a href='https://wa.me/919711722273'>+91 97117 22273</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>."
+      }
+    ]
+  },
+  {
+    "slug": "korean-corporate-expat-housing-gurgaon-sector-53-54",
+    "title": "Korean Corporate Expat Housing in Gurgaon: Prime Apartments Near Sector 53–54 & South Point Mall",
+    "metaTitle": "Korean Corporate Expat Housing Gurgaon | Sector 53-54 Apartments",
+    "metaDescription": "Prime serviced apartments for Korean expats in Gurgaon near Sector 53-54 & South Point Mall. Korean grocery access, bidet washlets, high-speed WiFi & daily housekeeping.",
+    "subtitle": "Live in the cultural center of Gurgaon's Korean community along Golf Course Road.",
+    "category": "Korean Expat Housing",
+    "date": "October 1, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Korean Hospitality Desk",
+    "coverImage": "/blog/covers/aesthetic-2.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "A dedicated guide for Korean corporate directors and engineers seeking luxury serviced apartments close to South Point Mall and Korean amenities in Gurgaon.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Gurgaon hosts India's largest Korean corporate community, centered around Golf Course Road and Sector 53–54. With South Point Mall, One Horizon Center, authentic Korean BBQ restaurants, and specialized Korean marts (such as Sejong Mart and Gangnam Market) right in the vicinity, Korean professionals value living within minutes of this vibrant hub. <b>Residences by Sandane Homes</b> operates high-spec serviced residences tailored to the cultural expectations of Korean corporate leaders."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/korean-expat-housing\">serviced apartments for Korean expats in Gurugram</a>, including Korean-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Amenities Specifically Fitted for Korean Assignees"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Electronic Bidet Washlets:</b> High-spec Korean-style heated electronic bidets installed in master bathrooms.",
+          "<b>High-Pressure Hot Water:</b> Robust instant and storage hot water systems ensuring uninterrupted high-pressure showers.",
+          "<b>Korean Broadcast Networks:</b> Smart TVs pre-configured with Korean channels, KBS World, and international streaming platforms.",
+          "<b>Full Modular Kitchens:</b> Heavy-duty gas cooktops and large refrigerators suitable for storing kimchi and homemade Korean preparations."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book your Korean-friendly executive residence in Gurgaon today. View suites at <a href='/residences'>Residences by Sandane Homes</a> or email <a href='mailto:residencesbysandanehomes@gmail.com'>residencesbysandanehomes@gmail.com</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>."
+      }
+    ]
   },
   {
     "slug": "german-european-expat-housing-gurgaon-dlf-phase-5",
@@ -6360,6 +6504,96 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "korean-serviced-apartments-in-gurgaon-sector-53-54-golf-course-road",
+    "title": "Korean Serviced Apartments in Gurgaon: Sector 53 & 54 Golf Course Road Guide",
+    "metaTitle": "Korean Serviced Apartments in Gurgaon Sector 53 54 | Sandane Homes",
+    "metaDescription": "Exclusive Korean serviced apartments in Gurgaon Sector 53 & 54. Fully furnished 2BHK & 3BHK suites, Korean TV channels, high-speed Wi-Fi & GST corporate leases.",
+    "subtitle": "Luxury serviced residences tailored for Korean corporate managers and technology engineers in Gurgaon.",
+    "category": "Korean Expat Housing",
+    "date": "September 16, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Korea Desk",
+    "coverImage": "/blog/covers/hotel-room-6106.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching Google for 'Korean serviced apartments in Gurgaon' or 'Korean guest house Sector 54 Gurgaon'? Discover Sandane Homes executive suites.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Gurgaon's Golf Course Road corridor is the preferred residential belt for Korean expats. <b><a href='/residences'>Residences by Sandane Homes</a></b> offers <b>Korean serviced apartments in Gurgaon</b> in Sector 53 and Sector 54 with complete lifestyle support."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/korean-expat-housing\">Korean corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Tailored Lifestyle Features"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Proximity to Asian Markets:</b> Minutes from Korean restaurants and imported Asian grocery stores.",
+          "<b>Daily Housekeeping:</b> 7-day-a-week cleaning service and twice-weekly linen changes.",
+          "<b>Master Corporate Leasing:</b> Direct company-addressed GST invoices."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Explore Korean serviced apartments in Gurgaon at <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-expat-housing-in-gurgaon-near-yamaha-honda-denso-offices",
+    "title": "Japanese Expat Housing in Gurgaon: Serviced Apartments near Cyber City & MG Road",
+    "metaTitle": "Japanese Expat Housing in Gurgaon | Sandane Homes",
+    "metaDescription": "Top Japanese expat housing in Gurgaon near Cyber City & MG Road. Japanese breakfast options, quiet residential surroundings, FRRO clearance & B2B leases.",
+    "subtitle": "Tailored corporate residences for Japanese executives and technical advisors posted in Gurgaon.",
+    "category": "Japanese Expat Housing",
+    "date": "September 16, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Japan Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for 'Japanese expat housing in Gurgaon' or 'Japanese serviced apartments near Cyber City'? Sandane Homes is the trusted expat provider.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Japanese enterprise assignees in Gurgaon prioritize peaceful residential surroundings, authentic Japanese breakfast setups, and prompt FRRO registration. Sandane Homes provides dedicated <b>Japanese expat housing in Gurgaon</b> across gated societies along Golf Course Road."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Key Amenities for Japanese Expats"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Japanese-Friendly Kitchens:</b> Electric rice cookers, mild culinary options, and imported kitchenware.",
+          "<b>Low-Latency Wi-Fi:</b> 300 Mbps fiber internet for video calls with Tokyo and Osaka headquarters.",
+          "<b>Official FRRO Documentation:</b> Formal address certificates issued within 24 hours of arrival."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book Japanese expat housing in Gurgaon at <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ]
+  },
+  {
     "slug": "luxury-corporate-housing-in-gurgaon-dlf-phase-5-golf-course-road",
     "title": "Luxury Corporate Housing in Gurgaon: DLF Phase 5 & Golf Course Road Residences",
     "metaTitle": "Luxury Corporate Housing in Gurgaon | Golf Course Road",
@@ -6542,6 +6776,96 @@ export const blogPosts = [
       {
         "type": "callout",
         "text": "Reserve Chinese executive suites on Sohna Road via <a href='/residences'>Residences by Sandane Homes</a>."
+      }
+    ]
+  },
+  {
+    "slug": "korean-serviced-apartments-gurgaon-golf-course-road-sector-54",
+    "title": "Korean Serviced Apartments Gurgaon Golf Course Road: Luxury Expat Housing",
+    "metaTitle": "Korean Serviced Apartments Gurgaon Golf Course Road | Sandane Homes",
+    "metaDescription": "Premier Korean serviced apartments in Gurgaon on Golf Course Road Sector 54. Fully furnished 2BHK & 3BHK suites, Korean amenities, high-speed Wi-Fi & GST corporate billing.",
+    "subtitle": "Luxury corporate housing tailored specifically for Korean executives, Samsung managers, and visiting technical specialists in Gurgaon.",
+    "category": "Korean Expat Housing",
+    "date": "September 15, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Korea Desk",
+    "coverImage": "/blog/covers/living-room.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Looking for top-rated 'Korean serviced apartments Gurgaon Golf Course Road' or 'Korean corporate guest house Sector 54'? Discover Sandane Homes executive suites.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Korean corporate professionals relocating to Gurgaon require fully serviced residences with high-speed 300 Mbps Wi-Fi, Korean TV channels, and quiet study spaces. <b><a href='/residences'>Residences by Sandane Homes</a></b> offers elite <b>Korean serviced apartments in Gurgaon</b> along Golf Course Road and Sector 54."
+      },
+      {
+        "type": "paragraph",
+        "text": "Relocating Korean staff to Gurugram? Our <a href=\"/gurugram/korean-expat-housing\">Korean expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "Tailored Services for Korean Corporate Assignees"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Kitchen Setup & Korean Amenities:</b> Full induction cooktops, rice cookers, and proximity to Korean grocery stores.",
+          "<b>Rapid Metro Connectivity:</b> Direct walking distance to Sector 53-54 Metro Station connecting to Cyber Hub.",
+          "<b>B2B Master Leasing:</b> Direct corporate master lease contracts with company-addressed GST invoices."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book luxury Korean expat housing on Golf Course Road at <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-serviced-apartments-gurgaon-dlf-phase-2-cyber-city-guide",
+    "title": "Japanese Serviced Apartments Gurgaon DLF Phase 2: Cyber City Expat Guide 2026",
+    "metaTitle": "Japanese Serviced Apartments Gurgaon DLF Phase 2 | Sandane Homes",
+    "metaDescription": "Exclusive Japanese serviced apartments in Gurgaon DLF Phase 2 near Cyber City. Fully furnished executive suites, Japanese breakfast, FRRO verification & B2B leases.",
+    "subtitle": "High-end corporate housing tailored for Japanese corporate assignees, project directors, and engineers working in DLF Cyber City.",
+    "category": "Japanese Expat Housing",
+    "date": "September 15, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Japan Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for 'Japanese serviced apartments Gurgaon DLF Phase 2' or 'Japanese expat housing near Cyber City'? Explore Sandane Homes 5-star corporate suites.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For Japanese corporate managers and tech assignees posted near DLF Cyber City, finding clean, quiet <b>Japanese serviced apartments Gurgaon DLF Phase 2</b> is essential. <b><a href='/residences'>Residences by Sandane Homes</a></b> delivers premium turnkey expat housing with dedicated Japanese hospitality."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moving a Japanese team to Gurugram? Our <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "Why Japanese Mobility Desks Choose Sandane Homes in Gurgaon"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Authentic Japanese Hospitality:</b> Mild breakfast spreads, Japanese rice cookers, and quiet work environments.",
+          "<b>24-Hour FRRO Registration:</b> Instant Form C documentation provided upon check-in for foreign national compliance.",
+          "<b>Consolidated B2B Invoicing:</b> Single master GST invoice generation for enterprise travel desks."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Reserve Japanese serviced apartments in DLF Phase 2 Gurgaon at <a href='/residences'>Residences by Sandane Homes</a> or email B2B@sandanehomes.com."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
       }
     ]
   },
@@ -6954,6 +7278,96 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "chinese-japanese-expat-housing-gurugram-sohna-road-sector-48-49",
+    "title": "Chinese & Japanese Expat Housing Gurugram: Sohna Road & Sector 48/49 Executive Suites",
+    "metaTitle": "Chinese & Japanese Expat Housing Gurugram Sohna Road | Sandane Homes",
+    "metaDescription": "Spacious Chinese and Japanese expat housing in Gurugram on Sohna Road & Sector 48/49. Gated luxury apartments, international culinary setups & corporate master leasing.",
+    "subtitle": "High-yield, fully serviced 2BHK & 3BHK corporate apartments for Asian expat delegations in Gurugram.",
+    "category": "Asian Expat Housing",
+    "date": "September 11, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Asian Desk",
+    "coverImage": "/blog/covers/hotel-room-6106.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Looking for 'Chinese expat housing Gurugram Sohna Road' or 'Japanese expat apartments Sector 48 Gurugram'? Discover Sandane Homes executive suites.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Sohna Road and Sectors 48 & 49 host numerous multinational technology parks and manufacturing headquarters. Sandane Homes provides dedicated <b>Chinese and Japanese expat housing in Gurugram</b> with 5-star service standards."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Why Expat Mobility Managers Choose Sandane Homes"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Spacious Multi-Bedroom Layouts:</b> Ideal for project teams or long-stay expat families.",
+          "<b>High-Speed Connectivity:</b> Uninterrupted 300 Mbps fiber internet for international business communication.",
+          "<b>Comprehensive Administrative Support:</b> Direct GST corporate invoices and FRRO filing."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Explore Sohna Road Asian expat housing at <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-engineers-housing-gurugram-sohna-road-manesar-commute\">Housing for Japanese Engineers Working on Sohna Road or in Manesar: Where to Live in Gurugram</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-serviced-apartments-gurgaon-mg-road-cyber-city-corridor",
+    "title": "Japanese Serviced Apartments Gurgaon MG Road: Direct Access to Cyber City",
+    "metaTitle": "Japanese Serviced Apartments Gurgaon MG Road | Sandane Homes",
+    "metaDescription": "Top Japanese serviced apartments in Gurgaon on MG Road near Cyber City. Quiet luxury residences, Japanese breakfast options, FRRO verification & B2B leases.",
+    "subtitle": "Strategic executive housing on MG Road for Japanese corporate leaders and technical experts working in Cyber Hub.",
+    "category": "Japanese Expat Housing",
+    "date": "September 11, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for 'Japanese serviced apartments Gurgaon MG Road' or 'serviced apartments for Japanese expats near Cyber City'? Sandane Homes delivers 5-star quality.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "MG Road in Gurugram offers direct Metro and road connectivity to DLF Cyber City and IGI Airport. For Japanese companies searching for <b>Japanese serviced apartments Gurgaon MG Road</b>, Sandane Homes provides serene gated luxury apartments with dedicated Japanese hospitality."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Key Amenities for Japanese Professionals"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>24/7 Silent Work Environment:</b> Soundproofed master bedrooms with ergonomic desks.",
+          "<b>FRRO & Form C Assistance:</b> Hassle-free foreign national registration.",
+          "<b>Zero Maintenance Worry:</b> Daily housekeeping and continuous dual power backup."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book your stay on MG Road via <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ]
+  },
+  {
     "slug": "chinese-expat-apartments-gurugram-dlf-phase-5-serviced-residences",
     "title": "Chinese Expat Apartments Gurugram: Luxury Serviced Residences in DLF Phase 5",
     "metaTitle": "Chinese Expat Apartments Gurugram DLF Phase 5 | Sandane Homes",
@@ -6987,6 +7401,51 @@ export const blogPosts = [
       {
         "type": "callout",
         "text": "Inquire for Chinese corporate housing in Gurugram directly at <a href='/residences'>Residences by Sandane Homes</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-corporate-housing-gurugram-golf-course-extension-road",
+    "title": "Japanese Corporate Housing Gurugram: Luxury Serviced Apartments on Golf Course Extension Road",
+    "metaTitle": "Japanese Corporate Housing Gurugram Golf Course Extension | Sandane Homes",
+    "metaDescription": "Premier Japanese corporate housing in Gurugram on Golf Course Extension Road. Authentic Japanese breakfasts, quiet study zones, 300 Mbps Wi-Fi & FRRO compliance.",
+    "subtitle": "High-end 2BHK, 3BHK & 4BHK serviced residences designed specifically for Japanese executives working in Gurugram tech & automotive hubs.",
+    "category": "Japanese Expat Housing",
+    "date": "September 11, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Japan Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for 'Japanese corporate housing Gurugram' or 'Japanese serviced apartments Golf Course Extension Road'? Discover Sandane Homes 5-star expat suites.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Japanese enterprise assignees relocated to Gurugram require clean, serene residential environments with high-speed connectivity and personalized hospitality. <b><a href='/residences'>Residences by Sandane Homes</a></b> provides turnkey <b>Japanese corporate housing in Gurugram</b> along Golf Course Extension Road, Sector 56, and Sector 57."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moving a Japanese team to Gurugram? Our <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "Why Japanese Mobility Managers Select Sandane Homes in Gurugram"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Japanese Culinary Options:</b> Fresh mild breakfast spreads, electric rice cookers, and Japanese tea setups.",
+          "<b>FRRO & Form C Support:</b> Immediate assistance for police verification and official foreign national address proof.",
+          "<b>Consolidated B2B Invoicing:</b> Single GST-compliant monthly master billing for corporate mobility desks."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Reserve Japanese expat corporate housing in Gurugram at <a href='/residences'>Residences by Sandane Homes</a> or email B2B@sandanehomes.com."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>."
       }
     ]
   },
@@ -7464,6 +7923,261 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japanese-serviced-apartments-gurgaon-sohna-road-sector-48-49",
+    "title": "Japanese Serviced Apartments Gurgaon Sohna Road & Sector 48/49: Long-Stay Expat Guide",
+    "metaTitle": "Japanese Serviced Apartments Gurgaon Sohna Road Sector 48 49 | Sandane Homes",
+    "metaDescription": "Spacious Japanese serviced apartments in Gurgaon on Sohna Road & Sector 48/49. Quiet residential gated societies, Japanese breakfast & hassle-free corporate leases.",
+    "subtitle": "Tranquil long-stay residential apartments tailored for Japanese expatriates working in Gurgaon IT parks and industrial belts.",
+    "category": "Expat Housing",
+    "date": "September 10, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-room-6106.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for Japanese serviced apartments Gurgaon Sohna Road or Sector 48/49? Sandane Homes offers serene, fully managed luxury residences superior to Lime Tree.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Sohna Road and Sectors 48 & 49 are highly popular among Japanese professionals seeking spacious, peaceful apartments with modern amenities. For those searching for <b>Japanese serviced apartments Gurgaon</b>, Sandane Homes delivers an unparalleled executive residential experience."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Why Sandane Homes is the Preferred Expat Provider"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unlike basic budget operators like <b>Lime Tree serviced apartments Gurgaon</b>, <b><a href='/residences'>Residences by Sandane Homes</a></b> focuses on 5-star hospitality, silent environment, Japanese breakfast catering, and complete administrative assistance."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Spacious 2BHK & 3BHK Layouts:</b> Separate living, dining, and ergonomic study zones for maximum comfort.",
+          "<b>Uninterrupted Power & High-Speed Wi-Fi:</b> Dual-backup systems ensuring 100% uptime for remote work with Japan.",
+          "<b>Hassle-free FRRO Documentation:</b> Formal address certificates issued immediately upon check-in."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Explore premium Sohna Road expat residences at <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-engineers-housing-gurugram-sohna-road-manesar-commute\">Housing for Japanese Engineers Working on Sohna Road or in Manesar: Where to Live in Gurugram</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-service-apartments-gurgaon-dlf-phase-1-2-3-cyber-city",
+    "title": "Japanese Service Apartments Gurgaon near DLF Phase 1, 2 & 3: Prime Corporate Stays",
+    "metaTitle": "Japanese Service Apartments Gurgaon DLF Phase 1 2 3 | Sandane Homes",
+    "metaDescription": "Top-rated Japanese service apartments in Gurgaon near DLF Phase 1, DLF Phase 2, DLF Phase 3 & Cyber City. Complete expat comfort with Japanese culinary options & FRRO support.",
+    "subtitle": "Institutional Japanese expat corporate housing minutes from DLF Cyber Hub, MG Road, and Ambience Mall.",
+    "category": "Expat Housing",
+    "date": "September 10, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Gurgaon Expat Desk",
+    "coverImage": "/blog/covers/sandane-homes-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Find premium Japanese service apartments Gurgaon near DLF Phase 1, 2 & 3. Superior comfort, 5-star maintenance, and full corporate mobility support by Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "DLF Phase 1, Phase 2, and Phase 3 in Gurgaon are strategic corporate housing hubs due to their immediate proximity to DLF Cyber City and MG Road. When corporate travelers search for <b>Japanese service apartments Gurgaon</b>, Sandane Homes provides the highest standard of living."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Beating Competitors Like Lime Tree in DLF Cyber City Region"
+      },
+      {
+        "type": "paragraph",
+        "text": "While generic property managers like <b>Lime Tree Gurgaon</b> offer basic rooms, <b><a href='/residences'>Residences by Sandane Homes</a></b> manages turnkey, fully serviced luxury apartments. We cater specifically to Japanese technical advisors, project managers, and executive directors."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Customized Japanese Breakfast Spread:</b> Prepared daily with strict adherence to Japanese dietary tastes.",
+          "<b>B2B Direct Corporate Agreements:</b> Master lease options with GST invoicing for Japanese enterprise clients.",
+          "<b>Complete Mobility Management:</b> Airport pickup, dedicated chauffeur arrangements, and FRRO clearance."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Contact Sandane Homes Expat Desk at B2B@sandanehomes.com or view available suites on <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-serviced-apartments-gurgaon-sector-53-54-golf-course-road",
+    "title": "Japanese Serviced Apartments Gurgaon Sector 53 & 54: Elite Expat Residences",
+    "metaTitle": "Japanese Serviced Apartments Gurgaon Sector 53 & 54 | Sandane Homes",
+    "metaDescription": "Exclusive Japanese serviced apartments in Gurgaon Sector 53 & Sector 54. Gated luxury apartments, Japanese amenities, power backup & corporate lease agreements.",
+    "subtitle": "Peaceful, ultra-secure Japanese expat housing near Sun City and Golf Course Road metro corridor.",
+    "category": "Expat Housing",
+    "date": "September 10, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/living-room.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for high-end Japanese serviced apartments Gurgaon Sector 53 or 54? Sandane Homes delivers superior luxury residences designed for Japanese company directors and senior engineers.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Gurgaon Sector 53 and Sector 54 along Golf Course Road are preferred residential enclaves for foreign executives. Corporate buyers searching for <b>Japanese serviced apartments Gurgaon</b> choose Sandane Homes for uncompromised privacy, serene surroundings, and premier hospitality services."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moving a Japanese team to Gurugram? Our <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "The Superior Alternative to Lime Tree Serviced Apartments"
+      },
+      {
+        "type": "paragraph",
+        "text": "Standard operators like <b>Lime Tree serviced apartments Gurgaon</b> lack institutional corporate service management. <b><a href='/residences'>Residences by Sandane Homes</a></b> ensures daily professional housekeeping, continuous 100% power backup, and quiet ergonomic workspaces tailored for long-stay assignees."
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>24/7 Security & Gated Community Access:</b> Ultra-safe environment ideal for Japanese expat families and single professionals.",
+          "<b>Japanese Media & High-Speed Internet:</b> Optical fiber internet ensuring lag-free video conferencing with headquarters in Japan.",
+          "<b>Seamless Transit to Cyber Hub:</b> Located just minutes from Rapid Metro stations on Golf Course Road."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Reserve your long-term or short-term stay with Sandane Homes today via <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-service-apartments-gurgaon-sector-42-43-golf-course-road",
+    "title": "Japanese Service Apartments Gurgaon Sector 42 & 43: Luxury Living on Golf Course Road",
+    "metaTitle": "Japanese Service Apartments Gurgaon Sector 42 & 43 | Sandane Homes",
+    "metaDescription": "Premium Japanese service apartments in Gurgaon Sector 42 & 43 on Golf Course Road. Fully furnished suites, Japanese breakfast, 24/7 security & GST corporate billing.",
+    "subtitle": "Turnkey luxury executive suites tailored specifically for Japanese corporate expatriates in Gurgaon's most prestigious Golf Course Road sector.",
+    "category": "Expat Housing",
+    "date": "September 10, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Looking for top-rated Japanese service apartments Gurgaon Sector 42 or Sector 43? Discover why Sandane Homes is preferred over generic serviced apartments like Lime Tree.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "For Japanese expats deployed along Golf Course Road, finding authentic <b>Japanese service apartments Gurgaon</b> in Sector 42 and Sector 43 is critical. Sandane Homes provides luxury serviced residences with custom Japanese amenities, dedicated workspace, and round-the-clock guest support."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Why Japanese Corporations Select Sandane Homes Over Lime Tree"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unlike budget alternatives such as <b>Lime Tree serviced apartments Gurgaon</b>, <b><a href='/residences'>Residences by Sandane Homes</a></b> provides 5-star hotel-grade maintenance, high-speed 300 Mbps Wi-Fi, Japanese culinary standards, and instant FRRO compliance."
+      },
+      {
+        "type": "heading",
+        "text": "Key Amenities for Japanese Expats in Sector 42/43 Gurgaon"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Japanese-Friendly Breakfast & Kitchens:</b> Freshly prepared mild breakfast options, electric rice cookers, and complete cooking utensils.",
+          "<b>Prime Golf Course Road Access:</b> Quick transit to One Horizon Center, Central Plaza, and DLF Cyber City.",
+          "<b>Instant FRRO Paperwork:</b> Full Form C registration assistance for foreign business assignees.",
+          "<b>Direct Corporate GST Invoicing:</b> Single consolidated monthly billing for enterprise mobility desks."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "Book your luxury Japanese service apartment on Golf Course Road directly at <a href='/residences'>Residences by Sandane Homes</a> or contact B2B@sandanehomes.com."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-service-apartments-gurgaon-golf-course-road-dlf-phase-5",
+    "title": "Japanese Service Apartments Gurgaon: Luxury Corporate Housing on Golf Course Road",
+    "metaTitle": "Japanese Service Apartments Gurgaon | Residences by Sandane Homes",
+    "metaDescription": "Top Japanese service apartments in Gurgaon on Golf Course Road & DLF Phase 5. Japanese breakfast, FRRO support, 300 Mbps Wi-Fi & B2B GST invoicing.",
+    "subtitle": "Turnkey luxury Japanese serviced residences superior to Lime Tree and hotel stays on Golf Course Road, Gurugram.",
+    "category": "Expat Housing",
+    "date": "September 08, 2026",
+    "readTime": "9 min read",
+    "author": "Sandane Homes Gurgaon Expat Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for 'Japanese service apartments Gurgaon'? Discover why Residences by Sandane Homes is the premier choice for Japanese corporate expats over basic serviced apartment providers like Lime Tree.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "When Japanese corporate mobility managers and expat executives search for <b>Japanese service apartments Gurgaon</b>, they require more than just a furnished room. True Japanese hospitality in Gurugram demands immaculate cleanliness, quiet residential environments, authentic Japanese culinary arrangements, and complete FRRO registration support."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Why Sandane Homes Outperforms Lime Tree for Japanese Corporate Expats"
+      },
+      {
+        "type": "paragraph",
+        "text": "While basic apartment providers like <b>Lime Tree serviced apartments Gurgaon</b> offer simple accommodations near Golf Course Road and Sector 52, <b><a href='/residences'>Residences by Sandane Homes</a></b> delivers a superior 5-star residential standard. We combine spacious multi-bedroom apartments in premier gated communities with personalized Japanese guest care."
+      },
+      {
+        "type": "heading",
+        "text": "Tailored Living Features for Japanese Corporate Assignees in Gurgaon"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Japanese-Friendly Kitchens & Breakfast:</b> Fully equipped kitchens, mild hygiene-tested breakfasts, and Japanese rice cookers.",
+          "<b>High-Speed Connectivity & Quiet Workspace:</b> Dedicated ergonomic workstations with uninterrupted 300 Mbps fiber Wi-Fi.",
+          "<b>FRRO & Form C Address Proof:</b> Immediate paperwork assistance for official foreign national registration.",
+          "<b>Consolidated Corporate B2B Billing:</b> Direct GST-compliant master invoicing for MNC travel desks."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "<b>Corporate Mobility Partnership:</b> Contact Sandane Homes Japan Desk at B2B@sandanehomes.com or explore <a href='/residences'>Residences by Sandane Homes</a> to reserve your stay."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>."
+      }
+    ]
+  },
+  {
     "id": "best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
     "slug": "best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
     "title": "Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)",
@@ -7641,6 +8355,112 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "If your assignee is moving with family, or will work on Golf Course Road or in the southern sectors, read our guide to <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese family and executive housing on Golf Course Road</a>. For engineers based on Sohna Road or in Manesar, see <a href=\"/blog/japanese-engineers-housing-gurugram-sohna-road-manesar-commute\">where Japanese engineers working on Sohna Road or in Manesar should live</a>. To check availability, WhatsApp or call <b>+91 97117 22273</b>, or email <a href=\"mailto:residencesbysandanehomes@gmail.com\">residencesbysandanehomes@gmail.com</a>."
+      }
+    ]
+  },
+  {
+    "slug": "japanese-serviced-apartments-gurgaon-ja-guide",
+    "title": "グルガオン 日本人向け サービスアパートメント：高級レジデンス & 法人長期滞在",
+    "metaTitle": "グルガオン 日本人向け サービスアパートメント | Sandane Homes",
+    "metaDescription": "グルガオン(Gurgaon)の日本人向けサービスアパートメント。ゴルフコースロード・DLF・サイバーシティ近く。和朝食、FRROサポート、法人GST請求対応。",
+    "subtitle": "ライムツリー(Lime Tree)等の格安アパートを超えた、真の日本品質ホスピタリティと快適な居住空間。",
+    "category": "Expat Housing",
+    "date": "September 08, 2026",
+    "readTime": "8 min read",
+    "author": "Sandane Homes Japan Desk",
+    "coverImage": "/blog/covers/coco-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "インド・グルガオン（Gurugram）での日本人駐在員様・出張者様向け高級サービスアパートメントのご案内。ゴルフコースロード近郊の安心・安全な住環境。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "インド・デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）において、「<b>グルガオン 日本人向け サービスアパートメント</b>（<b>Japanese service apartments Gurgaon</b>）」をお探しの企業様へ。日系企業の駐在員様や長期出張者様にとって、日本の住習慣に配慮した快適な居住空間の確保は事業成功の必須条件です。"
+      },
+      {
+        "type": "paragraph",
+        "text": "グルガオンでの住まい選びの全体像は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人駐在員向けサービスアパートメント</a>のページをご覧ください。FRRO Form Cのサポートや法人向け請求書の発行にも対応しています。"
+      },
+      {
+        "type": "heading",
+        "text": "ライムツリー(Lime Tree)等の一般アパートメントとの違い"
+      },
+      {
+        "type": "paragraph",
+        "text": "<b><a href='/residences'>Residences by Sandane Homes</a></b> は、Lime Treeなどの一般的なアパートメントや手狭なビジネスホテルとは一線を画す、5つ星ホテル並みの清掃管理と広々とした2BHK/3BHK居住スペースを提供いたします。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人赴任者様・人事ご担当者様への主要サポート"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>FRRO / Form C 迅速発行:</b> 外国人登録に必要な証明書類を迅速に発行。",
+          "<b>法人一括請求（GST対応）:</b> 日本・インド法人宛ての明瞭なB2Bダイレクト請求対応。",
+          "<b>高速Wi-Fi & 静寂な住環境:</b> 在宅ワークに最適な300 Mbps光回線と静寂なゲートコミュニティ。"
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "<b>お気軽にお問い合わせください:</b> 日本人担当デスク B2B@sandanehomes.com または <a href='/residences'>Residences by Sandane Homes</a> をご覧ください。"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ]
+  },
+  {
+    "slug": "japanese-expat-housing-gurgaon-vs-lime-tree-serviced-apartments",
+    "title": "Japanese Expat Housing Gurgaon: Sandane Residences vs Lime Tree Serviced Apartments",
+    "metaTitle": "Japanese Expat Housing Gurgaon vs Lime Tree | Sandane Homes",
+    "metaDescription": "Comparing Japanese expat housing in Gurgaon: Residences by Sandane Homes vs Lime Tree serviced apartments. Discover luxury, space & superior expat care.",
+    "subtitle": "An in-depth corporate comparison for Japanese HR heads evaluating expat accommodation in Gurugram.",
+    "category": "Expat Housing",
+    "date": "September 08, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Corporate Desk",
+    "coverImage": "/blog/covers/glam-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #064E3B 0%, #022C22 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Detailed corporate comparison of Japanese expat housing in Gurgaon. Why multinational HR managers choose Sandane Homes over basic Lime Tree serviced apartments.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "When evaluating options for <b>Japanese expat housing in Gurgaon</b>, corporate travel desks often look at providers like <b>Lime Tree serviced apartments</b> alongside premium operators. However, for senior executives and long-stay technical teams, apartment layout, hygiene standards, and administrative reliability make a decisive difference."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "The Sandane Homes Residential Advantage"
+      },
+      {
+        "type": "paragraph",
+        "text": "<b><a href='/residences'>Residences by Sandane Homes</a></b> offers fully managed luxury residences inside high-security gated enclaves with private kitchens, dedicated study workstations, 300 Mbps internet, and round-the-clock concierge service."
+      },
+      {
+        "type": "heading",
+        "text": "Comparison Highlights for Corporate Procurement"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>Spacious Layouts:</b> 2BHK to 4BHK apartments providing distinct living, dining, and sleeping areas.",
+          "<b>Full Tax & Invoice Compliance:</b> Transparent B2B GST billing directly to company accounts.",
+          "<b>Expat Support Desk:</b> Fast FRRO registration proof and bilingual guest care."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "<b>Schedule a Consultation:</b> Email B2B@sandanehomes.com or visit <a href='/residences'>Residences by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
       }
     ]
   },
@@ -9120,6 +9940,59 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japanese-speaking-support-expat-serviced-apartments-noida-gurgaon",
+    "title": "Japanese Expat Serviced Apartments in NCR: Quiet Living & Dedicated Support",
+    "metaTitle": "Japanese Expat Serviced Apartments NCR | Sandane Homes",
+    "metaDescription": "Serviced apartments tailored for Japanese expatriates in Greater Noida, Noida & Gurgaon. Japanese food options, quiet ambiance, FRRO assistance, and corporate B2B rates.",
+    "subtitle": "Providing peaceful luxury living and high-standard Japanese expat support across Greater Noida and NCR.",
+    "category": "Expat Housing",
+    "date": "September 06, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Japan Desk",
+    "coverImage": "/blog/covers/glam-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #311B92 0%, #1A237E 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "High-spec serviced apartments created to give Japanese corporate expats in NCR a serene, hassle-free environment.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Relocating from Tokyo, Osaka, or Nagoya to Delhi NCR introduces significant lifestyle adjustments. Japanese corporate assignees prioritize safety, peace of mind, high cleanliness standards, and responsive property management."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "The Sandane Homes Residential Standard"
+      },
+      {
+        "type": "paragraph",
+        "text": "At <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> and <b><a href='/residences'>Residences by Sandane Homes</a></b>, we design our guest experience around these exact priorities. Guests enjoy serene interiors, plush bedding, ergonomic study tables, high-speed fiber internet, and attentive staff."
+      },
+      {
+        "type": "heading",
+        "text": "Effortless Expat Onboarding"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<b>FRRO Documentation:</b> Immediate Form C filing and lease proof generation for official government registration.",
+          "<b>Custom Meal Plans:</b> Healthy, mild cuisine prepared with pristine food safety guidelines.",
+          "<b>Transparent Corporate Contracting:</b> Clear agreements directly with employer travel/HR departments."
+        ]
+      },
+      {
+        "type": "callout",
+        "text": "<b>Book a Site Inspection:</b> Contact Sandane Homes Japan Desk at B2B@sandanehomes.com or view <a href='/the-glam'>The Glam by Sandane Homes</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ]
+  },
+  {
     "slug": "sekisui-dljm-corporate-housing-greater-noida-yeida",
     "title": "Corporate Housing for SEKISUI DLJM Engineers & Executives in Greater Noida",
     "metaTitle": "SEKISUI DLJM Corporate Housing Greater Noida | Residences by Sandane Homes",
@@ -9559,6 +10432,76 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japanese-expat-serviced-apartments-gurgaon-delhi-ncr-housing-guide",
+    "title": "グルガオン サービスアパートメント: 日本人向け サービスアパート インド (Japanese Expat Housing)",
+    "metaTitle": "グルガオン サービスアパートメント | 日本人向け サービスアパート インド",
+    "metaDescription": "グルガオン サービスアパートメント & 日本人向け サービスアパート インド. Premium corporate housing in Gurugram near DLF Cyber City with Japanese food, Japanese-speaking support & B2B GST invoicing.",
+    "subtitle": "Turnkey luxury serviced apartments for Japanese corporate executives in Gurugram, Greater Noida & Delhi NCR.",
+    "category": "Expat Housing",
+    "date": "September 03, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/residences-editorial.png",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン サービスアパートメント & 日本人向け サービスアパート インド. <b>Residences by Sandane Homes</b> は日系企業の駐在員様・出張者様向けに最上の住環境を提供いたします。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "インド・デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）および大ノイダ（Greater Noida）には、多くの日系グローバル企業が進出しています。長長期の出張や赴任における住宅選びでは、日本の住習慣に合わせた「<b>グルガオン サービスアパートメント</b>」や「<b>日本人向け サービスアパート インド</b>」の選択が成功の鍵を握ります。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、日本規格のホスピタリティと快適性を追求した理想的なレジデンスです。"
+      },
+      {
+        "type": "paragraph",
+        "text": "人事・赴任ご担当者様は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人向け法人住宅</a>のページで物件とサポート内容をまとめてご確認いただけます。"
+      },
+      {
+        "type": "heading",
+        "text": "日系企業のHR・赴任者が Sandane Homes を選ぶ理由 (Key Reasons to Choose Us)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>日本語対応 コンドミニアム デリー (Japanese-Speaking Support):</strong> 日本語サポートが可能なコンシェルジュが常驻し、日々の生活サポートや緊急時対応も万全。",
+          "<strong>日本食対応 サービスアパート グルガオン (Japanese Breakfast & Meals):</strong> 焼き魚、味噌汁、日本米のご注文や客室内の自炊型フルキッチン完備。",
+          "<strong>NHK プレミアム & 日本語衛星放送:</strong> 全室にNHK Premiumを完備し、日本の最新ニュースや番組をリアルタイムで視聴可能。",
+          "<strong>デリー 安全 エリア 駐在 ファミリー (Gated Safe Security):</strong> 24時間警備員配置、CCTVカメラ、カードキーアクセスで女性やご家族も安心。",
+          "<strong>日系企業向け GST 税務インボイス (B2B Billing):</strong> 法人経理規定に対応したB2B GST領収書発行および月極長期契約プラン。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Gurugram & Greater Noida | 日本人担当窓口: +91 97117 22273",
+        "attribution": "— インド・デリーNCR日系企業向け最高級サービスアパート"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "日系企業の法人契約およびGST領収書の発行は可能ですか？",
+        "answer": "はい、日系法人様向けの長期賃貸契約および正规のGSTインボイス発行に対応しております。"
+      },
+      {
+        "question": "日本語対応のスタッフは常駐していますか？",
+        "answer": "はい、日本語での問合せや生活相談に対応できる専任コンシェルジュがサポートいたします。"
+      }
+    ],
+    "tags": [
+      "グルガオン サービスアパートメント",
+      "日本人向け サービスアパート インド",
+      "グレーターノイダ 駐在員 住居",
+      "日本食対応 サービスアパート グルガオン",
+      "日本語対応 コンドミニアム デリー",
+      "デリー 安全 エリア 駐在 ファミリー",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
     "slug": "greater-noida-expat-housing-japanese-serviced-apartments-delhi-ncr",
     "title": "グレーターノイダ 駐在員 住居: インド デリー NCR 高級コンドミニアム (Greater Noida Expat Housing)",
     "metaTitle": "グレーターノイダ 駐在員 住居 | インド デリー NCR 高級コンドミニアム",
@@ -9612,6 +10555,273 @@ export const blogPosts = [
       "日本人向け サービスアパート インド",
       "CoCo House",
       "Amaaltash by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "serviced-apartments-in-gurugram-corporate-housing-greater-noida-japanese-expats",
+    "title": "Serviced Apartments in Gurugram & Corporate Housing Greater Noida for Japanese Expats",
+    "metaTitle": "Serviced Apartments in Gurugram | Corporate Housing Greater Noida Japanese Expats",
+    "metaDescription": "Serviced apartments in Gurugram & corporate housing Greater Noida for Japanese expats. Japanese food, Japanese-speaking support, NHK Premium & B2B GST tax billing.",
+    "subtitle": "High-intent guide to luxury serviced apartments in Gurugram, Greater Noida & Delhi NCR tailored for Japanese corporate teams.",
+    "category": "Expat Housing",
+    "date": "September 03, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-room-6257.jpg",
+    "coverGradient": "linear-gradient(135deg, #1E293B 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Searching for <i>Serviced apartments in Gurugram</i> or <i>Corporate housing Greater Noida</i> for Japanese delegates? <b>Residences by Sandane Homes</b> delivers turnkey expat living.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "When Japanese HR managers and relocation agencies search for <b>Serviced apartments in Gurugram</b>, <b>Corporate housing Greater Noida</b>, or <b>Luxury serviced apartments Delhi NCR</b>, they prioritize security, seamless connectivity, Japanese-speaking support, and direct corporate billing. <a href='/residences'>Residences by Sandane Homes</a>, <a href='/coco-house'>CoCo House</a>, and <a href='/the-glam'>The Glam by Sandane Homes</a> set the benchmark for Japanese expat living across Delhi NCR."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moving a Japanese team to Gurugram? Our <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "Comprehensive Features for Japanese Expat Housing"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Serviced Apartments with Japanese Food Gurgaon:</strong> Daily Japanese breakfast options (miso soup, salmon/mackerel, sticky rice) and fully equipped private kitchenettes.",
+          "<strong>Japanese-Speaking Support:</strong> On-site Japanese speaking guest relation officers for smooth communication.",
+          "<strong>NHK Premium Satellite Channels:</strong> Live Japanese television channels, sports, and daily news updates.",
+          "<strong>Gated Safety & Safe Areas:</strong> Gated community security with 24/7 CCTV surveillance, ideal for corporate delegates and expat families.",
+          "<strong>Direct Corporate B2B GST Billing:</strong> Compliant tax invoices generated for easy corporate reimbursement."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Sandane Homes Corporate Desk | Gurugram & Greater Noida | Contact: +91 97117 22273 | sandanehomes.com",
+        "attribution": "— Standard of Excellence for Japanese Corporate Living in India"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does Sandane Homes support long-term corporate lease contracts?",
+        "answer": "Yes, we offer flexible monthly, quarterly, and annual corporate leases with itemized B2B GST billing."
+      },
+      {
+        "question": "Are high-speed internet and power backup available 24/7?",
+        "answer": "All properties feature dedicated 300 Mbps fiber optic internet with 100% generator power backup."
+      }
+    ],
+    "tags": [
+      "Serviced apartments in Gurugram",
+      "Corporate housing Greater Noida",
+      "Luxury serviced apartments Delhi NCR",
+      "Expat serviced apartments Gurgaon",
+      "Japanese expat housing Noida",
+      "Corporate long stay apartments Delhi",
+      "Fully managed apartments Delhi NCR",
+      "Serviced apartments with Japanese food Gurgaon",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-food-serviced-apartment-gurgaon-japanese-speaking-condo-delhi",
+    "title": "日本食対応 サービスアパート グルガオン: 日本語対応 コンドミニアム デリー (Sandane Homes)",
+    "metaTitle": "日本食対応 サービスアパート グルガオン | 日本語対応 コンドミニアム デリー",
+    "metaDescription": "日本食対応 サービスアパート グルガオン & 日本語対応 コンドミニアム デリー. Luxury expat residences near DLF Cyber City with Japanese breakfast, Japanese support staff & GST invoices.",
+    "subtitle": "Japanese culinary offerings, Japanese-speaking support staff, and luxury condominium comfort in Delhi NCR.",
+    "category": "Expat Housing",
+    "date": "September 03, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-room-6108.jpg",
+    "coverGradient": "linear-gradient(135deg, #111827 0%, #1F2937 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "日本食対応 サービスアパート グルガオン & 日本語対応 コンドミニアム デリー. <b>Residences by Sandane Homes</b> は和食朝食と日本語スタッフを完備した最高級住居です。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "「<b>日本食対応 サービスアパート グルガオン</b>」や「<b>日本語対応 コンドミニアム デリー</b>」をお探しの企業担当者様へ。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> では、インドに滞在しながら日本の食生活と安心感を維持できる特別な住まいを提供しております。"
+      },
+      {
+        "type": "paragraph",
+        "text": "グルガオンでの住まい選びの全体像は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人駐在員向けサービスアパートメント</a>のページをご覧ください。FRRO Form Cのサポートや法人向け請求書の発行にも対応しています。"
+      },
+      {
+        "type": "heading",
+        "text": "本格的な和食サービスと日本語サポート"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>日本食対応 サービスアパート:</strong> 毎朝の焼き魚、味噌汁、日本米などの和定食朝食サービス。",
+          "<strong>日本語対応 コンドミニアム:</strong> 日本語でスムーズにコミュニケーションができる専任スタッフ常駐。",
+          "<strong>インド 長期出張 ホテル 快適:</strong> 深めのバスタブ、温水洗浄便座（ウォシュレット）、300 Mbps 光Wi-Fi。",
+          "<strong>デリー 安全 エリア 駐在 ファミリー:</strong> 厳重なセキュリティシステムと清潔な住環境。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Cyber City Gurugram | ご予約: +91 97117 22273",
+        "attribution": "— グルガオンの日系企業・駐在員様向け最高級レジデンス"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "お部屋で自炊をすることは可能ですか？",
+        "answer": "はい、全客室に電子レンジ、IH/ガスコンロ、大型冷蔵庫、調理器具一式を完備しております。"
+      }
+    ],
+    "tags": [
+      "日本食対応 サービスアパート グルガオン",
+      "日本語対応 コンドミニアム デリー",
+      "インド 長期出張 ホテル 快適",
+      "デリー 安全 エリア 駐在 ファミリー",
+      "グルガオン サービスアパートメント",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-expat-luxury-residences-dlf-cyber-city-gurgaon-nhk-premium",
+    "title": "グルガオン 日本人 宿泊: Premium Japanese Expat Residences Cyber City Gurugram",
+    "metaTitle": "グルガオン 日本人 宿泊 | Japanese Expat Residences Gurgaon",
+    "metaDescription": "グルガオン 日本人 宿泊 & サービスアパートメント. Luxury Japanese expat residences near DLF Cyber City with NHK Premium, Japanese breakfast, Japanese speaking staff & GST billing.",
+    "subtitle": "Premier Japanese corporate accommodation and long-stay serviced suites near DLF Cyber City Gurugram.",
+    "category": "Expat Housing",
+    "date": "September 01, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-room-6106.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> は日系企業の駐在員様・出張者様向けに最上の住環境を提供いたします。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）には、自動車、電機、IT、金融など多くの日系企業が進出しています。長長期の出張や赴任における住宅選びでは、日本同様の安心感と快適性が求められます。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、<b>グルガオン 日本人 宿泊</b>・法人向けサービスアパートメントとして、完璧な住環境を提供いたします。"
+      },
+      {
+        "type": "paragraph",
+        "text": "人事・赴任ご担当者様は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人向け法人住宅</a>のページで物件とサポート内容をまとめてご確認いただけます。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人駐在員・出張者が選ぶ5つの理由"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Gurgaon serviced apartment Japanese speaking staff):</strong> 日本語サポートが可能なコンシェルジュが常驻。",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> 日本のテレビ番組やニュースをリアルタイムでご視聴可能なNHK Premium衛星放送完備。",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> 温水洗浄便座（ウォシュレット）、深いバスタブ、自炊用キッチン完備。",
+          "<strong>和食朝食 (Japanese Breakfast):</strong> 焼き魚、味噌汁、日本米をセットにした和定食を提供。",
+          "<strong>日系企業向け GST 税務インボイス:</strong> B2B GST 請求書の発行及び法人長期契約に対応。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Cyber City Gurugram | +91 97117 22273",
+        "attribution": "— Premium Japanese Corporate Accommodation in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "日系企業の法人契約およびGST領収書の発行は可能ですか？",
+        "answer": "はい、日系法人様向けの長期賃貸契約および正规のGSTインボイス発行に対応しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Japanease style service apartment DLF Cyber City",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-corporate-serviced-apartments-golf-course-extension-gurugram",
+    "title": "グルガオン サービスアパートメント: Japanese Corporate Apartments Cyber City & Golf Course Road",
+    "metaTitle": "グルガオン サービスアパートメント | Japanese Corporate Apartments Gurugram",
+    "metaDescription": "グルガオン サービスアパートメント & 日本人向け ホテル. Executive long-stay residences near Cyber City with Japanese breakfast, NHK channels & Japanese speaking staff.",
+    "subtitle": "High-end Japanese style serviced apartments located near Cyber City and Golf Course Road.",
+    "category": "Expat Housing",
+    "date": "September 01, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-interior-1.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Japanease style service apartment DLF Cyber City or グルガオン サービスアパートメント. Luxury residences with full Japanese amenities by Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Looking for a <i>Japanease style service apartment DLF Cyber City</i> or <i>グルガオン サービスアパートメント</i>? <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> offer state-of-the-art corporate residences tailored to Japanese expat requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Designed for Executive Japanese Expats"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Japanese speaking staff:</strong> Friendly Japanese-speaking guest relations staff.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Dedicated satellite TV with live Japanese channels.",
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> Prime position near DLF Cyber City and Golf Course Road.",
+          "<strong>Daily Housekeeping & Laundry:</strong> High-standard daily cleaning and laundry services."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Gurugram | Reservations: +91 97117 22273",
+        "attribution": "— Preferred Executive Housing for Japanese Corporate Teams"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/japanese-corporate-housing-gurugram-golf-course-road\">Japanese Family and Executive Housing on Golf Course Road and Golf Course Extension Road, Gurugram</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is high-speed optical fiber WiFi available?",
+        "answer": "Yes, dedicated 300 Mbps fiber internet with power backup is standard in every suite."
+      }
+    ],
+    "tags": [
+      "Japanease style service apartment DLF Cyber City",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Residences by Sandane Homes"
     ]
   },
   {
@@ -9840,6 +11050,137 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japan-corporate-long-stay-serviced-apartments-gurgaon-dlf-cyber-city",
+    "title": "グルガオン 日本人 宿泊: Japanese Corporate Long Stay Apartments DLF Cyber City",
+    "metaTitle": "グルガオン 日本人 宿泊 | Japanese Long Stay Apartments Gurgaon",
+    "metaDescription": "グルガオン 日本人 宿泊 & サービスアパートメント. High-end Japanese corporate long stay apartments near DLF Cyber City Gurugram. NHK Premium, Japanese breakfast, Japanese speaking staff & GST billing.",
+    "subtitle": "Turnkey luxury Japanese expat long stay apartments near DLF Cyber City and Golf Course Road Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 31, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/luxury-suite-7272.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> は日系企業の駐在員様・出張者様向けに最上の住環境を提供いたします。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）には、自動車、電機、IT、金融など多くの日系企業が進出しています。長長期の出張や赴任における住宅選びでは、日本同様の安心感と快適性が求められます。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、<b>グルガオン 日本人 宿泊</b>・法人向けサービスアパートメントとして、完璧な住環境を提供いたします。"
+      },
+      {
+        "type": "paragraph",
+        "text": "グルガオンでの住まい選びの全体像は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人駐在員向けサービスアパートメント</a>のページをご覧ください。FRRO Form Cのサポートや法人向け請求書の発行にも対応しています。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人駐在員・出張者が選ぶ5つの理由"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Gurgaon serviced apartment Japanese speaking staff):</strong> 日本語サポートが可能なコンシェルジュが常驻。",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> 日本のテレビ番組やニュースをリアルタイムでご視聴可能なNHK Premium衛星放送完備。",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> 温水洗浄便座（ウォシュレット）、深いバスタブ、自炊用キッチン完備。",
+          "<strong>和食朝食 (Japanese Breakfast):</strong> 焼き魚、味噌汁、日本米をセットにした和定食を提供。",
+          "<strong>日系企業向け GST 税務インボイス:</strong> B2B GST 請求書の発行及び法人長期契約に対応。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Cyber City Gurugram | +91 97117 22273",
+        "attribution": "— Premium Japanese Corporate Accommodation in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "日系企業の法人契約およびGST領収書の発行は可能ですか？",
+        "answer": "はい、日系法人様向けの長期賃貸契約および正规のGSTインボイス発行に対応しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Japanease style service apartment DLF Cyber City",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-speaking-hospitality-serviced-apartment-cyber-hub-gurgaon",
+    "title": "サイバーシティ 日本語対応 レジデンス: Japanese Speaking Staff Serviced Apartment Gurgaon",
+    "metaTitle": "サイバーシティ 日本語対応 レジデンス | Japanese Speaking Staff Serviced Apartment",
+    "metaDescription": "サイバーシティ 日本語対応 レジデンス & Gurgaon serviced apartment Japanese speaking staff. Executive long-stay residences near Cyber City with Japanese breakfast & GST billing.",
+    "subtitle": "High-end Japanese style serviced apartments located near Cyber City and Golf Course Road.",
+    "category": "Expat Housing",
+    "date": "August 31, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/luxury-suite-7278.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Japanease style service apartment DLF Cyber City or サイバーシティ 日本語対応 レジデンス. Luxury residences with full Japanese amenities by Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Looking for a <i>Japanease style service apartment DLF Cyber City</i> or <i>サイバーシティ 日本語対応 レジデンス</i>? <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> offer state-of-the-art corporate residences tailored to Japanese expat requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Designed for Executive Japanese Expats"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Japanese speaking staff:</strong> Friendly Japanese-speaking guest relations staff.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Dedicated satellite TV with live Japanese channels.",
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> Prime position near DLF Cyber City and Golf Course Road.",
+          "<strong>Daily Housekeeping & Laundry:</strong> High-standard daily cleaning and laundry services."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Gurugram | Reservations: +91 97117 22273",
+        "attribution": "— Preferred Executive Housing for Japanese Corporate Teams"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is high-speed optical fiber WiFi available?",
+        "answer": "Yes, dedicated 300 Mbps fiber internet with power backup is standard in every suite."
+      }
+    ],
+    "tags": [
+      "Japanease style service apartment DLF Cyber City",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
     "slug": "korean-executive-housing-samsung-noida-serviced-apartments",
     "title": "구루가온 한국인 주재원 숙소: Samsung Noida Nearby Serviced Apartment for Koreans",
     "metaTitle": "구루가온 한국인 주재원 숙소 | Samsung Noida Nearby Serviced Apartment for Koreans",
@@ -9895,6 +11236,69 @@ export const blogPosts = [
       "Gurgaon serviced apartment Korean breakfast",
       "CoCo House",
       "Amaaltash by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "noida-korean-corporate-housing-long-stay-serviced-apartments-gurugram",
+    "title": "Noida Korean Corporate Housing Long Stay: 델리 NCR 한국인 아파트",
+    "metaTitle": "Noida Korean Corporate Housing Long Stay | 델리 NCR 한국인 아파트",
+    "metaDescription": "Noida Korean corporate housing long stay & 델리 NCR 한국인 아파트. Executive corporate rentals near Noida Sector 81 & Gurugram with Korean meals & B2B GST billing.",
+    "subtitle": "High-end long-stay corporate housing tailored for Korean multinational teams across Noida & Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 31, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/aesthetic-2.jpg",
+    "coverGradient": "linear-gradient(135deg, #111827 0%, #1F2937 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Noida Korean corporate housing long stay or 델리 NCR 한국인 아파트 with Sandane Homes. High-end long-stay corporate rentals near Samsung Noida.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Looking for <i>Noida Korean corporate housing long stay</i> or <i>델리 NCR 한국인 아파트</i>? <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/coco-house'>CoCo House</a></b> deliver executive long-stay corporate accommodations."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/korean-expat-housing\">serviced apartments for Korean expats in Gurugram</a>, including Korean-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Korean Expat Corporate Amenities"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Korean breakfast / food:</strong> Daily Korean breakfast set menu with miso/kimchi soup.",
+          "<strong>Samsung Noida nearby serviced apartment for Koreans:</strong> Fast access to Samsung Electronics Sector 81 hub.",
+          "<strong>Corporate Accounting Ready:</strong> B2B GST tax invoices issued upon checkout."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & CoCo House | Expat Desk: +91 97117 22273",
+        "attribution": "— Executive Corporate Accommodations across Delhi NCR"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are group corporate rates available for long-term stays?",
+        "answer": "Yes, we offer special monthly corporate rates for stay durations over 30 days."
+      }
+    ],
+    "tags": [
+      "Noida Korean corporate housing long stay",
+      "델리 NCR 한국인 아파트",
+      "구루가온 한국인 주재원 숙소",
+      "Samsung Noida nearby serviced apartment for Koreans",
+      "Gurgaon serviced apartment Korean breakfast",
+      "Residences by Sandane Homes"
     ]
   },
   {
@@ -10006,6 +11410,73 @@ export const blogPosts = [
       "古尔冈 服务式公寓",
       "Greater Noida corporate housing monthly rental GST invoice",
       "Amara Inn by Sandane Homes",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-guest-house-gurgaon-cyber-city-nhk-premium",
+    "title": "グルガオン 日本人 宿泊 & ゲストハウス: Japanese Corporate Guest House Cyber City",
+    "metaTitle": "グルガオン 日本人 宿泊 | Japanese Corporate Guest House Gurgaon",
+    "metaDescription": "グルガオン 日本人 宿泊 & ゲストハウス. Premium Japanese corporate guest house near DLF Cyber City with NHK Premium, Japanese breakfast & GST billing.",
+    "subtitle": "Turnkey luxury Japanese corporate guest house near DLF Cyber City Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 26, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/aesthetic-7.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> は日系企業の駐在員様・出張者様向けに最上の住環境を提供いたします。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）には、自動車、電機、IT、金融など多くの日系企業が進出しています。長長期の出張や赴任における住宅選びでは、日本同様の安心感と快適性が求められます。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、<b>グルガオン 日本人 宿泊</b>・法人向けサービスアパートメントとして、完璧な住環境を提供いたします。"
+      },
+      {
+        "type": "paragraph",
+        "text": "人事・赴任ご担当者様は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人向け法人住宅</a>のページで物件とサポート内容をまとめてご確認いただけます。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人駐在員・出張者が選ぶ5つの理由"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Gurgaon serviced apartment Japanese speaking staff):</strong> 日本語サポートが可能なコンシェルジュが常驻。",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> 日本のテレビ番組やニュースをリアルタイムでご視聴可能なNHK Premium衛星放送完備。",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> 温水洗浄便座（ウォシュレット）、深いバスタブ、自炊用キッチン完備。",
+          "<strong>和食朝食 (Japanese Breakfast):</strong> 焼き魚、味噌汁、日本米をセットにした和定食を提供。",
+          "<strong>日系企業向け GST 税務インボイス:</strong> B2B GST 請求書の発行及び法人長期契約に対応。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Cyber City Gurugram | +91 97117 22273",
+        "attribution": "— Premium Japanese Corporate Accommodation in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "日系企業の法人契約およびGST領収書の発行は可能ですか？",
+        "answer": "はい、日系法人様向けの長期賃貸契約および正规のGSTインボイス発行に対応しております。"
+      }
+    ],
+    "tags": [
+      "グルガ온 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Japanease style service apartment DLF Cyber City",
       "Residences by Sandane Homes"
     ]
   },
@@ -10395,6 +11866,137 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japanese-expat-accommodation-gurgaon-serviced-apartment-cyber-city",
+    "title": "グルガオン 日本人 宿泊: Gurgaon Serviced Apartment Japanese Speaking Staff & NHK Premium",
+    "metaTitle": "グルガオン 日本人 宿泊 | Gurgaon Serviced Apartment Japanese Expat Stay",
+    "metaDescription": "グルガオン 日本人 宿泊 & サービスアパートメント. Japanese corporate accommodation near DLF Cyber City Gurugram with NHK Premium, Japanese breakfast, Japanese speaking staff & GST billing.",
+    "subtitle": "Turnkey luxury Japanese expat accommodation near DLF Cyber City and Golf Course Road Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 25, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/aesthetic-14.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> は日系企業の駐在員様・出張者様向けに最上の住環境を提供いたします。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）には、自動車、電機、IT、金融など多くの日系企業が進出しています。長長期の出張や赴任における住宅選びでは、日本同様の安心感と快適性が求められます。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、<b>グルガオン 日本人 宿泊</b>・法人向けサービスアパートメントとして、完璧な住環境を提供いたします。"
+      },
+      {
+        "type": "paragraph",
+        "text": "グルガオンでの住まい選びの全体像は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人駐在員向けサービスアパートメント</a>のページをご覧ください。FRRO Form Cのサポートや法人向け請求書の発行にも対応しています。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人駐在員・出張者が選ぶ5つの理由"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Gurgaon serviced apartment Japanese speaking staff):</strong> 日本語サポートが可能なコンシェルジュが常驻。",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> 日本のテレビ番組やニュースをリアルタイムでご視聴可能なNHK Premium衛星放送完備。",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> 温水洗浄便座（ウォシュレット）、深いバスタブ、自炊用キッチン完備。",
+          "<strong>和食朝食 (Japanese Breakfast):</strong> 焼き魚、味噌汁、日本米をセットにした和定食を提供。",
+          "<strong>日系企業向け GST 税務インボイス:</strong> B2B GST 請求書の発行及び法人長期契約に対応。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Cyber City Gurugram | +91 97117 22273",
+        "attribution": "— Premium Japanese Corporate Accommodation in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "日系企業の法人契約およびGST領収書の発行は可能ですか？",
+        "answer": "はい、日系法人様向けの長期賃貸契約および正规のGSTインボイス発行に対応しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Japanease style service apartment DLF Cyber City",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-style-serviced-apartments-gurgaon-dlf-cyber-hub",
+    "title": "Japanease Style Service Apartment DLF Cyber City: グルガオン サービスアパートメント",
+    "metaTitle": "Japanease Style Service Apartment DLF Cyber City | Sandane Homes",
+    "metaDescription": "Japanease style service apartment DLF Cyber City & グルガオン サービスアパートメント. Executive long-stay residences with Japanese breakfast, NHK channels & Japanese speaking staff.",
+    "subtitle": "High-end Japanese style serviced apartments located minutes from Cyber Hub and Golf Course Road.",
+    "category": "Expat Housing",
+    "date": "August 25, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/aesthetic-15.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Japanease style service apartment DLF Cyber City or グルガオン サービスアパートメント. Luxury residences with full Japanese amenities by Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Looking for a <i>Japanease style service apartment DLF Cyber City</i> or <i>グルガオン サービスアパートメント</i>? <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> offer state-of-the-art corporate residences tailored to Japanese expat requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Designed for Executive Japanese Expats"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Japanese speaking staff:</strong> Friendly Japanese-speaking guest relations staff.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Dedicated satellite TV with live Japanese channels.",
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> Prime position near DLF Cyber City and Golf Course Road.",
+          "<strong>Daily Housekeeping & Laundry:</strong> High-standard daily cleaning and laundry services."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Gurugram | Reservations: +91 97117 22273",
+        "attribution": "— Preferred Executive Housing for Japanese Corporate Teams"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is high-speed optical fiber WiFi available?",
+        "answer": "Yes, dedicated 300 Mbps fiber internet with power backup is standard in every suite."
+      }
+    ],
+    "tags": [
+      "Japanease style service apartment DLF Cyber City",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
     "slug": "samsung-noida-nearby-serviced-apartment-for-koreans-greater-noida",
     "title": "Samsung Noida Nearby Serviced Apartment for Koreans: 그레이터 노이다 서비스 아파트",
     "metaTitle": "Samsung Noida Nearby Serviced Apartment for Koreans | Sandane Homes",
@@ -10616,6 +12218,196 @@ export const blogPosts = [
       "古尔冈 服务式公寓",
       "Greater Noida corporate housing monthly rental GST invoice",
       "Amara Inn by Sandane Homes",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "gurgaon-serviced-apartment-japanese-speaking-staff-cyber-city",
+    "title": "Gurgaon Serviced Apartment Japanese Speaking Staff: サイバーシティ 日本語対応 レジデンス",
+    "metaTitle": "Gurgaon Serviced Apartment Japanese Speaking Staff | Sandane Homes",
+    "metaDescription": "Gurgaon serviced apartment Japanese speaking staff & サイバーシティ 日本語対応 レジデンス. Luxury expat suites near Cyber City with NHK Premium, Japanese breakfast & GST billing.",
+    "subtitle": "Turnkey luxury serviced apartments in Gurugram featuring dedicated Japanese-speaking concierge and staff.",
+    "category": "Expat Housing",
+    "date": "August 23, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/coco-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Gurgaon serviced apartment Japanese speaking staff or サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> delivers executive expat living near Cyber City.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Having dedicated <i>Gurgaon serviced apartment Japanese speaking staff</i> makes a world of difference for Japanese corporate executives and long-stay business delegates in Delhi NCR. <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> provide Japanese-speaking hospitality, custom culinary services, and prime access to DLF Cyber City."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Tailored Amenities for Japanese Corporate Housing"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> Front desk and concierge assistance fluent in Japanese for daily living needs.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Full satellite TV package with Japanese live channels and news.",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> Deep soaking tubs, high-pressure hot water systems, and equipped kitchens.",
+          "<strong>Japanese Breakfast Options:</strong> Morning Japanese bento sets with miso soup, grilled salmon, and steamed sticky rice."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Gurugram | Call: +91 97117 22273",
+        "attribution": "— Premium Japanese Corporate Housing in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How far is the residence from DLF Cyber City?",
+        "answer": "Our Gurugram properties are located within 10 to 15 minutes signal-free drive from DLF Cyber City."
+      }
+    ],
+    "tags": [
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "サイバーシティ 日本語対応 レジデンス",
+      "グルガオン 日本人 宿泊",
+      "NHK プレミアム グルガオン ホテル",
+      "Japanease style service apartment DLF Cyber City",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "nhk-premium-gurugram-hotel-japanese-accommodation",
+    "title": "NHK プレミアム グルガオン ホテル: Japanese Expat Hotel & Residences in Gurugram",
+    "metaTitle": "NHK プレミアム グルガオン ホテル | Japanese Accommodation Gurugram",
+    "metaDescription": "NHK プレミアム グルガオン ホテル & グルガオン 日本人 宿泊. Serviced apartments with NHK Premium, Japanese breakfast, Japanese support staff & B2B GST tax invoices.",
+    "subtitle": "Stay connected to Japan with live satellite channels, traditional meals, and Japanese-speaking support staff in Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 23, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/coco-reception.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "NHK プレミアム グルガオン ホテル & 日本人向け ホテル. <b>The Glam by Sandane Homes</b> では全室でNHKプレミアムをご視聴いただけます。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "インド・グルガオンでの出張や長期間の駐在生活において、日本のニュースや番組をリアルタイムで試聴できる「<b>NHK プレミアム グルガオン ホテル</b>」環境は大変重要です。<b><a href='/the-glam'>The Glam by Sandane Homes</a></b> および <b><a href='/residences'>Residences by Sandane Homes</a></b> では、全室に高品質テレビとNHK Premium衛星放送を標準完備しております。"
+      },
+      {
+        "type": "paragraph",
+        "text": "人事・赴任ご担当者様は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人向け法人住宅</a>のページで物件とサポート内容をまとめてご確認いただけます。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人駐在員様に快適な住環境をご提供"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>グルガオン 日本人 宿泊 / 日本人向け ホテル:</strong> 日本人気質の細やかなおもてなしとプライバシーの確保。",
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> サイバーシティや主要オフィス街へアクセス抜群の立地。",
+          "<strong>和食朝食 ＆ キッチン完備:</strong> 毎朝の和定食サービスと自炊可能な調理器具一式。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The Glam by Sandane Homes | Gurugram | Reservations: +91 97117 22273",
+        "attribution": "— Premium Serviced Apartments for Japanese Expats"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "NHK プレミアムは全客室で利用可能ですか？",
+        "answer": "はい、当レジデンスの全客室にてNHK Premiumチャンネルをご視聴いただけます。"
+      }
+    ],
+    "tags": [
+      "NHK プレミアム グルガオン ホテル",
+      "グルガオン 日本人 宿泊",
+      "日本人向け ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "The Glam by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "gurgaon-serviced-apartment-korean-breakfast-food-residence",
+    "title": "Gurgaon Serviced Apartment Korean Breakfast / Food: 구루가온 한국인 주재원 숙소",
+    "metaTitle": "Gurgaon Serviced Apartment Korean Breakfast | Sandane Homes",
+    "metaDescription": "Gurgaon serviced apartment Korean breakfast / food & 구루가온 한국인 주재원 숙소. Luxury corporate housing with authentic Korean meals, fast WiFi & GST billing.",
+    "subtitle": "Enjoy daily home-cooked Korean breakfasts and executive living in Gurugram and Greater Noida.",
+    "category": "Expat Housing",
+    "date": "August 23, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/coco-lounge.jpg",
+    "coverGradient": "linear-gradient(135deg, #1E3A8A 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ko",
+    "excerpt": "Gurgaon serviced apartment Korean breakfast / food 및 구루가온 한국인 주재원 숙소. <b>Residences by Sandane Homes</b>에서 정갈한 한식 조식과 고속 광인터넷을 이용해보세요.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "구루가온(Gurugram) 및 노이다(Noida) 지역에 출장 오시는 한국 기업 임직원분들께 있어 매일 아침 제공되는 정갈한 한식 조식은 매우 중요합니다. <b><a href='/residences'>Residences by Sandane Homes</a></b> 및 <b><a href='/saffron-inn'>Saffron Inn by Sandane Homes</a></b>는 '<b>Gurgaon serviced apartment Korean breakfast / food</b>' 및 '<b>구루가온 한국인 주재원 숙소</b>' 서비스를 전문 제공합니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "구르가온 주거 옵션 전체는 <a href=\"/gurugram/korean-expat-housing\">구르가온 한국인 주재원 서비스 아파트</a> 페이지에서 확인하실 수 있습니다. FRRO Form C 지원과 법인 청구서(GST 인보이스) 발행도 가능합니다."
+      },
+      {
+        "type": "heading",
+        "text": "한국인 출장자를 위한 특화 서비스"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon Serviced Apartment Korean Breakfast / Food:</strong> 숙련된 주방장이 직접 조리하는 김치찌개, 불고기, 계란말이 등 정갈한 한식 조식.",
+          "<strong>Samsung Noida Nearby Serviced Apartment for Koreans:</strong> 노이다 81구역 삼성 공장 및 그레이터 노이다 공단까지 차량 12분 거리.",
+          "<strong>델리 NCR 한국인 아파트:</strong> 한국 TV 방송, 300 Mbps 고속 광인터넷, 데일리 세탁 서비스.",
+          "<strong>정식 GST 세금계산서 발급:</strong> 한국 기업 및 인도 법인을 위한 B2B GST 계산서 즉시 발급."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Gurugram Korean Desk | Reservations: +91 97117 22273",
+        "attribution": "— Premier Korean Expat Serviced Apartments"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "더 자세한 내용은 <a href=\"/blog/korean-corporate-residence-gurgaon-korean-food-long-stay\">구르가온(구루그람) 한국인 주재원 숙소 가이드: 지역 선택부터 FRRO 등록까지 (2026)</a>에서 확인하실 수 있습니다."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "한식 메뉴를 석식으로도 주문할 수 있나요?",
+        "answer": "네, 사전 요청 시 한식 저녁 정식 및 룸서비스 이용이 가능합니다."
+      }
+    ],
+    "tags": [
+      "Gurgaon serviced apartment Korean breakfast",
+      "구루가온 한국인 주재원 숙소",
+      "델리 NCR 한국인 아파트",
+      "그레이터 노이다 서비스 아파트",
+      "Samsung Noida nearby serviced apartment for Koreans",
       "Residences by Sandane Homes"
     ]
   },
@@ -10912,6 +12704,202 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japanese-corporate-accommodation-gurgaon-cyber-city-nhk-premium",
+    "title": "グルガオン 日本人 宿泊: Japanese Corporate Accommodation Cyber City Gurugram",
+    "metaTitle": "グルガオン 日本人 宿泊 | Japanese Corporate Accommodation Gurgaon",
+    "metaDescription": "グルガオン 日本人 宿泊 & サービスアパートメント. Turnkey expat housing near Cyber City Gurugram with NHK Premium, Japanese breakfast, Japanese speaking staff & GST invoicing.",
+    "subtitle": "Complete Japanese corporate accommodation and long-stay housing near DLF Cyber City Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 22, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/glam-room-1.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> は日系企業の駐在員様・出張者様向けに最上の住環境を提供いたします。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）グルガオン（Gurugram）のサイバーシティ（DLF Cyber City）周辺には、多数の日系グローバル企業が集結しています。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、日本規格のホスピタリティと快適性を追求した「<b>グルガオン 日本人 宿泊</b>」の理想的な選択肢です。"
+      },
+      {
+        "type": "paragraph",
+        "text": "グルガオンでの住まい選びの全体像は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人駐在員向けサービスアパートメント</a>のページをご覧ください。FRRO Form Cのサポートや法人向け請求書の発行にも対応しています。"
+      },
+      {
+        "type": "heading",
+        "text": "日系企業の駐在員・出張者が選ぶ5つの理由"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Gurgaon serviced apartment Japanese speaking staff):</strong> 日本語サポートが可能なコンシェルジュが常驻。",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> 日本のテレビ番組やニュースをリアルタイムでご視聴可能なNHK Premium衛星放送完備。",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> 温水洗浄便座（ウォシュレット）、深いバスタブ、自炊用キッチン完備。",
+          "<strong>和食朝食 (Japanese Breakfast):</strong> 焼き魚、味噌汁、日本米をセットにした和定食を提供。",
+          "<strong>日系企業向け GST 税務インボイス:</strong> B2B GST 請求書の発行及び法人長期契約に対応。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Cyber City Gurugram | +91 97117 22273",
+        "attribution": "— Premium Japanese Expat Residence in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "法人向けの长期賃貸契約は可能ですか？",
+        "answer": "はい、1ヶ月以上の長期間ご滞在につきましては、法人様向けの特別月額料金をご用意しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Japanease style service apartment DLF Cyber City",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-style-service-apartment-dlf-cyber-city-gurugram",
+    "title": "Japanease Style Service Apartment DLF Cyber City: 日本人向け ホテル グルガオン",
+    "metaTitle": "Japanease Style Service Apartment DLF Cyber City | Sandane Homes",
+    "metaDescription": "Japanease style service apartment DLF Cyber City & 日本人向け ホテル. Luxury expat apartments with Japanese breakfast, NHK channels, Japanese staff & corporate GST billing.",
+    "subtitle": "Japanese style luxury serviced apartments near DLF Cyber City and One Horizon Centre Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 22, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/glam-room-2.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Japanease style service apartment DLF Cyber City or 日本人向け ホテル. Premium corporate residences by Sandane Homes with full Japanese amenities.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Looking for a <i>Japanease style service apartment DLF Cyber City</i> or <i>日本人向け ホテル</i> in Gurugram? <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> offer state-of-the-art corporate residences tailored to Japanese expat requirements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Moving a Japanese team to Gurugram? Our <a href=\"/gurugram/japanese-expat-housing\">Japanese expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "Key Japanese Hospitality Features"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Japanese speaking staff:</strong> Friendly Japanese-speaking support staff.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Dedicated Japanese satellite channels including NHK Premium.",
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> Strategic location minutes away from Cyber Hub and Golf Course Road.",
+          "<strong>Gurugram serviced apartment:</strong> Daily room cleaning, personal laundry service, and 24/7 security."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | DLF Cyber City Gurugram | Reservations: +91 97117 22273",
+        "attribution": "— Preferred Accommodation for Japanese Business Delegates"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does the hotel provide Japanese breakfast?",
+        "answer": "Yes, we serve daily Japanese set breakfasts with miso soup, fish, and rice upon request."
+      }
+    ],
+    "tags": [
+      "Japanease style service apartment DLF Cyber City",
+      "日本人向け ホテル",
+      "グルガオン サービスアパートメント",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "delhi-ncr-korean-apartment-gurgaon-korean-expat-residence",
+    "title": "델리 NCR 한국인 아파트: Gurgaon & Greater Noida Korean Expat Residence",
+    "metaTitle": "델리 NCR 한국인 아파트 | Gurgaon Korean Expat Residence Sandane Homes",
+    "metaDescription": "델리 NCR 한국인 아파트 & 구루가온 한국인 주재원 숙소. Premium serviced apartments for Korean expats near Samsung Noida & Gurugram. Korean breakfast, fast WiFi & GST billing.",
+    "subtitle": "Dedicated long-stay corporate housing for Korean business executives in Delhi NCR, Noida & Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 22, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/glam-room-3.jpg",
+    "coverGradient": "linear-gradient(135deg, #1E3A8A 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ko",
+    "excerpt": "델리 NCR 한국인 아파트 및 구루가온 한국인 주재원 숙소. <b>Residences by Sandane Homes</b>와 <b>CoCo House</b>에서 한식 조식, 고속 광인터넷, 정식 GST 계산서를 이용해보세요.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "인도 델리 NCR(Delhi NCR) 지역에서 근무하는 한국인 주재원 및 출장자분들을 위해 <b><a href='/residences'>Residences by Sandane Homes</a></b>(Gurugram) 및 <b><a href='/coco-house'>CoCo House</a></b>(Greater Noida)는 최고의 '<b>델리 NCR 한국인 아파트</b>' 및 '<b>구루가온 한국인 주재원 숙소</b>'를 제공합니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "인사·주재원 담당자분들은 <a href=\"/gurugram/korean-expat-housing\">구르가온 한국 기업 주재원 숙소</a> 페이지에서 물건과 지원 내용을 한 번에 확인하실 수 있습니다."
+      },
+      {
+        "type": "heading",
+        "text": "한국인 기업 투숙객을 위한 맞춤형 혜택"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Korean breakfast / food:</strong> 주방장이 직접 준비하는 따뜻한 한식 조식 제공.",
+          "<strong>Samsung Noida nearby serviced apartment for Koreans:</strong> 노이다 삼성 공장 및 그레이터 노이다 공단 신속 이동 가능.",
+          "<strong>Noida Korean corporate housing long stay:</strong> 300 Mbps 전용 광인터넷, 한국 TV 방송 시청 및 무료 세탁 서비스.",
+          "<strong>B2B GST 세금계산서 즉시 발급:</strong> 한국 기업 및 인도 법인을 위한 정식 GST 증빙 발급."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & CoCo House | Corporate Reservations: +91 97117 22273",
+        "attribution": "— 델리 NCR 한국인 기업 전문 주거 브랜드"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "더 자세한 내용은 <a href=\"/blog/korean-corporate-residence-gurgaon-korean-food-long-stay\">구르가온(구루그람) 한국인 주재원 숙소 가이드: 지역 선택부터 FRRO 등록까지 (2026)</a>에서 확인하실 수 있습니다."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "기업 전용 장기 할인이 제공되나요?",
+        "answer": "네, 30일 이상 투숙하는 한국 기업 임직원분들을 위한 전용 법인 특가 월세 계약이 가능합니다."
+      }
+    ],
+    "tags": [
+      "델리 NCR 한국인 아파트",
+      "구루가온 한국인 주재원 숙소",
+      "구루가온 레지던스",
+      "그레이터 노이다 서비스 아파트",
+      "Noida Korean corporate housing long stay",
+      "Gurgaon serviced apartment Korean breakfast",
+      "Samsung Noida nearby serviced apartment for Koreans"
+    ]
+  },
+  {
     "slug": "noida-korean-corporate-housing-long-stay-greater-noida-serviced-apartment",
     "title": "Noida Korean Corporate Housing Long Stay: 그레이터 노이다 서비스 아파트",
     "metaTitle": "Noida Korean Corporate Housing Long Stay | Sandane Homes",
@@ -11080,6 +13068,135 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "japan-expat-housing-guruagron-serviced-apartments-cyber-city",
+    "title": "グルガオン サービスアパートメント: Japanese Expat Serviced Apartments DLF Cyber City",
+    "metaTitle": "グルガオン サービスアパートメント | Cyber City Expat Apartments Sandane Homes",
+    "metaDescription": "グルガオン サービスアパートメント & 日本人向け ホテル. Fully furnished luxury serviced apartments near DLF Cyber City Gurugram. NHK Premium, Japanese breakfast, Japanese speaking staff.",
+    "subtitle": "Complete Japanese corporate housing solutions in Gurugram near DLF Cyber City and Golf Course Road.",
+    "category": "Expat Housing",
+    "date": "August 21, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/amara-facade.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン サービスアパートメント & グルガオン 日本人 宿泊. <b>Residences by Sandane Homes</b> はサイバーシティ近くの日系企業向け高級レジデンスです。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリーNCRの主要経済都市グルガオン（Gurugram）における日系企業の拡大に伴い、駐在員様や長期出張者様向けの高品質な「<b>グルガオン サービスアパートメント</b>」の需要が高まっています。<b><a href='/residences'>Residences by Sandane Homes</a></b> は、DLF Cyber City や Golf Course Road に近く、日本の住環境を再現した贅沢な住空間をご提供いたします。"
+      },
+      {
+        "type": "paragraph",
+        "text": "人事・赴任ご担当者様は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人向け法人住宅</a>のページで物件とサポート内容をまとめてご確認いただけます。"
+      },
+      {
+        "type": "heading",
+        "text": "グルガオン 日本人 宿泊 に最適な充実した設備とサービス"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Gurgaon serviced apartment Japanese speaking staff):</strong> 日本語での意思疎通が可能なコンシェルジュが常驻し、安心してご滞在いただけます。",
+          "<strong>NHK プレミアム グルガオン ホテル (NHK Premium Channels):</strong> 全室でNHKワールド・プレミアムをはじめとする日本語衛星放送をご視聴可能です。",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> 温水洗浄便座（ウォシュレット）、深いバスタブ、自炊用フル装備キッチンを完備。",
+          "<strong>和食朝食 (Japanese Breakfast):</strong> 毎朝焼き魚、味噌汁、日本米をセットにした特製和定食をご用意。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | DLF Cyber City Gurugram | Corporate Line: +91 97117 22273",
+        "attribution": "— Premium Japanese Corporate Housing in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "日系企業の法人契約およびGST領収書の発行は可能ですか？",
+        "answer": "はい、日系法人様向けの長期賃貸契約および正规のGSTインボイス発行に対応しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン サービスアパートメント",
+      "グルガオン 日本人 宿泊",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Japanease style service apartment DLF Cyber City",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "cyber-city-japanese-speaking-residence-gurugram-nhk-premium",
+    "title": "サイバーシティ 日本語対応 レジデンス: Cyber City Japanese Speaking Residence Gurugram",
+    "metaTitle": "サイバーシティ 日本語対応 レジデンス | Japanese Expat Housing Gurugram",
+    "metaDescription": "サイバーシティ 日本語対応 レジデンス & NHK プレミアム グルガオン ホテル. Executive serviced apartments in Cyber City with Japanese-speaking staff, Japanese meals & GST billing.",
+    "subtitle": "Turnkey luxury residences with Japanese-speaking hospitality for corporate leaders in Cyber City Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 21, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/amara-suite-1.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book サイバーシティ 日本語対応 レジデンス or Gurgaon serviced apartment Japanese speaking staff. Premier corporate accommodations near DLF Cyber Hub by Sandane Homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Searching for <i>サイバーシティ 日本語対応 レジデンス</i> or <i>Japanease style service apartment DLF Cyber City</i>? <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> and <b><a href='/residences'>Residences by Sandane Homes</a></b> provide bespoke living solutions tailored explicitly for Japanese corporate queries in Gurugram."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/japanese-expat-housing\">serviced apartments for Japanese expats in Gurugram</a>, including Japanese-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Designed for Japanese Business Standards"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Japanese speaking staff:</strong> Japanese-speaking guest relation officers available 24/7.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Live Japanese television channels, sports, and daily news updates.",
+          "<strong>Authentic Dining:</strong> Daily Japanese breakfast sets with sticky rice, grilled salmon/mackerel, and miso soup.",
+          "<strong>Corporate Accounting:</strong> B2B GST tax invoices provided directly for corporate expense filing."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The Glam by Sandane Homes & Residences by Sandane Homes | Cyber City Gurugram | +91 97117 22273",
+        "attribution": "— Standard of Excellence for Japanese Expats"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is there high-speed fiber internet for working from home?",
+        "answer": "Yes, dedicated 300 Mbps fiber internet with power backup is installed in every apartment."
+      }
+    ],
+    "tags": [
+      "サイバーシティ 日本語対応 レジデンス",
+      "NHK プレミアム グルガオン ホテル",
+      "グルガオン 日本人 宿泊",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "The Glam by Sandane Homes"
+    ]
+  },
+  {
     "slug": "greater-noida-serviced-apartment-korean-expat-residence-samsung-noida",
     "title": "그레이터 노이다 서비스 아파트: Greater Noida Serviced Apartment & Samsung Noida Korean Stay",
     "metaTitle": "그레이터 노이다 서비스 아파트 | Samsung Noida Nearby Korean Housing",
@@ -11135,6 +13252,71 @@ export const blogPosts = [
       "Samsung Noida nearby serviced apartment for Koreans",
       "CoCo House",
       "Amaaltash by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "samsung-noida-nearby-serviced-apartment-for-koreans-gurgaon-korean-breakfast",
+    "title": "Samsung Noida Nearby Serviced Apartment for Koreans: Gurgaon Serviced Apartment Korean Breakfast",
+    "metaTitle": "Samsung Noida Nearby Serviced Apartment for Koreans | Sandane Homes",
+    "metaDescription": "Samsung Noida nearby serviced apartment for Koreans & Gurgaon serviced apartment Korean breakfast. Executive long-stay corporate housing with authentic Korean meals and GST invoices.",
+    "subtitle": "Dedicated corporate housing solutions for Korean engineering and management teams near Samsung Noida & Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 21, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/amara-suite-3.jpg",
+    "coverGradient": "linear-gradient(135deg, #111827 0%, #1F2937 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book Samsung Noida nearby serviced apartment for Koreans or Gurgaon serviced apartment Korean breakfast with Sandane Homes. High-end long-stay corporate rentals with B2B GST invoicing.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Looking for a <i>Samsung Noida nearby serviced apartment for Koreans</i> or <i>Gurgaon serviced apartment Korean breakfast / food</i>? <b><a href='/coco-house'>CoCo House</a></b>, <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>, and <b><a href='/residences'>Residences by Sandane Homes</a></b> provide executive corporate housing tailored specifically for Korean MNC delegations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Relocating Korean staff to Gurugram? Our <a href=\"/gurugram/korean-expat-housing\">Korean expat housing guide for Gurugram</a> covers the residences we operate, FRRO Form C support and corporate invoicing in one place."
+      },
+      {
+        "type": "heading",
+        "text": "Unmatched Hospitality for Korean Corporate Teams"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon serviced apartment Korean breakfast / food:</strong> Dedicated chefs trained in authentic Korean home-style cooking.",
+          "<strong>Noida Korean corporate housing long stay:</strong> Convenient access via KMP and DND expressways to Noida Sector 81 & Sector 62.",
+          "<strong>델리 NCR 한국인 아파트 Comforts:</strong> IPTV with Korean channels, daily laundry service, and 24/7 security.",
+          "<strong>B2B Corporate Invoicing:</strong> Itemized GST tax invoices generated seamlessly upon checkout."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Sandane Homes Expat Desk | Reservations: +91 97117 22273 | sandanehomes.com",
+        "attribution": "— Preferred Accommodations for Korean Expat Professionals"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are group discounts available for corporate team bookings?",
+        "answer": "Yes, we provide custom monthly corporate billing rates for long-term project teams."
+      }
+    ],
+    "tags": [
+      "Samsung Noida nearby serviced apartment for Koreans",
+      "Gurgaon serviced apartment Korean breakfast",
+      "Noida Korean corporate housing long stay",
+      "구루가온 한국인 주재원 숙소",
+      "CoCo House",
+      "Amaaltash by Sandane Homes",
+      "Residences by Sandane Homes"
     ]
   },
   {
@@ -11248,6 +13430,71 @@ export const blogPosts = [
       "德里NCR 中资企业 员工宿舍",
       "Greater Noida corporate housing monthly rental GST invoice",
       "Amara Inn by Sandane Homes",
+      "Residences by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japan-corporate-expat-serviced-apartments-gurugram-cyber-city-guide",
+    "title": "グルガオン 日本人 宿泊: Cyber City Serviced Apartments & Hotel Suites for Japanese Expats",
+    "metaTitle": "グルガオン 日本人 宿泊 | Cyber City Japanese Expat Stay Sandane Homes",
+    "metaDescription": "グルガオン 日本人 宿泊 & サービスアパートメント. Turnkey corporate residences near DLF Cyber City with NHK Premium, Japanese breakfast, Japanese-speaking support & B2B GST billing.",
+    "subtitle": "Premium Japanese corporate accommodation & extended stay serviced apartments near DLF Cyber City Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 20, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/korean-breakfast.png",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サイバーシティ 日本語対応 レジデンス. <b>Residences by Sandane Homes</b> では、NHK Premium、和食朝食、日本語サポート付きの最高級レジデンスを提供しております。",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）の経済の中心地グルガオン（Gurugram）には、多数の日系グローバル企業が進出しています。長期出張や駐在員の住まいとして、快適で清潔、かつ日本の生活習慣に合わせた「<b>グルガオン 日本人 宿泊</b>」環境は不可欠です。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> では、サイバーシティ（DLF Cyber City）や Golf Course Road に近く、日本人駐在員様に特化したサービスアパートメントを提供しています。"
+      },
+      {
+        "type": "paragraph",
+        "text": "グルガオンでの住まい選びの全体像は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人駐在員向けサービスアパートメント</a>のページをご覧ください。FRRO Form Cのサポートや法人向け請求書の発行にも対応しています。"
+      },
+      {
+        "type": "heading",
+        "text": "日本人出張者・駐在員に支持される理由 (Key Highlights for Japanese Guests)"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> 日本語対応が可能な専任コンシェルジュが常駐し、滞在中のあらゆるリクエストをサポート。",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> 高画質TVにてNHKワールド・プレミアムをはじめとする日本のテレビ番組を完備。",
+          "<strong>和食朝食サービス:</strong> 毎朝焼き魚、味噌汁、炊きたてのご飯などの和定食をご提供。",
+          "<strong>バスタブ ＆ 温水洗浄便座:</strong> 日本人好みの深めのバスタブと温水洗浄便座対応サービス。",
+          "<strong>日系企業向け GST 税務インボイス:</strong> 会社精算に便利なB2B GST領収書発行及び月極契約対応。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Gurugram DLF Cyber City | Reservations: +91 97117 22273 | sandanehomes.com",
+        "attribution": "— Premium Japanese Corporate Housing in Gurugram"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "1ヶ月以上の長期滞在割引はありますか？",
+        "answer": "はい、30日以上の長期ご滞在のお客様向けに、お得な月額法人プランを用意しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
       "Residences by Sandane Homes"
     ]
   },
@@ -11486,6 +13733,76 @@ export const blogPosts = [
       "Greater Noida corporate housing monthly rental GST invoice",
       "CoCo House",
       "Amaaltash by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "japanese-corporate-housing-gurgaon-dlf-cyber-city-golf-course-road",
+    "title": "グルガオン 日本人 宿泊 & レジデンス: Japanese Corporate Housing in Gurgaon DLF Cyber City",
+    "metaTitle": "グルガオン 日本人 宿泊 | Japanese Corporate Housing Gurgaon | Sandane Homes",
+    "metaDescription": "グルガオン 日本人 宿泊 & サービスアパートメント. Japanese corporate housing in Gurgaon near DLF Cyber City & Golf Course Road. NHK Premium, Japanese breakfast, Japanese-speaking support & B2B GST invoicing.",
+    "subtitle": "Turnkey Japanese expat residences and hotel suites near DLF Cyber City, One Horizon Centre, and Golf Course Road.",
+    "category": "Expat Housing",
+    "date": "August 20, 2026",
+    "readTime": "7 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/kitchen.jpg",
+    "coverGradient": "linear-gradient(135deg, #1C2D42 0%, #0F172A 50%, #C5A572 100%)",
+    "lang": "ja",
+    "excerpt": "グルガオン 日本人 宿泊 & サービスアパートメント nearby DLF Cyber City. Discover Residences by Sandane Homes with NHK Premium, Japanese breakfast, Japanese speaking staff, and corporate billing.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "デリー首都圏（Delhi NCR）の経済の中心都市グルガオン（Gurugram）には、自動車、電機、IT、金融など多くの日系企業が集積しています。長長期の出張や赴任における住宅選びでは、日本同様の安心感と快適性が求められます。<b><a href='/residences'>Residences by Sandane Homes</a></b> および <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> は、<b>グルガオン 日本人 宿泊</b>・法人向けサービスアパートメントとして、完璧な住環境を提供いたします。"
+      },
+      {
+        "type": "paragraph",
+        "text": "人事・赴任ご担当者様は、<a href=\"/gurugram/japanese-expat-housing\">グルガオンの日本人向け法人住宅</a>のページで物件とサポート内容をまとめてご確認いただけます。"
+      },
+      {
+        "type": "heading",
+        "text": "グルガオン サービスアパートメント＆日本人向けホテルの充実した設備"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>サイバーシティ 日本語対応 レジデンス (Japanese-Speaking Staff):</strong> 日本語サポートが可能なスタッフが常駐し、日々の生活リクエストや緊急時にもスピーディに対応。",
+          "<strong>NHK プレミアム グルガオン ホテル (NHK Premium Satellite Channels):</strong> 全室にNHKワールド・プレミアム等の日本語衛星放送を完備。日本国内のニュースや番組をリアルタイムでご視聴いただけます。",
+          "<strong>和食朝食 ＆ 独立型キッチン (Japanese Breakfast & Fully Furnished Kitchen):</strong> 毎朝の焼魚・味噌汁・日本米の和定食サービスに加え、自炊可能な調理器具、電子レンジ、大型冷蔵庫を完備。",
+          "<strong>安心のセキュリティ ＆ 24時間後備電源 (24/7 Power Backup & Gated Security):</strong> 停電の多いインドでも安心の全天候型発電機システムと24時間監視カメラ・警備員配置。",
+          "<strong>日系企業向け GST 領収書 ＆ 法人契約 (B2B Tax Invoicing):</strong> 日本本社の経理規定に沿った法人契約、GST含税インボイスの即時発行が可能です。"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes & The Glam by Sandane Homes | Gurugram DLF Cyber City & Golf Course Road | 法人問合せ: +91 97117 22273",
+        "attribution": "— グルガオンの日系企業・駐在員様向け最高級レジデンス"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "さらに詳しい情報は、<a href=\"/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city\">グルガオン（グルグラム）日本人駐在員向けサービスアパートメント・ガイド【2026年版】</a>をご覧ください。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "サイバーシティ（DLF Cyber City）までのアクセスはどのくらいですか？",
+        "answer": "Residences by Sandane Homes からサイバーシティまでは車で約10〜15分の好立地です。"
+      },
+      {
+        "question": "長期滞在向けの月租割引価格はありますか？",
+        "answer": "はい、1ヶ月以上の長期ご滞在につきましては、法人様向けの特別割引月額プランをご用意しております。"
+      }
+    ],
+    "tags": [
+      "グルガオン 日本人 宿泊",
+      "グルガオン サービスアパートメント",
+      "日本人向け ホテル",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "Residences by Sandane Homes"
     ]
   },
   {
@@ -11791,6 +14108,74 @@ export const blogPosts = [
     ]
   },
   {
+    "slug": "nhk-premium-hotel-gurgaon-japanese-speaking-residence-dlf-cyber-city",
+    "title": "NHK プレミアム グルガオン ホテル: Japanese Expat Residences Near Cyber City Gurugram",
+    "metaTitle": "NHK プレミアム グルガオン ホテル | Cyber City Japanese Expat Stay",
+    "metaDescription": "グルガオン 日本人向け ホテル & サイバーシティ 日本語対応 レジデンス. Book executive serviced apartments in Gurgaon with NHK Premium, Japanese breakfast, and Japanese-speaking support staff.",
+    "subtitle": "Turnkey expat housing for Japanese business travelers and long-stay delegates in Gurugram DLF Cyber City.",
+    "category": "Expat Housing",
+    "date": "August 20, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-room-6257.jpg",
+    "coverGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Looking for NHK プレミアム グルガオン ホテル or Gurgaon serviced apartment Japanese speaking staff? Discover luxury corporate stays at Sandane Homes in Gurugram.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Finding accommodation that bridges Japanese hospitality expectations with Indian business locations is crucial for Japanese delegates stationed in Gurugram. Whether your office is in DLF Cyber City, Udyog Vihar, or Golf Course Extension Road, <b><a href='/the-glam'>The Glam by Sandane Homes</a></b> and <b><a href='/residences'>Residences by Sandane Homes</a></b> offer specialized housing tailored to Japanese corporate queries."
+      },
+      {
+        "type": "paragraph",
+        "text": "HR and relocation teams can compare all options on our page for <a href=\"/gurugram/japanese-expat-housing\">Japanese corporate housing in Gurugram</a>."
+      },
+      {
+        "type": "heading",
+        "text": "Key Amenities for Japanese Corporate Housing in Gurugram"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>グルガオン 日本人 宿泊 / 日本人向け ホテル:</strong> Dedicated Japanese guest relations team ensuring privacy, polite interaction, and attention to detail.",
+          "<strong>NHK プレミアム グルガオン ホテル:</strong> Full satellite TV package with Japanese live channels, sports, and news updates.",
+          "<strong>サイバーシティ 日本語対応 レジデンス:</strong> Strategic proximity to Cyber Hub, One Horizon Centre, and major Japanese corporate headquarters.",
+          "<strong>Japanease style service apartment DLF Cyber City:</strong> High-pressure warm water systems, deep soaking tubs, optional Toto washlets, and quiet residential zones.",
+          "<strong>Japanese Culinary Offerings:</strong> Daily morning Japanese bento/set breakfast with miso soup, salmon/mackerel, and steamed sticky rice."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The Glam by Sandane Homes | Gurugram | Dedicated Japanese Expat Desk | +91 97117 22273",
+        "attribution": "— Sandane Homes Executive Long-Stay Serviced Apartments"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide\">Japanese Expat Housing near DLF Cyber City, Gurugram: A Practical Guide for HR Teams (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does the property offer Japanese breakfast options?",
+        "answer": "Yes, we serve traditional Japanese set breakfasts including miso soup, rice, and fish options upon request."
+      },
+      {
+        "question": "How far is the residence from DLF Cyber City?",
+        "answer": "Our Gurugram properties are located within 10 to 15 minutes drive from DLF Cyber City and Cyber Hub."
+      }
+    ],
+    "tags": [
+      "グルガオン サービスアパートメント",
+      "NHK プレミアム グルガオン ホテル",
+      "サイバーシティ 日本語対応 レジデンス",
+      "Gurgaon serviced apartment Japanese speaking staff",
+      "The Glam by Sandane Homes"
+    ]
+  },
+  {
     "slug": "greater-noida-korean-serviced-apartment-samsung-noida-housing",
     "title": "그레이터 노이다 서비스 아파트: Greater Noida & Gurgaon Serviced Apartment for Korean Expat Stay",
     "metaTitle": "그레이터 노이다 서비스 아파트 | Samsung Noida Nearby Korean Housing",
@@ -11868,6 +14253,73 @@ export const blogPosts = [
       "Samsung Noida nearby serviced apartment for Koreans",
       "CoCo House",
       "Amaaltash by Sandane Homes"
+    ]
+  },
+  {
+    "slug": "gurgaon-korean-expat-residence-serviced-apartment-korean-food",
+    "title": "구루가온 한국인 주재원 숙소: Gurgaon Serviced Apartment Korean Breakfast & Expat Housing",
+    "metaTitle": "구루가온 한국인 주재원 숙소 | Gurgaon Korean Expat Residence Sandane Homes",
+    "metaDescription": "구루가온 한국인 주재원 숙소 & 델리 NCR 한국인 아파트. Serviced apartments in Gurugram with authentic Korean food, fast WiFi, corporate GST billing, and monthly rentals.",
+    "subtitle": "Top-rated Korean expat residence and corporate long-stay serviced apartments in Gurugram.",
+    "category": "Expat Housing",
+    "date": "August 20, 2026",
+    "readTime": "6 min read",
+    "author": "Sandane Homes Expat Desk",
+    "coverImage": "/blog/covers/hotel-room-6106.jpg",
+    "coverGradient": "linear-gradient(135deg, #111827 0%, #1F2937 50%, #C5A572 100%)",
+    "lang": "en",
+    "excerpt": "Book 구루가온 한국인 주재원 숙소 or Gurgaon serviced apartment Korean breakfast with Sandane Homes. High-end long-stay corporate rentals near Golf Course Road & Cyber City.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Gurugram is home to numerous Korean multinational conglomerates and corporate business centers. For Korean expats seeking <b>구루가온 레지던스</b> or long-term accommodation with authentic Korean dining options, <b><a href='/residences'>Residences by Sandane Homes</a></b> and <b><a href='/saffron-inn'>Saffron Inn by Sandane Homes</a></b> offer world-class corporate living solutions."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a full overview of <a href=\"/gurugram/korean-expat-housing\">serviced apartments for Korean expats in Gurugram</a>, including Korean-friendly amenities and B2B billing, see our dedicated page."
+      },
+      {
+        "type": "heading",
+        "text": "Tailored Hospitality for Korean Expat Communities in Delhi NCR"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong>Gurgaon Serviced Apartment Korean Breakfast / Food:</strong> In-house chef skilled in preparing authentic Korean dishes, soups, and banchan side dishes.",
+          "<strong>Noida Korean Corporate Housing Long Stay:</strong> Easy connectivity to Greater Noida Expressway, Noida Sector 62, and Samsung Noida electronics hub via KMP & DND expressways.",
+          "<strong>델리 NCR 한국인 아파트 Comforts:</strong> Korean satellite channels, high-pressure showers, plush mattresses, and daily laundry services.",
+          "<strong>Corporate Accounting Ready:</strong> Itemized B2B GST tax invoices, corporate credit line facilities, and multi-month lease agreements."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Residences by Sandane Homes | Gurugram Expat Desk | Reservations & Inquiries: +91 97117 22273",
+        "attribution": "— Luxury Expat Accommodations by Sandane Homes"
+      },
+      {
+        "type": "cta"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the full picture, read our complete guide: <a href=\"/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay\">Korean Expat Housing in Gurugram: A Long-Stay Guide for Korean Companies and Assignees (2026)</a>."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are long-term monthly rental discounts available for corporate leases?",
+        "answer": "Yes, Sandane Homes provides custom monthly corporate rental rates for stay durations of 30 days or longer."
+      },
+      {
+        "question": "Is high-speed internet available for work-from-home Korean executives?",
+        "answer": "Every apartment features dedicated 300 Mbps optical fiber internet with backup lines."
+      }
+    ],
+    "tags": [
+      "구루가온 한국인 주재원 숙소",
+      "구루가온 레지던스",
+      "델리 NCR 한국인 아파트",
+      "Gurgaon serviced apartment Korean breakfast",
+      "Residences by Sandane Homes"
     ]
   },
   {
