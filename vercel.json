@@ -11,6 +11,223 @@
             "headers": [{ "key": "Content-Type", "value": "application/xml" }]
         }
     ],
+    "redirects": [
+        {
+            "source": "/blog/nhk-premium-hotel-gurgaon-japanese-speaking-residence-dlf-cyber-city",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/serviced-apartments-in-gurugram-corporate-housing-greater-noida-japanese-expats",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/gurgaon-serviced-apartment-japanese-speaking-staff-cyber-city",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-service-apartments-gurgaon-dlf-phase-1-2-3-cyber-city",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/cyber-city-japanese-speaking-residence-gurugram-nhk-premium",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-expat-housing-gurgaon-vs-lime-tree-serviced-apartments",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-style-service-apartment-dlf-cyber-city-gurugram",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-style-serviced-apartments-gurgaon-dlf-cyber-hub",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-speaking-support-expat-serviced-apartments-noida-gurgaon",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-speaking-hospitality-serviced-apartment-cyber-hub-gurgaon",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-serviced-apartments-gurgaon-dlf-phase-2-cyber-city-guide",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-expat-housing-in-gurgaon-near-yamaha-honda-denso-offices",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-serviced-apartments-gurgaon-mg-road-cyber-city-corridor",
+            "destination": "/blog/best-japanese-serviced-apartments-gurgaon-dlf-cyber-city-guide",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-corporate-housing-gurgaon-dlf-cyber-city-golf-course-road",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-expat-serviced-apartments-gurgaon-delhi-ncr-housing-guide",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japan-corporate-expat-serviced-apartments-gurugram-cyber-city-guide",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japan-corporate-long-stay-serviced-apartments-gurgaon-dlf-cyber-city",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-expat-accommodation-gurgaon-serviced-apartment-cyber-city",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-expat-luxury-residences-dlf-cyber-city-gurgaon-nhk-premium",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-guest-house-gurgaon-cyber-city-nhk-premium",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-corporate-accommodation-gurgaon-cyber-city-nhk-premium",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-serviced-apartments-gurgaon-ja-guide",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japan-expat-housing-guruagron-serviced-apartments-cyber-city",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-food-serviced-apartment-gurgaon-japanese-speaking-condo-delhi",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/nhk-premium-gurugram-hotel-japanese-accommodation",
+            "destination": "/blog/gurugram-serviced-apartment-japanese-expats-dlf-cyber-city",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-expat-corporate-housing-golf-course-extension-road-gurgaon",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-school-gurgaon-expat-family-housing-guide",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-service-apartments-gurgaon-golf-course-road-dlf-phase-5",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-service-apartments-gurgaon-sector-42-43-golf-course-road",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-serviced-apartments-gurgaon-sector-53-54-golf-course-road",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-corporate-serviced-apartments-golf-course-extension-gurugram",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-corporate-housing-gurugram-golf-course-extension-road",
+            "destination": "/blog/japanese-corporate-housing-gurugram-golf-course-road",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/japanese-serviced-apartments-gurgaon-sohna-road-sector-48-49",
+            "destination": "/blog/japanese-engineers-housing-gurugram-sohna-road-manesar-commute",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/chinese-japanese-expat-housing-gurugram-sohna-road-sector-48-49",
+            "destination": "/blog/japanese-engineers-housing-gurugram-sohna-road-manesar-commute",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/korean-expat-housing-near-south-point-mall-and-one-horizon-gurgaon",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/gurgaon-korean-expat-residence-serviced-apartment-korean-food",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/korean-corporate-expat-housing-gurgaon-sector-53-54",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/samsung-noida-nearby-serviced-apartment-for-koreans-gurgaon-korean-breakfast",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/korean-serviced-apartments-gurgaon-golf-course-road-sector-54",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/noida-korean-corporate-housing-long-stay-serviced-apartments-gurugram",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/korean-serviced-apartments-in-gurgaon-sector-53-54-golf-course-road",
+            "destination": "/blog/gurgaon-korean-expat-residence-corporate-housing-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/gurgaon-serviced-apartment-korean-breakfast-food-residence",
+            "destination": "/blog/korean-corporate-residence-gurgaon-korean-food-long-stay",
+            "statusCode": 301
+        },
+        {
+            "source": "/blog/delhi-ncr-korean-apartment-gurgaon-korean-expat-residence",
+            "destination": "/blog/korean-corporate-residence-gurgaon-korean-food-long-stay",
+            "statusCode": 301
+        }
+    ],
     "rewrites": [
         {
             "source": "/((?!api|_next|assets|favicon|logo|robots\\.txt|sitemap.*\\.xml|blog/covers|.*\\..*).*)",

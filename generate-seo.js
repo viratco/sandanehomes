@@ -591,7 +591,18 @@ blogPosts.forEach((post) => {
     ogImage,
     schemas,
     lang: post.lang || 'en',
-    hreflang: post.lang ? [post.lang, 'en'] : ['en']
+    hreflang: [...new Set([post.lang || 'en', 'en'])],
+    // Posts with a `translations` map ({ ja: 'other-slug' }) get real hreflang alternates
+    // pointing at each language version, with x-default on the English one.
+    ...(post.translations && {
+      hreflangLinks: [
+        [post.lang || 'en', post.slug],
+        ...Object.entries(post.translations),
+      ].flatMap(([lang, slug]) => [
+        { lang, href: `${BASE_URL}/blog/${slug}` },
+        ...(lang === 'en' ? [{ lang: 'x-default', href: `${BASE_URL}/blog/${slug}` }] : []),
+      ]),
+    }),
   };
 });
 
@@ -780,8 +791,8 @@ Object.keys(SEO_MAP).forEach((route) => {
   }
 
   // hreflang alternate links (all variants point to the same URL — one page serves both languages)
-  const hreflangTags = (seo.hreflang || [])
-    .map((l) => `<link rel="alternate" hreflang="${l}" href="${canonical}" />`)
+  const hreflangTags = (seo.hreflangLinks || (seo.hreflang || []).map((l) => ({ lang: l, href: canonical })))
+    .map(({ lang, href }) => `<link rel="alternate" hreflang="${lang}" href="${href}" />`)
     .join('\n    ');
 
   // Static JSON-LD so non-JS crawlers (ChatGPT, Perplexity, etc.) see the schemas
@@ -864,7 +875,6 @@ const highPrioritySlugs = [
   'japanese-corporate-relocation-housing-greater-noida-yeida-guide',
   'automotive-supply-chain-japanese-engineers-housing-greater-noida',
   'yamuna-expressway-industrial-park-expat-housing-sandane-homes',
-  'japanese-speaking-support-expat-serviced-apartments-noida-gurgaon',
   'sekisui-dljm-corporate-housing-greater-noida-yeida',
   'seiko-advance-industrial-coating-expats-noida-greater-noida',
   'mobase-india-corporate-serviced-apartments-greater-noida',
