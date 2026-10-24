@@ -13,8 +13,9 @@ import './SandaneHomes.css';
 const DEFAULT_OG_IMAGE = 'https://www.sandanehomes.com/residences-og.jpg';
 
 // Posts about Gurugram (matched on slug/title only — tags also mention Gurgaon on Noida posts)
-// get CTAs for the Gurugram residences instead of the default Greater Noida ones.
+// lead with the Gurugram residences, with a smaller secondary link to Greater Noida.
 const GURUGRAM_POST_RE = /gurgaon|gurugram|guruagron|グルガオン|グルグラム|구르가온|구루가온|구루그람|古尔冈|古鲁格拉姆/i;
+const GREATER_NOIDA_PATH = '/serviced-apartments-greater-noida';
 const GURUGRAM_CTA = {
     en: {
         hero: 'Explore Our Gurugram Residences →',
@@ -22,6 +23,8 @@ const GURUGRAM_CTA = {
         bannerTitle: 'Serviced Residences in Gurugram',
         bannerText: 'Fully furnished 3BHK and 4BHK residences at Conscient Hines Elevate (Sector 58), Green Meadows and Sushant Lok Block B (Sector 27). Daily housekeeping, GST invoicing for companies, and stays from one month.',
         bannerButton: 'View Gurugram Residences →',
+        noidaText: 'Also in Greater Noida: furnished suites in Jaypee Greens and Ansal Golf Links.',
+        noidaLink: 'View Greater Noida residences →',
         title: 'Looking for a home in Gurugram?',
         text: 'Compare our three Gurugram residences or message our team on WhatsApp for availability.',
         button: 'Explore Residences →',
@@ -34,6 +37,8 @@ const GURUGRAM_CTA = {
         bannerTitle: 'グルガオンのサービスレジデンス',
         bannerText: 'セクター58のコンシエント・ハインズ・エレベート、セクター27のグリーン・メドウズとスシャントロク ブロックBで、家具付きの3BHK・4BHKをご用意しています。毎日の清掃、法人向けGST請求書、1か月からのご滞在に対応します。',
         bannerButton: 'グルガオンの物件を見る →',
+        noidaText: 'グレーターノイダ（ジェイピー・グリーンズ、アンサル・ゴルフリンクス）にも家具付きスイートがあります。',
+        noidaLink: 'グレーターノイダの物件を見る →',
         title: 'グルガオンで住まいをお探しですか？',
         text: '3つのレジデンスを比較いただくか、WhatsAppで空室状況をお気軽にお問い合わせください。',
         button: '物件を見る →',
@@ -46,6 +51,8 @@ const GURUGRAM_CTA = {
         bannerTitle: '구르가온 서비스 레지던스',
         bannerText: '섹터 58의 콘시언트 하인스 엘리베이트, 섹터 27의 그린 메도우즈와 수샨트 록 블록 B에서 가구가 갖춰진 3BHK·4BHK를 제공합니다. 매일 청소, 법인 GST 인보이스, 1개월부터 숙박이 가능합니다.',
         bannerButton: '구르가온 레지던스 보기 →',
+        noidaText: '그레이터 노이다(제이피 그린스, 안살 골프 링크스)에도 가구가 갖춰진 스위트가 있습니다.',
+        noidaLink: '그레이터 노이다 레지던스 보기 →',
         title: '구르가온에서 숙소를 찾고 계신가요?',
         text: '세 곳의 레지던스를 비교해 보시거나 WhatsApp으로 예약 가능 여부를 문의해 주세요.',
         button: '레지던스 보기 →',
@@ -58,6 +65,8 @@ const GURUGRAM_CTA = {
         bannerTitle: '古尔冈服务式公寓',
         bannerText: '位于 Sector 58 的 Conscient Hines Elevate，以及 Sector 27 的 Green Meadows 与 Sushant Lok Block B，提供全套家具的 3BHK 与 4BHK 公寓。每日保洁、企业 GST 发票，一个月起租。',
         bannerButton: '查看古尔冈房源 →',
+        noidaText: '我们在大诺伊达（Jaypee Greens、Ansal Golf Links）也提供全套家具的套房。',
+        noidaLink: '查看大诺伊达房源 →',
         title: '正在寻找古尔冈的理想居所？',
         text: '比较我们在古尔冈的三处公寓，或通过 WhatsApp 联系我们查询空房。',
         button: '查看精选房源 →',
@@ -350,6 +359,14 @@ const BlogPost = () => {
                     >
                         {gurugramCta ? gurugramCta.bannerButton : isZh ? '查看所有可预订房源 \u2192' : 'View All Available Residences \u2192'}
                     </Link>
+                    {gurugramCta && (
+                        <p style={{ color: '#777', fontSize: '13px', margin: '20px auto 0', maxWidth: '560px', lineHeight: '1.6' }}>
+                            {gurugramCta.noidaText}{' '}
+                            <Link to={GREATER_NOIDA_PATH} style={{ color: '#1A3C34', fontWeight: '600', textDecoration: 'underline' }}>
+                                {gurugramCta.noidaLink}
+                            </Link>
+                        </p>
+                    )}
                 </div>
             </div>
 
@@ -489,6 +506,14 @@ const BlogPost = () => {
                         <FaWhatsapp size={22} /> {gurugramCta ? gurugramCta.whatsapp : isZh ? '微信 / WhatsApp 咨询' : 'WhatsApp Us'}
                     </a>
                 </div>
+                {gurugramCta && (
+                    <p style={{ fontSize: '14px', color: '#B8C4BF', margin: '32px auto 0', maxWidth: '560px', lineHeight: '1.6' }}>
+                        {gurugramCta.noidaText}{' '}
+                        <Link to={GREATER_NOIDA_PATH} style={{ color: '#C5A572', fontWeight: '600', textDecoration: 'underline' }}>
+                            {gurugramCta.noidaLink}
+                        </Link>
+                    </p>
+                )}
             </div>
 
             {/* ── RELATED POSTS ── */}
