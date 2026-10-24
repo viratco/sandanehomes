@@ -5,11 +5,66 @@ import Header from '../Header';
 import Footer from '../Footer';
 import BlogContent from '../BlogContent';
 import { blogPosts } from '../../data/blogPosts';
+import { GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
 import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import './Blog.css';
 import './SandaneHomes.css';
 
 const DEFAULT_OG_IMAGE = 'https://www.sandanehomes.com/residences-og.jpg';
+
+// Posts about Gurugram (matched on slug/title only — tags also mention Gurgaon on Noida posts)
+// get CTAs for the Gurugram residences instead of the default Greater Noida ones.
+const GURUGRAM_POST_RE = /gurgaon|gurugram|guruagron|グルガオン|グルグラム|구르가온|구루가온|구루그람|古尔冈|古鲁格拉姆/i;
+const GURUGRAM_CTA = {
+    en: {
+        hero: 'Explore Our Gurugram Residences →',
+        suites: 'View Gurugram Residences →',
+        bannerTitle: 'Serviced Residences in Gurugram',
+        bannerText: 'Fully furnished 3BHK and 4BHK residences at Conscient Hines Elevate (Sector 58), Green Meadows and Sushant Lok Block B (Sector 27). Daily housekeeping, GST invoicing for companies, and stays from one month.',
+        bannerButton: 'View Gurugram Residences →',
+        title: 'Looking for a home in Gurugram?',
+        text: 'Compare our three Gurugram residences or message our team on WhatsApp for availability.',
+        button: 'Explore Residences →',
+        whatsapp: 'WhatsApp Us',
+        whatsappText: 'Hello, I read your blog post and I would like to know more about your serviced residences in Gurugram',
+    },
+    ja: {
+        hero: 'グルガオンの物件を見る →',
+        suites: '物件を見る →',
+        bannerTitle: 'グルガオンのサービスレジデンス',
+        bannerText: 'セクター58のコンシエント・ハインズ・エレベート、セクター27のグリーン・メドウズとスシャントロク ブロックBで、家具付きの3BHK・4BHKをご用意しています。毎日の清掃、法人向けGST請求書、1か月からのご滞在に対応します。',
+        bannerButton: 'グルガオンの物件を見る →',
+        title: 'グルガオンで住まいをお探しですか？',
+        text: '3つのレジデンスを比較いただくか、WhatsAppで空室状況をお気軽にお問い合わせください。',
+        button: '物件を見る →',
+        whatsapp: 'WhatsAppで問い合わせ',
+        whatsappText: 'こんにちは。ブログを拝見し、グルガオンのサービスレジデンスについてお問い合わせしたいです。',
+    },
+    ko: {
+        hero: '구르가온 레지던스 보기 →',
+        suites: '레지던스 보기 →',
+        bannerTitle: '구르가온 서비스 레지던스',
+        bannerText: '섹터 58의 콘시언트 하인스 엘리베이트, 섹터 27의 그린 메도우즈와 수샨트 록 블록 B에서 가구가 갖춰진 3BHK·4BHK를 제공합니다. 매일 청소, 법인 GST 인보이스, 1개월부터 숙박이 가능합니다.',
+        bannerButton: '구르가온 레지던스 보기 →',
+        title: '구르가온에서 숙소를 찾고 계신가요?',
+        text: '세 곳의 레지던스를 비교해 보시거나 WhatsApp으로 예약 가능 여부를 문의해 주세요.',
+        button: '레지던스 보기 →',
+        whatsapp: 'WhatsApp 문의',
+        whatsappText: '안녕하세요. 블로그를 보고 구르가온 서비스 레지던스에 대해 문의드립니다.',
+    },
+    zh: {
+        hero: '查看古尔冈服务式公寓 →',
+        suites: '查看古尔冈房源 →',
+        bannerTitle: '古尔冈服务式公寓',
+        bannerText: '位于 Sector 58 的 Conscient Hines Elevate，以及 Sector 27 的 Green Meadows 与 Sushant Lok Block B，提供全套家具的 3BHK 与 4BHK 公寓。每日保洁、企业 GST 发票，一个月起租。',
+        bannerButton: '查看古尔冈房源 →',
+        title: '正在寻找古尔冈的理想居所？',
+        text: '比较我们在古尔冈的三处公寓，或通过 WhatsApp 联系我们查询空房。',
+        button: '查看精选房源 →',
+        whatsapp: '微信 / WhatsApp 咨询',
+        whatsappText: '您好，我看了贵司的博客，想咨询古尔冈服务式公寓。',
+    },
+};
 
 const getBlogPost = (slug) => blogPosts.find(p => p.slug === slug);
 const getRelatedPosts = (currentSlug, count = 3) => {
@@ -84,7 +139,11 @@ const BlogPost = () => {
     }
 
     const isZh = post.lang === 'zh-CN' || post.lang === 'zh';
-    const canonical = isZh 
+    const gurugramCta = GURUGRAM_POST_RE.test(`${post.slug} ${post.title}`)
+        ? GURUGRAM_CTA[isZh ? 'zh' : post.lang] || GURUGRAM_CTA.en
+        : null;
+    const residencesPath = gurugramCta ? GURUGRAM_HUB_PATH : '/residences';
+    const canonical = isZh
         ? `https://www.sandanehomes.com/zh/${post.slug}`
         : `https://www.sandanehomes.com/blog/${post.slug}`;
 
@@ -211,7 +270,7 @@ const BlogPost = () => {
                     </div>
                     <div style={{ marginTop: '30px' }}>
                         <Link
-                            to="/residences"
+                            to={residencesPath}
                             style={{
                                 display: 'inline-flex', alignItems: 'center', gap: '10px',
                                 backgroundColor: '#C5A572', color: '#1A3C34',
@@ -223,7 +282,7 @@ const BlogPost = () => {
                             onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
                             onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         >
-                            {isZh ? '探索 Residences by Sandane Homes 精选高级公寓 \u2192' : 'Explore Residences by Sandane Homes \u2192'}
+                            {gurugramCta ? gurugramCta.hero : isZh ? '探索 Residences by Sandane Homes 精选高级公寓 \u2192' : 'Explore Residences by Sandane Homes \u2192'}
                         </Link>
                     </div>
                 </div>
@@ -238,14 +297,14 @@ const BlogPost = () => {
                         <span style={{ color: '#1A3C34', fontWeight: '600' }}>{post.title}</span>
                     </div>
                     <Link
-                        to="/residences"
+                        to={residencesPath}
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '6px',
                             color: '#C5A572', fontWeight: '700', textDecoration: 'none',
                             fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px'
                         }}
                     >
-                        {isZh ? '查看精选公寓房源 \u2192' : 'View Serviced Suites \u2192'}
+                        {gurugramCta ? gurugramCta.suites : isZh ? '查看精选公寓房源 \u2192' : 'View Serviced Suites \u2192'}
                     </Link>
                 </div>
             </div>
@@ -269,15 +328,15 @@ const BlogPost = () => {
                         Sandane Homes Collection
                     </span>
                     <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '26px', color: '#1A3C34', margin: '12px 0' }}>
-                        {isZh ? '探索 Sandane Homes 奢华服务式公寓' : 'Explore Our Luxury Serviced Residences'}
+                        {gurugramCta ? gurugramCta.bannerTitle : isZh ? '探索 Sandane Homes 奢华服务式公寓' : 'Explore Our Luxury Serviced Residences'}
                     </h3>
                     <p style={{ color: '#555', fontSize: '15px', maxWidth: '560px', margin: '0 auto 24px', lineHeight: '1.6' }}>
-                        {isZh
+                        {gurugramCta ? gurugramCta.bannerText : isZh
                             ? '为您打造的全套家具、每日保洁、具备完整烹饪设施的 1BHK、2BHK 及独立套房。位于 Jaypee Greens 与 Ansal Golf Links 等高端门禁社区。'
                             : 'Discover fully furnished, hotel-serviced 1BHK, 2BHK, and studio suites in Greater Noida\'s finest gated societies like Jaypee Greens & Ansal Golf Links.'}
                     </p>
                     <Link
-                        to="/residences"
+                        to={residencesPath}
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '10px',
                             backgroundColor: '#1A3C34', color: '#fff',
@@ -289,7 +348,7 @@ const BlogPost = () => {
                         onMouseOver={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         onMouseOut={e => { e.currentTarget.style.backgroundColor = '#1A3C34'; e.currentTarget.style.color = '#fff'; }}
                     >
-                        {isZh ? '查看所有可预订房源 \u2192' : 'View All Available Residences \u2192'}
+                        {gurugramCta ? gurugramCta.bannerButton : isZh ? '查看所有可预订房源 \u2192' : 'View All Available Residences \u2192'}
                     </Link>
                 </div>
             </div>
@@ -392,16 +451,16 @@ const BlogPost = () => {
                 padding: '90px 20px', textAlign: 'center', color: 'white'
             }}>
                 <h2 style={{ fontSize: '34px', marginBottom: '16px', fontFamily: 'Playfair Display, serif' }}>
-                    {isZh ? '正在寻找大诺伊达的理想居所？' : 'Looking for a home in Greater Noida?'}
+                    {gurugramCta ? gurugramCta.title : isZh ? '正在寻找大诺伊达的理想居所？' : 'Looking for a home in Greater Noida?'}
                 </h2>
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '40px', maxWidth: '560px', margin: '0 auto 40px' }}>
-                    {isZh
+                    {gurugramCta ? gurugramCta.text : isZh
                         ? '探索我们的豪华住宅系列，或通过微信 / WhatsApp 联系我们的专属团队获得即时协助。'
                         : 'Explore our collection of luxury residences or message our team on WhatsApp for instant assistance.'}
                 </p>
                 <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                     <Link
-                        to="/residences"
+                        to={residencesPath}
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '10px',
                             backgroundColor: '#C5A572', color: '#1A3C34',
@@ -412,10 +471,10 @@ const BlogPost = () => {
                         onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        {isZh ? '查看精选房源 \u2192' : 'Explore Residences \u2192'}
+                        {gurugramCta ? gurugramCta.button : isZh ? '查看精选房源 \u2192' : 'Explore Residences \u2192'}
                     </Link>
                     <a
-                        href={`https://wa.me/${PHONE}?text=${encodeURIComponent(isZh ? '您好，我了解了贵司大诺伊达服务式公寓博客，想咨询外派住宿预订。' : 'Hello, I read your blog post and I would like to know more about housing in Greater Noida')}`}
+                        href={`https://wa.me/${PHONE}?text=${encodeURIComponent(gurugramCta ? gurugramCta.whatsappText : isZh ? '您好，我了解了贵司大诺伊达服务式公寓博客，想咨询外派住宿预订。' : 'Hello, I read your blog post and I would like to know more about housing in Greater Noida')}`}
                         target="_blank" rel="noopener noreferrer"
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '12px',
@@ -427,7 +486,7 @@ const BlogPost = () => {
                         onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        <FaWhatsapp size={22} /> {isZh ? '微信 / WhatsApp 咨询' : 'WhatsApp Us'}
+                        <FaWhatsapp size={22} /> {gurugramCta ? gurugramCta.whatsapp : isZh ? '微信 / WhatsApp 咨询' : 'WhatsApp Us'}
                     </a>
                 </div>
             </div>
