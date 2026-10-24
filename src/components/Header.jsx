@@ -19,18 +19,20 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
         return null;
     };
 
-    // State for the current language
-    const [currentLang, setCurrentLang] = useState(() => {
+    // State for the current language. Starts as 'en' so the prerendered HTML and the
+    // first client render match; the googtrans cookie is read after hydration.
+    const [currentLang, setCurrentLang] = useState('en');
+
+    React.useEffect(() => {
         const cookieVal = getCookie('googtrans');
         if (cookieVal) {
             const parts = cookieVal.split('/');
             const code = parts[parts.length - 1];
             if (['ko', 'ja', 'en'].includes(code)) {
-                return code;
+                setCurrentLang(code);
             }
         }
-        return 'en';
-    });
+    }, []);
 
     // Handle language selection
     const changeLanguage = (lang) => {
@@ -259,7 +261,8 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
 
                 {/* Right Info (Custom Phone & Translator) */}
                 <div className="header-right-info" style={{ display: 'flex', alignItems: 'center' }}>
-                    {!shouldShowTopBar && window.innerWidth > 1024 && (
+                    {/* Hidden at ≤1024px via Header.css */}
+                    {!shouldShowTopBar && (
                         <div className="desktop-nav-translator">
                             <button onClick={() => changeLanguage('ko')} className={`lang-btn ${currentLang === 'ko' ? 'active' : ''}`} aria-label="Translate to Korean"><span className="lang-flag">🇰🇷</span> KR</button>
                             <span className="lang-divider">|</span>

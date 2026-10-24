@@ -736,6 +736,19 @@ if (!fs.existsSync(indexHtmlPath)) {
 
 const originalHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
+// Server-render each route's body (built by `vite build --ssr`) so crawlers that don't
+// run JavaScript still see the page content. If the SSR bundle is missing, pages keep
+// an empty #root and the client renders them as before.
+let renderApp = null;
+const ssrEntryPath = path.join(__dirname, 'dist-ssr', 'entry-server.js');
+if (fs.existsSync(ssrEntryPath)) {
+  ({ render: renderApp } = await import(ssrEntryPath));
+} else {
+  console.warn('dist-ssr/entry-server.js not found; skipping body prerender.');
+}
+let prerenderedCount = 0;
+const prerenderFailures = [];
+
 Object.keys(SEO_MAP).forEach((route) => {
   const seo = SEO_MAP[route];
   const canonical = `${BASE_URL}${route === '/' ? '' : route}`;
@@ -795,6 +808,22 @@ Object.keys(SEO_MAP).forEach((route) => {
 
   newHtml = newHtml.replace('</head>', `${tagsToInject}\n  </head>`);
 
+  // 6. Prerender the page body. data-prerendered tells main.jsx which path this markup
+  //    belongs to, so it only hydrates when the URL matches.
+  if (renderApp) {
+    try {
+      // React 19 emits Helmet's <title>/<meta>/<link> inline in renderToString output.
+      // The <head> above already has the correct ones, so drop the body copies.
+      const appHtml = renderApp(route)
+        .replace(/<title>[\s\S]*?<\/title>/g, '')
+        .replace(/<(meta|link)\b[^>]*\/?>/g, '');
+      newHtml = newHtml.replace('<div id="root"></div>', `<div id="root" data-prerendered="${route}">${appHtml}</div>`);
+      prerenderedCount++;
+    } catch (err) {
+      prerenderFailures.push(`${route}: ${err.message}`);
+    }
+  }
+
   // Determine where to save the file
   if (route === '/') {
     // Overwrite the root index.html
@@ -810,6 +839,14 @@ Object.keys(SEO_MAP).forEach((route) => {
     console.log(`Generated SEO tags for ${route}`);
   }
 });
+
+if (renderApp) {
+  console.log(`Prerendered page HTML for ${prerenderedCount} routes.`);
+  if (prerenderFailures.length) {
+    console.warn(`Prerender failed for ${prerenderFailures.length} routes (they fall back to client rendering):`);
+    prerenderFailures.forEach((f) => console.warn(`  ${f}`));
+  }
+}
 
 // ── Keep sitemap.xml in sync with high priority blog posts and landing pages automatically ──
 const highPrioritySlugs = [

@@ -2,6 +2,25 @@
 <html lang="en">
 
 <head>
+  <!-- Homepage preloader: humans only, first homepage visit per session. Bots, Lighthouse
+       and every other page get the content immediately. Read by src/main.jsx. -->
+  <script>
+    (function () {
+      try {
+        if (location.pathname !== '/') return;
+        if (/bot|crawl|spider|slurp|lighthouse|headless|google-|mediapartners|facebookexternalhit|embedly|preview/i.test(navigator.userAgent)) return;
+        if (sessionStorage.getItem('sh_preloaded')) return;
+        sessionStorage.setItem('sh_preloaded', '1');
+        document.documentElement.setAttribute('data-preload', '');
+      } catch (e) {}
+    })();
+  </script>
+  <style>
+    html[data-preload] body { background-color: #030303; }
+    html[data-preload] #root { opacity: 0; }
+    #root { transition: opacity 0.5s ease-in; }
+  </style>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18351401616"></script>
   <script>

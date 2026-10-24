@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
 import ScrollToTop from './components/ScrollToTop';
 import './MobileStyles.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Residences from './components/pages/Residences';
 import SandaneHomes from './components/pages/SandaneHomes';
@@ -31,19 +30,17 @@ import GurugramKoreanExpatHousing from './components/pages/GurugramKoreanExpatHo
 import JapaneseCompanyHousing from './components/pages/JapaneseCompanyHousing';
 import GurugramResidences from './components/pages/GurugramResidences';
 import { japaneseCompanies } from './data/japaneseCompanies';
-import Preloader from './components/Preloader';
 import WhatsAppButton from './components/WhatsAppButton';
 
 import { Analytics } from '@vercel/analytics/react';
 
+// The router is supplied by the caller: BrowserRouter in main.jsx, StaticRouter in
+// entry-server.jsx (build-time prerender). The homepage preloader is mounted in main.jsx.
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-
   return (
-    <Router>
+    <>
       <ScrollToTop />
-      {isLoading && <Preloader onComplete={() => setIsLoading(false)} />}
-      <div className="app" style={{ opacity: isLoading ? 0 : 1, transition: 'opacity 0.5s ease-in' }}>
+      <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/residences" element={<Residences />} />
@@ -121,7 +118,7 @@ function App() {
         <WhatsAppButton />
       </div>
       <Analytics />
-    </Router>
+    </>
   );
 }
 
