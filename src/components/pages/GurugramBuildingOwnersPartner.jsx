@@ -29,15 +29,17 @@ const GurugramBuildingOwnersPartner = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `*New Building Master Lease Proposal | Sandane Homes*\n\n` +
-      `👤 *Owner/Developer Name:* ${name}\n` +
-      `📞 *Phone / WhatsApp:* ${phone}\n` +
-      `✉️ *Email:* ${email || 'Not provided'}\n` +
-      `🏢 *Asset Category:* ${buildingType}\n` +
-      `🔢 *Total Units:* ${totalUnits}\n` +
-      `📍 *Locality / Sector:* ${locality}\n` +
-      `📝 *Notes:* ${message || 'None'}\n\n` +
-      `_Submitted via Gurugram Building Owners Portal_`;
+    const text =
+      `Hi Sandane Homes team,\n\n` +
+      `I am interested in proposing my building in Gurugram for a corporate master lease. Here are the property details:\n\n` +
+      `• *Owner / Developer Name:* ${name}\n` +
+      `• *Contact Number:* ${phone}\n` +
+      (email ? `• *Email:* ${email}\n` : '') +
+      `• *Asset Category:* ${buildingType}\n` +
+      `• *Total Units:* ${totalUnits}\n` +
+      (locality ? `• *Location / Sector:* ${locality}\n` : '') +
+      (message && message.trim() && message !== 'None' ? `• *Additional Details:* ${message}\n` : '') +
+      `\nPlease review and let me know the valuation and next steps. Thank you!`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
     setFormSubmitted(true);

@@ -60,19 +60,20 @@ const PartnerApplicationPage = () => {
     const formattedApartmentType = selectedTypeObj ? `${selectedTypeObj.label} (${selectedTypeObj.desc})` : selectedApartmentType;
     const formattedModel = selectedModelObj ? selectedModelObj.label : modelPreference;
 
-    // Structured WhatsApp message with all filled fields
+    // Natural, polite and professional message from the property owner
     const whatsappMessage =
-      `*New Property Partner Application | Sandane Homes*\n\n` +
-      `👤 *Owner Name:* ${name}\n` +
-      `📞 *Phone / WhatsApp:* ${phone}\n` +
-      `✉️ *Email:* ${email || 'Not provided'}\n` +
-      `📍 *City:* ${selectedCity}\n` +
-      `🏢 *Locality / Society:* ${locality || 'Not specified'}\n` +
-      `🏠 *Property / Apartment Type:* ${formattedApartmentType}\n` +
-      `🛋️ *Furnishing Status:* ${furnishing}\n` +
-      `🤝 *Preferred Model:* ${formattedModel}\n` +
-      `📝 *Additional Notes:* ${notes || 'None'}\n\n` +
-      `_Submitted via Sandane Homes Partner Portal_`;
+      `Hi Sandane Homes team,\n\n` +
+      `I would like to explore partnering with Sandane Homes to monetize my property. Here are my property details:\n\n` +
+      `• *Name:* ${name}\n` +
+      `• *Contact Number:* ${phone}\n` +
+      (email ? `• *Email:* ${email}\n` : '') +
+      `• *City:* ${selectedCity}\n` +
+      (locality ? `• *Society / Locality:* ${locality}\n` : '') +
+      `• *Property Type:* ${formattedApartmentType}\n` +
+      `• *Furnishing Status:* ${furnishing}\n` +
+      `• *Preferred Model:* ${formattedModel}\n` +
+      (notes && notes.trim() && notes !== 'None' ? `• *Additional Notes:* ${notes}\n` : '') +
+      `\nPlease review my property details and let me know the next steps. Thank you!`;
 
     // Immediately launch WhatsApp with full details pre-filled
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(whatsappMessage)}`, '_blank');

@@ -31,15 +31,17 @@ const PartnershipPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `*New Property Partner Inquiry | Sandane Homes*\n\n` +
-      `👤 *Owner Name:* ${name}\n` +
-      `📞 *Phone / WhatsApp:* ${phone}\n` +
-      `✉️ *Email:* ${email || 'Not provided'}\n` +
-      `🏠 *Property Type:* ${propertyType}\n` +
-      `🔢 *Units/Flats:* ${unitsCount}\n` +
-      `📍 *Location:* ${locality}, ${city}\n` +
-      `📝 *Notes:* ${message || 'None'}\n\n` +
-      `_Submitted via Sandane Homes Partner Portal_`;
+    const text =
+      `Hi Sandane Homes team,\n\n` +
+      `I would like to explore partnering with Sandane Homes to monetize my property. Here are my property details:\n\n` +
+      `• *Name:* ${name}\n` +
+      `• *Contact Number:* ${phone}\n` +
+      (email ? `• *Email:* ${email}\n` : '') +
+      `• *Property Type:* ${propertyType}\n` +
+      `• *Units / Flats:* ${unitsCount}\n` +
+      `• *Location:* ${locality}, ${city}\n` +
+      (message && message.trim() && message !== 'None' ? `• *Additional Details:* ${message}\n` : '') +
+      `\nPlease review my details and let me know the suitable monetization options. Thank you!`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
     setFormSubmitted(true);

@@ -28,15 +28,17 @@ const GurugramHomeOwnersPartner = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `*New Gurugram Apartment Partner Inquiry | Sandane Homes*\n\n` +
-      `👤 *Owner Name:* ${name}\n` +
-      `📞 *Phone / WhatsApp:* ${phone}\n` +
-      `✉️ *Email:* ${email || 'Not provided'}\n` +
-      `🏠 *BHK Config:* ${bhk}\n` +
-      `📍 *Locality:* ${locality}\n` +
-      `🏢 *Society Name:* ${society}\n` +
-      `📝 *Notes:* ${message || 'None'}\n\n` +
-      `_Submitted via Gurugram Home Owners Portal_`;
+    const text =
+      `Hi Sandane Homes team,\n\n` +
+      `I am interested in partnering with Sandane Homes to monetize my flat in Gurugram. Here are my details:\n\n` +
+      `• *Name:* ${name}\n` +
+      `• *Contact Number:* ${phone}\n` +
+      (email ? `• *Email:* ${email}\n` : '') +
+      `• *Configuration:* ${bhk}\n` +
+      (society ? `• *Society Name:* ${society}\n` : '') +
+      (locality ? `• *Locality / Sector:* ${locality}\n` : '') +
+      (message && message.trim() && message !== 'None' ? `• *Additional Details:* ${message}\n` : '') +
+      `\nPlease review and let me know the rental valuation and next steps. Thank you!`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
     setFormSubmitted(true);
