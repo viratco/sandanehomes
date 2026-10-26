@@ -60,6 +60,23 @@ const PartnerApplicationPage = () => {
     const formattedApartmentType = selectedTypeObj ? `${selectedTypeObj.label} (${selectedTypeObj.desc})` : selectedApartmentType;
     const formattedModel = selectedModelObj ? selectedModelObj.label : modelPreference;
 
+    // Structured WhatsApp message with all filled fields
+    const whatsappMessage =
+      `*New Property Partner Application | Sandane Homes*\n\n` +
+      `👤 *Owner Name:* ${name}\n` +
+      `📞 *Phone / WhatsApp:* ${phone}\n` +
+      `✉️ *Email:* ${email || 'Not provided'}\n` +
+      `📍 *City:* ${selectedCity}\n` +
+      `🏢 *Locality / Society:* ${locality || 'Not specified'}\n` +
+      `🏠 *Property / Apartment Type:* ${formattedApartmentType}\n` +
+      `🛋️ *Furnishing Status:* ${furnishing}\n` +
+      `🤝 *Preferred Model:* ${formattedModel}\n` +
+      `📝 *Additional Notes:* ${notes || 'None'}\n\n` +
+      `_Submitted via Sandane Homes Partner Portal_`;
+
+    // Immediately launch WhatsApp with full details pre-filled
+    window.open(`https://wa.me/919711722273?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+
     const payload = {
       _subject: `New Partner Application: ${name} - ${formattedApartmentType} in ${selectedCity}`,
       _captcha: "false",
@@ -96,7 +113,6 @@ const PartnerApplicationPage = () => {
       .catch((error) => {
         console.error('Error submitting form:', error);
         setIsSubmitting(false);
-        // Fallback to success so user isn't stuck
         setSubmitted(true);
       });
   };
@@ -223,9 +239,7 @@ const PartnerApplicationPage = () => {
               FILL PARTNER FORM <FaArrowRight size={12} />
             </a>
             <a
-              href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20want%20to%20discuss%20partnering%20my%20property%20for%20leasing/revenue%20share."
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#application-form"
               style={{
                 backgroundColor: '#25D366',
                 color: '#FFFFFF',
@@ -240,7 +254,7 @@ const PartnerApplicationPage = () => {
                 gap: '8px'
               }}
             >
-              <FaWhatsapp size={16} /> WHATSAPP ACQUISITIONS
+              <FaWhatsapp size={16} /> CONNECT ON WHATSAPP (QUICK FORM)
             </a>
           </div>
         </div>
@@ -898,7 +912,7 @@ const PartnerApplicationPage = () => {
                 disabled={isSubmitting}
                 style={{
                   width: '100%',
-                  backgroundColor: isSubmitting ? '#5A6C80' : '#1C2D42',
+                  backgroundColor: isSubmitting ? '#5A6C80' : '#25D366',
                   color: '#FFFFFF',
                   padding: '18px 24px',
                   borderRadius: '35px',
@@ -907,7 +921,7 @@ const PartnerApplicationPage = () => {
                   letterSpacing: '1px',
                   border: 'none',
                   cursor: isSubmitting ? 'not-allowed' : 'pointer',
-                  boxShadow: '0 8px 25px rgba(28, 45, 66, 0.25)',
+                  boxShadow: '0 8px 25px rgba(37, 211, 102, 0.35)',
                   transition: 'all 0.3s ease',
                   display: 'flex',
                   alignItems: 'center',
@@ -919,7 +933,7 @@ const PartnerApplicationPage = () => {
                   'SUBMITTING APPLICATION TO TEAM...'
                 ) : (
                   <>
-                    SUBMIT PROPERTY FOR EVALUATION <FaArrowRight size={14} />
+                    <FaWhatsapp size={20} /> SUBMIT &amp; CHAT ON WHATSAPP <FaArrowRight size={14} />
                   </>
                 )}
               </button>
@@ -927,11 +941,11 @@ const PartnerApplicationPage = () => {
               <p style={{
                 textAlign: 'center',
                 fontSize: '12px',
-                color: '#777',
+                color: '#666',
                 marginTop: '16px',
                 lineHeight: '1.5'
               }}>
-                🔒 No commitment required. By submitting, you request a free property revenue appraisal from Sandane Homes.
+                🔒 By submitting, your complete property details are delivered to our team and immediately opened in WhatsApp for instant conversation.
               </p>
             </form>
           )}
@@ -1035,9 +1049,7 @@ const PartnerApplicationPage = () => {
                 <FaPhoneAlt size={13} /> +91 97117 22273
               </a>
               <a
-                href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20have%20an%20apartment%20I%20want%20to%20monetize."
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#application-form"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -1051,7 +1063,7 @@ const PartnerApplicationPage = () => {
                   fontWeight: '700'
                 }}
               >
-                <FaWhatsapp size={16} /> WHATSAPP ACQUISITIONS
+                <FaWhatsapp size={16} /> SHARE DETAILS ON WHATSAPP
               </a>
             </div>
           </div>

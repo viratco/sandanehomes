@@ -31,17 +31,36 @@ const PartnershipPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hi Sandane Homes Partner Team! I am interested in partnering to monetize my property.\n\n` +
-      `*Name:* ${name}\n` +
-      `*Phone:* ${phone}\n` +
-      `*Email:* ${email}\n` +
-      `*Property Type:* ${propertyType}\n` +
-      `*Units/Flats:* ${unitsCount}\n` +
-      `*Location:* ${locality}, ${city}\n` +
-      `*Notes:* ${message}`;
+    const text = `*New Property Partner Inquiry | Sandane Homes*\n\n` +
+      `👤 *Owner Name:* ${name}\n` +
+      `📞 *Phone / WhatsApp:* ${phone}\n` +
+      `✉️ *Email:* ${email || 'Not provided'}\n` +
+      `🏠 *Property Type:* ${propertyType}\n` +
+      `🔢 *Units/Flats:* ${unitsCount}\n` +
+      `📍 *Location:* ${locality}, ${city}\n` +
+      `📝 *Notes:* ${message || 'None'}\n\n` +
+      `_Submitted via Sandane Homes Partner Portal_`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
     setFormSubmitted(true);
+
+    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
+      method: "POST",
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        _subject: `New Property Partner Inquiry: ${name} (${propertyType}) in ${city}`,
+        _captcha: "false",
+        _template: "table",
+        "Owner Name": name,
+        "Phone / WhatsApp": phone,
+        "Email": email || 'Not provided',
+        "Property Type": propertyType,
+        "Units/Flats": unitsCount,
+        "Location": `${locality}, ${city}`,
+        "Notes": message || 'None',
+        "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      })
+    }).catch(err => console.error("Email submission error:", err));
   };
 
   const partnerFaqs = [
@@ -323,9 +342,7 @@ const PartnershipPage = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20want%20to%20discuss%20a%20property%20partnership%20for%20my%20apartments/building."
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#partner-form"
                   style={{
                     backgroundColor: '#25D366',
                     color: '#FFFFFF',
@@ -342,7 +359,7 @@ const PartnershipPage = () => {
                     gap: '10px'
                   }}
                 >
-                  <FaWhatsapp size={17} /> WHATSAPP PARTNER DESK
+                  <FaWhatsapp size={17} /> CONNECT ON WHATSAPP (QUICK FORM)
                 </a>
               </div>
             </div>

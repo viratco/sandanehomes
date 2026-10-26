@@ -29,17 +29,37 @@ const GurugramBuildingOwnersPartner = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hi Sandane Homes Corporate Master Lease Desk! I am a Gurugram Building Owner proposing an asset for master lease.\n\n` +
-      `*Name:* ${name}\n` +
-      `*Phone:* ${phone}\n` +
-      `*Email:* ${email}\n` +
-      `*Asset Category:* ${buildingType}\n` +
-      `*Total Units:* ${totalUnits}\n` +
-      `*Locality:* ${locality}\n` +
-      `*Notes:* ${message}`;
+    const text = `*New Building Master Lease Proposal | Sandane Homes*\n\n` +
+      `👤 *Owner/Developer Name:* ${name}\n` +
+      `📞 *Phone / WhatsApp:* ${phone}\n` +
+      `✉️ *Email:* ${email || 'Not provided'}\n` +
+      `🏢 *Asset Category:* ${buildingType}\n` +
+      `🔢 *Total Units:* ${totalUnits}\n` +
+      `📍 *Locality / Sector:* ${locality}\n` +
+      `📝 *Notes:* ${message || 'None'}\n\n` +
+      `_Submitted via Gurugram Building Owners Portal_`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
     setFormSubmitted(true);
+
+    // Also send to residencesbysandanehomes@gmail.com
+    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
+      method: "POST",
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        _subject: `New Building Master Lease Proposal: ${name} (${totalUnits}) in Gurugram`,
+        _captcha: "false",
+        _template: "table",
+        "Owner/Developer Name": name,
+        "Phone / WhatsApp": phone,
+        "Email": email || 'Not provided',
+        "Asset Category": buildingType,
+        "Total Units": totalUnits,
+        "Locality / Sector": locality,
+        "Notes": message || 'None',
+        "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      })
+    }).catch(err => console.error("Email submission error:", err));
   };
 
   const faqs = [
@@ -195,9 +215,7 @@ const GurugramBuildingOwnersPartner = () => {
               </a>
 
               <a
-                href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20a%20Gurugram%20building%20owner%20interested%20in%20a%20master%20lease."
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#corporate-building-form"
                 style={{
                   backgroundColor: '#25D366',
                   color: '#FFFFFF',
@@ -213,7 +231,7 @@ const GurugramBuildingOwnersPartner = () => {
                   gap: '10px'
                 }}
               >
-                <FaWhatsapp size={18} /> WHATSAPP MASTER LEASE DESK
+                <FaWhatsapp size={18} /> CONNECT ON WHATSAPP (PROPOSE ASSET)
               </a>
             </div>
           </div>

@@ -28,17 +28,36 @@ const GurugramHomeOwnersPartner = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const text = `Hi Sandane Homes Partner Desk! I am a Gurugram Apartment Owner proposing my flat.\n\n` +
-      `*Name:* ${name}\n` +
-      `*Phone:* ${phone}\n` +
-      `*Email:* ${email}\n` +
-      `*BHK Config:* ${bhk}\n` +
-      `*Locality:* ${locality}\n` +
-      `*Society Name:* ${society}\n` +
-      `*Notes:* ${message}`;
+    const text = `*New Gurugram Apartment Partner Inquiry | Sandane Homes*\n\n` +
+      `👤 *Owner Name:* ${name}\n` +
+      `📞 *Phone / WhatsApp:* ${phone}\n` +
+      `✉️ *Email:* ${email || 'Not provided'}\n` +
+      `🏠 *BHK Config:* ${bhk}\n` +
+      `📍 *Locality:* ${locality}\n` +
+      `🏢 *Society Name:* ${society}\n` +
+      `📝 *Notes:* ${message || 'None'}\n\n` +
+      `_Submitted via Gurugram Home Owners Portal_`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
     setFormSubmitted(true);
+
+    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
+      method: "POST",
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        _subject: `New Apartment Partner Inquiry: ${name} (${bhk}) in ${society}`,
+        _captcha: "false",
+        _template: "table",
+        "Owner Name": name,
+        "Phone / WhatsApp": phone,
+        "Email": email || 'Not provided',
+        "BHK Config": bhk,
+        "Locality": locality,
+        "Society": society,
+        "Notes": message || 'None',
+        "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      })
+    }).catch(err => console.error("Email submission error:", err));
   };
 
   const faqs = [
@@ -154,8 +173,8 @@ const GurugramHomeOwnersPartner = () => {
               <a href="#home-valuation-form" style={{ backgroundColor: '#C5A572', color: '#0F172A', padding: '16px 36px', borderRadius: '30px', fontSize: '14px', fontWeight: '700', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
                 MONETIZE MY FLAT <FaArrowRight size={13} />
               </a>
-              <a href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20am%20a%20Gurugram%20home%20owner%20interested%20in%20partnering." target="_blank" rel="noopener noreferrer" style={{ backgroundColor: '#25D366', color: '#FFF', padding: '16px 30px', borderRadius: '30px', fontSize: '14px', fontWeight: '700', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
-                <FaWhatsapp size={18} /> WHATSAPP PARTNER DESK
+              <a href="#home-valuation-form" style={{ backgroundColor: '#25D366', color: '#FFF', padding: '16px 30px', borderRadius: '30px', fontSize: '14px', fontWeight: '700', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
+                <FaWhatsapp size={18} /> CONNECT ON WHATSAPP (QUICK FORM)
               </a>
             </div>
           </div>
