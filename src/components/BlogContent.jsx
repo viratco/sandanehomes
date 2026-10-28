@@ -52,7 +52,7 @@ const BlogContent = ({ blocks = [] }) => {
                     case 'image':
                         return (
                             <figure key={i} className="blog-prose-figure">
-                                <img src={block.src} alt={block.caption || ''} loading="lazy" />
+                                <img src={block.src} alt={block.caption || 'Sandane Homes blog illustration'} loading="lazy" width="800" height="500" />
                                 {block.caption && <figcaption>{block.caption}</figcaption>}
                             </figure>
                         );

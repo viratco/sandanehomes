@@ -11,15 +11,49 @@ import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_H
 const PHONE = '919711722273';
 const HUB_URL = `https://www.sandanehomes.com${GURUGRAM_HUB_PATH}`;
 
-const FAQItem = ({ q, a }) => {
-  const [open, setOpen] = useState(false);
+const FAQItem = ({ q, a, index }) => {
+  const [open, setOpen] = useState(index === 0);
+  const btnId = `faq-btn-${index}`;
+  const panelId = `faq-panel-${index}`;
+
   return (
-    <div style={{ borderBottom: '1px solid #E8E0D0', padding: '22px 0', cursor: 'pointer' }} onClick={() => setOpen(o => !o)}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h3 style={{ fontSize: '17px', color: '#1A3C34', margin: 0, fontWeight: '600', paddingRight: '20px', lineHeight: 1.45 }}>{q}</h3>
-        <div style={{ color: '#C5A572', flexShrink: 0 }}>{open ? <FaChevronUp /> : <FaChevronDown />}</div>
-      </div>
-      {open && <div style={{ marginTop: '14px', color: '#555', fontSize: '16px', lineHeight: '1.9' }}>{a}</div>}
+    <div style={{ borderBottom: '1px solid #E8E0D0', padding: '20px 0' }}>
+      <button
+        id={btnId}
+        type="button"
+        aria-expanded={open}
+        aria-controls={panelId}
+        onClick={() => setOpen(o => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          background: 'none',
+          border: 'none',
+          padding: '4px 0',
+          cursor: 'pointer',
+          textAlign: 'left',
+          fontFamily: 'inherit',
+        }}
+      >
+        <h3 style={{ fontSize: '17px', color: '#1A3C34', margin: 0, fontWeight: '600', paddingRight: '20px', lineHeight: 1.45 }}>
+          {q}
+        </h3>
+        <span style={{ color: '#C5A572', flexShrink: 0, display: 'flex', alignItems: 'center' }} aria-hidden="true">
+          {open ? <FaChevronUp /> : <FaChevronDown />}
+        </span>
+      </button>
+      {open && (
+        <div
+          id={panelId}
+          role="region"
+          aria-labelledby={btnId}
+          style={{ marginTop: '14px', color: '#555', fontSize: '16px', lineHeight: '1.9' }}
+        >
+          {a}
+        </div>
+      )}
     </div>
   );
 };
@@ -41,6 +75,13 @@ export default function GurugramResidences() {
     mainEntity: gurugramHubFaqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
+  const hreflang = [
+    { lang: 'en', href: 'https://www.sandanehomes.com/residences/gurgaon' },
+    { lang: 'ja', href: 'https://www.sandanehomes.com/gurugram/japanese-expat-housing' },
+    { lang: 'ko', href: 'https://www.sandanehomes.com/gurugram/korean-expat-housing' },
+    { lang: 'x-default', href: 'https://www.sandanehomes.com/residences/gurgaon' },
+  ];
+
   return (
     <div className="sandane-homes-page">
       <SEO
@@ -49,6 +90,7 @@ export default function GurugramResidences() {
         canonical={HUB_URL}
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[gurugramItemListSchema(), faqSchema, breadcrumb]}
+        hreflang={hreflang}
       />
       <Header showTopBar={false} />
 
@@ -171,7 +213,7 @@ export default function GurugramResidences() {
       <div style={{ padding: '90px 20px', backgroundColor: '#fff' }}>
         <div style={{ maxWidth: '820px', margin: '0 auto' }}>
           <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#1A3C34', margin: '0 0 48px', textAlign: 'center' }}>FAQs — Serviced Apartments in Gurgaon</h2>
-          <div style={{ borderTop: '1px solid #E8E0D0' }}>{gurugramHubFaqs.map((f) => <FAQItem key={f.q} q={f.q} a={f.a} />)}</div>
+          <div style={{ borderTop: '1px solid #E8E0D0' }}>{gurugramHubFaqs.map((f, i) => <FAQItem key={f.q} q={f.q} a={f.a} index={i} />)}</div>
         </div>
       </div>
 
@@ -191,7 +233,7 @@ export default function GurugramResidences() {
         </div>
       </div>
 
-      <Footer />
+      <Footer isResidences={true} />
     </div>
   );
 }

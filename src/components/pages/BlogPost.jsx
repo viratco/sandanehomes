@@ -527,7 +527,7 @@ const BlogPost = () => {
                             {relatedPosts.map((p) => (
                                 <Link key={p.slug} to={`/blog/${p.slug}`} className="blog-card" style={{ textDecoration: 'none' }}>
                                     {p.coverImage ? (
-                                        <img src={p.coverImage} alt={p.title} className="blog-card-image" loading="lazy" />
+                                        <img src={p.coverImage} alt={p.title} className="blog-card-image" loading="lazy" width="400" height="250" />
                                     ) : (
                                         <div className="blog-card-image" style={{ background: p.coverGradient || '#1A3C34' }} />
                                     )}

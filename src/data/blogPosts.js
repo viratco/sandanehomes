@@ -11,7 +11,7 @@ export const blogPosts = [
     "date": "October 17, 2026",
     "publishDate": "2026-10-17",
     "author": "Sandane Expat Advisory Desk",
-    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600585154340-be6161a56a0c.webp",
     "tags": [
       "Conscient Hines Elevate",
       "DLF Park Place",
@@ -33,7 +33,7 @@ export const blogPosts = [
     "date": "October 17, 2026",
     "publishDate": "2026-10-17",
     "author": "Sandane Corporate Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1522708323590-d24dbb6b0267.webp",
     "tags": [
       "Sohna Road Gurgaon",
       "Candor TechSpace",
@@ -55,7 +55,7 @@ export const blogPosts = [
     "date": "October 18, 2026",
     "publishDate": "2026-10-18",
     "author": "Sandane Corporate Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "DLF Phase 5 Gurgaon",
       "Golf Course Road",
@@ -77,7 +77,7 @@ export const blogPosts = [
     "date": "October 18, 2026",
     "publishDate": "2026-10-18",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1540518614846-7ede433c4ef0.webp",
     "tags": [
       "Sushant Lok Block A",
       "Sector 27 Gurgaon",
@@ -99,7 +99,7 @@ export const blogPosts = [
     "date": "October 19, 2026",
     "publishDate": "2026-10-19",
     "author": "Sandane Gurugram Luxury Desk",
-    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1522708323590-d24dbb6b0267.webp",
     "tags": [
       "M3M Heights",
       "Sector 65 Gurgaon",
@@ -121,7 +121,7 @@ export const blogPosts = [
     "date": "October 19, 2026",
     "publishDate": "2026-10-19",
     "author": "Sandane Local Living Team",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "DLF Phase 4 Gurgaon",
       "Galleria Market",
@@ -143,7 +143,7 @@ export const blogPosts = [
     "date": "October 20, 2026",
     "publishDate": "2026-10-20",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600607687939-ce8a6c25118c.webp",
     "tags": [
       "Green Avenue Sector 27",
       "Sector 27 Gurgaon",
@@ -165,7 +165,7 @@ export const blogPosts = [
     "date": "October 20, 2026",
     "publishDate": "2026-10-20",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600596542815-ffad4c1539a9.webp",
     "tags": [
       "Green Meadows Sector 27",
       "Sector 27 Gurgaon",
@@ -187,7 +187,7 @@ export const blogPosts = [
     "date": "October 21, 2026",
     "publishDate": "2026-10-21",
     "author": "Sandane Tech & Innovation Desk",
-    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1502672260266-1c1ef2d93688.webp",
     "tags": [
       "Emaar Digi Homes",
       "Sector 62 Gurgaon",
@@ -209,7 +209,7 @@ export const blogPosts = [
     "date": "October 21, 2026",
     "publishDate": "2026-10-21",
     "author": "Sandane Gurugram Luxury Desk",
-    "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1512917774080-9991f1c4c750.webp",
     "tags": [
       "M3M Golfestate",
       "Sector 65 Gurgaon",
@@ -231,7 +231,7 @@ export const blogPosts = [
     "date": "October 22, 2026",
     "publishDate": "2026-10-22",
     "author": "Sandane Gurugram Luxury Desk",
-    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600585154340-be6161a56a0c.webp",
     "tags": [
       "IREO The Grand Arch",
       "Sector 58 Gurgaon",
@@ -263,7 +263,7 @@ export const blogPosts = [
     "date": "October 22, 2026",
     "publishDate": "2026-10-22",
     "author": "Sandane Gurugram Luxury Desk",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "DLF Park Place",
       "Sector 54 Gurgaon",
@@ -299,7 +299,7 @@ export const blogPosts = [
     "date": "October 12, 2026",
     "publishDate": "2026-10-12",
     "author": "Sandane Corporate Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1522708323590-d24dbb6b0267.webp",
     "tags": [
       "Consultant Housing Gurgaon",
       "Big 4 Accommodations Gurgaon",
@@ -321,7 +321,7 @@ export const blogPosts = [
     "date": "October 12, 2026",
     "publishDate": "2026-10-12",
     "author": "Sandane Local Living Team",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "Sector 27 Gurgaon",
       "Sushant Lok 1",
@@ -343,7 +343,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Asset Monetization Desk",
-    "coverImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600585154526-990dced4db0d.webp",
     "tags": [
       "DLF Phase 2 Landlords",
       "DLF Phase 4 Builder Floors",
@@ -375,7 +375,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Korea Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1502672260266-1c1ef2d93688.webp",
     "tags": [
       "Korean Expat Housing",
       "South Point Mall Gurgaon",
@@ -397,7 +397,7 @@ export const blogPosts = [
     "date": "October 14, 2026",
     "publishDate": "2026-10-14",
     "author": "Sandane Japan Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1540518614846-7ede433c4ef0.webp",
     "tags": [
       "Japanese Expat Housing",
       "Golf Course Extension Road",
@@ -419,7 +419,7 @@ export const blogPosts = [
     "date": "October 14, 2026",
     "publishDate": "2026-10-14",
     "author": "Sandane Expat Advisory Desk",
-    "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600607687939-ce8a6c25118c.webp",
     "tags": [
       "Builder Floors vs Apartments",
       "Expat Housing Gurgaon",
@@ -441,7 +441,7 @@ export const blogPosts = [
     "date": "October 15, 2026",
     "publishDate": "2026-10-15",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600596542815-ffad4c1539a9.webp",
     "tags": [
       "Sushant Lok Block B",
       "Sector 27 Gurgaon",
@@ -473,7 +473,7 @@ export const blogPosts = [
     "date": "October 15, 2026",
     "publishDate": "2026-10-15",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600585154340-be6161a56a0c.webp",
     "tags": [
       "Conscient Hines Elevate",
       "Sector 58 Gurgaon",
@@ -505,7 +505,7 @@ export const blogPosts = [
     "date": "October 16, 2026",
     "publishDate": "2026-10-16",
     "author": "Sandane Corporate Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1522708323590-d24dbb6b0267.webp",
     "tags": [
       "DLF Cyber Hub",
       "DLF Phase 2 Gurgaon",
@@ -527,7 +527,7 @@ export const blogPosts = [
     "date": "October 16, 2026",
     "publishDate": "2026-10-16",
     "author": "Sandane Corporate Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "One Horizon Center",
       "Two Horizon Center",
@@ -559,7 +559,7 @@ export const blogPosts = [
     "date": "October 17, 2026",
     "publishDate": "2026-10-17",
     "author": "Sandane Healthcare Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1512917774080-9991f1c4c750.webp",
     "tags": [
       "Medanta The Medicity",
       "Sector 38 Gurgaon",
@@ -593,7 +593,7 @@ export const blogPosts = [
     "date": "October 16, 2026",
     "publishDate": "2026-10-16",
     "author": "Sandane Corporate & Japan Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "Residences by Sandane Homes",
       "Sandane Rent Co",
@@ -615,7 +615,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Healthcare Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1519494026892-80bbd2d6fd0d.webp",
     "tags": [
       "Max Healthcare Gurgaon",
       "Medical Stays Sector 43",
@@ -635,7 +635,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Healthcare Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1584515979956-d9f6e5d09982.webp",
     "tags": [
       "Paras Hospitals Gurgaon",
       "Sector 53 Serviced Apartments",
@@ -655,7 +655,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Corporate Strategy",
-    "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1486406146926-c627a92ad1ab.webp",
     "tags": [
       "DLF Cyber Park Gurgaon",
       "Corporate Housing Gurgaon",
@@ -675,7 +675,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Corporate Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1522708323590-d24dbb6b0267.webp",
     "tags": [
       "Candor TechSpace Sector 48",
       "Sohna Road Corporate Housing",
@@ -695,7 +695,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Corporate Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1502005229762-ee152d3a5e88?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1502005229762-ee152d3a5e88.webp",
     "tags": [
       "Spaze iTech Park",
       "Sohna Road Serviced Apartments",
@@ -715,7 +715,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Global Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1541781774459-bb2af2f05b55.webp",
     "tags": [
       "Expat Family Housing",
       "International Schools Gurgaon",
@@ -735,7 +735,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1560448204-e02f11c3d0e2.webp",
     "tags": [
       "DLF Phase 1 Gurgaon",
       "2 BHK Serviced Apartment",
@@ -755,7 +755,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Corporate Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1502672260266-1c1ef2d93688.webp",
     "tags": [
       "Sikanderpur Metro Station",
       "Monthly Serviced Apartments",
@@ -775,7 +775,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Executive Protocol Desk",
-    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600585154340-be6161a56a0c.webp",
     "tags": [
       "Diplomatic Housing Gurgaon",
       "VIP Serviced Residences",
@@ -795,7 +795,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Asset Management",
-    "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1560518883-ce09059eeffa.webp",
     "tags": [
       "NRI Property Guide",
       "Gurgaon Real Estate Leasing",
@@ -815,7 +815,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Global Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1497215728101-856f4ea42174.webp",
     "tags": [
       "Corporate Relocation Checklist",
       "Global Mobility Gurgaon",
@@ -835,7 +835,7 @@ export const blogPosts = [
     "date": "October 13, 2026",
     "publishDate": "2026-10-13",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "Best Neighborhoods Gurgaon",
       "Expat Guide Gurgaon",
@@ -854,7 +854,7 @@ export const blogPosts = [
     "readTime": "7 min read",
     "date": "October 1, 2026",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1502672260266-1c1ef2d93688.webp",
     "tags": [
       "Cyber City Gurgaon",
       "Studio Apartments",
@@ -873,7 +873,7 @@ export const blogPosts = [
     "readTime": "6 min read",
     "date": "October 1, 2026",
     "author": "Sandane Corporate Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1522708323590-d24dbb6b0267.webp",
     "tags": [
       "Golf Course Road",
       "1 BHK Serviced Apartment",
@@ -892,7 +892,7 @@ export const blogPosts = [
     "readTime": "8 min read",
     "date": "October 1, 2026",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1541781774459-bb2af2f05b55.webp",
     "tags": [
       "Pet Friendly Serviced Apartments",
       "Expats Gurgaon",
@@ -911,7 +911,7 @@ export const blogPosts = [
     "readTime": "9 min read",
     "date": "October 1, 2026",
     "author": "Sandane Asset Management",
-    "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1560518883-ce09059eeffa.webp",
     "tags": [
       "NRI Property Management Gurgaon",
       "Sandane Homes",
@@ -930,7 +930,7 @@ export const blogPosts = [
     "readTime": "8 min read",
     "date": "October 1, 2026",
     "author": "Sandane Relocation Desk",
-    "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1486406146926-c627a92ad1ab.webp",
     "tags": [
       "Best Housing Agents in Gurgaon",
       "Relocation Consultants Gurgaon",
@@ -949,7 +949,7 @@ export const blogPosts = [
     "readTime": "7 min read",
     "date": "October 1, 2026",
     "author": "Sandane Healthcare Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1519494026892-80bbd2d6fd0d.webp",
     "tags": [
       "Fortis Hospital Gurgaon",
       "Medical Tourism Gurgaon",
@@ -968,7 +968,7 @@ export const blogPosts = [
     "readTime": "6 min read",
     "date": "October 1, 2026",
     "author": "Sandane Editorial Team",
-    "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1497366216548-37526070297c.webp",
     "tags": [
       "Horizon Center Gurgaon",
       "Golf Course Road",
@@ -987,7 +987,7 @@ export const blogPosts = [
     "readTime": "7 min read",
     "date": "October 1, 2026",
     "author": "Sandane Corporate Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1502005229762-ee152d3a5e88?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1502005229762-ee152d3a5e88.webp",
     "tags": [
       "Sector 53 54 Rapid Metro",
       "Monthly Rentals Gurgaon",
@@ -1006,7 +1006,7 @@ export const blogPosts = [
     "readTime": "9 min read",
     "date": "October 1, 2026",
     "author": "Sandane Corporate Strategy",
-    "coverImage": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1497215728101-856f4ea42174.webp",
     "tags": [
       "Corporate Guest House",
       "Serviced Apartments Gurgaon",
@@ -1025,7 +1025,7 @@ export const blogPosts = [
     "readTime": "8 min read",
     "date": "October 1, 2026",
     "author": "Sandane Luxury Living Desk",
-    "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1600585154340-be6161a56a0c.webp",
     "tags": [
       "Luxury Serviced Apartments",
       "3 BHK Penthouse Gurgaon",
@@ -1044,7 +1044,7 @@ export const blogPosts = [
     "readTime": "8 min read",
     "date": "October 1, 2026",
     "author": "Sandane Property Acquisitions",
-    "coverImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1560518883-ce09059eeffa.webp",
     "tags": [
       "Guaranteed Rent Gurgaon",
       "Lease to Sandane Homes",
@@ -1063,7 +1063,7 @@ export const blogPosts = [
     "readTime": "8 min read",
     "date": "October 1, 2026",
     "author": "Sandane Global Mobility Desk",
-    "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1545324418-cc1a3fa10c00.webp",
     "tags": [
       "Residences by Sandane Homes",
       "Expat Relocation Gurgaon",
@@ -1261,7 +1261,7 @@ export const blogPosts = [
     "date": "October 17, 2026",
     "publishDate": "2026-10-17",
     "author": "Sandane Healthcare Accommodations",
-    "coverImage": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&auto=format&fit=crop&q=80",
+    "coverImage": "/images/blog/photo-1584515979956-d9f6e5d09982.webp",
     "tags": [
       "Artemis Hospital Gurgaon",
       "Sector 51 Gurgaon Stays",

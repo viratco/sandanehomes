@@ -78,9 +78,10 @@ export default function GurugramJapaneseExpatHousing() {
     mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
   };
   const hreflang = [
-    { lang: 'en', href: 'https://www.sandanehomes.com/gurugram/japanese-expat-housing' },
     { lang: 'ja', href: 'https://www.sandanehomes.com/gurugram/japanese-expat-housing' },
-    { lang: 'x-default', href: 'https://www.sandanehomes.com/gurugram/japanese-expat-housing' }
+    { lang: 'en', href: 'https://www.sandanehomes.com/residences/gurgaon' },
+    { lang: 'ko', href: 'https://www.sandanehomes.com/gurugram/korean-expat-housing' },
+    { lang: 'x-default', href: 'https://www.sandanehomes.com/residences/gurgaon' }
   ];
 
   return (

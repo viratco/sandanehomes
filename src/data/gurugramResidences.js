@@ -69,23 +69,23 @@ export const gurugramResidences = [
 export const gurugramHubFaqs = [
   {
     q: 'Where are Residences by Sandane Homes located in Gurgaon?',
-    a: 'We operate three serviced residences in Gurugram: Conscient Hines Elevate in Sector 58 on Golf Course Extension Road, and two independent builder floors in Sector 27 — Green Meadows and Sushant Lok Block B — both a few minutes from the Millennium City Centre (HUDA City Centre) metro station.',
+    a: "Close to where you'll work. Our Gurugram residences are in Sector 58 on Golf Course Extension Road (Conscient Hines Elevate, about 18 minutes to Cyber City) and in Sector 27 near MG Road (Green Meadows and Sushant Lok Block B, 10–12 minutes to Cyber City, with Millennium City Centre metro a short walk or drive away). We also have residences in Greater Noida.",
   },
   {
     q: 'What is included in the monthly rent?',
-    a: 'Every residence is fully furnished with a working kitchen, linen and kitchenware. Daily housekeeping, linen changes twice a week, 300 Mbps Wi-Fi, 100% power backup, routine maintenance and parking are included. Clubhouse access is included at Conscient Hines Elevate.',
+    a: 'Everything needed to live normally from the first night: a fully furnished 3- or 4-bedroom home, daily housekeeping with linen changes twice a week, Wi-Fi, electricity, water, 100% power backup, and society maintenance charges, and repairs handled by our team. One monthly amount, no broker fees.',
   },
   {
     q: 'Can our company pay directly and receive a GST invoice?',
-    a: 'Yes. We sign lease agreements directly with companies and issue GST invoices every month. Many of our guests are relocating managers whose HR or general-affairs team handles the booking.',
+    a: 'Yes. We invoice your company directly each month with a GST invoice, so your employee never has to deal with rent, deposits or landlords.',
   },
   {
     q: 'Do you support Japanese and Korean expats moving to Gurgaon?',
-    a: 'Yes. We help with FRRO registration (Form C), airport pickup and settling in, and can adapt furnishing and kitchenware to Japanese or Korean household needs. Sector 27 and Golf Course Extension Road both have an established international community.',
+    a: 'Yes. Much of our work is housing Japanese and Korean professionals in Gurugram. We prepare the apartment before arrival and can provide a bilingual English–Japanese city guide covering the commute, groceries, hospitals and registration.',
   },
   {
     q: 'What is the minimum stay?',
-    a: 'Our Gurugram residences are built for long stays of one month or more, typical for corporate assignments and relocations. Contact us with your dates and we will confirm availability.',
+    a: '30 days (1 month). Stays run from there to multi-year corporate postings, and can be extended as assignments change.',
   },
 ];
 

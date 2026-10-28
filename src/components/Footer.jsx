@@ -1,83 +1,106 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isResidences = false }) => {
+    const location = useLocation();
+    const isResidenceRoute = isResidences || 
+        location.pathname.startsWith('/residences') || 
+        location.pathname.startsWith('/gurugram') ||
+        location.pathname.includes('housing') ||
+        location.pathname.includes('apartment');
+
+    const [fullName, setFullName] = useState('');
+    const [company, setCompany] = useState('');
     const [email, setEmail] = useState('');
     const [countryCode, setCountryCode] = useState('+91');
     const [phone, setPhone] = useState('');
-    const [agreed, setAgreed] = useState(false);
-    
-    // Extra fields for Residences page
-    const [fullName, setFullName] = useState('');
     const [duration, setDuration] = useState('1 month');
-    const [date, setDate] = useState('');
     const [messageText, setMessageText] = useState('');
+    const [agreed, setAgreed] = useState(false);
+    const [honeypot, setHoneypot] = useState('');
 
-    const sendEmail = () => {
-        if (isResidences && !fullName) {
-            alert('Please enter your full name');
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isSuccess, setIsSuccess] = useState(false);
+    const [errorMessage, setErrorMessage] = useState('');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setErrorMessage('');
+
+        // Honeypot spam check
+        if (honeypot) {
             return;
         }
 
-        if (!email) {
-            alert('Please enter your email');
+        if (!fullName.trim()) {
+            setErrorMessage('Please enter your full name.');
             return;
         }
 
-        if (!phone) {
-            alert('Please enter your phone number');
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email.trim() || !emailRegex.test(email.trim())) {
+            setErrorMessage('Please enter a valid email address.');
             return;
         }
 
         if (!agreed) {
-            alert('Please agree to the Privacy Policy');
+            setErrorMessage('Please agree to the Privacy Policy to proceed.');
             return;
         }
 
-        let messageBody = `New contact submission:\nEmail: ${email}\nPhone: ${countryCode} ${phone}`;
-        if (isResidences) {
-            messageBody = `New Enquiry from Residences Page!\nName: ${fullName}\nEmail: ${email}\nPhone: ${countryCode} ${phone}\nDuration: ${duration}\nDate: ${date}\nMessage: ${messageText}`;
-        }
+        setIsSubmitting(true);
 
-        // FormSubmit.co AJAX Endpoint
-        const targetEmail = isResidences ? "residencesbysandanehomes@gmail.com" : "sandanehomes@gmail.com";
-        fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: JSON.stringify({
-                _subject: isResidences ? "New Enquiry from Residences Page!" : "New Contact from Sandane Homes Website!",
-                email: email,
-                phone: `${countryCode} ${phone}`,
-                fullName: isResidences ? fullName : undefined,
-                duration: isResidences ? duration : undefined,
-                date: isResidences ? date : undefined,
-                message: messageBody
-            })
-        })
-            .then(response => response.json())
-            .then(data => {
+        const targetEmail = "residencesbysandanehomes@gmail.com";
+        const messageBody = `New Enquiry from ${isResidenceRoute ? 'Residences' : 'Website'}!\n` +
+            `Name: ${fullName.trim()}\n` +
+            (company.trim() ? `Company: ${company.trim()}\n` : '') +
+            `Email: ${email.trim()}\n` +
+            (phone.trim() ? `Phone: ${countryCode} ${phone.trim()}\n` : 'Phone: Not provided\n') +
+            `Stay Length: ${duration}\n` +
+            (messageText.trim() ? `Message: ${messageText.trim()}\n` : 'Message: None provided\n');
+
+        try {
+            const response = await fetch(`https://formsubmit.co/ajax/${targetEmail}`, {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    _subject: `New Enquiry from ${fullName.trim()} (${isResidenceRoute ? 'Residences' : 'Website'})`,
+                    _honey: honeypot,
+                    name: fullName.trim(),
+                    company: company.trim() || 'Not specified',
+                    email: email.trim(),
+                    phone: phone.trim() ? `${countryCode} ${phone.trim()}` : 'Not provided',
+                    stay_length: duration,
+                    message: messageBody
+                })
+            });
+
+            const data = await response.json();
+            if (response.ok && (data.success === "true" || data.success === true || data.message)) {
                 if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
                     window.gtag('event', 'ads_conversion_Purchase_1', {});
                 }
-                alert('Thank you! We will get back to you shortly.');
+                setIsSuccess(true);
+                setFullName('');
+                setCompany('');
                 setEmail('');
                 setPhone('');
+                setDuration('1 month');
+                setMessageText('');
                 setAgreed(false);
-                if (isResidences) {
-                    setFullName('');
-                    setDuration('1 month');
-                    setDate('');
-                    setMessageText('');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Something went wrong. Please try again.');
-            });
+            } else {
+                setErrorMessage('Something went wrong while submitting. Please contact us directly.');
+            }
+        } catch (error) {
+            console.error('Submission error:', error);
+            setErrorMessage('Something went wrong while submitting. Please contact us directly.');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -96,7 +119,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             fontWeight: '600',
                             marginBottom: '20px'
                         }}>
-                            {isResidences ? 'Exclusive Long-Stay Inquiries' : 'Stay Connected with Sandane Homes'}
+                            {isResidenceRoute ? 'Exclusive Long-Stay Inquiries' : 'Stay Connected with Sandane Homes'}
                         </h4>
 
                         <h2 style={{
@@ -108,9 +131,7 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             maxWidth: '500px',
                             marginBottom: '30px'
                         }}>
-                            {isResidences 
-                                ? 'Ready to move in? Share your details to reserve your apartment.' 
-                                : 'Have a question or want to know more about our property showcases? Share your details and we’ll get back to you.'}
+                            Tell us who's arriving and when — we'll come back with available homes.
                         </h2>
 
                         <div style={{
@@ -123,159 +144,215 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                                 <strong style={{ color: '#111' }}>Phone:</strong> {customPhone}
                             </p>
                             <p style={{ margin: 0, wordBreak: 'break-word' }}>
-                                <strong style={{ color: '#111' }}>Email:</strong> {isResidences ? 'residencesbysandanehomes@gmail.com' : 'sandanehomes@gmail.com'}
+                                <strong style={{ color: '#111' }}>Email:</strong> residencesbysandanehomes@gmail.com
                             </p>
                         </div>
                     </div>
 
                     {/* RIGHT FORM */}
                         <div className="footer-right-col">
-                            
-                            {isResidences && (
-                                <div style={{ position: 'relative', marginBottom: '20px' }}>
+                            {isSuccess ? (
+                                <div style={{
+                                    padding: '40px 24px',
+                                    backgroundColor: '#F0FDF4',
+                                    border: '1px solid #BBF7D0',
+                                    borderRadius: '8px',
+                                    textAlign: 'center'
+                                }}>
+                                    <h3 style={{ color: '#166534', fontSize: '22px', marginBottom: '12px', fontFamily: 'Playfair Display, serif' }}>
+                                        Thanks — we'll reply within one working day
+                                    </h3>
+                                    <p style={{ color: '#15803D', fontSize: '15px', margin: 0, lineHeight: 1.6 }}>
+                                        Your enquiry has been received. Our team will review available homes and get back to you shortly.
+                                    </p>
+                                </div>
+                            ) : (
+                                <form onSubmit={handleSubmit} noValidate>
+                                    {/* Honeypot field for spam prevention */}
                                     <input
                                         type="text"
-                                        placeholder="Full Name"
-                                        value={fullName}
-                                        onChange={(e) => setFullName(e.target.value)}
-                                        style={{
-                                            width: '100%',
-                                            padding: '18px 20px',
-                                            backgroundColor: 'transparent',
-                                            border: 'none',
-                                            borderBottom: '1px solid #ccc',
-                                            fontSize: '15px',
-                                            outline: 'none'
-                                        }}
+                                        name="_gotcha"
+                                        value={honeypot}
+                                        onChange={(e) => setHoneypot(e.target.value)}
+                                        style={{ display: 'none' }}
+                                        tabIndex="-1"
+                                        autoComplete="off"
+                                        aria-hidden="true"
                                     />
-                                </div>
-                            )}
 
-                            {/* Email Input */}
-                        <div style={{ position: 'relative', marginBottom: '20px' }}>
-                            <input
-                                type="email"
-                                placeholder="Your Email Address"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                                style={{
-                                    width: '100%',
-                                    padding: '18px 20px',
-                                    backgroundColor: 'transparent',
-                                    border: 'none',
-                                    borderBottom: '1px solid #ccc',
-                                    fontSize: '15px',
-                                    outline: 'none'
-                                }}
-                            />
-                        </div>
-
-                        {/* Phone Input with Country Code */}
-                        <div style={{ position: 'relative', marginBottom: '20px', display: 'flex', gap: '10px' }}>
-                            {/* Country Code Selector */}
-                            <select
-                                value={countryCode}
-                                onChange={(e) => setCountryCode(e.target.value)}
-                                style={{
-                                    width: '120px',
-                                    padding: '18px 10px',
-                                    backgroundColor: 'transparent',
-                                    border: 'none',
-                                    borderBottom: '1px solid #ccc',
-                                    fontSize: '15px',
-                                    outline: 'none',
-                                    cursor: 'pointer'
-                                }}
-                            >
-                                <option value="+91">🇮🇳 +91</option>
-                                <option value="+1">🇺🇸 +1</option>
-                                <option value="+44">🇬🇧 +44</option>
-                                <option value="+61">🇦🇺 +61</option>
-                                <option value="+971">🇦🇪 +971</option>
-                                <option value="+65">🇸🇬 +65</option>
-                                <option value="+86">🇨🇳 +86</option>
-                                <option value="+81">🇯🇵 +81</option>
-                                <option value="+82">🇰🇷 +82</option>
-                                <option value="+33">🇫🇷 +33</option>
-                                <option value="+49">🇩🇪 +49</option>
-                                <option value="+39">🇮🇹 +39</option>
-                                <option value="+34">🇪🇸 +34</option>
-                                <option value="+7">🇷🇺 +7</option>
-                                <option value="+55">🇧🇷 +55</option>
-                                <option value="+27">🇿🇦 +27</option>
-                                <option value="+52">🇲🇽 +52</option>
-                                <option value="+60">🇲🇾 +60</option>
-                                <option value="+62">🇮🇩 +62</option>
-                                <option value="+63">🇵🇭 +63</option>
-                                <option value="+66">🇹🇭 +66</option>
-                                <option value="+84">🇻🇳 +84</option>
-                            </select>
-
-                            {/* Phone Number Input */}
-                            <input
-                                type="tel"
-                                placeholder="Phone Number"
-                                value={phone}
-                                onChange={(e) => setPhone(e.target.value)}
-                                style={{
-                                    flex: 1,
-                                    padding: '18px 20px',
-                                    backgroundColor: 'transparent',
-                                    border: 'none',
-                                    borderBottom: '1px solid #ccc',
-                                    fontSize: '15px',
-                                    outline: 'none'
-                                }}
-                            />
-                        </div>
-
-                            {isResidences && (
-                                <>
-                                    <div style={{ position: 'relative', marginBottom: '20px', display: 'flex', gap: '20px' }}>
-                                        <div style={{ flex: 1 }}>
-                                            <label style={{ fontSize: '12px', color: '#999', display: 'block', marginBottom: '5px', paddingLeft: '20px', textTransform: 'uppercase', letterSpacing: '1px' }}>Duration</label>
-                                            <select
-                                                value={duration}
-                                                onChange={(e) => setDuration(e.target.value)}
-                                                style={{
-                                                    width: '100%',
-                                                    padding: '12px 20px',
-                                                    backgroundColor: 'transparent',
-                                                    border: 'none',
-                                                    borderBottom: '1px solid #ccc',
-                                                    fontSize: '15px',
-                                                    outline: 'none',
-                                                    cursor: 'pointer'
-                                                }}
-                                            >
-                                                <option value="1 month">1 month</option>
-                                                <option value="2 months">2 months</option>
-                                                <option value="3 months">3 months</option>
-                                                <option value="6 months">6 months</option>
-                                                <option value="1 year+">1 year+</option>
-                                            </select>
+                                    {/* Error message with WhatsApp fallback */}
+                                    {errorMessage && (
+                                        <div style={{
+                                            padding: '14px 18px',
+                                            backgroundColor: '#FEF2F2',
+                                            border: '1px solid #FECACA',
+                                            borderRadius: '6px',
+                                            marginBottom: '20px',
+                                            color: '#991B1B',
+                                            fontSize: '14px',
+                                            lineHeight: 1.5
+                                        }}>
+                                            <div>{errorMessage}</div>
+                                            <div style={{ marginTop: '8px' }}>
+                                                Need urgent assistance? Message us on WhatsApp:{' '}
+                                                <a 
+                                                    href="https://wa.me/919711722273" 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer" 
+                                                    style={{ color: '#1A3C34', fontWeight: '700', textDecoration: 'underline' }}
+                                                >
+                                                    wa.me/919711722273
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div style={{ flex: 1 }}>
-                                            <label style={{ fontSize: '12px', color: '#999', display: 'block', marginBottom: '5px', paddingLeft: '20px', textTransform: 'uppercase', letterSpacing: '1px' }}>Date</label>
-                                            <input
-                                                type="date"
-                                                value={date}
-                                                onChange={(e) => setDate(e.target.value)}
-                                                style={{
-                                                    width: '100%',
-                                                    padding: '12px 20px',
-                                                    backgroundColor: 'transparent',
-                                                    border: 'none',
-                                                    borderBottom: '1px solid #ccc',
-                                                    fontSize: '15px',
-                                                    outline: 'none'
-                                                }}
-                                            />
-                                        </div>
+                                    )}
+
+                                    {/* Name Input (required) */}
+                                    <div style={{ position: 'relative', marginBottom: '20px' }}>
+                                        <input
+                                            type="text"
+                                            placeholder="Name *"
+                                            value={fullName}
+                                            onChange={(e) => setFullName(e.target.value)}
+                                            required
+                                            style={{
+                                                width: '100%',
+                                                padding: '18px 20px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none'
+                                            }}
+                                        />
                                     </div>
-                                    <div style={{ position: 'relative', marginBottom: '30px' }}>
+
+                                    {/* Company Input (optional) */}
+                                    <div style={{ position: 'relative', marginBottom: '20px' }}>
+                                        <input
+                                            type="text"
+                                            placeholder="Company (optional)"
+                                            value={company}
+                                            onChange={(e) => setCompany(e.target.value)}
+                                            style={{
+                                                width: '100%',
+                                                padding: '18px 20px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none'
+                                            }}
+                                        />
+                                    </div>
+
+                                    {/* Email Input (required) */}
+                                    <div style={{ position: 'relative', marginBottom: '20px' }}>
+                                        <input
+                                            type="email"
+                                            placeholder="Email *"
+                                            value={email}
+                                            onChange={(e) => setEmail(e.target.value)}
+                                            required
+                                            style={{
+                                                width: '100%',
+                                                padding: '18px 20px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none'
+                                            }}
+                                        />
+                                    </div>
+
+                                    {/* Phone Input with Country Code (optional) */}
+                                    <div style={{ position: 'relative', marginBottom: '20px', display: 'flex', gap: '10px' }}>
+                                        <select
+                                            value={countryCode}
+                                            onChange={(e) => setCountryCode(e.target.value)}
+                                            style={{
+                                                width: '120px',
+                                                padding: '18px 10px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none',
+                                                cursor: 'pointer'
+                                            }}
+                                        >
+                                            <option value="+91">🇮🇳 +91</option>
+                                            <option value="+1">🇺🇸 +1</option>
+                                            <option value="+44">🇬🇧 +44</option>
+                                            <option value="+61">🇦🇺 +61</option>
+                                            <option value="+971">🇦🇪 +971</option>
+                                            <option value="+65">🇸🇬 +65</option>
+                                            <option value="+86">🇨🇳 +86</option>
+                                            <option value="+81">🇯🇵 +81</option>
+                                            <option value="+82">🇰🇷 +82</option>
+                                            <option value="+33">🇫🇷 +33</option>
+                                            <option value="+49">🇩🇪 +49</option>
+                                            <option value="+39">🇮🇹 +39</option>
+                                            <option value="+34">🇪🇸 +34</option>
+                                            <option value="+7">🇷🇺 +7</option>
+                                            <option value="+55">🇧🇷 +55</option>
+                                            <option value="+27">🇿🇦 +27</option>
+                                            <option value="+52">🇲🇽 +52</option>
+                                            <option value="+60">🇲🇾 +60</option>
+                                            <option value="+62">🇮🇩 +62</option>
+                                            <option value="+63">🇵🇭 +63</option>
+                                            <option value="+66">🇹🇭 +66</option>
+                                            <option value="+84">🇻🇳 +84</option>
+                                        </select>
+                                        <input
+                                            type="tel"
+                                            placeholder="Phone (optional)"
+                                            value={phone}
+                                            onChange={(e) => setPhone(e.target.value)}
+                                            style={{
+                                                flex: 1,
+                                                padding: '18px 20px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none'
+                                            }}
+                                        />
+                                    </div>
+
+                                    {/* Stay Length Selector */}
+                                    <div style={{ position: 'relative', marginBottom: '20px' }}>
+                                        <label style={{ fontSize: '12px', color: '#888', display: 'block', marginBottom: '5px', paddingLeft: '20px', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                                            Stay length
+                                        </label>
+                                        <select
+                                            value={duration}
+                                            onChange={(e) => setDuration(e.target.value)}
+                                            style={{
+                                                width: '100%',
+                                                padding: '12px 20px',
+                                                backgroundColor: 'transparent',
+                                                border: 'none',
+                                                borderBottom: '1px solid #ccc',
+                                                fontSize: '15px',
+                                                outline: 'none',
+                                                cursor: 'pointer'
+                                            }}
+                                        >
+                                            <option value="1 month">1 month</option>
+                                            <option value="2 months">2 months</option>
+                                            <option value="3 months">3 months</option>
+                                            <option value="6 months">6 months</option>
+                                            <option value="1 year+">1 year+</option>
+                                        </select>
+                                    </div>
+
+                                    {/* Message Textarea (optional) */}
+                                    <div style={{ position: 'relative', marginBottom: '25px' }}>
                                         <textarea
-                                            placeholder="Message"
+                                            placeholder="Message (optional — move-in dates, team size, requirements)"
                                             value={messageText}
                                             onChange={(e) => setMessageText(e.target.value)}
                                             rows="3"
@@ -291,44 +368,50 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                                             }}
                                         />
                                     </div>
-                                </>
+
+                                    {/* Privacy Checkbox (required) */}
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '24px' }}>
+                                        <input
+                                            type="checkbox"
+                                            id="footer-privacy-checkbox"
+                                            checked={agreed}
+                                            onChange={() => setAgreed(!agreed)}
+                                            style={{ cursor: 'pointer', width: '16px', height: '16px' }}
+                                            required
+                                        />
+                                        <label htmlFor="footer-privacy-checkbox" style={{ fontSize: '13px', color: '#777', cursor: 'pointer' }}>
+                                            I agree to the Privacy Policy *
+                                        </label>
+                                    </div>
+
+                                    {/* Send Button */}
+                                    <div style={{ marginBottom: '10px' }}>
+                                        <button
+                                            type="submit"
+                                            disabled={isSubmitting}
+                                            style={{
+                                                width: '100%',
+                                                padding: '16px',
+                                                background: isSubmitting ? '#A08F6B' : '#C5A572',
+                                                border: 'none',
+                                                color: '#fff',
+                                                fontSize: '14px',
+                                                fontWeight: '600',
+                                                cursor: isSubmitting ? 'not-allowed' : 'pointer',
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '1px',
+                                                transition: 'all 0.3s ease',
+                                                opacity: isSubmitting ? 0.7 : 1
+                                            }}
+                                            onMouseOver={(e) => { if (!isSubmitting) e.currentTarget.style.background = '#a88d5f'; }}
+                                            onMouseOut={(e) => { if (!isSubmitting) e.currentTarget.style.background = '#C5A572'; }}
+                                        >
+                                            {isSubmitting ? 'Sending...' : 'SEND ✉'}
+                                        </button>
+                                    </div>
+                                </form>
                             )}
-
-                        {/* Send Button */}
-                        <div style={{ marginBottom: '20px' }}>
-                            <button
-                                onClick={sendEmail}
-                                style={{
-                                    width: '100%',
-                                    padding: '16px',
-                                    background: '#C5A572',
-                                    border: 'none',
-                                    color: '#fff',
-                                    fontSize: '14px',
-                                    fontWeight: '600',
-                                    cursor: 'pointer',
-                                    textTransform: 'uppercase',
-                                    letterSpacing: '1px',
-                                    transition: 'all 0.3s ease'
-                                }}
-                                onMouseOver={(e) => e.currentTarget.style.background = '#a88d5f'}
-                                onMouseOut={(e) => e.currentTarget.style.background = '#C5A572'}
-                            >
-                                Send ✉
-                            </button>
                         </div>
-
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <input
-                                type="checkbox"
-                                checked={agreed}
-                                onChange={() => setAgreed(!agreed)}
-                            />
-                            <label style={{ fontSize: '13px', color: '#999' }}>
-                                I agree to the Privacy Policy
-                            </label>
-                        </div>
-                    </div>
 
                 </div>
             </div>
