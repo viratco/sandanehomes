@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
+import PartnerApplicationForm from '../PartnerApplicationForm';
 import {
   FaBuilding, FaHandshake, FaChartLine, FaShieldAlt, FaKey,
   FaCheckCircle, FaPercentage, FaTools, FaWhatsapp, FaArrowRight,
@@ -18,52 +19,7 @@ import interiorImg from '../../assets/abstract_luxury_interior.png';
 import livingImg from '../../assets/livingroom.jpeg';
 
 const PartnershipPage = () => {
-  const [propertyType, setPropertyType] = useState('Full Building');
-  const [unitsCount, setUnitsCount] = useState('10-25 Units');
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [city, setCity] = useState('Greater Noida');
-  const [locality, setLocality] = useState('');
-  const [message, setMessage] = useState('');
-  const [formSubmitted, setFormSubmitted] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const text =
-      `Hi Sandane Homes team,\n\n` +
-      `I would like to explore partnering with Sandane Homes to monetize my property. Here are my property details:\n\n` +
-      `• *Name:* ${name}\n` +
-      `• *Contact Number:* ${phone}\n` +
-      (email ? `• *Email:* ${email}\n` : '') +
-      `• *Property Type:* ${propertyType}\n` +
-      `• *Units / Flats:* ${unitsCount}\n` +
-      `• *Location:* ${locality}, ${city}\n` +
-      (message && message.trim() && message !== 'None' ? `• *Additional Details:* ${message}\n` : '') +
-      `\nPlease review my details and let me know the suitable monetization options. Thank you!`;
-
-    window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
-    setFormSubmitted(true);
-
-    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
-      method: "POST",
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({
-        _subject: `New Property Partner Inquiry: ${name} (${propertyType}) in ${city}`,
-        _captcha: "false",
-        _template: "table",
-        "Owner Name": name,
-        "Phone / WhatsApp": phone,
-        "Email": email || 'Not provided',
-        "Property Type": propertyType,
-        "Units/Flats": unitsCount,
-        "Location": `${locality}, ${city}`,
-        "Notes": message || 'None',
-        "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
-      })
-    }).catch(err => console.error("Email submission error:", err));
-  };
 
   const partnerFaqs = [
     {
@@ -667,176 +623,15 @@ const PartnershipPage = () => {
         </div>
       </section>
 
-      {/* ── INTERACTIVE EVALUATION & INQUIRY FORM ── */}
-      <section id="partner-form" style={{ padding: '90px 20px', backgroundColor: '#F4F0EB' }}>
-        <div style={{ maxWidth: '850px', margin: '0 auto' }}>
-          <div style={{
-            backgroundColor: '#FFFFFF',
-            borderRadius: '20px',
-            padding: ' clamp(30px, 5vw, 60px)',
-            boxShadow: '0 15px 45px rgba(0,0,0,0.06)',
-            border: '1px solid #E4DDD3'
-          }}>
-            <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-              <span style={{ color: '#8B7355', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>GET A FREE PROPERTY EVALUATION</span>
-              <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#111111', marginTop: '8px', marginBottom: '12px' }}>
-                Monetize Your Property With Sandane Homes
-              </h2>
-              <p style={{ fontSize: '14px', color: '#666', fontFamily: 'Georgia, serif' }}>
-                Fill in your property details below. Our partner acquisition desk will analyze your asset and present a guaranteed revenue proposal within 24 hours.
-              </p>
-            </div>
-
-            {formSubmitted ? (
-              <div style={{
-                textAlign: 'center',
-                padding: '40px 20px',
-                background: 'rgba(37, 211, 102, 0.08)',
-                border: '1px solid #25D366',
-                borderRadius: '14px'
-              }}>
-                <FaCheckCircle size={48} color="#25D366" style={{ marginBottom: '16px' }} />
-                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#111', margin: '0 0 10px 0' }}>Thank You! Request Sent</h3>
-                <p style={{ fontSize: '14px', color: '#555', margin: 0 }}>
-                  We have forwarded your property details to our WhatsApp partner desk. We will reach out to you shortly!
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit}>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
-                  <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Your Name *</label>
-                    <input
-                      type="text"
-                      required
-                      placeholder="e.g. Rajesh Sharma"
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
-                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                    />
-                  </div>
-
-                  <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Phone / WhatsApp *</label>
-                    <input
-                      type="tel"
-                      required
-                      placeholder="e.g. +91 98765 43210"
-                      value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
-                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                    />
-                  </div>
-                </div>
-
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
-                  <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Email Address</label>
-                    <input
-                      type="email"
-                      placeholder="e.g. rajesh@example.com"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                    />
-                  </div>
-
-                  <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>City Location *</label>
-                    <select
-                      value={city}
-                      onChange={(e) => setCity(e.target.value)}
-                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                    >
-                      <option value="Greater Noida">Greater Noida</option>
-                      <option value="Noida">Noida / Noida Expressway</option>
-                      <option value="Gurugram">Gurugram (Golf Course / Cyber City)</option>
-                      <option value="Yamuna Expressway">Yamuna Expressway / YEIDA</option>
-                      <option value="Delhi NCR">Other Delhi NCR</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginBottom: '20px' }}>
-                  <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Property Category *</label>
-                    <select
-                      value={propertyType}
-                      onChange={(e) => setPropertyType(e.target.value)}
-                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                    >
-                      <option value="Full Building">Entire Residential Building / Tower</option>
-                      <option value="Gated Society Flat">Gated Society Apartment (2/3/4 BHK)</option>
-                      <option value="Luxury Villa">Luxury Villa / Independent House</option>
-                      <option value="Multiple Units">Multiple Flats (3+ Units)</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Units Count / Config</label>
-                    <select
-                      value={unitsCount}
-                      onChange={(e) => setUnitsCount(e.target.value)}
-                      style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                    >
-                      <option value="1 Unit (2BHK/3BHK)">1 Apartment (2BHK / 3BHK)</option>
-                      <option value="2-5 Units">2 – 5 Apartments</option>
-                      <option value="6-15 Units">6 – 15 Apartments</option>
-                      <option value="Full Building (15+ Units)">Full Tower / Building (15+ Units)</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div style={{ marginBottom: '20px' }}>
-                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Society Name / Specific Locality</label>
-                  <input
-                    type="text"
-                    placeholder="e.g. Jaypee Greens / Ansal Golf Link-1 / Golf Course Road Sector 54"
-                    value={locality}
-                    onChange={(e) => setLocality(e.target.value)}
-                    style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5' }}
-                  />
-                </div>
-
-                <div style={{ marginBottom: '30px' }}>
-                  <label style={{ display: 'block', fontSize: '12px', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', color: '#333', marginBottom: '8px' }}>Additional Details / Notes</label>
-                  <textarea
-                    rows={3}
-                    placeholder="Furnishing state, current rental status, or preferred payout structure..."
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    style={{ width: '100%', padding: '14px 16px', borderRadius: '8px', border: '1px solid #DDD', fontSize: '14px', outline: 'none', backgroundColor: '#FAF8F5', resize: 'vertical' }}
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  style={{
-                    width: '100%',
-                    backgroundColor: '#1C2D42',
-                    color: '#FFFFFF',
-                    padding: '18px',
-                    borderRadius: '30px',
-                    fontSize: '15px',
-                    fontWeight: '700',
-                    letterSpacing: '1.5px',
-                    border: 'none',
-                    cursor: 'pointer',
-                    boxShadow: '0 10px 30px rgba(28,45,66,0.3)',
-                    transition: 'all 0.3s ease',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '10px'
-                  }}
-                >
-                  <FaWhatsapp size={20} color="#25D366" /> SUBMIT &amp; CONNECT VIA WHATSAPP
-                </button>
-              </form>
-            )}
-          </div>
-        </div>
-      </section>
+      {/* ── UNIFIED REAL PROPERTY PARTNER APPLICATION FORM ── */}
+      <div style={{ backgroundColor: '#F4F0EB', padding: '60px 0' }}>
+        <PartnerApplicationForm
+          id="partner-form"
+          title="Monetize Your Property With Sandane Homes"
+          subtitle="Fill in your property details below. Our partner acquisition desk will analyze your asset and present a guaranteed revenue proposal within 24 hours."
+          tag="GET A FREE PROPERTY EVALUATION"
+        />
+      </div>
 
       {/* ── FREQUENTLY ASKED QUESTIONS (SEO Rich Snippets) ── */}
       <section style={{ padding: '90px 20px', backgroundColor: '#FAF8F5', borderTop: '1px solid #E8E2D9' }}>
