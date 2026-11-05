@@ -21,6 +21,8 @@ import PartnershipPage from './components/pages/PartnershipPage';
 import PartnerApplicationPage from './components/pages/PartnerApplicationPage';
 import GurugramHomeOwnersPartner from './components/pages/GurugramHomeOwnersPartner';
 import GurugramBuildingOwnersPartner from './components/pages/GurugramBuildingOwnersPartner';
+import BuildingOwnersPartner from './components/pages/BuildingOwnersPartner';
+import GreaterNoidaBuildingOwnersPartner from './components/pages/GreaterNoidaBuildingOwnersPartner';
 import GurgaonCorporateHousing from './components/pages/GurgaonCorporateHousing';
 import GurugramDLFPhase4 from './components/pages/GurugramDLFPhase4';
 import GurugramGolfCourseRoad from './components/pages/GurugramGolfCourseRoad';
@@ -55,6 +57,10 @@ function App() {
           <Route path="/partner-with-us/gurugram-home-owners" element={<GurugramHomeOwnersPartner />} />
           <Route path="/partner/gurugram-building-owners" element={<GurugramBuildingOwnersPartner />} />
           <Route path="/partner-with-us/gurugram-building-owners" element={<GurugramBuildingOwnersPartner />} />
+          <Route path="/partner/building-owners" element={<BuildingOwnersPartner />} />
+          <Route path="/partner-with-us/building-owners" element={<BuildingOwnersPartner />} />
+          <Route path="/partner/greater-noida-building-owners" element={<GreaterNoidaBuildingOwnersPartner />} />
+          <Route path="/partner-with-us/greater-noida-building-owners" element={<GreaterNoidaBuildingOwnersPartner />} />
           <Route path="/sandane-homes" element={<SandaneHomes />} />
           <Route path="/amara" element={<Amara />} />
           <Route path="/amaaltash" element={<Amaaltash />} />

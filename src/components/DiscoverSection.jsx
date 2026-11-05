@@ -179,6 +179,62 @@ const DiscoverSection = () => {
                     </div>
                 </div>
             </div>
+
+            {/* VIP Building Owners Banner */}
+            <div style={{
+                background: 'linear-gradient(135deg, #0F172A 0%, #1C2D42 100%)',
+                borderRadius: '20px',
+                padding: '40px 30px',
+                color: '#FFFFFF',
+                textAlign: 'center',
+                boxShadow: '0 15px 40px rgba(15, 23, 42, 0.15)',
+                border: '1px solid rgba(197, 165, 114, 0.35)',
+                maxWidth: '1000px',
+                margin: '60px auto 0'
+            }}>
+                <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '800', letterSpacing: '2px', textTransform: 'uppercase' }}>
+                    FOR DEVELOPERS &amp; LANDLORDS (10–60+ UNITS)
+                </span>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(24px, 3.5vw, 36px)', color: '#FFFFFF', margin: '10px 0 14px' }}>
+                    Own a Standalone Building or Residential Tower?
+                </h3>
+                <p style={{ color: '#CBD5E1', fontSize: '15px', lineHeight: '1.7', maxWidth: '720px', margin: '0 auto 26px' }}>
+                    Master-lease your entire asset to Sandane Homes under a 3 to 9-year institutional agreement. Enjoy 1 single master rent check on the 1st of every month, 100% free maintenance, and zero vacancy losses.
+                </p>
+                <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <a
+                        href="/partner/building-owners"
+                        style={{
+                            backgroundColor: '#C5A572',
+                            color: '#0F172A',
+                            padding: '14px 32px',
+                            borderRadius: '30px',
+                            fontWeight: '700',
+                            textDecoration: 'none',
+                            fontSize: '14px',
+                            boxShadow: '0 6px 20px rgba(197, 165, 114, 0.3)'
+                        }}
+                    >
+                        Explore Building Master Lease &rarr;
+                    </a>
+                    <a
+                        href="https://wa.me/919711722273?text=Hi%20Sandane%20Homes,%20I%20own%20a%20building%20and%20would%20like%20to%20discuss%20a%20Master%20Lease."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                            backgroundColor: '#25D366',
+                            color: '#FFFFFF',
+                            padding: '14px 28px',
+                            borderRadius: '30px',
+                            fontWeight: '700',
+                            textDecoration: 'none',
+                            fontSize: '14px'
+                        }}
+                    >
+                        💬 WhatsApp Acquisitions Desk
+                    </a>
+                </div>
+            </div>
         </section>
     );
 };

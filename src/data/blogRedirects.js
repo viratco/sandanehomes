@@ -7,6 +7,7 @@ import { blogPosts } from './blogPosts.js';
 export const getBlogRedirect = (slug) => {
     if (!slug) return '/#our-luxury-hotels';
     const s = String(slug).toLowerCase();
+    if (s.includes('building-owner') || s.includes('master-lease') || s.includes('building-monetization')) return '/partner/building-owners';
     if (s.includes('amaaltash')) return '/amaaltash';
     if (s.includes('glam')) return '/glam';
     if (s.includes('coco')) return '/coco-house';

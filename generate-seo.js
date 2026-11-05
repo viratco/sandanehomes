@@ -83,6 +83,26 @@ const SEO_MAP = {
     description: 'Master-lease your residential building or builder block in Gurugram to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk, full corporate hotel conversion.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
+  '/partner/building-owners': {
+    title: 'Building Owners Master Lease & Hotel Brand Management | Sandane Homes',
+    description: 'Master-lease your standalone building, residential tower, or guest house (10-60+ units) in Gurugram, Greater Noida & Delhi NCR to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner-with-us/building-owners': {
+    title: 'Building Owners Master Lease & Hotel Brand Management | Sandane Homes',
+    description: 'Master-lease your standalone building, residential tower, or guest house (10-60+ units) in Gurugram, Greater Noida & Delhi NCR to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner/greater-noida-building-owners': {
+    title: 'Greater Noida Building & Guest House Master Lease | Sandane Homes',
+    description: 'Master-lease your standalone building, tower, or guest house in Greater Noida, Pari Chowk, Knowledge Park & Yamuna Expressway to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
+  '/partner-with-us/greater-noida-building-owners': {
+    title: 'Greater Noida Building & Guest House Master Lease | Sandane Homes',
+    description: 'Master-lease your standalone building, tower, or guest house in Greater Noida, Pari Chowk, Knowledge Park & Yamuna Expressway to Sandane Homes. Single master check, 3-9 year contracts, zero vacancy risk.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
+  },
   '/partner/apply': {
     title: 'Property Partner Application Form | Revenue Share & Corporate Subleasing — Sandane Homes',
     description: 'Monetize your 1 BHK, 2 BHK, 3 BHK, 4 BHK, 5 BHK, or 5 BHK+ flat, floor or building with Sandane Homes. Compare Revenue Partnership vs Corporate Subleasing. Submit your property details today.',
@@ -1101,6 +1121,10 @@ function buildSitemapXml() {
     '/partner-with-us/gurugram-home-owners',
     '/partner/gurugram-building-owners',
     '/partner-with-us/gurugram-building-owners',
+    '/partner/building-owners',
+    '/partner-with-us/building-owners',
+    '/partner/greater-noida-building-owners',
+    '/partner-with-us/greater-noida-building-owners',
     '/residences/relocation',
     '/housing-for-daikin-employees-gurgaon',
     '/housing-for-daikin-employees'
@@ -1185,7 +1209,11 @@ function buildResidencesSitemapXml() {
     { url: '/partner/gurugram-home-owners', priority: '0.9', freq: 'weekly' },
     { url: '/partner-with-us/gurugram-home-owners', priority: '0.9', freq: 'weekly' },
     { url: '/partner/gurugram-building-owners', priority: '0.9', freq: 'weekly' },
-    { url: '/partner-with-us/gurugram-building-owners', priority: '0.9', freq: 'weekly' }
+    { url: '/partner-with-us/gurugram-building-owners', priority: '0.9', freq: 'weekly' },
+    { url: '/partner/building-owners', priority: '0.95', freq: 'weekly' },
+    { url: '/partner-with-us/building-owners', priority: '0.95', freq: 'weekly' },
+    { url: '/partner/greater-noida-building-owners', priority: '0.9', freq: 'weekly' },
+    { url: '/partner-with-us/greater-noida-building-owners', priority: '0.9', freq: 'weekly' }
   ];
 
   corePages.forEach((p) => {

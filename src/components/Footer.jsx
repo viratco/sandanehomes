@@ -486,9 +486,11 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                         </h4>
                         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
                             <li><Link to="/partner-with-us" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Partner With Sandane Homes</Link></li>
+                            <li><Link to="/partner/building-owners" style={{ color: '#C5A572', fontWeight: '700', textDecoration: 'none' }}>Building Owners Master Lease (Pan-NCR)</Link></li>
+                            <li><Link to="/partner/greater-noida-building-owners" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Greater Noida Building Master Lease</Link></li>
+                            <li><Link to="/partner/gurugram-building-owners" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Building Master Lease</Link></li>
                             <li><Link to="/partner/apply" style={{ color: '#C5A572', fontWeight: '600', textDecoration: 'none' }}>Partner Application Form (Apply)</Link></li>
                             <li><Link to="/partner/gurugram-home-owners" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Home Owners Program</Link></li>
-                            <li><Link to="/partner/gurugram-building-owners" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Gurugram Building Master Lease</Link></li>
                             <li><Link to="/blog/earn-revenue-from-your-house-floor-building" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Earn Revenue from House / Floor</Link></li>
                             <li><Link to="/blog/homestay-club-with-sandane-homes" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Homestay Club with Sandane Homes</Link></li>
                             <li><Link to="/blog/earn-with-your-floor-building-master-lease" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Earn with Your Floor or Building</Link></li>
