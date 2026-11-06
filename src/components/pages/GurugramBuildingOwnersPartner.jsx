@@ -12,6 +12,8 @@ import {
   FaCheckCircle as FaCircleCheck, FaTimes as FaXmark
 } from 'react-icons/fa';
 import './SandaneHomes.css';
+import OwnerContactLine from '../OwnerContactLine';
+import { submitOwnerLead } from '../../utils/ownerLeads';
 
 import buildingHeroImg from '../../assets/building-partner-hero.jpg';
 import interiorImg from '../../assets/abstract_luxury_interior.png';
@@ -25,10 +27,14 @@ const GurugramBuildingOwnersPartner = () => {
   const [locality, setLocality] = useState('Golf Course Road / Cyber City');
   const [message, setMessage] = useState('');
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [deliveryFailed, setDeliveryFailed] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (isSubmitting) return;
+    setIsSubmitting(true);
     const text =
       `Hi Sandane Homes team,\n\n` +
       `I am interested in proposing my building in Gurugram for a corporate master lease. Here are the property details:\n\n` +
@@ -42,26 +48,22 @@ const GurugramBuildingOwnersPartner = () => {
       `\nPlease review and let me know the valuation and next steps. Thank you!`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
-    setFormSubmitted(true);
 
-    // Also send to residencesbysandanehomes@gmail.com
-    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
-      method: "POST",
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({
-        _subject: `New Building Master Lease Proposal: ${name} (${totalUnits}) in Gurugram`,
-        _captcha: "false",
-        _template: "table",
-        "Owner/Developer Name": name,
-        "Phone / WhatsApp": phone,
-        "Email": email || 'Not provided',
-        "Asset Category": buildingType,
-        "Total Units": totalUnits,
-        "Locality / Sector": locality,
-        "Notes": message || 'None',
-        "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
-      })
-    }).catch(err => console.error("Email submission error:", err));
+    submitOwnerLead({
+      _subject: `New Building Master Lease Proposal: ${name} (${totalUnits}) in Gurugram`,
+      "Owner/Developer Name": name,
+      "Phone / WhatsApp": phone,
+      "Email": email || 'Not provided',
+      "Asset Category": buildingType,
+      "Total Units": totalUnits,
+      "Locality / Sector": locality,
+      "Notes": message || 'None'
+    }, { form: 'gurugram_building_owners', city: 'Gurugram', property_type: buildingType })
+      .then((delivered) => {
+        setDeliveryFailed(!delivered);
+        setIsSubmitting(false);
+        setFormSubmitted(true);
+      });
   };
 
   const faqs = [
@@ -421,6 +423,7 @@ const GurugramBuildingOwnersPartner = () => {
                 <FaCircleCheck size={48} color="#25D366" />
                 <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '24px', margin: '16px 0 8px 0', color: '#FFF' }}>Building Proposal Submitted!</h3>
                 <p style={{ fontSize: '14px', color: '#94A3B8' }}>Our corporate master lease team will review your asset and reach out via WhatsApp / Email shortly.</p>
+                <OwnerContactLine dark deliveryFailed={deliveryFailed} form="gurugram_building_owners" />
               </div>
             ) : (
               <form onSubmit={handleSubmit}>
@@ -485,6 +488,7 @@ const GurugramBuildingOwnersPartner = () => {
                 }}>
                   <FaWhatsapp size={20} color="#0F172A" /> SUBMIT BUILDING PROPOSAL VIA WHATSAPP
                 </button>
+                <OwnerContactLine dark form="gurugram_building_owners" />
               </form>
             )}
           </div>

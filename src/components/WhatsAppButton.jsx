@@ -1,18 +1,25 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import { isOwnerPath } from '../utils/ownerLeads';
 import './WhatsAppButton.css';
 
 const WhatsAppButton = () => {
     const location = useLocation();
     const isResidencesPage = location.pathname.toLowerCase() === '/residences';
+    // On partner/owner pages the visitor is a property owner, not a guest.
+    const isOwnerPage = isOwnerPath(location.pathname);
 
     const phoneNumber = isResidencesPage ? "918826269690" : "919711722273";
     const defaultText = isResidencesPage
         ? encodeURIComponent("Hello Sandane Homes, I would like to inquire about executive housing options at Residences by Sandane Homes.")
-        : encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
+        : isOwnerPage
+            ? encodeURIComponent("Hi Sandane Homes, I own a property and would like to discuss partnering with your team.")
+            : encodeURIComponent("Hi Sandane Homes! I would like to get more information.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultText}`;
 
     const handleWhatsAppClick = () => {
+        // Owner pages: OwnerClickTracker records this as an owner WhatsApp click instead.
+        if (isOwnerPage) return;
         if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
             window.gtag('event', 'ads_conversion_Purchase_1', {});
         }

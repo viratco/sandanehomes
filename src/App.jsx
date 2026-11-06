@@ -33,6 +33,7 @@ import JapaneseCompanyHousing from './components/pages/JapaneseCompanyHousing';
 import GurugramResidences from './components/pages/GurugramResidences';
 import { japaneseCompanies } from './data/japaneseCompanies';
 import WhatsAppButton from './components/WhatsAppButton';
+import OwnerClickTracker from './components/OwnerClickTracker';
 
 import { Analytics } from '@vercel/analytics/react';
 
@@ -122,6 +123,7 @@ function App() {
           ))}
         </Routes>
         <WhatsAppButton />
+        <OwnerClickTracker />
       </div>
       <Analytics />
     </>

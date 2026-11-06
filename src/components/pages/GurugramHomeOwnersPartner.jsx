@@ -11,6 +11,8 @@ import {
   FaChevronDown, FaChevronUp, FaMapMarkerAlt
 } from 'react-icons/fa';
 import './SandaneHomes.css';
+import OwnerContactLine from '../OwnerContactLine';
+import { submitOwnerLead } from '../../utils/ownerLeads';
 
 import livingImg from '../../assets/livingroom.jpeg';
 import interiorImg from '../../assets/abstract_luxury_interior.png';
@@ -24,10 +26,14 @@ const GurugramHomeOwnersPartner = () => {
   const [locality, setLocality] = useState('Golf Course Road');
   const [message, setMessage] = useState('');
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [deliveryFailed, setDeliveryFailed] = useState(false);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (isSubmitting) return;
+    setIsSubmitting(true);
     const text =
       `Hi Sandane Homes team,\n\n` +
       `I am interested in partnering with Sandane Homes to monetize my flat in Gurugram. Here are my details:\n\n` +
@@ -41,25 +47,22 @@ const GurugramHomeOwnersPartner = () => {
       `\nPlease review and let me know the rental valuation and next steps. Thank you!`;
 
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(text)}`, '_blank');
-    setFormSubmitted(true);
 
-    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
-      method: "POST",
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({
-        _subject: `New Apartment Partner Inquiry: ${name} (${bhk}) in ${society}`,
-        _captcha: "false",
-        _template: "table",
-        "Owner Name": name,
-        "Phone / WhatsApp": phone,
-        "Email": email || 'Not provided',
-        "BHK Config": bhk,
-        "Locality": locality,
-        "Society": society,
-        "Notes": message || 'None',
-        "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
-      })
-    }).catch(err => console.error("Email submission error:", err));
+    submitOwnerLead({
+      _subject: `New Apartment Partner Inquiry: ${name} (${bhk}) in ${society}`,
+      "Owner Name": name,
+      "Phone / WhatsApp": phone,
+      "Email": email || 'Not provided',
+      "BHK Config": bhk,
+      "Locality": locality,
+      "Society": society,
+      "Notes": message || 'None'
+    }, { form: 'gurugram_home_owners', city: 'Gurugram', property_type: bhk })
+      .then((delivered) => {
+        setDeliveryFailed(!delivered);
+        setIsSubmitting(false);
+        setFormSubmitted(true);
+      });
   };
 
   const faqs = [
@@ -251,6 +254,7 @@ const GurugramHomeOwnersPartner = () => {
                 <FaCircleCheck size={48} color="#25D366" />
                 <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '24px', margin: '16px 0 8px 0', color: '#FFF' }}>Proposal Requested!</h3>
                 <p style={{ fontSize: '14px', color: '#94A3B8' }}>We have received your Gurugram apartment details and will connect via WhatsApp shortly.</p>
+                <OwnerContactLine dark deliveryFailed={deliveryFailed} form="gurugram_home_owners" />
               </div>
             ) : (
               <form onSubmit={handleSubmit}>
@@ -300,6 +304,7 @@ const GurugramHomeOwnersPartner = () => {
                 <button type="submit" style={{ width: '100%', backgroundColor: '#C5A572', color: '#0F172A', padding: '18px', borderRadius: '30px', fontWeight: '800', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
                   <FaWhatsapp size={20} color="#0F172A" /> GET GUARANTEED LEASE PROPOSAL
                 </button>
+                <OwnerContactLine dark form="gurugram_home_owners" />
               </form>
             )}
           </div>

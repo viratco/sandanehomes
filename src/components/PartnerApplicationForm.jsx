@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { FaCheckCircle, FaWhatsapp, FaInfoCircle } from 'react-icons/fa';
+import OwnerContactLine from './OwnerContactLine';
+import { submitOwnerLead } from '../utils/ownerLeads';
 
 const apartmentTypes = [
   { id: '1bhk', label: '1 BHK', desc: 'Executive Suite' },
@@ -48,6 +50,7 @@ const PartnerApplicationForm = ({
   const [notes, setNotes] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [deliveryFailed, setDeliveryFailed] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -76,10 +79,8 @@ const PartnerApplicationForm = ({
     // Immediately launch WhatsApp with full details pre-filled
     window.open(`https://wa.me/919711722273?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
 
-    const payload = {
+    submitOwnerLead({
       _subject: `New Partner Application: ${name} - ${formattedApartmentType} in ${selectedCity}`,
-      _captcha: "false",
-      _template: "table",
       "Owner Full Name": name,
       "Contact Number / WhatsApp": phone,
       "Email Address": email || 'Not provided',
@@ -89,28 +90,10 @@ const PartnerApplicationForm = ({
       "Furnishing Status": furnishing,
       "Preferred Model": formattedModel,
       "Additional Notes": notes || 'None',
-      "Company Decision Policy Acknowledged": "Yes, partner understands final model (Revenue Share vs Corporate Sublease) is evaluated & decided by Sandane Homes",
-      "Submission Timestamp": new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
-    };
-
-    fetch("https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com", {
-      method: "POST",
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-      body: JSON.stringify(payload)
-    })
-      .then((response) => response.json())
-      .then(() => {
-        setIsSubmitting(false);
-        setSubmitted(true);
-        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-          window.gtag('event', 'ads_conversion_Purchase_1', {});
-        }
-      })
-      .catch((error) => {
-        console.error('Error submitting form:', error);
+      "Company Decision Policy Acknowledged": "Yes, partner understands final model (Revenue Share vs Corporate Sublease) is evaluated & decided by Sandane Homes"
+    }, { form: 'partner_application', city: selectedCity, property_type: selectedApartmentType })
+      .then((delivered) => {
+        setDeliveryFailed(!delivered);
         setIsSubmitting(false);
         setSubmitted(true);
       });
@@ -175,6 +158,7 @@ const PartnerApplicationForm = ({
             >
               <FaWhatsapp size={18} /> OPEN CHAT ON WHATSAPP
             </a>
+            <OwnerContactLine deliveryFailed={deliveryFailed} form="partner_application" />
           </div>
         ) : (
           <form onSubmit={handleSubmit}>
@@ -541,6 +525,7 @@ const PartnerApplicationForm = ({
             }}>
               🔒 Your information is confidential. We will review your asset and respond with an official proposal within 24 hours.
             </p>
+            <OwnerContactLine form="partner_application" />
           </form>
         )}
       </div>
