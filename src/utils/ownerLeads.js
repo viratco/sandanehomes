@@ -19,7 +19,7 @@ export const isOwnerPath = (pathname = '') =>
   /^\/(partner|partner-with-us|partner-form|property-partner)(\/|$)/i.test(pathname);
 
 /**
- * action: 'form_submit' | 'call_click' | 'whatsapp_click'
+ * action: 'form_submit' | 'call_click' | 'whatsapp_click' | 'cta_click'
  * form_submit is sent as GA4's recommended `generate_lead` event.
  */
 export const trackOwnerEvent = (action, params = {}) => {
@@ -37,18 +37,24 @@ export const trackOwnerEvent = (action, params = {}) => {
 };
 
 /**
- * On owner pages, records every click on a call (tel:) or WhatsApp link as an owner event,
- * including links added to owner pages later. The source comes from the nearest
- * `data-owner-source` attribute, else 'floating_button' / 'page_link'.
- * Returns a cleanup function.
+ * Records owner clicks as owner events and returns a cleanup function:
+ * - call (tel:) and WhatsApp links: anywhere on owner pages (`onOwnerPage`), and elsewhere
+ *   only inside an element marked `data-owner-source` (e.g. owner CTAs on blog posts);
+ * - links to /partner pages inside a `data-owner-source` element, as 'cta_click'.
+ * The source is the nearest `data-owner-source`, else 'floating_button' / 'page_link'.
  */
-export const listenForOwnerContactClicks = () => {
+export const listenForOwnerContactClicks = ({ onOwnerPage = true } = {}) => {
   const onClick = (event) => {
-    const link = event.target.closest && event.target.closest('a[href^="tel:"], a[href*="wa.me/"]');
+    const link = event.target.closest && event.target.closest('a[href^="tel:"], a[href*="wa.me/"], a[href^="/partner"]');
     if (!link) return;
-    const source = link.closest('[data-owner-source]')?.dataset.ownerSource
+    const scope = link.closest('[data-owner-source]');
+    const href = link.getAttribute('href');
+    const isPartnerLink = href.startsWith('/partner');
+    if (!scope && (isPartnerLink || !onOwnerPage)) return;
+    const source = scope?.dataset.ownerSource
       || (link.classList.contains('whatsapp-float') ? 'floating_button' : 'page_link');
-    trackOwnerEvent(link.getAttribute('href').startsWith('tel:') ? 'call_click' : 'whatsapp_click', { form: source });
+    const action = isPartnerLink ? 'cta_click' : href.startsWith('tel:') ? 'call_click' : 'whatsapp_click';
+    trackOwnerEvent(action, { form: source });
   };
   document.addEventListener('click', onClick);
   return () => document.removeEventListener('click', onClick);

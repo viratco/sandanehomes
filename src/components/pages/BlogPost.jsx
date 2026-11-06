@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import BlogContent from '../BlogContent';
 import { blogPosts } from '../../data/blogPosts';
 import { GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
+import OwnerContactLine from '../OwnerContactLine';
 import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import './Blog.css';
 import './SandaneHomes.css';
@@ -16,6 +17,35 @@ const DEFAULT_OG_IMAGE = 'https://www.sandanehomes.com/residences-og.jpg';
 // lead with the Gurugram residences, with a smaller secondary link to Greater Noida.
 const GURUGRAM_POST_RE = /gurgaon|gurugram|guruagron|グルガオン|グルグラム|구르가온|구루가온|구루그람|古尔冈|古鲁格拉姆/i;
 const GREATER_NOIDA_PATH = '/serviced-apartments-greater-noida';
+
+// Posts written for property owners (leasing, master lease, monetizing a flat or building)
+// get owner calls to action instead of guest ones, pointing to the matching partner page.
+const OWNER_POST_RE = /owner|landlord|partner-with|partnering|master-lease|master lease|monetiz|rental-income|rental income|lease-to-company|lease to company|on-company-lease|on-corporate-lease|company lease|give-(flat|building|floor|property|house)|earn-with|earn-revenue|property-management|rental-yield|yield-maxim|managed-leasing|managed leasing|homestay-club|passive-revenue|guaranteed-rent|guaranteed revenue|revenue-share|subleas/i;
+const getOwnerCta = (post) => {
+    const text = `${post.slug} ${post.title}`;
+    if (!OWNER_POST_RE.test(text)) return null;
+    const isGurugram = GURUGRAM_POST_RE.test(text);
+    const isNoida = !isGurugram && /noida|yamuna/i.test(text);
+    const isBuilding = /building|tower|floor|guest-house|block/i.test(post.slug);
+    const city = isGurugram ? 'Gurugram' : isNoida ? 'Greater Noida' : 'Delhi NCR';
+    const path = isGurugram
+        ? (isBuilding ? '/partner/gurugram-building-owners' : '/partner/gurugram-home-owners')
+        : isNoida && isBuilding ? '/partner/greater-noida-building-owners' : '/partner/apply';
+    return {
+        path,
+        hero: 'Get a Lease Proposal for Your Property \u2192',
+        suites: 'List Your Property \u2192',
+        eyebrow: 'For Property Owners',
+        bannerTitle: isBuilding ? 'Lease Your Building to Sandane Homes' : 'Lease Your Property to Sandane Homes',
+        bannerText: 'Share your flat, floor or building details. We review it and reply with a written proposal, fixed monthly rent or revenue share, usually within 24 hours.',
+        bannerButton: 'Get Your Property Proposal \u2192',
+        title: `Own a property in ${city}?`,
+        text: 'Send us your property details for a written lease proposal, or talk to our acquisitions team on WhatsApp.',
+        button: 'Get a Proposal \u2192',
+        whatsapp: 'WhatsApp Our Team',
+        whatsappText: `Hi Sandane Homes, I read your article and I own a property in ${city}. I would like a lease proposal.`,
+    };
+};
 const GURUGRAM_CTA = {
     en: {
         hero: 'Explore Our Gurugram Residences →',
@@ -151,7 +181,11 @@ const BlogPost = () => {
     const gurugramCta = GURUGRAM_POST_RE.test(`${post.slug} ${post.title}`)
         ? GURUGRAM_CTA[isZh ? 'zh' : post.lang] || GURUGRAM_CTA.en
         : null;
-    const residencesPath = gurugramCta ? GURUGRAM_HUB_PATH : '/residences';
+    const ownerCta = getOwnerCta(post);
+    const cta = ownerCta || gurugramCta;
+    const residencesPath = ownerCta ? ownerCta.path : gurugramCta ? GURUGRAM_HUB_PATH : '/residences';
+    // Marks owner CTAs so OwnerClickTracker records their clicks as owner events.
+    const ownerSource = ownerCta ? 'blog_owner_cta' : undefined;
     const canonical = isZh
         ? `https://www.sandanehomes.com/zh/${post.slug}`
         : `https://www.sandanehomes.com/blog/${post.slug}`;
@@ -280,6 +314,7 @@ const BlogPost = () => {
                     <div style={{ marginTop: '30px' }}>
                         <Link
                             to={residencesPath}
+                            data-owner-source={ownerSource}
                             style={{
                                 display: 'inline-flex', alignItems: 'center', gap: '10px',
                                 backgroundColor: '#C5A572', color: '#1A3C34',
@@ -291,7 +326,7 @@ const BlogPost = () => {
                             onMouseOver={e => { e.currentTarget.style.backgroundColor = '#fff'; e.currentTarget.style.color = '#1A3C34'; }}
                             onMouseOut={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         >
-                            {gurugramCta ? gurugramCta.hero : isZh ? '探索 Residences by Sandane Homes 精选高级公寓 \u2192' : 'Explore Residences by Sandane Homes \u2192'}
+                            {cta ? cta.hero : isZh ? '探索 Residences by Sandane Homes 精选高级公寓 \u2192' : 'Explore Residences by Sandane Homes \u2192'}
                         </Link>
                     </div>
                 </div>
@@ -307,13 +342,14 @@ const BlogPost = () => {
                     </div>
                     <Link
                         to={residencesPath}
+                        data-owner-source={ownerSource}
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '6px',
                             color: '#C5A572', fontWeight: '700', textDecoration: 'none',
                             fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px'
                         }}
                     >
-                        {gurugramCta ? gurugramCta.suites : isZh ? '查看精选公寓房源 \u2192' : 'View Serviced Suites \u2192'}
+                        {cta ? cta.suites : isZh ? '查看精选公寓房源 \u2192' : 'View Serviced Suites \u2192'}
                     </Link>
                 </div>
             </div>
@@ -325,7 +361,7 @@ const BlogPost = () => {
 
             {/* ── INLINE RESIDENCES BANNER CTA ── */}
             <div style={{ padding: '20px 20px 40px', backgroundColor: '#fff' }}>
-                <div style={{
+                <div data-owner-source={ownerSource} style={{
                     maxWidth: '760px', margin: '0 auto',
                     background: 'linear-gradient(135deg, #F5EFEB 0%, #E6DFD5 100%)',
                     borderRadius: '16px', padding: '36px 30px',
@@ -334,13 +370,13 @@ const BlogPost = () => {
                     textAlign: 'center'
                 }}>
                     <span style={{ fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '800' }}>
-                        Sandane Homes Collection
+                        {ownerCta ? ownerCta.eyebrow : 'Sandane Homes Collection'}
                     </span>
                     <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '26px', color: '#1A3C34', margin: '12px 0' }}>
-                        {gurugramCta ? gurugramCta.bannerTitle : isZh ? '探索 Sandane Homes 奢华服务式公寓' : 'Explore Our Luxury Serviced Residences'}
+                        {cta ? cta.bannerTitle : isZh ? '探索 Sandane Homes 奢华服务式公寓' : 'Explore Our Luxury Serviced Residences'}
                     </h3>
                     <p style={{ color: '#555', fontSize: '15px', maxWidth: '560px', margin: '0 auto 24px', lineHeight: '1.6' }}>
-                        {gurugramCta ? gurugramCta.bannerText : isZh
+                        {cta ? cta.bannerText : isZh
                             ? '为您打造的全套家具、每日保洁、具备完整烹饪设施的 1BHK、2BHK 及独立套房。位于 Jaypee Greens 与 Ansal Golf Links 等高端门禁社区。'
                             : 'Discover fully furnished, hotel-serviced 1BHK, 2BHK, and studio suites in Greater Noida\'s finest gated societies like Jaypee Greens & Ansal Golf Links.'}
                     </p>
@@ -357,9 +393,10 @@ const BlogPost = () => {
                         onMouseOver={e => { e.currentTarget.style.backgroundColor = '#C5A572'; e.currentTarget.style.color = '#1A3C34'; }}
                         onMouseOut={e => { e.currentTarget.style.backgroundColor = '#1A3C34'; e.currentTarget.style.color = '#fff'; }}
                     >
-                        {gurugramCta ? gurugramCta.bannerButton : isZh ? '查看所有可预订房源 \u2192' : 'View All Available Residences \u2192'}
+                        {cta ? cta.bannerButton : isZh ? '查看所有可预订房源 \u2192' : 'View All Available Residences \u2192'}
                     </Link>
-                    {gurugramCta && (
+                    {ownerCta && <OwnerContactLine form={ownerSource} />}
+                    {gurugramCta && !ownerCta && (
                         <p style={{ color: '#777', fontSize: '13px', margin: '20px auto 0', maxWidth: '560px', lineHeight: '1.6' }}>
                             {gurugramCta.noidaText}{' '}
                             <Link to={GREATER_NOIDA_PATH} style={{ color: '#1A3C34', fontWeight: '600', textDecoration: 'underline' }}>
@@ -463,15 +500,15 @@ const BlogPost = () => {
             )}
 
             {/* ── CTA ── */}
-            <div style={{
+            <div data-owner-source={ownerSource} style={{
                 backgroundColor: '#1A3C34',
                 padding: '90px 20px', textAlign: 'center', color: 'white'
             }}>
                 <h2 style={{ fontSize: '34px', marginBottom: '16px', fontFamily: 'Playfair Display, serif' }}>
-                    {gurugramCta ? gurugramCta.title : isZh ? '正在寻找大诺伊达的理想居所？' : 'Looking for a home in Greater Noida?'}
+                    {cta ? cta.title : isZh ? '正在寻找大诺伊达的理想居所？' : 'Looking for a home in Greater Noida?'}
                 </h2>
                 <p style={{ fontSize: '17px', color: '#E0E0E0', marginBottom: '40px', maxWidth: '560px', margin: '0 auto 40px' }}>
-                    {gurugramCta ? gurugramCta.text : isZh
+                    {cta ? cta.text : isZh
                         ? '探索我们的豪华住宅系列，或通过微信 / WhatsApp 联系我们的专属团队获得即时协助。'
                         : 'Explore our collection of luxury residences or message our team on WhatsApp for instant assistance.'}
                 </p>
@@ -488,10 +525,10 @@ const BlogPost = () => {
                         onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        {gurugramCta ? gurugramCta.button : isZh ? '查看精选房源 \u2192' : 'Explore Residences \u2192'}
+                        {cta ? cta.button : isZh ? '查看精选房源 \u2192' : 'Explore Residences \u2192'}
                     </Link>
                     <a
-                        href={`https://wa.me/${PHONE}?text=${encodeURIComponent(gurugramCta ? gurugramCta.whatsappText : isZh ? '您好，我了解了贵司大诺伊达服务式公寓博客，想咨询外派住宿预订。' : 'Hello, I read your blog post and I would like to know more about housing in Greater Noida')}`}
+                        href={`https://wa.me/${PHONE}?text=${encodeURIComponent(cta ? cta.whatsappText : isZh ? '您好，我了解了贵司大诺伊达服务式公寓博客，想咨询外派住宿预订。' : 'Hello, I read your blog post and I would like to know more about housing in Greater Noida')}`}
                         target="_blank" rel="noopener noreferrer"
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '12px',
@@ -503,10 +540,11 @@ const BlogPost = () => {
                         onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
                         onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        <FaWhatsapp size={22} /> {gurugramCta ? gurugramCta.whatsapp : isZh ? '微信 / WhatsApp 咨询' : 'WhatsApp Us'}
+                        <FaWhatsapp size={22} /> {cta ? cta.whatsapp : isZh ? '微信 / WhatsApp 咨询' : 'WhatsApp Us'}
                     </a>
                 </div>
-                {gurugramCta && (
+                {ownerCta && <OwnerContactLine dark form={ownerSource} />}
+                {gurugramCta && !ownerCta && (
                     <p style={{ fontSize: '14px', color: '#B8C4BF', margin: '32px auto 0', maxWidth: '560px', lineHeight: '1.6' }}>
                         {gurugramCta.noidaText}{' '}
                         <Link to={GREATER_NOIDA_PATH} style={{ color: '#C5A572', fontWeight: '600', textDecoration: 'underline' }}>
