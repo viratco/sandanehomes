@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import { blogPosts } from './src/data/blogPosts.js';
 import { landingPages } from './src/data/landingPages.js';
 import { japaneseCompanies } from './src/data/japaneseCompanies.js';
+import { greaterNoidaCompanies, greaterNoidaCompanyRoutes, companyPath, COPY as COMPANY_COPY } from './src/data/greaterNoidaCompanies.js';
 import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 
@@ -756,6 +757,41 @@ japaneseCompanies.forEach((comp) => {
   };
 });
 
+// ── Greater Noida accommodation pages per company (EN / KO / ZH / JA) ──
+// Each language version is its own URL with hreflang alternates to the others.
+greaterNoidaCompanies.forEach((company) => {
+  company.langs.forEach((lang) => {
+    const t = COMPANY_COPY[lang];
+    const name = company.name[lang];
+    const url = `${BASE_URL}${companyPath(company.key, lang)}`;
+    SEO_MAP[companyPath(company.key, lang)] = {
+      title: t.metaTitle(name),
+      description: t.metaDescription(name),
+      ogImage: `${BASE_URL}/residences-og.jpg`,
+      lang,
+      hreflangLinks: [
+        ...company.langs.map((l) => ({ lang: l, href: `${BASE_URL}${companyPath(company.key, l)}` })),
+        { lang: 'x-default', href: `${BASE_URL}${companyPath(company.key, 'en')}` },
+      ],
+      schemas: [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": t.breadcrumbHome, "item": `${BASE_URL}/` },
+            { "@type": "ListItem", "position": 2, "name": t.h1(name), "item": url }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": t.faqs(name).map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+        }
+      ]
+    };
+  });
+});
+
 const distPath = path.join(__dirname, 'dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
 
@@ -1167,7 +1203,8 @@ function buildSitemapXml() {
     '/chinese-expat-housing-greater-noida',
     '/serviced-apartments-greater-noida',
     '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
-    '/housing-for-daikin-employees-noida'
+    '/housing-for-daikin-employees-noida',
+    ...greaterNoidaCompanyRoutes.map((r) => r.path)
   ];
   otherMainPages.forEach((route) => {
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;

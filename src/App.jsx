@@ -32,6 +32,8 @@ import GurugramKoreanExpatHousing from './components/pages/GurugramKoreanExpatHo
 import JapaneseCompanyHousing from './components/pages/JapaneseCompanyHousing';
 import GurugramResidences from './components/pages/GurugramResidences';
 import { japaneseCompanies } from './data/japaneseCompanies';
+import CompanyAccommodation from './components/pages/CompanyAccommodation';
+import { greaterNoidaCompanyRoutes } from './data/greaterNoidaCompanies';
 import WhatsAppButton from './components/WhatsAppButton';
 import OwnerClickTracker from './components/OwnerClickTracker';
 
@@ -120,6 +122,11 @@ function App() {
 
           {japaneseCompanies.map((c) => (
             <Route key={c.slug} path={`/${c.slug}`} element={<JapaneseCompanyHousing slug={c.slug} />} />
+          ))}
+
+          {/* Greater Noida accommodation pages per company, one route per language */}
+          {greaterNoidaCompanyRoutes.map((r) => (
+            <Route key={r.path} path={r.path} element={<CompanyAccommodation companyKey={r.key} lang={r.lang} />} />
           ))}
         </Routes>
         <WhatsAppButton />
