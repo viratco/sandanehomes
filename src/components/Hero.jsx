@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BookingWidget from './BookingWidget';
-import heroBg from '../assets/Copy of IMG_3491.JPG';
+import heroBg from '../assets/sandane-night-hero.jpg';
 import './Hero.css';
 
 const Hero = () => {
@@ -32,14 +32,14 @@ const Hero = () => {
 
                 {/* Dual Hero CTA Buttons */}
                 <div className="hero-cta-container">
-                    <Link to="/residences" className="hero-cta-btn" title="Residences by Sandane Homes">
-                        RESIDENCES BY SANDANE
+                    <Link to="/residences" className="hero-cta-btn" title="Serviced Apartments by Sandane Homes">
+                        SERVICED APARTMENTS
                     </Link>
                     <button
                         onClick={scrollToHotels}
                         className="hero-cta-btn"
                     >
-                        BOOK A HOTEL
+                        HOTELS
                     </button>
                 </div>
 

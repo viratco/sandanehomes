@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 650px;
+    max-width: 760px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: clamp(20px, 3vw, 36px);
@@ -96,11 +96,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 24px;
+    padding: 22px 32px;
     background-color: #8B7355;
     color: #ffffff;
     font-family: 'Playfair Display', serif;
-    font-size: clamp(13px, 1.4vw, 18px);
+    font-size: clamp(14px, 1.6vw, 21px);
+    line-height: 1.4; /* same height for the <a> and <button> versions */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -141,7 +142,7 @@
     }
 
     .hero-cta-container {
-        max-width: 550px;
+        max-width: 640px;
         gap: 15px;
     }
 }
@@ -180,14 +181,14 @@
 
     .hero-cta-container {
         width: 90%;
-        max-width: 450px;
+        max-width: 520px;
         gap: 12px;
         margin-bottom: 16px;
     }
 
     .hero-cta-btn {
-        padding: 12px 14px;
-        font-size: 12px;
+        padding: 16px 16px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
 }
@@ -219,14 +220,14 @@
 
     .hero-cta-container {
         width: 95%;
-        max-width: 360px;
+        max-width: 400px;
         gap: 8px;
         margin-bottom: 12px;
     }
 
     .hero-cta-btn {
-        padding: 10px 8px;
-        font-size: 11px;
+        padding: 14px 8px;
+        font-size: 12px;
         letter-spacing: 0.5px;
     }
 }
