@@ -202,7 +202,7 @@ const LandingPage = ({ slug: propSlug }) => {
                             <FaWhatsapp size={20} /> WhatsApp Inquiry
                         </a>
                         <a
-                            href={`mailto:residencesbysandanehomes@gmail.com?subject=Inquiry%20for%20${page.h1}`}
+                            href={`mailto:residences@sandanehomes.com?subject=Inquiry%20for%20${page.h1}`}
                             className="btn-secondary"
                             style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', backgroundColor: 'transparent', color: '#1A3C34', border: '2px solid #1A3C34', padding: '12px 26px', borderRadius: '30px', textDecoration: 'none', fontWeight: 'bold', fontSize: '15px' }}
                         >

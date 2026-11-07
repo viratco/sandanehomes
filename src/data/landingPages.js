@@ -322,7 +322,7 @@ export const landingPages = [
             },
             {
                 "question": "Can relocation agencies add us to their preferred vendor list?",
-                "answer": "Absolutely. We actively partner with relocation agencies, destination service providers, and global mobility companies. We offer commission on confirmed bookings. Contact residencesbysandanehomes@gmail.com."
+                "answer": "Absolutely. We actively partner with relocation agencies, destination service providers, and global mobility companies. We offer commission on confirmed bookings. Contact residences@sandanehomes.com."
             }
         ],
         "related": [
@@ -738,7 +738,7 @@ export const landingPages = [
             },
             {
                 "question": "Do you work with relocation agencies?",
-                "answer": "Yes. We actively partner with relocation agencies and destination service providers in the NCR. Contact residencesbysandanehomes@gmail.com to discuss partnership arrangements."
+                "answer": "Yes. We actively partner with relocation agencies and destination service providers in the NCR. Contact residences@sandanehomes.com to discuss partnership arrangements."
             },
             {
                 "question": "What languages do you support?",

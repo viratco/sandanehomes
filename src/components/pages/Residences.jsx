@@ -54,7 +54,7 @@ const Residences = () => {
             "description": "Premium fully-furnished serviced apartments in Gurugram and Delhi NCR for corporate expats and international professionals. Near DLF Cyber City, Golf Course Road, and MNC industrial corridors. Flexible monthly stays with full amenities.",
             "url": "https://www.sandanehomes.com/residences",
             "telephone": "+919711722273",
-            "email": "residencesbysandanehomes@gmail.com",
+            "email": "residences@sandanehomes.com",
             "parentOrganization": {
                 "@type": "Organization",
                 "name": "Sandane Homes",
@@ -908,7 +908,7 @@ const Residences = () => {
                             </a>
 
                             {/* Email Card */}
-                            <a href="mailto:residencesbysandanehomes@gmail.com" style={{
+                            <a href="mailto:residences@sandanehomes.com" style={{
                                 textDecoration: 'none',
                                 backgroundColor: '#fff',
                                 padding: '24px 22px',
@@ -947,7 +947,7 @@ const Residences = () => {
                                         wordBreak: 'break-word',
                                         overflowWrap: 'anywhere'
                                     }}>
-                                        residencesbysandanehomes<wbr />@gmail.com
+                                        residences<wbr />@sandanehomes.com
                                     </p>
                                 </div>
                             </a>
