@@ -21,7 +21,7 @@ import imgGalleryDining from '../../assets/residences-gallery-dining.jpg';
 import imgGalleryTvWall from '../../assets/residences-gallery-tv-wall.jpg';
 import imgGalleryDiningSconces from '../../assets/residences-gallery-dining-sconces.jpg';
 import './SandaneHomes.css'; // Import shared CSS
-import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft } from 'react-icons/fa6';
+import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup } from 'react-icons/fa6';
 
 const Residences = () => {
     const scrollToFooterInquiry = () => {
@@ -310,6 +310,21 @@ const Residences = () => {
                             <FaCouch className="res-promise-icon" aria-hidden="true" />
                             <h3>Fully Furnished</h3>
                             <p>Furniture, kitchenware and fresh linen, ready on day one</p>
+                        </div>
+                        <div className="res-promise-card">
+                            <FaCarSide className="res-promise-icon" aria-hidden="true" />
+                            <h3>Car Service</h3>
+                            <p>Our fleet picks you up from home, drops you at the office and back</p>
+                        </div>
+                        <div className="res-promise-card">
+                            <FaBowlRice className="res-promise-icon" aria-hidden="true" />
+                            <h3>Korean &amp; Japanese Meals</h3>
+                            <p>Home-style breakfast and dinner, included</p>
+                        </div>
+                        <div className="res-promise-card">
+                            <FaPeopleGroup className="res-promise-icon" aria-hidden="true" />
+                            <h3>Activities Included</h3>
+                            <p>Extracurricular activities, all covered by us</p>
                         </div>
                         <div className="res-promise-card">
                             <FaWifi className="res-promise-icon" aria-hidden="true" />
