@@ -218,7 +218,7 @@ const Residences = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 gap: '15px',
-                margin: '100px auto 40px auto',
+                margin: '20px auto 20px auto',
                 maxWidth: '600px',
                 width: '80%',
                 opacity: 0.7
@@ -296,39 +296,32 @@ const Residences = () => {
                     </Link>
                 </div>
 
-                {/* Residences Info Section */}
-                <div style={{
-                    marginTop: '50px',
-                    maxWidth: '850px',
-                    margin: '50px auto 0 auto',
-                    textAlign: 'left', // Aligned left for better bullet point reading
-                    lineHeight: '1.9',
-                    fontSize: '17px',
-                    color: '#333',
-                    backgroundColor: '#FFFAF2',
-                    padding: '50px 40px',
-                    borderRadius: '16px',
-                    boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
-                    borderTop: '4px solid #1A3C34'
-                }}>
-                    <p style={{ marginBottom: '20px', textAlign: 'center' }}>
-                        <strong style={{ fontSize: '18px', color: '#1A3C34' }}>Leaving home is hard. Finding it here shouldn't be.</strong>
-                    </p>
-                    <p style={{ marginBottom: '15px' }}>
-                        Picture this: your long flight is over, and you've just stepped into an unfamiliar country. The excitement is real, but so is the anxiety of starting over. <i>Where will you live? How will you manage the details?</i> At Residences by Sandane Homes, crossing oceans doesn't mean losing your sense of belonging. We don’t just hand you keys; we welcome you to a sanctuary. From a freshly made bed to curated furnishings that make the space feel like <b>yours</b>, we carry the weight of relocation so you can simply breathe, unpack, and embrace your new chapter.
-                    </p>
-                    <ul style={{
-                        margin: '0',
-                        paddingLeft: '30px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '10px'
-                    }}>
-                        <li><strong>Property Sourcing:</strong> We find the finest apartments and luxury villas in prime NCR locations, perfectly matched to your lifestyle.</li>
-                        <li><strong>Complete Furnishing & Essentials:</strong> We fully furnish your new home with elegant furniture and provide all necessities—from premium cutlery and kitchenware to fresh bed and bath linens.</li>
-                        <li><strong>Uninterrupted Comfort:</strong> Enjoy peace of mind with 100% electricity backup and fast 300 Mbps Wi-Fi limitlessly.</li>
-                        <li><strong>Worry-Free Living:</strong> Inclusive property maintenance and dedicated daily housekeeping ensures we manage all details, so you can focus on your professional journey.</li>
-                    </ul>
+                {/* What we do for you: short icon cards (styled like the "Included in your stay" carousel) */}
+                <div className="res-promise">
+                    <span className="res-promise-pill">What We Do For You</span>
+                    <p className="res-promise-lead">Leaving home is hard. Finding it here shouldn't be.</p>
+                    <div className="res-promise-grid">
+                        <div className="res-promise-card">
+                            <FaLocationDot className="res-promise-icon" aria-hidden="true" />
+                            <h3>Property Sourcing</h3>
+                            <p>The right apartment or villa in prime NCR locations</p>
+                        </div>
+                        <div className="res-promise-card">
+                            <FaCouch className="res-promise-icon" aria-hidden="true" />
+                            <h3>Fully Furnished</h3>
+                            <p>Furniture, kitchenware and fresh linen, ready on day one</p>
+                        </div>
+                        <div className="res-promise-card">
+                            <FaWifi className="res-promise-icon" aria-hidden="true" />
+                            <h3>Always Connected</h3>
+                            <p>100% power backup and 300 Mbps Wi-Fi</p>
+                        </div>
+                        <div className="res-promise-card">
+                            <FaBroom className="res-promise-icon" aria-hidden="true" />
+                            <h3>Worry-Free Living</h3>
+                            <p>Daily housekeeping and maintenance, all handled</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

@@ -182,7 +182,7 @@ body {
   width: 100%; 
   max-width: 1400px; 
   margin: 0 auto; 
-  height: 1100px; /* fixed height for desktop layout */
+  height: 1000px; /* fixed height for desktop layout; content ends ~955px */
   padding-top: 60px;
 }
 
@@ -412,6 +412,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .editorial-container {
+    height: 1020px; /* content ends ~990px at tablet widths */
+  }
   .editorial-title-bg h1,
   .editorial-title-bg .editorial-line-1 {
     font-size: 80px;
