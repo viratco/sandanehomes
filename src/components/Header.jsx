@@ -10,11 +10,51 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
-    // Real language routing state
-    const isJa = location.pathname === '/gurugram/japanese-expat-housing' || location.pathname.startsWith('/japanese');
-    const isKo = location.pathname === '/gurugram/korean-expat-housing' || location.pathname.startsWith('/korean');
-    const isEn = !isJa && !isKo;
-    const englishReturnPath = (isJa || isKo) ? '/residences/gurgaon' : location.pathname;
+    // Language switch: translates the current page in place via Google Translate's
+    // googtrans cookie (script in index.html). It never navigates to another page.
+    const getCookie = (name) => {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+        return null;
+    };
+
+    // Starts as 'en' so the prerendered HTML and the first client render match;
+    // the googtrans cookie is read after hydration.
+    const [currentLang, setCurrentLang] = useState('en');
+
+    React.useEffect(() => {
+        const cookieVal = getCookie('googtrans');
+        if (cookieVal) {
+            const code = cookieVal.split('/').pop();
+            if (['ko', 'ja', 'en'].includes(code)) setCurrentLang(code);
+        }
+    }, []);
+
+    const changeLanguage = (lang) => {
+        const hostname = window.location.hostname;
+        const cookieVal = `/en/${lang}`;
+        const mainDomain = hostname.includes('.') ? `.${hostname.split('.').slice(-2).join('.')}` : null;
+
+        const deleteCookie = (domain) => {
+            document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/${domain ? `; domain=${domain}` : ''}`;
+        };
+        deleteCookie();
+        deleteCookie(hostname);
+        if (mainDomain) deleteCookie(mainDomain);
+
+        if (lang !== 'en') {
+            document.cookie = `googtrans=${cookieVal}; path=/;`;
+            if (mainDomain && hostname !== 'localhost' && hostname !== '127.0.0.1') {
+                document.cookie = `googtrans=${cookieVal}; path=/; domain=${mainDomain};`;
+            }
+        }
+
+        setCurrentLang(lang);
+        setIsMobileMenuOpen(false);
+        // Reload the same page so Google Translate applies (or removes) the translation.
+        window.location.reload();
+    };
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -36,32 +76,17 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                     <div>BB-28, Block B, Ansal Golf Link -1, Greater Noida, UP 201315</div>
                     <div className="header-contact-info">
                         <div className="header-translator">
-                            <Link 
-                                to="/gurugram/korean-expat-housing" 
-                                className={`lang-btn ${isKo ? 'active' : ''}`}
-                                aria-label="Korean Expat Housing"
-                                title="Korean Expat Housing in Gurugram"
-                            >
+                            <button type="button" onClick={() => changeLanguage('ko')} className={`lang-btn ${currentLang === 'ko' ? 'active' : ''}`} aria-label="Translate to Korean">
                                 <span className="lang-flag">🇰🇷</span> 한국어
-                            </Link>
+                            </button>
                             <span className="lang-divider">|</span>
-                            <Link 
-                                to="/gurugram/japanese-expat-housing" 
-                                className={`lang-btn ${isJa ? 'active' : ''}`}
-                                aria-label="Japanese Expat Housing"
-                                title="Japanese Expat Housing in Gurugram"
-                            >
+                            <button type="button" onClick={() => changeLanguage('ja')} className={`lang-btn ${currentLang === 'ja' ? 'active' : ''}`} aria-label="Translate to Japanese">
                                 <span className="lang-flag">🇯🇵</span> 日本語
-                            </Link>
+                            </button>
                             <span className="lang-divider">|</span>
-                            <Link 
-                                to={englishReturnPath} 
-                                className={`lang-btn ${isEn ? 'active' : ''}`}
-                                aria-label="English"
-                                title="English"
-                            >
+                            <button type="button" onClick={() => changeLanguage('en')} className={`lang-btn ${currentLang === 'en' ? 'active' : ''}`} aria-label="Show in English">
                                 <span className="lang-flag">🇬🇧</span> EN
-                            </Link>
+                            </button>
                         </div>
                         <span>Tel: +91 9711722273</span>
                         <span>sandanehomes@gmail.com</span>
@@ -168,30 +193,15 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                         <div className="mobile-translator">
                             <span className="mobile-translator-label">Language / 言語 / 언어</span>
                             <div className="mobile-translator-buttons">
-                                <Link 
-                                    to="/gurugram/korean-expat-housing" 
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                    className={`mobile-lang-btn ${isKo ? 'active' : ''}`}
-                                    aria-label="Korean Expat Housing"
-                                >
+                                <button type="button" onClick={() => changeLanguage('ko')} className={`mobile-lang-btn ${currentLang === 'ko' ? 'active' : ''}`} aria-label="Translate to Korean">
                                     <span className="lang-flag">🇰🇷</span> 한국어
-                                </Link>
-                                <Link 
-                                    to="/gurugram/japanese-expat-housing" 
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                    className={`mobile-lang-btn ${isJa ? 'active' : ''}`}
-                                    aria-label="Japanese Expat Housing"
-                                >
+                                </button>
+                                <button type="button" onClick={() => changeLanguage('ja')} className={`mobile-lang-btn ${currentLang === 'ja' ? 'active' : ''}`} aria-label="Translate to Japanese">
                                     <span className="lang-flag">🇯🇵</span> 日本語
-                                </Link>
-                                <Link 
-                                    to={englishReturnPath} 
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                    className={`mobile-lang-btn ${isEn ? 'active' : ''}`}
-                                    aria-label="English"
-                                >
+                                </button>
+                                <button type="button" onClick={() => changeLanguage('en')} className={`mobile-lang-btn ${currentLang === 'en' ? 'active' : ''}`} aria-label="Show in English">
                                     <span className="lang-flag">🇬🇧</span> English
-                                </Link>
+                                </button>
                             </div>
                         </div>
                     </nav>
@@ -212,11 +222,11 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                     {/* Hidden at ≤1024px via Header.css */}
                     {!shouldShowTopBar && (
                         <div className="desktop-nav-translator">
-                            <Link to="/gurugram/korean-expat-housing" className={`lang-btn ${isKo ? 'active' : ''}`} aria-label="Korean Expat Housing"><span className="lang-flag">🇰🇷</span> KR</Link>
+                            <button type="button" onClick={() => changeLanguage('ko')} className={`lang-btn ${currentLang === 'ko' ? 'active' : ''}`} aria-label="Translate to Korean"><span className="lang-flag">🇰🇷</span> KR</button>
                             <span className="lang-divider">|</span>
-                            <Link to="/gurugram/japanese-expat-housing" className={`lang-btn ${isJa ? 'active' : ''}`} aria-label="Japanese Expat Housing"><span className="lang-flag">🇯🇵</span> JP</Link>
+                            <button type="button" onClick={() => changeLanguage('ja')} className={`lang-btn ${currentLang === 'ja' ? 'active' : ''}`} aria-label="Translate to Japanese"><span className="lang-flag">🇯🇵</span> JP</button>
                             <span className="lang-divider">|</span>
-                            <Link to={englishReturnPath} className={`lang-btn ${isEn ? 'active' : ''}`} aria-label="English"><span className="lang-flag">🇬🇧</span> EN</Link>
+                            <button type="button" onClick={() => changeLanguage('en')} className={`lang-btn ${currentLang === 'en' ? 'active' : ''}`} aria-label="Show in English"><span className="lang-flag">🇬🇧</span> EN</button>
                         </div>
                     )}
                     {customPhone && (
