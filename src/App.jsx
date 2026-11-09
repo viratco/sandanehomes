@@ -34,6 +34,8 @@ import GurugramResidences from './components/pages/GurugramResidences';
 import { japaneseCompanies } from './data/japaneseCompanies';
 import CompanyAccommodation from './components/pages/CompanyAccommodation';
 import { greaterNoidaCompanyRoutes } from './data/greaterNoidaCompanies';
+import KoreanStayPage from './components/pages/KoreanStayPage';
+import { koreanStayRoutes } from './data/koreanStays';
 import WhatsAppButton from './components/WhatsAppButton';
 import OwnerClickTracker from './components/OwnerClickTracker';
 
@@ -127,6 +129,11 @@ function App() {
           {/* Greater Noida accommodation pages per company, one route per language */}
           {greaterNoidaCompanyRoutes.map((r) => (
             <Route key={r.path} path={r.path} element={<CompanyAccommodation companyKey={r.key} lang={r.lang} />} />
+          ))}
+
+          {/* Korean stays in Greater Noida: guest house, apartments (EN / KO) */}
+          {koreanStayRoutes.map((r) => (
+            <Route key={r.path} path={r.path} element={<KoreanStayPage slug={r.slug} lang={r.lang} />} />
           ))}
         </Routes>
         <WhatsAppButton />

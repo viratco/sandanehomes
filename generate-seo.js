@@ -5,6 +5,7 @@ import { blogPosts } from './src/data/blogPosts.js';
 import { landingPages } from './src/data/landingPages.js';
 import { japaneseCompanies } from './src/data/japaneseCompanies.js';
 import { greaterNoidaCompanies, greaterNoidaCompanyRoutes, companyPath, COPY as COMPANY_COPY } from './src/data/greaterNoidaCompanies.js';
+import { koreanStayPages, koreanStayRoutes, stayPath } from './src/data/koreanStays.js';
 import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 
@@ -757,6 +758,39 @@ japaneseCompanies.forEach((comp) => {
   };
 });
 
+// ── Korean stays in Greater Noida: guest house and apartments (EN / KO) ──
+koreanStayPages.forEach((page) => {
+  page.langs.forEach((lang) => {
+    const t = page.content[lang];
+    const url = `${BASE_URL}${stayPath(page.slug, lang)}`;
+    SEO_MAP[stayPath(page.slug, lang)] = {
+      title: t.metaTitle,
+      description: t.metaDescription,
+      ogImage: `${BASE_URL}/residences-og.jpg`,
+      lang,
+      hreflangLinks: [
+        ...page.langs.map((l) => ({ lang: l, href: `${BASE_URL}${stayPath(page.slug, l)}` })),
+        { lang: 'x-default', href: `${BASE_URL}${stayPath(page.slug, 'en')}` },
+      ],
+      schemas: [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": t.breadcrumbHome, "item": `${BASE_URL}/` },
+            { "@type": "ListItem", "position": 2, "name": t.h1, "item": url }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": t.faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+        }
+      ]
+    };
+  });
+});
+
 // ── Greater Noida accommodation pages per company (EN / KO / ZH / JA) ──
 // Each language version is its own URL with hreflang alternates to the others.
 greaterNoidaCompanies.forEach((company) => {
@@ -1204,7 +1238,8 @@ function buildSitemapXml() {
     '/serviced-apartments-greater-noida',
     '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
     '/housing-for-daikin-employees-noida',
-    ...greaterNoidaCompanyRoutes.map((r) => r.path)
+    ...greaterNoidaCompanyRoutes.map((r) => r.path),
+    ...koreanStayRoutes.map((r) => r.path)
   ];
   otherMainPages.forEach((route) => {
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;

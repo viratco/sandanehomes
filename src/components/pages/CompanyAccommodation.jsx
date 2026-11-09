@@ -7,6 +7,7 @@ import { FaWhatsapp, FaPhoneAlt, FaChevronDown, FaChevronUp, FaCheckCircle, FaMa
 import {
   greaterNoidaCompanies, getGreaterNoidaCompany, companyPath, COPY, LANG_LABELS,
 } from '../../data/greaterNoidaCompanies';
+import { STAY_OPTIONS } from '../../data/koreanStays';
 
 import heroImg from '../../assets/sandane-night-facade.jpg';
 import room1 from '../../assets/IMG_0586.jpg';
@@ -148,6 +149,24 @@ export default function CompanyAccommodation({ companyKey, lang }) {
           </div>
         </div>
       </section>
+
+      {/* ── THREE WAYS TO STAY (Korean companies: guest house, apartments, villas) ── */}
+      {company.stayOptions && STAY_OPTIONS[lang] && (
+        <section style={{ padding: '30px 20px 20px' }}>
+          <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
+            <h2 style={{ ...sectionTitle, textAlign: 'center', marginBottom: '28px' }}>{STAY_OPTIONS[lang].title}</h2>
+            <div style={{ display: 'grid', gap: '20px', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))' }}>
+              {STAY_OPTIONS[lang].options.map((o) => (
+                <Link key={o.path} to={o.path} style={{ display: 'flex', flexDirection: 'column', gap: '10px', background: '#1A3C34', color: '#fff', borderRadius: '18px', padding: '28px 26px', textDecoration: 'none', border: '1px solid rgba(197,165,114,0.45)' }}>
+                  <span style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#C5A572' }}>{o.title}</span>
+                  <span style={{ fontSize: '15px', lineHeight: 1.7, color: '#E5E1D8', flexGrow: 1 }}>{o.text}</span>
+                  <span style={{ fontSize: '14px', fontWeight: '700', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>{t.view} <FaArrowRight size={12} /></span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── COMPANY-SPECIFIC DEPTH (only for companies that define extraSections) ── */}
       {extraSections.length > 0 && (

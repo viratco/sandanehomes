@@ -237,6 +237,9 @@ const KoreanExpatHousing = () => {
                     <p style={{ marginBottom: '28px' }}>
                         Working with Samsung? See <Link to="/accommodation-greater-noida-samsung-electronics" style={{ color: '#1A3C34', fontWeight: '700' }}>accommodation in Greater Noida for Samsung teams</Link> (<Link to="/ko/accommodation-greater-noida-samsung-electronics" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>삼성 팀 숙소 안내</Link>).
                     </p>
+                    <p style={{ marginBottom: '28px' }}>
+                        On a short trip? Stay at our <Link to="/korean-guest-house-greater-noida" style={{ color: '#1A3C34', fontWeight: '700' }}>Korean guest house in Greater Noida</Link> with Korean breakfast and dinner included (<Link to="/ko/korean-guest-house-greater-noida" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>한인 게스트하우스</Link>). Moving for longer? See <Link to="/apartment-finding-service-greater-noida" style={{ color: '#1A3C34', fontWeight: '700' }}>serviced apartments and apartment finding</Link> (<Link to="/ko/apartment-finding-service-greater-noida" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>아파트 구하기</Link>).
+                    </p>
 
                     {/* MID-PAGE BANNER BUTTON */}
                     <div style={{

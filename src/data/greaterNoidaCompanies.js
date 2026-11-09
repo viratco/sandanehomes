@@ -27,6 +27,7 @@ export const greaterNoidaCompanies = [
   {
     key: 'samsung-electronics',
     langs: ['en', 'ko', 'zh'],
+    stayOptions: true,
     // Samsung is the priority hub: extra depth beyond the shared template.
     metaTitle: {
       en: 'Greater Noida Accommodation for Samsung Teams | Near Samsung Noida',
@@ -34,8 +35,8 @@ export const greaterNoidaCompanies = [
       zh: '大诺伊达住宿 | 三星诺伊达员工与出差团队 | Greater Noida Accommodation',
     },
     metaDescription: {
-      en: 'Accommodation in Greater Noida for Samsung employees, Korean expats and supplier teams working at Samsung Noida Sector 81, the Greater Noida plant and the expressway offices. Company GST invoicing, Form C support, Korean breakfast on request.',
-      ko: '삼성전자 노이다 섹터 81 공장, 그레이터 노이다 공장, 고속도로변 사무소에서 근무하는 주재원·출장자·협력사 팀을 위한 그레이터 노이다 숙소(Greater Noida accommodation). 법인 GST 인보이스, Form C 신고, 요청 시 한식 조식.',
+      en: 'Accommodation in Greater Noida for Samsung employees, Korean expats and supplier teams: a Korean guest house with breakfast and dinner included, serviced apartments, apartment finding and villas. Company GST invoicing and Form C support.',
+      ko: '삼성전자 주재원·출장자·협력사 팀을 위한 그레이터 노이다 숙소(Greater Noida accommodation): 한식 조식·석식 포함 한인 게스트하우스, 서비스 아파트, 아파트 구하기, 빌라. 법인 GST 인보이스, Form C 신고 지원.',
       zh: '为在三星诺伊达Sector 81工厂、大诺伊达工厂及高速公路沿线办公室工作的员工、韩国外派人员和供应商团队提供大诺伊达住宿（Greater Noida accommodation）。企业GST发票、Form C申报，可应要求提供韩式早餐。',
     },
     extraSections: {
@@ -166,6 +167,17 @@ export const greaterNoidaCompanies = [
   {
     key: 'lg-electronics',
     langs: ['en', 'ko', 'zh'],
+    stayOptions: true,
+    metaTitle: {
+      en: 'LG Greater Noida Accommodation | Korean Guest House, Apartments, Villas',
+      ko: '그레이터 노이다 숙소 | LG전자 출장자 한인 게스트하우스·아파트·빌라',
+      zh: '大诺伊达住宿 | LG电子员工 韩式宾馆、公寓、别墅 | Greater Noida Accommodation',
+    },
+    metaDescription: {
+      en: 'Accommodation in Greater Noida for LG Electronics staff near the Surajpur–Kasna Road plant: Korean guest house with breakfast and dinner included, serviced apartments, apartment finding and villas. GST invoicing.',
+      ko: 'Surajpur–Kasna Road 공장 근처 LG전자 직원을 위한 그레이터 노이다 숙소(Greater Noida accommodation): 한식 조식·석식 포함 한인 게스트하우스, 서비스 아파트, 아파트 구하기, 빌라. 법인 GST 인보이스.',
+      zh: '为Surajpur–Kasna Road工厂附近的LG电子员工提供大诺伊达住宿（Greater Noida accommodation）：含韩式早餐和晚餐的韩式宾馆、服务式公寓、找房服务和别墅。企业GST发票。',
+    },
     name: { en: 'LG Electronics', ko: 'LG전자', zh: 'LG电子' },
     siteTitle: {
       en: "LG Electronics' Greater Noida plant",
@@ -186,6 +198,17 @@ export const greaterNoidaCompanies = [
   {
     key: 'dreamtech',
     langs: ['en', 'ko', 'zh'],
+    stayOptions: true,
+    metaTitle: {
+      en: 'Dreamtech Greater Noida Accommodation | Korean Guest House & Apartments',
+      ko: '그레이터 노이다 숙소 | 드림텍 출장자 한인 게스트하우스·아파트',
+      zh: '大诺伊达住宿 | Dreamtech员工 韩式宾馆与公寓 | Greater Noida Accommodation',
+    },
+    metaDescription: {
+      en: 'Accommodation in Greater Noida for Dreamtech engineers near the Ecotech-10 plant: Korean guest house with breakfast and dinner included, serviced apartments, apartment finding and villas. GST invoicing.',
+      ko: 'Ecotech-10 공장 근처 드림텍 엔지니어를 위한 그레이터 노이다 숙소(Greater Noida accommodation): 한식 조식·석식 포함 한인 게스트하우스, 서비스 아파트, 아파트 구하기, 빌라. 법인 GST 인보이스.',
+      zh: '为Ecotech-10工厂附近的Dreamtech工程师提供大诺伊达住宿（Greater Noida accommodation）：含韩式早餐和晚餐的韩式宾馆、服务式公寓、找房服务和别墅。企业GST发票。',
+    },
     name: { en: 'Dreamtech', ko: '드림텍', zh: 'Dreamtech（드림텍）' },
     siteTitle: {
       en: "Dreamtech's Greater Noida plant",

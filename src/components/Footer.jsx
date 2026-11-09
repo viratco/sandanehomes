@@ -477,6 +477,8 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                             <li><Link to="/housing-for-maruti-suzuki-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Maruti Suzuki Housing (Gurgaon)</Link></li>
                             <li><Link to="/housing-for-denso-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Denso Expat Housing (Gurugram)</Link></li>
                             <li><Link to="/housing-for-mitsubishi-electric-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Mitsubishi Electric Housing</Link></li>
+                            <li><Link to="/korean-guest-house-greater-noida" style={{ color: '#C5A572', fontWeight: '700', textDecoration: 'none' }}>Korean Guest House, Breakfast & Dinner Included (Gr Noida)</Link></li>
+                            <li><Link to="/apartment-finding-service-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Apartments & Apartment Finding (Gr Noida)</Link></li>
                             {greaterNoidaCompanies.map((c) => (
                                 <li key={c.key}><Link to={companyPath(c.key, 'en')} style={{ color: '#D0C5B0', textDecoration: 'none' }}>{c.name.en} Accommodation (Gr Noida)</Link></li>
                             ))}
