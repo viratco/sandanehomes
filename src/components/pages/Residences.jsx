@@ -11,14 +11,15 @@ import imgRecreation from '../../assets/services_recreation.jpeg';
 import imgHeroLeft from '../../assets/residences-hero-left.jpg'; // hallway
 import imgHeroCenter from '../../assets/residences-hero-center.jpg'; // living room
 import imgHeroRight from '../../assets/residences-hero-right.jpg'; // console table
-import imgTopLeft from '../../assets/IMG_7278.jpg';
 import imgTopRight from '../../assets/livingroom.jpeg';
 import imgFleetService from '../../assets/fleetservice.png';
 import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
 import imgNew3 from '../../assets/IMG_7257.jpg';
-import imgBottomMiddle from '../../assets/last3.jpeg';
-import imgNew5 from '../../assets/IMG_7254.jpg';
 import imgAbstractInterior from '../../assets/abstract_luxury_interior.png';
+import imgGalleryBedroom from '../../assets/residences-gallery-bedroom.jpg';
+import imgGalleryDining from '../../assets/residences-gallery-dining.jpg';
+import imgGalleryTvWall from '../../assets/residences-gallery-tv-wall.jpg';
+import imgGalleryDiningSconces from '../../assets/residences-gallery-dining-sconces.jpg';
 import './SandaneHomes.css'; // Import shared CSS
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft } from 'react-icons/fa6';
 
@@ -111,7 +112,7 @@ const Residences = () => {
     ];
 
     return (
-        <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#F4F0EB', minHeight: '100vh', overflowX: 'hidden' }}>
+        <div className="catarina-services sandane-homes-page residences-golden" style={{ minHeight: '100vh', overflowX: 'hidden' }}>
             <SEO {...seoProps} />
             <Header showTopBar={false} />
 
@@ -304,7 +305,7 @@ const Residences = () => {
                     lineHeight: '1.9',
                     fontSize: '17px',
                     color: '#333',
-                    backgroundColor: '#ffffff',
+                    backgroundColor: '#FFFAF2',
                     padding: '50px 40px',
                     borderRadius: '16px',
                     boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
@@ -331,17 +332,17 @@ const Residences = () => {
                 </div>
             </div>
 
-            <GurugramResidencesSection />
+            <GurugramResidencesSection background="transparent" />
 
             {/* Image Gallery (Mimicking flyer grid) */}
             <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
                 <div className="catarina-gallery-grid">
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopLeft})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryBedroom})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                     <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgRecreation})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                     <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopRight})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgNew3})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgBottomMiddle})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgNew5})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDining})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryTvWall})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDiningSconces})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                 </div>
             </div>
 
@@ -410,7 +411,7 @@ const Residences = () => {
                     {/* Editorial Copy Stays Side */}
                     <div className="specialist-text-container" style={{ 
                         position: 'relative',
-                        backgroundColor: '#ffffff'
+                        backgroundColor: '#FFFAF2'
                     }}>
                         {/* Background subtle serif initial for luxury catalog aesthetic */}
                         <span style={{
@@ -749,19 +750,19 @@ const Residences = () => {
             </div>
 
             {/* About & Contact Section */}
-            <div className="catarina-section catarina-contact-section" id="residences-info-cards-section" style={{ padding: '80px 20px 100px', backgroundColor: '#FAF8F5' }}>
+            <div className="catarina-section catarina-contact-section" id="residences-info-cards-section" style={{ padding: '80px 20px 100px', backgroundColor: 'transparent' }}>
                 <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '60px' }}>
                     
                     {/* Elegant About Us Banner */}
                     <div style={{
-                        background: 'linear-gradient(135deg, #1A3C34 0%, #112823 100%)',
+                        background: 'linear-gradient(135deg, #3A2A1E 0%, #21160F 100%)',
                         borderRadius: '24px',
                         padding: '60px 40px',
                         textAlign: 'center',
                         color: '#fff',
                         position: 'relative',
                         overflow: 'hidden',
-                        boxShadow: '0 20px 50px rgba(26,60,52,0.18)',
+                        boxShadow: '0 20px 50px rgba(70,44,20,0.25)',
                         border: '1px solid rgba(197,165,114,0.35)'
                     }}>
                         {/* Decorative Gold Glow */}
@@ -884,7 +885,7 @@ const Residences = () => {
                             {/* Phone / WhatsApp Card */}
                             <a href="https://wa.me/918826269690?text=Hello%20Sandane%20Homes%2C%20I%20would%20like%20to%20inquire%20about%20executive%20housing%20options%20at%20Residences%20by%20Sandane%20Homes." target="_blank" rel="noopener noreferrer" style={{
                                 textDecoration: 'none',
-                                backgroundColor: '#fff',
+                                backgroundColor: '#FFFAF2',
                                 padding: '24px 22px',
                                 borderRadius: '16px',
                                 boxShadow: '0 8px 30px rgba(0,0,0,0.05)',
@@ -921,7 +922,7 @@ const Residences = () => {
                             {/* Email Card */}
                             <a href="mailto:residences@sandanehomes.com" style={{
                                 textDecoration: 'none',
-                                backgroundColor: '#fff',
+                                backgroundColor: '#FFFAF2',
                                 padding: '24px 22px',
                                 borderRadius: '16px',
                                 boxShadow: '0 8px 30px rgba(0,0,0,0.05)',
@@ -975,7 +976,7 @@ const Residences = () => {
 
             {/* Testimonials / Reviews Section */}
             <div style={{ 
-                backgroundColor: '#F4F0EB', 
+                backgroundColor: 'transparent',
                 padding: '100px 20px', 
                 borderTop: '1px solid rgba(197, 165, 114, 0.2)',
                 borderBottom: '1px solid rgba(197, 165, 114, 0.2)'
@@ -1018,7 +1019,7 @@ const Residences = () => {
                     }}>
                         {/* Review 1 */}
                         <div style={{
-                            backgroundColor: '#ffffff',
+                            backgroundColor: '#FFFAF2',
                             padding: '40px 30px',
                             borderRadius: '8px',
                             boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
@@ -1096,7 +1097,7 @@ const Residences = () => {
 
                         {/* Review 2 */}
                         <div style={{
-                            backgroundColor: '#ffffff',
+                            backgroundColor: '#FFFAF2',
                             padding: '40px 30px',
                             borderRadius: '8px',
                             boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
@@ -1163,7 +1164,7 @@ const Residences = () => {
 
                         {/* Review 3 */}
                         <div style={{
-                            backgroundColor: '#ffffff',
+                            backgroundColor: '#FFFAF2',
                             padding: '40px 30px',
                             borderRadius: '8px',
                             boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
@@ -1241,7 +1242,7 @@ const Residences = () => {
 
                     {/* Review 4 (Chinese) */}
                     <div style={{
-                        backgroundColor: '#ffffff',
+                        backgroundColor: '#FFFAF2',
                         padding: '40px 30px',
                         borderRadius: '8px',
                         boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
@@ -1319,7 +1320,7 @@ const Residences = () => {
 
                     {/* Review 5 (German expat - English) */}
                     <div style={{
-                        backgroundColor: '#ffffff',
+                        backgroundColor: '#FFFAF2',
                         padding: '40px 30px',
                         borderRadius: '8px',
                         boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',
@@ -1386,7 +1387,7 @@ const Residences = () => {
 
                     {/* Review 6 (French - French + English) */}
                     <div style={{
-                        backgroundColor: '#ffffff',
+                        backgroundColor: '#FFFAF2',
                         padding: '40px 30px',
                         borderRadius: '8px',
                         boxShadow: '0 15px 40px rgba(0, 0, 0, 0.04)',

@@ -885,3 +885,37 @@
         font-size: 16px;
     }
 }
+
+/* ── Residences: golden-hour page theme ──
+   Warm parchment gradient for the whole page, plus a soft amber glow that stays
+   in place while scrolling, matching the warm interior photos. */
+.residences-golden {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(180deg, #F6ECDF 0%, #F5E7D4 30%, #F7EEE3 55%, #F4E5D1 80%, #F6ECDF 100%);
+}
+
+.residences-golden::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+        radial-gradient(ellipse 45% 38% at 90% 10%, rgba(242, 176, 92, 0.18), rgba(242, 176, 92, 0) 70%),
+        radial-gradient(ellipse 40% 36% at 5% 75%, rgba(226, 148, 72, 0.12), rgba(226, 148, 72, 0) 70%);
+}
+
+/* Let the gradient run through the striped sections; thin gold dividers instead */
+.residences-golden .catarina-accomm-section,
+.residences-golden .catarina-gallery-section,
+.residences-golden .catarina-facilities-section,
+.residences-golden .catarina-contact-section {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(197, 165, 114, 0.22) !important;
+}
+
+/* Gallery photos sit in the warm light */
+.residences-golden .catarina-gallery-item {
+    box-shadow: 0 24px 48px -26px rgba(92, 56, 20, 0.35);
+}
