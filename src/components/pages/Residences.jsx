@@ -8,7 +8,9 @@ import GurugramResidencesSection from '../GurugramResidencesSection';
 import { gurugramItemListSchema } from '../../data/gurugramResidences';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
 import imgRecreation from '../../assets/services_recreation.jpeg';
-import imgLivingRoom from '../../assets/IMG_7272.jpg';
+import imgHeroLeft from '../../assets/residences-hero-left.jpg'; // hallway
+import imgHeroCenter from '../../assets/residences-hero-center.jpg'; // living room
+import imgHeroRight from '../../assets/residences-hero-right.jpg'; // console table
 import imgTopLeft from '../../assets/IMG_7278.jpg';
 import imgTopRight from '../../assets/livingroom.jpeg';
 import imgFleetService from '../../assets/fleetservice.png';
@@ -119,6 +121,15 @@ const Residences = () => {
                 <>
             {/* Editorial Layout Container ("Bel Sognatore" style) */}
             <div className="editorial-container">
+
+                {/* Golden-hour backdrop: warm sunlight glow, soft window beams and fine gold
+                    arcs that echo the photos' late-afternoon light (styles in index.css) */}
+                <div className="editorial-ambient" aria-hidden="true">
+                    <span className="editorial-sunlight"></span>
+                    <span className="editorial-beams"></span>
+                    <span className="editorial-arc editorial-arc-1"></span>
+                    <span className="editorial-arc editorial-arc-2"></span>
+                </div>
                 
                 {/* Large Typography Background */}
                 <div className="editorial-title-bg">
@@ -130,7 +141,7 @@ const Residences = () => {
 
                 {/* Left Column (Image + Text) */}
                 <div className="editorial-left-col">
-                    <img src={imgLivingRoom} alt="Residences Detail" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
+                    <img src={imgHeroLeft} alt="Residences hallway" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
                     
                     {/* Text block pulled up to overlap the image */}
                     <div className="editorial-left-text">
@@ -150,7 +161,7 @@ const Residences = () => {
 
                 {/* Center Column (Large Image) */}
                 <div className="editorial-center-col">
-                    <img src={imgRecreation} alt="Main View" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
+                    <img src={imgHeroCenter} alt="Residences living room" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
                 </div>
 
                 {/* Right Column (Text + Image) */}
@@ -162,7 +173,7 @@ const Residences = () => {
                         <p className="editorial-right-text">
                             A philosophy of nurture via absolute comfort and a spirit of collaboration are tangibly felt at Sandane Residences, where our team works together to bring the best hospitality to the table.
                         </p>
-                        <img src={imgTopRight} alt="Architecture View" className="editorial-right-img residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
+                        <img src={imgHeroRight} alt="Residences by Sandane Homes" className="editorial-right-img residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
                     </div>
                 </div>
             </div>
