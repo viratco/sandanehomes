@@ -7,7 +7,6 @@ import ExpatPopupBar from '../ExpatPopupBar';
 import GurugramResidencesSection from '../GurugramResidencesSection';
 import { gurugramItemListSchema } from '../../data/gurugramResidences';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
-import imgRecreation from '../../assets/services_recreation.jpeg';
 import imgHeroLeft from '../../assets/residences-hero-left.jpg'; // hallway
 import imgHeroCenter from '../../assets/residences-hero-center.jpg'; // living room
 import imgHeroRight from '../../assets/residences-hero-right.jpg'; // console table
@@ -17,6 +16,7 @@ import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
 import imgNew3 from '../../assets/IMG_7257.jpg';
 import imgAbstractInterior from '../../assets/abstract_luxury_interior.png';
 import imgGalleryBedroom from '../../assets/residences-gallery-bedroom.jpg';
+import imgGalleryLivingRoom from '../../assets/residences-gallery-living-room.jpg';
 import imgGalleryDining from '../../assets/residences-gallery-dining.jpg';
 import imgGalleryTvWall from '../../assets/residences-gallery-tv-wall.jpg';
 import imgGalleryDiningSconces from '../../assets/residences-gallery-dining-sconces.jpg';
@@ -338,7 +338,7 @@ const Residences = () => {
             <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
                 <div className="catarina-gallery-grid">
                     <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryBedroom})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgRecreation})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryLivingRoom})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                     <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopRight})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                     <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDining})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
                     <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryTvWall})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
