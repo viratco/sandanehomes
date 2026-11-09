@@ -8735,6 +8735,10 @@ export const blogPosts = [
         "text": "Most content aimed at Korean expats relocating to Delhi NCR assumes you're headed to Gurgaon. If your posting is instead with a company in Greater Noida — <b>Mobase India</b>, <b>GMC</b>, <b>Korindia</b>, <b>ILJIN</b>, <b>Elentec</b>, or one of the many Korean-linked manufacturers in this corridor, or you're supporting <b>Samsung</b>'s Noida operations — this guide is built for your actual situation."
       },
       {
+        "type": "paragraph",
+        "text": "Working with Samsung? See our dedicated page on <a href=\"/accommodation-greater-noida-samsung-electronics\">accommodation in Greater Noida for Samsung teams</a>, covering Samsung Noida Sector 81, the Greater Noida plant and supplier teams in the Ecotech sectors."
+      },
+      {
         "type": "heading",
         "text": "Why Greater Noida Matters as Its Own Market"
       },
@@ -10844,6 +10848,10 @@ export const blogPosts = [
         "text": "노이다 Sector 81 삼성전자 공장 및 그레이터 노이다 공단에 출장/주재하시는 한국 대기업 및 협력사 임직원분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>는 맞춤형 '<b>Samsung Noida nearby serviced apartment for Koreans</b>' 및 '<b>그레이터 노이다 서비스 아파트</b>'를 운영하고 있습니다."
       },
       {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
+      },
+      {
         "type": "heading",
         "text": "한국인 출장자 및 주재원을 위한 최적의 거주 환경"
       },
@@ -11198,6 +11206,10 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "노이다 Sector 81 삼성전자 공장 및 그레이터 노이다 공단에 출장/주재하시는 한국 대기업 및 협력사 임직원분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>는 맞춤형 '<b>Samsung Noida nearby serviced apartment for Koreans</b>' 및 '<b>그레이터 노이다 서비스 아파트</b>'를 운영하고 있습니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
       },
       {
         "type": "heading",
@@ -11660,6 +11672,10 @@ export const blogPosts = [
         "text": "노이다 Sector 81 삼성전자 공장 및 그레이터 노이다 공단에 출장/주재하시는 한국 대기업 및 협력사 임직원분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>는 맞춤형 '<b>Samsung Noida nearby serviced apartment for Koreans</b>' 및 '<b>그레이터 노이다 서비스 아파트</b>'를 운영하고 있습니다."
       },
       {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
+      },
+      {
         "type": "heading",
         "text": "한국인 출장자 및 주재원을 위한 최적의 거주 환경"
       },
@@ -12014,6 +12030,10 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "노이다 Sector 81 삼성전자 공장 및 그레이터 노이다 공단에 출장/주재하시는 한국 대기업 및 협력사 임직원분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>는 맞춤형 '<b>Samsung Noida nearby serviced apartment for Koreans</b>' 및 '<b>그레이터 노이다 서비스 아파트</b>'를 운영하고 있습니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
       },
       {
         "type": "heading",
@@ -13216,6 +13236,10 @@ export const blogPosts = [
         "text": "노이다 Sector 81 삼성전자 공장 및 그레이터 노이다 테크존(Techzone) 산업단지에 출장 및 주재하는 한국 대기업/협력사 임직원분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>는 맞춤형 '<b>그레이터 노이다 서비스 아파트</b>' 및 '<b>구루가온 한국인 주재원 숙소</b>'를 운영하고 있습니다."
       },
       {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
+      },
+      {
         "type": "heading",
         "text": "한국인 출장자 및 주재원을 위한 프리미엄 인프라"
       },
@@ -13272,6 +13296,10 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "Looking for a <i>Samsung Noida nearby serviced apartment for Koreans</i> or <i>Gurgaon serviced apartment Korean breakfast / food</i>? <b><a href='/coco-house'>CoCo House</a></b>, <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>, and <b><a href='/residences'>Residences by Sandane Homes</a></b> provide executive corporate housing tailored specifically for Korean MNC delegations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Working with Samsung? See our dedicated page on <a href=\"/accommodation-greater-noida-samsung-electronics\">accommodation in Greater Noida for Samsung teams</a>, covering Samsung Noida Sector 81, the Greater Noida plant and supplier teams in the Ecotech sectors."
       },
       {
         "type": "paragraph",
@@ -13825,6 +13853,10 @@ export const blogPosts = [
         "text": "노이다 Sector 81의 삼성전자 스마트폰 생산 공장, LG전자, 현대모비스 등 주요 한국 대기업 및 협력사 출장자분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>(Greater Noida)는 최고의 접근성과 한식 다이닝을 갖춘 '<b>델리 NCR 한국인 아파트</b>' 및 '<b>Noida Korean corporate housing long stay</b>' 서비스를 제공하고 있습니다."
       },
       {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
+      },
+      {
         "type": "heading",
         "text": "한국인 출장자 및 기업 임직원을 위한 핵심 서비스 (Key Korean Expat Services)"
       },
@@ -14193,6 +14225,10 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "인도 델리 NCR(Delhi NCR) 지역, 특히 노이다(Noida)와 그레이터 노이다(Greater Noida)는 삼성전자, 현대자동차, LG전자 등 주요 한국 기업들의 생산 공장 및 R&D 센터가 위치한 핵심 산업 거점입니다. 출장자 및 장기 주재원분들을 위해 <b><a href='/coco-house'>CoCo House</a></b> 및 <b><a href='/amaaltash'>Amaaltash by Sandane Homes</a></b>(Greater Noida), 그리고 <b><a href='/residences'>Residences by Sandane Homes</a></b>(Gurugram)는 맞춤형 '<b>그레이터 노이다 서비스 아파트</b>' 및 '<b>구루가온 한국인 주재원 숙소</b>'를 제공합니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
       },
       {
         "type": "paragraph",
@@ -15308,6 +15344,10 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "인도 대노이다(Greater Noida) 공장 및 기술 연구소로 발령받는 한국 기업 주재원 및 주재원 가족을 위해 완벽한 주거 안락함을 제공하는 <a href='/residences'>Residences by Sandane Homes</a>를 소개합니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
       },
       {
         "type": "heading",
@@ -17071,6 +17111,10 @@ export const blogPosts = [
       {
         "type": "paragraph",
         "text": "인도 대노이다(Greater Noida) 및 노이다 익스프레스웨이에 파견되는 한국 기업 법인장, 주재원 및 출장팀을 위해 <a href='/residences'>Residences by Sandane Homes</a>는 최적의 럭셔리 주거 환경을 제공합니다. 최고급 보안 주거 단지인 Ansal Golf Links-1 내에 위치하여 안락하고 안전한 한국식 라이프스타일을 보장합니다."
+      },
+      {
+        "type": "paragraph",
+        "text": "삼성전자 관련 출장·주재라면 <a href=\"/ko/accommodation-greater-noida-samsung-electronics\">삼성 팀을 위한 그레이터 노이다 숙소</a> 페이지에서 노이다 섹터 81 공장, 그레이터 노이다 공장, Ecotech 협력사 팀 숙박 안내를 확인하세요."
       },
       {
         "type": "heading",

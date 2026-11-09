@@ -234,6 +234,9 @@ const KoreanExpatHousing = () => {
                     <p style={{ marginBottom: '28px' }}>
                         We partner directly with Korean multinationals (Samsung, LG, Hyundai vendors, EPC companies) and their HR departments to provide direct corporate invoicing and flexible short- or long-term lease terms.
                     </p>
+                    <p style={{ marginBottom: '28px' }}>
+                        Working with Samsung? See <Link to="/accommodation-greater-noida-samsung-electronics" style={{ color: '#1A3C34', fontWeight: '700' }}>accommodation in Greater Noida for Samsung teams</Link> (<Link to="/ko/accommodation-greater-noida-samsung-electronics" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>삼성 팀 숙소 안내</Link>).
+                    </p>
 
                     {/* MID-PAGE BANNER BUTTON */}
                     <div style={{

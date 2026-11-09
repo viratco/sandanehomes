@@ -45,7 +45,10 @@ export default function CompanyAccommodation({ companyKey, lang }) {
   const t = COPY[lang];
   const name = company.name[lang];
   const canonical = `${BASE_URL}${companyPath(company.key, lang)}`;
-  const faqs = t.faqs(name);
+  const faqs = [...t.faqs(name), ...(company.extraFaqs?.[lang] || [])];
+  const metaTitle = company.metaTitle?.[lang] || t.metaTitle(name);
+  const metaDescription = company.metaDescription?.[lang] || t.metaDescription(name);
+  const extraSections = company.extraSections?.[lang] || [];
 
   const hreflang = [
     ...company.langs.map((l) => ({ lang: l, href: `${BASE_URL}${companyPath(company.key, l)}` })),
@@ -81,8 +84,8 @@ export default function CompanyAccommodation({ companyKey, lang }) {
   return (
     <div lang={lang} style={{ fontFamily: 'Montserrat, sans-serif', backgroundColor: '#FAF8F5' }}>
       <SEO
-        title={t.metaTitle(name)}
-        description={t.metaDescription(name)}
+        title={metaTitle}
+        description={metaDescription}
         canonical={canonical}
         lang={lang}
         hreflang={hreflang}
@@ -145,6 +148,30 @@ export default function CompanyAccommodation({ companyKey, lang }) {
           </div>
         </div>
       </section>
+
+      {/* ── COMPANY-SPECIFIC DEPTH (only for companies that define extraSections) ── */}
+      {extraSections.length > 0 && (
+        <section style={{ padding: '20px 20px 30px' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', display: 'grid', gap: '22px' }}>
+            {extraSections.map((sec) => (
+              <div key={sec.title} style={{ background: '#fff', borderRadius: '18px', padding: '32px 30px', border: '1px solid #E8E0D0' }}>
+                <h2 style={{ ...sectionTitle, fontSize: '24px' }}>{sec.title}</h2>
+                {sec.text && <p style={bodyText} dangerouslySetInnerHTML={{ __html: sec.text }} />}
+                {sec.items && (
+                  <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'grid', gap: '12px' }}>
+                    {sec.items.map((item) => (
+                      <li key={item} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start', fontSize: '16px', lineHeight: 1.75, color: '#444' }}>
+                        <FaCheckCircle color="#C5A572" style={{ marginTop: '6px', flexShrink: 0 }} />
+                        <span dangerouslySetInnerHTML={{ __html: item }} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* ── ACCOMMODATION OPTIONS ── */}
       <section style={{ padding: '50px 20px' }}>

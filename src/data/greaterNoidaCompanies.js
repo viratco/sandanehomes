@@ -27,6 +27,105 @@ export const greaterNoidaCompanies = [
   {
     key: 'samsung-electronics',
     langs: ['en', 'ko', 'zh'],
+    // Samsung is the priority hub: extra depth beyond the shared template.
+    metaTitle: {
+      en: 'Greater Noida Accommodation for Samsung Teams | Near Samsung Noida',
+      ko: '그레이터 노이다 숙소 | 삼성전자 노이다 주재원·출장자 | Accommodation Greater Noida',
+      zh: '大诺伊达住宿 | 三星诺伊达员工与出差团队 | Greater Noida Accommodation',
+    },
+    metaDescription: {
+      en: 'Accommodation in Greater Noida for Samsung employees, Korean expats and supplier teams working at Samsung Noida Sector 81, the Greater Noida plant and the expressway offices. Company GST invoicing, Form C support, Korean breakfast on request.',
+      ko: '삼성전자 노이다 섹터 81 공장, 그레이터 노이다 공장, 고속도로변 사무소에서 근무하는 주재원·출장자·협력사 팀을 위한 그레이터 노이다 숙소(Greater Noida accommodation). 법인 GST 인보이스, Form C 신고, 요청 시 한식 조식.',
+      zh: '为在三星诺伊达Sector 81工厂、大诺伊达工厂及高速公路沿线办公室工作的员工、韩国外派人员和供应商团队提供大诺伊达住宿（Greater Noida accommodation）。企业GST发票、Form C申报，可应要求提供韩式早餐。',
+    },
+    extraSections: {
+      en: [
+        {
+          title: "Samsung's sites around Greater Noida",
+          items: [
+            '<b>Noida Sector 81</b>: Samsung\'s mobile phone factory, opened in 2018 as the world\'s largest and expanded since.',
+            '<b>Greater Noida plant</b>: where Samsung assembles phones, tablets and wearables, and began making laptops in 2025.',
+            '<b>Noida–Greater Noida Expressway</b>: Samsung R&D Institute India and Samsung Design Delhi work from a large office along the expressway.',
+            `<b>Sector 142, Noida Expressway</b>: Samsung E&A India's office. See <a href="/accommodation-greater-noida-samsung-engineering">accommodation for Samsung E&A teams</a>.`,
+          ],
+        },
+        {
+          title: "Teams from Samsung's supplier network",
+          text: `Many Korean component makers that supply Samsung run plants in Greater Noida's Ecotech industrial sectors and in Noida Sector 80. Their engineers often come from Korea for line set-ups, audits and new-model launches, usually several at a time. We can house a whole supplier team in Greater Noida under one booking and one company invoice. See also <a href="/accommodation-greater-noida-dreamtech">accommodation for Dreamtech teams</a>.`,
+        },
+        {
+          title: 'Korean comforts, arranged before you arrive',
+          items: [
+            'Korean breakfast on request',
+            'Kimchi refrigerator, rice cooker and Korean cookware arranged on request',
+            "Sohee's Kitchen, our Pan-Asian restaurant and café at the flagship hotel",
+            'Contact by KakaoTalk, WhatsApp or phone',
+          ],
+        },
+      ],
+      ko: [
+        {
+          title: '그레이터 노이다 주변 삼성 사업장',
+          items: [
+            '<b>노이다 섹터 81</b>: 2018년 세계 최대 규모로 문을 연 뒤 꾸준히 확장해 온 삼성전자 휴대폰 공장.',
+            '<b>그레이터 노이다 공장</b>: 휴대폰, 태블릿, 웨어러블을 조립하며 2025년부터 노트북도 생산.',
+            '<b>노이다–그레이터 노이다 고속도로</b>: 삼성 R&D 인스티튜트 인디아와 삼성 디자인 델리가 고속도로변 대형 사무실에서 근무.',
+            `<b>노이다 고속도로 섹터 142</b>: 삼성E&A 인도 사무소. <a href="/ko/accommodation-greater-noida-samsung-engineering">삼성E&A 팀 숙소 안내</a>.`,
+          ],
+        },
+        {
+          title: '삼성 협력사 출장 팀',
+          text: `삼성에 부품을 공급하는 여러 한국 협력사가 그레이터 노이다 Ecotech 산업 섹터와 노이다 섹터 80에 공장을 두고 있습니다. 라인 셋업, 감사, 신모델 양산을 위해 한국에서 엔지니어가 여러 명씩 함께 오는 경우가 많습니다. 협력사 팀 전체를 그레이터 노이다에서 하나의 예약과 하나의 법인 인보이스로 수용할 수 있습니다. <a href="/ko/accommodation-greater-noida-dreamtech">드림텍 팀 숙소 안내</a>도 참고하세요.`,
+        },
+        {
+          title: '도착 전에 준비하는 한국식 편의',
+          items: [
+            '요청 시 한식 조식',
+            '요청 시 김치냉장고, 밥솥, 한국식 조리도구 준비',
+            '플래그십 호텔 내 범아시아 레스토랑·카페 Sohee\'s Kitchen',
+            '카카오톡, WhatsApp, 전화로 문의 가능',
+          ],
+        },
+      ],
+      zh: [
+        {
+          title: '大诺伊达周边的三星工作地点',
+          items: [
+            '<b>诺伊达Sector 81</b>：三星手机工厂，2018年作为全球最大手机工厂投产，此后持续扩建。',
+            '<b>大诺伊达工厂</b>：组装手机、平板和可穿戴设备，并于2025年开始生产笔记本电脑。',
+            '<b>诺伊达–大诺伊达高速公路</b>：三星印度研发中心和三星德里设计中心位于高速公路沿线的大型办公楼。',
+            `<b>诺伊达高速公路Sector 142</b>：三星E&A印度办公室。参见<a href="/zh/accommodation-greater-noida-samsung-engineering">三星E&A团队住宿</a>。`,
+          ],
+        },
+        {
+          title: '三星供应商团队',
+          text: `许多为三星供货的韩国零部件企业在大诺伊达Ecotech工业区和诺伊达Sector 80设有工厂。他们的工程师经常从韩国前来进行产线搭建、审核和新机型量产，而且常常多人同行。我们可以在大诺伊达用一个预订、一张企业发票安排整个供应商团队。另见<a href="/zh/accommodation-greater-noida-dreamtech">Dreamtech团队住宿</a>。`,
+        },
+        {
+          title: '抵达前即可安排的韩式便利',
+          items: [
+            '可应要求提供韩式早餐',
+            '可应要求准备泡菜冰箱、电饭煲和韩式厨具',
+            '旗舰酒店内的泛亚餐厅兼咖啡馆Sohee\'s Kitchen',
+            '可通过KakaoTalk、WhatsApp或电话联系',
+          ],
+        },
+      ],
+    },
+    extraFaqs: {
+      en: [
+        { q: "Is your accommodation close to Samsung's Noida Sector 81 plant?", a: 'Our accommodation is in Greater Noida, around Ansal Golf Links-1 and Jaypee Greens. Sector 81 is in Noida along the Noida–Greater Noida Expressway corridor. Send us the gate or office address and we will give you realistic peak-hour travel times.' },
+        { q: 'Can you house a Samsung supplier team arriving together?', a: 'Yes. We can place a team across our hotel rooms and serviced apartments in Greater Noida under one booking, with one GST invoice to the company.' },
+      ],
+      ko: [
+        { q: '숙소가 삼성 노이다 섹터 81 공장과 가까운가요?', a: '저희 숙소는 그레이터 노이다의 Ansal Golf Links-1과 Jaypee Greens 주변에 있습니다. 섹터 81은 노이다–그레이터 노이다 고속도로 축에 있는 노이다 지역입니다. 출입 게이트나 사무실 주소를 알려 주시면 출퇴근 시간대의 실제 이동 시간을 안내해 드립니다.' },
+        { q: '함께 도착하는 삼성 협력사 팀도 수용할 수 있나요?', a: '네. 그레이터 노이다의 호텔 객실과 서비스 아파트에 팀을 나누어 배정하고, 하나의 예약과 하나의 GST 인보이스로 회사에 청구할 수 있습니다.' },
+      ],
+      zh: [
+        { q: '住宿离三星诺伊达Sector 81工厂近吗？', a: '我们的住宿位于大诺伊达的Ansal Golf Links-1和Jaypee Greens一带。Sector 81位于诺伊达–大诺伊达高速公路沿线的诺伊达区域。请告诉我们大门或办公室地址，我们会告知高峰时段的实际车程。' },
+        { q: '可以安排一起抵达的三星供应商团队吗？', a: '可以。我们可以把团队分配到大诺伊达的酒店客房和服务式公寓，用一个预订、一张GST发票向公司开票。' },
+      ],
+    },
     name: { en: 'Samsung Electronics', ko: '삼성전자', zh: '三星电子' },
     siteTitle: {
       en: 'Samsung in Noida and Greater Noida',

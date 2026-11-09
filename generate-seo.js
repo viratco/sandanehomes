@@ -765,8 +765,8 @@ greaterNoidaCompanies.forEach((company) => {
     const name = company.name[lang];
     const url = `${BASE_URL}${companyPath(company.key, lang)}`;
     SEO_MAP[companyPath(company.key, lang)] = {
-      title: t.metaTitle(name),
-      description: t.metaDescription(name),
+      title: company.metaTitle?.[lang] || t.metaTitle(name),
+      description: company.metaDescription?.[lang] || t.metaDescription(name),
       ogImage: `${BASE_URL}/residences-og.jpg`,
       lang,
       hreflangLinks: [
@@ -785,7 +785,7 @@ greaterNoidaCompanies.forEach((company) => {
         {
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          "mainEntity": t.faqs(name).map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+          "mainEntity": [...t.faqs(name), ...(company.extraFaqs?.[lang] || [])].map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
         }
       ]
     };
