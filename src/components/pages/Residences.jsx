@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import SEO from '../SEO';
 import Header from '../Header';
 import Footer from '../Footer';
-import ExpatPopupBar from '../ExpatPopupBar';
+import ResidencesLeadPopup, { openResidencesEnquiry } from '../ResidencesLeadPopup';
+import { WHATSAPP_DISPLAY, CALL_NUMBER, whatsappUrl } from '../../utils/contact';
 import GurugramResidencesSection from '../GurugramResidencesSection';
 import { gurugramItemListSchema } from '../../data/gurugramResidences';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using new image for hero background
@@ -21,7 +22,7 @@ import imgGalleryDining from '../../assets/residences-gallery-dining.jpg';
 import imgGalleryTvWall from '../../assets/residences-gallery-tv-wall.jpg';
 import imgGalleryDiningSconces from '../../assets/residences-gallery-dining-sconces.jpg';
 import './SandaneHomes.css'; // Import shared CSS
-import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup } from 'react-icons/fa6';
+import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
 
 const Residences = () => {
     const scrollToFooterInquiry = () => {
@@ -36,6 +37,11 @@ const Residences = () => {
             }, 2600);
         }
     };
+
+    useEffect(() => {
+        document.body.classList.add('has-res-contact-bar');
+        return () => document.body.classList.remove('has-res-contact-bar');
+    }, []);
 
     useEffect(() => {
         if (window.location.hash === '#contact-section' || window.location.hash === '#footer-contact-section') {
@@ -142,7 +148,7 @@ const Residences = () => {
 
                 {/* Left Column (Image + Text) */}
                 <div className="editorial-left-col">
-                    <img src={imgHeroLeft} alt="Residences hallway" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
+                    <img src={imgHeroLeft} alt="Residences hallway" className="residences-clickable-photo" onClick={openResidencesEnquiry} title="Click to send an enquiry" />
                     
                     {/* Text block pulled up to overlap the image */}
                     <div className="editorial-left-text">
@@ -154,15 +160,30 @@ const Residences = () => {
                         </div>
                         
                         <p className="editorial-subtext">
-                            \\<br/>
                             Choose our beautifully curated homes tailored for expats and professionals seeking a sanctuary, from organic amenities to extensive bespoke services.
                         </p>
+
+                        {/* Quick ways to reach us, right in the hero */}
+                        <div className="editorial-cta">
+                            <button type="button" className="editorial-cta-btn editorial-cta-primary" onClick={openResidencesEnquiry}>
+                                <FaEnvelopeOpenText aria-hidden="true" /> Enquire Now
+                            </button>
+                            <a
+                                className="editorial-cta-btn editorial-cta-wa"
+                                href={whatsappUrl('Hello Sandane Homes, I would like to enquire about Residences by Sandane Homes.')}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={() => { if (typeof window.gtag === 'function') window.gtag('event', 'ads_conversion_Purchase_1', {}); }}
+                            >
+                                <FaWhatsapp aria-hidden="true" /> WhatsApp
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 {/* Center Column (Large Image) */}
                 <div className="editorial-center-col">
-                    <img src={imgHeroCenter} alt="Residences living room" className="residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
+                    <img src={imgHeroCenter} alt="Residences living room" className="residences-clickable-photo" onClick={openResidencesEnquiry} title="Click to send an enquiry" />
                 </div>
 
                 {/* Right Column (Text + Image) */}
@@ -174,7 +195,7 @@ const Residences = () => {
                         <p className="editorial-right-text">
                             A philosophy of nurture via absolute comfort and a spirit of collaboration are tangibly felt at Sandane Residences, where our team works together to bring the best hospitality to the table.
                         </p>
-                        <img src={imgHeroRight} alt="Residences by Sandane Homes" className="editorial-right-img residences-clickable-photo" onClick={scrollToFooterInquiry} title="Click to send an inquiry" />
+                        <img src={imgHeroRight} alt="Residences by Sandane Homes" className="editorial-right-img residences-clickable-photo" onClick={openResidencesEnquiry} title="Click to send an enquiry" />
                     </div>
                 </div>
             </div>
@@ -345,12 +366,12 @@ const Residences = () => {
             {/* Image Gallery (Mimicking flyer grid) */}
             <div className="catarina-section catarina-gallery-section" style={{ paddingBottom: '80px', paddingTop: 0 }}>
                 <div className="catarina-gallery-grid">
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryBedroom})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryLivingRoom})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopRight})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDining})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryTvWall})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
-                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDiningSconces})` }} onClick={scrollToFooterInquiry} title="Click to send an inquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryBedroom})` }} onClick={openResidencesEnquiry} title="Click to send an enquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryLivingRoom})` }} onClick={openResidencesEnquiry} title="Click to send an enquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgTopRight})` }} onClick={openResidencesEnquiry} title="Click to send an enquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDining})` }} onClick={openResidencesEnquiry} title="Click to send an enquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryTvWall})` }} onClick={openResidencesEnquiry} title="Click to send an enquiry"></div>
+                    <div className="catarina-gallery-item residences-clickable-photo" style={{ backgroundImage: `url(${imgGalleryDiningSconces})` }} onClick={openResidencesEnquiry} title="Click to send an enquiry"></div>
                 </div>
             </div>
 
@@ -979,7 +1000,26 @@ const Residences = () => {
                 </>
             )}
 
-            <ExpatPopupBar />
+            <ResidencesLeadPopup />
+
+            {/* Phone-only contact bar: call, WhatsApp or enquire in one tap */}
+            <nav className="res-contact-bar" aria-label="Contact Sandane Homes">
+                <a href={`tel:+${CALL_NUMBER}`} onClick={() => { if (typeof window.gtag === 'function') window.gtag('event', 'ads_conversion_Purchase_1', {}); }}>
+                    <FaPhone aria-hidden="true" /><span>Call</span>
+                </a>
+                <a
+                    href={whatsappUrl('Hello Sandane Homes, I would like to enquire about Residences by Sandane Homes.')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`WhatsApp ${WHATSAPP_DISPLAY}`}
+                    onClick={() => { if (typeof window.gtag === 'function') window.gtag('event', 'ads_conversion_Purchase_1', {}); }}
+                >
+                    <FaWhatsapp aria-hidden="true" /><span>WhatsApp</span>
+                </a>
+                <button type="button" className="res-contact-bar-primary" onClick={openResidencesEnquiry}>
+                    <FaEnvelopeOpenText aria-hidden="true" /><span>Enquire</span>
+                </button>
+            </nav>
             <Footer isResidences={true} />
 
             {/* Testimonials / Reviews Section */}

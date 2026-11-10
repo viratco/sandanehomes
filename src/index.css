@@ -182,7 +182,7 @@ body {
   width: 100%; 
   max-width: 1400px; 
   margin: 0 auto; 
-  height: 1000px; /* fixed height for desktop layout; content ends ~955px */
+  height: 1080px; /* fixed height for desktop layout; content ends ~1045px with the hero buttons */
   padding-top: 60px;
 }
 
@@ -335,6 +335,42 @@ body {
   padding-left: 24px;
 }
 
+/* Hero contact buttons (Residences) */
+.editorial-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+  padding-left: 24px;
+}
+.editorial-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+  font-family: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.editorial-cta-btn:hover { transform: translateY(-1px); box-shadow: 0 10px 22px -12px rgba(92, 56, 20, 0.55); }
+.editorial-cta-primary {
+  background: linear-gradient(90deg, #6B4423 0%, #8B5E34 100%);
+  color: #FFF6EA;
+}
+.editorial-cta-wa {
+  background: rgba(255, 251, 245, 0.85);
+  color: #4A3322;
+  border-color: #B88B5A;
+}
+.editorial-cta-wa svg { color: #1F9D55; font-size: 15px; }
+
 .editorial-center-col {
   position: absolute;
   top: 400px;
@@ -413,7 +449,7 @@ body {
 
 @media (max-width: 1024px) {
   .editorial-container {
-    height: 1020px; /* content ends ~990px at tablet widths */
+    height: 1110px; /* content ends ~1085px at tablet widths */
   }
   .editorial-title-bg h1,
   .editorial-title-bg .editorial-line-1 {
@@ -486,6 +522,10 @@ body {
   }
   .editorial-subtext {
     padding-left: 0;
+  }
+  .editorial-cta {
+    padding-left: 0;
+    justify-content: center;
   }
   .editorial-right-inner {
     padding: 20px;

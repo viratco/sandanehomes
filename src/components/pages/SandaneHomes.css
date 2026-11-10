@@ -994,3 +994,52 @@
     .res-promise-card h3 { font-size: 17px; }
     .res-promise-pill { letter-spacing: 3px; padding: 9px 22px; font-size: 12px; }
 }
+
+/* ── Residences: phone-only contact bar (Call / WhatsApp / Enquire) ── */
+.res-contact-bar { display: none; }
+
+@media (max-width: 768px) {
+    .res-contact-bar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9990;
+        display: flex;
+        gap: 8px;
+        padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+        background: rgba(255, 250, 242, 0.96);
+        border-top: 1px solid rgba(197, 165, 114, 0.45);
+        box-shadow: 0 -10px 28px -16px rgba(70, 44, 20, 0.45);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+    .res-contact-bar a,
+    .res-contact-bar button {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        padding: 12px 6px;
+        border-radius: 40px;
+        border: 1.5px solid #B88B5A;
+        background: #FFFDF9;
+        color: #4A3322;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .res-contact-bar a:nth-child(2) svg { color: #1F9D55; }
+    .res-contact-bar .res-contact-bar-primary {
+        background: linear-gradient(90deg, #6B4423 0%, #8B5E34 100%);
+        border-color: #6B4423;
+        color: #FFF6EA;
+    }
+    /* room for the bar at the end of the page, and no duplicate floating WhatsApp button */
+    .residences-golden { padding-bottom: 70px; }
+    body.has-res-contact-bar .whatsapp-container { display: none; }
+}
+
