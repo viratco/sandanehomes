@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft } from 'react-icons/fa6';
+import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaPassport, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
 import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl } from '../utils/contact';
 import './ResidencesLeadPopup.css';
 
@@ -32,20 +32,78 @@ const setFlag = (store, key) => {
     try { window[store].setItem(key, '1'); } catch { /* storage blocked */ }
 };
 
-const PERKS = {
-    hr: [
-        { icon: FaUserTie, text: 'One contact for all your employees’ and clients’ stays' },
-        { icon: FaLocationDot, text: 'Furnished 2–4 BHK apartments and villas in Gurugram, Greater Noida and Noida' },
-        { icon: FaCarSide, text: 'Car service from home to office and back' },
-        { icon: FaBowlRice, text: 'Korean & Japanese breakfast and dinner' },
-        { icon: FaFileInvoice, text: 'GST invoices and corporate billing' },
-    ],
-    self: [
-        { icon: FaCouch, text: 'Fully furnished and ready on day one' },
-        { icon: FaBroom, text: 'Daily housekeeping and maintenance' },
-        { icon: FaCarSide, text: 'Car service from home to office and back' },
-        { icon: FaBowlRice, text: 'Korean & Japanese breakfast and dinner' },
-    ],
+// Only claims the site already makes elsewhere (company pages, Korean stay pages, Residences).
+// No prices, no client names.
+const CONTENT = {
+    hr: {
+        title: 'We make housing your team easy',
+        lead: 'Over 5 years of hosting expats and corporate teams across Delhi NCR. Here is what HR and admin teams get:',
+        stats: [
+            { big: '5+', small: 'years hosting expats' },
+            { big: '24h', small: 'Form C filing' },
+            { big: '1', small: 'GST invoice a month' },
+        ],
+        groups: [
+            {
+                heading: 'Less paperwork for you',
+                items: [
+                    { icon: FaFileInvoice, text: 'We invoice your company directly with GST, so your employees never deal with rent, deposits or landlords' },
+                    { icon: FaPassport, text: 'Form C filed within 24 hours of each foreign guest’s arrival' },
+                    { icon: FaUserTie, text: 'One contact for every employee and client you send us' },
+                    { icon: FaPeopleGroup, text: 'One guest or a whole team, under one booking' },
+                ],
+            },
+            {
+                heading: 'Your people feel at home',
+                items: [
+                    { icon: FaBowlRice, text: 'Korean & Japanese breakfast and dinner' },
+                    { icon: FaCarSide, text: 'Car service from home to office and back' },
+                    { icon: FaBroom, text: 'Daily housekeeping, with maintenance handled for them' },
+                    { icon: FaWifi, text: '300 Mbps Wi-Fi and 100% power backup, for work calls home' },
+                    { icon: FaHandshake, text: 'Extracurricular activities, covered by us' },
+                ],
+            },
+            {
+                heading: 'Fits any posting',
+                items: [
+                    { icon: FaCalendarDays, text: 'Weekly, monthly or multi-year stays' },
+                    { icon: FaLocationDot, text: 'Furnished 2–4 BHK apartments, villas and hotel rooms in Gurugram, Greater Noida and Noida' },
+                    { icon: FaKey, text: 'For long postings, we can also find, furnish and set up an apartment' },
+                ],
+            },
+        ],
+        steps: ['Tell us the dates and how many people', 'We share homes that fit', 'Your team moves in, and we look after them'],
+    },
+    self: {
+        title: 'Your home in India, ready on day one',
+        lead: 'Over 5 years of hosting expats across Delhi NCR. Everything is taken care of:',
+        stats: [
+            { big: '5+', small: 'years hosting expats' },
+            { big: '24h', small: 'Form C filing' },
+            { big: '300', small: 'Mbps Wi-Fi' },
+        ],
+        groups: [
+            {
+                heading: 'Move in with just a suitcase',
+                items: [
+                    { icon: FaCouch, text: 'Fully furnished: furniture, kitchenware and fresh linen' },
+                    { icon: FaBroom, text: 'Daily housekeeping, with maintenance handled for you' },
+                    { icon: FaWifi, text: '300 Mbps Wi-Fi and 100% power backup' },
+                    { icon: FaPassport, text: 'Form C filed within 24 hours of your arrival' },
+                ],
+            },
+            {
+                heading: 'Life made easy',
+                items: [
+                    { icon: FaBowlRice, text: 'Korean & Japanese breakfast and dinner' },
+                    { icon: FaCarSide, text: 'Car service from home to office and back' },
+                    { icon: FaHandshake, text: 'Extracurricular activities, covered by us' },
+                    { icon: FaCalendarDays, text: 'Weekly, monthly or longer stays in Gurugram, Greater Noida and Noida' },
+                ],
+            },
+        ],
+        steps: ['Tell us your dates', 'We share homes that fit', 'Move in, and we look after you'],
+    },
 };
 
 const EMPTY_FORM = { name: '', company: '', phone: '', email: '', city: 'Not sure yet', size: '', website: '' };
@@ -59,6 +117,7 @@ const ResidencesLeadPopup = () => {
     const [sending, setSending] = useState(false);
     const [source, setSource] = useState('auto');
     const dialogRef = useRef(null);
+    const actionRef = useRef(null);
 
     const show = useCallback((how) => {
         setSource(how);
@@ -200,11 +259,12 @@ const ResidencesLeadPopup = () => {
     if (!open) return null;
 
     const isHr = audience === 'hr';
+    const info = CONTENT[audience] || CONTENT.self;
 
     return (
         <div className="rlp-overlay" onMouseDown={(e) => { if (e.target === e.currentTarget) close(); }}>
             <div
-                className="rlp-card"
+                className={`rlp-card ${step === 'form' ? 'rlp-card-wide' : ''}`}
                 role="dialog"
                 aria-modal="true"
                 aria-labelledby="rlp-title"
@@ -215,6 +275,7 @@ const ResidencesLeadPopup = () => {
                 <button type="button" className="rlp-close" onClick={close} aria-label="Close">
                     <FaXmark />
                 </button>
+                <div className="rlp-scroll">
 
                 {step === 'ask' && (
                     <div className="rlp-body">
@@ -247,18 +308,45 @@ const ResidencesLeadPopup = () => {
 
                 {step === 'form' && (
                     <div className="rlp-body rlp-body-form">
+                      <div className="rlp-info">
                         <button type="button" className="rlp-back" onClick={() => setStep('ask')}>
                             <FaArrowLeft aria-hidden="true" /> Back
                         </button>
-                        <h2 id="rlp-title" className="rlp-title rlp-title-sm">
-                            {isHr ? 'We make housing your team easy' : 'Your home in India, ready on day one'}
-                        </h2>
-                        <ul className="rlp-perks">
-                            {PERKS[audience].map(({ icon: Icon, text }) => (
-                                <li key={text}><Icon aria-hidden="true" /><span>{text}</span></li>
-                            ))}
-                        </ul>
+                        <h2 id="rlp-title" className="rlp-title rlp-title-sm">{info.title}</h2>
+                        <p className="rlp-lead">{info.lead}</p>
 
+                        <div className="rlp-stats">
+                            {info.stats.map((st) => (
+                                <div key={st.small} className="rlp-stat">
+                                    <strong>{st.big}</strong>
+                                    <span>{st.small}</span>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="rlp-groups">
+                            {info.groups.map((g) => (
+                                <div key={g.heading} className="rlp-group">
+                                    <h3>{g.heading}</h3>
+                                    <ul className="rlp-perks">
+                                        {g.items.map(({ icon: Icon, text }) => (
+                                            <li key={text}><Icon aria-hidden="true" /><span>{text}</span></li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
+
+                        <ol className="rlp-steps" aria-label="How it works">
+                            {info.steps.map((t, i) => (
+                                <li key={t}><span className="rlp-step-num">{i + 1}</span><span>{t}</span></li>
+                            ))}
+                        </ol>
+                      </div>
+
+                      <div className="rlp-action" ref={actionRef}>
+                        <h3 className="rlp-action-title">{isHr ? 'Talk to us about your team' : 'Talk to us today'}</h3>
+                        <p className="rlp-action-sub">Free advice, no commitment.</p>
                         <div className="rlp-fast">
                             <a className="rlp-btn rlp-btn-wa" href={whatsappUrl(waText)} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('whatsapp')}>
                                 <FaWhatsapp aria-hidden="true" /> WhatsApp us
@@ -319,6 +407,7 @@ const ResidencesLeadPopup = () => {
                                 {sending ? 'Sending…' : 'Request a call back'}
                             </button>
                         </form>
+                      </div>
                     </div>
                 )}
 
@@ -333,6 +422,20 @@ const ResidencesLeadPopup = () => {
                             </a>
                             <button type="button" className="rlp-btn rlp-btn-call" onClick={close}>Close</button>
                         </div>
+                    </div>
+                )}
+                </div>
+                {step === 'form' && (
+                    <div className="rlp-dock">
+                        <a href={whatsappUrl(waText)} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('whatsapp')} className="rlp-dock-wa">
+                            <FaWhatsapp aria-hidden="true" /> WhatsApp
+                        </a>
+                        <a href={`tel:+${CALL_NUMBER}`} onClick={() => onContactClick('call')}>
+                            <FaPhone aria-hidden="true" /> Call
+                        </a>
+                        <button type="button" className="rlp-dock-form" onClick={() => actionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+                            Call me back
+                        </button>
                     </div>
                 )}
             </div>
