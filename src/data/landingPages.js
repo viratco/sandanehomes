@@ -6,8 +6,8 @@
 export const landingPages = [
     {
         "slug": "serviced-apartments-ansal-golf-links",
-        "metaTitle": "Serviced Apartments in Ansal Golf Links Greater Noida | Residences by Sandane Homes",
-        "metaDescription": "Luxury serviced apartments in Ansal Golf Links, Greater Noida. Fully furnished, daily housekeeping, 300 Mbps WiFi, car fleet. Perfect for corporate expats near Yamuna Expressway.",
+        "metaTitle": "Serviced Apartments in Ansal Golf Links Greater Noida | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Serviced apartments in Ansal Golf Links, Greater Noida: entire furnished homes, not hotel rooms. Daily housekeeping, 300 Mbps WiFi, car fleet. For company expats on long stays near Yamuna Expressway.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-ansal-golf-links",
         "h1": "Serviced Apartments in Ansal Golf Links, Greater Noida",
         "subtitle": "Spacious. Secure. Minutes from the Yamuna Expressway corridor.",
@@ -108,8 +108,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-godrej-golf-link",
-        "metaTitle": "Serviced Apartments in Godrej Golf Link Greater Noida | Residences by Sandane Homes",
-        "metaDescription": "Premium serviced apartments and villas in Godrej Golf Link, Greater Noida. 3BHK to 4BHK + villas. Daily housekeeping, car fleet, FRRO support. For senior expat professionals.",
+        "metaTitle": "Serviced Apartments in Godrej Golf Link Greater Noida | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Serviced apartments and villas in Godrej Golf Link, Greater Noida: entire 3BHK to 4BHK homes, not hotel rooms. Daily housekeeping, car fleet, FRRO support. For senior expats on long company postings.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-godrej-golf-link",
         "h1": "Serviced Apartments & Villas in Godrej Golf Link, Greater Noida",
         "subtitle": "Premium living. The Godrej standard. Everything managed.",
@@ -204,7 +204,7 @@ export const landingPages = [
     {
         "slug": "furnished-apartments-greater-noida",
         "metaTitle": "Furnished Apartments in Greater Noida | Long Stay | Residences by Sandane Homes",
-        "metaDescription": "Fully furnished apartments in Greater Noida for expats, corporate professionals & long stays. 1BHK to 4BHK in Jaypee Greens, Ansal Golf Links & Godrej Golf Link. Just arrive.",
+        "metaDescription": "Fully furnished apartments in Greater Noida for expats and long company stays: entire homes, not hotel rooms, in Jaypee Greens, Ansal Golf Links & Godrej Golf Link. Just arrive.",
         "canonical": "https://www.sandanehomes.com/furnished-apartments-greater-noida",
         "h1": "Fully Furnished Apartments in Greater Noida",
         "subtitle": "Not \"semi-furnished.\" Not \"furniture on request.\" Fully furnished — everything in place.",
@@ -268,7 +268,7 @@ export const landingPages = [
     {
         "slug": "corporate-housing-greater-noida",
         "metaTitle": "Corporate Housing in Greater Noida | For MNCs & Expat Teams | Residences by Sandane Homes",
-        "metaDescription": "Corporate housing in Greater Noida for MNCs, HR teams, and expat employees. GST billing, FRRO support, car fleet, daily housekeeping. Near Honda, Yamaha, India Expo Mart.",
+        "metaDescription": "Corporate housing in Greater Noida for MNCs, HR teams and expat employees: entire furnished homes, not hotel rooms. GST billing, FRRO support, car fleet, daily housekeeping. Near Honda, Yamaha, India Expo Mart.",
         "canonical": "https://www.sandanehomes.com/corporate-housing-greater-noida",
         "h1": "Corporate Housing in Greater Noida",
         "subtitle": "Built for HR teams. Designed for assignees. Zero complaints.",
@@ -343,7 +343,7 @@ export const landingPages = [
     {
         "slug": "long-stay-apartments-greater-noida",
         "metaTitle": "Long Stay Apartments in Greater Noida | Monthly & Quarterly | Residences by Sandane Homes",
-        "metaDescription": "Long stay furnished apartments in Greater Noida for 1 to 12 months. Fully managed, daily housekeeping, corporate billing. Ideal for expats, engineers & corporate professionals.",
+        "metaDescription": "Long stay furnished apartments in Greater Noida for 1 to 12 months: entire homes, not hotel rooms. Fully managed, daily housekeeping, corporate billing. For expats, engineers & corporate professionals.",
         "canonical": "https://www.sandanehomes.com/long-stay-apartments-greater-noida",
         "h1": "Long Stay Apartments in Greater Noida",
         "subtitle": "Stay a month. Stay a year. Everything stays handled.",
@@ -410,7 +410,7 @@ export const landingPages = [
     {
         "slug": "apartments-near-india-expo-centre",
         "metaTitle": "Apartments near India Expo Centre Greater Noida | Residences by Sandane Homes",
-        "metaDescription": "Fully furnished serviced apartments 10 minutes from India Expo Centre & Mart, Greater Noida. Daily housekeeping, car fleet, corporate billing. Book before your next event.",
+        "metaDescription": "Entire furnished serviced apartments 10 minutes from India Expo Centre & Mart, Greater Noida, for company teams on longer stays. Daily housekeeping, car fleet, corporate billing.",
         "canonical": "https://www.sandanehomes.com/apartments-near-india-expo-centre",
         "h1": "Serviced Apartments near India Expo Centre, Greater Noida",
         "subtitle": "10 minutes from India Expo Mart. Fully managed. Ready before the event starts.",
@@ -487,7 +487,7 @@ export const landingPages = [
     {
         "slug": "japanese-expat-housing-greater-noida",
         "metaTitle": "Japanese Expat Housing Greater Noida | Near Honda, Yamaha | Residences by Sandane Homes",
-        "metaDescription": "Luxury serviced apartments for Japanese expats in Greater Noida. Near Honda India, Yamaha Motor India. Daily housekeeping, FRRO support. 日本語対応可能。",
+        "metaDescription": "Serviced apartments for Japanese expats in Greater Noida: entire furnished homes, not hotel rooms. Near Honda India, Yamaha Motor India. Daily housekeeping, FRRO support. 日本語対応可能。",
         "canonical": "https://www.sandanehomes.com/japanese-expat-housing-greater-noida",
         "h1": "Japanese Expat Housing in Greater Noida",
         "subtitle": "グレーターノイダの日本人駐在員向け住宅",
@@ -575,7 +575,7 @@ export const landingPages = [
     {
         "slug": "expat-housing-delhi-ncr",
         "metaTitle": "Expat Housing in Delhi NCR | Luxury Serviced Apartments | Residences by Sandane Homes",
-        "metaDescription": "Expat housing across Delhi NCR — Greater Noida, Noida & Gurgaon. Fully managed luxury serviced apartments for Korean, Japanese & international professionals. Just arrive.",
+        "metaDescription": "Expat housing across Delhi NCR (Greater Noida, Noida & Gurgaon): entire furnished serviced homes, not hotel rooms, for Korean, Japanese & international professionals on company postings. Just arrive.",
         "canonical": "https://www.sandanehomes.com/expat-housing-delhi-ncr",
         "h1": "Expat Housing in Delhi NCR",
         "subtitle": "Greater Noida. Noida. Gurgaon. One trusted partner across the entire NCR.",
@@ -639,7 +639,7 @@ export const landingPages = [
     {
         "slug": "corporate-accommodation-noida",
         "metaTitle": "Corporate Accommodation in Noida | For MNCs & Expats | Residences by Sandane Homes",
-        "metaDescription": "Corporate accommodation in Noida for MNCs, expat assignees & visiting professionals. Fully furnished, daily housekeeping, FRRO support, GST billing. Near Samsung, LG, IT corridor.",
+        "metaDescription": "Corporate accommodation in Noida for MNCs and expat assignees: entire furnished homes, not hotel rooms. Daily housekeeping, FRRO support, GST billing. Near Samsung, LG, IT corridor.",
         "canonical": "https://www.sandanehomes.com/corporate-accommodation-noida",
         "h1": "Corporate Accommodation in Noida",
         "subtitle": "For Samsung, LG, and every MNC posting employees to Noida.",
@@ -699,7 +699,7 @@ export const landingPages = [
     {
         "slug": "relocation-housing-noida",
         "metaTitle": "Relocation Housing in Noida | Corporate Relocation Apartments | Residences by Sandane Homes",
-        "metaDescription": "Relocation housing in Noida for corporate employees, expats & international assignees. Fully managed, FRRO support, GST billing, car fleet. One call handles everything.",
+        "metaDescription": "Relocation housing in Noida for corporate employees, expats & international assignees: entire furnished homes, not hotel rooms. Fully managed, FRRO support, GST billing, car fleet. One call handles everything.",
         "canonical": "https://www.sandanehomes.com/relocation-housing-noida",
         "h1": "Relocation Housing in Noida",
         "subtitle": "One call. Everything sorted. Your employee arrives home.",
@@ -759,7 +759,7 @@ export const landingPages = [
     {
         "slug": "accommodation-visiting-engineers-noida",
         "metaTitle": "Accommodation for Visiting Engineers in Noida & Greater Noida | Residences by Sandane Homes",
-        "metaDescription": "Fully furnished serviced apartments for visiting engineers in Noida and Greater Noida. Near Honda, Yamaha, Samsung, LG. Flexible 2-week to 12-month stays. Corporate billing.",
+        "metaDescription": "Fully furnished serviced apartments for visiting engineers in Noida and Greater Noida: entire homes for project teams, not hotel rooms. Near Honda, Yamaha, Samsung, LG. 2-week to 12-month stays. Corporate billing.",
         "canonical": "https://www.sandanehomes.com/accommodation-visiting-engineers-noida",
         "h1": "Accommodation for Visiting Engineers in Noida & Greater Noida",
         "subtitle": "Short project. Long project. Every duration covered.",
@@ -844,7 +844,7 @@ export const landingPages = [
     {
         "slug": "luxury-villa-rental-greater-noida",
         "metaTitle": "Luxury Villa Rental in Greater Noida | 4BHK Villas for Expats | Residences by Sandane Homes",
-        "metaDescription": "Premium luxury villa rentals in Greater Noida for senior expat executives and families. Fully managed, daily housekeeping, golf course views. Book your villa stay.",
+        "metaDescription": "Luxury villa rentals in Greater Noida for senior expat executives and families: entire 4BHK villas on long company leases. Fully managed, daily housekeeping, golf course views.",
         "canonical": "https://www.sandanehomes.com/luxury-villa-rental-greater-noida",
         "h1": "Luxury Villa Rentals in Greater Noida",
         "subtitle": "Exclusive independent villa living. Golf course views. Completely managed.",
@@ -920,8 +920,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-jaypee-greens",
-        "metaTitle": "Serviced Apartments in Jaypee Greens Greater Noida | Residences by Sandane Homes",
-        "metaDescription": "Premium serviced apartments in Jaypee Greens, Greater Noida. Fully furnished, daily housekeeping, golf course views. Safe expat housing near Honda & Yamaha.",
+        "metaTitle": "Serviced Apartments in Jaypee Greens Greater Noida | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Serviced apartments in Jaypee Greens, Greater Noida: entire furnished homes, not hotel rooms. Daily housekeeping, golf course views. Safe expat housing near Honda & Yamaha for long company stays.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-jaypee-greens",
         "h1": "Serviced Apartments in Jaypee Greens, Greater Noida",
         "subtitle": "Luxury golf course living. Established expat community. Fully serviced.",
@@ -1147,7 +1147,7 @@ export const landingPages = [
     },
     {
         "slug": "elevate-hines-sector-58-gurgaon",
-        "metaTitle": "Elevate by Hines Sector 58 Gurgaon | Serviced Apartments | Sandane Homes",
+        "metaTitle": "Elevate by Hines Sector 58 Gurgaon | Serviced Apartments | Residences by Sandane Homes",
         "metaDescription": "Brand new 3BHK luxury serviced apartments at Conscient Hines Elevate, Sector 58 Gurgaon near Golf Course Ext Road. Managed by Sandane Homes for expats & corporate stays.",
         "canonical": "https://www.sandanehomes.com/elevate-hines-sector-58-gurgaon",
         "h1": "Conscient Hines Elevate, Sector 58, Gurgaon",
@@ -1313,7 +1313,7 @@ export const landingPages = [
     },
     {
         "slug": "the-grand-arch-sector-58-gurgaon",
-        "metaTitle": "The Grand Arch Sector 58 Gurgaon | Serviced Apartments | Sandane Homes",
+        "metaTitle": "The Grand Arch Sector 58 Gurgaon | Serviced Apartments | Residences by Sandane Homes",
         "metaDescription": "Luxury 2BHK serviced apartment at IREO The Grand Arch, Sector 58 Gurgaon. Managed by Sandane Homes. Fully furnished, 1,561 sq.ft., clubhouse, close to Golf Course Ext Road.",
         "canonical": "https://www.sandanehomes.com/the-grand-arch-sector-58-gurgaon",
         "h1": "IREO The Grand Arch, Sector 58, Gurgaon",
@@ -1406,7 +1406,7 @@ export const landingPages = [
     },
     {
         "slug": "emaar-digi-homes-sector-62-gurgaon",
-        "metaTitle": "Emaar Digi Homes Sector 62 Gurgaon | Serviced Apartments | Sandane Homes",
+        "metaTitle": "Emaar Digi Homes Sector 62 Gurgaon | Serviced Apartments | Residences by Sandane Homes",
         "metaDescription": "Voice-enabled 2BHK & 3BHK smart serviced apartments at Emaar Digi Homes, Sector 62 Golf Course Ext Road Gurgaon. Managed by Sandane Homes. 10 mins to Sector 55-56 Metro.",
         "canonical": "https://www.sandanehomes.com/emaar-digi-homes-sector-62-gurgaon",
         "h1": "Emaar Digi Homes, Sector 62, Golf Course Ext Road Gurgaon",
@@ -1563,7 +1563,7 @@ export const landingPages = [
     },
     {
         "slug": "m3m-heights-sector-65-gurgaon",
-        "metaTitle": "M3M Heights Sector 65 Gurgaon | Serviced Apartments | Sandane Homes",
+        "metaTitle": "M3M Heights Sector 65 Gurgaon | Serviced Apartments | Residences by Sandane Homes",
         "metaDescription": "High-rise 2BHK & 3BHK serviced apartments at M3M Heights, Sector 65 Golf Course Ext Road Gurgaon. Managed by Sandane Homes. Above M3M 65th Avenue high-street retail.",
         "canonical": "https://www.sandanehomes.com/m3m-heights-sector-65-gurgaon",
         "h1": "M3M Heights, Sector 65, Golf Course Ext Road Gurgaon",
@@ -1710,7 +1710,7 @@ export const landingPages = [
     },
     {
         "slug": "m3m-golfestate-sector-65-gurgaon",
-        "metaTitle": "M3M Golfestate Sector 65 Gurgaon | Luxury Golf Serviced Residences | Sandane Homes",
+        "metaTitle": "M3M Golfestate Sector 65 Gurgaon | Luxury Golf Serviced Residences | Residences by Sandane Homes",
         "metaDescription": "Ultra-luxury 3BHK+Study serviced residence at M3M Golfestate, Sector 65 Gurgaon. 3,235 sq.ft., 9-hole executive golf course view, managed by Sandane Homes.",
         "canonical": "https://www.sandanehomes.com/m3m-golfestate-sector-65-gurgaon",
         "h1": "M3M Golfestate, Sector 65, Golf Course Ext Road Gurgaon",
@@ -1812,7 +1812,7 @@ export const landingPages = [
     },
     {
         "slug": "green-meadows-sector-27-gurgaon",
-        "metaTitle": "Green Meadows Sector 27 Gurgaon | 4BHK Serviced Builder Floor | Sandane Homes",
+        "metaTitle": "Green Meadows Sector 27 Gurgaon | 4BHK Serviced Builder Floor | Residences by Sandane Homes",
         "metaDescription": "Spacious 4BHK luxury serviced builder floor (2,230 sq.ft.) at Green Meadows, Sector 27 Gurgaon near Huda City Centre. Managed by Sandane Homes with full housekeeping.",
         "canonical": "https://www.sandanehomes.com/green-meadows-sector-27-gurgaon",
         "h1": "Green Meadows, Sector 27, Gurgaon",
@@ -1909,7 +1909,7 @@ export const landingPages = [
     },
     {
         "slug": "sushant-lok-block-a-sector-27-gurgaon",
-        "metaTitle": "Sushant Lok Block A Sector 27 Gurgaon | 4BHK Serviced Floor | Sandane Homes",
+        "metaTitle": "Sushant Lok Block A Sector 27 Gurgaon | 4BHK Serviced Floor | Residences by Sandane Homes",
         "metaDescription": "Spacious 4BHK serviced builder floor (300 sq.yd.) in Sushant Lok Block A, Sector 27 Gurgaon near Huda City Centre. Managed by Sandane Homes with full expat services.",
         "canonical": "https://www.sandanehomes.com/sushant-lok-block-a-sector-27-gurgaon",
         "h1": "Sushant Lok Block A, Sector 27, Gurgaon",
@@ -1998,7 +1998,7 @@ export const landingPages = [
     },
     {
         "slug": "sushant-lok-block-b-sector-27-gurgaon",
-        "metaTitle": "Sushant Lok Block B Sector 27 Gurgaon | 4BHK Serviced Floor | Sandane Homes",
+        "metaTitle": "Sushant Lok Block B Sector 27 Gurgaon | 4BHK Serviced Floor | Residences by Sandane Homes",
         "metaDescription": "Luxury 4BHK serviced builder floor (300 sq.yd.) in Sushant Lok Block B, Sector 27 Gurgaon near Huda City Centre Metro. Managed by Sandane Homes with full housekeeping.",
         "canonical": "https://www.sandanehomes.com/sushant-lok-block-b-sector-27-gurgaon",
         "h1": "Sushant Lok Block B, Sector 27, Gurgaon",
@@ -2087,7 +2087,7 @@ export const landingPages = [
     },
     {
         "slug": "dlf-phase-4-sector-27-gurgaon",
-        "metaTitle": "DLF Phase 4 Sector 27 Gurgaon | 3BHK Serviced Builder Floor | Sandane Homes",
+        "metaTitle": "DLF Phase 4 Sector 27 Gurgaon | 3BHK Serviced Builder Floor | Residences by Sandane Homes",
         "metaDescription": "Spacious 3BHK serviced builder floor (360 sq.yd.) in DLF Phase 4 / Sector 27 Gurgaon near Galleria Market. Managed by Sandane Homes with full corporate housekeeping.",
         "canonical": "https://www.sandanehomes.com/dlf-phase-4-sector-27-gurgaon",
         "h1": "DLF Phase 4, Sector 27, Gurgaon",
@@ -2176,8 +2176,8 @@ export const landingPages = [
     },
     {
         "slug": "green-avenue-sector-27-gurgaon",
-        "metaTitle": "Green Avenue Sector 27 Gurgaon | 3BHK Serviced Builder Floor | Sandane Homes",
-        "metaDescription": "Spacious 3BHK serviced builder floor (270 sq.yd.) at Green Avenue, Sector 27 Gurgaon near Huda City Centre. Managed by Sandane Homes with full hotel services.",
+        "metaTitle": "Green Avenue Sector 27 Gurgaon | 3BHK Serviced Builder Floor | Residences by Sandane Homes",
+        "metaDescription": "Spacious 3BHK serviced builder floor (270 sq.yd.) at Green Avenue, Sector 27 Gurgaon near Huda City Centre. Managed by Sandane Homes with full housekeeping.",
         "canonical": "https://www.sandanehomes.com/green-avenue-sector-27-gurgaon",
         "h1": "Green Avenue, Sector 27, Gurgaon",
         "subtitle": "Charming 3BHK Serviced Builder Floor (270 sq.yd.) by Sandane Homes — Near Metro",
@@ -2265,8 +2265,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-dlf-cyber-city-gurgaon",
-        "metaTitle": "Serviced Apartments Near DLF Cyber City Gurgaon | Sandane Homes",
-        "metaDescription": "Luxury serviced apartments near DLF Cyber City & Cyber Hub Gurgaon. Fully furnished 2BHK & 3BHK suites with 5-minute commute to office towers & corporate billing.",
+        "metaTitle": "Serviced Apartments Near DLF Cyber City Gurgaon | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Serviced apartments near DLF Cyber City & Cyber Hub Gurgaon: entire furnished homes, not hotel rooms. For company expats on long stays, with a short commute to office towers & corporate billing.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-dlf-cyber-city-gurgaon",
         "h1": "Serviced Apartments Near DLF Cyber City, Gurgaon",
         "subtitle": "Turnkey Executive Residences (5-Min Drive to Cyber Hub & Office Towers)",
@@ -2345,8 +2345,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-golf-course-road-gurgaon",
-        "metaTitle": "Serviced Apartments Golf Course Road Gurgaon | Sandane Homes",
-        "metaDescription": "Luxury executive serviced apartments on Golf Course Road Gurgaon near One Horizon Center. Fully furnished 2BHK, 3BHK & 4BHK residences for corporate expats.",
+        "metaTitle": "Serviced Apartments Golf Course Road Gurgaon | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Executive serviced apartments on Golf Course Road Gurgaon near One Horizon Center: entire furnished 2BHK, 3BHK & 4BHK homes, not hotel rooms, for corporate expats on long stays.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-golf-course-road-gurgaon",
         "h1": "Serviced Apartments on Golf Course Road, Gurgaon",
         "subtitle": "Ultra-Luxury Corporate Residences (Near One Horizon Center & Horizon Plaza)",
@@ -2425,8 +2425,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-dlf-phase-5-gurgaon",
-        "metaTitle": "Serviced Apartments DLF Phase 5 Gurgaon | Sandane Homes",
-        "metaDescription": "Spacious luxury serviced apartments in DLF Phase 5 Gurgaon near Galleria Market & Horizon Plaza. Daily housekeeping, high security & corporate billing.",
+        "metaTitle": "Serviced Apartments DLF Phase 5 Gurgaon | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Spacious serviced apartments in DLF Phase 5 Gurgaon near Galleria Market & Horizon Plaza: entire furnished homes, not hotel rooms. Daily housekeeping, high security & corporate billing.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-dlf-phase-5-gurgaon",
         "h1": "Serviced Apartments in DLF Phase 5, Gurgaon",
         "subtitle": "Exclusive Serviced Residences Near Galleria Market & Golf Course Road",
@@ -2505,8 +2505,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-one-horizon-center-gurgaon",
-        "metaTitle": "Serviced Apartments Near One Horizon Center Gurgaon | Sandane Homes",
-        "metaDescription": "Luxury serviced apartments within 3 minutes of One Horizon Center & Horizon Plaza Gurgaon. Ideal for executive long stays, expat directors & consulting teams.",
+        "metaTitle": "Serviced Apartments Near One Horizon Center Gurgaon | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Serviced apartments within 3 minutes of One Horizon Center & Horizon Plaza Gurgaon: entire furnished homes, not hotel rooms. For executive long stays, expat directors & consulting teams.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-one-horizon-center-gurgaon",
         "h1": "Serviced Apartments Near One Horizon Center, Gurgaon",
         "subtitle": "Executive Housing Adjacent to Horizon Plaza Financial & Corporate Hub",
@@ -2585,8 +2585,8 @@ export const landingPages = [
     },
     {
         "slug": "serviced-apartments-sohna-road-gurgaon",
-        "metaTitle": "Serviced Apartments Sohna Road Gurgaon | Sandane Homes",
-        "metaDescription": "Serviced apartments near Sohna Road & Sector 48/49 Gurgaon. Fully furnished 2BHK & 3BHK suites close to tech parks, manufacturing hubs & hospitals.",
+        "metaTitle": "Serviced Apartments Sohna Road Gurgaon | Entire Homes for Expats | Residences by Sandane Homes",
+        "metaDescription": "Serviced apartments near Sohna Road & Sector 48/49 Gurgaon: entire furnished homes, not hotel rooms, close to tech parks, manufacturing hubs & hospitals. For long company stays.",
         "canonical": "https://www.sandanehomes.com/serviced-apartments-sohna-road-gurgaon",
         "h1": "Serviced Apartments on Sohna Road, Gurgaon",
         "subtitle": "Spacious Serviced Residences Near Sector 48, 49 & Tech Parks",

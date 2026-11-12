@@ -15,6 +15,7 @@ export const gurugramResidences = [
     propertyType: 'High-rise luxury condominium',
     configuration: '3BHK apartments',
     size: '2,095 – 2,595 sq.ft.',
+    sqft: [2095, 2595],
     bedrooms: 3,
     metro: 'Sector 55-56 Rapid Metro · 8 min drive',
     cyberCity: '18 min drive',
@@ -34,6 +35,7 @@ export const gurugramResidences = [
     propertyType: 'Independent builder floor',
     configuration: '4BHK private floor',
     size: '2,230 sq.ft.',
+    sqft: [2230, 2230],
     bedrooms: 4,
     metro: 'Millennium City Centre (HUDA) Metro · 8 min walk',
     cyberCity: '10 min drive',
@@ -53,6 +55,7 @@ export const gurugramResidences = [
     propertyType: 'Independent builder floor',
     configuration: '4BHK private floor',
     size: '300 sq.yd. (~2,700 sq.ft.)',
+    sqft: [2700, 2700],
     bedrooms: 4,
     metro: 'Millennium City Centre (HUDA) Metro · 4 min drive',
     cyberCity: '12 min drive',
@@ -91,13 +94,38 @@ export const gurugramHubFaqs = [
 
 export const isGurugramResidence = (slug) => gurugramResidences.some((r) => r.slug === slug);
 
+// Home sizes in plain numbers, so pages and schema.org data always agree.
+const sqftText = (n) => n.toLocaleString('en-US');
+export const residenceSqftLabel = (r) => (
+  r.sqft[0] === r.sqft[1] ? `${sqftText(r.sqft[0])} sq ft` : `${sqftText(r.sqft[0])}–${sqftText(r.sqft[1])} sq ft`
+);
+const GURUGRAM_SQFT_MIN = Math.min(...gurugramResidences.map((r) => r.sqft[0]));
+const GURUGRAM_SQFT_MAX = Math.max(...gurugramResidences.map((r) => r.sqft[1]));
+const GURUGRAM_BED_MIN = Math.min(...gurugramResidences.map((r) => r.bedrooms));
+const GURUGRAM_BED_MAX = Math.max(...gurugramResidences.map((r) => r.bedrooms));
+export const GURUGRAM_SIZE_LABEL = `${sqftText(GURUGRAM_SQFT_MIN)}–${sqftText(GURUGRAM_SQFT_MAX)} sq ft`;
+
+// One Gurugram home, as a range across the residences we run. unitCode FTK = square foot.
+export const gurugramHomeSpecSchema = {
+  '@type': 'Apartment',
+  name: 'Entire furnished 3–4 BHK serviced home in Gurugram',
+  accommodationCategory: 'Serviced apartment for long corporate stays',
+  floorSize: { '@type': 'QuantitativeValue', minValue: GURUGRAM_SQFT_MIN, maxValue: GURUGRAM_SQFT_MAX, unitCode: 'FTK' },
+  numberOfBedrooms: { '@type': 'QuantitativeValue', minValue: GURUGRAM_BED_MIN, maxValue: GURUGRAM_BED_MAX },
+};
+
 // schema.org entries shared by the client (react-helmet) and generate-seo.js
 export const gurugramResidenceSchema = (r, baseUrl = 'https://www.sandanehomes.com') => ({
   '@type': 'Accommodation',
   name: `${r.name}, ${r.sector}, Gurugram — Residences by Sandane Homes`,
   url: `${baseUrl}/${r.slug}`,
-  accommodationCategory: 'Serviced apartment',
+  accommodationCategory: 'Serviced apartment for long corporate stays',
   numberOfBedrooms: r.bedrooms,
+  floorSize: r.sqft[0] === r.sqft[1]
+    ? { '@type': 'QuantitativeValue', value: r.sqft[0], unitCode: 'FTK' }
+    : { '@type': 'QuantitativeValue', minValue: r.sqft[0], maxValue: r.sqft[1], unitCode: 'FTK' },
+  // Minimum stay is one month (see gurugramHubFaqs). unitCode MON = month.
+  leaseLength: { '@type': 'QuantitativeValue', minValue: 1, unitCode: 'MON' },
   address: {
     '@type': 'PostalAddress',
     streetAddress: r.streetAddress,

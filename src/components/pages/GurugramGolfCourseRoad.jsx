@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
 import Header from '../Header';
 import Footer from '../Footer';
 import { FaWhatsapp, FaArrowRight, FaChevronDown, FaChevronUp, FaCheckCircle, FaMapMarkerAlt, FaPhone, FaEnvelope, FaBuilding } from 'react-icons/fa';
@@ -75,8 +76,8 @@ export default function GurugramGolfCourseRoad() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Luxury Serviced Apartments on Golf Course Road Gurgaon | Near Horizon Center | Sandane"
-        description="Elite serviced apartments on Golf Course Road, DLF Phase 5 Gurgaon — steps from One Horizon Center, Apple, AMEX & Goldman Sachs offices. Fully furnished 2BHK/3BHK with 5-star housekeeping, 300 Mbps WiFi & B2B GST billing."
+        title="Serviced Apartments on Golf Course Road Gurgaon | Entire Homes for Expats | Residences by Sandane Homes"
+        description="Entire furnished homes, not hotel rooms: serviced apartments on Golf Course Road, DLF Phase 5 Gurgaon, steps from One Horizon Center, Apple, AMEX & Goldman Sachs offices. For company expats on long stays, with housekeeping, 300 Mbps WiFi & B2B GST billing."
         canonical="https://www.sandanehomes.com/gurugram/golf-course-road"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb]}
@@ -114,6 +115,8 @@ export default function GurugramGolfCourseRoad() {
           </div>
         </div>
       </div>
+
+      <EntireHomeStrip size={null} bedrooms={null} city="Gurugram" />
 
       {/* WHY GOLF COURSE ROAD */}
       <div style={{ backgroundColor: '#F7F4EF', padding: '90px 20px' }}>

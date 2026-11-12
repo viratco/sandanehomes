@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
 import Header from '../Header';
 import Footer from '../Footer';
 import { FaWhatsapp, FaArrowRight, FaChevronDown, FaChevronUp, FaCheckCircle, FaMapMarkerAlt, FaPhone, FaEnvelope, FaBuilding } from 'react-icons/fa';
@@ -72,8 +73,8 @@ export default function GurugramSushantLok() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Serviced Apartments in Sushant Lok Gurgaon | Sector 27-28 Expat Housing | Sandane"
-        description="Premium serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon. Safe, quiet residential enclave steps from Galleria Market & MG Road Metro. Fully furnished 2BHK/3BHK with daily housekeeping & B2B billing."
+        title="Serviced Apartments in Sushant Lok Gurgaon | Entire Homes for Expats | Residences by Sandane Homes"
+        description="Entire furnished homes, not hotel rooms: serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon, a safe, quiet enclave steps from Galleria Market & MG Road Metro. For company expats and families on long stays, with daily housekeeping & B2B billing."
         canonical="https://www.sandanehomes.com/gurugram/sushant-lok"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb]}
@@ -111,6 +112,8 @@ export default function GurugramSushantLok() {
           </div>
         </div>
       </div>
+
+      <EntireHomeStrip size={null} bedrooms={null} city="Gurugram" />
 
       {/* CONTENT */}
       <div style={{ backgroundColor: '#F7F4EF', padding: '90px 20px' }}>

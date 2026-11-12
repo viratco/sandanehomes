@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
 import Header from '../Header';
 import Footer from '../Footer';
 import {
@@ -81,8 +82,8 @@ export default function GurugramDLFPhase4() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Serviced Apartments in DLF Phase 4 Gurgaon | Sector 27 Corporate Stays | Sandane Homes"
-        description="Luxury serviced apartments in DLF Phase 4, Sector 27 Gurgaon. Fully furnished 2BHK & 3BHK units with daily housekeeping, 300 Mbps WiFi & direct B2B corporate billing. Near DLF Cyber City & Golf Course Road."
+        title="Serviced Apartments in DLF Phase 4 Gurgaon | Entire Homes for Expats | Residences by Sandane Homes"
+        description="Entire furnished homes, not hotel rooms: serviced apartments in DLF Phase 4, Sector 27 Gurgaon for company expats on long stays. Daily housekeeping, 300 Mbps WiFi & direct B2B corporate billing. Near DLF Cyber City & Golf Course Road."
         canonical="https://www.sandanehomes.com/gurugram/dlf-phase-4"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb]}
@@ -121,6 +122,8 @@ export default function GurugramDLFPhase4() {
           </div>
         </div>
       </div>
+
+      <EntireHomeStrip size={null} bedrooms={null} city="Gurugram" />
 
       {/* WHY DLF PHASE 4 */}
       <div style={{ backgroundColor: '#F7F4EF', padding: '90px 20px' }}>

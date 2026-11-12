@@ -6,7 +6,8 @@ import { landingPages } from './src/data/landingPages.js';
 import { japaneseCompanies } from './src/data/japaneseCompanies.js';
 import { greaterNoidaCompanies, greaterNoidaCompanyRoutes, companyPath, COPY as COMPANY_COPY } from './src/data/greaterNoidaCompanies.js';
 import { koreanStayPages, koreanStayRoutes, stayPath } from './src/data/koreanStays.js';
-import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
+import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, gurugramHomeSpecSchema, gurugramResidenceSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
+import { SANDANE_ORGANIZATION_SCHEMA, RESIDENCE_HOME_SPEC } from './src/utils/schemaHelper.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -17,9 +18,10 @@ const BASE_URL = 'https://www.sandanehomes.com';
 
 const SEO_MAP = {
   '/': {
-    title: 'Sandane Homes | Luxury Serviced Apartments & Stays in Gurugram & Delhi NCR',
-    description: 'Discover luxury serviced apartments, corporate residences and premium boutique stays by Sandane Homes in Gurugram, DLF Cyber City, and Delhi NCR.',
-    schemas: [{ "@context": "https://schema.org", "@type": "LodgingBusiness", "name": "Sandane Homes", "url": "https://www.sandanehomes.com/", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "streetAddress": "Sector 27 / DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122002", "addressCountry": "IN" }, "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"], "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" } }]
+    title: 'Sandane Homes | Boutique Hotels & Large Serviced Apartments | Greater Noida & Gurugram',
+    description: 'Sandane Homes runs boutique hotels in Greater Noida for short stays, and Residences by Sandane Homes for long stays: entire furnished 3–4 BHK homes of 2,700–3,500 sq ft for company expats and families in Greater Noida and Gurugram.',
+    // The brand itself is neither a hotel nor an apartment: it runs both, so it is an Organization.
+    schemas: [SANDANE_ORGANIZATION_SCHEMA]
   },
   '/partner-with-us': {
     title: 'Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes',
@@ -121,9 +123,9 @@ const SEO_MAP = {
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
   '/residences': {
-    title: 'Residences by Sandane Homes | Luxury Serviced Apartments in Gurugram & Delhi NCR',
-    description: 'Official portal for Residences by Sandane Homes. Fully furnished 2, 3 & 4 BHK luxury serviced apartments in Gurugram (Sector 27, DLF Phase 4, Golf Course Extension) & Delhi NCR for expats and corporate professionals. Daily housekeeping, utilities & 5-star amenities included.',
-    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residences@sandanehomes.com", "address": { "@type": "PostalAddress", "streetAddress": "Sector 27 / DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122002", "addressCountry": "IN" }, "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"], "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }, { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Invoicing", "value": true }] }, gurugramItemListSchema(BASE_URL)]
+    title: 'Residences by Sandane Homes | Large 3–4 BHK Serviced Apartments for Expats, Gurugram & Greater Noida',
+    description: 'Not hotel rooms: entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida and Gurugram, leased to companies for expat employees and families on long stays. Korean & Japanese meals, car service, daily housekeeping, GST invoice.',
+    schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residences@sandanehomes.com", "address": { "@type": "PostalAddress", "streetAddress": "Sector 27 / DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122002", "addressCountry": "IN" }, "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"], "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "containsPlace": [RESIDENCE_HOME_SPEC], "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }, { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Invoicing", "value": true }] }, gurugramItemListSchema(BASE_URL)]
   },
   '/amara': {
     title: 'Amara Inn by Sandane Homes | Luxury Boutique Hotel in Greater Noida',
@@ -151,7 +153,7 @@ const SEO_MAP = {
     schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "The Glam by Sandane Homes", "url": "https://www.sandanehomes.com/glam", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
   '/amaaltash': {
-    title: 'Amaaltash | Luxury Serviced Apartments Greater Noida | Sandane Homes',
+    title: 'Amaaltash by Sandane Homes | Luxury Boutique Hotel in Greater Noida',
     description: 'Experience comfort and elegance at Amaaltash by Sandane Homes. Beautiful rooms with common kitchenette, modern bathrooms, and high-speed WiFi for corporate travellers in Greater Noida.',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
     schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Amaaltash by Sandane Homes", "url": "https://www.sandanehomes.com/amaaltash", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Kitchenette", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
@@ -161,8 +163,8 @@ const SEO_MAP = {
     description: 'Answers to your most common questions about staying at Sandane Homes — from services and amenities to booking and corporate housing options.',
   },
   '/serviced-apartments-greater-noida': {
-    title: 'Luxury Serviced Apartments Greater Noida | Sandane Homes',
-    description: 'Fully furnished luxury serviced apartments in Greater Noida for expats & professionals. Daily housekeeping and utilities included. Just arrive.',
+    title: 'Serviced Apartments in Greater Noida | Entire 3–4 BHK Homes for Expats | Residences by Sandane Homes',
+    description: 'Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida, not hotel rooms. For company expats and families on long stays. Daily housekeeping, Korean & Japanese meals, car service, GST invoice.',
   },
   '/residences/relocation': {
     title: 'Sandane Homes Relocation Services | Corporate & Expat Relocation Greater Noida',
@@ -295,14 +297,15 @@ const SEO_MAP = {
 
 // ── Gurugram Neighbourhood Hub Pages ──
 SEO_MAP['/gurugram-corporate-housing'] = {
-  title: 'Gurugram Corporate Housing & Serviced Apartments | Sandane Homes',
-  description: 'Premium fully furnished serviced apartments in Gurugram (Gurgaon) — DLF Phase 4, Golf Course Road & Sushant Lok. B2B corporate leasing, Japanese & Korean expat housing, daily housekeeping & 300 Mbps WiFi.',
+  title: 'Gurugram Corporate Housing | Entire 3–4 BHK Serviced Apartments for Expats | Residences by Sandane Homes',
+  description: 'Entire furnished 3 & 4 BHK serviced apartments of 2,095–2,700 sq ft in Gurugram (Gurgaon), not hotel rooms. Company leases for Japanese & Korean expats and families on long stays near Golf Course Extension Road, DLF Phase 4 & Sushant Lok. Daily housekeeping, GST invoice.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
     {
       "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "Sandane Homes — Gurugram Corporate Housing",
+      "@type": "ApartmentComplex",
+      "name": "Residences by Sandane Homes — Gurugram Corporate Housing",
+      "containsPlace": [gurugramHomeSpecSchema],
       "url": "https://www.sandanehomes.com/gurugram-corporate-housing",
       "telephone": "+919711722273",
       "address": { "@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" },
@@ -326,8 +329,8 @@ SEO_MAP['/gurugram-corporate-housing'] = {
 };
 
 SEO_MAP['/gurugram/dlf-phase-4'] = {
-  title: 'Serviced Apartments in DLF Phase 4 Gurgaon | Sector 27 Corporate Stays | Sandane Homes',
-  description: 'Luxury serviced apartments in DLF Phase 4, Sector 27 Gurgaon. Fully furnished 2BHK & 3BHK with daily housekeeping, 300 Mbps WiFi & direct B2B corporate billing. Near DLF Cyber City & Golf Course Road.',
+  title: 'Serviced Apartments in DLF Phase 4 Gurgaon | Entire Homes for Expats | Residences by Sandane Homes',
+  description: 'Entire furnished homes, not hotel rooms: serviced apartments in DLF Phase 4, Sector 27 Gurgaon for company expats on long stays. Daily housekeeping, 300 Mbps WiFi & direct B2B corporate billing. Near DLF Cyber City & Golf Course Road.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
     {
@@ -352,8 +355,8 @@ SEO_MAP['/gurugram/dlf-phase-4'] = {
 };
 
 SEO_MAP['/gurugram/golf-course-road'] = {
-  title: 'Luxury Serviced Apartments on Golf Course Road Gurgaon | Near Horizon Center | Sandane',
-  description: 'Elite serviced apartments on Golf Course Road, DLF Phase 5 Gurgaon — steps from One Horizon Center, Apple, AMEX & Goldman Sachs. Fully furnished 2BHK/3BHK with 5-star housekeeping, 300 Mbps WiFi & B2B GST billing.',
+  title: 'Serviced Apartments on Golf Course Road Gurgaon | Entire Homes for Expats | Residences by Sandane Homes',
+  description: 'Entire furnished homes, not hotel rooms: serviced apartments on Golf Course Road, DLF Phase 5 Gurgaon, steps from One Horizon Center, Apple, AMEX & Goldman Sachs offices. For company expats on long stays, with housekeeping, 300 Mbps WiFi & B2B GST billing.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
     {
@@ -378,8 +381,8 @@ SEO_MAP['/gurugram/golf-course-road'] = {
 };
 
 SEO_MAP['/gurugram/sushant-lok'] = {
-  title: 'Serviced Apartments in Sushant Lok Gurgaon | Sector 27-28 Expat Housing | Sandane',
-  description: 'Premium serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon. Safe, quiet residential enclave steps from Galleria Market & MG Road Metro. Fully furnished 2BHK/3BHK with daily housekeeping & B2B billing.',
+  title: 'Serviced Apartments in Sushant Lok Gurgaon | Entire Homes for Expats | Residences by Sandane Homes',
+  description: 'Entire furnished homes, not hotel rooms: serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon, a safe, quiet enclave steps from Galleria Market & MG Road Metro. For company expats and families on long stays, with daily housekeeping & B2B billing.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
     {
@@ -475,8 +478,8 @@ SEO_MAP['/gurugram/korean-expat-housing'] = {
 // Adding a post there automatically produces a static, crawlable page here
 // plus a sitemap.xml entry below — no manual edits needed per post.
 SEO_MAP[GURUGRAM_HUB_PATH] = {
-  title: 'Serviced Apartments in Gurgaon | Residences by Sandane Homes (Gurugram)',
-  description: 'Residences by Sandane Homes in Gurgaon: fully furnished 3BHK & 4BHK serviced apartments at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27). Daily housekeeping, GST invoicing, expat support.',
+  title: 'Serviced Apartments in Gurgaon (Gurugram) | Entire 3–4 BHK Homes | Residences by Sandane Homes',
+  description: 'Not hotel rooms: entire furnished 3BHK & 4BHK serviced apartments of 2,095–2,700 sq ft at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27), Gurgaon. For company expats and families on long stays. Daily housekeeping, GST invoicing.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
     gurugramItemListSchema(BASE_URL),
@@ -562,7 +565,7 @@ blogPosts.forEach((post) => {
     },
     {
       "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
+      "@type": "Organization",
       "name": "Sandane Homes",
       "address": {
         "@type": "PostalAddress",
@@ -653,7 +656,8 @@ landingPages.forEach((page) => {
       "@type": "GeoCoordinates",
       "latitude": isGurgaon ? "28.4595" : "28.4744",
       "longitude": isGurgaon ? "77.0266" : "77.5040"
-    }
+    },
+    ...(operatedResidence && { "containsPlace": [gurugramResidenceSchema(operatedResidence, BASE_URL)] })
   });
 
   // Dynamic FAQ page schema if present

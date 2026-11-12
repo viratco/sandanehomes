@@ -1,12 +1,13 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
 import Header from '../Header';
 import Footer from '../Footer';
 import { getLandingPage } from '../../data/landingPages';
 import { FaWhatsapp, FaArrowRight, FaCalendarAlt, FaEnvelope } from 'react-icons/fa';
 import './SandaneHomes.css'; // Leverage existing premium styles
-import { isGurugramResidence, gurugramResidences, GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
+import { isGurugramResidence, gurugramResidences, residenceSqftLabel, gurugramResidenceSchema, GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
 import { GurugramResidenceCard } from '../GurugramResidencesSection';
 
 // Import high-quality property images for split hero
@@ -160,6 +161,18 @@ const LandingPage = ({ slug: propSlug }) => {
 
     const schemas = [organizationSchema, faqSchema, breadcrumbSchema].filter(Boolean);
 
+    // Size and bedroom facts for the "entire homes, not hotel rooms" strip:
+    // real figures for the Gurugram homes we run, the usual range for Greater
+    // Noida, and no figures where a page lists its own units below.
+    const operatedResidence = gurugramResidences.find(r => r.slug === page.slug);
+    // Real size and bedroom count in the page's structured data for homes we run.
+    if (operatedResidence) organizationSchema.containsPlace = [gurugramResidenceSchema(operatedResidence)];
+    const stripProps = operatedResidence
+        ? { size: residenceSqftLabel(operatedResidence), bedrooms: `${operatedResidence.bedrooms} bedrooms`, city: 'Gurugram' }
+        : isGurgaon
+            ? { size: null, bedrooms: null, city: 'Gurugram' }
+            : {};
+
     return (
         <div className="sandane-homes-page">
             <SEO
@@ -220,6 +233,8 @@ const LandingPage = ({ slug: propSlug }) => {
                     />
                 </div>
             </div>
+
+            <EntireHomeStrip {...stripProps} />
 
             {/* Property Overview & Specifications Badge */}
             {page.propertyType && (

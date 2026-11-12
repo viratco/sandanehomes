@@ -22,6 +22,8 @@ import imgGalleryDining from '../../assets/residences-gallery-dining.jpg';
 import imgGalleryTvWall from '../../assets/residences-gallery-tv-wall.jpg';
 import imgGalleryDiningSconces from '../../assets/residences-gallery-dining-sconces.jpg';
 import './SandaneHomes.css'; // Import shared CSS
+import EntireHomeStrip from '../EntireHomeStrip';
+import { RESIDENCE_HOME_SPEC } from '../../utils/schemaHelper';
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
 
 const Residences = () => {
@@ -52,8 +54,8 @@ const Residences = () => {
     }, []);
 
     const seoProps = {
-        title: "Residences by Sandane Homes | Luxury Serviced Apartments in Gurugram & Delhi NCR",
-        description: "Official portal for Residences by Sandane Homes. Fully furnished 2, 3 & 4 BHK luxury serviced apartments in Gurugram (Sector 27, DLF Phase 4, Golf Course Extension) & Delhi NCR for expats and corporate professionals. Daily housekeeping & B2B GST billing.",
+        title: "Residences by Sandane Homes | Large 3–4 BHK Serviced Apartments for Expats, Gurugram & Greater Noida",
+        description: "Not hotel rooms: entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida and Gurugram, leased to companies for expat employees and families on long stays. Korean & Japanese meals, car service, daily housekeeping, GST invoice.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: [{
@@ -86,12 +88,7 @@ const Residences = () => {
                 { "@type": "LocationFeatureSpecification", "name": "Fully Furnished", "value": true },
                 { "@type": "LocationFeatureSpecification", "name": "Laundry Facilities", "value": true }
             ],
-            "containsPlace": [
-                { "@type": "Apartment", "name": "2BHK Serviced Apartment" },
-                { "@type": "Apartment", "name": "3BHK Serviced Apartment" },
-                { "@type": "Apartment", "name": "4BHK Serviced Apartment" },
-                { "@type": "Apartment", "name": "Luxury Villa" }
-            ],
+            "containsPlace": [RESIDENCE_HOME_SPEC],
             "areaServed": [
                 "Greater Noida", "Noida", "Gurgaon", "NCR"
             ],
@@ -233,6 +230,8 @@ const Residences = () => {
             </div>
             */}
 
+            <EntireHomeStrip city="Greater Noida & Gurugram" />
+
             {/* Elegant Transition Divider */}
             <div style={{
                 display: 'flex',
@@ -265,7 +264,12 @@ const Residences = () => {
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', fontSize: '16px', color: '#555' }}>
                     <p><strong style={{ color: '#111' }}>Location:</strong> Gurgaon / Greater Noida / Noida</p>
-                    <p><strong style={{ color: '#111' }}>Options Available in:</strong> DLF / Jaypee Greens / Godrej Golf Link and other high-end societies</p>
+                    <p><strong style={{ color: '#111' }}>Options Available in:</strong>{' '}
+                        <button type="button" className="res-options-link" onClick={openResidencesEnquiry} title="Ask which homes are free now">
+                            DLF / Jaypee Greens / Godrej Golf Link
+                        </button>{' '}
+                        and other high-end societies
+                    </p>
                 </div>
 
                 {/* Aesthetic Action Buttons */}
@@ -322,41 +326,29 @@ const Residences = () => {
                     <span className="res-promise-pill">What We Do For You</span>
                     <p className="res-promise-lead">Leaving home is hard. Finding it here shouldn't be.</p>
                     <div className="res-promise-grid">
-                        <div className="res-promise-card">
-                            <FaLocationDot className="res-promise-icon" aria-hidden="true" />
-                            <h3>Property Sourcing</h3>
-                            <p>The right apartment or villa in prime NCR locations</p>
-                        </div>
-                        <div className="res-promise-card">
-                            <FaCouch className="res-promise-icon" aria-hidden="true" />
-                            <h3>Fully Furnished</h3>
-                            <p>Furniture, kitchenware and fresh linen, ready on day one</p>
-                        </div>
-                        <div className="res-promise-card">
-                            <FaCarSide className="res-promise-icon" aria-hidden="true" />
-                            <h3>Car Service</h3>
-                            <p>Our fleet picks you up from home, drops you at the office and back</p>
-                        </div>
-                        <div className="res-promise-card">
-                            <FaBowlRice className="res-promise-icon" aria-hidden="true" />
-                            <h3>Korean &amp; Japanese Meals</h3>
-                            <p>Home-style breakfast and dinner, included</p>
-                        </div>
-                        <div className="res-promise-card">
-                            <FaPeopleGroup className="res-promise-icon" aria-hidden="true" />
-                            <h3>Activities Included</h3>
-                            <p>Extracurricular activities, all covered by us</p>
-                        </div>
-                        <div className="res-promise-card">
-                            <FaWifi className="res-promise-icon" aria-hidden="true" />
-                            <h3>Always Connected</h3>
-                            <p>100% power backup and 300 Mbps Wi-Fi</p>
-                        </div>
-                        <div className="res-promise-card">
-                            <FaBroom className="res-promise-icon" aria-hidden="true" />
-                            <h3>Worry-Free Living</h3>
-                            <p>Daily housekeeping and maintenance, all handled</p>
-                        </div>
+                        {[
+                            { icon: <FaLocationDot className="res-promise-icon" aria-hidden="true" />, title: "Property Sourcing", text: "The right apartment or villa in prime NCR locations" },
+                            { icon: <FaCouch className="res-promise-icon" aria-hidden="true" />, title: "Fully Furnished", text: "Furniture, kitchenware and fresh linen, ready on day one" },
+                            { icon: <FaCarSide className="res-promise-icon" aria-hidden="true" />, title: "Car Service", text: "Our fleet picks you up from home, drops you at the office and back" },
+                            { icon: <FaBowlRice className="res-promise-icon" aria-hidden="true" />, title: "Korean & Japanese Meals", text: "Home-style breakfast and dinner, included" },
+                            { icon: <FaPeopleGroup className="res-promise-icon" aria-hidden="true" />, title: "Activities Included", text: "Extracurricular activities, all covered by us" },
+                            { icon: <FaWifi className="res-promise-icon" aria-hidden="true" />, title: "Always Connected", text: "100% power backup and 300 Mbps Wi-Fi" },
+                            { icon: <FaBroom className="res-promise-icon" aria-hidden="true" />, title: "Worry-Free Living", text: "Daily housekeeping and maintenance, all handled" }
+                        ].map((card) => (
+                            <div
+                                key={card.title}
+                                className="res-promise-card"
+                                role="button"
+                                tabIndex={0}
+                                onClick={openResidencesEnquiry}
+                                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openResidencesEnquiry(); } }}
+                            >
+                                {card.icon}
+                                <h3>{card.title}</h3>
+                                <p>{card.text}</p>
+                                <span className="res-promise-ask">Ask us about this →</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>

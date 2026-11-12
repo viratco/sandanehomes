@@ -1,0 +1,117 @@
+.entire-home-strip {
+    background: #FAF8F5;
+    border-top: 1px solid #EEE7DB;
+    border-bottom: 1px solid #EEE7DB;
+    padding: 46px 20px 38px;
+    text-align: center;
+}
+
+.entire-home-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.entire-home-eyebrow {
+    display: block;
+    color: #8B7355;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.entire-home-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(26px, 3.4vw, 34px);
+    line-height: 1.2;
+    color: #1A3C34;
+    margin: 0 0 10px;
+}
+
+.entire-home-lead {
+    max-width: 640px;
+    margin: 0 auto 26px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.entire-home-facts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.entire-home-fact {
+    background: #fff;
+    border: 1px solid #EEE7DB;
+    border-radius: 12px;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.entire-home-icon {
+    color: #C5A572;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.entire-home-fact strong {
+    color: #1A3C34;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.entire-home-fact span:last-child {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.entire-home-fork {
+    margin: 24px auto 0;
+    color: #666;
+    font-size: 14.5px;
+    line-height: 1.6;
+}
+
+.entire-home-fork a {
+    color: #8B7355;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    white-space: nowrap;
+}
+
+.entire-home-fork a:hover {
+    color: #1A3C34;
+}
+
+@media (max-width: 860px) {
+    .entire-home-facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 420px) {
+    .entire-home-strip {
+        padding: 36px 16px 30px;
+    }
+
+    .entire-home-facts {
+        gap: 10px;
+    }
+
+    .entire-home-fact {
+        padding: 16px 10px;
+    }
+
+    .entire-home-fact strong {
+        font-size: 16px;
+    }
+}

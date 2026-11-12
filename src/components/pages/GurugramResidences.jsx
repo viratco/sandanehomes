@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
 import Header from '../Header';
 import Footer from '../Footer';
 import GurugramResidencesSection from '../GurugramResidencesSection';
 import { FaWhatsapp, FaArrowRight, FaChevronDown, FaChevronUp, FaCheckCircle, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 import imgHero from '../../assets/livingroom.jpeg';
-import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
+import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_SIZE_LABEL, GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
 
 const PHONE = '919711722273';
 const HUB_URL = `https://www.sandanehomes.com${GURUGRAM_HUB_PATH}`;
@@ -85,8 +86,8 @@ export default function GurugramResidences() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Serviced Apartments in Gurgaon | Residences by Sandane Homes (Gurugram)"
-        description="Residences by Sandane Homes in Gurgaon: fully furnished 3BHK & 4BHK serviced apartments at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27). Daily housekeeping, GST invoicing, expat support."
+        title="Serviced Apartments in Gurgaon (Gurugram) | Entire 3–4 BHK Homes | Residences by Sandane Homes"
+        description="Not hotel rooms: entire furnished 3BHK & 4BHK serviced apartments of 2,095–2,700 sq ft at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27), Gurgaon. For company expats and families on long stays. Daily housekeeping, GST invoicing."
         canonical={HUB_URL}
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[gurugramItemListSchema(), faqSchema, breadcrumb]}
@@ -131,6 +132,8 @@ export default function GurugramResidences() {
         intro="Each home is furnished and run by Sandane Homes — the same team handles your booking, housekeeping and maintenance from move-in to move-out."
         showHubLink={false}
       />
+
+      <EntireHomeStrip size={GURUGRAM_SIZE_LABEL} city="Gurugram" />
 
       {/* COMPARISON */}
       <div style={{ backgroundColor: '#fff', padding: '90px 20px' }}>

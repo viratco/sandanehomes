@@ -13,20 +13,16 @@ import ContactSection from '../ContactSection';
 import ReservationSeparator from '../ReservationSeparator';
 import Footer from '../Footer';
 import ExpatPopupBar from '../ExpatPopupBar';
-import { createLodgingSchema } from '../../utils/schemaHelper';
+import { SANDANE_ORGANIZATION_SCHEMA } from '../../utils/schemaHelper';
 
-const homeSchema = createLodgingSchema({
-    name: "Sandane Homes",
-    url: "https://www.sandanehomes.com/",
-    description: "Discover luxury serviced apartments, corporate residences and premium stays by Sandane Homes in Gurugram, DLF Cyber City, and Delhi NCR. 5-star amenities, professional hospitality, and turnkey comfort."
-});
+const homeSchema = SANDANE_ORGANIZATION_SCHEMA;
 
 const Home = () => {
     return (
         <div className="home">
             <SEO
-                title="Sandane Homes | Luxury Serviced Apartments & Stays in Gurugram & Delhi NCR"
-                description="Discover luxury serviced apartments, corporate residences and premium stays by Sandane Homes in Gurugram, DLF Cyber City, and Delhi NCR. 5-star amenities, professional hospitality, and turnkey comfort."
+                title="Sandane Homes | Boutique Hotels & Large Serviced Apartments | Greater Noida & Gurugram"
+                description="Sandane Homes runs boutique hotels in Greater Noida for short stays, and Residences by Sandane Homes for long stays: entire furnished 3–4 BHK homes of 2,700–3,500 sq ft for company expats and families in Greater Noida and Gurugram."
                 canonical="https://www.sandanehomes.com/"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 schema={homeSchema}

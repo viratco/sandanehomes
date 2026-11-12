@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaPassport, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
-import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl } from '../utils/contact';
+import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp } from '../utils/contact';
 import './ResidencesLeadPopup.css';
 
 // Two-step enquiry popup for the Residences page.
@@ -197,6 +197,7 @@ const ResidencesLeadPopup = () => {
     const onContactClick = (channel) => {
         track('residences_popup_contact', { channel, audience: audience || 'none' });
         if (typeof window.gtag === 'function') window.gtag('event', 'ads_conversion_Purchase_1', {});
+        if (channel === 'call') showCallHelp();
     };
 
     const submit = async (e) => {

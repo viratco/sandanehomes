@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
+import { RESIDENCE_HOME_SPEC } from '../../utils/schemaHelper';
 import Header from '../Header';
 import Footer from '../Footer';
 import heroBg from '../../assets/e8cd7b2a-95fc-418d-9ca2-357008d2aa61.JPG'; // Using existing hero image
@@ -71,7 +73,8 @@ const ServicedApartmentsGreaterNoida = () => {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
         "name": "Residences by Sandane Homes — Greater Noida",
-        "description": "Fully furnished luxury serviced apartments in Greater Noida for expats and corporate professionals.",
+        "description": "Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida, leased to companies for expat employees and their families on long stays.",
+        "containsPlace": [RESIDENCE_HOME_SPEC],
         "url": "https://www.sandanehomes.com/serviced-apartments-greater-noida",
         "telephone": "+919711722273",
         "address": {
@@ -129,8 +132,8 @@ const ServicedApartmentsGreaterNoida = () => {
     };
 
     const seoProps = {
-        title: "Luxury Serviced Apartments Greater Noida | Sandane Homes",
-        description: "Fully furnished luxury serviced apartments in Greater Noida for expats & professionals. Daily housekeeping and utilities included. Just arrive.",
+        title: "Serviced Apartments in Greater Noida | Entire 3–4 BHK Homes for Expats | Residences by Sandane Homes",
+        description: "Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida, not hotel rooms. For company expats and families on long stays. Daily housekeeping, Korean & Japanese meals, car service, GST invoice.",
         canonical: "https://www.sandanehomes.com/serviced-apartments-greater-noida",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: [apartmentComplexSchema, faqSchema, breadcrumbSchema]
@@ -175,7 +178,7 @@ const ServicedApartmentsGreaterNoida = () => {
                     Luxury Serviced Apartments in Greater Noida
                 </h1>
                 <p className="catarina-subtitle" style={{ fontSize: '24px', maxWidth: '800px', margin: '20px auto 40px auto', letterSpacing: '1px', textTransform: 'none' }}>
-                    Fully furnished. Daily housekeeping. Everything handled. Just arrive.
+                    Entire 3–4 BHK homes of 2,700–3,500 sq ft. Fully furnished, daily housekeeping, everything handled for company expats and their families.
                 </p>
                 <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
                     <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" style={{
@@ -199,6 +202,8 @@ const ServicedApartmentsGreaterNoida = () => {
                     </a>
                 </div>
             </div>
+
+            <EntireHomeStrip />
 
             {/* Section 2 - Introduction paragraph */}
             <div className="catarina-section" style={{ backgroundColor: '#f9f9f9', padding: '80px 20px' }}>

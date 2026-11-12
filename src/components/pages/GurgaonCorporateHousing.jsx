@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import EntireHomeStrip from '../EntireHomeStrip';
+import { gurugramHomeSpecSchema, GURUGRAM_SIZE_LABEL } from '../../data/gurugramResidences';
 import Header from '../Header';
 import Footer from '../Footer';
 import {
@@ -124,12 +126,12 @@ export default function GurgaonCorporateHousing() {
 
   const businessSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LodgingBusiness',
-    name: 'Sandane Homes — Gurugram Corporate Housing',
+    '@type': 'ApartmentComplex',
+    name: 'Residences by Sandane Homes — Gurugram Corporate Housing',
     url: 'https://www.sandanehomes.com/gurugram-corporate-housing',
     telephone: '+919711722273',
-    email: 'B2B@sandanehomes.com',
-    description: 'Premium fully furnished serviced apartments and corporate housing in Gurugram (Gurgaon). Serving DLF Phase 4, Golf Course Road, Sushant Lok, and expat communities from Japan and Korea.',
+    description: 'Entire furnished 3 and 4 BHK serviced apartments in Gurugram (Gurgaon), leased to companies for expat employees and their families on long stays. Serving DLF Phase 4, Golf Course Road, Sushant Lok, and expat communities from Japan and Korea.',
+    containsPlace: [gurugramHomeSpecSchema],
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Gurugram',
@@ -159,8 +161,8 @@ export default function GurgaonCorporateHousing() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Gurugram Corporate Housing & Serviced Apartments | Sandane Homes"
-        description="Premium fully furnished serviced apartments in Gurugram (Gurgaon) — DLF Phase 4, Golf Course Road & Sushant Lok. B2B corporate leasing, Japanese & Korean expat housing, daily housekeeping & 300 Mbps WiFi."
+        title="Gurugram Corporate Housing | Entire 3–4 BHK Serviced Apartments for Expats | Residences by Sandane Homes"
+        description="Entire furnished 3 & 4 BHK serviced apartments of 2,095–2,700 sq ft in Gurugram (Gurgaon), not hotel rooms. Company leases for Japanese & Korean expats and families on long stays near Golf Course Extension Road, DLF Phase 4 & Sushant Lok. Daily housekeeping, GST invoice."
         canonical="https://www.sandanehomes.com/gurugram-corporate-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[businessSchema, faqSchema, breadcrumbSchema]}
@@ -294,6 +296,8 @@ export default function GurgaonCorporateHousing() {
           <FaChevronDown style={{ animation: 'bounce 2s infinite' }} />
         </div>
       </div>
+
+      <EntireHomeStrip size={GURUGRAM_SIZE_LABEL} city="Gurugram" />
 
       {/* ── NEIGHBOURHOOD PAGES GRID ── */}
       <div style={{ backgroundColor: '#F7F4EF', padding: '100px 20px' }}>
