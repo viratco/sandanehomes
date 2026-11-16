@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaMapMarkerAlt, FaArrowRight, FaTrain, FaBuilding } from 'react-icons/fa';
 import { gurugramResidences, GURUGRAM_HUB_PATH } from '../data/gurugramResidences';
-import imgElevate from '../assets/building-partner-hero.jpg';
-import imgGreenMeadows from '../assets/IMG_6221.jpg';
-import imgSushantLok from '../assets/IMG_7254.jpg';
+import imgElevate from '../assets/gurugram-elevate-sector-58.webp';
+import imgGreenMeadows from '../assets/gurugram-green-meadows-sector-27.webp';
+import imgSushantLok from '../assets/gurugram-sushant-lok-block-b.webp';
 
-// Swap these for real photos of each Gurugram unit when available.
 const IMAGES = {
   'elevate-hines-sector-58-gurgaon': imgElevate,
   'green-meadows-sector-27-gurgaon': imgGreenMeadows,
