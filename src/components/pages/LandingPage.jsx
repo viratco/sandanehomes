@@ -26,13 +26,17 @@ import imgEngineers from '../../assets/IMG_6234.jpg';
 import imgVilla from '../../assets/glam_main.jpg';
 import imgBuildingHero from '../../assets/building-partner-hero.jpg';
 import imgLivingRoom from '../../assets/livingroom.jpeg';
+// Photos of the homes we run in Gurugram (same ones as the residence cards)
+import imgElevate from '../../assets/gurugram-elevate-sector-58.webp';
+import imgGreenMeadows from '../../assets/gurugram-green-meadows-sector-27.webp';
+import imgSushantLokB from '../../assets/gurugram-sushant-lok-block-b.webp';
 
 const getHeroImage = (slug) => {
     switch (slug) {
         case 'dlf-park-place-sector-54-gurgaon':
             return imgLivingRoom;
         case 'elevate-hines-sector-58-gurgaon':
-            return imgBuildingHero;
+            return imgElevate;
         case 'the-grand-arch-sector-58-gurgaon':
             return imgVilla;
         case 'emaar-digi-homes-sector-62-gurgaon':
@@ -42,8 +46,10 @@ const getHeroImage = (slug) => {
         case 'm3m-golfestate-sector-65-gurgaon':
             return imgJaypee;
         case 'green-meadows-sector-27-gurgaon':
-        case 'sushant-lok-block-a-sector-27-gurgaon':
+            return imgGreenMeadows;
         case 'sushant-lok-block-b-sector-27-gurgaon':
+            return imgSushantLokB;
+        case 'sushant-lok-block-a-sector-27-gurgaon':
         case 'dlf-phase-4-sector-27-gurgaon':
         case 'green-avenue-sector-27-gurgaon':
             return imgFurnished;
@@ -186,7 +192,7 @@ const LandingPage = ({ slug: propSlug }) => {
 
             {/* Split Hero Section */}
             <div className="sandane-hero-split">
-                <div className="sandane-hero-text" style={{ padding: '80px 8%' }}>
+                <div className="sandane-hero-text landing-hero-text" style={{ padding: '80px 8%' }}>
                     {isOperatedGurugramResidence && (
                         <nav aria-label="Breadcrumb" style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', fontSize: '13px', marginBottom: '18px' }}>
                             <Link to="/residences" style={{ color: '#8B7355', textDecoration: 'none' }}>Residences</Link>
@@ -205,7 +211,7 @@ const LandingPage = ({ slug: propSlug }) => {
                     <p style={{ fontSize: '18px', color: '#8B7355', fontStyle: 'italic', marginBottom: '30px', fontFamily: 'Playfair Display, serif' }}>
                         {page.subtitle}
                     </p>
-                    <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
+                    <div className="landing-hero-cta" style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
                         <a
                             href={`https://wa.me/${PHONE}?text=Hello%20Sandane%20Homes%2C%20I%20am%20interested%20in%20serviced%20apartments%20at%20${page.slug}`}
                             target="_blank" rel="noopener noreferrer"
@@ -229,7 +235,7 @@ const LandingPage = ({ slug: propSlug }) => {
                     <img
                         src={getHeroImage(page.slug)}
                         alt={page.h1}
-                        className="sandane-hero-img-el"
+                        className={`sandane-hero-img-el${isOperatedGurugramResidence ? ' landing-hero-img-center' : ''}`}
                     />
                 </div>
             </div>

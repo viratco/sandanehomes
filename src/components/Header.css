@@ -243,6 +243,24 @@
     display: none;
 }
 
+/* Small laptops (1025–1200px): the menu box and the centred logo share one
+   row, so both are tightened a little to stay clear of each other. */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .nav-list {
+        padding: 0 6px;
+        letter-spacing: 0.5px;
+    }
+
+    .nav-item {
+        padding: 12px 8px;
+    }
+
+    .logo-container {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+}
+
 /* ====================================================
    RESPONSIVE: TABLET & BELOW (≤ 1024px)
    ==================================================== */

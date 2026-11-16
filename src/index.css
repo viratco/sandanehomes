@@ -327,6 +327,14 @@ body {
   margin-bottom: 20px;
 }
 
+.editorial-glass-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4A463F;
+  font-family: Georgia, serif;
+  margin: 0;
+}
+
 .editorial-subtext {
   font-size: 15px;
   line-height: 1.8;
@@ -432,55 +440,148 @@ body {
   display: block;
 }
 
-/* Tablet Responsiveness */
-@media (max-width: 1280px) {
+/* Laptop widths (1025-1519px): the desktop composition scaled to the screen,
+   so the title, photos and text keep their places and never run into each other.
+   --eu is one pixel of the 1520px-wide desktop design. The left column is in
+   normal flow here, so the hero grows with its text instead of a fixed height. */
+@media (min-width: 1025px) and (max-width: 1519px) {
   .editorial-container {
-    max-width: 95%;
+    --eu: calc(100vw / 1520);
+    max-width: none;
+    height: auto;
+    padding-top: calc(280 * var(--eu));
+    padding-bottom: calc(93 * var(--eu));
   }
-  .editorial-left-col {
-    left: -40px;
-    width: 30%;
-  }
-  .editorial-right-col {
-    right: -40px;
-    width: 38%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .editorial-container {
-    height: 1110px; /* content ends ~1085px at tablet widths */
+  .editorial-title-bg {
+    top: calc(150 * var(--eu));
   }
   .editorial-title-bg h1,
   .editorial-title-bg .editorial-line-1 {
-    font-size: 80px;
+    font-size: calc(110 * var(--eu));
   }
   .editorial-title-bg h1:last-child,
   .editorial-title-bg .editorial-line-2 {
-    font-size: 90px;
+    font-size: calc(120 * var(--eu));
+    margin-top: calc(10 * var(--eu));
   }
   .editorial-left-col {
-    left: 20px;
-    width: 35%;
-  }
-  .editorial-right-col {
-    right: 20px;
-    width: 40%;
-  }
-  .editorial-center-col {
-    left: 20%;
-    width: 60%;
-    top: 480px;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-left: -6.58%;
+    width: 23.95%;
   }
   .editorial-left-text {
-    margin-left: 60px;
-    margin-top: -60px;
+    margin-top: calc(-130 * var(--eu));
+    margin-left: calc(150 * var(--eu));
+    min-width: 0;
+    width: max(330px, calc(340 * var(--eu)));
+  }
+  .editorial-glass-card p,
+  .editorial-subtext,
+  .editorial-right-text {
+    font-size: clamp(13.5px, calc(15 * var(--eu)), 15px);
+  }
+  .editorial-cta {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .editorial-cta-btn {
+    padding: 11px 14px;
+    white-space: nowrap;
+  }
+  .editorial-center-col {
+    top: calc(400 * var(--eu));
+    left: 29.74%;
+    width: 40.53%;
+  }
+  .editorial-right-col {
+    top: max(76px, calc(80 * var(--eu)));
+    right: -6.58%;
+    width: 32.24%;
+  }
+  .editorial-right-inner {
+    padding: calc(60 * var(--eu)) calc(120 * var(--eu)) 0 calc(30 * var(--eu));
+  }
+  .editorial-right-text {
+    margin-bottom: calc(40 * var(--eu));
+  }
+}
+
+/* Tablet widths (769-1024px): title sits top-left, the arch and its text
+   top-right, photos below. --eu is one pixel of a 1024px-wide design. */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .editorial-container {
+    --eu: calc(100vw / 1024);
+    max-width: none;
+    height: auto;
+    padding-top: calc(370 * var(--eu));
+    padding-bottom: calc(60 * var(--eu));
+  }
+  .editorial-title-bg {
+    top: calc(150 * var(--eu));
+    left: 4.5%;
+    width: auto;
+    text-align: left;
+  }
+  .editorial-title-bg h1,
+  .editorial-title-bg .editorial-line-1 {
+    font-size: calc(78 * var(--eu));
+  }
+  .editorial-title-bg h1:last-child,
+  .editorial-title-bg .editorial-line-2 {
+    font-size: calc(86 * var(--eu));
+    margin-top: calc(8 * var(--eu));
+  }
+  .editorial-left-col {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-left: 4.5%;
+    width: 33%;
+  }
+  .editorial-left-text {
+    margin-top: calc(-110 * var(--eu));
+    margin-left: calc(60 * var(--eu));
+    min-width: 0;
+    width: max(320px, calc(330 * var(--eu)));
+  }
+  .editorial-glass-card p,
+  .editorial-subtext,
+  .editorial-right-text {
+    font-size: clamp(13.5px, calc(15 * var(--eu)), 15px);
+  }
+  .editorial-cta {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .editorial-cta-btn {
+    padding: 11px 14px;
+    white-space: nowrap;
+  }
+  .editorial-center-col {
+    top: calc(530 * var(--eu));
+    left: 28%;
+    width: 44%;
+  }
+  .editorial-right-col {
+    top: calc(110 * var(--eu));
+    right: 2.5%;
+    width: 38%;
+    z-index: 1; /* the centre photo overlaps the arch here, so it goes in front */
+  }
+  .editorial-right-inner {
+    padding: calc(60 * var(--eu)) calc(40 * var(--eu)) 0;
+  }
+  .editorial-right-text {
+    margin-bottom: calc(30 * var(--eu));
   }
 }
 
 /* Mobile Responsiveness - Flex Column stack */
 @media (max-width: 768px) {
   .editorial-container {
+    max-width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;

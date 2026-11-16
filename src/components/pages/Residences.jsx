@@ -151,7 +151,7 @@ const Residences = () => {
                     <div className="editorial-left-text">
                         {/* Glassmorphic card for high readability on photographic background */}
                         <div className="editorial-glass-card">
-                            <p style={{ fontSize: '15px', lineHeight: '1.8', color: '#4A463F', fontFamily: 'Georgia, serif', margin: 0 }}>
+                            <p>
                                 Found in the heart of the NCR, <i>Sandane Residences</i> is a 5-star boutique living experience, encompassing fully-serviced apartments and holistic comfort.
                             </p>
                         </div>
