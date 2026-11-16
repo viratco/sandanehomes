@@ -56,6 +56,9 @@ const GurugramResidencesSection = ({
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '28px' }}>
         {gurugramResidences.map((r) => <GurugramResidenceCard key={r.slug} r={r} />)}
       </div>
+      <p style={{ color: '#8B7355', fontSize: '14px', lineHeight: 1.6, fontStyle: 'italic', margin: '22px auto 0', maxWidth: '640px' }}>
+        The photos above are of homes we have already delivered.
+      </p>
       {showHubLink && (
         <Link to={GURUGRAM_HUB_PATH} style={{ display: 'inline-flex', alignItems: 'center', gap: '9px', marginTop: '46px', backgroundColor: '#1A3C34', color: '#fff', padding: '15px 34px', borderRadius: '40px', textDecoration: 'none', fontSize: '14px', fontWeight: '600', letterSpacing: '1.5px' }}>
           ALL SERVICED APARTMENTS IN GURGAON <FaArrowRight size={12} />
