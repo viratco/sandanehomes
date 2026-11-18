@@ -239,7 +239,15 @@
     font-size: 13.5px;
     color: #7A6553;
 }
-.rlp-quick a {
+.rlp-quick a,
+.rlp-quick button {
+    padding: 0;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font: inherit;
+    cursor: pointer;
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -287,6 +295,9 @@
 .rlp-btn:hover { filter: brightness(1.05); transform: translateY(-1px); }
 .rlp-btn-wa { background: #1F9D55; color: #fff; }
 .rlp-btn-call { background: #FFFDF9; color: #4A3322; border-color: #B88B5A; }
+.rlp-fast-msg { margin-top: 10px; }
+.rlp-btn-kakao { background: #FEE500; color: #191919; }
+.rlp-btn-line { background: #06C755; color: #fff; }
 .rlp-btn-submit {
     width: 100%;
     margin-top: 6px;
@@ -359,4 +370,5 @@
     .rlp-step-num { flex-shrink: 0; }
     .rlp-row { flex-direction: column; gap: 10px; }
     .rlp-btn { flex-basis: 100%; }
+    .rlp-fast-msg .rlp-btn { flex-basis: calc(50% - 5px); }
 }

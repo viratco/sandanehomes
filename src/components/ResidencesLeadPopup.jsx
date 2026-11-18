@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
-import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp } from '../utils/contact';
+import { SiKakaotalk, SiLine } from 'react-icons/si';
+import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp, showMessengerHelp } from '../utils/contact';
 import './ResidencesLeadPopup.css';
 
 // Two-step enquiry popup for the Residences page.
@@ -194,6 +195,7 @@ const ResidencesLeadPopup = () => {
         track('residences_popup_contact', { channel, audience: audience || 'none' });
         if (typeof window.gtag === 'function') window.gtag('event', 'ads_conversion_Purchase_1', {});
         if (channel === 'call') showCallHelp();
+        if (channel === 'kakao' || channel === 'line') showMessengerHelp(channel);
     };
 
     const submit = async (e) => {
@@ -299,6 +301,12 @@ const ResidencesLeadPopup = () => {
                             <a href={`tel:+${CALL_NUMBER}`} onClick={() => onContactClick('call')}>
                                 <FaPhone aria-hidden="true" /> Call
                             </a>
+                            <button type="button" onClick={() => onContactClick('kakao')}>
+                                <SiKakaotalk aria-hidden="true" /> KakaoTalk
+                            </button>
+                            <button type="button" onClick={() => onContactClick('line')}>
+                                <SiLine aria-hidden="true" /> LINE
+                            </button>
                         </div>
                     </div>
                 )}
@@ -351,6 +359,14 @@ const ResidencesLeadPopup = () => {
                             <a className="rlp-btn rlp-btn-call" href={`tel:+${CALL_NUMBER}`} onClick={() => onContactClick('call')}>
                                 <FaPhone aria-hidden="true" /> Call {CALL_DISPLAY}
                             </a>
+                        </div>
+                        <div className="rlp-fast rlp-fast-msg">
+                            <button type="button" className="rlp-btn rlp-btn-kakao" onClick={() => onContactClick('kakao')}>
+                                <SiKakaotalk aria-hidden="true" /> KakaoTalk
+                            </button>
+                            <button type="button" className="rlp-btn rlp-btn-line" onClick={() => onContactClick('line')}>
+                                <SiLine aria-hidden="true" /> LINE
+                            </button>
                         </div>
 
                         <div className="rlp-or"><span>or leave your details and we’ll call you back</span></div>
