@@ -36,6 +36,8 @@ import CompanyAccommodation from './components/pages/CompanyAccommodation';
 import { greaterNoidaCompanyRoutes } from './data/greaterNoidaCompanies';
 import KoreanStayPage from './components/pages/KoreanStayPage';
 import { koreanStayRoutes } from './data/koreanStays';
+import ResidenceSearchPage from './components/pages/ResidenceSearchPage';
+import { residenceSearchPages } from './data/residenceSearchPages';
 import WhatsAppButton from './components/WhatsAppButton';
 import OwnerClickTracker from './components/OwnerClickTracker';
 
@@ -134,6 +136,11 @@ function App() {
           {/* Korean stays in Greater Noida: guest house, apartments (EN / KO) */}
           {koreanStayRoutes.map((r) => (
             <Route key={r.path} path={r.path} element={<KoreanStayPage slug={r.slug} lang={r.lang} />} />
+          ))}
+
+          {/* Residences pages for common searches (long stay, furnished house for rent, guest house, …) */}
+          {residenceSearchPages.map((p) => (
+            <Route key={p.slug} path={`/${p.slug}`} element={<ResidenceSearchPage slug={p.slug} />} />
           ))}
         </Routes>
         <WhatsAppButton />

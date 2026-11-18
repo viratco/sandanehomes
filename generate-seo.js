@@ -9,6 +9,8 @@ import { koreanStayPages, koreanStayRoutes, stayPath } from './src/data/koreanSt
 import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, gurugramHomeSpecSchema, gurugramResidenceSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
 import { SANDANE_ORGANIZATION_SCHEMA, RESIDENCE_HOME_SPEC } from './src/utils/schemaHelper.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
+import { residenceSearchPages, indexedResidenceSearchPages } from './src/data/residenceSearchPages.js';
+import { residenceSearchSchemas } from './src/utils/residenceSearchSchemas.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -697,6 +699,18 @@ landingPages.forEach((page) => {
   };
 });
 
+// ── Residences pages for common searches (src/data/residenceSearchPages.js) ──
+residenceSearchPages.forEach((page) => {
+  SEO_MAP[`/${page.slug}`] = {
+    title: page.metaTitle,
+    description: page.metaDescription,
+    ogImage: `${BASE_URL}/residences-og.jpg`,
+    // Pages for areas we don't serve point Google at the page that does.
+    ...(page.canonicalPath && { canonicalUrl: `${BASE_URL}${page.canonicalPath}` }),
+    schemas: residenceSearchSchemas(page, BASE_URL),
+  };
+});
+
 // ── Dedicated Japanese MNC Company Expat Housing Pages ──
 japaneseCompanies.forEach((comp) => {
   const isGurgaon = comp.city.toLowerCase().includes('gurugram') || comp.city.toLowerCase().includes('gurgaon');
@@ -856,7 +870,7 @@ const prerenderFailures = [];
 
 Object.keys(SEO_MAP).forEach((route) => {
   const seo = SEO_MAP[route];
-  const canonical = `${BASE_URL}${route === '/' ? '' : route}`;
+  const canonical = seo.canonicalUrl || `${BASE_URL}${route === '/' ? '' : route}`;
   const ogImage = seo.ogImage || `${BASE_URL}/residences-og.jpg`;
 
   // Start with the original HTML
@@ -1184,6 +1198,11 @@ function buildSitemapXml() {
     }
   });
 
+  // 2b. Residences pages for common searches
+  indexedResidenceSearchPages.forEach((page) => {
+    xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
+  });
+
   // 3. Gurugram Neighbourhood Hubs & Partner Pages (Priority 0.9)
   const gurugramHubs = [
     '/gurugram/dlf-phase-4',
@@ -1302,6 +1321,11 @@ function buildResidencesSitemapXml() {
     if (isGurgaon) {
       xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
     }
+  });
+
+  // Residences pages for common searches
+  indexedResidenceSearchPages.forEach((page) => {
+    xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
   });
 
   // Japanese & MNC Corporate Expat Housing Pages in Gurugram & NCR

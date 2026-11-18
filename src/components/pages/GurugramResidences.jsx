@@ -5,6 +5,7 @@ import EntireHomeStrip from '../EntireHomeStrip';
 import Header from '../Header';
 import Footer from '../Footer';
 import GurugramResidencesSection from '../GurugramResidencesSection';
+import ResidenceSearchLinks from '../ResidenceSearchLinks';
 import { FaWhatsapp, FaArrowRight, FaChevronDown, FaChevronUp, FaCheckCircle, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 import imgHero from '../../assets/livingroom.jpeg';
 import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, GURUGRAM_SIZE_LABEL, GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
@@ -235,6 +236,8 @@ export default function GurugramResidences() {
           <a href="mailto:B2B@sandanehomes.com" style={{ color: '#C5A572', textDecoration: 'none', fontSize: '15px', display: 'flex', gap: '6px', alignItems: 'center' }}><FaEnvelope size={13} /> B2B@sandanehomes.com</a>
         </div>
       </div>
+
+      <ResidenceSearchLinks city="gurugram" />
 
       <Footer isResidences={true} />
     </div>
