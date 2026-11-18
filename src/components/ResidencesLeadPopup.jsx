@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaPassport, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
+import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
 import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp } from '../utils/contact';
 import './ResidencesLeadPopup.css';
 
@@ -40,7 +40,6 @@ const CONTENT = {
         lead: 'Over 5 years of hosting expats and corporate teams across Delhi NCR. Here is what HR and admin teams get:',
         stats: [
             { big: '5+', small: 'years hosting expats' },
-            { big: '24h', small: 'Form C filing' },
             { big: '1', small: 'GST invoice a month' },
         ],
         groups: [
@@ -48,7 +47,6 @@ const CONTENT = {
                 heading: 'Less paperwork for you',
                 items: [
                     { icon: FaFileInvoice, text: 'We invoice your company directly with GST, so your employees never deal with rent, deposits or landlords' },
-                    { icon: FaPassport, text: 'Form C filed within 24 hours of each foreign guest’s arrival' },
                     { icon: FaUserTie, text: 'One contact for every employee and client you send us' },
                     { icon: FaPeopleGroup, text: 'One guest or a whole team, under one booking' },
                 ],
@@ -79,7 +77,6 @@ const CONTENT = {
         lead: 'Over 5 years of hosting expats across Delhi NCR. Everything is taken care of:',
         stats: [
             { big: '5+', small: 'years hosting expats' },
-            { big: '24h', small: 'Form C filing' },
             { big: '300', small: 'Mbps Wi-Fi' },
         ],
         groups: [
@@ -89,7 +86,6 @@ const CONTENT = {
                     { icon: FaCouch, text: 'Fully furnished: furniture, kitchenware and fresh linen' },
                     { icon: FaBroom, text: 'Daily housekeeping, with maintenance handled for you' },
                     { icon: FaWifi, text: '300 Mbps Wi-Fi and 100% power backup' },
-                    { icon: FaPassport, text: 'Form C filed within 24 hours of your arrival' },
                 ],
             },
             {

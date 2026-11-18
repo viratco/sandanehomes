@@ -151,7 +151,7 @@
 
 .rlp-lead { margin: 0 0 16px; font-size: 14px; line-height: 1.55; color: #6A5544; }
 
-.rlp-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+.rlp-stats { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 10px; margin-bottom: 18px; }
 .rlp-stat {
     padding: 12px 8px 10px;
     border-radius: 14px;
