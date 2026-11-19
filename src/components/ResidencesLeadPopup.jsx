@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
 import { SiKakaotalk, SiLine } from 'react-icons/si';
-import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp, LINE_URL, KAKAO_URL } from '../utils/contact';
+import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp, showKakaoHelp, LINE_URL, KAKAO_URL } from '../utils/contact';
 import './ResidencesLeadPopup.css';
 
 // Two-step enquiry popup for the Residences page.
@@ -300,7 +300,7 @@ const ResidencesLeadPopup = () => {
                             <a href={`tel:+${CALL_NUMBER}`} onClick={() => onContactClick('call')}>
                                 <FaPhone aria-hidden="true" /> Call
                             </a>
-                            <a href={KAKAO_URL} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('kakao')}>
+                            <a href={KAKAO_URL} target="_blank" rel="noopener noreferrer" onClick={(e) => { if (showKakaoHelp()) e.preventDefault(); onContactClick('kakao'); }}>
                                 <SiKakaotalk aria-hidden="true" /> KakaoTalk
                             </a>
                             <a href={LINE_URL} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('line')}>
@@ -360,7 +360,7 @@ const ResidencesLeadPopup = () => {
                             </a>
                         </div>
                         <div className="rlp-fast rlp-fast-msg">
-                            <a className="rlp-btn rlp-btn-kakao" href={KAKAO_URL} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('kakao')}>
+                            <a className="rlp-btn rlp-btn-kakao" href={KAKAO_URL} target="_blank" rel="noopener noreferrer" onClick={(e) => { if (showKakaoHelp()) e.preventDefault(); onContactClick('kakao'); }}>
                                 <SiKakaotalk aria-hidden="true" /> KakaoTalk
                             </a>
                             <a className="rlp-btn rlp-btn-line" href={LINE_URL} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('line')}>

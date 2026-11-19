@@ -23,7 +23,7 @@ export const currentPageName = () => {
   return title || window.location.pathname;
 };
 
-// Small notice at the bottom of the screen (used for call help).
+// Small notice at the bottom of the screen (used for call and KakaoTalk help).
 const showToast = (html, ms) => {
   const old = document.getElementById('call-help-toast');
   if (old) old.remove();
@@ -51,6 +51,23 @@ const copyText = (text) => {
     }
   } catch { /* ignore */ }
   return false;
+};
+
+// Kakao's chat link only opens the app on an iPhone/iPad or Android phone; on a
+// computer Kakao sends it to kakaocorp.com. There we show our KakaoTalk QR code
+// to scan with the phone instead. Returns true when the link should not be followed.
+export const showKakaoHelp = () => {
+  if (typeof window === 'undefined') return false;
+  if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '')) return false;
+  showToast(
+    `<button type="button" aria-label="Close" onclick="this.parentNode.remove()" style="position:absolute;top:6px;right:10px;background:none;border:0;color:#E8C796;font-size:20px;line-height:1;cursor:pointer">×</button>` +
+    `<span style="display:block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#E8C796;margin-bottom:8px">KakaoTalk</span>` +
+    `<img src="/images/kakao-qr.png" alt="Sandane Homes KakaoTalk QR code" width="160" height="160" style="display:block;margin:0 auto 10px;padding:8px;background:#fff;border-radius:10px">` +
+    `<span style="display:block">Scan with KakaoTalk on your phone to chat with us.</span>` +
+    `<span style="display:block;margin-top:2px;color:#E8C796">휴대폰 카카오톡으로 QR 코드를 스캔해 주세요.</span>`,
+    30000,
+  );
+  return true;
 };
 
 // On a laptop or desktop a tel: link often opens nothing, so the click feels dead.
