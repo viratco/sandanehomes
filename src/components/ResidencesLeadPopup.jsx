@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { FaXmark, FaCarSide, FaBowlRice, FaUserTie, FaFileInvoice, FaCouch, FaBroom, FaLocationDot, FaWhatsapp, FaPhone, FaCircleCheck, FaArrowLeft, FaWifi, FaPeopleGroup, FaCalendarDays, FaKey, FaHandshake } from 'react-icons/fa6';
 import { SiKakaotalk, SiLine } from 'react-icons/si';
-import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp, showMessengerHelp } from '../utils/contact';
+import { WHATSAPP_DISPLAY, CALL_NUMBER, CALL_DISPLAY, whatsappUrl, showCallHelp, showMessengerHelp, LINE_URL } from '../utils/contact';
 import './ResidencesLeadPopup.css';
 
 // Two-step enquiry popup for the Residences page.
@@ -195,7 +195,7 @@ const ResidencesLeadPopup = () => {
         track('residences_popup_contact', { channel, audience: audience || 'none' });
         if (typeof window.gtag === 'function') window.gtag('event', 'ads_conversion_Purchase_1', {});
         if (channel === 'call') showCallHelp();
-        if (channel === 'kakao' || channel === 'line') showMessengerHelp(channel);
+        if (channel === 'kakao') showMessengerHelp(channel);
     };
 
     const submit = async (e) => {
@@ -304,9 +304,9 @@ const ResidencesLeadPopup = () => {
                             <button type="button" onClick={() => onContactClick('kakao')}>
                                 <SiKakaotalk aria-hidden="true" /> KakaoTalk
                             </button>
-                            <button type="button" onClick={() => onContactClick('line')}>
+                            <a href={LINE_URL} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('line')}>
                                 <SiLine aria-hidden="true" /> LINE
-                            </button>
+                            </a>
                         </div>
                     </div>
                 )}
@@ -364,9 +364,9 @@ const ResidencesLeadPopup = () => {
                             <button type="button" className="rlp-btn rlp-btn-kakao" onClick={() => onContactClick('kakao')}>
                                 <SiKakaotalk aria-hidden="true" /> KakaoTalk
                             </button>
-                            <button type="button" className="rlp-btn rlp-btn-line" onClick={() => onContactClick('line')}>
+                            <a className="rlp-btn rlp-btn-line" href={LINE_URL} target="_blank" rel="noopener noreferrer" onClick={() => onContactClick('line')}>
                                 <SiLine aria-hidden="true" /> LINE
-                            </button>
+                            </a>
                         </div>
 
                         <div className="rlp-or"><span>or leave your details and we’ll call you back</span></div>

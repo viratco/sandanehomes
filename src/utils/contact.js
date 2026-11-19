@@ -1,7 +1,10 @@
 // One source for the site's contact numbers.
 // WhatsApp (guests, companies and owners) goes to +91 88262 69690.
 // +91 97117 22273 is used only where it is labelled as a phone/call number,
-// and for KakaoTalk (Korean guests) and LINE (Japanese guests).
+// and for KakaoTalk (Korean guests). LINE (Japanese guests) uses our LINE profile link.
+
+// Opens a chat with Sandane Homes in LINE (from the owner's LINE QR code).
+export const LINE_URL = 'https://line.me/ti/p/hrUpm82UQu';
 
 export const WHATSAPP_NUMBER = '918826269690';
 export const WHATSAPP_DISPLAY = '+91 88262 69690';
@@ -64,21 +67,14 @@ export const showCallHelp = () => {
   );
 };
 
-// KakaoTalk and LINE have no link that opens a chat with a phone number, so the
-// button copies the number and says how to add us. On phones it also offers to
-// open the app (LINE straight to its "Add friends" screen).
+// KakaoTalk has no link that opens a chat with a phone number, so the button
+// copies the number and says how to add us. On phones it also offers to open the app.
 const MESSENGERS = {
   kakao: {
     name: 'KakaoTalk',
     how: 'In KakaoTalk: Friends → Add friend → add by phone number.',
     local: '카카오톡 → 친구 추가 → 연락처로 추가',
     open: 'kakaotalk://',
-  },
-  line: {
-    name: 'LINE',
-    how: 'In LINE: Add friends → Search → Phone number.',
-    local: 'LINE → 友だち追加 → 検索 → 電話番号',
-    open: 'https://line.me/R/nv/addFriends',
   },
 };
 
