@@ -69,7 +69,8 @@ export const residenceSearchSchemas = (page, baseUrl = 'https://www.sandanehomes
       parentOrganization: { '@type': 'Organization', name: 'Sandane Homes', url: baseUrl },
       contactPoint: [
         { '@type': 'ContactPoint', contactType: 'reservations', telephone: '+918826269690', description: 'WhatsApp' },
-        { '@type': 'ContactPoint', contactType: 'customer service', telephone: '+919711722273', description: 'Phone and KakaoTalk' },
+        { '@type': 'ContactPoint', contactType: 'customer service', telephone: '+919711722273', description: 'Phone' },
+        { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://qr.kakao.com/talk/c2qbkrfJEP2YU5LqoffN7IeOuWU-', description: 'KakaoTalk' },
         { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://line.me/ti/p/hrUpm82UQu', description: 'LINE' },
       ],
     });

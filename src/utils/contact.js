@@ -1,10 +1,12 @@
 // One source for the site's contact numbers.
 // WhatsApp (guests, companies and owners) goes to +91 88262 69690.
-// +91 97117 22273 is used only where it is labelled as a phone/call number,
-// and for KakaoTalk (Korean guests). LINE (Japanese guests) uses our LINE profile link.
+// +91 97117 22273 is used only where it is labelled as a phone/call number.
+// KakaoTalk (Korean guests) and LINE (Japanese guests) open our profile chat links.
 
 // Opens a chat with Sandane Homes in LINE (from the owner's LINE QR code).
 export const LINE_URL = 'https://line.me/ti/p/hrUpm82UQu';
+// Opens a chat with Sandane Homes in KakaoTalk (from the owner's KakaoTalk QR code).
+export const KAKAO_URL = 'https://qr.kakao.com/talk/c2qbkrfJEP2YU5LqoffN7IeOuWU-';
 
 export const WHATSAPP_NUMBER = '918826269690';
 export const WHATSAPP_DISPLAY = '+91 88262 69690';
@@ -21,7 +23,7 @@ export const currentPageName = () => {
   return title || window.location.pathname;
 };
 
-// Small notice at the bottom of the screen (used for call and messenger help).
+// Small notice at the bottom of the screen (used for call help).
 const showToast = (html, ms) => {
   const old = document.getElementById('call-help-toast');
   if (old) old.remove();
@@ -64,36 +66,5 @@ export const showCallHelp = () => {
     `<strong style="display:block;font-size:18px;letter-spacing:.5px;margin-bottom:4px">${CALL_DISPLAY}</strong>` +
     `<span>Call us on this number from your phone${copied ? ' (copied)' : ''}, or WhatsApp ${WHATSAPP_DISPLAY}.</span>`,
     6000,
-  );
-};
-
-// KakaoTalk has no link that opens a chat with a phone number, so the button
-// copies the number and says how to add us. On phones it also offers to open the app.
-const MESSENGERS = {
-  kakao: {
-    name: 'KakaoTalk',
-    how: 'In KakaoTalk: Friends → Add friend → add by phone number.',
-    local: '카카오톡 → 친구 추가 → 연락처로 추가',
-    open: 'kakaotalk://',
-  },
-};
-
-export const MESSENGER_DISPLAY = CALL_DISPLAY;
-
-export const showMessengerHelp = (app) => {
-  if (typeof window === 'undefined') return;
-  const m = MESSENGERS[app];
-  if (!m) return;
-  const copied = copyText(MESSENGER_DISPLAY);
-  const onPhone = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
-  showToast(
-    `<span style="display:block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#E8C796;margin-bottom:2px">${m.name}</span>` +
-    `<strong style="display:block;font-size:18px;letter-spacing:.5px;margin-bottom:4px;white-space:nowrap">${MESSENGER_DISPLAY}${copied ? ' <span style="font-size:12px;font-weight:500;color:#E8C796">(copied)</span>' : ''}</strong>` +
-    `<span style="display:block">${m.how}</span>` +
-    `<span style="display:block;margin-top:2px;color:#E8C796">${m.local}</span>` +
-    (onPhone
-      ? `<a href="${m.open}" style="display:inline-block;margin-top:10px;padding:8px 18px;border-radius:30px;background:#FFF3E0;color:#2E2119;font-weight:700;text-decoration:none">Open ${m.name}</a>`
-      : ''),
-    12000,
   );
 };

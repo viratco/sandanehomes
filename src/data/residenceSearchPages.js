@@ -515,7 +515,8 @@ export const residenceSearchPages = [
         heading: 'How do I contact Residences by Sandane Homes?',
         points: [
           'WhatsApp: +91 88262 69690',
-          'Phone and KakaoTalk: +91 97117 22273',
+          'Phone: +91 97117 22273',
+          'KakaoTalk: qr.kakao.com/talk/c2qbkrfJEP2YU5LqoffN7IeOuWU-',
           'LINE: line.me/ti/p/hrUpm82UQu',
           'Email: residences@sandanehomes.com',
         ],
