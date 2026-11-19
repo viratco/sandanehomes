@@ -448,6 +448,162 @@ export const residenceSearchPages = [
   },
 
   // ── Both cities ───────────────────────────────────────────
+  // Short, plain answers about who we are: the page AI assistants and search
+  // answer boxes can quote. Keep every answer one or two factual sentences.
+  {
+    slug: 'about-residences-by-sandane-homes',
+    city: 'ncr',
+    about: true, // adds an Organization entry with contact details to the JSON-LD
+    metaTitle: 'Residences by Sandane Homes: Facts, Locations & How It Works | Long Stay Homes in Gurgaon & Greater Noida',
+    metaDescription: 'Quick facts about Residences by Sandane Homes: entire furnished 3–4 BHK homes in Gurgaon (Sector 27, Sector 58) and Greater Noida, leased by the month to companies and expats. Minimum stay, what is included, billing and how to contact us.',
+    eyebrow: 'Quick facts',
+    h1: 'Residences by Sandane Homes: Quick Facts',
+    lead: 'Short, plain answers to what people most often ask about us: what we are, where our homes are, what is included and how to book.',
+    sections: [
+      {
+        heading: 'What is Residences by Sandane Homes?',
+        paragraphs: [
+          'Residences by Sandane Homes is the long-stay brand of Sandane Homes. It leases entire furnished 3–4 BHK homes by the month, mainly to companies housing expat employees, their families and project teams, and also to individuals.',
+          'Sandane Homes separately runs boutique hotels in Greater Noida for short stays of a few nights.',
+        ],
+      },
+      {
+        heading: 'Where are the homes?',
+        paragraphs: [
+          'In Gurugram (Gurgaon): Green Meadows and Sushant Lok Block B in Sector 27, and Conscient Hines Elevate in Sector 58 on Golf Course Extension Road. In Greater Noida: Jaypee Greens, Ansal Golf Links and Godrej Golf Link.',
+        ],
+      },
+      {
+        heading: 'How big are the homes?',
+        paragraphs: [
+          'In Gurugram, 4 BHK independent floors of 2,230 sq ft and about 2,700 sq ft, and 3 BHK apartments of 2,095–2,595 sq ft. In Greater Noida, 3–4 BHK villas and apartments of 2,700–3,500 sq ft. Every home is let whole, never by the room.',
+        ],
+      },
+      {
+        heading: 'What is the minimum stay?',
+        paragraphs: ['30 days. Stays run month by month up to multi-year corporate postings.'],
+      },
+      {
+        heading: 'What is included?',
+        points: [
+          'The furnished home, with furniture, kitchenware and linen',
+          'Daily housekeeping, with linen changed twice a week',
+          '300 Mbps Wi-Fi, electricity, water and 100% power backup',
+          'Society maintenance and repairs',
+          'On request: Korean and Japanese breakfast and dinner, and a car to and from the office',
+        ],
+      },
+      {
+        heading: 'Who stays with Residences by Sandane Homes?',
+        paragraphs: [
+          'Mostly expat professionals and their families sent to Delhi NCR by their employers, many of them from Japan and Korea, along with project teams and senior executives. We have hosted expats across Delhi NCR for more than five years.',
+        ],
+      },
+      {
+        heading: 'How do companies pay?',
+        paragraphs: [
+          'The company is invoiced directly every month with a GST invoice. The employee does not pay rent, a deposit or a broker. There are no broker fees.',
+        ],
+      },
+      {
+        heading: 'How much does it cost?',
+        paragraphs: [
+          'Prices are not published. The monthly amount depends on the home, the length of stay and the services chosen, and we quote once we know the dates, the number of people and where they will work.',
+        ],
+      },
+      {
+        heading: 'How do I contact Residences by Sandane Homes?',
+        points: [
+          'WhatsApp: +91 88262 69690',
+          'Phone and KakaoTalk: +91 97117 22273',
+          'LINE: line.me/ti/p/hrUpm82UQu',
+          'Email: residences@sandanehomes.com',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Is Residences by Sandane Homes a hotel?', a: 'No. It leases entire furnished homes by the month. Sandane Homes runs its hotels separately, in Greater Noida, for short stays.' },
+      { q: 'Does Residences by Sandane Homes have homes in Gurgaon?', a: 'Yes, three: Green Meadows and Sushant Lok Block B in Sector 27, and Conscient Hines Elevate in Sector 58.' },
+      { q: 'Can individuals rent, or only companies?', a: 'Both. Most guests are placed by their company, but individuals and families can rent directly.' },
+      { q: 'Do you serve Japanese and Korean guests?', a: 'Yes. Much of our work is housing Japanese and Korean professionals, and Korean and Japanese breakfast and dinner can be arranged.' },
+    ],
+    related: [
+      { text: 'Residences by Sandane Homes', href: '/residences' },
+      { text: 'All our homes in Gurgaon', href: '/residences/gurgaon' },
+      { text: 'Serviced apartments in Greater Noida', href: '/serviced-apartments-greater-noida' },
+      { text: 'Guide: housing expat employees in Gurgaon', href: '/expat-employee-housing-guide-gurgaon' },
+      { text: 'Company lease apartments', href: '/company-lease-apartments-delhi-ncr' },
+    ],
+  },
+  // A practical guide for HR: the questions people ask search engines and AI
+  // assistants before they look for a provider.
+  {
+    slug: 'expat-employee-housing-guide-gurgaon',
+    city: 'gurugram',
+    metaTitle: 'How to House Expat Employees in Gurgaon: A Guide for HR & Admin | Residences by Sandane Homes',
+    metaDescription: 'A practical guide for HR and admin teams housing expat employees in Gurgaon: hotel vs serviced apartment vs company lease, choosing an area by commute, what to check before you sign, and how billing usually works.',
+    eyebrow: 'Guide for HR & admin teams',
+    h1: 'How to House Expat Employees in Gurgaon',
+    lead: 'A short, practical guide for the people who have to sort out housing before a colleague lands: the options, how to choose the area, and what to check before you sign anything.',
+    sections: [
+      {
+        heading: 'Start with four facts',
+        points: [
+          'How long they will stay: a few weeks, a few months, or a multi-year posting',
+          'Who is coming: one person, a family with children, or a team',
+          'Where they will work, since the commute decides the area',
+          'How the company will pay: direct billing, or an allowance to the employee',
+        ],
+      },
+      {
+        heading: 'Hotel, serviced home or your own lease?',
+        paragraphs: [
+          'For stays of up to two or three weeks, a hotel is usually simplest. Beyond that, a room becomes cramped and the lack of a kitchen and living space starts to wear on people, especially families.',
+          'For one month to a few years, a serviced home leased to the company (an entire furnished apartment or floor, cleaned and maintained by the provider) gives the employee a real home while the company deals with one supplier and one invoice.',
+          'For long postings where the employee wants to choose and run their own home, a housing allowance and an unfurnished lease can work, but the employee then handles brokers, deposits, furniture, utilities and repairs, usually in their first weeks in a new country.',
+        ],
+      },
+      {
+        heading: 'Choose the area by the commute',
+        paragraphs: [
+          'Gurgaon traffic makes distance on a map misleading, so start from the office. For DLF Cyber City and the MG Road area, residential sectors such as Sector 27 and Sushant Lok are close by: our Sector 27 homes are about 10–12 minutes from Cyber City by car. For offices along Golf Course Road and Golf Course Extension Road, the sectors along those roads, such as Sector 58, keep the drive short.',
+          'For families, also check the distance to schools, hospitals and the shops where they will buy familiar food.',
+        ],
+      },
+      {
+        heading: 'What to check before you sign',
+        points: [
+          'Is it the entire home, or a room in a shared building?',
+          'What exactly is in the monthly amount: housekeeping, Wi-Fi, electricity, water, power backup, maintenance?',
+          'Will the company get one GST invoice each month?',
+          'Who fixes things, and how fast?',
+          'What is the minimum stay, and the notice to leave or extend?',
+          'Can the home pass to the next employee when postings rotate?',
+          'Can meals the employee is used to (for example Japanese or Korean food) be arranged?',
+        ],
+      },
+      {
+        heading: 'How billing usually works',
+        paragraphs: [
+          'With a company lease, the company is the client and pays the provider directly each month against a GST invoice; the employee simply lives there. This keeps deposits, brokers and landlord dealings away from the employee.',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'What is the best way to house an expat employee in Gurgaon for six months?', a: 'An entire serviced home leased to the company is usually the best fit: the employee gets a furnished home with housekeeping, and the company gets one monthly GST invoice instead of handling deposits, brokers and bills.' },
+      { q: 'Which area of Gurgaon is best for people working in Cyber City?', a: 'Residential sectors close to Cyber City, such as Sector 27 and Sushant Lok, keep the drive to about 10–12 minutes by car.' },
+      { q: 'Should we pay a housing allowance or lease a home for the employee?', a: 'For postings under a couple of years, leasing a serviced home for the employee is usually simpler and quicker to set up. An allowance suits longer postings where the employee wants to choose and run their own home.' },
+      { q: 'Can one serviced home be used by different employees over time?', a: 'With a company lease, yes. When one posting ends, the next employee can move into the same home.' },
+    ],
+    related: [
+      { text: 'Company lease apartments', href: '/company-lease-apartments-delhi-ncr' },
+      { text: 'Corporate guest house in Gurgaon', href: '/corporate-guest-house-gurgaon' },
+      { text: 'Long stay serviced apartments in Gurgaon', href: '/long-stay-serviced-apartments-gurgaon' },
+      { text: 'Serviced apartments near DLF Cyber City', href: '/serviced-apartments-dlf-cyber-city-gurgaon' },
+      { text: 'Japanese expat housing in Gurgaon', href: '/gurugram/japanese-expat-housing' },
+      { text: 'Korean expat housing in Gurgaon', href: '/gurugram/korean-expat-housing' },
+    ],
+  },
   {
     slug: 'company-lease-apartments-delhi-ncr',
     city: 'ncr',

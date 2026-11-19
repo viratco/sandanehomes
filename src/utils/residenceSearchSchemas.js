@@ -54,6 +54,27 @@ export const residenceSearchSchemas = (page, baseUrl = 'https://www.sandanehomes
       : { hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Homes', itemListElement: [{ '@type': 'Offer', itemOffered: page.city === 'gurugram' ? gurugramHomeSpecSchema : RESIDENCE_HOME_SPEC }] } }),
   });
 
+  // The facts page also describes the brand itself, with every way to reach us.
+  if (page.about) {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Residences by Sandane Homes',
+      url: `${baseUrl}/residences`,
+      logo: `${baseUrl}/logo.png`,
+      description: 'Long-stay brand of Sandane Homes: entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased by the month to companies for expat employees, families and project teams, and to individuals.',
+      email: 'residences@sandanehomes.com',
+      telephone: '+919711722273',
+      areaServed: AREA.ncr,
+      parentOrganization: { '@type': 'Organization', name: 'Sandane Homes', url: baseUrl },
+      contactPoint: [
+        { '@type': 'ContactPoint', contactType: 'reservations', telephone: '+918826269690', description: 'WhatsApp' },
+        { '@type': 'ContactPoint', contactType: 'customer service', telephone: '+919711722273', description: 'Phone and KakaoTalk' },
+        { '@type': 'ContactPoint', contactType: 'customer service', url: 'https://line.me/ti/p/hrUpm82UQu', description: 'LINE' },
+      ],
+    });
+  }
+
   if (page.faqs?.length) {
     schemas.push({
       '@context': 'https://schema.org',

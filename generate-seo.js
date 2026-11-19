@@ -409,7 +409,7 @@ SEO_MAP['/gurugram/sushant-lok'] = {
 };
 
 SEO_MAP['/gurugram/japanese-expat-housing'] = {
-  title: 'Japanese Expat Housing in Gurugram (Gurgaon) | 日本人向けサービスアパートメント | Sandane',
+  title: 'Japanese Service Apartments in Gurgaon | Japanese Expat Housing | 日本人向けサービスアパートメント',
   description: 'Premium serviced apartments for Japanese expats in Gurugram (Gurgaon). Near Honda, Toyota, NTT Data & DLF Cyber City. FRRO Form C support, Japanese amenities, B2B corporate billing. 日本人駐在員向け高級住宅.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   lang: 'ja',
@@ -443,7 +443,7 @@ SEO_MAP['/gurugram/japanese-expat-housing'] = {
 };
 
 SEO_MAP['/gurugram/korean-expat-housing'] = {
-  title: 'Korean Expat Housing in Gurugram (Gurgaon) | 한국인 주재원 아파트 | Sandane Homes',
+  title: 'Korean Expat Housing in Gurgaon | Serviced Homes with Korean Meals | 한국인 주재원 아파트',
   description: 'Premium serviced apartments for Korean expats in Gurugram (Gurgaon). Near Samsung R&D, Hyundai & LG. Korean amenities, FRRO Form C, B2B corporate billing. 삼성, 현대 주재원을 위한 고급 서비스 아파트.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   lang: 'ko',

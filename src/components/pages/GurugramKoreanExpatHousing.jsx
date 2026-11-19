@@ -87,7 +87,7 @@ export default function GurugramKoreanExpatHousing() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Korean Expat Housing in Gurugram (Gurgaon) | 한국인 주재원 아파트 | Sandane Homes"
+        title="Korean Expat Housing in Gurgaon | Serviced Homes with Korean Meals | 한국인 주재원 아파트"
         description="Premium serviced apartments for Korean expats in Gurugram (Gurgaon). Near Samsung R&D, Hyundai & LG. Korean amenities, FRRO Form C, B2B corporate billing. 삼성, 현대 주재원을 위한 고급 서비스 아파트."
         canonical="https://www.sandanehomes.com/gurugram/korean-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"

@@ -16,6 +16,8 @@ const LABELS = {
   'fully-furnished-house-for-rent-greater-noida': 'Fully furnished house for rent, Greater Noida',
   'corporate-guest-house-greater-noida': 'Corporate guest house, Greater Noida',
   'company-lease-apartments-delhi-ncr': 'Company lease apartments for employees',
+  'about-residences-by-sandane-homes': 'Quick facts about Residences',
+  'expat-employee-housing-guide-gurgaon': 'Guide for HR: housing expat employees',
 };
 
 const ResidenceSearchLinks = ({ city }) => {

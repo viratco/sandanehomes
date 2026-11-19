@@ -7,6 +7,7 @@ import BlogContent from '../BlogContent';
 import { blogPosts } from '../../data/blogPosts';
 import { GURUGRAM_HUB_PATH } from '../../data/gurugramResidences';
 import OwnerContactLine from '../OwnerContactLine';
+import ResidenceSearchLinks from '../ResidenceSearchLinks';
 import { FaWhatsapp, FaArrowLeft, FaRegClock, FaRegCalendarAlt, FaChevronDown } from 'react-icons/fa';
 import './Blog.css';
 import './SandaneHomes.css';
@@ -553,6 +554,13 @@ const BlogPost = () => {
                     </p>
                 )}
             </div>
+
+            {/* ── RESIDENCES PAGES FOR THIS CITY (guest posts only) ── */}
+            {!ownerCta && (
+                <ResidenceSearchLinks
+                    city={gurugramCta ? 'gurugram' : /noida|yamuna/i.test(`${post.slug} ${post.title}`) ? 'greater-noida' : undefined}
+                />
+            )}
 
             {/* ── RELATED POSTS ── */}
             {relatedPosts.length > 0 && (
