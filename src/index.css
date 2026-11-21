@@ -182,7 +182,7 @@ body {
   width: 100%; 
   max-width: 1400px; 
   margin: 0 auto; 
-  height: 1080px; /* fixed height for desktop layout; content ends ~1045px with the hero buttons */
+  height: 1160px; /* fixed height for desktop layout; the HR signup card under the centre photo ends ~1130px */
   padding-top: 60px;
 }
 
@@ -450,7 +450,7 @@ body {
     max-width: none;
     height: auto;
     padding-top: calc(280 * var(--eu));
-    padding-bottom: calc(93 * var(--eu));
+    padding-bottom: calc(93 * var(--eu) + 70px + max(0px, (1300px - 100vw) * 0.3)); /* room for the HR signup card under the centre photo */
   }
   .editorial-title-bg {
     top: calc(150 * var(--eu));

@@ -24,6 +24,7 @@ import imgGalleryDiningSconces from '../../assets/residences-gallery-dining-scon
 import './SandaneHomes.css'; // Import shared CSS
 import EntireHomeStrip from '../EntireHomeStrip';
 import ResidenceSearchLinks from '../ResidenceSearchLinks';
+import HrUpdatesSignup from '../HrUpdatesSignup';
 import { RESIDENCE_HOME_SPEC } from '../../utils/schemaHelper';
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
 
@@ -182,6 +183,8 @@ const Residences = () => {
                 {/* Center Column (Large Image) */}
                 <div className="editorial-center-col">
                     <img src={imgHeroCenter} alt="Residences living room" className="residences-clickable-photo" onClick={openResidencesEnquiry} title="Click to send an enquiry" />
+                    {/* HR teams planning ahead: monthly availability email (the popup is for those who need a home now) */}
+                    <HrUpdatesSignup className="hru-in-hero" />
                 </div>
 
                 {/* Right Column (Text + Image) */}
@@ -197,6 +200,8 @@ const Residences = () => {
                     </div>
                 </div>
             </div>
+            {/* Tablets: the centre column is too close to the hero text, so the card sits below the hero */}
+            <HrUpdatesSignup id="hru-tab" className="hru-below-hero" />
                 </>
             )}
 

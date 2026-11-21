@@ -1,0 +1,170 @@
+/* "Planning ahead" HR signup card, under the centre photo in the Residences hero. */
+.hru {
+  background: linear-gradient(120deg, #12302A 0%, #1A3C34 55%, #234A40 100%);
+  color: #F6EEDF;
+  border-top: 3px solid #C5A572;
+  border-radius: 6px;
+  margin-top: 22px;
+  box-shadow: 0 24px 50px -22px rgba(18, 48, 42, 0.55);
+  position: relative;
+  z-index: 2;
+}
+
+.hru-inner {
+  padding: 18px 22px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hru-copy { flex: 1 1 auto; min-width: 0; }
+
+.hru-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #12302A;
+  background: #E8C796;
+  padding: 4px 12px;
+  border-radius: 30px;
+  margin-bottom: 6px;
+}
+.hru-copy { text-align: left; }
+
+.hru-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 4px;
+  color: #FFF8EC;
+}
+
+.hru-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(246, 238, 223, 0.85);
+  max-width: 620px;
+}
+
+.hru-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.hru-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFF8EC;
+  border-radius: 30px;
+  padding: 0 16px;
+  height: 44px;
+  color: #8A7A62;
+  border: 2px solid transparent;
+  transition: border-color .2s ease;
+}
+.hru-field:focus-within { border-color: #E8C796; }
+
+.hru-field input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 15px;
+  color: #2E2119;
+}
+
+.hru-btn {
+  height: 44px;
+  padding: 0 26px;
+  border: 0;
+  border-radius: 30px;
+  background: #C5A572;
+  color: #12302A;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+  box-shadow: 0 0 0 0 rgba(232, 199, 150, .55);
+  animation: hru-pulse 2.6s ease-out 1.2s 3;
+  transition: background .2s ease, transform .2s ease;
+}
+.hru-btn:hover { background: #E8C796; transform: translateY(-1px); }
+.hru-btn:disabled { opacity: .7; cursor: default; transform: none; }
+
+@keyframes hru-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(232, 199, 150, .55); }
+  70% { box-shadow: 0 0 0 12px rgba(232, 199, 150, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(232, 199, 150, 0); }
+}
+@media (prefers-reduced-motion: reduce) { .hru-btn { animation: none; } }
+
+.hru-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-left: 16px;
+  font-size: 12px;
+  color: rgba(246, 238, 223, 0.65);
+}
+.hru-error { color: #FFC9B5; }
+
+.hru-done {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFF8EC;
+  background: rgba(255, 248, 236, 0.1);
+  border: 1px solid rgba(232, 199, 150, .5);
+  padding: 14px 20px;
+  border-radius: 14px;
+}
+.hru-done svg { color: #E8C796; flex-shrink: 0; font-size: 20px; }
+
+.hru-sr, .hru-trap {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Which copy shows: under the centre photo on laptops/desktops and phones,
+   below the hero on tablets (769-1024px), where the photo column is beside the hero text. */
+.hru-below-hero { display: none; }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hru-in-hero { display: none; }
+  .hru-below-hero { display: block; max-width: 620px; margin: 10px auto 30px; }
+}
+/* Smaller laptops: keep clear of the hero text on the left. */
+@media (min-width: 1025px) and (max-width: 1259px) {
+  .hru-in-hero { margin-left: calc((1260px - 100vw) * 0.25); }
+}
+
+/* Narrow centre column (smaller laptops) and phones: stack the email and the button. */
+@media (min-width: 1025px) and (max-width: 1149px), (max-width: 560px) {
+  .hru-form { grid-template-columns: 1fr; }
+  .hru-btn { width: 100%; }
+  .hru-note { padding-left: 4px; text-align: center; }
+}
+@media (max-width: 768px) {
+  .hru { margin-top: 20px; }
+  .hru-inner { padding: 18px 16px 16px; }
+  .hru-title { font-size: 20px; }
+}
