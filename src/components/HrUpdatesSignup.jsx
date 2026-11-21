@@ -71,15 +71,12 @@ const HrUpdatesSignup = ({ id = 'hru', className = '' }) => {
       <div className="hru-inner">
         <div className="hru-copy">
           <span className="hru-eyebrow">For HR &amp; admin teams</span>
-          <h2 id={`${id}-title`} className="hru-title">Not looking for a home right now?</h2>
-          <p className="hru-text">
-            Get one short email a month with which of our homes are free, for when someone from your company is posted here.
-          </p>
+          <h2 id={`${id}-title`} className="hru-title">Not looking right now? <em>Get a short monthly note on which of our homes are free.</em></h2>
         </div>
 
         {status === 'done' ? (
           <p className="hru-done" role="status">
-            <FaCircleCheck aria-hidden="true" /> You’re on the list. Our next update reaches you at the start of the month.
+            <FaCircleCheck aria-hidden="true" /> You’re on the list. Our next note reaches you at the start of the month.
           </p>
         ) : (
           <form className="hru-form" onSubmit={submit} noValidate>
@@ -102,7 +99,7 @@ const HrUpdatesSignup = ({ id = 'hru', className = '' }) => {
               {status === 'sending' ? 'Adding you…' : <>Keep me updated <FaArrowRight aria-hidden="true" /></>}
             </button>
             <p className="hru-note">
-              {error ? <span className="hru-error" role="alert">{error}</span> : 'Only about our homes. Unsubscribe anytime.'}
+              {error ? <span className="hru-error" role="alert">{error}</span> : 'One email a month. Unsubscribe anytime.'}
             </p>
           </form>
         )}

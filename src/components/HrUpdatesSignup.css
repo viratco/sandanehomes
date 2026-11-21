@@ -1,75 +1,72 @@
-/* "Planning ahead" HR signup card, under the centre photo in the Residences hero. */
+/* "Planning ahead" HR signup: a slim card under the centre photo in the Residences hero,
+   styled like the hero's glass text card (cream glass, gold edge, Georgia). */
 .hru {
-  background: linear-gradient(120deg, #12302A 0%, #1A3C34 55%, #234A40 100%);
-  color: #F6EEDF;
-  border-top: 3px solid #C5A572;
-  border-radius: 6px;
-  margin-top: 22px;
-  box-shadow: 0 24px 50px -22px rgba(18, 48, 42, 0.55);
+  background: rgba(250, 242, 231, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(197, 165, 114, 0.45);
+  border-left: 3px solid #C5A572;
+  border-radius: 4px;
+  box-shadow: 0 14px 34px -18px rgba(110, 72, 28, 0.35);
+  margin-top: 18px;
   position: relative;
   z-index: 2;
+  color: #4A463F;
 }
 
 .hru-inner {
-  padding: 18px 22px 14px;
+  padding: 14px 18px 10px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
-.hru-copy { flex: 1 1 auto; min-width: 0; }
+.hru-copy { min-width: 0; text-align: left; }
 
 .hru-eyebrow {
-  display: inline-block;
-  font-size: 11px;
+  display: block;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #12302A;
-  background: #E8C796;
-  padding: 4px 12px;
-  border-radius: 30px;
-  margin-bottom: 6px;
+  color: #9A7446;
+  margin-bottom: 3px;
 }
-.hru-copy { text-align: left; }
 
 .hru-title {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 22px;
+  font-family: Georgia, serif;
+  font-size: 15px;
   font-weight: 600;
-  line-height: 1.25;
-  margin: 0 0 4px;
-  color: #FFF8EC;
-}
-
-.hru-text {
-  margin: 0;
-  font-size: 14px;
   line-height: 1.5;
-  color: rgba(246, 238, 223, 0.85);
-  max-width: 620px;
+  margin: 0;
+  color: #3B2A1C;
+}
+.hru-title em {
+  font-weight: 400;
+  color: #4A463F;
 }
 
 .hru-form {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
 }
 
 .hru-field {
   display: flex;
   align-items: center;
-  gap: 10px;
-  background: #FFF8EC;
-  border-radius: 30px;
-  padding: 0 16px;
-  height: 44px;
-  color: #8A7A62;
-  border: 2px solid transparent;
-  transition: border-color .2s ease;
+  gap: 8px;
+  background: #FFFDF8;
+  border: 1px solid rgba(184, 139, 90, 0.45);
+  border-radius: 40px;
+  padding: 0 14px;
+  height: 38px;
+  color: #B88B5A;
+  font-size: 12px;
+  transition: border-color .2s ease, box-shadow .2s ease;
 }
-.hru-field:focus-within { border-color: #E8C796; }
+.hru-field:focus-within { border-color: #8B5E34; box-shadow: 0 0 0 3px rgba(197, 165, 114, 0.2); }
 
 .hru-field input {
   flex: 1;
@@ -78,64 +75,55 @@
   outline: 0;
   background: transparent;
   font: inherit;
-  font-size: 15px;
+  font-size: 13px;
   color: #2E2119;
 }
 
+/* Same look as the hero's "Enquire now" button */
 .hru-btn {
-  height: 44px;
-  padding: 0 26px;
+  height: 38px;
+  padding: 0 16px;
   border: 0;
-  border-radius: 30px;
-  background: #C5A572;
-  color: #12302A;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #6B4423 0%, #8B5E34 100%);
+  color: #FFF6EA;
   font: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: .5px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 7px;
   white-space: nowrap;
-  box-shadow: 0 0 0 0 rgba(232, 199, 150, .55);
-  animation: hru-pulse 2.6s ease-out 1.2s 3;
-  transition: background .2s ease, transform .2s ease;
+  transition: transform .15s ease, box-shadow .15s ease;
 }
-.hru-btn:hover { background: #E8C796; transform: translateY(-1px); }
-.hru-btn:disabled { opacity: .7; cursor: default; transform: none; }
-
-@keyframes hru-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(232, 199, 150, .55); }
-  70% { box-shadow: 0 0 0 12px rgba(232, 199, 150, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(232, 199, 150, 0); }
-}
-@media (prefers-reduced-motion: reduce) { .hru-btn { animation: none; } }
+.hru-btn:hover { transform: translateY(-1px); box-shadow: 0 10px 22px -12px rgba(92, 56, 20, 0.55); }
+.hru-btn:disabled { opacity: .7; cursor: default; transform: none; box-shadow: none; }
+.hru-btn svg { font-size: 11px; }
 
 .hru-note {
   grid-column: 1 / -1;
   margin: 0;
-  padding-left: 16px;
-  font-size: 12px;
-  color: rgba(246, 238, 223, 0.65);
+  padding-left: 14px;
+  font-size: 11px;
+  color: #8A7A62;
 }
-.hru-error { color: #FFC9B5; }
+.hru-error { color: #A4402A; }
 
 .hru-done {
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #FFF8EC;
-  background: rgba(255, 248, 236, 0.1);
-  border: 1px solid rgba(232, 199, 150, .5);
-  padding: 14px 20px;
-  border-radius: 14px;
+  gap: 8px;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  color: #3B2A1C;
+  padding: 2px 0 4px;
 }
-.hru-done svg { color: #E8C796; flex-shrink: 0; font-size: 20px; }
+.hru-done svg { color: #8B5E34; flex-shrink: 0; font-size: 16px; }
 
 .hru-sr, .hru-trap {
   position: absolute !important;
@@ -150,7 +138,7 @@
 .hru-below-hero { display: none; }
 @media (min-width: 769px) and (max-width: 1024px) {
   .hru-in-hero { display: none; }
-  .hru-below-hero { display: block; max-width: 620px; margin: 10px auto 30px; }
+  .hru-below-hero { display: block; max-width: 520px; margin: 6px auto 26px; }
 }
 /* Smaller laptops: keep clear of the hero text on the left. */
 @media (min-width: 1025px) and (max-width: 1259px) {
@@ -158,13 +146,11 @@
 }
 
 /* Narrow centre column (smaller laptops) and phones: stack the email and the button. */
-@media (min-width: 1025px) and (max-width: 1149px), (max-width: 560px) {
+@media (min-width: 1025px) and (max-width: 1149px), (max-width: 480px) {
   .hru-form { grid-template-columns: 1fr; }
   .hru-btn { width: 100%; }
-  .hru-note { padding-left: 4px; text-align: center; }
 }
 @media (max-width: 768px) {
-  .hru { margin-top: 20px; }
-  .hru-inner { padding: 18px 16px 16px; }
-  .hru-title { font-size: 20px; }
+  .hru { margin-top: 16px; }
+  .hru-inner { padding: 14px 14px 10px; }
 }
