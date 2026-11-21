@@ -5,8 +5,13 @@ import './HrUpdatesSignup.css';
 // "Planning ahead" signup for HR / admin teams who don't need a home yet.
 // Visitors who need a home now use the Residences popup; this band only collects
 // a work email for the monthly note on which homes are free.
-// Signups arrive in the same inbox as popup enquiries (FormSubmit).
+// Signups arrive in the same inbox as popup enquiries (FormSubmit), and also go to
+// the "HR monthly list" Google Sheet (scripts/hr-updates-sheet.gs), which keeps the
+// list and emails each new subscriber a thank-you from our Gmail.
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/residencesbysandanehomes@gmail.com';
+// The Sheet's Apps Script web app URL (ends in /exec).
+const SHEET_WEBHOOK = import.meta.env.VITE_HR_UPDATES_WEBHOOK
+  || 'https://script.google.com/macros/s/AKfycbzXLBDQQ84mT-qzHpJsJEBMnR0C2oEHt8h2EGwRIQnyWtNfh4YWoHm789P3rMxYAfJcpg/exec';
 const DONE_KEY = 'hr_updates_signed_up';
 
 const track = (name, params = {}) => {
@@ -39,6 +44,15 @@ const HrUpdatesSignup = ({ id = 'hru', className = '' }) => {
       return;
     }
     setStatus('sending');
+    if (SHEET_WEBHOOK) {
+      // no-cors + text/plain avoids a CORS preflight to Apps Script; the response is opaque.
+      fetch(SHEET_WEBHOOK, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify({ email: value, page: window.location.href }),
+      }).catch(() => {});
+    }
     try {
       const res = await fetch(FORM_ENDPOINT, {
         method: 'POST',
