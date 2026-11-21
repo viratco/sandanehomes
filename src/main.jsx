@@ -5,6 +5,7 @@ import { HelmetProvider } from 'react-helmet-async'
 import './index.css'
 import App from './App.jsx'
 import Preloader from './components/Preloader'
+import { isBlogPath, preloadBlogPages } from './blogPages'
 
 // The inline script in index.html sets data-preload only for human visitors landing
 // on the homepage (once per session). Bots and every other page skip the preloader.
@@ -38,7 +39,13 @@ const app = (
 // without their own HTML fall back to the homepage's index.html, so render fresh there.
 const currentPath = window.location.pathname.replace(/(.)\/$/, '$1');
 if (container.hasChildNodes() && container.dataset.prerendered === currentPath) {
-  hydrateRoot(container, app);
+  // Blog pages are code-split: load their chunk first so the first render matches the
+  // prerendered HTML (the HTML stays on screen meanwhile).
+  if (isBlogPath(currentPath)) {
+    preloadBlogPages().then(() => hydrateRoot(container, app), () => hydrateRoot(container, app));
+  } else {
+    hydrateRoot(container, app);
+  }
 } else {
   container.innerHTML = '';
   createRoot(container).render(app);

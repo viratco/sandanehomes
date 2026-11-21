@@ -861,7 +861,9 @@ const originalHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 let renderApp = null;
 const ssrEntryPath = path.join(__dirname, 'dist-ssr', 'entry-server.js');
 if (fs.existsSync(ssrEntryPath)) {
-  ({ render: renderApp } = await import(ssrEntryPath));
+  const ssr = await import(ssrEntryPath);
+  renderApp = ssr.render;
+  if (ssr.preload) await ssr.preload(); // code-split pages (the blog) must be loaded before rendering
 } else {
   console.warn('dist-ssr/entry-server.js not found; skipping body prerender.');
 }

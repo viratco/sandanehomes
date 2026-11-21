@@ -13,8 +13,7 @@ import ServicedApartmentsGreaterNoida from './components/pages/ServicedApartment
 import KoreanExpatHousing from './components/pages/KoreanExpatHousing';
 import JapaneseExpatHousing from './components/pages/JapaneseExpatHousing';
 import ChineseExpatHousing from './components/pages/ChineseExpatHousing';
-import BlogList from './components/pages/BlogList';
-import BlogPost from './components/pages/BlogPost';
+import { BlogListPage, BlogPostPage } from './blogPages';
 import LandingPage from './components/pages/LandingPage';
 import Relocation from './components/pages/Relocation';
 import PartnershipPage from './components/pages/PartnershipPage';
@@ -78,10 +77,10 @@ function App() {
           <Route path="/korean-expat-housing-delhi-ncr" element={<KoreanExpatHousing />} />
           <Route path="/japanese-expat-housing-delhi-ncr" element={<JapaneseExpatHousing />} />
           <Route path="/chinese-expat-housing-greater-noida" element={<ChineseExpatHousing />} />
-          <Route path="/blog" element={<BlogList />} />
-          <Route path="/blog/:slug" element={<BlogPost />} />
-          <Route path="/zh/:slug" element={<BlogPost />} />
-          <Route path="/cn/:slug" element={<BlogPost />} />
+          <Route path="/blog" element={<BlogListPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/zh/:slug" element={<BlogPostPage />} />
+          <Route path="/cn/:slug" element={<BlogPostPage />} />
           
           {/* SEO Landing Pages (Pages 3-15) */}
           <Route path="/serviced-apartments-ansal-golf-links" element={<LandingPage slug="serviced-apartments-ansal-golf-links" />} />
