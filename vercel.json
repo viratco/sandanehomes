@@ -3,16 +3,6 @@
     "trailingSlash": false,
     "redirects": [
         {
-            "source": "/saffron",
-            "destination": "/",
-            "permanent": true
-        },
-        {
-            "source": "/pine-tales",
-            "destination": "/",
-            "permanent": true
-        },
-        {
             "source": "/best-serviced-apartments-greater-noida",
             "destination": "/serviced-apartments-greater-noida",
             "permanent": true

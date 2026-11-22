@@ -148,6 +148,18 @@ const SEO_MAP = {
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
     schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Sandane Homes Hotel", "url": "https://www.sandanehomes.com/sandane-homes", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "5" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Kitchenette", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
   },
+  '/saffron': {
+    title: 'Saffron Inn by Sandane Homes | Boutique Hotel in Greater Noida',
+    description: 'Saffron Inn by Sandane Homes — warm, elegant boutique hotel in Greater Noida. Twin bedrooms, lounge spaces, 24/7 service, and premium comfort near India Expo Mart.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Saffron Inn by Sandane Homes", "url": "https://www.sandanehomes.com/saffron", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+  },
+  '/pine-tales': {
+    title: 'Pine Tales by Sandane Homes | Cozy Nature Boutique Hotel in Greater Noida',
+    description: 'Relax at Pine Tales by Sandane Homes in Greater Noida. Breathtaking scenic views, cozy bedrooms, complimentary breakfast, terrace options, and premium hospitality.',
+    ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
+    schemas: [{ "@context": "https://schema.org", "@type": "Hotel", "name": "Pine Tales by Sandane Homes", "url": "https://www.sandanehomes.com/pine-tales", "telephone": "+919711722273", "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" }, "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "starRating": { "@type": "Rating", "ratingValue": "4" }, "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Complimentary Breakfast", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Terrace", "value": true }, { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true }] }]
+  },
   '/glam': {
     title: 'The Glam by Sandane Homes | Luxury Boutique Hotel in Greater Noida',
     description: 'Luxury boutique hotel stay at The Glam by Sandane Homes in Greater Noida. Stylish rooms, deluxe suites, dedicated workspaces, smart entertainment, and 24/7 hospitality.',
@@ -1261,7 +1273,7 @@ function buildSitemapXml() {
     '/japanese-expat-housing-delhi-ncr',
     '/chinese-expat-housing-greater-noida',
     '/serviced-apartments-greater-noida',
-    '/sandane-homes', '/amara', '/amaaltash', '/glam', '/coco-house', '/blog', '/faqs',
+    '/sandane-homes', '/amara', '/amaaltash', '/saffron', '/glam', '/pine-tales', '/coco-house', '/blog', '/faqs',
     '/housing-for-daikin-employees-noida',
     ...greaterNoidaCompanyRoutes.map((r) => r.path),
     ...koreanStayRoutes.map((r) => r.path)

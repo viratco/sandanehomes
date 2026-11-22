@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import amaaltashImg from '../assets/IMG_4015.JPG';
 import sandaneHomeImg from '../assets/sandane-night-facade.jpg';
+import pineTalesImg from '../assets/IMG_6598.JPG';
 import glamMainImg from '../assets/glam_main.jpg'; // New Glam image
 import amaraImg from '../assets/amara_facade.jpg';
+import saffronImg from '../assets/saffron_bedroom.png'; // Saffron image
 import cocoFacadeImg from '../assets/coco_facade.jpg'; // CoCo House facade image
 import './ApartmentTypes.css'; // Import the new CSS
 
@@ -29,8 +31,14 @@ const ApartmentTypes = () => {
         setCursorPos({ x: e.clientX, y: e.clientY });
     };
 
-    // 5 items symmetrically ordered with Sandane Homes centerpiece (Pine Tales and Saffron Inn were removed from the site)
+    // 7 items symmetrically ordered with Sandane Homes centerpiece
     const apartments = [
+        {
+            title: "Pine Tales by Sandane Homes",
+            image: pineTalesImg,
+            sizeClass: "card-tier-1",
+            link: "/pine-tales"
+        },
         {
             title: "CoCo House",
             image: cocoFacadeImg,
@@ -60,6 +68,12 @@ const ApartmentTypes = () => {
             image: amaraImg,
             sizeClass: "card-tier-2",
             link: "/amara"
+        },
+        {
+            title: "Saffron Inn by Sandane Homes",
+            image: saffronImg,
+            sizeClass: "card-tier-1",
+            link: "/saffron"
         }
     ];
 
