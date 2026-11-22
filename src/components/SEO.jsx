@@ -12,7 +12,7 @@ import { Helmet } from 'react-helmet-async';
  * @param {string}   lang         - HTML lang attribute (e.g. 'ko', 'ja', 'en')
  * @param {object[]} hreflang     - Array of {lang, href} for alternate language links
  */
-const SEO = ({ title, description, canonical, ogImage, ogType = 'website', schema, lang = 'en', hreflang = [] }) => {
+const SEO = ({ title, description, canonical, ogImage, ogType = 'website', schema, lang = 'en', hreflang = [], noindex = false }) => {
   const schemas = Array.isArray(schema) ? schema : schema ? [schema] : [];
 
   return (
@@ -24,7 +24,7 @@ const SEO = ({ title, description, canonical, ogImage, ogType = 'website', schem
       <title>{title}</title>
       <meta name="description" content={description} />
       {canonical && <link rel="canonical" href={canonical} />}
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
 
       {/* hreflang alternates */}
       {hreflang.map((alt) => (

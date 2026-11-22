@@ -14,6 +14,7 @@ import KoreanExpatHousing from './components/pages/KoreanExpatHousing';
 import JapaneseExpatHousing from './components/pages/JapaneseExpatHousing';
 import ChineseExpatHousing from './components/pages/ChineseExpatHousing';
 import { BlogListPage, BlogPostPage } from './blogPages';
+import NotFound from './components/pages/NotFound';
 import LandingPage from './components/pages/LandingPage';
 import Relocation from './components/pages/Relocation';
 import PartnershipPage from './components/pages/PartnershipPage';
@@ -141,6 +142,8 @@ function App() {
           {residenceSearchPages.map((p) => (
             <Route key={p.slug} path={`/${p.slug}`} element={<ResidenceSearchPage slug={p.slug} />} />
           ))}
+          {/* Any address without a page: "not found", kept out of Google */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <WhatsAppButton />
         <OwnerClickTracker />

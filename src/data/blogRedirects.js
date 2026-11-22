@@ -11,9 +11,9 @@ export const getBlogRedirect = (slug) => {
     if (s.includes('amaaltash')) return '/amaaltash';
     if (s.includes('glam')) return '/glam';
     if (s.includes('coco')) return '/coco-house';
-    if (s.includes('saffron')) return '/saffron';
+    if (s.includes('saffron')) return '/#our-luxury-hotels'; // Saffron Inn page removed
     if (s.includes('amara')) return '/amara';
-    if (s.includes('pine')) return '/pine-tales';
+    if (s.includes('pine')) return '/#our-luxury-hotels'; // Pine Tales page removed
     if (
         s.includes('residences') ||
         s.includes('expat') ||

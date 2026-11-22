@@ -102,7 +102,7 @@ export const landingPages = [
             },
             {
                 "text": "Best Serviced Apartments Greater Noida",
-                "link": "/best-serviced-apartments-greater-noida"
+                "link": "/serviced-apartments-greater-noida"
             }
         ]
     },
@@ -197,7 +197,7 @@ export const landingPages = [
             },
             {
                 "text": "Best Serviced Apartments Greater Noida",
-                "link": "/best-serviced-apartments-greater-noida"
+                "link": "/serviced-apartments-greater-noida"
             }
         ]
     },
@@ -257,7 +257,7 @@ export const landingPages = [
         "related": [
             {
                 "text": "Best Serviced Apartments Greater Noida",
-                "link": "/best-serviced-apartments-greater-noida"
+                "link": "/serviced-apartments-greater-noida"
             },
             {
                 "text": "Long Stay Apartments Greater Noida",

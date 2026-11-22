@@ -10408,7 +10408,7 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "<b><a href='/pine-tales'>Pine Tales by Sandane Homes</a></b> and <b><a href='/residences'>Residences by Sandane Homes</a></b> deliver serene, green surroundings paired with high-spec interior finishes, 24/7 dining options, and high-speed working connectivity."
+        "text": "<b>Pine Tales by Sandane Homes</b> and <b><a href='/residences'>Residences by Sandane Homes</a></b> deliver serene, green surroundings paired with high-spec interior finishes, 24/7 dining options, and high-speed working connectivity."
       },
       {
         "type": "heading",
@@ -20725,7 +20725,7 @@ export const blogPosts = [
     "content": [
       {
         "type": "paragraph",
-        "text": "After spending long hours navigating busy trade fair halls at India Expo Mart, returning to a peaceful, restful hotel environment is essential. <a href='/saffron'>Saffron Inn by Sandane Homes</a> delivers welcoming hospitality in a calm setting."
+        "text": "After spending long hours navigating busy trade fair halls at India Expo Mart, returning to a peaceful, restful hotel environment is essential. Saffron Inn by Sandane Homes delivers welcoming hospitality in a calm setting."
       },
       {
         "type": "heading",
@@ -20782,7 +20782,7 @@ export const blogPosts = [
     "content": [
       {
         "type": "paragraph",
-        "text": "Travelers seeking warm, personalized hospitality in Greater Noida will find an inviting retreat at <a href='/pine-tales'>Pine Tales by Sandane Homes</a>."
+        "text": "Travelers seeking warm, personalized hospitality in Greater Noida will find an inviting retreat at Pine Tales by Sandane Homes."
       },
       {
         "type": "heading",
@@ -24026,7 +24026,7 @@ export const blogPosts = [
           "<strong><a href='/glam'>The Glam by Sandane Homes</a>:</strong> Plot No. AE-189, Block A, Ansal Golf Link-1 (8.5/10 on Booking.com) — Design-led luxury boutique hotel.",
           "<strong><a href='/amara'>Amara Inn by Sandane Homes</a>:</strong> CE 318, Block C, Ansal Golf Link-1 (4.8★ across 179 Google reviews) — Suited for extended multi-day stays.",
           "<strong><a href='/coco-house'>CoCo House</a>:</strong> AE-186, Block A, Ansal Golf Link-1 (4.9★) — Group-booking property with consolidated B2B GST billing.",
-          "<strong><a href='/pine-tales'>Pine Tales by Sandane Homes</a>:</strong> Ansal Golf Link-1 — Boutique accommodation in the same quiet green corridor."
+          "<strong>Pine Tales by Sandane Homes:</strong> Ansal Golf Link-1 — Boutique accommodation in the same quiet green corridor."
         ]
       },
       {
@@ -24792,7 +24792,7 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "Ideal for sales delegations, booth presenters, and visiting business executives, <a href='/saffron'>Saffron Inn</a> delivers premium central connectivity:"
+        "text": "Ideal for sales delegations, booth presenters, and visiting business executives, Saffron Inn delivers premium central connectivity:"
       },
       {
         "type": "list",
@@ -24913,7 +24913,7 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "Located 10 minutes from venue halls, <a href='/pine-tales'>Pine Tales</a> delivers peaceful surroundings without compromising business connectivity:"
+        "text": "Located 10 minutes from venue halls, Pine Tales delivers peaceful surroundings without compromising business connectivity:"
       },
       {
         "type": "list",
@@ -25097,7 +25097,7 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "<a href=\"/\">Sandane Homes</a> solves these logistics challenges with dedicated business hotel packages across <a href=\"/amaaltash\">Amaaltash</a>, <a href=\"/saffron\">Saffron Inn</a>, <a href=\"/pine-tales\">Pine Tales</a>, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — positioned minutes from <a href=\"/blog/hotels-near-india-expo-mart-greater-noida\">India Expo Mart</a> and <a href=\"/blog/hotels-near-pari-chowk-greater-noida\">Pari Chowk</a>."
+        "text": "<a href=\"/\">Sandane Homes</a> solves these logistics challenges with dedicated business hotel packages across <a href=\"/amaaltash\">Amaaltash</a>, Saffron Inn, Pine Tales, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — positioned minutes from <a href=\"/blog/hotels-near-india-expo-mart-greater-noida\">India Expo Mart</a> and <a href=\"/blog/hotels-near-pari-chowk-greater-noida\">Pari Chowk</a>."
       },
       {
         "type": "heading",
@@ -25176,13 +25176,13 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "Standard tourist hotels often struggle to meet the strict administrative and operational requirements of corporate business travel. <a href=\"/\">Sandane Homes</a> operates boutique business hotels — <a href=\"/amaaltash\">Amaaltash</a>, <a href=\"/saffron\">Saffron Inn</a>, <a href=\"/pine-tales\">Pine Tales</a>, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — tailored specifically for business assignees:"
+        "text": "Standard tourist hotels often struggle to meet the strict administrative and operational requirements of corporate business travel. <a href=\"/\">Sandane Homes</a> operates boutique business hotels — <a href=\"/amaaltash\">Amaaltash</a>, Saffron Inn, Pine Tales, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — tailored specifically for business assignees:"
       },
       {
         "type": "list",
         "items": [
           "<strong>Consolidated Corporate GST Invoicing:</strong> Direct B2B invoicing in INR with full GST compliance, simplifying accounting for HR departments and corporate finance teams.",
-          "<strong>Group Booking Consolidation:</strong> Reserve adjacent room blocks across properties like <a href=\"/amaaltash\">Amaaltash</a> or <a href=\"/saffron\">Saffron Inn</a> with a single point of contact.",
+          "<strong>Group Booking Consolidation:</strong> Reserve adjacent room blocks across properties like <a href=\"/amaaltash\">Amaaltash</a> or Saffron Inn with a single point of contact.",
           "<strong>High-Speed Executive Workspace:</strong> Dedicated study desks, ergonomic chairs, multi-socket charging stations, and dedicated 300 Mbps fiber Wi-Fi in every room.",
           "<strong>Proximity to Business Hubs:</strong> Located minutes from <a href=\"/blog/hotels-near-india-expo-mart-greater-noida\">India Expo Mart</a>, <a href=\"/blog/hotels-near-knowledge-park-greater-noida\">Knowledge Park</a>, <a href=\"/blog/hotels-near-pari-chowk-greater-noida\">Pari Chowk</a>, and Surajpur Industrial Area."
         ]
@@ -25199,9 +25199,9 @@ export const blogPosts = [
         "type": "list",
         "items": [
           "<a href=\"/amaaltash\"><strong>Amaaltash by Sandane Homes:</strong></a> Ideal for long-term project leaders and auditors needing spacious rooms and shared kitchenette access.",
-          "<a href=\"/saffron\"><strong>Saffron Inn by Sandane Homes:</strong></a> Premium twin and double rooms offering 24/7 room service and central connectivity at Pari Chowk.",
+          "<strong>Saffron Inn by Sandane Homes:</strong> Premium twin and double rooms offering 24/7 room service and central connectivity at Pari Chowk.",
           "<a href=\"/coco-house\"><strong>CoCo House:</strong></a> Chic, modern boutique rooms popular among creative agencies, tech executives, and delegation teams.",
-          "<a href=\"/pine-tales\"><strong>Pine Tales by Sandane Homes:</strong></a> Serene, green setting with private balcony and terrace options for post-work relaxation.",
+          "<strong>Pine Tales by Sandane Homes:</strong> Serene, green setting with private balcony and terrace options for post-work relaxation.",
           "<a href=\"/glam\"><strong>The Glam by Sandane Homes:</strong></a> Luxury executive suites featuring smart entertainment setups and dedicated workstations."
         ]
       },
@@ -25260,7 +25260,7 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "Navigating Greater Noida during peak exhibition hours can be stressful if your hotel is miles away in Central Delhi or Gurgaon. <a href=\"/\">Sandane Homes</a> operates a curated collection of boutique hotel properties — including <a href=\"/amaaltash\">Amaaltash</a>, <a href=\"/saffron\">Saffron Inn</a>, <a href=\"/pine-tales\">Pine Tales</a>, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — positioned just minutes from India Expo Mart, Expo Plaza, and <a href=\"/blog/hotels-near-pari-chowk-greater-noida\">Pari Chowk</a>."
+        "text": "Navigating Greater Noida during peak exhibition hours can be stressful if your hotel is miles away in Central Delhi or Gurgaon. <a href=\"/\">Sandane Homes</a> operates a curated collection of boutique hotel properties — including <a href=\"/amaaltash\">Amaaltash</a>, Saffron Inn, Pine Tales, <a href=\"/coco-house\">CoCo House</a>, and <a href=\"/glam\">The Glam</a> — positioned just minutes from India Expo Mart, Expo Plaza, and <a href=\"/blog/hotels-near-pari-chowk-greater-noida\">Pari Chowk</a>."
       },
       {
         "type": "list",
@@ -25299,9 +25299,9 @@ export const blogPosts = [
         "type": "list",
         "items": [
           "<a href=\"/amaaltash\"><strong>Amaaltash by Sandane Homes:</strong></a> Elegant, spacious guest rooms with executive workspaces and common kitchenette facilities.",
-          "<a href=\"/saffron\"><strong>Saffron Inn by Sandane Homes:</strong></a> Stylish twin and double executive bedrooms with 24/7 room service near Pari Chowk.",
+          "<strong>Saffron Inn by Sandane Homes:</strong> Stylish twin and double executive bedrooms with 24/7 room service near Pari Chowk.",
           "<a href=\"/coco-house\"><strong>CoCo House:</strong></a> Chic boutique hotel atmosphere with modern interiors, aesthetic lounges, and high-speed Wi-Fi.",
-          "<a href=\"/pine-tales\"><strong>Pine Tales by Sandane Homes:</strong></a> Scenic terrace options, tranquil greenery, and complimentary hot breakfast spreads.",
+          "<strong>Pine Tales by Sandane Homes:</strong> Scenic terrace options, tranquil greenery, and complimentary hot breakfast spreads.",
           "<a href=\"/glam\"><strong>The Glam by Sandane Homes:</strong></a> Premium executive suites equipped with smart entertainment systems and dedicated workspace tables."
         ]
       },
@@ -25364,7 +25364,7 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "Choosing a business hotel right next to Knowledge Park eliminates transit delays and lets you commute between lectures, audits, and venue halls in under 10 minutes. <a href='/'>Sandane Homes</a> operates premier boutique hotels — including <a href='/amaaltash'>Amaaltash</a>, <a href='/saffron'>Saffron Inn</a>, <a href='/coco-house'>CoCo House</a>, <a href='/pine-tales'>Pine Tales</a>, and <a href='/glam'>The Glam</a> — positioned adjacent to Knowledge Park."
+        "text": "Choosing a business hotel right next to Knowledge Park eliminates transit delays and lets you commute between lectures, audits, and venue halls in under 10 minutes. <a href='/'>Sandane Homes</a> operates premier boutique hotels — including <a href='/amaaltash'>Amaaltash</a>, Saffron Inn, <a href='/coco-house'>CoCo House</a>, Pine Tales, and <a href='/glam'>The Glam</a> — positioned adjacent to Knowledge Park."
       },
       {
         "type": "list",
@@ -25462,12 +25462,12 @@ export const blogPosts = [
       },
       {
         "type": "paragraph",
-        "text": "<a href='/'>Sandane Homes</a> operates premier boutique hotels near Pari Chowk — including <a href='/saffron'>Saffron Inn</a>, <a href='/amaaltash'>Amaaltash</a>, <a href='/coco-house'>CoCo House</a>, <a href='/pine-tales'>Pine Tales</a>, and <a href='/glam'>The Glam</a>. Located inside quiet, secure gated sectors right off Pari Chowk, our guests enjoy central connectivity without city traffic noise."
+        "text": "<a href='/'>Sandane Homes</a> operates premier boutique hotels near Pari Chowk — including Saffron Inn, <a href='/amaaltash'>Amaaltash</a>, <a href='/coco-house'>CoCo House</a>, Pine Tales, and <a href='/glam'>The Glam</a>. Located inside quiet, secure gated sectors right off Pari Chowk, our guests enjoy central connectivity without city traffic noise."
       },
       {
         "type": "list",
         "items": [
-          "<a href='/saffron'><strong>Saffron Inn by Sandane Homes:</strong></a> Located 2 minutes from Pari Chowk, offering executive bedrooms, 24/7 service, and corporate GST billing.",
+          "<strong>Saffron Inn by Sandane Homes:</strong> Located 2 minutes from Pari Chowk, offering executive bedrooms, 24/7 service, and corporate GST billing.",
           "<a href='/amaaltash'><strong>Amaaltash by Sandane Homes:</strong></a> Luxury guest rooms with spacious work layouts and common kitchen facilities.",
           "<a href='/coco-house'><strong>CoCo House:</strong></a> Modern aesthetic rooms with high-speed internet and lounge spaces.",
           "<strong>Professional Hospitality:</strong> Daily housekeeping, hot breakfast spreads, 100% DG power backup, and 24/7 security."

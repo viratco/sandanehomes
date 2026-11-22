@@ -1,14 +1,41 @@
 {
     "cleanUrls": true,
     "trailingSlash": false,
+    "redirects": [
+        {
+            "source": "/saffron",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/pine-tales",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/best-serviced-apartments-greater-noida",
+            "destination": "/serviced-apartments-greater-noida",
+            "permanent": true
+        }
+    ],
     "headers": [
         {
             "source": "/sitemap.xml",
-            "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/xml"
+                }
+            ]
         },
         {
             "source": "/sitemap-residences.xml",
-            "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/xml"
+                }
+            ]
         }
     ],
     "rewrites": [
