@@ -3,9 +3,9 @@ import { FaQuoteLeft, FaBolt, FaHandHoldingHeart, FaShieldHeart, FaArrowRight, F
 import { openResidencesEnquiry } from './ResidencesLeadPopup';
 import './ResidentReview.css';
 
-// A real review from a resident (written in Japanese, English translation by the resident),
-// shown on /residences for HR teams. Both languages are in the HTML; the tabs only
-// switch which one is visible.
+// A real review from a Daikin employee (written in Japanese, English translation by the
+// resident), shown on /residences for HR teams. Japanese, the original, shows first.
+// Both languages are in the HTML; the tabs only switch which one is visible.
 const REVIEW = {
   ja: [
     '引越しを機に、こちらに家探しをお願いし、見つけていただいた物件に入居しました。',
@@ -28,7 +28,7 @@ const POINTS = [
 ];
 
 const ResidentReview = () => {
-  const [lang, setLang] = useState('en');
+  const [lang, setLang] = useState('ja');
 
   return (
     <section className="rrv" aria-labelledby="rrv-title">
@@ -37,32 +37,34 @@ const ResidentReview = () => {
         <h2 id="rrv-title" className="rrv-title">
           The question every HR team asks: <em>will our employee be looked after?</em>
         </h2>
-        <p className="rrv-sub">Here is the answer in a resident’s own words, after moving to India on her own.</p>
+        <p className="rrv-sub">Here is the answer from a Daikin employee who moved to India on her own.</p>
       </div>
 
       <div className="rrv-card">
         <div className="rrv-quote-col">
           <FaQuoteLeft className="rrv-mark" aria-hidden="true" />
-          <p className="rrv-pull">
-            Once you experience their level of service, it’s hard to imagine going anywhere else.
-          </p>
+          {lang === 'ja' ? (
+            <p className="rrv-pull rrv-pull-ja" lang="ja">一度こちらのサービスを経験すると、もう他のサービスには戻れないと思うほど。</p>
+          ) : (
+            <p className="rrv-pull">Once you experience their level of service, it’s hard to imagine going anywhere else.</p>
+          )}
 
           <div className="rrv-tabs" role="tablist" aria-label="Review language">
+            <button type="button" role="tab" id="rrv-tab-ja" aria-controls="rrv-ja" aria-selected={lang === 'ja'} className={lang === 'ja' ? 'is-on' : ''} onClick={() => setLang('ja')}><span lang="ja">日本語</span> (original)</button>
             <button type="button" role="tab" id="rrv-tab-en" aria-controls="rrv-en" aria-selected={lang === 'en'} className={lang === 'en' ? 'is-on' : ''} onClick={() => setLang('en')}>English</button>
-            <button type="button" role="tab" id="rrv-tab-ja" aria-controls="rrv-ja" aria-selected={lang === 'ja'} className={lang === 'ja' ? 'is-on' : ''} onClick={() => setLang('ja')} lang="ja">日本語 (original)</button>
           </div>
 
-          <blockquote id="rrv-en" role="tabpanel" aria-labelledby="rrv-tab-en" className="rrv-text" hidden={lang !== 'en'}>
-            {REVIEW.en.map((p) => <p key={p}>{p}</p>)}
-          </blockquote>
           <blockquote id="rrv-ja" role="tabpanel" aria-labelledby="rrv-tab-ja" className="rrv-text rrv-text-ja" lang="ja" hidden={lang !== 'ja'}>
             {REVIEW.ja.map((p) => <p key={p}>{p}</p>)}
+          </blockquote>
+          <blockquote id="rrv-en" role="tabpanel" aria-labelledby="rrv-tab-en" className="rrv-text" hidden={lang !== 'en'}>
+            {REVIEW.en.map((p) => <p key={p}>{p}</p>)}
           </blockquote>
 
           <p className="rrv-by">
             <span className="rrv-avatar" aria-hidden="true"><FaHouseChimney /></span>
             <span>
-              <strong>Resident, living on her own in India</strong>
+              <strong>Daikin employee, living on her own in India</strong>
               <small>Review written in Japanese · moved in through our home search</small>
             </span>
           </p>

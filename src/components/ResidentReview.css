@@ -64,6 +64,8 @@
   color: #3A2A1E;
 }
 
+.rrv-pull-ja { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', Georgia, serif; font-style: normal; line-height: 1.6; }
+
 .rrv-tabs { display: inline-flex; gap: 4px; padding: 3px; margin-bottom: 16px; border-radius: 40px; background: rgba(197, 165, 114, 0.16); }
 .rrv-tabs button {
   border: 0;
