@@ -25,6 +25,7 @@ import './SandaneHomes.css'; // Import shared CSS
 import EntireHomeStrip from '../EntireHomeStrip';
 import ResidenceSearchLinks from '../ResidenceSearchLinks';
 import HrUpdatesSignup from '../HrUpdatesSignup';
+import ResidentReview from '../ResidentReview';
 import { RESIDENCE_HOME_SPEC } from '../../utils/schemaHelper';
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
 
@@ -357,6 +358,9 @@ const Residences = () => {
                         ))}
                     </div>
                 </div>
+
+                {/* A resident's review, framed for HR teams */}
+                <ResidentReview />
             </div>
 
             <GurugramResidencesSection background="transparent" />

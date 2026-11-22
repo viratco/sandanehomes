@@ -1,0 +1,162 @@
+/* Featured resident review on /residences, framed for HR teams.
+   Same palette as the "What we do for you" cards: cream, gold, brown, Playfair/Georgia. */
+.rrv {
+  max-width: 1080px;
+  margin: 70px auto 0;
+  padding: 0 4px;
+  text-align: left;
+}
+
+.rrv-head { text-align: center; max-width: 760px; margin: 0 auto 30px; }
+
+.rrv-eyebrow {
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #6B4423 0%, #9A6A3C 50%, #6B4423 100%);
+  color: #FFF3E0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.rrv-title {
+  margin: 20px 0 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2E2119;
+}
+.rrv-title em { display: block; font-style: italic; font-weight: 500; color: #8B5E34; }
+
+.rrv-sub { margin: 0; font-size: 15.5px; line-height: 1.6; color: #5A4636; }
+
+.rrv-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  background: linear-gradient(180deg, #FFFBF5 0%, #FBF3E8 100%);
+  border: 1px solid rgba(197, 165, 114, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 24px 50px -28px rgba(92, 56, 20, 0.4);
+  overflow: hidden;
+}
+
+/* Left: the review */
+.rrv-quote-col { position: relative; padding: 40px 40px 32px; }
+
+.rrv-mark {
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  font-size: 64px;
+  color: rgba(197, 165, 114, 0.18);
+}
+
+.rrv-pull {
+  margin: 0 0 22px;
+  padding-right: 60px;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(20px, 2.2vw, 25px);
+  font-style: italic;
+  line-height: 1.45;
+  color: #3A2A1E;
+}
+
+.rrv-tabs { display: inline-flex; gap: 4px; padding: 3px; margin-bottom: 16px; border-radius: 40px; background: rgba(197, 165, 114, 0.16); }
+.rrv-tabs button {
+  border: 0;
+  background: transparent;
+  padding: 6px 16px;
+  border-radius: 40px;
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #8B5E34;
+  cursor: pointer;
+}
+.rrv-tabs button.is-on { background: #FFFDF8; color: #3A2A1E; box-shadow: 0 2px 8px -3px rgba(92, 56, 20, 0.35); }
+
+.rrv-text { margin: 0; padding: 0 0 0 16px; border-left: 2px solid #C5A572; }
+.rrv-text[hidden] { display: none; }
+.rrv-text p { margin: 0 0 11px; font-family: Georgia, serif; font-size: 15.5px; line-height: 1.75; color: #4A3A2C; }
+.rrv-text p:last-child { margin-bottom: 0; }
+.rrv-text-ja p { font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', Georgia, serif; line-height: 1.95; }
+
+.rrv-by { display: flex; align-items: center; gap: 12px; margin: 26px 0 0; padding-top: 18px; border-top: 1px solid rgba(197, 165, 114, 0.3); }
+.rrv-avatar {
+  flex-shrink: 0;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #6B4423, #9A6A3C);
+  color: #FFF3E0;
+  font-size: 16px;
+}
+.rrv-by strong { display: block; font-size: 15px; color: #2E2119; }
+.rrv-by small { display: block; margin-top: 2px; font-size: 12.5px; color: #8A7A62; }
+
+/* Right: what it means for HR */
+.rrv-points-col {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 34px 32px;
+  background: linear-gradient(160deg, #3B2A1C 0%, #5A3C22 100%);
+  color: #F5E9D8;
+}
+
+.rrv-points-label { margin: 0 0 18px; font-size: 11.5px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: #D9B98A; }
+
+.rrv-points { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 18px; }
+.rrv-points li { display: flex; gap: 14px; align-items: flex-start; }
+.rrv-point-icon {
+  flex-shrink: 0;
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: rgba(217, 185, 138, 0.16);
+  border: 1px solid rgba(217, 185, 138, 0.4);
+  color: #E6C894;
+  font-size: 15px;
+}
+.rrv-points strong { display: block; font-family: 'Playfair Display', serif; font-size: 18px; color: #FFF6EA; margin-bottom: 2px; }
+.rrv-points li > span:last-child > span { display: block; font-family: Georgia, serif; font-style: italic; font-size: 14px; line-height: 1.55; color: #E3D3BC; }
+
+.rrv-cta {
+  margin-top: auto;
+  align-self: flex-start;
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 13px 22px;
+  border: 0;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #C5A572 0%, #E0C28E 100%);
+  color: #2E2119;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.rrv-points + .rrv-cta { margin-top: 30px; }
+.rrv-cta:hover { transform: translateY(-1px); box-shadow: 0 12px 24px -12px rgba(0, 0, 0, 0.5); }
+.rrv-cta svg { font-size: 12px; }
+.rrv-cta-note { margin: 10px 0 0; font-size: 12.5px; color: #CDB898; }
+
+@media (max-width: 900px) {
+  .rrv-card { grid-template-columns: 1fr; }
+  .rrv-quote-col { padding: 32px 26px 26px; }
+  .rrv-points-col { padding: 30px 26px 28px; }
+}
+
+@media (max-width: 480px) {
+  .rrv { margin-top: 54px; padding: 0; }
+  .rrv-quote-col { padding: 28px 20px 22px; }
+  .rrv-points-col { padding: 26px 20px 24px; }
+  .rrv-mark { font-size: 48px; top: 18px; right: 18px; }
+  .rrv-pull { padding-right: 34px; }
+  .rrv-text { padding-left: 12px; }
+  .rrv-text p { font-size: 15px; }
+  .rrv-cta { align-self: stretch; justify-content: center; }
+}
