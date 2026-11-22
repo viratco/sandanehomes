@@ -299,7 +299,7 @@ const SEO_MAP = {
 
 // ── Gurugram Neighbourhood Hub Pages ──
 SEO_MAP['/gurugram-corporate-housing'] = {
-  title: 'Gurugram Corporate Housing | Entire 3–4 BHK Serviced Apartments for Expats | Residences by Sandane Homes',
+  title: 'Corporate & Expat Housing in Gurgaon (Gurugram) | Entire 3–4 BHK Serviced Apartments | Residences by Sandane Homes',
   description: 'Entire furnished 3 & 4 BHK serviced apartments of 2,095–2,700 sq ft in Gurugram (Gurgaon), not hotel rooms. Company leases for Japanese & Korean expats and families on long stays near Golf Course Extension Road, DLF Phase 4 & Sushant Lok. Daily housekeeping, GST invoice.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
@@ -383,7 +383,7 @@ SEO_MAP['/gurugram/golf-course-road'] = {
 };
 
 SEO_MAP['/gurugram/sushant-lok'] = {
-  title: 'Serviced Apartments in Sushant Lok Gurgaon | Entire Homes for Expats | Residences by Sandane Homes',
+  title: 'Serviced Apartments in Sushant Lok 1, Gurgaon | Entire Homes for Expats | Residences by Sandane Homes',
   description: 'Entire furnished homes, not hotel rooms: serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon, a safe, quiet enclave steps from Galleria Market & MG Road Metro. For company expats and families on long stays, with daily housekeeping & B2B billing.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [

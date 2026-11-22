@@ -73,7 +73,7 @@ export default function GurugramSushantLok() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Serviced Apartments in Sushant Lok Gurgaon | Entire Homes for Expats | Residences by Sandane Homes"
+        title="Serviced Apartments in Sushant Lok 1, Gurgaon | Entire Homes for Expats | Residences by Sandane Homes"
         description="Entire furnished homes, not hotel rooms: serviced apartments in Sushant Lok 1 (Sector 27-28) Gurgaon, a safe, quiet enclave steps from Galleria Market & MG Road Metro. For company expats and families on long stays, with daily housekeeping & B2B billing."
         canonical="https://www.sandanehomes.com/gurugram/sushant-lok"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"

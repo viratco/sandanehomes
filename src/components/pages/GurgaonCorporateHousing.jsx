@@ -161,7 +161,7 @@ export default function GurgaonCorporateHousing() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Gurugram Corporate Housing | Entire 3–4 BHK Serviced Apartments for Expats | Residences by Sandane Homes"
+        title="Corporate & Expat Housing in Gurgaon (Gurugram) | Entire 3–4 BHK Serviced Apartments | Residences by Sandane Homes"
         description="Entire furnished 3 & 4 BHK serviced apartments of 2,095–2,700 sq ft in Gurugram (Gurgaon), not hotel rooms. Company leases for Japanese & Korean expats and families on long stays near Golf Course Extension Road, DLF Phase 4 & Sushant Lok. Daily housekeeping, GST invoice."
         canonical="https://www.sandanehomes.com/gurugram-corporate-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"

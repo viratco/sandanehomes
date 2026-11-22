@@ -10,6 +10,7 @@ import './pages/ResidenceSearchPage.css';
 const LABELS = {
   'long-stay-serviced-apartments-gurgaon': 'Long stay serviced apartments, Gurgaon',
   'fully-furnished-house-for-rent-gurgaon': 'Fully furnished house for rent, Gurgaon',
+  '3-bhk-4-bhk-fully-furnished-flat-for-rent-gurgaon': '3 BHK & 4 BHK furnished flats, Gurgaon',
   'corporate-guest-house-gurgaon': 'Corporate guest house, Gurgaon',
   'serviced-apartments-dlf-cyber-city-gurgaon': 'Serviced apartments near DLF Cyber City',
   'serviced-apartments-golf-course-road-gurgaon': 'Serviced apartments, Golf Course Extension Road',

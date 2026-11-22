@@ -122,10 +122,69 @@ export const residenceSearchPages = [
     related: [
       { text: 'All our homes in Gurgaon', href: '/residences/gurgaon' },
       { text: 'Long stay serviced apartments in Gurgaon', href: '/long-stay-serviced-apartments-gurgaon' },
+      { text: '3 BHK & 4 BHK fully furnished flats in Gurgaon', href: '/3-bhk-4-bhk-fully-furnished-flat-for-rent-gurgaon' },
       { text: 'Green Meadows, Sector 27', href: '/green-meadows-sector-27-gurgaon' },
       { text: 'Sushant Lok Block B, Sector 27', href: '/sushant-lok-block-b-sector-27-gurgaon' },
       { text: 'Conscient Hines Elevate, Sector 58', href: '/elevate-hines-sector-58-gurgaon' },
       { text: 'Company lease apartments', href: '/company-lease-apartments-delhi-ncr' },
+    ],
+  },
+  {
+    slug: '3-bhk-4-bhk-fully-furnished-flat-for-rent-gurgaon',
+    city: 'gurugram',
+    metaTitle: '3 BHK & 4 BHK Fully Furnished Flat for Rent in Gurgaon | Monthly | Residences by Sandane Homes',
+    metaDescription: 'Fully furnished 3 BHK and 4 BHK flats for rent in Gurgaon by the month: a 3 BHK in Sector 58 (2,095–2,595 sq ft) and 4 BHK floors in Sector 27 (2,230 and ~2,700 sq ft), with housekeeping, Wi-Fi, utilities and no brokerage.',
+    eyebrow: 'Gurgaon · 3 BHK & 4 BHK · Monthly',
+    h1: '3 BHK & 4 BHK Fully Furnished Flats for Rent in Gurgaon',
+    lead: 'Three large, fully furnished flats in Gurgaon, rented by the month to families, executives and company teams: one 3 BHK in a high-rise on Golf Course Extension Road and two 4 BHK floors in Sector 27.',
+    sections: [
+      {
+        heading: 'The flats, side by side',
+        points: [
+          '3 BHK · Conscient Hines Elevate, Sector 58: 2,095–2,595 sq ft in a high-rise with a clubhouse, pool and squash courts. About 18 minutes to Cyber City; Sector 55-56 Rapid Metro is an 8-minute drive.',
+          '4 BHK · Green Meadows, Sector 27: an entire 2,230 sq ft floor with 4 bedrooms and 4 bathrooms and a private lift landing. Millennium City Centre metro is an 8-minute walk; Cyber City about 10 minutes.',
+          '4 BHK · Sushant Lok Block B, Sector 27 (Sushant Lok 1): an entire floor of about 2,700 sq ft on a quiet, tree-lined street near Galleria Market and Max Hospital. Cyber City about 12 minutes.',
+        ],
+      },
+      {
+        heading: '3 BHK or 4 BHK: which one fits?',
+        paragraphs: [
+          'A 3 BHK suits a couple or a family with one or two children, or an executive who wants a spare room as a study or for visitors. The Sector 58 flat adds the facilities of a gated tower, which many families with children like.',
+          'A 4 BHK suits larger families, parents who visit for long stretches, or two or three colleagues from the same company sharing one home, each with their own bedroom and bathroom. Both of our 4 BHK flats are entire floors, so nobody shares a wall with a stranger.',
+        ],
+      },
+      {
+        heading: 'What "fully furnished" includes',
+        points: [
+          'Furniture in every room: beds, wardrobes, sofas and a dining table',
+          'A kitchen with kitchenware, ready to cook in',
+          'Fresh linen, changed twice a week, and daily housekeeping',
+          '300 Mbps Wi-Fi and 100% power backup',
+          'Electricity, water and society maintenance in the one monthly amount',
+          'Repairs handled by our team, with no broker fees',
+        ],
+      },
+      {
+        heading: 'Renting by the month, not on an 11-month lease',
+        paragraphs: [
+          'Most furnished flats in Gurgaon are let on an 11-month agreement with a deposit and a broker. Ours start at one month and run as long as you need, which fits job postings, relocations and the months while a family decides where to settle. If your company is paying, we invoice the company directly with GST.',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Do you have 3 BHK and 4 BHK flats available now?', a: 'Our three Gurgaon flats are booked and released through the year. Send us your dates and how many people are moving, and we will tell you which one is free.' },
+      { q: 'What is the minimum rental period?', a: 'One month (30 days). After that, stays run month by month for as long as you need, including multi-year postings.' },
+      { q: 'Is there a security deposit or brokerage?', a: 'There are no broker fees: you deal with us directly. We share the full terms with your quote.' },
+      { q: 'Can two or three colleagues share a 4 BHK?', a: 'Yes. Each of our 4 BHK floors has four bedrooms, so colleagues from the same company can share one home with a bedroom each.' },
+      { q: 'Why are rents not shown on the website?', a: 'The monthly amount depends on the flat, the length of stay and the services you choose, so we send a quote once we know your dates and needs.' },
+    ],
+    related: [
+      { text: 'All our homes in Gurgaon', href: '/residences/gurgaon' },
+      { text: 'Fully furnished house for rent in Gurgaon', href: '/fully-furnished-house-for-rent-gurgaon' },
+      { text: 'Long stay serviced apartments in Gurgaon', href: '/long-stay-serviced-apartments-gurgaon' },
+      { text: 'Conscient Hines Elevate, Sector 58 (3 BHK)', href: '/elevate-hines-sector-58-gurgaon' },
+      { text: 'Green Meadows, Sector 27 (4 BHK)', href: '/green-meadows-sector-27-gurgaon' },
+      { text: 'Sushant Lok Block B, Sector 27 (4 BHK)', href: '/sushant-lok-block-b-sector-27-gurgaon' },
     ],
   },
   {
