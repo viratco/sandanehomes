@@ -15,7 +15,7 @@ import imgFurnished from '../../assets/IMG_6221.jpg';
 import imgCorporate from '../../assets/IMG_6094.jpg';
 import imgLongStay from '../../assets/IMG_0586.jpg';
 import imgBuildingHero from '../../assets/building-partner-hero.jpg';
-import imgResidences from '../../assets/residences_living_editorial.png';
+import imgResidences from '../../assets/residences_living_editorial.jpg';
 import imgRoom1 from '../../assets/IMG_7254.jpg';
 import imgRoom2 from '../../assets/IMG_7255.jpg';
 import imgRoom3 from '../../assets/IMG_7256.jpg';

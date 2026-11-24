@@ -260,6 +260,7 @@ const BlogPost = () => {
                 title={post.metaTitle || `${post.title} | Sandane Homes`}
                 description={post.metaDescription || post.excerpt}
                 canonical={canonical}
+                noindex={Boolean(post.noindex)}
                 ogImage={ogImage}
                 ogType="article"
                 lang={post.lang || 'en'}

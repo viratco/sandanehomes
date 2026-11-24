@@ -15,7 +15,7 @@ import OwnerContactLine from '../OwnerContactLine';
 import { submitOwnerLead } from '../../utils/ownerLeads';
 
 import livingImg from '../../assets/livingroom.jpeg';
-import interiorImg from '../../assets/abstract_luxury_interior.png';
+import interiorImg from '../../assets/abstract_luxury_interior.jpg';
 
 const GurugramHomeOwnersPartner = () => {
   const [bhk, setBhk] = useState('3BHK');

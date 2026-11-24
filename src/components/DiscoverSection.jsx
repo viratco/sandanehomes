@@ -1,7 +1,7 @@
 import React from 'react';
-import artImg from '../assets/discover_peace.png';
-import parkImg from '../assets/discover_returns.png';
-import foodImg from '../assets/discover_care.png';
+import artImg from '../assets/discover_peace.jpg';
+import parkImg from '../assets/discover_returns.jpg';
+import foodImg from '../assets/discover_care.jpg';
 import './DiscoverSection.css';
 
 const DiscoverSection = () => {

@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import heroImg from '../../assets/DSC01701.jpg'; // Saffron Inn Hero Image (requested by user)
 import room1 from '../../assets/DSC01565.jpg';
 import room2 from '../../assets/DSC01571.jpg';
-import room3 from '../../assets/DSC020139.png'; // Using the remaining image here
+import room3 from '../../assets/DSC020139.jpg'; // Using the remaining image here
 import room4 from '../../assets/saffron_bedroom.png';
 import aboutUsImg from '../../assets/IMG_6094.jpg';
 import soheesLogo from '../../assets/upscaled_image.png';

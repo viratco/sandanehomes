@@ -87,8 +87,8 @@ export default function GurugramJapaneseExpatHousing() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Japanese Service Apartments in Gurgaon | Japanese Expat Housing | 日本人向けサービスアパートメント"
-        description="Premium serviced apartments for Japanese expats in Gurugram (Gurgaon). Near Honda, Toyota, NTT Data & DLF Cyber City. FRRO Form C support, Japanese amenities, B2B corporate billing. 日本人駐在員向け高級住宅."
+        title="Japanese Expat Housing in Gurgaon | 日本人向けサービスアパートメント"
+        description="Furnished homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Japanese support, FRRO Form C help, corporate GST billing. 日本人駐在員向け住宅."
         canonical="https://www.sandanehomes.com/gurugram/japanese-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb]}

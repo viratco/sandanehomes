@@ -16,7 +16,7 @@ import OwnerContactLine from '../OwnerContactLine';
 import { submitOwnerLead } from '../../utils/ownerLeads';
 
 import buildingHeroImg from '../../assets/building-partner-hero.jpg';
-import interiorImg from '../../assets/abstract_luxury_interior.png';
+import interiorImg from '../../assets/abstract_luxury_interior.jpg';
 
 const GurugramBuildingOwnersPartner = () => {
   const [totalUnits, setTotalUnits] = useState('15-30 Units');

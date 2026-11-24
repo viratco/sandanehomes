@@ -20,8 +20,8 @@ const BASE_URL = 'https://www.sandanehomes.com';
 
 const SEO_MAP = {
   '/': {
-    title: 'Sandane Homes | Boutique Hotels & Large Serviced Apartments | Greater Noida & Gurugram',
-    description: 'Sandane Homes runs boutique hotels in Greater Noida for short stays, and Residences by Sandane Homes for long stays: entire furnished 3–4 BHK homes of 2,700–3,500 sq ft for company expats and families in Greater Noida and Gurugram.',
+    title: 'Sandane Homes | Boutique Hotels & Expat Serviced Apartments',
+    description: 'Boutique hotels in Greater Noida for short stays, and entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased to companies for expat staff and families.',
     // The brand itself is neither a hotel nor an apartment: it runs both, so it is an Organization.
     schemas: [SANDANE_ORGANIZATION_SCHEMA]
   },
@@ -125,8 +125,8 @@ const SEO_MAP = {
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg'
   },
   '/residences': {
-    title: 'Residences by Sandane Homes | Large 3–4 BHK Serviced Apartments for Expats, Gurugram & Greater Noida',
-    description: 'Not hotel rooms: entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida and Gurugram, leased to companies for expat employees and families on long stays. Korean & Japanese meals, car service, daily housekeeping, GST invoice.',
+    title: 'Residences by Sandane Homes | Furnished 3–4 BHK Homes for Expats',
+    description: 'Entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased monthly to companies for expat staff. Korean & Japanese meals, housekeeping, GST invoice.',
     schemas: [{ "@context": "https://schema.org", "@type": "ApartmentComplex", "name": "Residences by Sandane Homes", "url": "https://www.sandanehomes.com/residences", "telephone": "+919711722273", "email": "residences@sandanehomes.com", "address": { "@type": "PostalAddress", "streetAddress": "Sector 27 / DLF Phase 4", "addressLocality": "Gurugram", "addressRegion": "Haryana", "postalCode": "122002", "addressCountry": "IN" }, "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"], "parentOrganization": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" }, "containsPlace": [RESIDENCE_HOME_SPEC], "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen", "value": true }, { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true }, { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi", "value": true }, { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Invoicing", "value": true }] }, gurugramItemListSchema(BASE_URL)]
   },
   '/amara': {
@@ -421,8 +421,8 @@ SEO_MAP['/gurugram/sushant-lok'] = {
 };
 
 SEO_MAP['/gurugram/japanese-expat-housing'] = {
-  title: 'Japanese Service Apartments in Gurgaon | Japanese Expat Housing | 日本人向けサービスアパートメント',
-  description: 'Premium serviced apartments for Japanese expats in Gurugram (Gurgaon). Near Honda, Toyota, NTT Data & DLF Cyber City. FRRO Form C support, Japanese amenities, B2B corporate billing. 日本人駐在員向け高級住宅.',
+  title: 'Japanese Expat Housing in Gurgaon | 日本人向けサービスアパートメント',
+  description: 'Furnished homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Japanese support, FRRO Form C help, corporate GST billing. 日本人駐在員向け住宅.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   lang: 'ja',
   hreflang: ['en', 'ja', 'x-default'],
@@ -455,8 +455,8 @@ SEO_MAP['/gurugram/japanese-expat-housing'] = {
 };
 
 SEO_MAP['/gurugram/korean-expat-housing'] = {
-  title: 'Korean Expat Housing in Gurgaon | Serviced Homes with Korean Meals | 한국인 주재원 아파트',
-  description: 'Premium serviced apartments for Korean expats in Gurugram (Gurgaon). Near Samsung R&D, Hyundai & LG. Korean amenities, FRRO Form C, B2B corporate billing. 삼성, 현대 주재원을 위한 고급 서비스 아파트.',
+  title: 'Korean Expat Housing in Gurgaon | 한국인 주재원 아파트 & Korean Meals',
+  description: 'Furnished homes for Korean expats in Gurugram (Gurgaon) with Korean home-style meals, Korean support, FRRO Form C help and GST billing. 한국인 주재원 숙소.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   lang: 'ko',
   hreflang: ['en', 'ko', 'x-default'],
@@ -492,8 +492,8 @@ SEO_MAP['/gurugram/korean-expat-housing'] = {
 // Adding a post there automatically produces a static, crawlable page here
 // plus a sitemap.xml entry below — no manual edits needed per post.
 SEO_MAP[GURUGRAM_HUB_PATH] = {
-  title: 'Serviced Apartments in Gurgaon (Gurugram) | Entire 3–4 BHK Homes | Residences by Sandane Homes',
-  description: 'Not hotel rooms: entire furnished 3BHK & 4BHK serviced apartments of 2,095–2,700 sq ft at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27), Gurgaon. For company expats and families on long stays. Daily housekeeping, GST invoicing.',
+  title: 'Serviced Apartments in Gurgaon | Entire 3–4 BHK Homes for Expats',
+  description: 'Entire furnished 3 & 4 BHK homes at Hines Elevate (Sector 58), Green Meadows and Sushant Lok (Sector 27), Gurgaon, for company expats. Housekeeping, GST invoice.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   schemas: [
     gurugramItemListSchema(BASE_URL),
@@ -631,6 +631,7 @@ blogPosts.forEach((post) => {
     schemas,
     lang: post.lang || 'en',
     hreflang: [...new Set([post.lang || 'en', 'en'])],
+    ...(post.noindex && { noindex: true }),
     // Posts with a `translations` map ({ ja: 'other-slug' }) get real hreflang alternates
     // pointing at each language version, with x-default on the English one.
     ...(post.translations && {
@@ -882,6 +883,31 @@ if (fs.existsSync(ssrEntryPath)) {
 let prerenderedCount = 0;
 const prerenderFailures = [];
 
+// The partner pages answer on two addresses each (/partner/... and /partner-with-us/...).
+// The second address is only an alias: its canonical points at the main one (the same URL
+// the page itself sets client-side) and it stays out of the sitemaps, so Google sees one page.
+const ALIAS_CANONICALS = {
+  '/partner': '/partner-with-us',
+  '/partner-with-us/gurugram-home-owners': '/partner/gurugram-home-owners',
+  '/partner-with-us/gurugram-building-owners': '/partner/gurugram-building-owners',
+  '/partner-with-us/building-owners': '/partner/building-owners',
+  '/partner-with-us/greater-noida-building-owners': '/partner/greater-noida-building-owners',
+  '/partner-form': '/partner/apply',
+  '/property-partner': '/partner/apply',
+};
+Object.entries(ALIAS_CANONICALS).forEach(([alias, main]) => {
+  if (SEO_MAP[alias]) SEO_MAP[alias].canonicalUrl = `${BASE_URL}${main}`;
+});
+
+// Routes that should not be listed in the sitemaps: aliases and noindex pages.
+const NOT_IN_SITEMAP = new Set([
+  ...Object.keys(ALIAS_CANONICALS),
+  ...Object.keys(SEO_MAP).filter((route) => SEO_MAP[route].noindex),
+]);
+const dropUnlistedUrls = (xml) =>
+  xml.replace(/  <url>\n    <loc>([^<]*)<\/loc>[\s\S]*?<\/url>\n/g, (block, loc) =>
+    NOT_IN_SITEMAP.has(loc.replace(BASE_URL, '') || '/') ? '' : block);
+
 Object.keys(SEO_MAP).forEach((route) => {
   const seo = SEO_MAP[route];
   const canonical = seo.canonicalUrl || `${BASE_URL}${route === '/' ? '' : route}`;
@@ -906,6 +932,11 @@ Object.keys(SEO_MAP).forEach((route) => {
     .replace(/<meta property="og:[^"]*" content="[^"]*"\s*\/?>\n?/gi, '')
     .replace(/<meta name="twitter:[^"]*" content="[^"]*"\s*\/?>\n?/gi, '')
     .replace(/<link rel="canonical" href="[^"]*"\s*\/?>\n?/gi, '');
+
+  // 3b. Keep noindex pages out of Google's index (links on them are still followed)
+  if (seo.noindex) {
+    newHtml = newHtml.replace(/<meta name="robots" content="[^"]*"\s*\/?>/i, '<meta name="robots" content="noindex, follow" />');
+  }
 
   // 4. Set the html lang attribute for language-targeted pages
   if (seo.lang) {
@@ -1379,7 +1410,7 @@ function buildResidencesSitemapXml() {
 }
 
 // Generate Main Sitemap
-const finalSitemapXml = buildSitemapXml();
+const finalSitemapXml = dropUnlistedUrls(buildSitemapXml());
 fs.writeFileSync(path.join(distPath, 'sitemap.xml'), finalSitemapXml, 'utf8');
 
 const publicSitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
@@ -1388,7 +1419,7 @@ if (fs.existsSync(path.dirname(publicSitemapPath))) {
 }
 
 // Generate Dedicated Residences Sitemap
-const finalResidencesSitemapXml = buildResidencesSitemapXml();
+const finalResidencesSitemapXml = dropUnlistedUrls(buildResidencesSitemapXml());
 fs.writeFileSync(path.join(distPath, 'sitemap-residences.xml'), finalResidencesSitemapXml, 'utf8');
 
 const publicResidencesSitemapPath = path.join(__dirname, 'public', 'sitemap-residences.xml');

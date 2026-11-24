@@ -87,8 +87,8 @@ export default function GurugramResidences() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Serviced Apartments in Gurgaon (Gurugram) | Entire 3–4 BHK Homes | Residences by Sandane Homes"
-        description="Not hotel rooms: entire furnished 3BHK & 4BHK serviced apartments of 2,095–2,700 sq ft at Conscient Hines Elevate (Sector 58), Green Meadows & Sushant Lok (Sector 27), Gurgaon. For company expats and families on long stays. Daily housekeeping, GST invoicing."
+        title="Serviced Apartments in Gurgaon | Entire 3–4 BHK Homes for Expats"
+        description="Entire furnished 3 & 4 BHK homes at Hines Elevate (Sector 58), Green Meadows and Sushant Lok (Sector 27), Gurgaon, for company expats. Housekeeping, GST invoice."
         canonical={HUB_URL}
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[gurugramItemListSchema(), faqSchema, breadcrumb]}

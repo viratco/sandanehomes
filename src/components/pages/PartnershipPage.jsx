@@ -13,9 +13,9 @@ import {
 } from 'react-icons/fa';
 import './SandaneHomes.css';
 
-import heroImg from '../../assets/residences_living_editorial.png';
+import heroImg from '../../assets/residences_living_editorial.jpg';
 import facadeImg from '../../assets/building-partner-hero.jpg';
-import interiorImg from '../../assets/abstract_luxury_interior.png';
+import interiorImg from '../../assets/abstract_luxury_interior.jpg';
 import livingImg from '../../assets/livingroom.jpeg';
 
 const PartnershipPage = () => {
@@ -230,7 +230,7 @@ const PartnershipPage = () => {
                 <FaHandshake /> FOR PROPERTY OWNERS &amp; BUILDING DEVELOPERS
               </div>
 
-              <h2 style={{
+              <h1 style={{
                 fontFamily: "'Playfair Display', serif",
                 fontSize: 'clamp(28px, 4vw, 48px)',
                 lineHeight: '1.18',
@@ -241,7 +241,7 @@ const PartnershipPage = () => {
                 overflowWrap: 'break-word'
               }}>
                 Unlock Maximum Yield for Your Apartments &amp; Buildings
-              </h2>
+              </h1>
 
               <p style={{
                 fontSize: '15.5px',

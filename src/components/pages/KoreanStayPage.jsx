@@ -8,7 +8,7 @@ import { getKoreanStayPage, stayPath } from '../../data/koreanStays';
 import { whatsappUrl, CALL_NUMBER, CALL_DISPLAY } from '../../utils/contact';
 
 import guestHouseImg from '../../assets/sandane-night-hero.jpg';
-import breakfastImg from '../../assets/korean_breakfast.png';
+import breakfastImg from '../../assets/korean_breakfast.jpg';
 import apartmentImg from '../../assets/residences-hero-center.jpg';
 
 const BASE_URL = 'https://www.sandanehomes.com';

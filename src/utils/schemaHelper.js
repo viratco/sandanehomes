@@ -18,7 +18,7 @@ export const SANDANE_ORGANIZATION_SCHEMA = {
   "url": "https://www.sandanehomes.com/",
   "logo": "https://www.sandanehomes.com/logo.png",
   "telephone": "+919711722273",
-  "description": "Sandane Homes runs boutique hotels in Greater Noida for short stays, and Residences by Sandane Homes for long stays: entire furnished 3–4 BHK homes of 2,700–3,500 sq ft for company expats and families in Greater Noida and Gurugram.",
+  "description": "Boutique hotels in Greater Noida for short stays, and entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased to companies for expat staff and families.",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Sector 27 / DLF Phase 4",

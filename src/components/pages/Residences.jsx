@@ -12,10 +12,10 @@ import imgHeroLeft from '../../assets/residences-hero-left.jpg'; // hallway
 import imgHeroCenter from '../../assets/residences-hero-center.jpg'; // living room
 import imgHeroRight from '../../assets/residences-hero-right.jpg'; // console table
 import imgTopRight from '../../assets/livingroom.jpeg';
-import imgFleetService from '../../assets/fleetservice.png';
-import imgKoreanBreakfast from '../../assets/korean_breakfast.png';
+import imgFleetService from '../../assets/fleetservice.jpg';
+import imgKoreanBreakfast from '../../assets/korean_breakfast.jpg';
 import imgNew3 from '../../assets/IMG_7257.jpg';
-import imgAbstractInterior from '../../assets/abstract_luxury_interior.png';
+import imgAbstractInterior from '../../assets/abstract_luxury_interior.jpg';
 import imgGalleryBedroom from '../../assets/residences-gallery-bedroom.jpg';
 import imgGalleryLivingRoom from '../../assets/residences-gallery-living-room.jpg';
 import imgGalleryDining from '../../assets/residences-gallery-dining.jpg';
@@ -57,8 +57,8 @@ const Residences = () => {
     }, []);
 
     const seoProps = {
-        title: "Residences by Sandane Homes | Large 3–4 BHK Serviced Apartments for Expats, Gurugram & Greater Noida",
-        description: "Not hotel rooms: entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida and Gurugram, leased to companies for expat employees and families on long stays. Korean & Japanese meals, car service, daily housekeeping, GST invoice.",
+        title: "Residences by Sandane Homes | Furnished 3–4 BHK Homes for Expats",
+        description: "Entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased monthly to companies for expat staff. Korean & Japanese meals, housekeeping, GST invoice.",
         canonical: "https://www.sandanehomes.com/residences",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: [{

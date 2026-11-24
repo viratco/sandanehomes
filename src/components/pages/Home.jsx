@@ -21,8 +21,8 @@ const Home = () => {
     return (
         <div className="home">
             <SEO
-                title="Sandane Homes | Boutique Hotels & Large Serviced Apartments | Greater Noida & Gurugram"
-                description="Sandane Homes runs boutique hotels in Greater Noida for short stays, and Residences by Sandane Homes for long stays: entire furnished 3–4 BHK homes of 2,700–3,500 sq ft for company expats and families in Greater Noida and Gurugram."
+                title="Sandane Homes | Boutique Hotels & Expat Serviced Apartments"
+                description="Boutique hotels in Greater Noida for short stays, and entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased to companies for expat staff and families."
                 canonical="https://www.sandanehomes.com/"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 schema={homeSchema}

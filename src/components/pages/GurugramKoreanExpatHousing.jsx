@@ -10,7 +10,7 @@ import imgRoom2 from '../../assets/IMG_7255.jpg';
 import imgRoom3 from '../../assets/IMG_7256.jpg';
 import imgRoom4 from '../../assets/IMG_7257.jpg';
 import imgCorporate from '../../assets/IMG_6094.jpg';
-import koreanBreakfast from '../../assets/korean_breakfast.png';
+import koreanBreakfast from '../../assets/korean_breakfast.jpg';
 
 const PHONE = '919711722273';
 
@@ -87,8 +87,8 @@ export default function GurugramKoreanExpatHousing() {
   return (
     <div className="sandane-homes-page">
       <SEO
-        title="Korean Expat Housing in Gurgaon | Serviced Homes with Korean Meals | 한국인 주재원 아파트"
-        description="Premium serviced apartments for Korean expats in Gurugram (Gurgaon). Near Samsung R&D, Hyundai & LG. Korean amenities, FRRO Form C, B2B corporate billing. 삼성, 현대 주재원을 위한 고급 서비스 아파트."
+        title="Korean Expat Housing in Gurgaon | 한국인 주재원 아파트 & Korean Meals"
+        description="Furnished homes for Korean expats in Gurugram (Gurgaon) with Korean home-style meals, Korean support, FRRO Form C help and GST billing. 한국인 주재원 숙소."
         canonical="https://www.sandanehomes.com/gurugram/korean-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb]}
