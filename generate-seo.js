@@ -11,6 +11,7 @@ import { SANDANE_ORGANIZATION_SCHEMA, RESIDENCE_HOME_SPEC } from './src/utils/sc
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 import { residenceSearchPages, indexedResidenceSearchPages } from './src/data/residenceSearchPages.js';
 import { residenceSearchSchemas } from './src/utils/residenceSearchSchemas.js';
+import { RESIDENCES_FAQS, JAPANESE_GURGAON_FAQS, KOREAN_GURGAON_FAQS, faqPageSchema, reviewedWebPageSchema, residentReviewSchema } from './src/data/residencesAnswers.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -882,6 +883,23 @@ if (fs.existsSync(ssrEntryPath)) {
 }
 let prerenderedCount = 0;
 const prerenderFailures = [];
+
+// Answer-engine data shared with the pages (src/data/residencesAnswers.js): FAQ answers,
+// the Daikin resident's review and a last-reviewed date, so the prerendered <head> carries
+// the same structured data the pages render.
+SEO_MAP['/residences'].schemas.push(
+  faqPageSchema(RESIDENCES_FAQS),
+  residentReviewSchema(),
+  reviewedWebPageSchema(`${BASE_URL}/residences`, 'Residences by Sandane Homes'),
+);
+SEO_MAP['/gurugram/japanese-expat-housing'].schemas.push(
+  faqPageSchema(JAPANESE_GURGAON_FAQS),
+  reviewedWebPageSchema(`${BASE_URL}/gurugram/japanese-expat-housing`, 'Japanese Expat Housing in Gurgaon'),
+);
+SEO_MAP['/gurugram/korean-expat-housing'].schemas.push(
+  faqPageSchema(KOREAN_GURGAON_FAQS),
+  reviewedWebPageSchema(`${BASE_URL}/gurugram/korean-expat-housing`, 'Korean Expat Housing in Gurgaon'),
+);
 
 // The partner pages answer on two addresses each (/partner/... and /partner-with-us/...).
 // The second address is only an alias: its canonical points at the main one (the same URL

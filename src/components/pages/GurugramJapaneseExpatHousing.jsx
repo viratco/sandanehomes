@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import { JAPANESE_GURGAON_FAQS, faqPageSchema, reviewedWebPageSchema, ANSWERS_REVIEWED } from '../../data/residencesAnswers';
 import Header from '../Header';
 import Footer from '../Footer';
 import { FaWhatsapp, FaArrowRight, FaChevronDown, FaChevronUp, FaCheckCircle, FaMapMarkerAlt, FaPhone, FaEnvelope, FaBuilding } from 'react-icons/fa';
@@ -14,28 +15,8 @@ import { japaneseCompanies } from '../../data/japaneseCompanies';
 
 const PHONE = '919711722273';
 
-const faqs = [
-  {
-    q: 'Is Greater Noida safe for Japanese expatriates and families?',
-    a: 'Yes. And for those working in Gurgaon, many Japanese expat families prefer living in the quieter Greater Noida or select Gurgaon zones like DLF Phase 4 and Sushant Lok. Gurgaon properties we provide are situated in secure, gated high-rises with 24/7 security, CCTV, and intercom systems. Japanese communities are well-established in the Delhi NCR corridor.'
-  },
-  {
-    q: 'Which companies\' Japanese employees do you currently serve in Gurgaon?',
-    a: 'We have served Japanese assignees from Honda, Yamaha, Denso, Toyota Kirloskar, NTT Data, Fujitsu India, Mitsubishi Electric, and their Tier-1 vendors. Our Japan desk operates in English and we have basic Japanese-language communication support available.'
-  },
-  {
-    q: 'Do you provide FRRO Form C registration support for Japanese nationals?',
-    a: 'Yes. Form C filing is mandatory within 14 days of arrival for any foreign national on a long-term visa. Our concierge team assists Japanese expats with FRRO registration documents, online portal submissions, and coordination with company HR departments.'
-  },
-  {
-    q: 'Can you accommodate Japanese dietary requirements?',
-    a: 'Our fully equipped modular kitchens include rice cookers, induction cooktops with temperature control, and large refrigerators. Our team can assist with sourcing Japanese groceries from nearby Asian marts, and advise on authentic Japanese restaurants in Gurgaon (Sector 18 Noida area is also close). We can arrange Japanese breakfast options upon request.'
-  },
-  {
-    q: 'Do you offer B2B corporate leases directly to Japanese company subsidiaries in India?',
-    a: 'Absolutely. We are experienced in working with Japanese MNC HR and finance teams. We issue GST-compliant invoices to your Indian subsidiary (e.g., Honda India Pvt Ltd, NTT Data Solutions India) and can accommodate multi-unit bookings for entire project teams arriving simultaneously.'
-  }
-];
+// Shared with generate-seo.js so the page and its FAQ structured data match.
+const faqs = JAPANESE_GURGAON_FAQS;
 
 const FAQItem = ({ q, a }) => {
   const [open, setOpen] = useState(false);
@@ -73,10 +54,7 @@ export default function GurugramJapaneseExpatHousing() {
       { '@type': 'LocationFeatureSpecification', name: 'B2B Corporate Billing', value: true },
     ]
   };
-  const faqSchema = {
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
-  };
+  const faqSchema = faqPageSchema(faqs);
   const hreflang = [
     { lang: 'ja', href: 'https://www.sandanehomes.com/gurugram/japanese-expat-housing' },
     { lang: 'en', href: 'https://www.sandanehomes.com/residences/gurgaon' },
@@ -91,7 +69,7 @@ export default function GurugramJapaneseExpatHousing() {
         description="Furnished homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Japanese support, FRRO Form C help, corporate GST billing. 日本人駐在員向け住宅."
         canonical="https://www.sandanehomes.com/gurugram/japanese-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
-        schema={[apartmentSchema, faqSchema, breadcrumb]}
+        schema={[apartmentSchema, faqSchema, breadcrumb, reviewedWebPageSchema('https://www.sandanehomes.com/gurugram/japanese-expat-housing', 'Japanese Expat Housing in Gurgaon')]}
         lang="ja"
         hreflang={hreflang}
       />
@@ -255,6 +233,7 @@ export default function GurugramJapaneseExpatHousing() {
       <div style={{ padding: '90px 20px', backgroundColor: '#F7F4EF' }}>
         <div style={{ maxWidth: '820px', margin: '0 auto' }}>
           <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#1A3C34', margin: '0 0 48px', textAlign: 'center' }}>よくある質問 — FAQ</h2>
+          <p style={{ textAlign: 'center', color: '#8A7A62', fontSize: '13px', margin: '-36px 0 32px' }}>Last reviewed: <time dateTime={ANSWERS_REVIEWED.iso}>{ANSWERS_REVIEWED.label}</time></p>
           <div style={{ borderTop: '1px solid #E8E0D0' }}>{faqs.map((f, i) => <FAQItem key={i} q={f.q} a={f.a} />)}</div>
         </div>
       </div>

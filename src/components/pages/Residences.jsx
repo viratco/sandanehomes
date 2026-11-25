@@ -26,6 +26,8 @@ import EntireHomeStrip from '../EntireHomeStrip';
 import ResidenceSearchLinks from '../ResidenceSearchLinks';
 import HrUpdatesSignup from '../HrUpdatesSignup';
 import ResidentReview from '../ResidentReview';
+import ResidencesFaq from '../ResidencesFaq';
+import { RESIDENCES_FAQS, faqPageSchema, reviewedWebPageSchema, residentReviewSchema } from '../../data/residencesAnswers';
 import { RESIDENCE_HOME_SPEC } from '../../utils/schemaHelper';
 import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
 
@@ -96,7 +98,7 @@ const Residences = () => {
                 "Greater Noida", "Noida", "Gurgaon", "NCR"
             ],
             "sameAs": "https://www.sandanehomes.com"
-        }, gurugramItemListSchema()]
+        }, gurugramItemListSchema(), faqPageSchema(RESIDENCES_FAQS), residentReviewSchema(), reviewedWebPageSchema('https://www.sandanehomes.com/residences', 'Residences by Sandane Homes')]
     };
 
     // Facility Data with Icons
@@ -1001,6 +1003,9 @@ const Residences = () => {
             </div>
                 </>
             )}
+
+            {/* Quick answers for HR teams and AI assistants */}
+            <ResidencesFaq />
 
             <ResidenceSearchLinks />
 

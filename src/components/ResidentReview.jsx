@@ -1,25 +1,12 @@
 import React, { useState } from 'react';
 import { FaQuoteLeft, FaBolt, FaHandHoldingHeart, FaShieldHeart, FaArrowRight, FaHouseChimney } from 'react-icons/fa6';
 import { openResidencesEnquiry } from './ResidencesLeadPopup';
+import { RESIDENT_REVIEW } from '../data/residencesAnswers';
 import './ResidentReview.css';
 
-// A real review from a Daikin employee (written in Japanese, English translation by the
-// resident), shown on /residences for HR teams. Japanese, the original, shows first.
-// Both languages are in the HTML; the tabs only switch which one is visible.
-const REVIEW = {
-  ja: [
-    '引越しを機に、こちらに家探しをお願いし、見つけていただいた物件に入居しました。',
-    'レスポンスが早く、日々の困りごとや要望にも親身に向き合ってくださる点がとても印象的です。',
-    '女性の一人暮らしでは何かと不安も多いインド生活ですが、こちらの気持ちに寄り添い、迅速かつ柔軟にサポートしていただけたことは本当に心強かったです。',
-    'より良いサービスを提供しようとする姿勢も随所に感じられ、一度こちらのサービスを経験すると、もう他のサービスには戻れないと思うほど。本当におすすめです😊',
-  ],
-  en: [
-    'I reached out to this team when I was looking for a new home, and eventually moved into a property they helped me find.',
-    'Their response time is excellent, and I was particularly impressed by how attentive and supportive they were whenever I had questions or concerns.',
-    'Living alone as a woman in India can sometimes feel challenging, but having a team that genuinely understands my concerns and provides prompt and flexible support made me feel very reassured.',
-    'You can really tell that they are committed to continuously improving their services and listening to their customers. Once you experience their level of service, it’s hard to imagine going anywhere else. Highly recommended!',
-  ],
-};
+// A real review from a Daikin employee, shown on /residences for HR teams. Japanese, the
+// original, shows first. Both languages are in the HTML; the tabs only switch which is visible.
+const REVIEW = RESIDENT_REVIEW;
 
 const POINTS = [
   { icon: <FaBolt aria-hidden="true" />, title: 'Fast replies', text: '“Their response time is excellent.”' },

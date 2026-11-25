@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../SEO';
+import { KOREAN_GURGAON_FAQS, faqPageSchema, reviewedWebPageSchema, ANSWERS_REVIEWED } from '../../data/residencesAnswers';
 import Header from '../Header';
 import Footer from '../Footer';
 import { FaWhatsapp, FaArrowRight, FaChevronDown, FaChevronUp, FaCheckCircle, FaMapMarkerAlt, FaPhone, FaEnvelope, FaBuilding } from 'react-icons/fa';
@@ -14,28 +15,8 @@ import koreanBreakfast from '../../assets/korean_breakfast.jpg';
 
 const PHONE = '919711722273';
 
-const faqs = [
-  {
-    q: 'Which Korean company employees have you served in Gurgaon?',
-    a: 'We have successfully housed Korean corporate assignees from Samsung Electronics India, Samsung R&D Institute, Hyundai Motor India, Kia India, LG Electronics, and their major Tier-1 Korean vendors. Our Korea Desk is experienced in working with Korean MNC HR departments and relocation agencies in Seoul.'
-  },
-  {
-    q: 'Are there Korean grocery stores and restaurants near your Gurgaon apartments?',
-    a: 'Yes. The DLF Phase 4 and Golf Course Road areas have access to supermarkets stocking Korean essentials. Additionally, the Noida-Gurgaon corridor has authentic Korean restaurants and Korean BBQ spots. We can advise you on the nearest grocery options to your specific apartment.'
-  },
-  {
-    q: 'How far are Samsung and Hyundai offices from your Gurgaon apartments?',
-    a: 'The Samsung R&D Institute is in Sector 18 Noida (approximately 35–45 minutes by car). Hyundai India headquarters is in Gurugram Sector 32. DLF Phase 4 apartments are typically 15–20 minutes from Hyundai offices. We can match you to the most strategically located property for your specific commute.'
-  },
-  {
-    q: 'Do you provide FRRO Form C and foreigner registration support for Korean nationals?',
-    a: 'Yes. Our concierge team handles Form C filing within 24 hours of your check-in, which is mandatory for Korean nationals on long-term visas (Business Visa, Employment Visa, or Project Visa). We coordinate all documentation with your company HR team.'
-  },
-  {
-    q: 'Can your company manage corporate bulk bookings for 5–20 Korean employees arriving together?',
-    a: 'Yes. We specialize in corporate bulk relocations. We can arrange simultaneous move-ins, coordinated airport pickups, and separate B2B invoices per employee or a consolidated company invoice. Contact B2B@sandanehomes.com for a customized group housing proposal.'
-  }
-];
+// Shared with generate-seo.js so the page and its FAQ structured data match.
+const faqs = KOREAN_GURGAON_FAQS;
 
 const FAQItem = ({ q, a }) => {
   const [open, setOpen] = useState(false);
@@ -73,10 +54,7 @@ export default function GurugramKoreanExpatHousing() {
       { '@type': 'LocationFeatureSpecification', name: 'B2B Corporate Billing', value: true },
     ]
   };
-  const faqSchema = {
-    '@context': 'https://schema.org', '@type': 'FAQPage',
-    mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
-  };
+  const faqSchema = faqPageSchema(faqs);
   const hreflang = [
     { lang: 'ko', href: 'https://www.sandanehomes.com/gurugram/korean-expat-housing' },
     { lang: 'en', href: 'https://www.sandanehomes.com/residences/gurgaon' },
@@ -91,7 +69,7 @@ export default function GurugramKoreanExpatHousing() {
         description="Furnished homes for Korean expats in Gurugram (Gurgaon) with Korean home-style meals, Korean support, FRRO Form C help and GST billing. 한국인 주재원 숙소."
         canonical="https://www.sandanehomes.com/gurugram/korean-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
-        schema={[apartmentSchema, faqSchema, breadcrumb]}
+        schema={[apartmentSchema, faqSchema, breadcrumb, reviewedWebPageSchema('https://www.sandanehomes.com/gurugram/korean-expat-housing', 'Korean Expat Housing in Gurgaon')]}
         lang="ko"
         hreflang={hreflang}
       />
@@ -201,6 +179,7 @@ export default function GurugramKoreanExpatHousing() {
       <div style={{ padding: '90px 20px', backgroundColor: '#F7F4EF' }}>
         <div style={{ maxWidth: '820px', margin: '0 auto' }}>
           <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#1A3C34', margin: '0 0 48px', textAlign: 'center' }}>자주 묻는 질문 — FAQ</h2>
+          <p style={{ textAlign: 'center', color: '#8A7A62', fontSize: '13px', margin: '-36px 0 32px' }}>Last reviewed: <time dateTime={ANSWERS_REVIEWED.iso}>{ANSWERS_REVIEWED.label}</time></p>
           <div style={{ borderTop: '1px solid #E8E0D0' }}>{faqs.map((f, i) => <FAQItem key={i} q={f.q} a={f.a} />)}</div>
         </div>
       </div>
