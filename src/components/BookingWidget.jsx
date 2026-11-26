@@ -5,6 +5,13 @@ import './BookingWidget.css';
 const BookingWidget = () => {
     return (
         <div className="booking-widget-container">
+            {/* Trusted By */}
+            <div className="booking-widget-item">
+                <label className="booking-label">Trusted by Guests</label>
+                <div className="booking-value-row">
+                    <span className="booking-value" style={{ fontSize: '18px', fontWeight: 'bold' }}>15,000+</span>
+                </div>
+            </div>
 
             {/* Rating */}
             <div className="booking-widget-item">
@@ -20,6 +27,22 @@ const BookingWidget = () => {
                     </span>
                 </div>
             </div>
+
+            {/* Experience */}
+            <div className="booking-widget-item">
+                <label className="booking-label">Of Excellence</label>
+                <div className="booking-value-row">
+                    <span className="booking-value" style={{ fontSize: '18px', fontWeight: 'bold' }}>10+ Years</span>
+                </div>
+            </div>
+
+            {/* CTA Button */}
+            <button
+                className="booking-btn"
+                onClick={() => window.open('https://www.airbnb.co.in/rooms/1221670335645327335?source_impression_id=p3_1770832258_P3YMM02r3EV-jp62#availability-calendar', '_blank')}
+            >
+                CHECK AVAILABILITY
+            </button>
         </div>
     );
 };
