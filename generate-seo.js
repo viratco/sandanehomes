@@ -5,7 +5,7 @@ import { blogPosts } from './src/data/blogPosts.js';
 import { landingPages } from './src/data/landingPages.js';
 import { koreanStayPages, koreanStayRoutes, stayPath } from './src/data/koreanStays.js';
 import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, gurugramHomeSpecSchema, gurugramResidenceSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
-import { SANDANE_ORGANIZATION_SCHEMA, RESIDENCE_HOME_SPEC } from './src/utils/schemaHelper.js';
+import { SANDANE_ORGANIZATION_SCHEMA, RESIDENCE_HOME_SPEC, SANDANE_PARENT_ORGANIZATION, RESIDENCES_REF, ORG_ID, RESIDENCES_ID } from './src/utils/schemaHelper.js';
 import { PROPERTY_REDIRECTS, getBlogRedirect } from './src/data/blogRedirects.js';
 import { residenceSearchPages, indexedResidenceSearchPages } from './src/data/residenceSearchPages.js';
 import { residenceSearchSchemas } from './src/utils/residenceSearchSchemas.js';
@@ -21,8 +21,8 @@ const SEO_MAP = {
   '/': {
     title: 'Sandane Homes | Boutique Hotels & Expat Serviced Apartments',
     description: 'Boutique hotels in Greater Noida for short stays, and entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased to companies for expat staff and families.',
-    // The brand itself is neither a hotel nor an apartment: it runs both, so it is an Organization.
-    schemas: [SANDANE_ORGANIZATION_SCHEMA]
+    // The Organization block is added to every page (see finalSchemas below).
+    schemas: []
   },
   '/partner-with-us': {
     title: 'Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes',
@@ -826,6 +826,109 @@ const dropUnlistedUrls = (xml) =>
   xml.replace(/  <url>\n    <loc>([^<]*)<\/loc>[\s\S]*?<\/url>\n/g, (block, loc) =>
     NOT_IN_SITEMAP.has(loc.replace(BASE_URL, '') || '/') ? '' : block);
 
+// ── Structured data: one copy of each block, in <head> ──
+// Pages render their JSON-LD through <SEO> only on the server (see SEO.jsx). After a page
+// is prerendered, its blocks are taken out of the body and merged with SEO_MAP's, page
+// blocks first; an SEO_MAP block of a type the page already has is skipped. Then:
+// - the single site Organization is added, and any other copy of it is dropped;
+// - Residences is a service-area business: an ApartmentComplex block becomes a Service,
+//   or, on a building page, a WebPage about that building (name and locality only);
+// - nested Sandane Homes / Residences organisations become @id references.
+const BUILDING_PLACE_NAMES = {
+  'serviced-apartments-ansal-golf-links': 'Ansal Golf Links',
+  'serviced-apartments-godrej-golf-link': 'Godrej Golf Links',
+  'serviced-apartments-jaypee-greens': 'Jaypee Greens',
+};
+landingPages.forEach((p) => {
+  if (p.location) BUILDING_PLACE_NAMES[p.slug] = String(p.h1).split(',')[0].trim();
+});
+
+const decodeEntities = (t) => t
+  .replace(/&quot;/g, '"').replace(/&#x27;/g, "'").replace(/&#39;/g, "'")
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+
+const extractBodySchemas = (html) => {
+  const blocks = [];
+  const body = html.replace(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g, (m, json) => {
+    try { blocks.push(JSON.parse(json)); } catch {
+      try { blocks.push(JSON.parse(decodeEntities(json))); } catch { /* not JSON: drop */ }
+    }
+    return '';
+  });
+  return { body, blocks };
+};
+
+const orgRefs = (node, depth = 0) => {
+  if (Array.isArray(node)) return node.map((n) => orgRefs(n, depth + 1));
+  if (!node || typeof node !== 'object') return node;
+  if (depth > 0 && node['@type'] === 'Organization') {
+    if (node.name === 'Sandane Homes' || node['@id'] === ORG_ID) return SANDANE_PARENT_ORGANIZATION;
+    if (node.name === 'Residences by Sandane Homes' || node['@id'] === RESIDENCES_ID) return RESIDENCES_REF;
+  }
+  const out = {};
+  for (const [k, v] of Object.entries(node)) out[k] = orgRefs(v, depth + 1);
+  return out;
+};
+
+const normalizeBlock = (route, b) => {
+  const type = b['@type'];
+  if ((type === 'Organization' || type === 'LocalBusiness') && (b.name === 'Sandane Homes' || b['@id'] === ORG_ID)) return null;
+  if (type === 'Organization' && (b.name === 'Residences by Sandane Homes' || b['@id'] === RESIDENCES_ID)) {
+    const { address, geo, priceRange, logo, contactPoint, areaServed, telephone, email, description, ...rest } = b;
+    return { ...rest, '@id': RESIDENCES_ID, parentOrganization: SANDANE_PARENT_ORGANIZATION };
+  }
+  if (type === 'ApartmentComplex') {
+    const slug = route.slice(1);
+    const locality = b.address?.addressLocality || 'Gurugram';
+    const region = b.address?.addressRegion || (locality === 'Gurugram' ? 'Haryana' : 'Uttar Pradesh');
+    if (BUILDING_PLACE_NAMES[slug]) {
+      return {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        url: b.url || `${BASE_URL}${route}`,
+        name: b.name,
+        description: b.description,
+        about: {
+          '@type': 'Place',
+          name: BUILDING_PLACE_NAMES[slug],
+          address: { '@type': 'PostalAddress', addressLocality: locality, addressRegion: region, addressCountry: 'IN' },
+        },
+        provider: RESIDENCES_REF,
+      };
+    }
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: b.name,
+      description: b.description,
+      url: b.url || `${BASE_URL}${route}`,
+      serviceType: 'Furnished 3–4 BHK homes for expat and corporate employees',
+      areaServed: b.areaServed || [locality],
+      provider: RESIDENCES_REF,
+    };
+  }
+  return b;
+};
+
+const finalSchemas = (route, pageBlocks, mapBlocks) => {
+  const pageTypes = new Set(pageBlocks.map((b) => b?.['@type']));
+  const merged = [...pageBlocks, ...mapBlocks.filter((b) => !pageTypes.has(b?.['@type']))];
+  const seen = new Set();
+  const out = [SANDANE_ORGANIZATION_SCHEMA];
+  seen.add(JSON.stringify(SANDANE_ORGANIZATION_SCHEMA));
+  for (const raw of merged) {
+    if (!raw || typeof raw !== 'object') continue;
+    const n = normalizeBlock(route, raw);
+    if (!n) continue;
+    const block = { '@context': 'https://schema.org', ...orgRefs(n) };
+    const key = JSON.stringify(block);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(block);
+  }
+  return out;
+};
+
 Object.keys(SEO_MAP).forEach((route) => {
   const seo = SEO_MAP[route];
   const canonical = seo.canonicalUrl || `${BASE_URL}${route === '/' ? '' : route}`;
@@ -867,9 +970,8 @@ Object.keys(SEO_MAP).forEach((route) => {
     .join('\n    ');
 
   // Static JSON-LD so non-JS crawlers (ChatGPT, Perplexity, etc.) see the schemas
-  const schemaTags = (seo.schemas || [])
-    .map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`)
-    .join('\n    ');
+  // JSON-LD is filled in after the body is rendered (see finalSchemas).
+  const schemaTags = '<!--JSONLD-->';
 
   // 5. Inject canonical, OG, and Twitter tags before </head>
   const tagsToInject = `
@@ -892,19 +994,28 @@ Object.keys(SEO_MAP).forEach((route) => {
 
   // 6. Prerender the page body. data-prerendered tells main.jsx which path this markup
   //    belongs to, so it only hydrates when the URL matches.
+  let pageSchemaBlocks = [];
   if (renderApp) {
     try {
       // React 19 emits Helmet's <title>/<meta>/<link> inline in renderToString output.
       // The <head> above already has the correct ones, so drop the body copies.
-      const appHtml = renderApp(route)
+      const rendered = renderApp(route)
         .replace(/<title>[\s\S]*?<\/title>/g, '')
         .replace(/<(meta|link)\b[^>]*\/?>/g, '');
+      const { body: appHtml, blocks } = extractBodySchemas(rendered);
+      pageSchemaBlocks = blocks;
       newHtml = newHtml.replace('<div id="root"></div>', `<div id="root" data-prerendered="${route}">${appHtml}</div>`);
       prerenderedCount++;
     } catch (err) {
       prerenderFailures.push(`${route}: ${err.message}`);
     }
   }
+
+  // One copy of each JSON-LD block, in <head>.
+  const jsonLd = finalSchemas(route, pageSchemaBlocks, seo.schemas || [])
+    .map((x) => `<script type="application/ld+json">${JSON.stringify(x).replace(/</g, '\\u003c')}</script>`)
+    .join('\n    ');
+  newHtml = newHtml.replace('<!--JSONLD-->', jsonLd);
 
   // Determine where to save the file
   if (route === '/') {

@@ -117,7 +117,8 @@ export const gurugramHomeSpecSchema = {
 // schema.org entries shared by the client (react-helmet) and generate-seo.js
 export const gurugramResidenceSchema = (r, baseUrl = 'https://www.sandanehomes.com') => ({
   '@type': 'Accommodation',
-  name: `${r.name}, ${r.sector}, Gurugram — Residences by Sandane Homes`,
+  // A home we have delivered: the building and locality only, no street address.
+  name: `${r.name}, ${r.sector}, Gurugram`,
   url: `${baseUrl}/${r.slug}`,
   accommodationCategory: 'Serviced apartment for long corporate stays',
   numberOfBedrooms: r.bedrooms,
@@ -128,7 +129,6 @@ export const gurugramResidenceSchema = (r, baseUrl = 'https://www.sandanehomes.c
   leaseLength: { '@type': 'QuantitativeValue', minValue: 1, unitCode: 'MON' },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: r.streetAddress,
     addressLocality: 'Gurugram',
     addressRegion: 'Haryana',
     addressCountry: 'IN',
@@ -138,7 +138,7 @@ export const gurugramResidenceSchema = (r, baseUrl = 'https://www.sandanehomes.c
 export const gurugramItemListSchema = (baseUrl = 'https://www.sandanehomes.com') => ({
   '@context': 'https://schema.org',
   '@type': 'ItemList',
-  name: 'Residences by Sandane Homes in Gurugram (Gurgaon)',
+  name: 'Homes delivered by Residences by Sandane Homes in Gurugram (Gurgaon)',
   url: `${baseUrl}${GURUGRAM_HUB_PATH}`,
   numberOfItems: gurugramResidences.length,
   itemListElement: gurugramResidences.map((r, i) => ({

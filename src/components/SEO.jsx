@@ -39,8 +39,10 @@ const SEO = ({ title, description, canonical, ogImage, ogType = 'website', schem
       <meta property="og:site_name" content="Sandane Homes" />
       <meta property="og:image" content={ogImage || 'https://www.sandanehomes.com/logo.png'} />
 
-      {/* Multiple JSON-LD schema blocks */}
-      {schemas.map((s, i) => (
+      {/* JSON-LD is rendered only on the server, during prerender: generate-seo.js moves
+          these blocks into the page <head>, once, and removes them from the body. The
+          browser never renders them, so each block appears exactly once. */}
+      {typeof window === 'undefined' && schemas.map((s, i) => (
         <script key={i} type="application/ld+json">
           {JSON.stringify(s)}
         </script>

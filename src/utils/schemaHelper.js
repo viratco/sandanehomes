@@ -1,49 +1,67 @@
 /**
- * Schema.org Helper Utilities for Hotel and LodgingBusiness JSON-LD Structured Data
+ * Schema.org helpers. Plain JS: generate-seo.js imports this with Node.
+ *
+ * One Organization entity describes the whole site (SANDANE_ORGANIZATION_SCHEMA,
+ * added to every page's <head> by generate-seo.js). Other blocks point at it, or at
+ * its Residences sub-organisation, by @id instead of repeating it.
  */
 
-export const SANDANE_PARENT_ORGANIZATION = {
+export const SITE_URL = 'https://www.sandanehomes.com';
+export const ORG_ID = `${SITE_URL}/#organization`;
+export const RESIDENCES_ID = `${SITE_URL}/residences#organization`;
+
+export const SANDANE_PARENT_ORGANIZATION = { "@type": "Organization", "@id": ORG_ID, "name": "Sandane Homes" };
+export const RESIDENCES_REF = { "@type": "Organization", "@id": RESIDENCES_ID, "name": "Residences by Sandane Homes" };
+
+// Residences is a service-area business: it finds, leases, furnishes and manages homes
+// on demand, so it has no street address. The Greater Noida hotel address belongs only
+// on the hotel pages.
+export const RESIDENCES_ORGANIZATION = {
   "@type": "Organization",
-  "name": "Sandane Homes",
-  "url": "https://www.sandanehomes.com"
+  "@id": RESIDENCES_ID,
+  "name": "Residences by Sandane Homes",
+  "url": `${SITE_URL}/residences`,
+  "email": "residences@sandanehomes.com",
+  "telephone": "+919711722273",
+  "description": "Finds, leases, furnishes and manages 3–4 BHK homes for expat and corporate employees in Gurugram, Noida and Greater Noida, on demand, under a company lease with a monthly GST invoice.",
+  "areaServed": ["Gurugram", "Noida", "Greater Noida"],
+  "contactPoint": [
+    { "@type": "ContactPoint", "contactType": "customer service", "telephone": "+919711722273", "description": "Phone" },
+    { "@type": "ContactPoint", "contactType": "customer service", "telephone": "+918826269690", "description": "WhatsApp" },
+    { "@type": "ContactPoint", "contactType": "customer service", "url": "https://line.me/ti/p/hrUpm82UQu", "description": "LINE" },
+    { "@type": "ContactPoint", "contactType": "customer service", "url": "https://qr.kakao.com/talk/c2qbkrfJEP2YU5LqoffN7IeOuWU-", "description": "KakaoTalk" }
+  ]
 };
 
-// The Sandane Homes brand runs two different things: boutique hotels (rooms,
-// short stays) and Residences by Sandane Homes (entire homes, long company
-// stays). The brand itself is therefore an Organization, not a lodging.
 export const SANDANE_ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": ORG_ID,
   "name": "Sandane Homes",
-  "url": "https://www.sandanehomes.com/",
-  "logo": "https://www.sandanehomes.com/logo.png",
+  "url": `${SITE_URL}/`,
+  "logo": `${SITE_URL}/logo.png`,
+  "email": "residences@sandanehomes.com",
   "telephone": "+919711722273",
-  "description": "Boutique hotels in Greater Noida for short stays, and entire furnished 3–4 BHK homes in Gurugram and Greater Noida, leased to companies for expat staff and families.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Sector 27 / DLF Phase 4",
-    "addressLocality": "Gurugram",
-    "addressRegion": "Haryana",
-    "postalCode": "122002",
-    "addressCountry": "IN"
-  },
-  "areaServed": ["Greater Noida", "Noida", "Gurugram", "Gurgaon", "Delhi NCR"],
-  "subOrganization": {
-    "@type": "Organization",
-    "name": "Residences by Sandane Homes",
-    "url": "https://www.sandanehomes.com/residences",
-    "description": "Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft, leased to companies for expat employees and their families on long stays."
-  }
+  "description": "Boutique hotels in Greater Noida for short stays, and Residences by Sandane Homes, which finds, leases, furnishes and manages homes for expat and corporate employees in Gurugram, Noida and Greater Noida.",
+  "areaServed": ["Gurugram", "Noida", "Greater Noida"],
+  // TODO(owner): add sameAs with the LinkedIn company page, Instagram and Google Business Profile URLs.
+  "subOrganization": RESIDENCES_ORGANIZATION
 };
 
-// What one Residences by Sandane Homes home is, in numbers search engines can read.
-// unitCode FTK = square foot.
+// What one home is, in terms search engines can read: 3–4 BHK, nothing more.
 export const RESIDENCE_HOME_SPEC = {
   "@type": "Apartment",
-  "name": "Entire furnished 3–4 BHK serviced home",
-  "accommodationCategory": "Serviced apartment for long corporate stays",
-  "floorSize": { "@type": "QuantitativeValue", "minValue": 2700, "maxValue": 3500, "unitCode": "FTK" },
+  "name": "Entire furnished 3–4 BHK home",
+  "accommodationCategory": "Furnished home for long corporate stays",
   "numberOfBedrooms": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 4 }
+};
+
+// The Greater Noida hotels: locality only, since each hotel has its own street address.
+const HOTEL_ADDRESS = {
+  "@type": "PostalAddress",
+  "addressLocality": "Greater Noida",
+  "addressRegion": "Uttar Pradesh",
+  "addressCountry": "IN"
 };
 
 export const createHotelSchema = ({
@@ -63,15 +81,8 @@ export const createHotelSchema = ({
   "telephone": "+91 97117 22273",
   "priceRange": priceRange,
   "image": image,
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Sector 27 / DLF Phase 4",
-    "addressLocality": "Gurugram",
-    "addressRegion": "Haryana",
-    "postalCode": "122002",
-    "addressCountry": "IN"
-  },
-  "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"],
+  "address": HOTEL_ADDRESS,
+  "areaServed": ["Greater Noida", "Noida"],
   "parentOrganization": SANDANE_PARENT_ORGANIZATION,
   "starRating": {
     "@type": "Rating",
@@ -100,15 +111,8 @@ export const createLodgingSchema = ({
   "telephone": "+91 97117 22273",
   "priceRange": priceRange,
   "image": image,
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Sector 27 / DLF Phase 4",
-    "addressLocality": "Gurugram",
-    "addressRegion": "Haryana",
-    "postalCode": "122002",
-    "addressCountry": "IN"
-  },
-  "areaServed": ["Gurugram", "Gurgaon", "DLF Cyber City", "Golf Course Road", "Sushant Lok", "Delhi NCR", "Noida", "Greater Noida"],
+  "address": HOTEL_ADDRESS,
+  "areaServed": ["Greater Noida", "Noida"],
   "parentOrganization": SANDANE_PARENT_ORGANIZATION,
   "amenityFeature": amenities.map((amenity) => ({
     "@type": "LocationFeatureSpecification",
