@@ -135,7 +135,7 @@ const CuisineSection = () => {
                                     maxWidth: '450px',
                                     marginBottom: '30px'
                                 }}>
-                                    Discover a haven of sophistication and comfort at Residences by Sandane Homes. Designed for the modern professional, our spaces are fully equipped with premium air purifiers, yearly maintenance, and comprehensive services, granting you the ultimate freedom to live wherever you want while ensuring your stay is effortlessly exceptional.
+                                    Discover a haven of sophistication and comfort at Residences by Sandane Homes. Designed for the modern professional, our homes are fully furnished and looked after, with housekeeping and maintenance handled for you, granting you the ultimate freedom to live wherever you want while ensuring your stay is effortlessly exceptional.
                                 </p>
                                 <button
                                     onClick={() => navigate('/residences')}
@@ -195,7 +195,7 @@ const CuisineSection = () => {
                                     color: '#555', // Changed back to dark gray
                                     marginBottom: '40px'
                                 }}>
-                                    Experience premium fully-serviced luxury accommodations in the heart of Greater Noida. With over 5 years of hospitality excellence, Residences by Sandane Homes offers meticulously designed 2BHK to 4BHK apartments and villas, tailored for expats and professionals seeking comfort, convenience, and exceptional service.
+                                    Experience premium fully-serviced luxury accommodations in the heart of Greater Noida. Residences by Sandane Homes finds, leases, furnishes and manages 3–4 BHK homes, tailored for expats and professionals seeking comfort, convenience, and exceptional service.
                                 </p>
                                 </div>
 

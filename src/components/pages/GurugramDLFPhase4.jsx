@@ -109,7 +109,7 @@ export default function GurugramDLFPhase4() {
             <span style={{ color: '#C5A572' }}>DLF Phase 4, Gurgaon</span>
           </h1>
           <p style={{ fontSize: 'clamp(16px, 2vw, 19px)', color: '#D0C5B0', maxWidth: '700px', margin: '0 auto 36px', lineHeight: '1.8' }}>
-            Quiet, tree-lined luxury in one of Gurgaon's most established residential zones. Fully furnished 2BHK & 3BHK suites, 10 minutes from DLF Cyber City.
+            Quiet, tree-lined luxury in one of Gurgaon's most established residential zones. Fully furnished 3–4 BHK homes, about 10–12 minutes from DLF Cyber City.
           </p>
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <Link to="/residences" style={{ display: 'inline-flex', alignItems: 'center', gap: '9px', backgroundColor: '#C5A572', color: '#1A3C34', padding: '16px 36px', borderRadius: '40px', textDecoration: 'none', fontSize: '16px', fontWeight: '700' }}>
@@ -176,7 +176,7 @@ export default function GurugramDLFPhase4() {
             { t: 'Fully Furnished', d: 'Designer beds, sofas, dining table, 65" smart TV & wardrobe storage.' },
             { t: 'Modular Kitchen', d: 'Induction stove, microwave, refrigerator, RO water & all cookware.' },
             { t: '300 Mbps Wi-Fi', d: 'Dedicated private optical fibre — no shared hotel bandwidth.' },
-            { t: 'Daily Housekeeping', d: '5-star linen change, floor sanitization & laundry assistance.' },
+            { t: 'Daily Housekeeping', d: 'Linen change, cleaning & laundry assistance.' },
             { t: '24/7 Power Backup', d: 'Full DG generator backup with no power cut interruptions.' },
             { t: 'B2B GST Invoice', d: 'Compliant itemized invoice directly to your company.' },
           ].map((c, i) => (

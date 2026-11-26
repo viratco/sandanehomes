@@ -38,7 +38,7 @@ const setFlag = (store, key) => {
 const CONTENT = {
     hr: {
         title: 'We make housing your team easy',
-        lead: 'Over 5 years of hosting expats and corporate teams across Delhi NCR. Here is what HR and admin teams get:',
+        lead: 'We find, lease, furnish and manage homes for expat and corporate employees in Gurugram, Noida and Greater Noida. Here is what HR and admin teams get:',
         stats: [
             { big: '5+', small: 'years hosting expats' },
             { big: '1', small: 'GST invoice a month' },
@@ -66,7 +66,7 @@ const CONTENT = {
                 heading: 'Fits any posting',
                 items: [
                     { icon: FaCalendarDays, text: 'Weekly, monthly or multi-year stays' },
-                    { icon: FaLocationDot, text: 'Furnished 2–4 BHK apartments, villas and hotel rooms in Gurugram, Greater Noida and Noida' },
+                    { icon: FaLocationDot, text: 'Furnished 3–4 BHK homes in Gurugram, Noida and Greater Noida, plus boutique hotels in Greater Noida for short stays' },
                     { icon: FaKey, text: 'For long postings, we can also find, furnish and set up an apartment' },
                 ],
             },
@@ -75,7 +75,7 @@ const CONTENT = {
     },
     self: {
         title: 'Your home in India, ready on day one',
-        lead: 'Over 5 years of hosting expats across Delhi NCR. Everything is taken care of:',
+        lead: 'We find, lease, furnish and manage your home in Gurugram, Noida or Greater Noida. Everything is taken care of:',
         stats: [
             { big: '5+', small: 'years hosting expats' },
             { big: '300', small: 'Mbps Wi-Fi' },

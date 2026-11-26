@@ -29,7 +29,7 @@ import ResidentReview from '../ResidentReview';
 import ResidencesFaq from '../ResidencesFaq';
 import { RESIDENCES_FAQS, faqPageSchema, reviewedWebPageSchema, residentReviewSchema } from '../../data/residencesAnswers';
 import { RESIDENCE_HOME_SPEC } from '../../utils/schemaHelper';
-import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaWind, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaBowlRice, FaPeopleGroup, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
+import { FaBuilding, FaCouch, FaBed, FaBroom, FaShirt, FaBolt, FaTv, FaGlassWater, FaBottleWater, FaWifi, FaScrewdriverWrench, FaCity, FaLocationDot, FaStar, FaQuoteLeft, FaCarSide, FaWhatsapp, FaPhone, FaEnvelopeOpenText } from 'react-icons/fa6';
 
 const Residences = () => {
     const scrollToFooterInquiry = () => {
@@ -89,7 +89,6 @@ const Residences = () => {
                 { "@type": "LocationFeatureSpecification", "name": "High-Speed WiFi (300 Mbps)", "value": true },
                 { "@type": "LocationFeatureSpecification", "name": "100% Power Backup", "value": true },
                 { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
-                { "@type": "LocationFeatureSpecification", "name": "Air Purifier", "value": true },
                 { "@type": "LocationFeatureSpecification", "name": "Fully Furnished", "value": true },
                 { "@type": "LocationFeatureSpecification", "name": "Laundry Facilities", "value": true }
             ],
@@ -103,14 +102,13 @@ const Residences = () => {
 
     // Facility Data with Icons
     const facilities = [
-        { icon: <FaBuilding />, text: "Semi-furnished flats/villas" },
+        { icon: <FaBuilding />, text: "Fully furnished 3–4 BHK homes" },
         { icon: <FaCouch />, text: "Furniture included" },
         { icon: <FaBed />, text: "Bed and bath linens changed twice a week" },
         { icon: <FaBroom />, text: "Housekeeping services available seven days a week" },
         { icon: <FaShirt />, text: "Laundry facilities provided" },
         { icon: <FaBolt />, text: "100% electricity backup" },
         { icon: <FaTv />, text: "One television included" },
-        { icon: <FaWind />, text: "Air purifier included" },
         { icon: <FaGlassWater />, text: "Hot and cold water dispenser" },
         { icon: <FaBottleWater />, text: "20-liter water jars – five bottles provided per month" },
         { icon: <FaWifi />, text: "Installation and registration of one Wi-Fi connection up to 300 Mbps" },
@@ -157,12 +155,12 @@ const Residences = () => {
                         {/* Glassmorphic card for high readability on photographic background */}
                         <div className="editorial-glass-card">
                             <p>
-                                Found in the heart of the NCR, <i>Sandane Residences</i> is a 5-star boutique living experience, encompassing fully-serviced apartments and holistic comfort.
+                                We find, lease, furnish and manage homes for your expat and corporate employees in Gurugram, Noida and Greater Noida, on demand. Your company signs one lease and gets one monthly GST invoice; your employee just moves in.
                             </p>
                         </div>
                         
                         <p className="editorial-subtext">
-                            Choose our beautifully curated homes tailored for expats and professionals seeking a sanctuary, from organic amenities to extensive bespoke services.
+                            We don't own the homes: we find the right 3–4 BHK home near where your people work, set it up, and look after it for the whole stay.
                         </p>
 
                         {/* Quick ways to reach us, right in the hero */}
@@ -218,9 +216,9 @@ const Residences = () => {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
             }}>
-                <h1 className="catarina-title">
+                <h2 className="catarina-title">
                     Residences <span style={{ fontSize: '0.6em', display: 'block', marginTop: '5px', letterSpacing: '3px' }}>By Sandane Homes</span>
-                </h1>
+                </h2>
                 <p className="catarina-subtitle">
                     Apartments - Villas - Executive Accommodations
                 </p>
@@ -268,7 +266,7 @@ const Residences = () => {
                     marginBottom: '40px',
                     fontWeight: '400'
                 }}>
-                    2BHK - 4BHK / VILLAS
+                    3–4 BHK HOMES
                 </h3>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', fontSize: '16px', color: '#555' }}>
@@ -339,8 +337,6 @@ const Residences = () => {
                             { icon: <FaLocationDot className="res-promise-icon" aria-hidden="true" />, title: "Property Sourcing", text: "The right apartment or villa in prime NCR locations" },
                             { icon: <FaCouch className="res-promise-icon" aria-hidden="true" />, title: "Fully Furnished", text: "Furniture, kitchenware and fresh linen, ready on day one" },
                             { icon: <FaCarSide className="res-promise-icon" aria-hidden="true" />, title: "Car Service", text: "Our fleet picks you up from home, drops you at the office and back" },
-                            { icon: <FaBowlRice className="res-promise-icon" aria-hidden="true" />, title: "Korean & Japanese Meals", text: "Home-style breakfast and dinner, included" },
-                            { icon: <FaPeopleGroup className="res-promise-icon" aria-hidden="true" />, title: "Activities Included", text: "Extracurricular activities, all covered by us" },
                             { icon: <FaWifi className="res-promise-icon" aria-hidden="true" />, title: "Always Connected", text: "100% power backup and 300 Mbps Wi-Fi" },
                             { icon: <FaBroom className="res-promise-icon" aria-hidden="true" />, title: "Worry-Free Living", text: "Daily housekeeping and maintenance, all handled" }
                         ].map((card) => (
@@ -778,7 +774,7 @@ const Residences = () => {
                     Residences by Sandane Homes is the premier choice for <strong>Serviced Apartments in Greater Noida</strong> and top-tier <strong>Corporate Housing across the NCR</strong>. We specialize in providing fully furnished, high-end executive accommodations tailored for expats, diplomats, and corporate leaders. Our long-stay apartments are thoughtfully designed to offer a seamless transition for professionals relocating to Noida or Gurgaon.
                 </p>
                 <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
-                    If you are searching for a <strong>Luxury Serviced Apartment in NCR</strong> that combines the privacy of a private residence with the world-class amenities of a 5-star hotel, Residences by Sandane Homes is your perfect match. Enjoy hassle-free living with our comprehensive services including daily housekeeping, high-speed Wi-Fi, and 100% power backup in the most secure and prestigious neighborhoods.
+                    If you are searching for a <strong>Luxury Serviced Apartment in NCR</strong> that combines the privacy of a private residence with the services of a hotel, Residences by Sandane Homes is your perfect match. Enjoy hassle-free living with our comprehensive services including daily housekeeping, high-speed Wi-Fi, and 100% power backup in the most secure and prestigious neighborhoods.
                 </p>
             </div>
 
@@ -855,7 +851,7 @@ const Residences = () => {
                             margin: '0 auto 36px',
                             fontWeight: '400'
                         }}>
-                            Sandane Homes delivers premium, fully-serviced luxury stays across India. With 5+ years of hospitality excellence, we specialize in hosting expats, diplomats, and corporate professionals seeking refined comfort, absolute privacy, and uncompromised nationwide service.
+                            Sandane Homes runs boutique hotels in Greater Noida, and through Residences by Sandane Homes finds, leases, furnishes and manages homes for expat and corporate employees in Gurugram, Noida and Greater Noida.
                         </p>
 
                         {/* Highlight Pills */}
@@ -866,7 +862,6 @@ const Residences = () => {
                             gap: '14px'
                         }}>
                             {[
-                                "✨ 5+ Years Hospitality Excellence",
                                 "🛡️ 100% Gated Society Safety",
                                 "🔑 Fully Managed Just-Arrive Suites",
                                 "🌏 Expat & Corporate Specialist"

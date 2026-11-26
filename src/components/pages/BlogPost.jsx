@@ -379,8 +379,8 @@ const BlogPost = () => {
                     </h3>
                     <p style={{ color: '#555', fontSize: '15px', maxWidth: '560px', margin: '0 auto 24px', lineHeight: '1.6' }}>
                         {cta ? cta.bannerText : isZh
-                            ? '为您打造的全套家具、每日保洁、具备完整烹饪设施的 1BHK、2BHK 及独立套房。位于 Jaypee Greens 与 Ansal Golf Links 等高端门禁社区。'
-                            : 'Discover fully furnished, hotel-serviced 1BHK, 2BHK, and studio suites in Greater Noida\'s finest gated societies like Jaypee Greens & Ansal Golf Links.'}
+                            ? '为您打造的全套家具、每日保洁、具备完整烹饪设施的 3–4 居室住宅。位于 Jaypee Greens 与 Ansal Golf Links 等高端门禁社区。'
+                            : 'Discover fully furnished 3–4 BHK homes in Greater Noida\'s gated societies like Jaypee Greens & Ansal Golf Links.'}
                     </p>
                     <Link
                         to={residencesPath}

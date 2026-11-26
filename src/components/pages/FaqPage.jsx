@@ -44,7 +44,7 @@ const FaqPage = () => {
                     "name": "What amenities are included in the monthly stay?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "All apartments come fully furnished with premium housekeeping, high-speed Wi-Fi up to 300 Mbps, air conditioning, air purifiers, hot & cold water dispensers, a 20-litre water supply, 100% electricity backup, laundry facilities, and 24/7 maintenance support. We handle every detail so you don't have to."
+                        "text": "All apartments come fully furnished with premium housekeeping, high-speed Wi-Fi up to 300 Mbps, air conditioning, hot & cold water dispensers, a 20-litre water supply, 100% electricity backup, laundry facilities, and 24/7 maintenance support. We handle every detail so you don't have to."
                     }
                 },
                 {
@@ -76,7 +76,7 @@ const FaqPage = () => {
                     "name": "What is included in a fully-furnished Sandane Homes apartment?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Every apartment includes elegant furniture, bed & bath linens (changed twice weekly), one television, an air purifier, a hot & cold water dispenser, a fully-equipped kitchen with premium cutlery, and a dedicated workspace — everything you need to feel at home from day one."
+                        "text": "Every apartment includes elegant furniture, bed & bath linens (changed twice weekly), one television, a hot & cold water dispenser, a fully-equipped kitchen with premium cutlery, and a dedicated workspace — everything you need to feel at home from day one."
                     }
                 },
                 {
@@ -92,7 +92,7 @@ const FaqPage = () => {
                     "name": "Can I get a customised housing solution for my team?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Yes. We build tailored solutions for corporate teams — from sourcing multiple units in the same society to coordinating seamless move-ins. Contact us at sandanehomes@gmail.com or call +91 97117 22273 to discuss your team's requirements."
+                        "text": "Yes. We build tailored solutions for corporate teams — from sourcing multiple units in the same society to coordinating seamless move-ins. Contact us at residences@sandanehomes.com or call +91 97117 22273 to discuss your team's requirements."
                     }
                 }
             ]

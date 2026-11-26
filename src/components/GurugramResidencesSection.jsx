@@ -43,14 +43,14 @@ export const GurugramResidenceCard = ({ r }) => (
 );
 
 const GurugramResidencesSection = ({
-  title = 'Our Residences in Gurugram',
-  intro = 'Fully furnished, fully serviced homes we operate in Gurgaon — with daily housekeeping, 300 Mbps Wi-Fi, power backup and corporate GST invoicing.',
+  title = 'Homes We Have Delivered in Gurugram',
+  intro = 'We find, lease, furnish and manage homes on demand. These are homes we have delivered in Gurgaon, with daily housekeeping, 300 Mbps Wi-Fi, power backup and corporate GST invoicing; we look for new ones wherever your employees will work.',
   showHubLink = true,
   background = '#F7F4EF',
 }) => (
   <section style={{ backgroundColor: background, padding: '90px 20px' }} aria-labelledby="gurugram-residences-title">
     <div style={{ maxWidth: '1150px', margin: '0 auto', textAlign: 'center' }}>
-      <p style={{ fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '700', margin: '0 0 14px' }}>Gurgaon Portfolio</p>
+      <p style={{ fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '700', margin: '0 0 14px' }}>Gurgaon · Homes we have delivered</p>
       <h2 id="gurugram-residences-title" style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 40px)', color: '#1A3C34', margin: '0 0 16px' }}>{title}</h2>
       <p style={{ color: '#555', fontSize: '17px', lineHeight: 1.8, maxWidth: '720px', margin: '0 auto 50px' }}>{intro}</p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '28px' }}>

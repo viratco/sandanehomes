@@ -1,7 +1,6 @@
 // ─────────────────────────────────────────────────────────────
 //  KOREAN STAYS IN GREATER NOIDA — SERVICE PAGES (EN / KO)
-//  Built for Korean engineers, managers and families working at Samsung,
-//  LG Electronics, Dreamtech and their suppliers in Greater Noida.
+//  Built for Korean engineers, managers and families working in Greater Noida.
 //    en  /<slug>
 //    ko  /ko/<slug>
 //  Rendered by KoreanStayPage.jsx; SEO/hreflang/sitemap in generate-seo.js.
@@ -17,14 +16,12 @@ export const stayPath = (slug, lang) => (lang === 'en' ? `/${slug}` : `/${lang}/
 
 const COMPANY_LINKS = {
   en: [
-    { label: 'Samsung', path: '/serviced-homes-noida-sector-62-81' },
-    { label: 'LG Electronics', path: '/serviced-homes-greater-noida-industrial-area' },
-    { label: 'Dreamtech', path: '/serviced-homes-greater-noida-industrial-area' },
+    { label: 'Noida Sectors 62–81', path: '/serviced-homes-noida-sector-62-81' },
+    { label: 'Greater Noida industrial areas', path: '/serviced-homes-greater-noida-industrial-area' },
   ],
   ko: [
-    { label: '삼성전자', path: '/serviced-homes-noida-sector-62-81' },
-    { label: 'LG전자', path: '/serviced-homes-greater-noida-industrial-area' },
-    { label: '드림텍', path: '/serviced-homes-greater-noida-industrial-area' },
+    { label: '노이다 Sector 62–81', path: '/serviced-homes-noida-sector-62-81' },
+    { label: '그레이터 노이다 산업단지', path: '/serviced-homes-greater-noida-industrial-area' },
   ],
 };
 
@@ -37,10 +34,10 @@ export const koreanStayPages = [
     content: {
       en: {
         metaTitle: 'Korean Guest House in Greater Noida | Breakfast & Dinner Included',
-        metaDescription: 'Korean guest house in Greater Noida with Korean breakfast and dinner included every day. For Samsung, LG and Dreamtech engineers and visiting teams. Company GST invoicing and Form C support.',
+        metaDescription: 'Korean guest house in Greater Noida with Korean breakfast and dinner included every day. For visiting engineers and teams. Company GST invoicing.',
         eyebrow: 'Greater Noida Accommodation',
         h1: 'Korean Guest House in Greater Noida, Breakfast & Dinner Included',
-        intro: 'For engineers and managers visiting Samsung, LG Electronics, Dreamtech and their suppliers in Greater Noida, Sandane Homes offers guest-house stays with home-style Korean breakfast and dinner included every day. Arrive from Korea, check in, and have a familiar meal waiting after a long day at the plant.',
+        intro: 'For engineers and managers visiting plants and suppliers in Greater Noida, Sandane Homes offers guest-house stays with home-style Korean breakfast and dinner included every day. Arrive from Korea, check in, and have a familiar meal waiting after a long day at the plant.',
         whatsappText: 'Hello Sandane Homes, I am looking for your Korean guest house in Greater Noida (breakfast and dinner included).',
         sections: [
           {
@@ -51,7 +48,6 @@ export const koreanStayPages = [
               'Korean dinner every evening',
               'Housekeeping and fresh linen',
               'High-speed Wi-Fi',
-              'Form C filed for you within 24 hours of arrival',
               'One GST invoice to your company for the whole stay',
             ],
             image: 'breakfast',
@@ -71,7 +67,7 @@ export const koreanStayPages = [
         ],
         faqs: [
           { q: 'Are breakfast and dinner really included?', a: 'Yes. Korean breakfast and dinner are included every day of a guest-house stay. Tell us about any dietary needs before you arrive.' },
-          { q: 'How far is the guest house from Samsung, LG and Dreamtech?', a: "Our guest houses are in Greater Noida. LG's plant is on Surajpur–Kasna Road and Dreamtech's is in Ecotech-10, both in Greater Noida; Samsung's main factory is in Noida Sector 81. Send us the site address and we will tell you realistic travel times by car." },
+          { q: 'How far is the guest house from my plant or office?', a: 'Our guest houses are in Greater Noida. Send us the site address and we will tell you realistic travel times.' },
           { q: 'How long can we stay?', a: 'From a single night to several weeks. For longer postings we can move you into a serviced apartment.' },
           { q: 'Can our company book and pay by invoice?', a: 'Yes. We invoice the company directly with GST, for one guest or a whole team.' },
         ],
@@ -85,10 +81,10 @@ export const koreanStayPages = [
       },
       ko: {
         metaTitle: '그레이터 노이다 한인 게스트하우스 | 한식 조식·석식 포함 | Korean Guest House',
-        metaDescription: '한식 조식과 석식이 매일 포함된 그레이터 노이다 한인 게스트하우스(Korean guest house in Greater Noida). 삼성전자·LG전자·드림텍 출장자와 팀을 위한 숙소. 법인 GST 인보이스, Form C 신고 지원.',
+        metaDescription: '한식 조식과 석식이 매일 포함된 그레이터 노이다 한인 게스트하우스(Korean guest house in Greater Noida). 출장자와 팀을 위한 숙소. 법인 GST 인보이스 신고 지원.',
         eyebrow: '그레이터 노이다 숙소',
         h1: '그레이터 노이다 한인 게스트하우스, 한식 조식·석식 포함',
-        intro: '그레이터 노이다의 삼성전자, LG전자, 드림텍과 협력사로 출장 오는 엔지니어와 관리자분들을 위해, Sandane Homes는 매일 한식 조식과 석식이 포함된 게스트하우스 숙박을 제공합니다. 한국에서 도착해 체크인하면, 공장에서 긴 하루를 보낸 뒤에도 익숙한 한 끼가 기다리고 있습니다.',
+        intro: '그레이터 노이다의 공장과 협력사로 출장 오는 엔지니어와 관리자분들을 위해, Sandane Homes는 매일 한식 조식과 석식이 포함된 게스트하우스 숙박을 제공합니다. 한국에서 도착해 체크인하면, 공장에서 긴 하루를 보낸 뒤에도 익숙한 한 끼가 기다리고 있습니다.',
         whatsappText: '안녕하세요, 한식 조식·석식이 포함된 그레이터 노이다 한인 게스트하우스를 문의합니다.',
         sections: [
           {
@@ -99,7 +95,6 @@ export const koreanStayPages = [
               '매일 저녁 한식 석식',
               '하우스키핑과 깨끗한 침구',
               '고속 와이파이',
-              '도착 후 24시간 이내 Form C 신고 대행',
               '숙박 전체를 하나의 법인 GST 인보이스로 청구',
             ],
             image: 'breakfast',
@@ -119,7 +114,7 @@ export const koreanStayPages = [
         ],
         faqs: [
           { q: '조식과 석식이 정말 포함되어 있나요?', a: '네. 게스트하우스 숙박 기간 동안 매일 한식 조식과 석식이 포함됩니다. 식단 관련 요청은 도착 전에 알려 주세요.' },
-          { q: '게스트하우스에서 삼성, LG, 드림텍까지 얼마나 걸리나요?', a: '저희 게스트하우스는 그레이터 노이다에 있습니다. LG전자 공장은 Surajpur–Kasna Road, 드림텍 공장은 Ecotech-10으로 모두 그레이터 노이다에 있으며, 삼성전자 주력 공장은 노이다 섹터 81에 있습니다. 근무지 주소를 알려 주시면 실제 차량 이동 시간을 안내해 드립니다.' },
+          { q: '게스트하우스에서 공장이나 사무실까지 얼마나 걸리나요?', a: '저희 게스트하우스는 그레이터 노이다에 있습니다. 근무지 주소를 보내 주시면 실제 이동 시간을 알려 드립니다.' },
           { q: '얼마나 머무를 수 있나요?', a: '1박부터 몇 주까지 가능합니다. 장기 파견이라면 서비스 아파트로 옮기실 수 있습니다.' },
           { q: '법인 명의로 예약하고 인보이스로 결제할 수 있나요?', a: '네. 1인부터 팀 전체까지 회사에 직접 GST 인보이스를 발행합니다.' },
         ],
@@ -142,10 +137,10 @@ export const koreanStayPages = [
     content: {
       en: {
         metaTitle: 'Apartments in Greater Noida for Korean Expats | Serviced & Apartment Finding',
-        metaDescription: 'Serviced apartments and an apartment-finding service in Greater Noida for Korean expats and families at Samsung, LG and Dreamtech. Furnished homes in gated societies, viewings, lease help and move-in support.',
+        metaDescription: 'Serviced apartments and an apartment-finding service in Greater Noida for Korean expats and families. Furnished homes in gated societies, viewings, lease help and move-in support.',
         eyebrow: 'Greater Noida Accommodation',
         h1: 'Apartments in Greater Noida: Serviced Apartments and Apartment Finding',
-        intro: 'Whether your posting is three months or three years, there are two ways we can house you near Samsung, LG Electronics and Dreamtech: move straight into one of our fully furnished serviced apartments, or let us find and set up a long-term apartment for you.',
+        intro: 'Whether your posting is three months or three years, there are two ways we can house you in Greater Noida: move straight into one of our fully furnished serviced apartments, or let us find and set up a long-term apartment for you.',
         whatsappText: 'Hello Sandane Homes, I am looking for an apartment in Greater Noida (serviced apartment or apartment finding).',
         sections: [
           {
@@ -165,7 +160,7 @@ export const koreanStayPages = [
               'Tell us your budget, family size, office location and move-in date.',
               'We shortlist apartments in gated societies across Greater Noida and Noida, and arrange viewings in person or by video.',
               'We deal with the owner for you and help with the lease paperwork.',
-              'We furnish and set up the home if you need it, and help with move-in, internet and Form C / FRRO paperwork.',
+              'We furnish and set up the home if you need it, and help with move-in and internet.',
             ],
           },
           {
@@ -175,7 +170,7 @@ export const koreanStayPages = [
         ],
         faqs: [
           { q: 'Which areas do you cover?', a: 'Greater Noida, including Jaypee Greens, Ansal Golf Links and Godrej Golf Links, as well as Noida.' },
-          { q: 'Can you help a family settle in, not just find a flat?', a: 'Yes. Beyond finding the apartment, we can furnish it, set up the kitchen and internet, and help with Form C and FRRO paperwork.' },
+          { q: 'Can you help a family settle in, not just find a flat?', a: 'Yes. Beyond finding the apartment, we can furnish it, and set up the kitchen and internet.' },
           { q: 'Can our company sign the agreement?', a: 'For our serviced apartments, we sign directly with the company and issue a GST invoice. For apartments we find for you, we help set up the lease in the way your company needs.' },
           { q: 'How do I start?', a: 'Message us on WhatsApp with your dates, budget, family size and office location. We will reply with options.' },
         ],
@@ -189,10 +184,10 @@ export const koreanStayPages = [
       },
       ko: {
         metaTitle: '그레이터 노이다 아파트 구하기 · 서비스 아파트 | 한국인 주재원 | Apartments Greater Noida',
-        metaDescription: '삼성전자·LG전자·드림텍 한국인 주재원과 가족을 위한 그레이터 노이다 서비스 아파트와 아파트 구하기 서비스. 게이티드 단지의 가구 완비 아파트, 매물 안내, 임대 계약 지원, 입주 지원.',
+        metaDescription: '한국인 주재원과 가족을 위한 그레이터 노이다 서비스 아파트와 아파트 구하기 서비스. 게이티드 단지의 가구 완비 아파트, 매물 안내, 임대 계약 지원, 입주 지원.',
         eyebrow: '그레이터 노이다 숙소',
         h1: '그레이터 노이다 아파트: 서비스 아파트와 아파트 구하기',
-        intro: '파견 기간이 3개월이든 3년이든, 삼성전자, LG전자, 드림텍 근처에서 지내는 방법은 두 가지입니다. 가구가 완비된 저희 서비스 아파트에 바로 입주하시거나, 장기 거주할 아파트를 저희가 찾아 입주 준비까지 도와드립니다.',
+        intro: '파견 기간이 3개월이든 3년이든, 그레이터 노이다에서 지내는 방법은 두 가지입니다. 가구가 완비된 저희 서비스 아파트에 바로 입주하시거나, 장기 거주할 아파트를 저희가 찾아 입주 준비까지 도와드립니다.',
         whatsappText: '안녕하세요, 그레이터 노이다 아파트(서비스 아파트 또는 아파트 구하기)를 문의합니다.',
         sections: [
           {
@@ -212,7 +207,7 @@ export const koreanStayPages = [
               '예산, 가족 구성, 근무지, 입주 희망일을 알려 주세요.',
               '그레이터 노이다와 노이다의 게이티드 단지에서 후보 아파트를 추려 직접 또는 영상으로 보여 드립니다.',
               '집주인과의 협의를 대신하고 임대 계약 서류를 도와드립니다.',
-              '필요하면 가구와 생활용품을 갖추고, 입주·인터넷 설치·Form C / FRRO 서류까지 도와드립니다.',
+              '필요하면 가구와 생활용품을 갖추고, 입주와 인터넷 설치까지 도와드립니다.',
             ],
           },
           {
@@ -222,7 +217,7 @@ export const koreanStayPages = [
         ],
         faqs: [
           { q: '어느 지역을 다루나요?', a: 'Jaypee Greens, Ansal Golf Links, Godrej Golf Links를 포함한 그레이터 노이다와 노이다 지역입니다.' },
-          { q: '아파트를 찾는 것 외에 정착도 도와주나요?', a: '네. 아파트를 찾은 뒤 가구 배치, 주방과 인터넷 설치, Form C와 FRRO 서류까지 도와드립니다.' },
+          { q: '아파트를 찾는 것 외에 정착도 도와주나요?', a: '네. 아파트를 찾은 뒤 가구 배치, 주방과 인터넷 설치까지 도와드립니다.' },
           { q: '회사 명의로 계약할 수 있나요?', a: '서비스 아파트는 회사와 직접 계약하고 GST 인보이스를 발행합니다. 저희가 찾아드리는 아파트는 회사에 맞는 방식으로 임대 계약을 진행하도록 도와드립니다.' },
           { q: '어떻게 시작하나요?', a: 'WhatsApp으로 입주 희망일, 예산, 가족 구성, 근무지를 알려 주시면 후보를 안내해 드립니다.' },
         ],
@@ -244,7 +239,7 @@ export const koreanStayRoutes = koreanStayPages.flatMap((p) =>
 
 export const getKoreanStayPage = (slug) => koreanStayPages.find((p) => p.slug === slug);
 
-// "Three ways to stay" cards for the Korean-company pages (Samsung, LG, Dreamtech).
+// "Three ways to stay" cards.
 export const STAY_OPTIONS = {
   en: {
     title: 'Three ways to stay in Greater Noida',

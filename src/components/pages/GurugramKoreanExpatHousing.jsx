@@ -43,14 +43,13 @@ export default function GurugramKoreanExpatHousing() {
   const apartmentSchema = {
     '@context': 'https://schema.org', '@type': 'ApartmentComplex',
     name: 'Sandane Homes — Korean Expat Housing Gurugram (Gurgaon)',
-    description: 'Premium fully furnished serviced apartments for Korean expats in Gurugram (Gurgaon). Near Samsung, Hyundai & LG offices. Korean amenities, FRRO support & B2B billing. 한국인 주재원 아파트.',
+    description: 'Furnished 3–4 BHK homes for Korean expats in Gurugram (Gurgaon), found, leased, furnished and managed by Residences by Sandane Homes. Company lease and monthly GST invoice. 한국인 주재원 아파트.',
     url: 'https://www.sandanehomes.com/gurugram/korean-expat-housing',
     telephone: '+919711722273',
     address: { '@type': 'PostalAddress', addressLocality: 'Gurugram', addressRegion: 'Haryana', addressCountry: 'IN' },
     amenityFeature: [
       { '@type': 'LocationFeatureSpecification', name: 'Daily Housekeeping', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Korean Amenities', value: true },
-      { '@type': 'LocationFeatureSpecification', name: 'FRRO Form C Registration', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'B2B Corporate Billing', value: true },
     ]
   };
@@ -66,7 +65,7 @@ export default function GurugramKoreanExpatHousing() {
     <div className="sandane-homes-page">
       <SEO
         title="Korean Expat Housing in Gurgaon | 한국인 주재원 아파트 & Korean Meals"
-        description="Furnished homes for Korean expats in Gurugram (Gurgaon) with Korean home-style meals, Korean support, FRRO Form C help and GST billing. 한국인 주재원 숙소."
+        description="Furnished 3–4 BHK homes for Korean expats in Gurugram (Gurgaon). Company lease, monthly GST invoice, KakaoTalk support. 한국인 주재원 숙소."
         canonical="https://www.sandanehomes.com/gurugram/korean-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb, reviewedWebPageSchema('https://www.sandanehomes.com/gurugram/korean-expat-housing', 'Korean Expat Housing in Gurgaon')]}
@@ -96,7 +95,7 @@ export default function GurugramKoreanExpatHousing() {
             삼성, 현대, LG 주재원을 위한 프리미엄 서비스 아파트
           </p>
           <p style={{ fontSize: 'clamp(15px, 2vw, 18px)', color: '#D0C5B0', maxWidth: '740px', margin: '0 auto 36px', lineHeight: '1.8' }}>
-            Tailored serviced apartments for Samsung, Hyundai & LG assignees in Gurgaon. Korean amenities, FRRO Form C support, and direct B2B invoicing to your India subsidiary.
+            Furnished 3–4 BHK homes for Korean assignees and their families in Gurgaon, with a company lease and one monthly GST invoice to your India subsidiary.
           </p>
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <Link to="/residences" style={{ display: 'inline-flex', alignItems: 'center', gap: '9px', backgroundColor: '#C5A572', color: '#1A3C34', padding: '16px 36px', borderRadius: '40px', textDecoration: 'none', fontSize: '16px', fontWeight: '700' }}>
@@ -124,11 +123,10 @@ export default function GurugramKoreanExpatHousing() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '32px' }}>
               {[
                 'Kimchi refrigerators & Korean kitchen setup available',
-                'Near Samsung R&D (Sector 129 Noida) & Hyundai HQ',
-                'FRRO Form C filing within 24 hours of arrival',
+                'Homes close to DLF Cyber City and Golf Course Road',
                 'Korean grocery sourcing assistance & delivery guidance',
                 'B2B invoicing to Korean MNC India subsidiaries',
-                'Bulk relocation support — 5 to 50+ employees',
+                'Several employees arriving together? Tell us how many',
               ].map((p, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px' }}>
                   <FaCheckCircle size={16} color="#C5A572" style={{ flexShrink: 0, marginTop: '4px' }} />
@@ -158,7 +156,7 @@ export default function GurugramKoreanExpatHousing() {
             구르가온 한국인 주재원을 위한<br />프리미엄 서비스 아파트
           </h2>
           <p style={{ fontSize: '17px', lineHeight: '2', color: '#D0C5B0', marginBottom: '24px' }}>
-            삼성, 현대, LG 및 협력사 주재원 분들을 위해 Sandane Homes는 구르가온(구루그람)에서 최고급 서비스 아파트를 제공하고 있습니다. 김치냉장고, 한국식 조리기구, FRRO 등록 지원 및 법인 직접 청구 서비스를 제공합니다.
+            주재원 분들을 위해 Sandane Homes는 구르가온(구루그람)에서 최고급 서비스 아파트를 제공하고 있습니다. 법인 직접 청구 서비스를 제공합니다.
           </p>
           <p style={{ fontSize: '17px', lineHeight: '2', color: '#D0C5B0', marginBottom: '32px' }}>
             단기 출장부터 장기 주재까지 맞춤형 법인 계약을 제공합니다. 문의사항은 WhatsApp으로 언제든지 연락 주세요.

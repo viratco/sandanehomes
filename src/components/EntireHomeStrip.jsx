@@ -11,7 +11,7 @@ import './EntireHomeStrip.css';
  * differ from the usual range.
  */
 const EntireHomeStrip = ({
-    size = '2,700–3,500 sq ft',
+    size = null,
     bedrooms = '3–4 bedrooms',
     city = 'Greater Noida',
 }) => {

@@ -37,7 +37,7 @@ const Relocation = () => {
 
   const seoProps = {
     title: "Sandane Homes Relocation Services | Corporate & Expat Relocation Greater Noida",
-    description: "Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. Fully furnished luxury 2BHK & 3BHK apartments, B2B GST invoicing, 300 Mbps WiFi & concierge.",
+    description: "Turnkey corporate relocation support in Greater Noida for Japanese, Korean, Chinese & MNC expats. Fully furnished 3–4 BHK homes, B2B GST invoicing, 300 Mbps WiFi & concierge.",
     canonical: "https://www.sandanehomes.com/residences/relocation",
     ogImage: "https://www.sandanehomes.com/residences-og.jpg",
     schema: {
@@ -70,7 +70,7 @@ const Relocation = () => {
       flag: "🇰🇷",
       title: "Korean Executive Teams",
       subtitle: "Samsung, LG, Hyundai Supply Chain",
-      desc: "Full-service 2BHK & 3BHK residences with Korean breakfast options, 300 Mbps fiber internet, daily housekeeping, and 24/7 maintenance dispatch.",
+      desc: "Full-service 3–4 BHK homes with 300 Mbps fiber internet, daily housekeeping, and 24/7 maintenance dispatch.",
       hubs: "Noida Expressway & Knowledge Park"
     },
     {
@@ -84,7 +84,7 @@ const Relocation = () => {
       flag: "🌍",
       title: "Global MNC Expat Families",
       subtitle: "Multinational Corporations & Consultancies",
-      desc: "Family-ready luxury apartments near top international schools (DPS, Amity, Sharda), 100% power backup, clean air purifiers, and 24/7 dedicated concierge.",
+      desc: "Family-ready luxury apartments near top international schools (DPS, Amity, Sharda), 100% power backup, and a dedicated team for anything the home needs.",
       hubs: "Ansal Golf Links-1 & Greater Noida Hubs"
     }
   ];
@@ -121,12 +121,12 @@ const Relocation = () => {
       icon: <FaHouseUser />,
       title: "Turnkey Living & Comfort",
       items: [
-        "Fully furnished 2BHK & 3BHK residences",
+        "Fully furnished 3–4 BHK homes",
         "Daily housekeeping & linen change",
         "300 Mbps high-speed fiber internet",
         "100% dual-grid power backup",
         "Fully equipped kitchen & appliances",
-        "Air purifiers & water filtration"
+        "Water filtration"
       ]
     },
     {
@@ -169,7 +169,7 @@ const Relocation = () => {
   const faqs = [
     {
       q: "What amenities are included in the serviced apartments?",
-      a: "All relocation apartments include 300 Mbps fiber WiFi, daily housekeeping, 100% dual-grid power backup, fully equipped kitchens, air purifiers, and 24/7 gated security inside Ansal Golf Links-1."
+      a: "All relocation apartments include 300 Mbps fiber WiFi, daily housekeeping, 100% dual-grid power backup, fully equipped kitchens, and 24/7 gated security inside Ansal Golf Links-1."
     },
     {
       q: "Can lease payments be billed directly to our corporate entity with GST?",
@@ -177,7 +177,7 @@ const Relocation = () => {
     },
     {
       q: "What apartment configurations are available for relocated expats?",
-      a: "We offer luxury 2BHK serviced apartments (ideal for single executives and couples) and 3BHK residences (ideal for expat families with children) inside gated Ansal Golf Links-1."
+      a: "We offer furnished 3–4 BHK homes, with space for a family, inside gated Ansal Golf Links-1."
     },
     {
       q: "Can we inspect the apartment virtually before flying to India?",
@@ -224,7 +224,7 @@ const Relocation = () => {
           <img src={heroBg} alt="Sandane Relocation Executive Living" className="reloc-hero-img-fill" />
           <div className="reloc-hero-glass-badge">
             <h4>Turnkey Executive Housing</h4>
-            <p>Fully furnished 2BHK & 3BHK residences with daily housekeeping & 300 Mbps fiber internet.</p>
+            <p>Fully furnished 3–4 BHK homes with daily housekeeping & 300 Mbps fiber internet.</p>
           </div>
         </div>
       </section>

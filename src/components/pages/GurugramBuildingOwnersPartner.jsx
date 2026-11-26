@@ -73,7 +73,7 @@ const GurugramBuildingOwnersPartner = () => {
     },
     {
       q: "Will Sandane Homes convert the building into a corporate hotel residence?",
-      a: "Yes. We take full operational control, furnish/upgrade units to 5-star executive standards, setup 24/7 reception and housekeeping, and position the building as a premier Sandane Homes corporate residence for Japanese & Korean expats."
+      a: "Yes. We take full operational control, furnish/upgrade units to executive standards, setup 24/7 reception and housekeeping, and position the building as a premier Sandane Homes corporate residence for Japanese & Korean expats."
     },
     {
       q: "Who assumes building security, maintenance, and facility repairs?",
@@ -177,7 +177,7 @@ const GurugramBuildingOwnersPartner = () => {
               marginBottom: '32px',
               fontWeight: '400'
             }}>
-              Stop dealing with unvetted individual occupants. <strong>Sandane Homes</strong> master-leases your entire residential tower or builder block (10 to 50+ units) under a single master lease contract — delivering guaranteed 1st-of-month revenue payouts for 3 to 9 years with zero vacancy risk.
+              Stop dealing with unvetted individual occupants. <strong>Sandane Homes</strong> master-leases your entire residential tower or builder block (10 to 50+ units) under a single master lease contract — delivering fixed 1st-of-month revenue payouts for 3 to 9 years with zero vacancy risk.
             </p>
 
             {/* Quick Corporate Value Bullet Grid */}
@@ -186,7 +186,7 @@ const GurugramBuildingOwnersPartner = () => {
                 <FaCircleCheck color="#C5A572" size={18} /> 1 Master Contract (No Multi-Tenant Hassle)
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
-                <FaCircleCheck color="#C5A572" size={18} /> 3 to 9 Year Guaranteed Payouts
+                <FaCircleCheck color="#C5A572" size={18} /> 3 to 9 Year Fixed Payouts
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
                 <FaCircleCheck color="#C5A572" size={18} /> Turnkey Corporate Hotel Conversion
@@ -290,7 +290,7 @@ const GurugramBuildingOwnersPartner = () => {
           </div>
           <div>
             <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#C5A572', margin: '0 0 4px 0' }}>3 – 9 Years</h3>
-            <p style={{ color: '#94A3B8', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', margin: 0 }}>Guaranteed Master Lease Term</p>
+            <p style={{ color: '#94A3B8', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '1px', margin: 0 }}>Fixed Master Lease Term</p>
           </div>
           <div>
             <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '36px', color: '#C5A572', margin: '0 0 4px 0' }}>100% Zero</h3>
@@ -333,7 +333,7 @@ const GurugramBuildingOwnersPartner = () => {
             <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
               <div style={{ color: '#FFFFFF', fontWeight: '600' }}>Monthly Revenue Payout</div>
               <div style={{ color: '#94A3B8' }}>Multiple payment delays &amp; follow-ups</div>
-              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> Guaranteed Revenue on the 1st</div>
+              <div style={{ color: '#C5A572', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' }}><FaCircleCheck /> Fixed Revenue on the 1st</div>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '2fr 2fr 2fr', padding: '18px 24px', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '14px' }}>
@@ -389,7 +389,7 @@ const GurugramBuildingOwnersPartner = () => {
 
             <div style={{ background: '#1E293B', padding: '32px', borderRadius: '16px', border: '1px solid rgba(197,165,114,0.2)' }}>
               <FaShieldAlt size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>5-Star Asset Preservation</h3>
+              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>Asset Preservation</h3>
               <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.7', margin: 0 }}>
                 We maintain your entire building like a luxury boutique hotel. Daily housekeeping, 24/7 lobby reception, security supervision, and facility engineering ensure high capital appreciation and zero asset wear-and-tear.
               </p>
@@ -550,12 +550,12 @@ const GurugramBuildingOwnersPartner = () => {
               },
               {
                 title: 'Earn with Your Property: Expat Serviced Suites',
-                desc: 'Guaranteed 1st-of-the-month wire transfers and zero day-to-day property management stress.',
+                desc: '1st-of-the-month wire transfers and zero day-to-day property management stress.',
                 url: '/blog/earn-with-your-property-sandane-homes'
               },
               {
                 title: 'Gurugram Home Owners Partnership',
-                desc: 'Monetize individual 2BHK, 3BHK, or 4BHK apartments in DLF, Golf Course Road & Sushant Lok.',
+                desc: 'Monetize individual 3 or 4 BHK apartments in DLF, Golf Course Road & Sushant Lok.',
                 url: '/partner/gurugram-home-owners'
               }
             ].map((g, i) => (

@@ -26,7 +26,7 @@ const PHONE = '919711722273';
 const faqs = [
   {
     q: 'What types of serviced apartments do you offer in Gurgaon?',
-    a: 'We offer fully furnished 1BHK, 2BHK, 3BHK, and 4BHK serviced apartments across prime Gurgaon locations including DLF Phase 4, Golf Course Road, and Sushant Lok. All apartments include daily 5-star housekeeping, high-speed 300 Mbps Wi-Fi, modular kitchens, and round-the-clock power backup.'
+    a: 'We find, lease, furnish and manage 3–4 BHK homes in Gurgaon, near where your employees work. Homes include daily housekeeping, high-speed 300 Mbps Wi-Fi, modular kitchens, and round-the-clock power backup.'
   },
   {
     q: 'Do you provide corporate B2B billing and GST invoices?',
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: 'Are your Gurgaon apartments suitable for Japanese and Korean expats?',
-    a: 'Absolutely. We have dedicated Japanese and Korean expat housing programs with tailored amenities — rice cookers, Japanese breakfast options, proximity to Asian grocery stores, FRRO Form C registration within 24 hours, and English-speaking concierge staff. We have served teams from Toyota, Samsung, Hyundai, and other multinationals.'
+    a: 'Yes. We look for homes close to the office and to Asian grocery stores, and Japanese and Korean residents can reach us on WhatsApp, LINE or KakaoTalk.'
   },
   {
     q: 'What is the minimum stay duration in your Gurgaon serviced apartments?',
@@ -90,7 +90,7 @@ const neighborhoodPages = [
   {
     title: 'Japanese Expat Housing',
     subtitle: 'Pan-Gurugram · Tailored for Japan Assignees',
-    desc: 'Dedicated Japanese amenities, bathtubs, FRRO Form C, and corporate leasing direct to your Japan HQ.',
+    desc: 'Homes chosen with Japanese families in mind, and a company lease with your India entity.',
     img: imgRoom2,
     link: '/gurugram/japanese-expat-housing',
     badge: '🇯🇵 Japanese'
@@ -110,7 +110,7 @@ const amenities = [
   { icon: <FaUtensils size={26} color="#C5A572" />, title: 'Modular Kitchen', desc: 'Induction, microwave, refrigerator & RO water.' },
   { icon: <FaWifi size={26} color="#C5A572" />, title: '300 Mbps Wi-Fi', desc: 'Dedicated private fibre internet in every unit.' },
   { icon: <FaShieldAlt size={26} color="#C5A572" />, title: '24/7 Security', desc: 'Biometric access, CCTV & manned security gates.' },
-  { icon: <FaStar size={26} color="#C5A572" />, title: 'Daily Housekeeping', desc: '5-star linen changes, sanitization & maintenance.' },
+  { icon: <FaStar size={26} color="#C5A572" />, title: 'Daily Housekeeping', desc: 'Linen changes, cleaning & maintenance.' },
   { icon: <FaCar size={26} color="#C5A572" />, title: 'Parking & Transfers', desc: 'Covered parking & private airport cab coordination.' },
 ];
 
@@ -144,7 +144,6 @@ export default function GurgaonCorporateHousing() {
       { '@type': 'LocationFeatureSpecification', name: 'High-Speed WiFi', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Modular Kitchen', value: true },
       { '@type': 'LocationFeatureSpecification', name: '24/7 Power Backup', value: true },
-      { '@type': 'LocationFeatureSpecification', name: 'FRRO Registration Support', value: true },
     ]
   };
 
@@ -240,7 +239,7 @@ export default function GurgaonCorporateHousing() {
             display: 'flex', flexWrap: 'wrap', gap: '12px',
             justifyContent: 'center', margin: '28px 0 40px'
           }}>
-            {['300 Mbps Wi-Fi', 'Daily 5★ Housekeeping', 'B2B GST Billing', 'FRRO Support', 'Flexible Duration'].map(t => (
+            {['300 Mbps Wi-Fi', 'Daily Housekeeping', 'B2B GST Billing', 'Flexible Duration'].map(t => (
               <span key={t} style={{
                 display: 'inline-flex', alignItems: 'center', gap: '6px',
                 backgroundColor: 'rgba(255,255,255,0.08)',

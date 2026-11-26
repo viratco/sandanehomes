@@ -89,7 +89,7 @@ const Header = ({ showTopBar = true, showNav = true, showLogo = true, customPhon
                             </button>
                         </div>
                         <span>Tel: +91 9711722273</span>
-                        <span>sandanehomes@gmail.com</span>
+                        <span>residences@sandanehomes.com</span>
                     </div>
                 </div>
             )}

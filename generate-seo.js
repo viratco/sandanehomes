@@ -177,7 +177,7 @@ const SEO_MAP = {
   },
   '/serviced-apartments-greater-noida': {
     title: 'Serviced Apartments in Greater Noida | Entire 3–4 BHK Homes for Expats | Residences by Sandane Homes',
-    description: 'Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida, not hotel rooms. For company expats and families on long stays. Daily housekeeping, Korean & Japanese meals, car service, GST invoice.',
+    description: 'Entire furnished 3–4 BHK homes in Greater Noida, not hotel rooms. For company expats and families on long stays. Daily housekeeping, Korean & Japanese meals, car service, GST invoice.',
   },
   '/residences/relocation': {
     title: 'Sandane Homes Relocation Services | Corporate & Expat Relocation Greater Noida',
@@ -201,8 +201,8 @@ const SEO_MAP = {
     }]
   },
   '/korean-expat-housing-delhi-ncr': {
-    title: 'Korean Expat Housing in Delhi NCR | Serviced Apartments near Samsung, LG | Sandane',
-    description: 'Premium serviced apartments for Korean expats in Greater Noida & Delhi NCR. Near Samsung R&D, LG Electronics, Korean mart. FRRO help, corporate billing, daily housekeeping. 한국인 주재원 아파트.',
+    title: 'Korean Expat Housing in Delhi NCR | Furnished Homes | Residences by Sandane Homes',
+    description: 'Furnished 3–4 BHK homes for Korean expats in Greater Noida, Noida and Gurugram. Company lease, monthly GST invoice, daily housekeeping, KakaoTalk support. 한국인 주재원 아파트.',
     lang: 'ko',
     hreflang: ['en', 'ko', 'x-default'],
     schemas: [
@@ -210,7 +210,7 @@ const SEO_MAP = {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
         "name": "Sandane Homes — Korean Expat Housing Delhi NCR",
-        "description": "Premium fully furnished serviced apartments for Korean expats in Greater Noida and Delhi NCR. Near Samsung R&D, LG, and Hyundai offices.",
+        "description": "Furnished 3–4 BHK homes for Korean expats in Greater Noida and Delhi NCR.",
         "url": "https://www.sandanehomes.com/korean-expat-housing-delhi-ncr",
         "telephone": "+919711722273",
         "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" },
@@ -227,17 +227,15 @@ const SEO_MAP = {
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "Is Greater Noida safe for Korean families?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Greater Noida is one of the safest cities in Delhi NCR. Our properties are located inside gated premium societies such as Jaypee Greens, Ansal Golf Links, and Godrej Golf Link — all of which have 24/7 CCTV surveillance, security guards at every gate, and intercom systems. These societies are known for their quiet, disciplined environments with very low crime rates, making them ideal for Korean families." } },
-          { "@type": "Question", "name": "How far is the apartment from Samsung R&D Noida and LG offices?", "acceptedAnswer": { "@type": "Answer", "text": "Our serviced apartments in Greater Noida are approximately 25–35 minutes by car from the Samsung R&D campus in Noida Sector 129 and the LG Electronics India office in Noida. With the Yamuna Expressway and Noida-Greater Noida Expressway providing direct connectivity, the commute is smooth even during peak hours." } },
           { "@type": "Question", "name": "Are there Korean grocery stores or restaurants near the apartments?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. There is a well-stocked Korean mart in the Greater Noida / Noida corridor with Korean staples: ramyeon, kimchi, gochujang, doenjang, and packaged goods. Several Korean and Asian restaurants have also opened in the Sector 18 Noida area and near the India Expo Mart, offering authentic Korean BBQ and comfort food." } },
-          { "@type": "Question", "name": "Do you assist Korean expats with FRRO registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, our concierge team actively helps Korean expats navigate the FRRO registration process, which is mandatory within 14 days of arriving in India on a long-term visa. We guide you on the required documents and coordinate with your company's HR team to ensure the process is completed on time." } },
           { "@type": "Question", "name": "Can corporate HR teams book in bulk for a group of Korean employees?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We offer dedicated corporate housing packages for Korean multinationals and their HR teams: direct company invoicing, multiple simultaneous move-ins, airport pickup coordination, and a dedicated account manager." } }
         ]
       }
     ]
   },
   '/japanese-expat-housing-delhi-ncr': {
-    title: 'Japanese Expat Housing Greater Noida | Near Honda, Yamaha | 日本人向け住宅',
-    description: 'Premium serviced apartments in Greater Noida designed for Japanese expats. Close to Honda and Yamaha plants. Daily housekeeping, top security, fully furnished. 日本人向けサービスアパートメント.',
+    title: 'Japanese Expat Housing Greater Noida | Furnished Homes | 日本人向け住宅',
+    description: 'Furnished 3–4 BHK homes in Greater Noida for Japanese expats. Company lease, monthly GST invoice, daily housekeeping, LINE support. 日本人向けサービスアパートメント.',
     lang: 'ja',
     hreflang: ['en', 'ja', 'x-default'],
     schemas: [
@@ -245,7 +243,7 @@ const SEO_MAP = {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
         "name": "Sandane Homes — Japanese Expat Housing Greater Noida",
-        "description": "Premium fully furnished serviced apartments for Japanese expats in Greater Noida. Near Honda, Yamaha, and Yamuna Expressway industrial hubs.",
+        "description": "Furnished 3–4 BHK homes for Japanese expats in Greater Noida.",
         "url": "https://www.sandanehomes.com/japanese-expat-housing-delhi-ncr",
         "telephone": "+919711722273",
         "address": { "@type": "PostalAddress", "addressLocality": "Greater Noida", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" },
@@ -262,17 +260,15 @@ const SEO_MAP = {
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "Is Greater Noida safe for Japanese expatriates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, absolutely. Greater Noida is widely considered one of the most secure and well-planned cities in the Delhi NCR region. Our serviced apartments are situated within highly secure, premium gated communities like Jaypee Greens, Ansal Golf Links, and Godrej Golf Link, featuring 24/7 CCTV monitoring and professional security staff." } },
-          { "@type": "Question", "name": "How long is the commute to Honda and Yamaha plants from the apartments?", "acceptedAnswer": { "@type": "Answer", "text": "The commute from our Greater Noida apartments to the Honda Motorcycle and Scooter India (HMSI) plant and the India Yamaha Motor plant typically ranges from 15 to 30 minutes, depending on the exact location along the Yamuna Expressway or Surajpur industrial area." } },
-          { "@type": "Question", "name": "Do you provide corporate billing directly to our company?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we specialize in corporate housing and provide seamless corporate billing. We can invoice your Indian subsidiary (e.g., Honda India, Yamaha Motor India, or their vendors) directly, with clear, itemized GST invoices." } },
+          { "@type": "Question", "name": "Do you provide corporate billing directly to our company?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we specialize in corporate housing and provide seamless corporate billing. We can invoice your Indian subsidiary directly, with clear, itemized GST invoices." } },
           { "@type": "Question", "name": "Is it easy to access Japanese food and groceries?", "acceptedAnswer": { "@type": "Answer", "text": "There are several Asian marts in the vicinity that stock Japanese staples like soy sauce, miso, and rice, and premium grocery delivery services bring imported Japanese goods to your door. Nearby Noida Sector 18 and Delhi host excellent authentic Japanese restaurants." } },
-          { "@type": "Question", "name": "Do you offer support for FRRO registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our dedicated concierge team has extensive experience assisting Japanese nationals with the paperwork and online processes required for smooth and timely FRRO registration, coordinating closely with your company's HR department." } }
         ]
       }
     ]
   },
   '/chinese-expat-housing-greater-noida': {
     title: 'Chinese Expat Housing Greater Noida | Serviced Apartments Near India Expo Mart | 大诺伊达中国外籍人士住房',
-    description: 'Premium serviced apartments in Greater Noida for Chinese expats and business delegations. Near India Expo Mart. FRRO support, WeChat assistance, wok kitchen, air purifiers. 大诺伊达中国外籍人士高级服务公寓。',
+    description: 'Premium serviced apartments in Greater Noida for Chinese expats and business delegations. Near India Expo Mart. WeChat assistance, full kitchen, company lease and GST invoice. 大诺伊达中国外籍人士高级服务公寓。',
     ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
     lang: 'zh',
     hreflang: ['en', 'zh', 'zh-CN', 'x-default'],
@@ -291,8 +287,6 @@ const SEO_MAP = {
           { "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen with Gas Stove", "value": true },
           { "@type": "LocationFeatureSpecification", "name": "24/7 Security", "value": true },
           { "@type": "LocationFeatureSpecification", "name": "Power Backup", "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "Air Purifiers", "value": true },
-          { "@type": "LocationFeatureSpecification", "name": "FRRO Documentation Support", "value": true },
           { "@type": "LocationFeatureSpecification", "name": "WeChat Support", "value": true }
         ]
       },
@@ -421,7 +415,7 @@ SEO_MAP['/gurugram/sushant-lok'] = {
 
 SEO_MAP['/gurugram/japanese-expat-housing'] = {
   title: 'Japanese Expat Housing in Gurgaon | 日本人向けサービスアパートメント',
-  description: 'Furnished homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Japanese support, FRRO Form C help, corporate GST billing. 日本人駐在員向け住宅.',
+  description: 'Furnished 3–4 BHK homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Company lease, monthly GST invoice, LINE support. 日本人駐在員向け住宅.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   lang: 'ja',
   hreflang: ['en', 'ja', 'x-default'],
@@ -430,13 +424,12 @@ SEO_MAP['/gurugram/japanese-expat-housing'] = {
       "@context": "https://schema.org",
       "@type": "ApartmentComplex",
       "name": "Sandane Homes — Japanese Expat Housing Gurugram (Gurgaon)",
-      "description": "Premium fully furnished serviced apartments for Japanese expats in Gurugram. Near Honda, Toyota, NTT Data & DLF Cyber City.",
+      "description": "Furnished 3–4 BHK homes for Japanese expats in Gurugram.",
       "url": "https://www.sandanehomes.com/gurugram/japanese-expat-housing",
       "telephone": "+919711722273",
       "address": { "@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" },
       "amenityFeature": [
         { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "FRRO Form C Registration", "value": true },
         { "@type": "LocationFeatureSpecification", "name": "Japanese Breakfast Options", "value": true },
         { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Billing", "value": true }
       ]
@@ -455,7 +448,7 @@ SEO_MAP['/gurugram/japanese-expat-housing'] = {
 
 SEO_MAP['/gurugram/korean-expat-housing'] = {
   title: 'Korean Expat Housing in Gurgaon | 한국인 주재원 아파트 & Korean Meals',
-  description: 'Furnished homes for Korean expats in Gurugram (Gurgaon) with Korean home-style meals, Korean support, FRRO Form C help and GST billing. 한국인 주재원 숙소.',
+  description: 'Furnished 3–4 BHK homes for Korean expats in Gurugram (Gurgaon). Company lease, monthly GST invoice, KakaoTalk support. 한국인 주재원 숙소.',
   ogImage: 'https://www.sandanehomes.com/residences-og.jpg',
   lang: 'ko',
   hreflang: ['en', 'ko', 'x-default'],
@@ -464,13 +457,12 @@ SEO_MAP['/gurugram/korean-expat-housing'] = {
       "@context": "https://schema.org",
       "@type": "ApartmentComplex",
       "name": "Sandane Homes — Korean Expat Housing Gurugram (Gurgaon)",
-      "description": "Premium fully furnished serviced apartments for Korean expats in Gurugram. Near Samsung R&D, Hyundai & LG offices.",
+      "description": "Furnished 3–4 BHK homes for Korean expats in Gurugram.",
       "url": "https://www.sandanehomes.com/gurugram/korean-expat-housing",
       "telephone": "+919711722273",
       "address": { "@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN" },
       "amenityFeature": [
         { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "FRRO Form C Registration", "value": true },
         { "@type": "LocationFeatureSpecification", "name": "Korean Amenities", "value": true },
         { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Billing", "value": true }
       ]

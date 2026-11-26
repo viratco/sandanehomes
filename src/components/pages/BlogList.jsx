@@ -297,7 +297,7 @@ const BlogList = () => {
                             Find Your Ideal Serviced Suite &amp; Corporate Residence
                         </h2>
                         <p style={{ fontSize: '16px', color: '#E0E0E0', maxWidth: '600px', margin: '0 auto 28px', lineHeight: '1.7' }}>
-                            Explore fully furnished 1BHK, 2BHK, and studio residences in gated communities with 24/7 security, daily housekeeping, and full corporate amenities.
+                            Explore fully furnished 3–4 BHK homes in gated communities with 24/7 security, daily housekeeping, and full corporate amenities.
                         </p>
                         <Link
                             to="/residences"

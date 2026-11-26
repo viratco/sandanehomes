@@ -23,8 +23,8 @@ const PartnershipPage = () => {
 
   const partnerFaqs = [
     {
-      q: "How does the guaranteed fixed lease model work?",
-      a: "Sandane Homes signs a multi-year master lease contract with you (3 to 9 years). We deposit a guaranteed fixed monthly rent directly into your bank account on the 1st of every month without fail, regardless of whether your property is occupied or vacant."
+      q: "How does the fixed lease model work?",
+      a: "Sandane Homes signs a multi-year master lease contract with you (3 to 9 years). The lease sets a fixed monthly rent, paid directly into your bank account on the 1st of every month."
     },
     {
       q: "What profile of tenants will be staying in my property?",
@@ -32,7 +32,7 @@ const PartnershipPage = () => {
     },
     {
       q: "Who pays for daily housekeeping, maintenance, and repairs?",
-      a: "Sandane Homes assumes 100% of operational responsibility. Our in-house hospitality team provides daily 5-star housekeeping and handles plumbing, electrical, and appliance repairs at zero additional expense to you."
+      a: "Sandane Homes assumes 100% of operational responsibility. Our in-house hospitality team provides daily housekeeping and handles plumbing, electrical, and appliance repairs at zero additional expense to you."
     },
     {
       q: "Can I partner an entire residential building or tower?",
@@ -40,7 +40,7 @@ const PartnershipPage = () => {
     },
     {
       q: "How does Sandane Homes perform compared to traditional single-tenant renting?",
-      a: "Traditional renting causes 1-2 months of vacancy losses every year, late payments, tenant damage, and constant repair calls. Sandane Homes eliminates vacancy risk, guarantees payouts on the 1st of every month, provides free maintenance, and returns your property in showroom condition."
+      a: "Traditional renting causes 1-2 months of vacancy losses every year, late payments, tenant damage, and constant repair calls. Sandane Homes takes on the vacancy risk, pays on the 1st of every month, provides free maintenance, and returns your property in showroom condition."
     },
     {
       q: "Which locations in Delhi NCR are eligible for partnership?",
@@ -58,7 +58,7 @@ const PartnershipPage = () => {
         "name": "Sandane Homes",
         "url": "https://www.sandanehomes.com"
       },
-      "description": "Monetize your apartments, luxury flats, or full residential buildings with Sandane Homes. Guaranteed fixed monthly revenue or high profit-sharing model backed by corporate expat stays in Greater Noida, Noida, and Gurugram.",
+      "description": "Monetize your apartments, luxury flats, or full residential buildings with Sandane Homes. Fixed monthly revenue or high profit-sharing model backed by corporate expat stays in Greater Noida, Noida, and Gurugram.",
       "areaServed": ["Greater Noida", "Noida", "Gurugram", "Yamuna Expressway", "Delhi NCR"]
     },
     {
@@ -87,7 +87,7 @@ const PartnershipPage = () => {
     <div className="catarina-services sandane-homes-page" style={{ backgroundColor: '#F4F0EB', minHeight: '100vh', overflowX: 'hidden' }}>
       <SEO
         title="Partner With Us | Monetize Your Apartments & Buildings — Sandane Homes"
-        description="Partner your apartments, flats, or entire residential buildings with Sandane Homes. High guaranteed monthly revenue, 100% property maintenance, and corporate MNC guest management in Greater Noida, Noida & Gurugram."
+        description="Partner your apartments, flats, or entire residential buildings with Sandane Homes. Fixed monthly revenue, 100% property maintenance, and corporate MNC guest management in Greater Noida, Noida & Gurugram."
         canonical="https://www.sandanehomes.com/partner-with-us"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={partnerSchema}
@@ -252,7 +252,7 @@ const PartnershipPage = () => {
                 wordBreak: 'break-word',
                 overflowWrap: 'break-word'
               }}>
-                Whether you own a single luxury flat, multiple society apartments, or an entire standalone residential building in <strong>Greater Noida, Noida, or Gurugram</strong> — Sandane Homes manages your asset with 5-star hospitality standards, paying you guaranteed predictable income without the hassle of traditional renting.
+                Whether you own a single luxury flat, multiple society apartments, or an entire standalone residential building in <strong>Greater Noida, Noida, or Gurugram</strong> — Sandane Homes manages your asset with 5-star hospitality standards, paying you fixed predictable income without the hassle of traditional renting.
               </p>
 
               {/* Quick Features List */}
@@ -263,7 +263,7 @@ const PartnershipPage = () => {
                 marginBottom: '32px'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '13.5px' }}>
-                  <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> Guaranteed 1st-of-month Payouts
+                  <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> Fixed 1st-of-month Payouts
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#111', fontWeight: '600', fontSize: '13.5px' }}>
                   <FaCheckCircle color="#8B7355" size={17} style={{ flexShrink: 0 }} /> Verified Japanese &amp; MNC Guests
@@ -330,7 +330,7 @@ const PartnershipPage = () => {
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 220px), 1fr))', gap: '30px', textAlign: 'center' }}>
           <div style={{ padding: '20px', background: '#FFFFFF', borderRadius: '12px', border: '1px solid #EAE4DC', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
             <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '38px', color: '#8B7355', margin: '0 0 6px 0', fontWeight: '700' }}>100%</h3>
-            <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Guaranteed Lease &amp; Zero Default</p>
+            <p style={{ fontSize: '13px', fontWeight: '700', letterSpacing: '1px', color: '#111111', textTransform: 'uppercase', margin: 0 }}>Fixed Lease &amp; Monthly Payouts</p>
             <span style={{ fontSize: '12px', color: '#777', display: 'block', marginTop: '4px' }}>Revenue paid on the 1st of every month</span>
           </div>
 
@@ -363,7 +363,7 @@ const PartnershipPage = () => {
               Choose How You Want to Monetize
             </h2>
             <p style={{ fontSize: '15px', color: '#C3D0DF', lineHeight: '1.7', fontFamily: 'Georgia, serif' }}>
-              We tailor our agreement to match your financial goals — whether you prefer steady guaranteed fixed income or shared revenue upside.
+              We tailor our agreement to match your financial goals — whether you prefer steady fixed income or shared revenue upside.
             </p>
           </div>
 
@@ -392,7 +392,7 @@ const PartnershipPage = () => {
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
                 <FaFileContract size={28} color="#C5A572" />
-                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#FFFFFF', margin: 0 }}>Guaranteed Fixed Lease</h3>
+                <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '24px', color: '#FFFFFF', margin: 0 }}>Fixed Lease</h3>
               </div>
 
               <p style={{ color: '#E0E6ED', fontSize: '14px', lineHeight: '1.7', marginBottom: '24px' }}>
@@ -401,7 +401,7 @@ const PartnershipPage = () => {
 
               <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 30px 0' }}>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#C5A572" /> 100% Fixed monthly income guaranteed
+                  <FaCheckCircle color="#C5A572" /> Fixed monthly income under the lease
                 </li>
                 <li style={{ padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.08)', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <FaCheckCircle color="#C5A572" /> Multi-year contract options (3 to 9 years)
@@ -456,7 +456,7 @@ const PartnershipPage = () => {
                   <FaCheckCircle color="#C5A572" /> Full hospitality management &amp; corporate booking desk
                 </li>
                 <li style={{ padding: '8px 0', fontSize: '14px', color: '#D1DCE5', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <FaCheckCircle color="#C5A572" /> 5-Star housekeeping &amp; maintenance included
+                  <FaCheckCircle color="#C5A572" /> Housekeeping &amp; maintenance included
                 </li>
               </ul>
 
@@ -524,7 +524,7 @@ const PartnershipPage = () => {
               <div style={{ padding: '26px', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
                 <div>
                   <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>GATED SOCIETIES</span>
-                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>2BHK, 3BHK &amp; 4BHK Apartments</h3>
+                  <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>3 &amp; 4 BHK Apartments</h3>
                   <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
                     Individual or multiple flats inside high-end gated societies (Jaypee Greens, Ansal Golf Links, Godrej, ATS, Central Park, DLF).
                   </p>
@@ -552,7 +552,7 @@ const PartnershipPage = () => {
                   <span style={{ fontSize: '11px', fontWeight: '700', letterSpacing: '1px', color: '#8B7355', textTransform: 'uppercase' }}>PREMIUM ASSETS</span>
                   <h3 style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', color: '#111', margin: '8px 0 12px 0' }}>Luxury Villas &amp; Executive Suites</h3>
                   <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.6', marginBottom: '20px' }}>
-                    High-end luxury villas and penthouses leased to CXOs, country managers, and senior Japanese / Korean expatriate directors.
+                    High-end villas leased to CXOs, country managers, and senior Japanese / Korean expatriate directors.
                   </p>
                 </div>
                 <a href="#partner-form" style={{
@@ -587,7 +587,7 @@ const PartnershipPage = () => {
             <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
               <FaHome size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
               <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Daily Professional Housekeeping</h4>
-              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Your property is deep cleaned daily with 5-star linen care, keeping it in showroom condition at all times.</p>
+              <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Your property is deep cleaned daily with careful linen care, keeping it in showroom condition at all times.</p>
             </div>
 
             <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
@@ -604,7 +604,7 @@ const PartnershipPage = () => {
 
             <div style={{ background: '#FFFFFF', padding: '30px', borderRadius: '12px', border: '1px solid #EAE4DC' }}>
               <FaMoneyBillWave size={32} color="#8B7355" style={{ marginBottom: '16px' }} />
-              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Guaranteed Monthly Payouts</h4>
+              <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#111', margin: '0 0 10px 0' }}>Fixed Monthly Payouts</h4>
               <p style={{ fontSize: '13px', color: '#666', lineHeight: '1.6', margin: 0 }}>Never chase revenue again. Direct bank transfers delivered on the 1st of every month without fail.</p>
             </div>
 
@@ -628,7 +628,7 @@ const PartnershipPage = () => {
         <PartnerApplicationForm
           id="partner-form"
           title="Monetize Your Property With Sandane Homes"
-          subtitle="Fill in your property details below. Our partner acquisition desk will analyze your asset and present a guaranteed revenue proposal within 24 hours."
+          subtitle="Fill in your property details below. Our partner acquisition desk will analyze your asset and present a revenue proposal."
           tag="GET A FREE PROPERTY EVALUATION"
         />
       </div>

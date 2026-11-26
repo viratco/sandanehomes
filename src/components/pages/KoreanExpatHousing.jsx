@@ -17,24 +17,16 @@ const faqs = [
         answer: "Absolutely. Greater Noida is one of the safest cities in Delhi NCR. Our properties are located inside gated premium societies such as Jaypee Greens, Ansal Golf Links, and Godrej Golf Link — all of which have 24/7 CCTV surveillance, security guards at every gate, and intercom systems. These societies are known for their quiet, disciplined environments with very low crime rates, making them ideal for Korean families, including those with children attending international schools nearby."
     },
     {
-        question: "How far is the apartment from Samsung R&D Noida and LG offices?",
-        answer: "Our serviced apartments in Greater Noida are approximately 25–35 minutes by car from the Samsung R&D campus in Noida Sector 129 and the LG Electronics India office in Noida. With the Yamuna Expressway and Noida-Greater Noida Expressway providing direct, uncongested connectivity, the commute is smooth even during peak hours. Many of our Korean residents working at Samsung and LG use this route daily."
-    },
-    {
         question: "Are there Korean grocery stores or restaurants near the apartments?",
         answer: "Yes — and this is a significant advantage. There is a well-stocked Korean mart (Korean grocery store) in the Greater Noida / Noida corridor where you can find Korean staples: ramyeon, kimchi, gochujang, doenjang, Korean instant noodles, and packaged goods. Several Korean and Asian restaurants have also opened in the Sector 18 Noida area and near the India Expo Mart, offering authentic Korean BBQ and comfort food from home."
     },
     {
-        question: "Do you assist Korean expats with FRRO (Foreigners Regional Registration Office) registration?",
-        answer: "Yes, our concierge team actively helps Korean expats navigate the FRRO registration process, which is mandatory within 14 days of arriving in India on a long-term visa. We guide you on the required documents, accompany you if needed, and coordinate with your company's HR team to ensure the process is completed on time. We have helped dozens of Korean nationals complete FRRO registration smoothly since 2022."
-    },
-    {
         question: "Is the apartment suitable for a Korean professional relocating alone?",
-        answer: "Very much so. Our studio and 1BHK serviced apartments are popular among Korean single professionals at Samsung, LG, and other MNCs. They are fully furnished with all modern appliances, a fully-equipped kitchen so you can cook Korean meals at home, high-speed fiber Wi-Fi, and daily housekeeping. Everything is set up from day one — you arrive with your suitcase and you are home."
+        answer: "Yes. Our homes are fully furnished, with a fully-equipped kitchen so you can cook Korean meals at home, high-speed fiber Wi-Fi, and daily housekeeping. Everything is set up from day one — you arrive with your suitcase and you are home."
     },
     {
         question: "Can corporate HR teams book in bulk for a group of Korean employees?",
-        answer: "Yes. We offer dedicated corporate housing packages for Korean multinationals and their HR teams. We handle direct company invoicing, multiple simultaneous move-ins, airport pickup coordination, and a dedicated account manager. Companies like Samsung, LG, Hyundai vendors, and Korean EPC firms have used our corporate housing solutions for smooth multi-person relocations to the NCR."
+        answer: "Yes. We offer dedicated corporate housing packages for Korean multinationals and their HR teams. We handle direct company invoicing, multiple simultaneous move-ins, airport pickup coordination, and a dedicated account manager."
     },
     {
         question: "What is the distance from the apartment to Indira Gandhi International Airport (Delhi)?",
@@ -80,7 +72,7 @@ const KoreanExpatHousing = () => {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
         "name": "Sandane Homes — Korean Expat Housing Delhi NCR",
-        "description": "Premium fully furnished serviced apartments for Korean expats in Greater Noida and Delhi NCR. Near Samsung R&D, LG, and Hyundai offices.",
+        "description": "Furnished 3–4 BHK homes for Korean expats in Greater Noida and Delhi NCR, found, leased, furnished and managed by Residences by Sandane Homes.",
         "url": "https://www.sandanehomes.com/korean-expat-housing-delhi-ncr",
         "telephone": "+919711722273",
         "address": {
@@ -127,7 +119,7 @@ const KoreanExpatHousing = () => {
         { icon: <FaShieldAlt size={28} color="#1A3C34" />, title: "24/7 Gated Security", desc: "CCTV, security guards, intercom — premium safe societies" },
         { icon: <FaWifi size={28} color="#1A3C34" />, title: "300 Mbps Fiber WiFi", desc: "Stable internet for video calls to Seoul, any hour" },
         { icon: <FaUtensils size={28} color="#1A3C34" />, title: "Full Kitchen", desc: "Cook Korean food at home — gas hob, fridge, all utensils" },
-        { icon: <FaCar size={28} color="#1A3C34" />, title: "Easy MNC Commute", desc: "25–35 min to Samsung R&D, LG, and Noida tech corridors" },
+        { icon: <FaCar size={28} color="#1A3C34" />, title: "Near Your Workplace", desc: "Homes chosen for a practical commute to your office or plant" },
         { icon: <FaBuilding size={28} color="#1A3C34" />, title: "Corporate Billing", desc: "Direct invoicing to your Korean company's HR team" },
         { icon: <FaLeaf size={28} color="#1A3C34" />, title: "Quiet Green Societies", desc: "Jaypee Greens, Ansal Golf Links — peaceful residential zones" }
     ];
@@ -135,8 +127,8 @@ const KoreanExpatHousing = () => {
     return (
         <div className="catarina-services sandane-homes-page">
             <SEO
-                title="Korean Expat Housing in Delhi NCR | Serviced Apartments near Samsung, LG | Sandane"
-                description="Premium serviced apartments for Korean expats in Greater Noida & Delhi NCR. Near Samsung R&D, LG Electronics, Korean mart. FRRO help, corporate billing, daily housekeeping. 한국인 주재원 아파트."
+                title="Korean Expat Housing in Delhi NCR | Furnished Homes | Residences by Sandane Homes"
+                description="Furnished 3–4 BHK homes for Korean expats in Greater Noida, Noida and Gurugram. Company lease, monthly GST invoice, daily housekeeping, KakaoTalk support. 한국인 주재원 아파트."
                 canonical="https://www.sandanehomes.com/korean-expat-housing-delhi-ncr"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 lang="ko"
@@ -183,7 +175,7 @@ const KoreanExpatHousing = () => {
                     Korean Expat Housing in Delhi NCR
                 </h1>
                 <p style={{ position: 'relative', zIndex: 2, fontSize: '20px', color: '#E6CFA1', maxWidth: '750px', margin: '20px auto 10px', lineHeight: '1.7', fontWeight: '500' }}>
-                    Premium serviced apartments near Samsung R&D, LG Electronics &amp; the Korean community in Greater Noida
+                    Furnished homes near the Korean community in Greater Noida
                 </p>
                 <div style={{ position: 'relative', zIndex: 2, display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
                     <Link
@@ -223,19 +215,18 @@ const KoreanExpatHousing = () => {
             <div style={{ backgroundColor: '#f9f9f9', padding: '90px 20px' }}>
                 <div style={{ maxWidth: '900px', margin: '0 auto', color: '#444', fontSize: '18px', lineHeight: '1.95' }}>
                     <p style={{ marginBottom: '28px' }}>
-                        Relocating to Delhi NCR as a South Korean expatriate comes with unique priorities — securing housing in a safe, gated community, staying within a manageable commute of major corporate hubs like Samsung R&amp;D (Sector 129 Noida) and LG Electronics, and having access to familiar Korean amenities.
+                        Relocating to Delhi NCR as a South Korean expatriate comes with unique priorities — securing housing in a safe, gated community, staying within a manageable commute of the office or plant, and having access to familiar Korean amenities.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
                         At <a href="/" style={{ color: '#1A3C34', fontWeight: '700' }}>Sandane Homes</a>, we offer premium <strong>Korean expat housing in Greater Noida</strong> designed specifically to meet these expectations. Located within secure, gated societies like <strong>Jaypee Greens</strong>, <strong>Ansal Golf Links</strong>, and <strong>Godrej Golf Link</strong>, our serviced apartments provide peace of mind, high security, and exceptional comfort for Korean families and individual corporate assignees.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        Every apartment features a fully equipped kitchen (ideal for preparing Korean food at home), high-speed Wi-Fi, daily housekeeping by trained staff, 100% power backup, and dedicated support for mandatory FRRO address registration — allowing your relocation to be completely hassle-free from day one.
+                        Every apartment features a fully equipped kitchen (ideal for preparing Korean food at home), high-speed Wi-Fi, daily housekeeping by trained staff, and 100% power backup — allowing your relocation to be completely hassle-free from day one.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        We partner directly with Korean multinationals (Samsung, LG, Hyundai vendors, EPC companies) and their HR departments to provide direct corporate invoicing and flexible short- or long-term lease terms.
+                        We work directly with company HR departments, with a company lease, one monthly GST invoice and flexible lease terms.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        Working with Samsung? See <Link to="/serviced-homes-noida-sector-62-81" style={{ color: '#1A3C34', fontWeight: '700' }}>accommodation in Greater Noida for Samsung teams</Link> (<Link to="/serviced-homes-noida-sector-62-81" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>삼성 팀 숙소 안내</Link>).
                     </p>
                     <p style={{ marginBottom: '28px' }}>
                         On a short trip? Stay at our <Link to="/korean-guest-house-greater-noida" style={{ color: '#1A3C34', fontWeight: '700' }}>Korean guest house in Greater Noida</Link> with Korean breakfast and dinner included (<Link to="/ko/korean-guest-house-greater-noida" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>한인 게스트하우스</Link>). Moving for longer? See <Link to="/apartment-finding-service-greater-noida" style={{ color: '#1A3C34', fontWeight: '700' }}>serviced apartments and apartment finding</Link> (<Link to="/ko/apartment-finding-service-greater-noida" hrefLang="ko" style={{ color: '#1A3C34', fontWeight: '700' }}>아파트 구하기</Link>).
@@ -320,7 +311,7 @@ const KoreanExpatHousing = () => {
                         Jaypee Greens, Ansal Golf Links 등 최고의 게이티드 단지 내 위치하여 24시간 철저한 경비와 CCTV 시스템으로 안전하며, 한식 조리가 가능한 풀옵션 주방, 고속 인터넷, 100% 비상 발전 시스템, 일일 하우스키핑 서비스를 제공합니다.
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
-                        또한 법인 계약 및 직구 청구, 거주지 증명 및 FRRO 등록 서류 지원 등 인사 담당자 및 주재원분들의 편의를 위한 모든 행정 절차를 완벽하게 지원해 드립니다. 자세한 문의는 카카오톡/WhatsApp으로 언제든지 연락 주시기 바랍니다.
+                        또한 법인 계약 및 직구 청구, 인사 담당자 및 주재원분들의 편의를 위한 모든 행정 절차를 완벽하게 지원해 드립니다. 자세한 문의는 카카오톡/WhatsApp으로 언제든지 연락 주시기 바랍니다.
                     </p>
                     <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <Link
@@ -399,7 +390,7 @@ const KoreanExpatHousing = () => {
                         Browse All Residences <FaArrowRight />
                     </Link>
                     <a
-                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Korean%20expat%20interested%20in%20housing%20near%20Samsung%20R%26D%20Greater%20Noida`}
+                        href={`https://wa.me/${PHONE}?text=Hello%2C%20I%20am%20a%20Korean%20expat%20interested%20in%20housing%20in%20Greater%20Noida`}
                         target="_blank" rel="noopener noreferrer"
                         style={{
                             display: 'inline-flex', alignItems: 'center', gap: '12px',

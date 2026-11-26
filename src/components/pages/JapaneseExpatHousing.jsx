@@ -17,16 +17,12 @@ const faqs = [
         answer: "Yes, absolutely. Greater Noida is widely considered one of the most secure and well-planned cities in the Delhi NCR region. Our serviced apartments are situated within highly secure, premium gated communities like Jaypee Greens, Ansal Golf Links, and Godrej Golf Link. These societies feature 24/7 CCTV monitoring, strict entry/exit protocols, and professional security staff, ensuring a safe and peaceful environment for Japanese expats and their families."
     },
     {
-        question: "How long is the commute to Honda and Yamaha plants from the apartments?",
-        answer: "The commute from our Greater Noida apartments to the Honda Motorcycle and Scooter India (HMSI) plant and the India Yamaha Motor plant is extremely convenient. Depending on the exact location along the Yamuna Expressway or Surajpur industrial area, travel time typically ranges from 15 to 30 minutes. The wide, uncongested roads in Greater Noida make daily commuting significantly less stressful compared to living in central Delhi or Gurgaon."
-    },
-    {
         question: "Are the apartments equipped with bathtubs, which are important for Japanese residents?",
         answer: "We understand that a relaxing bath (ofuro) is a crucial part of daily life for many Japanese residents. While standard Indian apartments often only feature showers, several of our premium luxury units are equipped with deep-soaking bathtubs or can be customized upon long-term request. Additionally, all bathrooms feature high-end fixtures, reliable hot water, and meticulous cleanliness standards."
     },
     {
         question: "Do you provide corporate billing directly to our company in Japan or the Indian subsidiary?",
-        answer: "Yes, we specialize in corporate housing and provide seamless corporate billing solutions. We can invoice your Indian subsidiary (e.g., Honda India, Yamaha Motor India, or their vendors) directly. This eliminates the hassle of personal reimbursements and ensures compliance with your company's HR and finance policies. We provide clear, itemized GST invoices."
+        answer: "Yes, we specialize in corporate housing and provide seamless corporate billing solutions. We can invoice your Indian subsidiary directly. This eliminates the hassle of personal reimbursements and ensures compliance with your company's HR and finance policies. We provide clear, itemized GST invoices."
     },
     {
         question: "What kind of kitchen facilities are provided?",
@@ -40,10 +36,6 @@ const faqs = [
         question: "Is it easy to access Japanese food and groceries?",
         answer: "While Greater Noida is quieter and more residential, accessing Japanese groceries is becoming easier. There are several Asian and Korean marts in the vicinity that stock basic Japanese staples like soy sauce, miso, and rice. For a wider selection, premium grocery delivery services bring fresh produce and imported Japanese goods directly to your door. The nearby Noida sector 18 and Delhi areas also host excellent authentic Japanese restaurants."
     },
-    {
-        question: "Do you offer support for FRRO registration?",
-        answer: "Yes. Registering with the Foreigners Regional Registration Office (FRRO) is a mandatory requirement for Japanese expats staying long-term in India. Our dedicated concierge team has extensive experience assisting Japanese nationals with the paperwork and online processes required for smooth and timely FRRO registration, coordinating closely with your company's HR department."
-    }
 ];
 
 /* ──────────────────────────── FAQ ACCORDION ──────────────────────────── */
@@ -80,7 +72,7 @@ const JapaneseExpatHousing = () => {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
         "name": "Sandane Homes — Japanese Expat Housing Greater Noida",
-        "description": "Premium fully furnished serviced apartments for Japanese expats in Greater Noida. Near Honda, Yamaha, and Yamuna Expressway industrial hubs.",
+        "description": "Furnished 3–4 BHK homes for Japanese expats in Greater Noida, found, leased, furnished and managed by Residences by Sandane Homes.",
         "url": "https://www.sandanehomes.com/japanese-expat-housing-delhi-ncr",
         "telephone": "+919711722273",
         "address": {
@@ -127,16 +119,16 @@ const JapaneseExpatHousing = () => {
         { icon: <FaShieldAlt size={28} color="#1A3C34" />, title: "Uncompromising Security", desc: "Gated communities with strict access control and 24/7 patrols." },
         { icon: <FaBuilding size={28} color="#1A3C34" />, title: "Immaculate Cleanliness", desc: "Rigorous daily housekeeping tailored to Japanese standards." },
         { icon: <FaUtensils size={28} color="#1A3C34" />, title: "Fully Equipped Kitchens", desc: "Spacious kitchens ready for preparing traditional Japanese meals." },
-        { icon: <FaCar size={28} color="#1A3C34" />, title: "Strategic Location", desc: "Rapid commute to Honda, Yamaha, and Yamuna Expressway hubs." },
-        { icon: <FaWifi size={28} color="#1A3C34" />, title: "Reliable Infrastructure", desc: "High-speed internet and 100% power backup, guaranteed." },
+        { icon: <FaCar size={28} color="#1A3C34" />, title: "Strategic Location", desc: "Homes chosen for a practical commute to your office or plant." },
+        { icon: <FaWifi size={28} color="#1A3C34" />, title: "Reliable Infrastructure", desc: "High-speed internet and 100% power backup." },
         { icon: <FaLeaf size={28} color="#1A3C34" />, title: "Tranquil Environment", desc: "Peaceful, green surroundings offering a respite from city noise." }
     ];
 
     return (
         <div className="catarina-services sandane-homes-page">
             <SEO
-                title="Japanese Expat Housing Greater Noida | Near Honda, Yamaha | 日本人向け住宅"
-                description="Premium serviced apartments in Greater Noida designed for Japanese expats. Close to Honda and Yamaha plants. Daily housekeeping, top security, fully furnished. 日本人向けサービスアパートメント."
+                title="Japanese Expat Housing Greater Noida | Furnished Homes | 日本人向け住宅"
+                description="Furnished 3–4 BHK homes in Greater Noida for Japanese expats. Company lease, monthly GST invoice, daily housekeeping, LINE support. 日本人向けサービスアパートメント."
                 canonical="https://www.sandanehomes.com/japanese-expat-housing-delhi-ncr"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 lang="ja"
@@ -183,7 +175,7 @@ const JapaneseExpatHousing = () => {
                     Japanese Expat Housing in Greater Noida
                 </h1>
                 <p style={{ position: 'relative', zIndex: 2, fontSize: '20px', color: '#E6CFA1', maxWidth: '800px', margin: '20px auto 10px', lineHeight: '1.7', fontWeight: '500' }}>
-                    Premium, fully serviced apartments perfectly located near Honda Motorcycle, Yamaha India, and major Yamuna Expressway industrial zones.
+                    Furnished, fully serviced homes in Greater Noida, near the Yamuna Expressway industrial zones.
                 </p>
                 {/* Japanese language tagline */}
                 <p className="catarina-lang-text" style={{ position: 'relative', zIndex: 2, fontSize: '18px', maxWidth: '750px', margin: '10px auto 40px' }}>
@@ -228,7 +220,7 @@ const JapaneseExpatHousing = () => {
             <div style={{ backgroundColor: '#f9f9f9', padding: '90px 20px' }}>
                 <div style={{ maxWidth: '900px', margin: '0 auto', color: '#444', fontSize: '18px', lineHeight: '1.95' }}>
                     <p style={{ marginBottom: '28px' }}>
-                        Relocating to the Delhi NCR region for a professional assignment requires accommodation that offers peace of mind, uncompromised safety, and a high standard of living. For Japanese expatriates working at major manufacturing hubs like the <strong>Honda Motorcycle and Scooter India (HMSI)</strong> plant or the <strong>Yamaha Motor India</strong> facility, minimizing commute time while maximizing comfort is essential. 
+                        Relocating to the Delhi NCR region for a professional assignment requires accommodation that offers peace of mind, uncompromised safety, and a high standard of living. For Japanese expatriates working at the manufacturing plants of Greater Noida, minimizing commute time while maximizing comfort is essential. 
                     </p>
                     <p style={{ marginBottom: '28px' }}>
                         At <a href="/" style={{ color: '#1A3C34', fontWeight: '700' }}>Sandane Homes</a>, we specialize in providing tailored <strong>Japanese expat housing in Greater Noida</strong>. We understand that Japanese professionals have precise expectations regarding cleanliness, security, and functional amenities. Our premium serviced apartments, located in top-tier gated societies such as <strong>Jaypee Greens</strong> and <strong>Ansal Golf Links</strong>, are designed to meet and exceed these exacting standards.
@@ -240,7 +232,7 @@ const JapaneseExpatHousing = () => {
                         The location of our properties in Greater Noida provides a strategic advantage. It offers a drastically reduced and smoother commute to the industrial sectors along the Yamuna Expressway and Surajpur compared to living in central Delhi or Gurgaon. Furthermore, the tranquil, green environment of our chosen societies provides a welcome contrast to the bustling city, offering a quiet, disciplined community atmosphere that our Japanese residents highly appreciate. 
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        We are proud to partner directly with corporate HR teams from leading Japanese multinationals and their vendor networks. We streamline the entire relocation process, offering direct corporate invoicing, assistance with mandatory FRRO registration, and dedicated ongoing support. Discover the finest <strong>Japanese serviced apartments in Greater Noida</strong>, where luxury, safety, and convenience converge.
+                        We work directly with company HR teams, with a company lease, one monthly GST invoice and ongoing support. Discover the finest <strong>Japanese serviced apartments in Greater Noida</strong>, where luxury, safety, and convenience converge.
                     </p>
 
                     {/* MID-PAGE BANNER BUTTON */}
@@ -313,29 +305,24 @@ const JapaneseExpatHousing = () => {
                         日本人駐在員向け プレミアム・サービスアパートメント
                     </h2>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
-                        ホンダ（Honda）、ヤマハ（Yamaha）、ダイキン（Daikin）、デンソー（Denso）、積水化学（Sekisui）および日系企業各社でご勤務される日本人駐在員の皆様へ。Sandane Homesは、グレーター・ノイダおよびノイダにおいて最高水準の安全性、清潔さ、そして快適さを備えた高級サービスアパートメントをご提供しております。
+                        日系企業各社でご勤務される日本人駐在員の皆様へ。Sandane Homesは、グレーター・ノイダおよびノイダにおいて最高水準の安全性、清潔さ、そして快適さを備えた高級サービスアパートメントをご提供しております。
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '24px' }}>
                         当施設は、Jaypee GreensやAnsal Golf Linksといった厳重なセキュリティ管理がなされた高級住宅街の中に位置しており、日本のご家族でも安心して暮らすことができます。すべてのアパートメントには、モダンな家具、自炊に便利なフル設備のキッチン、高速Wi-Fi、そして日本人のお客様に高く評価されている徹底した毎日のハウスキーピングサービスが完備されています。面倒な光熱費の手続きや家具の購入は一切不要で、ご到着初日から快適な生活をスタートできます。
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
-                        工場への通勤も至便であり、デリー市内やグルガオンからの渋滞に悩まされることなく、毎日の通勤時間を大幅に短縮できます。また、法人契約、企業様への直接請求、外国人登録（FRRO）のサポートなど、人事ご担当者様および駐在員様の負担を軽減する包括的なサービスをご用意しております。詳細につきましては、WhatsAppにてお気軽にお問い合わせください。
+                        工場への通勤も至便であり、デリー市内やグルガオンからの渋滞に悩まされることなく、毎日の通勤時間を大幅に短縮できます。また、法人契約、企業様への直接請求など、人事ご担当者様および駐在員様の負担を軽減する包括的なサービスをご用意しております。詳細につきましては、WhatsAppにてお気軽にお問い合わせください。
                     </p>
                     
-                    {/* Dedicated Company Links */}
+                    {/* Housing by work area */}
                     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '36px' }}>
                         {[
-                            { name: 'Daikin (ダイキン)', to: '/serviced-homes-noida-sector-62-81' },
-                            { name: 'Honda (ホンダ)', to: '/serviced-homes-noida-sector-62-81' },
-                            { name: 'Yamaha (ヤマハ)', to: '/serviced-homes-greater-noida-industrial-area' },
-                            { name: 'Denso (デンソー)', to: '/serviced-homes-greater-noida-industrial-area' },
-                            { name: 'Sekisui (積水化学)', to: '/serviced-homes-greater-noida-industrial-area' },
-                            { name: 'Brother (ブラザー)', to: '/serviced-homes-noida-sector-62-81' },
-                            { name: 'Kubota (クボタ)', to: '/serviced-homes-greater-noida-industrial-area' },
-                            { name: 'Epson (エプソン)', to: '/serviced-homes-noida-sector-62-81' },
+                            { name: 'Noida Sector 62–81', to: '/serviced-homes-noida-sector-62-81' },
+                            { name: 'Greater Noida industrial areas', to: '/serviced-homes-greater-noida-industrial-area' },
+                            { name: 'Gurgaon: Cyber City & Golf Course Road', to: '/serviced-homes-cyber-city-golf-course-road-gurgaon' },
                         ].map((c, i) => (
                             <Link key={i} to={c.to} style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(197,165,114,0.4)', color: '#C5A572', padding: '6px 16px', borderRadius: '20px', textDecoration: 'none', fontSize: '13px', fontWeight: '600' }}>
-                                🇯🇵 {c.name}
+                                {c.name}
                             </Link>
                         ))}
                     </div>

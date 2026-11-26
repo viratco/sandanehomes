@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'What is the pricing structure for monthly stays on Golf Course Road?',
-    a: 'Monthly corporate rates for Golf Course Road serviced apartments vary based on apartment size (2BHK, 3BHK, 4BHK) and specific building. All rates are fully inclusive of housekeeping, utilities, Wi-Fi, and parking. Contact our team for a customized corporate quotation within 2 hours.'
+    a: 'Monthly corporate rates for Golf Course Road serviced apartments vary based on home size (3 or 4 BHK) and the building. All rates are fully inclusive of housekeeping, utilities, Wi-Fi, and parking. Contact our team for a customized corporate quotation within 2 hours.'
   }
 ];
 
@@ -168,7 +168,7 @@ export default function GurugramGolfCourseRoad() {
               { t: 'Luxury Interiors', d: 'Italian marble floors, designer furniture & 65" 4K smart TV.' },
               { t: 'Full Modular Kitchen', d: 'Induction, microwave, French-door refrigerator & RO water.' },
               { t: 'Executive Work Desk', d: 'Ergonomic chair, dual-monitor setup compatible & 300 Mbps Wi-Fi.' },
-              { t: 'Daily 5★ Housekeeping', d: 'Hotel-grade linen change, bathroom sanitization & restocking.' },
+              { t: 'Daily Housekeeping', d: 'Linen change, bathroom cleaning & restocking.' },
               { t: 'Covered Parking', d: 'Reserved basement car parking included in all suites.' },
               { t: 'B2B Corporate Billing', d: 'Itemized monthly GST invoice sent directly to your company.' },
             ].map((c, i) => (

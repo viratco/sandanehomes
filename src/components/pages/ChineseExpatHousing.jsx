@@ -25,10 +25,6 @@ const faqs = [
         answer: "Absolutely. Every Sandane Homes serviced apartment comes with a fully equipped, modern kitchen complete with a gas stove (suitable for wok cooking), large-capacity refrigerator, microwave oven, water purifier, and all essential cooking utensils. Many of our Chinese guests prepare their own meals — from stir-fries to noodles and dumplings — which is a significant comfort factor during longer project-based or corporate stays. We can also arrange for grocery shopping assistance if required."
     },
     {
-        question: "Do you assist Chinese nationals with FRRO registration in Noida/Greater Noida?",
-        answer: "Yes. FRRO (Foreigners Regional Registration Office) registration is mandatory for Chinese nationals on Employment, Business, or Project visas and must be completed within 14 days of arrival in India. Our dedicated concierge team provides full FRRO support: we prepare your landlord confirmation letter, provide a copy of the registered lease agreement, electricity bill, and property documents — all formatted to meet e-FRRO portal requirements — within 24 hours of your check-in. We have a 100% acceptance rate on FRRO documentation for our residents."
-    },
-    {
         question: "Do you offer WeChat support for Chinese guests?",
         answer: "Yes. We understand that Chinese professionals rely on WeChat for daily communication. Our team is available on both WeChat and WhatsApp for all inquiries, booking confirmations, check-in coordination, and ongoing support throughout your stay. You can reach us in Chinese or English. For group bookings by Chinese companies, we assign a single dedicated account manager who can be reached directly on WeChat."
     },
@@ -94,8 +90,6 @@ const ChineseExpatHousing = () => {
             { "@type": "LocationFeatureSpecification", "name": "Fully Furnished Kitchen with Gas Stove", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "24/7 Security", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "Power Backup", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Air Purifiers", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "FRRO Documentation Support", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "WeChat Support", "value": true }
         ]
     };
@@ -128,7 +122,6 @@ const ChineseExpatHousing = () => {
 
     const highlights = [
         { icon: <FaShieldAlt size={28} color="#1A3C34" />, title: "Premium Security", desc: "Gated communities with 24/7 CCTV, security staff, and strict visitor protocols." },
-        { icon: <FaBuilding size={28} color="#1A3C34" />, title: "Air Purification", desc: "Air purifiers in every room — essential comfort for Chinese residents." },
         { icon: <FaUtensils size={28} color="#1A3C34" />, title: "Wok-Ready Kitchens", desc: "Gas stoves, large fridges, and all cooking essentials for Chinese home cooking." },
         { icon: <FaCar size={28} color="#1A3C34" />, title: "Expo Mart Proximity", desc: "10–20 minutes to India Expo Mart and major Yamuna Expressway industrial zones." },
         { icon: <FaWifi size={28} color="#1A3C34" />, title: "WeChat & WhatsApp Support", desc: "Our team is reachable in Chinese or English on WeChat and WhatsApp, 7 days a week." },
@@ -139,7 +132,7 @@ const ChineseExpatHousing = () => {
         <div className="catarina-services sandane-homes-page">
             <SEO
                 title="Chinese Expat Housing Greater Noida | Serviced Apartments Near India Expo Mart | 大诺伊达中国外籍人士住房"
-                description="Premium serviced apartments in Greater Noida for Chinese expats and business delegations. Near India Expo Mart. FRRO support, WeChat assistance, wok kitchen, air purifiers. 大诺伊达中国外籍人士高级服务公寓。"
+                description="Premium serviced apartments in Greater Noida for Chinese expats and business delegations. Near India Expo Mart. WeChat assistance, full kitchen, company lease and GST invoice. 大诺伊达中国外籍人士高级服务公寓。"
                 canonical="https://www.sandanehomes.com/chinese-expat-housing-greater-noida"
                 ogImage="https://www.sandanehomes.com/residences-og.jpg"
                 lang="zh"
@@ -238,7 +231,7 @@ const ChineseExpatHousing = () => {
                         Unlike a business hotel near Pari Chowk or the Expo Mart, our serviced apartments offer a full residential experience: a spacious living area, a fully equipped private kitchen, high-speed fiber internet, daily professional housekeeping, and complete power backup. You arrive with your suitcase — everything else is ready and waiting.
                     </p>
                     <p style={{ marginBottom: '28px' }}>
-                        For Chinese companies deploying project teams, our <strong>corporate housing packages</strong> include direct company invoicing in INR, multiple simultaneous apartment units in the same gated society, one dedicated WeChat-accessible account manager, and full FRRO documentation support from day one. Discover what makes Sandane Homes the preferred choice for <strong>Chinese expat housing in Greater Noida</strong>.
+                        For Chinese companies deploying project teams, our <strong>corporate housing packages</strong> include direct company invoicing in INR, multiple simultaneous apartment units in the same gated society, one dedicated WeChat-accessible account manager. Discover what makes Sandane Homes the preferred choice for <strong>Chinese expat housing in Greater Noida</strong>.
                     </p>
 
                     {/* MID-PAGE BANNER BUTTON */}
@@ -317,7 +310,7 @@ const ChineseExpatHousing = () => {
                         我们的服务公寓位于贾伊皮·格林斯（Jaypee Greens）和安萨尔高尔夫林克斯（Ansal Golf Links）等顶级封闭式社区内，配备24小时安保、中餐烹饪适用的燃气灶、高速光纤Wi-Fi、空气净化器及专业的每日家政服务。公寓全部精装修，拎包入住即可，无需自行采购家具或联系公用设施。
                     </p>
                     <p style={{ fontSize: '17px', lineHeight: '2', color: '#E0E0E0', marginBottom: '40px' }}>
-                        我们的团队可通过微信（WeChat）和WhatsApp进行沟通，提供中英文双语支持。我们也提供完整的外国人登记处（FRRO）证件支持，帮助您在抵达印度后14天内顺利完成合规登记。如需了解更多或进行预订，请随时通过微信或WhatsApp联系我们。
+                        我们的团队可通过微信（WeChat）和WhatsApp进行沟通，提供中英文双语支持。如需了解更多或进行预订，请随时通过微信或WhatsApp联系我们。
                     </p>
                     <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <Link

@@ -152,14 +152,6 @@ const Amaaltash = () => {
 
                 {/* Stats Bar Overlay */}
                 <div className="sandane-stats-bar">
-                    {/* Stat a */}
-                    <div className="stat-item">
-                        <div className="stat-number">15k+</div>
-                        <div className="stat-label">Happy Customers</div>
-                    </div>
-
-                    {/* Divider */}
-                    <div className="stat-divider"></div>
 
                     {/* Stat 2 */}
                     <div className="stat-item">
@@ -172,15 +164,6 @@ const Amaaltash = () => {
                             </div>
                         </div>
                         <div className="stat-label">Overall Rating</div>
-                    </div>
-
-                    {/* Divider */}
-                    <div className="stat-divider"></div>
-
-                    {/* Stat 3 */}
-                    <div className="stat-item">
-                        <div className="stat-number">10+</div>
-                        <div className="stat-label">Years Experience</div>
                     </div>
                 </div>
 

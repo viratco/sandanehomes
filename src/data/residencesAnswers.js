@@ -24,7 +24,7 @@ export const RESIDENCES_FAQS = [
   },
   {
     q: 'What is included in the monthly amount?',
-    a: 'The furnished home with kitchenware, linen changed twice a week, housekeeping, 300 Mbps Wi-Fi, 100% power backup, utilities and maintenance. Korean or Japanese home-style meals can be added.',
+    a: 'The furnished home with kitchenware, linen changed twice a week, housekeeping, 300 Mbps Wi-Fi, 100% power backup, utilities and maintenance.',
   },
   {
     q: 'How does a company pay?',
@@ -32,7 +32,7 @@ export const RESIDENCES_FAQS = [
   },
   {
     q: 'Do you help Japanese and Korean employees settle in?',
-    a: 'Yes. Residents can reach us on LINE, KakaoTalk or WhatsApp, we help with FRRO registration paperwork, and Korean or Japanese home-style meals can be arranged. A Daikin employee who moved to India on her own wrote that our quick, attentive support made her feel reassured.',
+    a: 'Yes. Residents can reach us on LINE, KakaoTalk or WhatsApp, and we look for homes that suit the family and the commute. A Daikin employee who moved to India on her own wrote that our quick, attentive support made her feel reassured.',
   },
   {
     q: 'Do you publish prices?',
@@ -54,12 +54,8 @@ export const JAPANESE_GURGAON_FAQS = [
     a: 'Conscient Hines Elevate (Sector 58) is a gated high-rise community with round-the-clock security. Green Meadows and Sushant Lok Block B (Sector 27) are private 4 BHK floors on residential streets close to the metro. We are a message away on LINE or WhatsApp.',
   },
   {
-    q: 'Do you provide FRRO Form C registration support for Japanese nationals?',
-    a: 'Yes. Form C must be submitted within 24 hours of a foreign national checking in. We handle it for our homes and help with the documents for the employee\'s own FRRO registration, coordinating with your HR team.',
-  },
-  {
     q: 'Can you accommodate Japanese food preferences?',
-    a: 'Every home has a full kitchen. We can arrange Japanese home-style breakfast and dinner, and point you to Japanese grocery stores and restaurants in Gurgaon.',
+    a: 'Every home has a full kitchen, and we can point you to Japanese grocery stores and restaurants in Gurgaon.',
   },
   {
     q: 'Do you lease directly to Japanese companies\' Indian subsidiaries?',
@@ -70,7 +66,7 @@ export const JAPANESE_GURGAON_FAQS = [
 export const KOREAN_GURGAON_FAQS = [
   {
     q: 'Who do you usually house in Gurgaon?',
-    a: 'Korean employees of companies with offices in Gurgaon, and their families, on postings from one month to several years. Korean home-style meals can be arranged.',
+    a: 'Korean employees of companies with offices in Gurgaon, and their families, on postings from one month to several years.',
   },
   {
     q: 'Are there Korean grocery stores and restaurants near your Gurgaon homes?',
@@ -79,10 +75,6 @@ export const KOREAN_GURGAON_FAQS = [
   {
     q: 'How far are the homes from the main office areas?',
     a: 'Green Meadows and Sushant Lok Block B (Sector 27) are about 10–12 minutes by car from DLF Cyber City, and Conscient Hines Elevate (Sector 58) is about 18 minutes. Tell us where the office is and we will suggest the best-placed home.',
-  },
-  {
-    q: 'Do you provide FRRO Form C and foreigner registration support for Korean nationals?',
-    a: 'Yes. Form C must be submitted within 24 hours of a foreign national checking in. We handle it for our homes and help with the documents for the employee\'s own FRRO registration, coordinating with your HR team.',
   },
   {
     q: 'Can you house several Korean employees arriving together?',

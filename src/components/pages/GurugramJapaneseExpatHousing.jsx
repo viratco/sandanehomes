@@ -42,14 +42,13 @@ export default function GurugramJapaneseExpatHousing() {
   const apartmentSchema = {
     '@context': 'https://schema.org', '@type': 'ApartmentComplex',
     name: 'Sandane Homes — Japanese Expat Housing Gurugram (Gurgaon)',
-    description: 'Premium fully furnished serviced apartments for Japanese expats in Gurugram (Gurgaon). Near Honda, Toyota, NTT Data, Fujitsu & Yamaha offices. FRRO support, B2B billing, Japanese amenities.',
+    description: 'Furnished 3–4 BHK homes for Japanese expats in Gurugram (Gurgaon), found, leased, furnished and managed by Residences by Sandane Homes. Company lease and monthly GST invoice.',
     url: 'https://www.sandanehomes.com/gurugram/japanese-expat-housing',
     telephone: '+919711722273',
     address: { '@type': 'PostalAddress', addressLocality: 'Gurugram', addressRegion: 'Haryana', addressCountry: 'IN' },
     amenityFeature: [
       { '@type': 'LocationFeatureSpecification', name: 'Daily Housekeeping', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'Japanese Breakfast Options', value: true },
-      { '@type': 'LocationFeatureSpecification', name: 'FRRO Form C Registration', value: true },
       { '@type': 'LocationFeatureSpecification', name: 'B2B Corporate Billing', value: true },
     ]
   };
@@ -65,7 +64,7 @@ export default function GurugramJapaneseExpatHousing() {
     <div className="sandane-homes-page">
       <SEO
         title="Japanese Expat Housing in Gurgaon | 日本人向けサービスアパートメント"
-        description="Furnished homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Japanese support, FRRO Form C help, corporate GST billing. 日本人駐在員向け住宅."
+        description="Furnished 3–4 BHK homes for Japanese expats in Gurugram (Gurgaon), near DLF Cyber City. Company lease, monthly GST invoice, LINE support. 日本人駐在員向け住宅."
         canonical="https://www.sandanehomes.com/gurugram/japanese-expat-housing"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={[apartmentSchema, faqSchema, breadcrumb, reviewedWebPageSchema('https://www.sandanehomes.com/gurugram/japanese-expat-housing', 'Japanese Expat Housing in Gurgaon')]}
@@ -95,7 +94,7 @@ export default function GurugramJapaneseExpatHousing() {
             グルガオンの日本人駐在員向け高級サービスアパートメント
           </p>
           <p style={{ fontSize: 'clamp(15px, 2vw, 18px)', color: '#D0C5B0', maxWidth: '740px', margin: '0 auto 36px', lineHeight: '1.8' }}>
-            Tailored serviced apartments for Honda, Toyota, NTT Data, Fujitsu & Yamaha assignees. Japanese amenities, FRRO support, and direct B2B invoicing to your India subsidiary.
+            Furnished 3–4 BHK homes for Japanese assignees and their families, with a company lease and one monthly GST invoice to your India subsidiary.
           </p>
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <Link to="/residences" style={{ display: 'inline-flex', alignItems: 'center', gap: '9px', backgroundColor: '#C5A572', color: '#1A3C34', padding: '16px 36px', borderRadius: '40px', textDecoration: 'none', fontSize: '16px', fontWeight: '700' }}>
@@ -123,9 +122,8 @@ export default function GurugramJapaneseExpatHousing() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '32px' }}>
               {[
                 'Rice cookers, Japanese breakfast options & kitchen setup',
-                'FRRO Form C registration within 24 hours of check-in',
                 'Quiet, secure gated communities — safe for families',
-                'Near Honda, Toyota, NTT Data & DLF Cyber City offices',
+                'Homes close to DLF Cyber City and Golf Course Road',
                 'Direct B2B invoicing to your Japan/India subsidiary',
                 'English-speaking dedicated concierge & account manager',
               ].map((p, i) => (
@@ -157,7 +155,7 @@ export default function GurugramJapaneseExpatHousing() {
             ホンダ、トヨタ、NTTデータ、富士通インドなどにご勤務される日本人駐在員の皆様へ。Sandane Homesはグルガオン（グルグラム）にて最高水準の安全性、清潔さ、そして日本人に親しみやすいアメニティを備えた高級サービスアパートメントをご提供しております。
           </p>
           <p style={{ fontSize: '17px', lineHeight: '2', color: '#D0C5B0', marginBottom: '32px' }}>
-            炊飯器完備、日本式朝食対応、FRRO登録サポート、法人直接請求に対応しております。お気軽にWhatsAppにてお問い合わせください。
+            法人直接請求に対応しております。お気軽にWhatsAppにてお問い合わせください。
           </p>
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <Link to="/residences" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', backgroundColor: '#C5A572', color: '#1A3C34', padding: '15px 36px', borderRadius: '40px', textDecoration: 'none', fontSize: '16px', fontWeight: '700' }}>

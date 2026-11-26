@@ -73,7 +73,7 @@ const ServicedApartmentsGreaterNoida = () => {
         "@context": "https://schema.org",
         "@type": "ApartmentComplex",
         "name": "Residences by Sandane Homes — Greater Noida",
-        "description": "Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida, leased to companies for expat employees and their families on long stays.",
+        "description": "Entire furnished 3–4 BHK homes in Greater Noida, found, leased, furnished and managed for expat and corporate employees, under a company lease with a monthly GST invoice.",
         "containsPlace": [RESIDENCE_HOME_SPEC],
         "url": "https://www.sandanehomes.com/serviced-apartments-greater-noida",
         "telephone": "+919711722273",
@@ -133,7 +133,7 @@ const ServicedApartmentsGreaterNoida = () => {
 
     const seoProps = {
         title: "Serviced Apartments in Greater Noida | Entire 3–4 BHK Homes for Expats | Residences by Sandane Homes",
-        description: "Entire furnished 3–4 BHK serviced apartments and villas of 2,700–3,500 sq ft in Greater Noida, not hotel rooms. For company expats and families on long stays. Daily housekeeping, Korean & Japanese meals, car service, GST invoice.",
+        description: "Entire furnished 3–4 BHK homes in Greater Noida, not hotel rooms. For company expats and families on long stays. Daily housekeeping, company lease, monthly GST invoice.",
         canonical: "https://www.sandanehomes.com/serviced-apartments-greater-noida",
         ogImage: "https://www.sandanehomes.com/residences-og.jpg",
         schema: [apartmentComplexSchema, faqSchema, breadcrumbSchema]
@@ -178,7 +178,7 @@ const ServicedApartmentsGreaterNoida = () => {
                     Luxury Serviced Apartments in Greater Noida
                 </h1>
                 <p className="catarina-subtitle" style={{ fontSize: '24px', maxWidth: '800px', margin: '20px auto 40px auto', letterSpacing: '1px', textTransform: 'none' }}>
-                    Entire 3–4 BHK homes of 2,700–3,500 sq ft. Fully furnished, daily housekeeping, everything handled for company expats and their families.
+                    Entire 3–4 BHK homes. Fully furnished, daily housekeeping, everything handled for company expats and their families.
                 </p>
                 <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
                     <a href={`https://wa.me/${PHONE}`} target="_blank" rel="noopener noreferrer" style={{

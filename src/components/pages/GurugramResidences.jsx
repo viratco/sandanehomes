@@ -129,7 +129,7 @@ export default function GurugramResidences() {
       </div>
 
       <GurugramResidencesSection
-        title="Our Gurgaon Residences"
+        title="Homes We Have Delivered in Gurgaon"
         intro="Each home is furnished and run by Sandane Homes — the same team handles your booking, housekeeping and maintenance from move-in to move-out."
         showHubLink={false}
       />
@@ -187,7 +187,7 @@ export default function GurugramResidences() {
             <p style={{ fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '700', marginBottom: '14px' }}>For Companies & HR Teams</p>
             <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 36px)', color: '#1A3C34', margin: '0 0 24px', lineHeight: '1.25' }}>Corporate Housing in Gurgaon</h2>
             <p style={{ color: '#555', fontSize: '16px', lineHeight: '1.9', margin: '0 0 18px' }}>
-              We lease directly to companies with monthly GST invoices, and look after relocating staff from arrival: airport pickup, FRRO registration support and a single point of contact for your HR or general-affairs team.
+              We lease directly to companies with monthly GST invoices, and look after relocating staff from arrival: airport pickup and a single point of contact for your HR or general-affairs team.
             </p>
             <p style={{ color: '#555', fontSize: '16px', lineHeight: '1.9', margin: '0 0 24px' }}>
               Housing staff from Japan or Korea? See our <Link to="/gurugram/japanese-expat-housing" style={{ color: '#1A3C34', fontWeight: '600' }}>Japanese expat housing in Gurugram</Link> and <Link to="/gurugram/korean-expat-housing" style={{ color: '#1A3C34', fontWeight: '600' }}>Korean expat housing in Gurugram</Link> guides.

@@ -33,32 +33,6 @@ const LuxurySection = () => {
                 }}>
                     <img src={lobbyImg} alt="Luxury Interior" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
-
-                {/* Stats Card */}
-                <div style={{
-                    backgroundColor: '#F3EFE4', // Beige/Cream
-                    padding: '40px',
-                    borderRadius: '20px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '20px'
-                }}>
-                    <div style={{
-                        fontSize: '48px',
-                        color: '#1A3C34', // Dark Green
-                        fontFamily: 'Playfair Display, serif',
-                        lineHeight: '1'
-                    }}>
-                        1 Lakh+
-                    </div>
-                    <div style={{
-                        fontSize: '14px',
-                        color: '#444',
-                        lineHeight: '1.2'
-                    }}>
-                        Happy<br />Customer
-                    </div>
-                </div>
             </div>
 
             {/* Right Column */}

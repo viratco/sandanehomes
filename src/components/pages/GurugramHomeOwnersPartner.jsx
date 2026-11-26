@@ -68,11 +68,11 @@ const GurugramHomeOwnersPartner = () => {
   const faqs = [
     {
       q: "Why should Gurugram apartment owners choose managed leasing over traditional models?",
-      a: "Traditional leasing in Gurugram carries 1-2 months of annual vacancy losses, late payments, tenant damage, and constant repair calls. Sandane Homes pays guaranteed revenue on the 1st of every month, handles 100% of maintenance and housekeeping, and leases exclusively to MNC expat executives."
+      a: "Traditional leasing in Gurugram carries 1-2 months of annual vacancy losses, late payments, tenant damage, and constant repair calls. Sandane Homes pays on the 1st of every month, handles 100% of maintenance and housekeeping, and leases exclusively to MNC expat executives."
     },
     {
       q: "Which Gurugram societies and sectors do you acquire apartments in?",
-      a: "We actively acquire 2BHK, 3BHK, 4BHK apartments and luxury penthouses along Golf Course Road, DLF Phase 1-5, Cyber City corridor, Golf Course Extension, Sohna Road, MG Road, and Sushant Lok."
+      a: "We lease 3 and 4 BHK apartments and independent floors along Golf Course Road, DLF Phase 1-5, Cyber City corridor, Golf Course Extension, Sohna Road, MG Road, and Sushant Lok."
     },
     {
       q: "Who pays for maintenance and daily cleaning?",
@@ -90,7 +90,7 @@ const GurugramHomeOwnersPartner = () => {
       "@type": "Service",
       "name": "Gurugram Home Owner Property Management & Monetization — Sandane Homes",
       "provider": { "@type": "Organization", "name": "Sandane Homes", "url": "https://www.sandanehomes.com" },
-      "description": "Monetize your Gurugram apartment or flat with Sandane Homes. Guaranteed fixed monthly revenue, 100% free maintenance, and verified corporate MNC expat tenants.",
+      "description": "Monetize your Gurugram apartment or flat with Sandane Homes. Fixed monthly revenue, 100% free maintenance, and verified corporate MNC expat tenants.",
       "areaServed": "Gurugram, Haryana, India"
     },
     {
@@ -108,7 +108,7 @@ const GurugramHomeOwnersPartner = () => {
     <div style={{ backgroundColor: '#0F172A', color: '#F8FAFC', minHeight: '100vh', fontFamily: "'Inter', system-ui, sans-serif" }}>
       <SEO
         title="Gurugram Home Owners Partnership | Monetize Your Apartment — Sandane Homes"
-        description="Gurugram apartment & flat owners: earn guaranteed monthly revenue or high profit-sharing with zero hassle. Sandane Homes manages your flat as a premium corporate expat residence."
+        description="Gurugram apartment & flat owners: earn fixed monthly revenue or profit-sharing with zero hassle. Sandane Homes manages your flat as a premium corporate expat residence."
         canonical="https://www.sandanehomes.com/partner/gurugram-home-owners"
         ogImage="https://www.sandanehomes.com/residences-og.jpg"
         schema={pageSchema}
@@ -152,16 +152,16 @@ const GurugramHomeOwnersPartner = () => {
               marginBottom: '24px',
               fontWeight: '600'
             }}>
-              Earn Guaranteed Monthly Revenue From Your Gurugram Apartment
+              Earn Fixed Monthly Revenue From Your Gurugram Apartment
             </h1>
 
             <p style={{ fontSize: '17px', lineHeight: '1.7', color: '#94A3B8', marginBottom: '32px' }}>
-              No more late payments, tenant damage, or vacancy gaps. <strong>Sandane Homes</strong> master-leases your 2BHK, 3BHK, or 4BHK apartment in Golf Course Road, Cyber City, or DLF phases — paying guaranteed 1st-of-month revenue with 100% free housekeeping and maintenance.
+              No more late payments, tenant damage, or vacancy gaps. <strong>Sandane Homes</strong> master-leases your 3 or 4 BHK apartment in Golf Course Road, Cyber City, or DLF phases — paying fixed 1st-of-month revenue with 100% free housekeeping and maintenance.
             </p>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginBottom: '40px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
-                <FaCheckCircle color="#C5A572" size={18} /> Guaranteed Revenue Paid on the 1st
+                <FaCheckCircle color="#C5A572" size={18} /> Fixed Revenue Paid on the 1st
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', color: '#E2E8F0', fontSize: '14px', fontWeight: '600' }}>
                 <FaCheckCircle color="#C5A572" size={18} /> Verified Japanese &amp; MNC Expats
@@ -189,7 +189,7 @@ const GurugramHomeOwnersPartner = () => {
               <img src={livingImg} alt="Gurugram Corporate Residence" style={{ width: '100%', height: '500px', objectFit: 'cover', borderRadius: '14px' }} />
               <div style={{ position: 'absolute', bottom: '30px', left: '30px', right: '30px', background: 'rgba(15, 23, 42, 0.92)', backdropFilter: 'blur(12px)', border: '1px solid rgba(197, 165, 114, 0.4)', borderRadius: '14px', padding: '20px 24px' }}>
                 <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase' }}>GURUGRAM APARTMENT MONETIZATION</span>
-                <h4 style={{ color: '#FFF', margin: '4px 0 0 0', fontSize: '16px' }}>2BHK, 3BHK, 4BHK &amp; Luxury Penthouses</h4>
+                <h4 style={{ color: '#FFF', margin: '4px 0 0 0', fontSize: '16px' }}>3 &amp; 4 BHK Apartments &amp; Floors</h4>
               </div>
             </div>
           </div>
@@ -229,9 +229,9 @@ const GurugramHomeOwnersPartner = () => {
 
             <div style={{ background: '#1E293B', padding: '32px', borderRadius: '16px', border: '1px solid rgba(197,165,114,0.2)' }}>
               <FaShieldAlt size={32} color="#C5A572" style={{ marginBottom: '16px' }} />
-              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>5-Star Asset Preservation</h3>
+              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '20px', color: '#FFF', margin: '0 0 12px 0' }}>Asset Preservation</h3>
               <p style={{ color: '#94A3B8', fontSize: '14px', lineHeight: '1.7', margin: 0 }}>
-                We treat every managed flat like a 5-star hotel unit. Daily housekeeping, 24/7 maintenance teams, and strict corporate background checks ensure zero wear-and-tear and continuous capital appreciation for your property.
+                We look after every managed flat like a hotel unit. Daily housekeeping, 24/7 maintenance teams, and strict corporate background checks ensure zero wear-and-tear and continuous capital appreciation for your property.
               </p>
             </div>
           </div>
@@ -245,7 +245,7 @@ const GurugramHomeOwnersPartner = () => {
             <div style={{ textAlign: 'center', marginBottom: '36px' }}>
               <span style={{ color: '#C5A572', fontSize: '12px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>FREE GURUGRAM FLAT VALUATION</span>
               <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#FFFFFF', marginTop: '8px' }}>
-                Get Guaranteed Revenue Proposal
+                Get a Revenue Proposal
               </h2>
             </div>
 
@@ -351,7 +351,7 @@ const GurugramHomeOwnersPartner = () => {
               },
               {
                 title: 'Partner with Sandane Homes: Complete Roadmap',
-                desc: 'Step-by-step onboarding, guaranteed fixed rent on the 1st, and expat tenant profiles.',
+                desc: 'Step-by-step onboarding, fixed rent on the 1st, and expat tenant profiles.',
                 url: '/blog/partner-with-sandane-homes-property-monetization-guide'
               },
               {

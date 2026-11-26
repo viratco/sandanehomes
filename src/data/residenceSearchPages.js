@@ -414,10 +414,10 @@ export const residenceSearchPages = [
     slug: 'fully-furnished-house-for-rent-greater-noida',
     city: 'greater-noida',
     metaTitle: 'Fully Furnished House & Flat for Rent in Greater Noida | Entire 3–4 BHK Homes | Residences by Sandane Homes',
-    metaDescription: 'Fully furnished houses, villas and flats for rent in Greater Noida: entire 3–4 BHK homes of 2,700–3,500 sq ft in Jaypee Greens, Ansal Golf Links and Godrej Golf Link, with housekeeping, Wi-Fi and maintenance included. Monthly and long company leases.',
+    metaDescription: 'Fully furnished houses, villas and flats for rent in Greater Noida: entire 3–4 BHK homes in Jaypee Greens, Ansal Golf Links and Godrej Golf Link, with housekeeping, Wi-Fi and maintenance included. Monthly and long company leases.',
     eyebrow: 'Greater Noida · Entire 3–4 BHK homes',
     h1: 'Fully Furnished House for Rent in Greater Noida',
-    lead: 'Entire 3–4 BHK villas and apartments of 2,700–3,500 sq ft in Greater Noida\'s quiet golf communities, furnished and looked after by our team, by the month.',
+    lead: 'Entire 3–4 BHK villas and apartments in Greater Noida\'s quiet golf communities, found, furnished and looked after by our team, by the month.',
     sections: [
       {
         heading: 'Big homes, ready on day one',
@@ -445,7 +445,7 @@ export const residenceSearchPages = [
     ],
     faqs: [
       { q: 'Can I rent a fully furnished house in Greater Noida for just a few months?', a: 'Yes. The minimum is one month (30 days), and you can extend month by month.' },
-      { q: 'How big are the homes?', a: 'Our Greater Noida residences are entire 3–4 BHK villas and apartments of 2,700–3,500 sq ft.' },
+      { q: 'How big are the homes?', a: 'The homes we arrange in Greater Noida are entire 3–4 BHK villas and apartments.' },
       { q: 'Is the house shared with anyone?', a: 'No. Each home is let to one family or one company team, never by the room.' },
       { q: 'Do you charge brokerage?', a: 'No. You deal with us directly.' },
       { q: 'I only need a room for a few nights. Can you help?', a: 'Yes. Sandane Homes also runs boutique hotels in Greater Noida for short stays.' },
@@ -477,7 +477,7 @@ export const residenceSearchPages = [
       {
         heading: 'What we provide',
         points: [
-          'Entire 3–4 BHK villas and apartments of 2,700–3,500 sq ft, with a bedroom for each guest',
+          'Entire 3–4 BHK villas and apartments, with a bedroom for each guest',
           'Daily housekeeping, linen, Wi-Fi and 100% power backup',
           'Korean and Japanese breakfast and dinner, on request',
           'A car to and from the plant or office',
@@ -535,7 +535,7 @@ export const residenceSearchPages = [
       {
         heading: 'How big are the homes?',
         paragraphs: [
-          'In Gurugram, 4 BHK independent floors of 2,230 sq ft and about 2,700 sq ft, and 3 BHK apartments of 2,095–2,595 sq ft. In Greater Noida, 3–4 BHK villas and apartments of 2,700–3,500 sq ft. Every home is let whole, never by the room.',
+          'In Gurugram, 4 BHK independent floors of 2,230 sq ft and about 2,700 sq ft, and 3 BHK apartments of 2,095–2,595 sq ft. In Greater Noida, 3–4 BHK villas and apartments. Every home is let whole, never by the room.',
         ],
       },
       {
@@ -692,7 +692,7 @@ export const residenceSearchPages = [
       {
         heading: 'Where and what',
         paragraphs: [
-          'In Gurgaon: 4 BHK independent floors in Sector 27 and 3 BHK apartments in Sector 58. In Greater Noida: 3–4 BHK villas and apartments of 2,700–3,500 sq ft in Jaypee Greens, Ansal Golf Links and Godrej Golf Link. Stays run from one month to several years.',
+          'In Gurgaon: 4 BHK independent floors in Sector 27 and 3 BHK apartments in Sector 58. In Greater Noida: 3–4 BHK villas and apartments in Jaypee Greens, Ansal Golf Links and Godrej Golf Link. Stays run from one month to several years.',
         ],
       },
     ],

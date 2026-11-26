@@ -21,7 +21,7 @@ const ContactSection = () => {
 
                     <p className="contact-desc">
                         Tel: +91 9711722273<br />
-                        Email: sandanehomes@gmail.com
+                        Email: residences@sandanehomes.com
                     </p>
 
                     <button
@@ -47,7 +47,7 @@ const ContactSection = () => {
 
                     <p className="contact-desc">
                         Tel: +91 9711722273<br />
-                        Email: sandanehomes@gmail.com
+                        Email: residences@sandanehomes.com
                     </p>
 
                     <button
