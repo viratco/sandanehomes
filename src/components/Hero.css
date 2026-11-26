@@ -116,6 +116,26 @@
     box-sizing: border-box;
 }
 
+.hero-company-link {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 8px 18px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #F3E3C3;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    border: 1px solid rgba(197, 165, 114, 0.6);
+    transition: background 0.2s ease;
+}
+
+.hero-company-link:hover {
+    background: rgba(0, 0, 0, 0.55);
+    color: #FFFFFF;
+}
+
 .hero-cta-btn:hover {
     background-color: #A08665;
     color: #ffffff;

@@ -19,6 +19,11 @@ const LABELS = {
   'company-lease-apartments-delhi-ncr': 'Company lease apartments for employees',
   'about-residences-by-sandane-homes': 'Quick facts about Residences',
   'expat-employee-housing-guide-gurgaon': 'Guide for HR: housing expat employees',
+  'how-it-works-for-hr': 'How it works for HR teams',
+  'serviced-homes-cyber-city-golf-course-road-gurgaon': 'Homes near Cyber City & Golf Course Road',
+  'serviced-homes-near-imt-manesar': 'Homes for IMT Manesar employees',
+  'serviced-homes-greater-noida-industrial-area': 'Homes near Greater Noida industrial areas',
+  'serviced-homes-noida-sector-62-81': 'Homes near Noida Sectors 62–81',
 };
 
 const ResidenceSearchLinks = ({ city }) => {

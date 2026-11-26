@@ -712,6 +712,61 @@ export const residenceSearchPages = [
     ],
   },
 
+  // ── For HR and admin teams ────────────────────────────────
+  {
+    slug: 'how-it-works-for-hr',
+    city: 'ncr',
+    metaTitle: 'How It Works for HR Teams | Housing Relocating Employees | Residences by Sandane Homes',
+    metaDescription: 'How Residences by Sandane Homes houses your relocating employees in Gurugram, Noida and Greater Noida: from your requirement to move-in, one company lease and one monthly GST invoice.',
+    eyebrow: 'For HR & admin teams',
+    h1: 'How It Works for HR Teams',
+    lead: 'We find, lease, furnish and manage homes for your expat and corporate employees in Gurugram, Noida and Greater Noida. We don\'t own the homes: we find the right one near where your people work, set it up, and look after it for the whole stay.',
+    sections: [
+      {
+        heading: 'From your requirement to move-in',
+        points: [
+          '1. You tell us who is coming: the dates, how many people, the city and where they will work',
+          '2. We look for 3–4 BHK homes that fit and share a shortlist with you',
+          '3. You choose a home, and your company signs one lease with us',
+          '4. We furnish and set up the home: furniture, kitchenware, linen, Wi-Fi and power backup',
+          '5. Your employee moves in, and we look after housekeeping and maintenance for the whole stay',
+          '6. Every month, your company receives one GST invoice',
+        ],
+      },
+      {
+        heading: 'The company lease and the GST invoice',
+        paragraphs: [
+          'Your company is the lessee and your employee is the occupant, so the employee never signs a lease, pays rent or deals with a landlord. We send one GST invoice to the company each month.',
+          'The minimum stay is 30 days. After that the lease runs month by month for as long as the posting lasts, and the home can pass to the next employee when postings rotate.',
+        ],
+      },
+      {
+        heading: 'What is included',
+        points: [
+          'An entire furnished 3–4 BHK home, not a hotel room or a shared flat',
+          'Kitchenware and linen',
+          'Housekeeping',
+          'Wi-Fi and 100% power backup',
+          'Utilities and maintenance',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Who signs the lease?', a: 'Your company. The employee is the occupant and never signs a lease or pays a deposit.' },
+      { q: 'How is it billed?', a: 'One GST invoice to the company every month.' },
+      { q: 'What is the minimum stay?', a: '30 days, then month by month for as long as the posting lasts.' },
+      { q: 'Do you own the homes?', a: 'No. We find, lease, furnish and manage homes on demand, so we can look for a home near wherever your employee will work in Gurugram, Noida or Greater Noida.' },
+      { q: 'Do you show prices?', a: 'No. The monthly amount depends on the home, the dates and the services, so we send a quote once we know who is arriving and when.' },
+      { q: 'How do we start?', a: 'Send an enquiry from this page, WhatsApp +91 88262 69690, or email residences@sandanehomes.com with the dates, the number of people and where they will work.' },
+    ],
+    related: [
+      { text: 'Residences by Sandane Homes', href: '/residences' },
+      { text: 'Company lease apartments', href: '/company-lease-apartments-delhi-ncr' },
+      { text: 'Guide for HR: housing expat employees in Gurgaon', href: '/expat-employee-housing-guide-gurgaon' },
+      { text: 'Homes near Cyber City & Golf Course Road', href: '/serviced-homes-cyber-city-golf-course-road-gurgaon' },
+    ],
+  },
+
   // ── Area pages ────────────────────────────────────────────
   // These replace the old one-page-per-company pages (housing-for-<company>-employees,
   // accommodation-greater-noida-<company>), which are 301-redirected here. No company

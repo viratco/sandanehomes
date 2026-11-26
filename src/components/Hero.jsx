@@ -43,6 +43,11 @@ const Hero = () => {
                     </button>
                 </div>
 
+                {/* For HR and admin teams: a direct way into Residences */}
+                <Link to="/residences" className="hero-company-link">
+                    For companies relocating employees <span aria-hidden="true">→</span> Residences by Sandane Homes
+                </Link>
+
                 <BookingWidget />
             </div>
         </div>
