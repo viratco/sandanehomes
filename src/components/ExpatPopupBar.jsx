@@ -91,7 +91,7 @@ const ExpatPopupBar = () => {
                 <p className="expat-popup-desc">
                     {isResidencesPage 
                         ? "Residences are booking out fast. Send us a quick WhatsApp message now to check availability and reserve your stay."
-                        : <span>Discover luxury 1, 2 &amp; 3 BHK serviced apartments in <strong>Jaypee Greens</strong> &amp; <strong>DLF</strong> with 24/7 security, daily housekeeping, full kitchens &amp; 24/7 concierge.</span>
+                        : <span>Discover furnished 3–4 BHK homes in <strong>Jaypee Greens</strong> &amp; <strong>DLF</strong> with 24/7 security, daily housekeeping, full kitchens &amp; 24/7 concierge.</span>
                     }
                 </p>
 
