@@ -11,7 +11,6 @@ import imgRoom2 from '../../assets/IMG_7255.jpg';
 import imgRoom3 from '../../assets/IMG_7256.jpg';
 import imgRoom4 from '../../assets/IMG_7257.jpg';
 import imgCorporate from '../../assets/IMG_6094.jpg';
-import { japaneseCompanies } from '../../data/japaneseCompanies';
 
 const PHONE = '919711722273';
 
@@ -172,56 +171,31 @@ export default function GurugramJapaneseExpatHousing() {
         </div>
       </div>
 
-      {/* DEDICATED COMPANY DIRECTORY */}
+      {/* HOUSING BY AREA (replaces the old per-company directory) */}
       <div style={{ backgroundColor: '#fff', padding: '90px 20px', borderBottom: '1px solid #E8E0D0' }}>
         <div style={{ maxWidth: '1150px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-            <p style={{ fontSize: '13px', letterSpacing: '3px', textTransform: 'uppercase', color: '#C5A572', fontWeight: '700', marginBottom: '12px' }}>企業別専用住宅ガイド</p>
             <h2 style={{ fontFamily: 'Playfair Display, serif', fontSize: 'clamp(26px, 3.5vw, 38px)', color: '#1A3C34', margin: '0 0 16px' }}>
-              Dedicated Housing by Japanese Employer
+              Housing by Work Area
             </h2>
             <p style={{ color: '#666', fontSize: '16px', maxWidth: '700px', margin: '0 auto', lineHeight: '1.8' }}>
-              We manage customized corporate leases and daily commutes for Japanese assignees across Gurugram and Noida / Greater Noida industrial clusters.
+              We find, lease, furnish and manage homes near where your employees work, for any company.
             </p>
           </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '20px' }}>
-            {japaneseCompanies.map((c) => (
-              <Link
-                key={c.slug}
-                to={`/${c.slug}`}
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  padding: '24px',
-                  backgroundColor: '#FAF8F5',
-                  borderRadius: '14px',
-                  border: '1px solid #ECE7DE',
-                  textDecoration: 'none',
-                  transition: 'all 0.2s ease',
-                  boxShadow: '0 2px 8px rgba(0,0,0,0.03)'
-                }}
-              >
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '20px' }}>
+            {[
+              ['/serviced-homes-cyber-city-golf-course-road-gurgaon', 'Cyber City & Golf Course Road', 'Gurgaon'],
+              ['/serviced-homes-near-imt-manesar', 'For IMT Manesar', 'Gurgaon'],
+              ['/serviced-homes-noida-sector-62-81', 'Noida Sectors 62–81', 'Noida'],
+              ['/serviced-homes-greater-noida-industrial-area', 'Greater Noida industrial areas', 'Greater Noida'],
+            ].map(([to, name, city]) => (
+              <Link key={to} to={to} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '24px', backgroundColor: '#FAF8F5', borderRadius: '14px', border: '1px solid #ECE7DE', textDecoration: 'none' }}>
                 <div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
-                    <span style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', fontWeight: '700' }}>
-                      {c.city}
-                    </span>
-                    <span style={{ fontSize: '12px' }}>🇯🇵</span>
-                  </div>
-                  <h3 style={{ fontSize: '17px', color: '#1A3C34', margin: '0 0 8px', fontWeight: '700', lineHeight: '1.4' }}>
-                    {c.companyName}
-                  </h3>
-                  <p style={{ fontSize: '13px', color: '#888', margin: '0 0 14px', fontStyle: 'italic' }}>
-                    {c.japaneseName}
-                  </p>
-                  <p style={{ fontSize: '13px', color: '#555', margin: 0, lineHeight: '1.6' }}>
-                    {c.commuteTime}
-                  </p>
+                  <span style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', color: '#C5A572', fontWeight: '700' }}>{city}</span>
+                  <h3 style={{ fontSize: '17px', color: '#1A3C34', margin: '8px 0 0', fontWeight: '700', lineHeight: '1.4' }}>{name}</h3>
                 </div>
                 <div style={{ marginTop: '18px', display: 'flex', alignItems: 'center', gap: '6px', color: '#C5A572', fontSize: '13px', fontWeight: '700' }}>
-                  Explore Housing <FaArrowRight size={11} />
+                  See homes <FaArrowRight size={11} />
                 </div>
               </Link>
             ))}

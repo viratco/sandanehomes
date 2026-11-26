@@ -17,14 +17,14 @@ export const stayPath = (slug, lang) => (lang === 'en' ? `/${slug}` : `/${lang}/
 
 const COMPANY_LINKS = {
   en: [
-    { label: 'Samsung', path: '/accommodation-greater-noida-samsung-electronics' },
-    { label: 'LG Electronics', path: '/accommodation-greater-noida-lg-electronics' },
-    { label: 'Dreamtech', path: '/accommodation-greater-noida-dreamtech' },
+    { label: 'Samsung', path: '/serviced-homes-noida-sector-62-81' },
+    { label: 'LG Electronics', path: '/serviced-homes-greater-noida-industrial-area' },
+    { label: 'Dreamtech', path: '/serviced-homes-greater-noida-industrial-area' },
   ],
   ko: [
-    { label: '삼성전자', path: '/ko/accommodation-greater-noida-samsung-electronics' },
-    { label: 'LG전자', path: '/ko/accommodation-greater-noida-lg-electronics' },
-    { label: '드림텍', path: '/ko/accommodation-greater-noida-dreamtech' },
+    { label: '삼성전자', path: '/serviced-homes-noida-sector-62-81' },
+    { label: 'LG전자', path: '/serviced-homes-greater-noida-industrial-area' },
+    { label: '드림텍', path: '/serviced-homes-greater-noida-industrial-area' },
   ],
 };
 

@@ -33,7 +33,7 @@ const GREATER_NOIDA_AREAS = [
 const STEPS = ['Tell us the dates, how many people and where they will work', 'We share the homes that fit', 'Move in, and we look after the home for the whole stay'];
 
 const heroPhoto = (page) => {
-  if (page.city === 'greater-noida') return imgGreaterNoida;
+  if (page.city === 'greater-noida' || page.city === 'noida') return imgGreaterNoida;
   const first = page.homes?.[0] || 'green-meadows-sector-27-gurgaon';
   return HOME_PHOTOS[first] || imgGreenMeadows;
 };
@@ -47,7 +47,7 @@ const GurugramHomes = ({ slugs }) => {
       {homes.map((r) => (
         <Link key={r.slug} to={`/${r.slug}`} className="rsp-home">
           <div className="rsp-home-img">
-            <img src={HOME_PHOTOS[r.slug]} alt={`${r.name}, ${r.sector}, Gurgaon: a home run by Residences by Sandane Homes`} loading="lazy" />
+            <img src={HOME_PHOTOS[r.slug]} alt={`${r.name}, ${r.sector}, Gurgaon: a home delivered by Residences by Sandane Homes`} loading="lazy" />
           </div>
           <div className="rsp-home-body">
             <span className="rsp-home-sector">{r.sector} · {r.neighbourhood}</span>
@@ -84,10 +84,10 @@ export default function ResidenceSearchPage({ slug }) {
 
   const canonical = `${BASE_URL}${page.canonicalPath || `/${page.slug}`}`;
   const showGurugram = page.city === 'gurugram' || page.city === 'ncr';
-  const showGreaterNoida = page.city === 'greater-noida' || page.city === 'ncr';
+  const showGreaterNoida = page.city === 'greater-noida' || page.city === 'noida' || page.city === 'ncr';
   const waText = `Hello Sandane Homes, I found your page "${page.h1}" and would like to know which homes are available.`;
-  const stripCity = page.city === 'greater-noida' ? 'Greater Noida' : page.city === 'gurugram' ? 'Gurugram' : 'Gurugram & Greater Noida';
-  const stripSize = page.city === 'gurugram' ? GURUGRAM_SIZE_LABEL : page.city === 'greater-noida' ? '2,700–3,500 sq ft' : null;
+  const stripCity = page.city === 'greater-noida' ? 'Greater Noida' : page.city === 'noida' ? 'Noida & Greater Noida' : page.city === 'gurugram' ? 'Gurugram' : 'Gurugram & Greater Noida';
+  const stripSize = page.city === 'gurugram' ? GURUGRAM_SIZE_LABEL : null;
 
   return (
     <div className="sandane-homes-page rsp-page">
@@ -140,11 +140,11 @@ export default function ResidenceSearchPage({ slug }) {
 
       <section className="rsp-band">
         <div className="rsp-band-inner">
-          <h2>{page.city === 'greater-noida' ? 'Our homes in Greater Noida' : page.city === 'ncr' ? 'Our homes in Gurgaon and Greater Noida' : 'Our homes in Gurgaon'}</h2>
+          <h2>{page.city === 'greater-noida' || page.city === 'noida' ? 'Homes we have delivered in Greater Noida' : page.city === 'ncr' ? 'Homes we have delivered in Gurgaon and Greater Noida' : 'Homes we have delivered in Gurgaon'}</h2>
           {showGurugram && <GurugramHomes slugs={page.homes} />}
           {page.city === 'ncr' && <h3 className="rsp-band-sub">Greater Noida</h3>}
           {showGreaterNoida && <GreaterNoidaHomes />}
-          {showGurugram && <p className="rsp-band-note">Photos show homes we have already delivered to guests.</p>}
+          <p className="rsp-band-note">We find, lease, furnish and manage homes on demand. These are homes we have already delivered; we look for new ones wherever your employees will work.</p>
         </div>
       </section>
 

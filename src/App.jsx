@@ -31,11 +31,7 @@ import GurugramGolfCourseRoad from './components/pages/GurugramGolfCourseRoad';
 import GurugramSushantLok from './components/pages/GurugramSushantLok';
 import GurugramJapaneseExpatHousing from './components/pages/GurugramJapaneseExpatHousing';
 import GurugramKoreanExpatHousing from './components/pages/GurugramKoreanExpatHousing';
-import JapaneseCompanyHousing from './components/pages/JapaneseCompanyHousing';
 import GurugramResidences from './components/pages/GurugramResidences';
-import { japaneseCompanies } from './data/japaneseCompanies';
-import CompanyAccommodation from './components/pages/CompanyAccommodation';
-import { greaterNoidaCompanyRoutes } from './data/greaterNoidaCompanies';
 import KoreanStayPage from './components/pages/KoreanStayPage';
 import { koreanStayRoutes } from './data/koreanStays';
 import ResidenceSearchPage from './components/pages/ResidenceSearchPage';
@@ -123,19 +119,7 @@ function App() {
           <Route path="/gurugram/japanese-expat-housing" element={<GurugramJapaneseExpatHousing />} />
           <Route path="/gurugram/korean-expat-housing" element={<GurugramKoreanExpatHousing />} />
 
-          {/* Dedicated Japanese MNC Expat Housing Pages (Gurugram & Noida) */}
-          <Route path="/housing-for-daikin-employees-gurgaon" element={<JapaneseCompanyHousing slug="housing-for-daikin-employees-gurgaon" />} />
-          <Route path="/housing-for-daikin-employees-noida" element={<JapaneseCompanyHousing slug="housing-for-daikin-employees-noida" />} />
-          <Route path="/housing-for-daikin-employees" element={<JapaneseCompanyHousing slug="housing-for-daikin-employees" />} />
-
-          {japaneseCompanies.map((c) => (
-            <Route key={c.slug} path={`/${c.slug}`} element={<JapaneseCompanyHousing slug={c.slug} />} />
-          ))}
-
-          {/* Greater Noida accommodation pages per company, one route per language */}
-          {greaterNoidaCompanyRoutes.map((r) => (
-            <Route key={r.path} path={r.path} element={<CompanyAccommodation companyKey={r.key} lang={r.lang} />} />
-          ))}
+          {/* The old per-company pages now 301 to the area pages (vercel.json). */}
 
           {/* Korean stays in Greater Noida: guest house, apartments (EN / KO) */}
           {koreanStayRoutes.map((r) => (

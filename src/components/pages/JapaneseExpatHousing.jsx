@@ -325,14 +325,14 @@ const JapaneseExpatHousing = () => {
                     {/* Dedicated Company Links */}
                     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', justifyContent: 'center', marginBottom: '36px' }}>
                         {[
-                            { name: 'Daikin (ダイキン)', to: '/housing-for-daikin-employees-noida' },
-                            { name: 'Honda (ホンダ)', to: '/housing-for-honda-employees-noida' },
-                            { name: 'Yamaha (ヤマハ)', to: '/housing-for-yamaha-employees-greater-noida' },
-                            { name: 'Denso (デンソー)', to: '/housing-for-denso-employees-noida' },
-                            { name: 'Sekisui (積水化学)', to: '/housing-for-sekisui-employees-greater-noida' },
-                            { name: 'Brother (ブラザー)', to: '/housing-for-brother-industries-employees-noida' },
-                            { name: 'Kubota (クボタ)', to: '/housing-for-kubota-employees-greater-noida' },
-                            { name: 'Epson (エプソン)', to: '/housing-for-epson-employees-noida' },
+                            { name: 'Daikin (ダイキン)', to: '/serviced-homes-noida-sector-62-81' },
+                            { name: 'Honda (ホンダ)', to: '/serviced-homes-noida-sector-62-81' },
+                            { name: 'Yamaha (ヤマハ)', to: '/serviced-homes-greater-noida-industrial-area' },
+                            { name: 'Denso (デンソー)', to: '/serviced-homes-greater-noida-industrial-area' },
+                            { name: 'Sekisui (積水化学)', to: '/serviced-homes-greater-noida-industrial-area' },
+                            { name: 'Brother (ブラザー)', to: '/serviced-homes-noida-sector-62-81' },
+                            { name: 'Kubota (クボタ)', to: '/serviced-homes-greater-noida-industrial-area' },
+                            { name: 'Epson (エプソン)', to: '/serviced-homes-noida-sector-62-81' },
                         ].map((c, i) => (
                             <Link key={i} to={c.to} style={{ backgroundColor: 'rgba(255,255,255,0.1)', border: '1px solid rgba(197,165,114,0.4)', color: '#C5A572', padding: '6px 16px', borderRadius: '20px', textDecoration: 'none', fontSize: '13px', fontWeight: '600' }}>
                                 🇯🇵 {c.name}

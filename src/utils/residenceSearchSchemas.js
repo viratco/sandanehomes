@@ -7,6 +7,7 @@ import { RESIDENCE_HOME_SPEC } from './schemaHelper.js';
 const AREA = {
   gurugram: ['Gurugram', 'Gurgaon'],
   'greater-noida': ['Greater Noida'],
+  noida: ['Noida', 'Greater Noida'],
   ncr: ['Gurugram', 'Gurgaon', 'Greater Noida', 'Delhi NCR'],
 };
 

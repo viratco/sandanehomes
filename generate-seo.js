@@ -3,8 +3,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { blogPosts } from './src/data/blogPosts.js';
 import { landingPages } from './src/data/landingPages.js';
-import { japaneseCompanies } from './src/data/japaneseCompanies.js';
-import { greaterNoidaCompanies, greaterNoidaCompanyRoutes, companyPath, COPY as COMPANY_COPY } from './src/data/greaterNoidaCompanies.js';
 import { koreanStayPages, koreanStayRoutes, stayPath } from './src/data/koreanStays.js';
 import { gurugramResidences, gurugramHubFaqs, gurugramItemListSchema, gurugramHomeSpecSchema, gurugramResidenceSchema, GURUGRAM_HUB_PATH } from './src/data/gurugramResidences.js';
 import { SANDANE_ORGANIZATION_SCHEMA, RESIDENCE_HOME_SPEC } from './src/utils/schemaHelper.js';
@@ -725,70 +723,6 @@ residenceSearchPages.forEach((page) => {
   };
 });
 
-// ── Dedicated Japanese MNC Company Expat Housing Pages ──
-japaneseCompanies.forEach((comp) => {
-  const isGurgaon = comp.city.toLowerCase().includes('gurugram') || comp.city.toLowerCase().includes('gurgaon');
-  const parentUrl = isGurgaon ? `${BASE_URL}/gurugram/japanese-expat-housing` : `${BASE_URL}/japanese-expat-housing-delhi-ncr`;
-  const parentName = isGurgaon ? 'Gurugram Japanese Expat Housing' : 'Japanese Expat Housing Delhi NCR';
-  const canonicalUrl = `${BASE_URL}/${comp.slug}`;
-
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "ApartmentComplex",
-      "name": `Sandane Homes — Serviced Housing for ${comp.companyName}`,
-      "description": comp.metaDescription,
-      "url": canonicalUrl,
-      "telephone": "+919711722273",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": comp.city,
-        "addressRegion": isGurgaon ? "Haryana" : "Uttar Pradesh",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        { "@type": "LocationFeatureSpecification", "name": "Daily Housekeeping", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Japanese Breakfast Options", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "FRRO Form C Registration", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "B2B Corporate Invoicing", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Private Chauffeur Fleet", "value": true }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${BASE_URL}/` },
-        { "@type": "ListItem", "position": 2, "name": parentName, "item": parentUrl },
-        { "@type": "ListItem", "position": 3, "name": `${comp.shortName} Expat Housing`, "item": canonicalUrl }
-      ]
-    }
-  ];
-
-  if (comp.faqs && comp.faqs.length > 0) {
-    schemas.push({
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": comp.faqs.map((faq) => ({
-        "@type": "Question",
-        "name": faq.q,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.a
-        }
-      }))
-    });
-  }
-
-  SEO_MAP[`/${comp.slug}`] = {
-    title: comp.metaTitle,
-    description: comp.metaDescription,
-    ogImage: `${BASE_URL}/residences-og.jpg`,
-    lang: 'ja',
-    hreflang: ['en', 'ja', 'x-default'],
-    schemas
-  };
-});
 
 // ── Korean stays in Greater Noida: guest house and apartments (EN / KO) ──
 koreanStayPages.forEach((page) => {
@@ -823,40 +757,6 @@ koreanStayPages.forEach((page) => {
   });
 });
 
-// ── Greater Noida accommodation pages per company (EN / KO / ZH / JA) ──
-// Each language version is its own URL with hreflang alternates to the others.
-greaterNoidaCompanies.forEach((company) => {
-  company.langs.forEach((lang) => {
-    const t = COMPANY_COPY[lang];
-    const name = company.name[lang];
-    const url = `${BASE_URL}${companyPath(company.key, lang)}`;
-    SEO_MAP[companyPath(company.key, lang)] = {
-      title: company.metaTitle?.[lang] || t.metaTitle(name),
-      description: company.metaDescription?.[lang] || t.metaDescription(name),
-      ogImage: `${BASE_URL}/residences-og.jpg`,
-      lang,
-      hreflangLinks: [
-        ...company.langs.map((l) => ({ lang: l, href: `${BASE_URL}${companyPath(company.key, l)}` })),
-        { lang: 'x-default', href: `${BASE_URL}${companyPath(company.key, 'en')}` },
-      ],
-      schemas: [
-        {
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": t.breadcrumbHome, "item": `${BASE_URL}/` },
-            { "@type": "ListItem", "position": 2, "name": t.h1(name), "item": url }
-          ]
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [...t.faqs(name), ...(company.extraFaqs?.[lang] || [])].map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
-        }
-      ]
-    };
-  });
-});
 
 const distPath = path.join(__dirname, 'dist');
 const indexHtmlPath = path.join(distPath, 'index.html');
@@ -1235,9 +1135,6 @@ const highPrioritySlugs = [
   'homestay-club-with-sandane-homes',
   'earn-with-your-floor-building-master-lease',
   'earn-with-your-property-sandane-homes',
-  'housing-for-daikin-employees',
-  'housing-for-daikin-employees-noida',
-  'housing-for-daikin-employees-gurgaon',
   'residences'
 ];
 
@@ -1281,20 +1178,10 @@ function buildSitemapXml() {
     '/partner-with-us/building-owners',
     '/partner/greater-noida-building-owners',
     '/partner-with-us/greater-noida-building-owners',
-    '/residences/relocation',
-    '/housing-for-daikin-employees-gurgaon',
-    '/housing-for-daikin-employees'
+    '/residences/relocation'
   ];
   gurugramHubs.forEach((route) => {
     xml += `  <url>\n    <loc>${BASE_URL}${route}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
-  });
-
-  // 4. Japanese MNC Company Housing Pages for Gurugram (Priority 0.9)
-  japaneseCompanies.forEach((comp) => {
-    const isGurgaonOrNcr = /gurgaon|ncr/.test(comp.slug) || comp.slug === 'housing-for-daikin-employees';
-    if (isGurgaonOrNcr) {
-      xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
-    }
   });
 
   // 5. Remaining Landing Pages (Greater Noida & Noida Serviced Residences)
@@ -1307,14 +1194,6 @@ function buildSitemapXml() {
     }
   });
 
-  // 6. Remaining Japanese Company Pages
-  japaneseCompanies.forEach((comp) => {
-    const isGurgaonOrNcr = /gurgaon|ncr/.test(comp.slug) || comp.slug === 'housing-for-daikin-employees';
-    if (!isGurgaonOrNcr) {
-      xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
-    }
-  });
-
   // 7. General Main Pages
   const otherMainPages = [
     '/partner-with-us', '/partner', '/partner/apply', '/partner-form',
@@ -1323,8 +1202,6 @@ function buildSitemapXml() {
     '/chinese-expat-housing-greater-noida',
     '/serviced-apartments-greater-noida',
     '/sandane-homes', '/amara', '/amaaltash', '/saffron', '/glam', '/pine-tales', '/coco-house', '/blog', '/faqs',
-    '/housing-for-daikin-employees-noida',
-    ...greaterNoidaCompanyRoutes.map((r) => r.path),
     ...koreanStayRoutes.map((r) => r.path)
   ];
   otherMainPages.forEach((route) => {
@@ -1389,14 +1266,6 @@ function buildResidencesSitemapXml() {
   // Residences pages for common searches
   indexedResidenceSearchPages.forEach((page) => {
     xml += `  <url>\n    <loc>${BASE_URL}/${page.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.95</priority>\n  </url>\n`;
-  });
-
-  // Japanese & MNC Corporate Expat Housing Pages in Gurugram & NCR
-  japaneseCompanies.forEach((comp) => {
-    const isGurgaonOrNcr = /gurgaon|ncr/.test(comp.slug) || comp.slug === 'housing-for-daikin-employees';
-    if (isGurgaonOrNcr) {
-      xml += `  <url>\n    <loc>${BASE_URL}/${comp.slug}</loc>\n    <lastmod>${currentDate}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n`;
-    }
   });
 
   // Premier Gated Golf Residences & Expat Communities

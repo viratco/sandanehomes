@@ -711,6 +711,161 @@ export const residenceSearchPages = [
       { text: 'Expat housing in Delhi NCR', href: '/expat-housing-delhi-ncr' },
     ],
   },
+
+  // ── Area pages ────────────────────────────────────────────
+  // These replace the old one-page-per-company pages (housing-for-<company>-employees,
+  // accommodation-greater-noida-<company>), which are 301-redirected here. No company
+  // names: we house employees of any company working in the area.
+  {
+    slug: 'serviced-homes-cyber-city-golf-course-road-gurgaon',
+    city: 'gurugram',
+    metaTitle: 'Serviced Homes near Cyber City & Golf Course Road, Gurgaon | Residences by Sandane Homes',
+    metaDescription: 'Furnished 3–4 BHK homes for expat and corporate employees working around DLF Cyber City and Golf Course Road, Gurgaon. Company lease, one monthly GST invoice, 30-day minimum.',
+    eyebrow: 'Gurgaon · Cyber City & Golf Course Road',
+    h1: 'Serviced Homes near Cyber City and Golf Course Road, Gurgaon',
+    lead: 'We find, lease, furnish and manage homes for employees who work around DLF Cyber City and Golf Course Road. Your company signs one lease and gets one monthly GST invoice; your employee just moves in.',
+    sections: [
+      {
+        heading: 'Homes close to the office towers',
+        paragraphs: [
+          'Most multinational offices in Gurgaon sit in and around DLF Cyber City, Golf Course Road and Golf Course Extension Road. We look for 3–4 BHK homes in settled residential sectors nearby, so the daily commute stays short.',
+          'Homes we have delivered in this part of Gurgaon include private 4 BHK floors in Sector 27, about 10–12 minutes by car from Cyber City, and a 3 BHK in Conscient Hines Elevate on Golf Course Extension Road, about 18 minutes from Cyber City.',
+        ],
+      },
+      {
+        heading: 'What your company gets',
+        points: [
+          'An entire furnished 3–4 BHK home, not a hotel room or a shared flat',
+          'Housekeeping, Wi-Fi, utilities, power backup and maintenance in one monthly amount',
+          'A company lease and one GST invoice every month',
+          'A minimum stay of 30 days, extendable for as long as the posting runs',
+          'One team to call for anything the home needs',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Do you house employees of any company?', a: 'Yes. We house employees of any company working in Gurgaon. Tell us where the office is and we will look for homes nearby.' },
+      { q: 'How far are the homes from DLF Cyber City?', a: 'Homes we have delivered in Sector 27 are about 10–12 minutes by car from Cyber City, and Conscient Hines Elevate in Sector 58 is about 18 minutes.' },
+      { q: 'What is the minimum stay?', a: '30 days. Stays can then run month by month for as long as the posting lasts.' },
+      { q: 'Do you show prices?', a: 'No. The monthly amount depends on the home, the dates and the services, so we send a quote once we know who is arriving and when.' },
+    ],
+    related: [
+      { text: 'Serviced apartments near DLF Cyber City', href: '/serviced-apartments-dlf-cyber-city-gurgaon' },
+      { text: 'Serviced apartments on Golf Course Road', href: '/serviced-apartments-golf-course-road-gurgaon' },
+      { text: 'Homes we have delivered in Gurgaon', href: '/residences/gurgaon' },
+      { text: 'How it works for HR teams', href: '/how-it-works-for-hr' },
+    ],
+  },
+  {
+    slug: 'serviced-homes-near-imt-manesar',
+    city: 'gurugram',
+    metaTitle: 'Serviced Homes for IMT Manesar Employees | Furnished Homes in Gurgaon | Residences by Sandane Homes',
+    metaDescription: 'Furnished 3–4 BHK homes in Gurgaon for expat and corporate employees who work at IMT Manesar. Company lease, one monthly GST invoice, 30-day minimum stay.',
+    eyebrow: 'Gurgaon · For IMT Manesar',
+    h1: 'Serviced Homes for Employees Working at IMT Manesar',
+    lead: 'Many people who work at IMT Manesar choose to live in Gurgaon, closer to schools, shops and the rest of the city. We find, lease, furnish and manage a home there for your employee, on a company lease with one monthly GST invoice.',
+    sections: [
+      {
+        heading: 'Living in Gurgaon, working in Manesar',
+        paragraphs: [
+          'IMT Manesar is an industrial area, and many expat staff who work there live in Gurgaon and travel to the plant each day. We look for 3–4 BHK homes in residential sectors with a practical route to Manesar, based on where your employee works and what the family needs.',
+          'Tell us the plant location and the hours your employee works, and we will suggest areas and homes that keep the drive manageable.',
+        ],
+      },
+      {
+        heading: 'What your company gets',
+        points: [
+          'An entire furnished 3–4 BHK home, not a hotel room or a shared flat',
+          'Housekeeping, Wi-Fi, utilities, power backup and maintenance in one monthly amount',
+          'A company lease and one GST invoice every month',
+          'A minimum stay of 30 days, extendable for as long as the posting runs',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Do you have homes inside IMT Manesar?', a: 'No. We find homes in Gurgaon\'s residential sectors for people who work at IMT Manesar.' },
+      { q: 'What is the minimum stay?', a: '30 days, then month by month for as long as the posting lasts.' },
+      { q: 'Who signs the lease?', a: 'Your company. We send one GST invoice to the company every month, so your employee never deals with rent or landlords.' },
+    ],
+    related: [
+      { text: 'Homes we have delivered in Gurgaon', href: '/residences/gurgaon' },
+      { text: 'Company lease apartments', href: '/company-lease-apartments-delhi-ncr' },
+      { text: 'How it works for HR teams', href: '/how-it-works-for-hr' },
+    ],
+  },
+  {
+    slug: 'serviced-homes-greater-noida-industrial-area',
+    city: 'greater-noida',
+    metaTitle: 'Serviced Homes near Greater Noida Industrial Areas | Residences by Sandane Homes',
+    metaDescription: 'Furnished 3–4 BHK homes in Greater Noida for expat and corporate employees working in its industrial areas and along the Yamuna Expressway. Company lease, monthly GST invoice.',
+    eyebrow: 'Greater Noida · Industrial areas',
+    h1: 'Serviced Homes near the Greater Noida Industrial Areas',
+    lead: 'For employees posted to plants and offices in Greater Noida: we find, lease, furnish and manage a 3–4 BHK home nearby, with a company lease and one monthly GST invoice.',
+    sections: [
+      {
+        heading: 'Homes in Greater Noida\'s gated communities',
+        paragraphs: [
+          'Greater Noida\'s industrial areas, including Surajpur, Kasna and the Ecotech zones, are a short drive from its large gated residential communities. Homes we have delivered in Greater Noida are in Jaypee Greens, Ansal Golf Links and Godrej Golf Links.',
+          'Tell us where your employee will work and we will look for a home with a practical commute.',
+        ],
+      },
+      {
+        heading: 'What your company gets',
+        points: [
+          'An entire furnished 3–4 BHK home, not a hotel room or a shared flat',
+          'Housekeeping, Wi-Fi, utilities, power backup and maintenance in one monthly amount',
+          'A company lease and one GST invoice every month',
+          'A minimum stay of 30 days, extendable for as long as the posting runs',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Do you house employees of any company?', a: 'Yes. We house employees of any company working in Greater Noida. Tell us where the plant or office is and we will look for homes nearby.' },
+      { q: 'What is the minimum stay?', a: '30 days, then month by month for as long as the posting lasts.' },
+      { q: 'Do you also have hotels for short visits?', a: 'Yes. Sandane Homes runs boutique hotels in Greater Noida for stays shorter than a month.' },
+    ],
+    related: [
+      { text: 'Serviced apartments in Greater Noida', href: '/serviced-apartments-greater-noida' },
+      { text: 'Corporate guest house in Greater Noida', href: '/corporate-guest-house-greater-noida' },
+      { text: 'How it works for HR teams', href: '/how-it-works-for-hr' },
+    ],
+  },
+  {
+    slug: 'serviced-homes-noida-sector-62-81',
+    city: 'noida',
+    metaTitle: 'Serviced Homes near Noida Sectors 62–81 | Furnished Homes for Employees | Residences by Sandane Homes',
+    metaDescription: 'Furnished 3–4 BHK homes for expat and corporate employees working in Noida, from Sector 62 to Sector 81 and along the Noida–Greater Noida Expressway. Company lease, monthly GST invoice.',
+    eyebrow: 'Noida · Sectors 62–81',
+    h1: 'Serviced Homes near Noida Sectors 62 to 81',
+    lead: 'For employees working in Noida\'s office and factory sectors: we find, lease, furnish and manage a 3–4 BHK home within reach of the office, with a company lease and one monthly GST invoice.',
+    sections: [
+      {
+        heading: 'Where we look',
+        paragraphs: [
+          'Noida\'s offices and plants run from Sector 62 through the sectors along the Noida–Greater Noida Expressway. We look for homes in Noida and, where the commute works, in Greater Noida\'s gated communities, where we have delivered homes in Jaypee Greens, Ansal Golf Links and Godrej Golf Links.',
+        ],
+      },
+      {
+        heading: 'What your company gets',
+        points: [
+          'An entire furnished 3–4 BHK home, not a hotel room or a shared flat',
+          'Housekeeping, Wi-Fi, utilities, power backup and maintenance in one monthly amount',
+          'A company lease and one GST invoice every month',
+          'A minimum stay of 30 days, extendable for as long as the posting runs',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Do you house employees of any company?', a: 'Yes. Tell us where the office or plant is and we will look for homes nearby.' },
+      { q: 'What is the minimum stay?', a: '30 days, then month by month for as long as the posting lasts.' },
+      { q: 'Who signs the lease?', a: 'Your company. We send one GST invoice to the company every month.' },
+    ],
+    related: [
+      { text: 'Corporate accommodation in Noida', href: '/corporate-accommodation-noida' },
+      { text: 'Serviced apartments in Greater Noida', href: '/serviced-apartments-greater-noida' },
+      { text: 'How it works for HR teams', href: '/how-it-works-for-hr' },
+    ],
+  },
 ];
 
 export const residenceSearchPath = (p) => `/${p.slug}`;

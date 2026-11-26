@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import './Footer.css';
-import { greaterNoidaCompanies, companyPath } from '../data/greaterNoidaCompanies';
 
 const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isResidences = false }) => {
     const location = useLocation();
@@ -464,24 +463,16 @@ const Footer = ({ customPhone = "+91 9711722273", hideContactForm = false, isRes
                     {/* Column 3: Japanese & MNC Company Housing */}
                     <div>
                         <h4 style={{ color: '#C5A572', fontSize: '13px', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: '700', marginBottom: '18px' }}>
-                            Dedicated MNC Housing
+                            Housing by Area
                         </h4>
                         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px', lineHeight: '1.6' }}>
-                            <li><Link to="/housing-for-honda-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Honda Employees Housing (Gurgaon)</Link></li>
-                            <li><Link to="/housing-for-honda-employees-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Honda Cars Housing (Noida)</Link></li>
-                            <li><Link to="/housing-for-daikin-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Daikin Expats Housing (Gurgaon)</Link></li>
-                            <li><Link to="/housing-for-daikin-employees-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Daikin Expats Housing (Noida)</Link></li>
-                            <li><Link to="/housing-for-toyota-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Toyota Expats Housing (Gurugram)</Link></li>
-                            <li><Link to="/housing-for-yamaha-employees-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Yamaha Motor Housing (Gr Noida)</Link></li>
-                            <li><Link to="/housing-for-ntt-data-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>NTT Data Housing (Cyber City)</Link></li>
-                            <li><Link to="/housing-for-maruti-suzuki-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Maruti Suzuki Housing (Gurgaon)</Link></li>
-                            <li><Link to="/housing-for-denso-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Denso Expat Housing (Gurugram)</Link></li>
-                            <li><Link to="/housing-for-mitsubishi-electric-employees-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Mitsubishi Electric Housing</Link></li>
-                            <li><Link to="/korean-guest-house-greater-noida" style={{ color: '#C5A572', fontWeight: '700', textDecoration: 'none' }}>Korean Guest House, Breakfast & Dinner Included (Gr Noida)</Link></li>
+                            <li><Link to="/serviced-homes-cyber-city-golf-course-road-gurgaon" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Cyber City & Golf Course Road, Gurgaon</Link></li>
+                            <li><Link to="/serviced-homes-near-imt-manesar" style={{ color: '#D0C5B0', textDecoration: 'none' }}>For IMT Manesar</Link></li>
+                            <li><Link to="/serviced-homes-noida-sector-62-81" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Noida Sectors 62–81</Link></li>
+                            <li><Link to="/serviced-homes-greater-noida-industrial-area" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Greater Noida industrial areas</Link></li>
+                            <li><Link to="/how-it-works-for-hr" style={{ color: '#C5A572', fontWeight: '700', textDecoration: 'none' }}>How it works for HR teams</Link></li>
+                            <li><Link to="/korean-guest-house-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Korean Guest House (Gr Noida)</Link></li>
                             <li><Link to="/apartment-finding-service-greater-noida" style={{ color: '#D0C5B0', textDecoration: 'none' }}>Apartments & Apartment Finding (Gr Noida)</Link></li>
-                            {greaterNoidaCompanies.map((c) => (
-                                <li key={c.key}><Link to={companyPath(c.key, 'en')} style={{ color: '#D0C5B0', textDecoration: 'none' }}>{c.name.en} Accommodation (Gr Noida)</Link></li>
-                            ))}
                         </ul>
                     </div>
 
